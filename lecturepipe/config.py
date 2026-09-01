@@ -40,7 +40,7 @@ class Config:
     drive_client_secret: str | None = os.environ.get("DRIVE_CLIENT_SECRET") or None
 
     gemini_api_key: str | None = os.environ.get("GEMINI_API_KEY") or None
-    gemini_model: str = os.environ.get("GEMINI_MODEL", "gemini-2.5-pro")
+    gemini_model: str = os.environ.get("GEMINI_MODEL", "gemini-3.5-flash")
     gemini_rate_limit_rpm: int = int(os.environ.get("GEMINI_RATE_LIMIT_RPM", "6"))
 
     @property
