@@ -1,15 +1,15 @@
 # Earth's Magnetism Numericals, Null Point Problems, and the Atom as a Magnetic Dipole
 
-**NCERT sections covered:** 5.4, 5.5
+## Earth's magnetism: worked numericals
 
-## Earth's magnetism: worked numericals (NCERT 5.4)
+**Not present in the current rationalised NCERT syllabus** for this chapter -- checking the extracted textbook text (`data/ncert/raw/leph105.txt`), Chapter 5 "Magnetism and Matter" runs 5.1 Introduction, 5.2 The Bar Magnet, 5.3 Magnetism and Gauss's Law, 5.4 Magnetisation and Magnetic Intensity, 5.5 Magnetic Properties of Materials -- there is no Earth's-magnetism section at all (the pre-rationalisation NCERT's Earth's magnetism sub-chapter, including angle of dip/declination and null-point problems, was removed). This content is covered here as extra material the teacher chose to include, not because it is examinable under the current syllabus.
 
 Using $B_H = B\cos\delta$ and $B_V=B\sin\delta$ ($\delta$ = angle of dip):
 - Given $B_H$ and $\delta$: $B = B_H/\cos\delta$ (e.g. $B_H=0.35$ gauss, $\delta=22°$ $\Rightarrow B=0.35/0.92$).
 - Given $B_H, B_V$: $\tan\delta = B_V/B_H$, then solve for $B$.
 - **Full 3-D direction of $\vec B$:** first locate the *magnetic meridian* using the angle of **declination** (between geographic and magnetic meridian), then specify the angle within that vertical plane using the angle of **dip**.
 
-## Null point problems (NCERT 5.4)
+## Null point problems
 
 A null point is where a bar magnet's field exactly cancels Earth's horizontal field $B_H$. Its location depends on the magnet's orientation:
 - **North pole toward geographic south:** null points lie on the magnet's **axial** line. $\left(\dfrac{\mu_0}{4\pi}\dfrac{2M}{d^3}=B_H\right)$
@@ -17,7 +17,9 @@ A null point is where a bar magnet's field exactly cancels Earth's horizontal fi
 
 Worked examples solve for the null-point distance (e.g. $14$ cm axial, $11.1$ cm equatorial in two separate problems), including a variant asking for the *new* null-point location after the magnet is turned $180°$ (which swaps axial $\leftrightarrow$ equatorial per the rule above).
 
-## The atom as a magnetic dipole (NCERT 5.5)
+## The atom as a magnetic dipole
+
+**Also not present in the current rationalised NCERT syllabus** for this chapter (no section derives an atomic/orbital magnetic moment or the Bohr magneton) -- again extra material beyond the current textbook, included here for completeness since it was taught.
 
 Every atom behaves as a tiny magnet: an orbiting electron is a tiny current loop (**orbital** magnetic moment); electron spin contributes a **spin** magnetic moment too (about double the orbital contribution for the same angular momentum, per this lecture). **Direction:** curl the right hand's fingers in the direction of *conventional current* (opposite the electron's actual motion) — thumb gives the direction of $\vec M$, pointing from the loop's south to north face.
 

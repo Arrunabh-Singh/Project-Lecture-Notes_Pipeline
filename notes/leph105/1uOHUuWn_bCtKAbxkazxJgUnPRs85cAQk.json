@@ -11,8 +11,8 @@
         733.2
       ],
       "frame_path": "data/lectures/leph105/1uOHUuWn_bCtKAbxkazxJgUnPRs85cAQk/frames/floor_000061.jpg",
-      "ncert_section": "5.4",
-      "ncert_agreement": "agrees"
+      "ncert_section": null,
+      "ncert_agreement": null
     },
     {
       "text": "Null point numericals (finding where a bar magnet's field exactly cancels Earth's horizontal field BH): the null point's location depends on the magnet's orientation relative to geographic north. If the magnet's north pole points toward geographic south, null points occur on the AXIAL line of the magnet (field there is B_axial=(mu0/4pi)(2M/d^3), set equal to BH to solve for distance d). If the magnet's north pole points toward geographic north, null points occur on the EQUATORIAL line instead (field there is B_eq=(mu0/4pi)(M/d^3))",
@@ -21,8 +21,8 @@
         1085.5
       ],
       "frame_path": "data/lectures/leph105/1uOHUuWn_bCtKAbxkazxJgUnPRs85cAQk/frames/floor_000077.jpg",
-      "ncert_section": "5.4",
-      "ncert_agreement": "agrees"
+      "ncert_section": null,
+      "ncert_agreement": null
     },
     {
       "text": "Worked null-point numericals: solving for the distance from the magnet's centre to the null point (e.g. 14 cm on the axial line in one case, 11.1 cm on the equatorial line in another), and a follow-up variant asking for the NEW null-point position if the same bar magnet is turned by 180 degrees (which swaps whether the null points fall on the axial or equatorial line, per the orientation rule above)",
@@ -31,8 +31,8 @@
         1732.7
       ],
       "frame_path": null,
-      "ncert_section": "5.4",
-      "ncert_agreement": "agrees"
+      "ncert_section": null,
+      "ncert_agreement": null
     },
     {
       "text": "Every atom behaves as a tiny magnetic dipole: an electron orbiting the nucleus constitutes a tiny current loop, so it has an orbital magnetic dipole moment; electrons also spin about their own axis, contributing a spin magnetic dipole moment that is (per this lecture) about DOUBLE the orbital contribution for a given angular momentum. Direction: curl the right hand's fingers in the direction of (conventional) current flow around the loop -- not the electron's own motion, which is opposite -- and the thumb gives the direction of the magnetic dipole moment, which points from the loop's effective south to its effective north face",
@@ -41,8 +41,8 @@
         2107.7
       ],
       "frame_path": "data/lectures/leph105/1uOHUuWn_bCtKAbxkazxJgUnPRs85cAQk/frames/floor_000092.jpg",
-      "ncert_section": "5.5",
-      "ncert_agreement": "agrees"
+      "ncert_section": null,
+      "ncert_agreement": null
     },
     {
       "text": "Derivation of the orbital magnetic dipole moment: for an electron (charge e, angular speed omega) in a circular orbit of radius r, the equivalent current is I=e/T=e*omega/(2*pi) (T=2*pi/omega), and the loop area is A=pi*r^2. Using M=IA: M = (e*omega/2*pi)(pi*r^2) = (1/2)*e*omega*r^2 (the pi's cancel)",
@@ -51,22 +51,22 @@
         2221.4
       ],
       "frame_path": "data/lectures/leph105/1uOHUuWn_bCtKAbxkazxJgUnPRs85cAQk/frames/floor_000116.jpg",
-      "ncert_section": "5.5",
-      "ncert_agreement": "agrees"
+      "ncert_section": null,
+      "ncert_agreement": null
     },
     {
       "text": "Connecting to Bohr's theory: angular momentum is quantised, m*v*r = n*h/(2*pi) (n=principal quantum number, h=Planck's constant). Using v=r*omega, this gives m*r^2*omega = n*h/(2*pi). Substituting into M=(1/2)e*omega*r^2 gives M = n*e*h/(4*pi*m) -- for the ground state n=1, this defines the BOHR MAGNETON, M = eh/(4*pi*m) = mu_B, with numerical value mu_B = 9.27x10^-24 A.m^2",
       "transcript_span": null,
       "frame_path": "data/lectures/leph105/1uOHUuWn_bCtKAbxkazxJgUnPRs85cAQk/frames/floor_000116.jpg",
-      "ncert_section": "5.5",
-      "ncert_agreement": "agrees"
+      "ncert_section": null,
+      "ncert_agreement": null
     },
     {
       "text": "Alternative form via angular momentum: since L (orbital angular momentum) = r cross p = m*v*r = m*r^2*omega, the earlier result M=(1/2)e*omega*r^2 can be rewritten as M = (e/2m)*L -- the magnetic moment is directly proportional to the angular momentum, with proportionality constant e/2m (the gyromagnetic ratio). In vector form, since the electron's charge is negative, M-vector = -(e/2m)*L-vector (M and L point in opposite directions for the electron)",
       "transcript_span": null,
       "frame_path": "data/lectures/leph105/1uOHUuWn_bCtKAbxkazxJgUnPRs85cAQk/frames/floor_000116.jpg",
-      "ncert_section": "5.5",
-      "ncert_agreement": "agrees"
+      "ncert_section": null,
+      "ncert_agreement": null
     }
   ],
   "uncertain_spans": [
@@ -76,10 +76,7 @@
       "reason": "The transcript's real narration follows the Bohr-quantisation derivation closely and reaches M = (1/2)e * (nh/2*pi*m) as its very last segment, essentially arriving at the Bohr magneton result but never simplifying it to the named 'Bohr magneton' with its numerical value, and never mentioning the alternative angular-momentum form M=(e/2m)L or the gyromagnetic ratio at all. A board frame (floor_000116.jpg, t=2300s, within the transcript's own covered time range) shows both of these already written out: the boxed 'for n=1, M=eh/4*pi*m=mu_B=Bohr magneton' with its value 9.27e-24 A.m^2, and a separate derivation via L=r x p leading to M=(e/2m)L (vector form with a minus sign for the electron) plus a right-hand-rule statement for the direction of M. The Bohr-magneton-value and angular-momentum-form claims above are grounded from this frame rather than the transcript's own words."
     }
   ],
-  "ncert_sections_covered": [
-    "5.4",
-    "5.5"
-  ],
+  "ncert_sections_covered": [],
   "frame_paths": [
     "data/lectures/leph105/1uOHUuWn_bCtKAbxkazxJgUnPRs85cAQk/frames/floor_000061.jpg",
     "data/lectures/leph105/1uOHUuWn_bCtKAbxkazxJgUnPRs85cAQk/frames/floor_000065.jpg",
@@ -97,5 +94,5 @@
     "data/lectures/leph105/1uOHUuWn_bCtKAbxkazxJgUnPRs85cAQk/frames/floor_000113.jpg",
     "data/lectures/leph105/1uOHUuWn_bCtKAbxkazxJgUnPRs85cAQk/frames/floor_000116.jpg"
   ],
-  "markdown_body": "## Earth's magnetism: worked numericals (NCERT 5.4)\n\nUsing $B_H = B\\cos\\delta$ and $B_V=B\\sin\\delta$ ($\\delta$ = angle of dip):\n- Given $B_H$ and $\\delta$: $B = B_H/\\cos\\delta$ (e.g. $B_H=0.35$ gauss, $\\delta=22°$ $\\Rightarrow B=0.35/0.92$).\n- Given $B_H, B_V$: $\\tan\\delta = B_V/B_H$, then solve for $B$.\n- **Full 3-D direction of $\\vec B$:** first locate the *magnetic meridian* using the angle of **declination** (between geographic and magnetic meridian), then specify the angle within that vertical plane using the angle of **dip**.\n\n## Null point problems (NCERT 5.4)\n\nA null point is where a bar magnet's field exactly cancels Earth's horizontal field $B_H$. Its location depends on the magnet's orientation:\n- **North pole toward geographic south:** null points lie on the magnet's **axial** line. $\\left(\\dfrac{\\mu_0}{4\\pi}\\dfrac{2M}{d^3}=B_H\\right)$\n- **North pole toward geographic north:** null points lie on the **equatorial** line instead. $\\left(\\dfrac{\\mu_0}{4\\pi}\\dfrac{M}{d^3}=B_H\\right)$\n\nWorked examples solve for the null-point distance (e.g. $14$ cm axial, $11.1$ cm equatorial in two separate problems), including a variant asking for the *new* null-point location after the magnet is turned $180°$ (which swaps axial $\\leftrightarrow$ equatorial per the rule above).\n\n## The atom as a magnetic dipole (NCERT 5.5)\n\nEvery atom behaves as a tiny magnet: an orbiting electron is a tiny current loop (**orbital** magnetic moment); electron spin contributes a **spin** magnetic moment too (about double the orbital contribution for the same angular momentum, per this lecture). **Direction:** curl the right hand's fingers in the direction of *conventional current* (opposite the electron's actual motion) — thumb gives the direction of $\\vec M$, pointing from the loop's south to north face.\n\n### Orbital magnetic moment derivation\nElectron (charge $e$, angular speed $\\omega$) in a circular orbit radius $r$: equivalent current $I=e/T=e\\omega/2\\pi$, loop area $A=\\pi r^2$:\n$$M = IA = \\frac{e\\omega}{2\\pi}\\cdot\\pi r^2 = \\frac{1}{2}e\\omega r^2$$\n\n### Connecting to Bohr's theory\nAngular momentum is quantised: $mvr = \\dfrac{nh}{2\\pi}$. Using $v=r\\omega$: $mr^2\\omega = \\dfrac{nh}{2\\pi}$. Substituting:\n$$M = \\frac{neh}{4\\pi m}$$\nFor $n=1$ (ground state), this defines the **Bohr magneton**:\n$$\\boxed{M = \\frac{eh}{4\\pi m} = \\mu_B = 9.27\\times10^{-24}~\\text{A}\\cdot\\text{m}^2}$$\n\n### Alternative form via angular momentum\nSince $L = \\vec r\\times\\vec p = mvr = mr^2\\omega$, the same result rewrites as:\n$$\\boxed{M = \\frac{e}{2m}L}, \\qquad \\vec M = -\\frac{e}{2m}\\vec L~\\text{(electron's negative charge flips the direction)}$$\n$e/2m$ is the **gyromagnetic ratio** — magnetic moment is directly proportional to angular momentum.\n"
+  "markdown_body": "## Earth's magnetism: worked numericals\n\n**Not present in the current rationalised NCERT syllabus** for this chapter -- checking the extracted textbook text (`data/ncert/raw/leph105.txt`), Chapter 5 \"Magnetism and Matter\" runs 5.1 Introduction, 5.2 The Bar Magnet, 5.3 Magnetism and Gauss's Law, 5.4 Magnetisation and Magnetic Intensity, 5.5 Magnetic Properties of Materials -- there is no Earth's-magnetism section at all (the pre-rationalisation NCERT's Earth's magnetism sub-chapter, including angle of dip/declination and null-point problems, was removed). This content is covered here as extra material the teacher chose to include, not because it is examinable under the current syllabus.\n\nUsing $B_H = B\\cos\\delta$ and $B_V=B\\sin\\delta$ ($\\delta$ = angle of dip):\n- Given $B_H$ and $\\delta$: $B = B_H/\\cos\\delta$ (e.g. $B_H=0.35$ gauss, $\\delta=22°$ $\\Rightarrow B=0.35/0.92$).\n- Given $B_H, B_V$: $\\tan\\delta = B_V/B_H$, then solve for $B$.\n- **Full 3-D direction of $\\vec B$:** first locate the *magnetic meridian* using the angle of **declination** (between geographic and magnetic meridian), then specify the angle within that vertical plane using the angle of **dip**.\n\n## Null point problems\n\nA null point is where a bar magnet's field exactly cancels Earth's horizontal field $B_H$. Its location depends on the magnet's orientation:\n- **North pole toward geographic south:** null points lie on the magnet's **axial** line. $\\left(\\dfrac{\\mu_0}{4\\pi}\\dfrac{2M}{d^3}=B_H\\right)$\n- **North pole toward geographic north:** null points lie on the **equatorial** line instead. $\\left(\\dfrac{\\mu_0}{4\\pi}\\dfrac{M}{d^3}=B_H\\right)$\n\nWorked examples solve for the null-point distance (e.g. $14$ cm axial, $11.1$ cm equatorial in two separate problems), including a variant asking for the *new* null-point location after the magnet is turned $180°$ (which swaps axial $\\leftrightarrow$ equatorial per the rule above).\n\n## The atom as a magnetic dipole\n\n**Also not present in the current rationalised NCERT syllabus** for this chapter (no section derives an atomic/orbital magnetic moment or the Bohr magneton) -- again extra material beyond the current textbook, included here for completeness since it was taught.\n\nEvery atom behaves as a tiny magnet: an orbiting electron is a tiny current loop (**orbital** magnetic moment); electron spin contributes a **spin** magnetic moment too (about double the orbital contribution for the same angular momentum, per this lecture). **Direction:** curl the right hand's fingers in the direction of *conventional current* (opposite the electron's actual motion) — thumb gives the direction of $\\vec M$, pointing from the loop's south to north face.\n\n### Orbital magnetic moment derivation\nElectron (charge $e$, angular speed $\\omega$) in a circular orbit radius $r$: equivalent current $I=e/T=e\\omega/2\\pi$, loop area $A=\\pi r^2$:\n$$M = IA = \\frac{e\\omega}{2\\pi}\\cdot\\pi r^2 = \\frac{1}{2}e\\omega r^2$$\n\n### Connecting to Bohr's theory\nAngular momentum is quantised: $mvr = \\dfrac{nh}{2\\pi}$. Using $v=r\\omega$: $mr^2\\omega = \\dfrac{nh}{2\\pi}$. Substituting:\n$$M = \\frac{neh}{4\\pi m}$$\nFor $n=1$ (ground state), this defines the **Bohr magneton**:\n$$\\boxed{M = \\frac{eh}{4\\pi m} = \\mu_B = 9.27\\times10^{-24}~\\text{A}\\cdot\\text{m}^2}$$\n\n### Alternative form via angular momentum\nSince $L = \\vec r\\times\\vec p = mvr = mr^2\\omega$, the same result rewrites as:\n$$\\boxed{M = \\frac{e}{2m}L}, \\qquad \\vec M = -\\frac{e}{2m}\\vec L~\\text{(electron's negative charge flips the direction)}$$\n$e/2m$ is the **gyromagnetic ratio** — magnetic moment is directly proportional to angular momentum.\n"
 }
