@@ -1,0 +1,127 @@
+{
+  "file_id": "1zuKs_Q4ij-bZmM3Gz7Q5Btb8MA7v4DXY",
+  "chapter_id": "leph102",
+  "title": "Electric Potential: Definition, Relation to Field, Potential Due to a Point Charge and a System of Charges",
+  "duration_seconds": 2335.17,
+  "claims": [
+    {
+      "text": "Electric potential difference V_A - V_B is the work done by an external force in carrying a unit positive charge from B to A in an electric field, without acceleration (external force exactly balances the electric force at every point, so no kinetic energy is gained)",
+      "transcript_span": [
+        340.4,
+        646.4
+      ],
+      "frame_path": "data/lectures/leph102/1zuKs_Q4ij-bZmM3Gz7Q5Btb8MA7v4DXY/frames/floor_000016.jpg",
+      "ncert_section": "2.2",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "SI unit: 1 volt = 1 joule/coulomb -- the potential difference between two points if 1 J of work is done moving 1 C of charge between them",
+      "transcript_span": [
+        647.0,
+        804.5
+      ],
+      "frame_path": null,
+      "ncert_section": "2.2",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Electric potential (not just difference) at a point is defined by bringing the test charge from infinity, with V(infinity) = 0 by convention; so V = W/q0 for that specific case",
+      "transcript_span": [
+        805.2,
+        1038.9
+      ],
+      "frame_path": null,
+      "ncert_section": "2.2",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Physical significance: positive charge moves from high to low potential, negative charge moves from low to high potential -- analogous to water flowing high-to-low or heat flowing hot-to-cold",
+      "transcript_span": [
+        1101.4,
+        1297.0
+      ],
+      "frame_path": null,
+      "ncert_section": "2.2",
+      "ncert_agreement": null
+    },
+    {
+      "text": "Derivation: V = -integral[B to A] E.dl (electric potential is the negative line integral of the electric field), obtained from dW = -q0 E.dl and V = W/q0",
+      "transcript_span": [
+        1311.2,
+        2235.2
+      ],
+      "frame_path": "data/lectures/leph102/1zuKs_Q4ij-bZmM3Gz7Q5Btb8MA7v4DXY/frames/floor_000093.jpg",
+      "ncert_section": "2.2",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Corollary: the closed-loop line integral of E is zero (electrostatic field is conservative) -- since going A to B then back B to A along a different path must give the same potential difference with opposite sign, the round trip integral vanishes",
+      "transcript_span": null,
+      "frame_path": "data/lectures/leph102/1zuKs_Q4ij-bZmM3Gz7Q5Btb8MA7v4DXY/frames/floor_000066.jpg",
+      "ncert_section": null,
+      "ncert_agreement": null
+    },
+    {
+      "text": "Potential at distance r from a point charge q: V = q / (4 pi eps0 r)",
+      "transcript_span": null,
+      "frame_path": "data/lectures/leph102/1zuKs_Q4ij-bZmM3Gz7Q5Btb8MA7v4DXY/frames/floor_000109.jpg",
+      "ncert_section": "2.3",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Potential due to a system of point charges at a point P is the scalar sum (superposition) of each charge's individual potential: V_P = (1/4 pi eps0) * sum(q_i / r_i), with sign included for each q_i",
+      "transcript_span": null,
+      "frame_path": "data/lectures/leph102/1zuKs_Q4ij-bZmM3Gz7Q5Btb8MA7v4DXY/frames/floor_000117.jpg",
+      "ncert_section": "2.5",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Worked example: at the midpoint P between a +q and -q charge (equal distance r from each), V_P = 0 because the two point-charge potentials cancel exactly, even though the electric field E at P is NOT zero -- V and E are not simply proportional point by point",
+      "transcript_span": null,
+      "frame_path": "data/lectures/leph102/1zuKs_Q4ij-bZmM3Gz7Q5Btb8MA7v4DXY/frames/floor_000117.jpg",
+      "ncert_section": "2.4",
+      "ncert_agreement": "agrees"
+    }
+  ],
+  "uncertain_spans": [
+    {
+      "start_seconds": 2235.2,
+      "end_seconds": 2355.2,
+      "reason": "Transcript is unreliable here: instead of transcribing the real content actually on the board in this window (potential due to a point charge, then due to a system of charges -- confirmed from frames at t=2140-2320s), the ASR output regresses to repeating the 'significance of potential / high-to-low potential' material from around t=1200s almost verbatim. This looks like a distinct ASR failure mode (content substitution rather than truncation or tail fabrication) -- the claims for this section are grounded entirely in the board frames, not the transcript."
+    }
+  ],
+  "ncert_sections_covered": [
+    "2.2",
+    "2.3",
+    "2.5"
+  ],
+  "frame_paths": [
+    "data/lectures/leph102/1zuKs_Q4ij-bZmM3Gz7Q5Btb8MA7v4DXY/frames/floor_000001.jpg",
+    "data/lectures/leph102/1zuKs_Q4ij-bZmM3Gz7Q5Btb8MA7v4DXY/frames/floor_000008.jpg",
+    "data/lectures/leph102/1zuKs_Q4ij-bZmM3Gz7Q5Btb8MA7v4DXY/frames/floor_000011.jpg",
+    "data/lectures/leph102/1zuKs_Q4ij-bZmM3Gz7Q5Btb8MA7v4DXY/frames/floor_000016.jpg",
+    "data/lectures/leph102/1zuKs_Q4ij-bZmM3Gz7Q5Btb8MA7v4DXY/frames/floor_000022.jpg",
+    "data/lectures/leph102/1zuKs_Q4ij-bZmM3Gz7Q5Btb8MA7v4DXY/frames/floor_000023.jpg",
+    "data/lectures/leph102/1zuKs_Q4ij-bZmM3Gz7Q5Btb8MA7v4DXY/frames/floor_000031.jpg",
+    "data/lectures/leph102/1zuKs_Q4ij-bZmM3Gz7Q5Btb8MA7v4DXY/frames/floor_000033.jpg",
+    "data/lectures/leph102/1zuKs_Q4ij-bZmM3Gz7Q5Btb8MA7v4DXY/frames/floor_000039.jpg",
+    "data/lectures/leph102/1zuKs_Q4ij-bZmM3Gz7Q5Btb8MA7v4DXY/frames/floor_000040.jpg",
+    "data/lectures/leph102/1zuKs_Q4ij-bZmM3Gz7Q5Btb8MA7v4DXY/frames/floor_000041.jpg",
+    "data/lectures/leph102/1zuKs_Q4ij-bZmM3Gz7Q5Btb8MA7v4DXY/frames/floor_000044.jpg",
+    "data/lectures/leph102/1zuKs_Q4ij-bZmM3Gz7Q5Btb8MA7v4DXY/frames/floor_000062.jpg",
+    "data/lectures/leph102/1zuKs_Q4ij-bZmM3Gz7Q5Btb8MA7v4DXY/frames/floor_000066.jpg",
+    "data/lectures/leph102/1zuKs_Q4ij-bZmM3Gz7Q5Btb8MA7v4DXY/frames/floor_000074.jpg",
+    "data/lectures/leph102/1zuKs_Q4ij-bZmM3Gz7Q5Btb8MA7v4DXY/frames/floor_000077.jpg",
+    "data/lectures/leph102/1zuKs_Q4ij-bZmM3Gz7Q5Btb8MA7v4DXY/frames/floor_000079.jpg",
+    "data/lectures/leph102/1zuKs_Q4ij-bZmM3Gz7Q5Btb8MA7v4DXY/frames/floor_000081.jpg",
+    "data/lectures/leph102/1zuKs_Q4ij-bZmM3Gz7Q5Btb8MA7v4DXY/frames/floor_000084.jpg",
+    "data/lectures/leph102/1zuKs_Q4ij-bZmM3Gz7Q5Btb8MA7v4DXY/frames/floor_000093.jpg",
+    "data/lectures/leph102/1zuKs_Q4ij-bZmM3Gz7Q5Btb8MA7v4DXY/frames/floor_000097.jpg",
+    "data/lectures/leph102/1zuKs_Q4ij-bZmM3Gz7Q5Btb8MA7v4DXY/frames/floor_000102.jpg",
+    "data/lectures/leph102/1zuKs_Q4ij-bZmM3Gz7Q5Btb8MA7v4DXY/frames/floor_000108.jpg",
+    "data/lectures/leph102/1zuKs_Q4ij-bZmM3Gz7Q5Btb8MA7v4DXY/frames/floor_000109.jpg",
+    "data/lectures/leph102/1zuKs_Q4ij-bZmM3Gz7Q5Btb8MA7v4DXY/frames/floor_000112.jpg",
+    "data/lectures/leph102/1zuKs_Q4ij-bZmM3Gz7Q5Btb8MA7v4DXY/frames/floor_000117.jpg"
+  ],
+  "markdown_body": "## Electric potential\n\n### Definition (NCERT 2.2)\nBuilding on electric field intensity (force-based, from the previous chapter), this lecture switches to a work-based description.\n\n**Electric potential difference:**\n$$V_A - V_B = \\frac{W_{B \\to A}}{q_0}$$\nthe work done by an *external* force per unit charge in moving a test charge from $B$ to $A$, **without acceleration** -- meaning the external force exactly balances the electric force at every point along the path, so the process is quasi-static and no kinetic energy is gained or lost.\n\n**Unit:** $1~\\text{volt} = 1~\\text{joule/coulomb}$.\n\n**Electric potential at a point** (not just a difference) is the special case where the charge is brought from infinity, with the convention $V(\\infty) = 0$:\n$$V = \\frac{W_{\\infty \\to P}}{q_0}$$\n\n**Physical significance:** a positive charge moves from high to low potential; a negative charge moves from low to high potential -- the electrical analogue of water flowing from high to low level, or heat flowing from hot to cold.\n\n### Potential as a line integral of the field\n$$V = -\\int_B^A \\vec{E}\\cdot d\\vec{l}$$\nDerived from $dW = -q_0\\vec{E}\\cdot d\\vec{l}$ (external force is equal and opposite to the electric force) and $V = W/q_0$. Called out in the lecture as a must-know result (\"your 2 AM formula\").\n\n**Corollary -- the electrostatic field is conservative:**\n$$\\oint \\vec{E}\\cdot d\\vec{l} = 0$$\nAny closed-loop line integral of $\\vec E$ vanishes, since the potential difference between two points doesn't depend on the path taken between them.\n\n### Potential due to a point charge (NCERT 2.3)\n$$V(r) = \\frac{1}{4\\pi\\varepsilon_0}\\frac{q}{r}$$\nFalls off as $1/r$ (compare to $E \\propto 1/r^2$).\n\n### Potential due to a system of charges (NCERT 2.5)\nPotential obeys superposition -- being a **scalar**, it's a plain sum (no vector addition needed, unlike $\\vec E$):\n$$V_P = \\frac{1}{4\\pi\\varepsilon_0}\\sum_i \\frac{q_i}{r_i}$$\nwith each $q_i$ carrying its own sign.\n\n**Worked example:** at the point $P$ midway between a $+q$ and a $-q$ charge (equidistant, distance $r$ from each):\n$$V_P = \\frac{1}{4\\pi\\varepsilon_0}\\frac{q}{r} - \\frac{1}{4\\pi\\varepsilon_0}\\frac{q}{r} = 0$$\neven though $\\vec E \\ne 0$ at that point. This is the key conceptual takeaway of the section: **potential and field are not simply proportional point-by-point** -- $V=0$ at a point says nothing about whether $E=0$ there, and vice versa.\n\n---\n*Note on this lecture's transcript:* the segment covering the point-charge and system-of-charges derivations (roughly the last 2 minutes of the lecture) is not reliable in the ASR transcript -- see the flagged span below. Those claims above are grounded directly in the board frames instead.\n"
+}
