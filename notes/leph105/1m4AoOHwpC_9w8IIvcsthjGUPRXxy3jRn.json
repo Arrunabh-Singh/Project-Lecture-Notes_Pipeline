@@ -1,0 +1,93 @@
+{
+  "file_id": "1m4AoOHwpC_9w8IIvcsthjGUPRXxy3jRn",
+  "chapter_id": "leph105",
+  "title": "A Dipole in a Uniform Magnetic Field Performs SHM",
+  "duration_seconds": 1053.5,
+  "claims": [
+    {
+      "text": "Recap of the spring-mass SHM condition from Class 11: for a spring stretched by $x$, restoring force $F=-kx$ gives $ma=-kx$, i.e. $a=-\\frac{k}{m}x=-\\omega^2 x$. Since $a\\propto -x$, this is SHM, with the general equation $\\dfrac{d^2x}{dt^2}+\\omega^2 x=0$. The same condition applies to angular motion: if angular acceleration $\\alpha \\propto -\\theta$, i.e. $\\dfrac{d^2\\theta}{dt^2}+\\omega^2\\theta=0$, the angular displacement is also SHM.",
+      "transcript_span": [
+        10.8,
+        218.4
+      ],
+      "frame_path": null,
+      "ncert_section": null,
+      "ncert_agreement": null
+    },
+    {
+      "text": "A magnetic dipole (a short bar magnet, moment $\\vec M$) placed at angle $\\theta$ in a uniform field $\\vec B$ experiences a deflecting torque $\\vec\\tau = \\vec M\\times\\vec B$, magnitude $MB\\sin\\theta$. By analogy with rotational Newton's law ($F=ma \\to \\tau = I\\alpha$, with moment of inertia $I$ replacing mass and angular acceleration $\\alpha$ replacing linear acceleration), $I\\alpha = -MB\\sin\\theta$ -- the minus sign because the restoring torque acts opposite to the deflecting torque (mirroring $F=-kx$).",
+      "transcript_span": [
+        219.5,
+        331.3
+      ],
+      "frame_path": "data/lectures/leph105/1m4AoOHwpC_9w8IIvcsthjGUPRXxy3jRn/frames/floor_000012.jpg",
+      "ncert_section": "5.2.3",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "For small $\\theta$, $\\sin\\theta\\approx\\theta$, so $I\\alpha = -MB\\theta$, i.e. $\\alpha=-\\dfrac{MB}{I}\\theta$. Since $\\alpha\\propto -\\theta$, the dipole executes angular SHM, with $\\omega^2 = \\dfrac{MB}{I}$ and time period $T=2\\pi\\sqrt{\\dfrac{I}{MB}}$ (equivalently $T^2=\\dfrac{4\\pi^2 I}{MB}$, so $B=\\dfrac{4\\pi^2 I}{MT^2}$ if $I$, $M$, $T$ are known).",
+      "transcript_span": [
+        331.6,
+        486.2
+      ],
+      "frame_path": "data/lectures/leph105/1m4AoOHwpC_9w8IIvcsthjGUPRXxy3jRn/frames/floor_000020.jpg",
+      "ncert_section": "5.2.3",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Worked numerical 1: a magnetic needle of moment $M=6.7\\times10^{-2}~\\text{A m}^2$ and moment of inertia $I=7.5\\times10^{-6}~\\text{kg m}^2$ performs 10 oscillations in 6.7 s, so $T=6.7/10=0.67$ s. Using $B=\\dfrac{4\\pi^2 I}{MT^2}$ gives $B\\approx 0.01$ T.",
+      "transcript_span": [
+        514.2,
+        683.7
+      ],
+      "frame_path": "data/lectures/leph105/1m4AoOHwpC_9w8IIvcsthjGUPRXxy3jRn/frames/floor_000029.jpg",
+      "ncert_section": "5.2.3",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Worked numerical 2 (three parts), set up on the board across all three parts: a short bar magnet with axis at 30 degrees to an external field $B=800$ G ($=800\\times10^{-4}$ T $=0.08$ T) experiences torque $\\tau=0.016$ N m. Part (i): magnetic moment $M=\\dfrac{\\tau}{B\\sin\\theta}=0.4~\\text{A m}^2$ -- this part is both narrated in the transcript and confirmed on the board.",
+      "transcript_span": [
+        693.4,
+        983.4
+      ],
+      "frame_path": "data/lectures/leph105/1m4AoOHwpC_9w8IIvcsthjGUPRXxy3jRn/frames/floor_000040.jpg",
+      "ncert_section": "5.2.3",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Part (ii) of numerical 2, worked out on the board: work done rotating the magnet from its most stable position ($\\theta_1=0^\\circ$, $\\vec M \\parallel \\vec B$) to its most unstable position ($\\theta_2=180^\\circ$, $\\vec M$ antiparallel to $\\vec B$): $$W=\\int_{\\theta_1}^{\\theta_2}\\tau\\,d\\theta = \\int MB\\sin\\theta\\,d\\theta = MB\\left[\\cos\\theta_1-\\cos\\theta_2\\right] = MB(1-(-1)) = 2MB = 0.064~\\text{J}$$",
+      "transcript_span": null,
+      "frame_path": "data/lectures/leph105/1m4AoOHwpC_9w8IIvcsthjGUPRXxy3jRn/frames/floor_000048.jpg",
+      "ncert_section": "5.2.3",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Part (iii) of numerical 2, worked out on the board: the bar magnet is replaced by a solenoid of the same magnetic moment $M=0.4~\\text{A m}^2$, cross-sectional area $A=2\\times10^{-4}~\\text{m}^2$, and $N=1000$ turns. Using $M=NIA$, the current comes out to $I=2$ A.",
+      "transcript_span": null,
+      "frame_path": "data/lectures/leph105/1m4AoOHwpC_9w8IIvcsthjGUPRXxy3jRn/frames/floor_000053.jpg",
+      "ncert_section": "5.2.3",
+      "ncert_agreement": "agrees"
+    }
+  ],
+  "uncertain_spans": [
+    {
+      "start_seconds": 888.0,
+      "end_seconds": 1053.5,
+      "reason": "The transcript trails off mid-sentence at its last segment ('unstable position means unstable position means', ending 1060s) right as the teacher is setting up part (ii) of the second numerical (most-stable-to-most-unstable work done) -- it never reaches the computation of W, nor part (iii) (replacing the bar magnet with a solenoid to find the current). This does not look like the delayed-repeat fabrication loop (no earlier block is re-transcribed) -- it reads like the ASR response simply ran out/was cut short near the true end of the audio. The board-frame coverage-floor sampler's deduped index (index.json) also stops at t=880s (floor_000045), but the raw frames directory retains later, non-deduped frames (floor_000046 through floor_000053) that a direct check confirms DO carry new content -- floor_000048.jpg shows part (ii)'s full work-done derivation (W=2MB=0.064 J) and floor_000053.jpg shows part (iii)'s solenoid current result (I=2 A) freshly added beside it. Both of the two claims above for parts (ii) and (iii) are grounded from these board-only frames, with no transcript corroboration -- the physics is standard and consistent with the board's own part (i) answer and the given N, A, so treated as reliable, but flagged here since it could not be cross-checked against narration."
+    }
+  ],
+  "ncert_sections_covered": [
+    "5.2.3"
+  ],
+  "frame_paths": [
+    "data/lectures/leph105/1m4AoOHwpC_9w8IIvcsthjGUPRXxy3jRn/frames/floor_000001.jpg",
+    "data/lectures/leph105/1m4AoOHwpC_9w8IIvcsthjGUPRXxy3jRn/frames/floor_000012.jpg",
+    "data/lectures/leph105/1m4AoOHwpC_9w8IIvcsthjGUPRXxy3jRn/frames/floor_000020.jpg",
+    "data/lectures/leph105/1m4AoOHwpC_9w8IIvcsthjGUPRXxy3jRn/frames/floor_000029.jpg",
+    "data/lectures/leph105/1m4AoOHwpC_9w8IIvcsthjGUPRXxy3jRn/frames/floor_000040.jpg",
+    "data/lectures/leph105/1m4AoOHwpC_9w8IIvcsthjGUPRXxy3jRn/frames/floor_000045.jpg",
+    "data/lectures/leph105/1m4AoOHwpC_9w8IIvcsthjGUPRXxy3jRn/frames/floor_000048.jpg",
+    "data/lectures/leph105/1m4AoOHwpC_9w8IIvcsthjGUPRXxy3jRn/frames/floor_000053.jpg"
+  ],
+  "markdown_body": "## Recap: the spring-mass SHM condition (Class 11 link)\nBefore proving the magnetic result, the lecture re-derives the spring-mass SHM condition as a template: a spring stretched by $x$ has restoring force $F=-kx$, so $ma=-kx \\Rightarrow a=-\\dfrac{k}{m}x=-\\omega^2x$. Since acceleration is proportional to $-(\\text{displacement})$, this is simple harmonic motion, obeying the general equation\n$$\\frac{d^2x}{dt^2}+\\omega^2 x = 0$$\nThe same logic carries over to *angular* quantities: replacing $x\\to\\theta$ and $a\\to\\alpha$ (angular acceleration), if $\\alpha\\propto-\\theta$ then $\\dfrac{d^2\\theta}{dt^2}+\\omega^2\\theta=0$ and the angular motion is SHM too. This angular version is what the main derivation below needs.\n\n## Derivation: a dipole in a uniform field performs SHM (NCERT 5.2.3)\nA magnetic dipole (a short bar magnet, moment $\\vec M$) is placed in a uniform field $\\vec B$, making angle $\\theta$ with it. It experiences a **deflecting torque**\n$$\\vec\\tau = \\vec M\\times \\vec B, \\qquad \\tau = MB\\sin\\theta$$\nBy the rotational analogue of Newton's second law ($F=ma \\to \\tau=I\\alpha$, with moment of inertia $I$ in place of mass and angular acceleration $\\alpha$ in place of linear acceleration):\n$$I\\alpha = -MB\\sin\\theta$$\nThe minus sign is because the **restoring** torque set up by the field acts opposite to the deflecting displacement -- exactly like $F=-kx$ in the spring case.\n\nFor small angular displacement, $\\sin\\theta\\approx\\theta$, so\n$$I\\alpha = -MB\\theta \\quad\\Rightarrow\\quad \\alpha = -\\frac{MB}{I}\\theta$$\nSince $\\alpha\\propto-\\theta$, this **is** SHM, with\n$$\\omega^2 = \\frac{MB}{I}, \\qquad T = 2\\pi\\sqrt{\\frac{I}{MB}} \\quad\\left(\\text{equivalently } B=\\frac{4\\pi^2 I}{MT^2}\\right)$$\nThis last rearranged form is useful whenever a problem gives the period of oscillation and asks for the unknown field or moment.\n\n## Worked numerical 1: field from an oscillating magnetic needle\nA magnetic needle has moment $M=6.7\\times10^{-2}$ A m$^2$ and moment of inertia $I=7.5\\times10^{-6}$ kg m$^2$, and completes 10 oscillations in 6.7 s.\n\n**Time period:** $T = \\dfrac{6.7}{10} = 0.67$ s.\n\n**Field:** using $B=\\dfrac{4\\pi^2 I}{MT^2}$,\n$$B \\approx 0.01~\\text{T}$$\n\n## Worked numerical 2: bar magnet vs. equal-moment solenoid (3 parts)\nA short bar magnet, axis at $30^\\circ$ to an external field $B=800$ G, experiences torque $\\tau=0.016$ N m. First convert the field to SI: $1$ T $=10^4$ G, so $B = 800\\times10^{-4}~\\text{T} = 0.08$ T.\n\n**(i) Find $M$:** from $\\tau = MB\\sin\\theta$,\n$$M = \\frac{\\tau}{B\\sin\\theta} = \\frac{0.016}{0.08\\times\\sin30^\\circ} = 0.4~\\text{A m}^2$$\n\n**(ii) Work done moving the magnet from its most stable to its most unstable position.** Most stable is $\\vec M\\parallel\\vec B$ ($\\theta_1=0^\\circ$); most unstable is $\\vec M$ antiparallel to $\\vec B$ ($\\theta_2=180^\\circ$). Work done against the restoring torque:\n$$W = \\int_{\\theta_1}^{\\theta_2}\\tau\\,d\\theta = \\int_{\\theta_1}^{\\theta_2}MB\\sin\\theta\\,d\\theta = MB\\big[\\cos\\theta_1-\\cos\\theta_2\\big] = MB\\big(1-(-1)\\big) = 2MB = 0.064~\\text{J}$$\n\n**(iii) Same magnet replaced by a solenoid of the same moment $M$**, with cross-sectional area $A=2\\times10^{-4}$ m$^2$ and $N=1000$ turns. From $M=NIA$:\n$$I = \\frac{M}{NA} = \\frac{0.4}{1000\\times2\\times10^{-4}} = 2~\\text{A}$$\n\n---\n*Note on this lecture:* part (i) of numerical 2 is confirmed in both transcript and board frames, but the transcript audio track trails off mid-sentence right as parts (ii) and (iii) begin, well before reaching either result -- see the flagged span below. Both results were recovered directly from later board frames (`floor_000048.jpg`, `floor_000053.jpg`) that exist in the frames folder on disk but were dropped from the coverage-floor sampler's deduped `index.json` list (likely misjudged as near-duplicates of the preceding frame by the perceptual-hash dedupe step, since the board changes only incrementally as new lines are added below existing text) -- worth flagging upstream, since it means `index.json` alone is not a reliable guide to what content exists in a lecture's frame folder.\n"
+}
