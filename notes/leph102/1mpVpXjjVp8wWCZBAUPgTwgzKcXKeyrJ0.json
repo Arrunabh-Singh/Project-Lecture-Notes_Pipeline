@@ -1,0 +1,87 @@
+{
+  "file_id": "1mpVpXjjVp8wWCZBAUPgTwgzKcXKeyrJ0",
+  "chapter_id": "leph102",
+  "title": "Potential Energy in an External Field, and Potential Due to a Charged Sphere",
+  "duration_seconds": 1400.47,
+  "claims": [
+    {
+      "text": "Potential energy of a charge q at position r in an external field (a field NOT produced by q itself, produced by unspecified external sources) is PE = qV(r), where V(r) is the external potential at that point -- the work done in bringing q from infinity to r",
+      "transcript_span": [
+        112.6,
+        313.3
+      ],
+      "frame_path": "data/lectures/leph102/1mpVpXjjVp8wWCZBAUPgTwgzKcXKeyrJ0/frames/floor_000009.jpg",
+      "ncert_section": "2.8.1",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Electron-volt: if a charge of magnitude e = 1.6e-19 C is accelerated through a potential difference of 1 volt, it gains energy 1.6e-19 J, defined as 1 eV. So 1 eV = 1.6e-19 J -- a unit of energy, not potential",
+      "transcript_span": [
+        437.5,
+        685.3
+      ],
+      "frame_path": "data/lectures/leph102/1mpVpXjjVp8wWCZBAUPgTwgzKcXKeyrJ0/frames/floor_000017.jpg",
+      "ncert_section": "2.8.1",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Potential energy of a system of two charges q1, q2 (at position vectors r1, r2) in an external field: bringing q1 from infinity to r1 costs q1*V(r1); bringing q2 to r2 then costs work against BOTH the external field (q2*V(r2)) and the field of q1 already placed ((1/4 pi eps0) q1 q2 / r12). Total PE = q1*V(r1) + q2*V(r2) + (1/4 pi eps0)(q1 q2 / r12)",
+      "transcript_span": [
+        789.7,
+        1421.1
+      ],
+      "frame_path": "data/lectures/leph102/1mpVpXjjVp8wWCZBAUPgTwgzKcXKeyrJ0/frames/floor_000030.jpg",
+      "ncert_section": "2.8.2",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Electric potential on the surface of a uniformly charged sphere (radius R, total charge q): derived as V = -integral[R to infinity] E.dl using the exterior field E = (1/4 pi eps0) q/r^2, giving V = (1/4 pi eps0)(q/R) -- the same as a point charge q placed at the centre",
+      "transcript_span": null,
+      "frame_path": "data/lectures/leph102/1mpVpXjjVp8wWCZBAUPgTwgzKcXKeyrJ0/frames/floor_000067.jpg",
+      "ncert_section": "2.5",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Electric potential inside a uniformly charged sphere: splitting the line integral into two parts -- from infinity to the surface (R), plus from the surface (R) inward to the point of interest -- the inner part contributes zero because E=0 everywhere inside a uniformly charged conducting sphere. So V(inside) = V(surface) = (1/4 pi eps0)(q/R), i.e. potential inside the sphere is constant and equal to the surface value, even though the field itself is zero there",
+      "transcript_span": null,
+      "frame_path": "data/lectures/leph102/1mpVpXjjVp8wWCZBAUPgTwgzKcXKeyrJ0/frames/floor_000067.jpg",
+      "ncert_section": "2.5",
+      "ncert_agreement": "agrees"
+    }
+  ],
+  "uncertain_spans": [
+    {
+      "start_seconds": 1060.0,
+      "end_seconds": 1400.47,
+      "reason": "Board frames (floor_000054 at t=1060s: blank new page; floor_000055 at t=1080s: 'Electric potential on surface of sphere' heading just begun; floor_000063 at t=1240s and floor_000067 at t=1320s: the full surface-and-inside-sphere derivation, reaching a concluding statement) show this final ~340s of the lecture is spent on the sphere-potential derivation named in the lecture's own title. The ASR transcript never once mentions a sphere, surface, or conductor anywhere in its 38 segments -- instead its last ~30 segments (from roughly 790s to the claimed end at 1421s) continue elaborating the two-charges-in-external-field material, well past where the board shows that topic was finished (page 1, visible complete by ~t=520s) and a new page begun. This reads as sustained content substitution: real audio about the sphere derivation went untranscribed, replaced by an extended rehash of already-covered material. Automated coverage checks (duration-fabrication and repetition-loop detectors) did not catch it, since the substituted text is paraphrased rather than verbatim-repeated and its final timestamp (1421.1s) is close to the true 1400.47s duration. The two sphere claims above are grounded entirely in the board frames, not the transcript."
+    }
+  ],
+  "ncert_sections_covered": [
+    "2.5",
+    "2.8"
+  ],
+  "frame_paths": [
+    "data/lectures/leph102/1mpVpXjjVp8wWCZBAUPgTwgzKcXKeyrJ0/frames/floor_000001.jpg",
+    "data/lectures/leph102/1mpVpXjjVp8wWCZBAUPgTwgzKcXKeyrJ0/frames/floor_000004.jpg",
+    "data/lectures/leph102/1mpVpXjjVp8wWCZBAUPgTwgzKcXKeyrJ0/frames/floor_000007.jpg",
+    "data/lectures/leph102/1mpVpXjjVp8wWCZBAUPgTwgzKcXKeyrJ0/frames/floor_000009.jpg",
+    "data/lectures/leph102/1mpVpXjjVp8wWCZBAUPgTwgzKcXKeyrJ0/frames/floor_000014.jpg",
+    "data/lectures/leph102/1mpVpXjjVp8wWCZBAUPgTwgzKcXKeyrJ0/frames/floor_000017.jpg",
+    "data/lectures/leph102/1mpVpXjjVp8wWCZBAUPgTwgzKcXKeyrJ0/frames/floor_000021.jpg",
+    "data/lectures/leph102/1mpVpXjjVp8wWCZBAUPgTwgzKcXKeyrJ0/frames/floor_000023.jpg",
+    "data/lectures/leph102/1mpVpXjjVp8wWCZBAUPgTwgzKcXKeyrJ0/frames/floor_000025.jpg",
+    "data/lectures/leph102/1mpVpXjjVp8wWCZBAUPgTwgzKcXKeyrJ0/frames/floor_000027.jpg",
+    "data/lectures/leph102/1mpVpXjjVp8wWCZBAUPgTwgzKcXKeyrJ0/frames/floor_000030.jpg",
+    "data/lectures/leph102/1mpVpXjjVp8wWCZBAUPgTwgzKcXKeyrJ0/frames/floor_000041.jpg",
+    "data/lectures/leph102/1mpVpXjjVp8wWCZBAUPgTwgzKcXKeyrJ0/frames/floor_000044.jpg",
+    "data/lectures/leph102/1mpVpXjjVp8wWCZBAUPgTwgzKcXKeyrJ0/frames/floor_000046.jpg",
+    "data/lectures/leph102/1mpVpXjjVp8wWCZBAUPgTwgzKcXKeyrJ0/frames/floor_000049.jpg",
+    "data/lectures/leph102/1mpVpXjjVp8wWCZBAUPgTwgzKcXKeyrJ0/frames/floor_000050.jpg",
+    "data/lectures/leph102/1mpVpXjjVp8wWCZBAUPgTwgzKcXKeyrJ0/frames/floor_000052.jpg",
+    "data/lectures/leph102/1mpVpXjjVp8wWCZBAUPgTwgzKcXKeyrJ0/frames/floor_000054.jpg",
+    "data/lectures/leph102/1mpVpXjjVp8wWCZBAUPgTwgzKcXKeyrJ0/frames/floor_000055.jpg",
+    "data/lectures/leph102/1mpVpXjjVp8wWCZBAUPgTwgzKcXKeyrJ0/frames/floor_000063.jpg",
+    "data/lectures/leph102/1mpVpXjjVp8wWCZBAUPgTwgzKcXKeyrJ0/frames/floor_000067.jpg"
+  ],
+  "markdown_body": "## Potential energy in an external field (NCERT 2.8)\n\nDistinct from Section 2.7 (potential energy of a system of charges due to *their own* mutual field): here the field $E$ (and potential $V$) is produced by **external sources**, not by the charge(s) whose energy we're computing.\n\n### Potential energy of a single charge (NCERT 2.8.1)\nWork done in bringing charge $q$ from infinity to a point at position $\\vec r$, against the external potential $V(\\vec r)$:\n$$\\boxed{PE = qV(\\vec r)}$$\n\n**Electron-volt:** if a charge of magnitude $e = 1.6\\times10^{-19}$ C is accelerated through a potential difference of 1 V, it gains energy $1.6\\times10^{-19}$ J -- this quantity of energy is defined as **1 electron-volt**:\n$$1~\\text{eV} = 1.6\\times10^{-19}~\\text{J}$$\n(A unit of *energy*, built from the volt but not itself a unit of potential.)\n\n### Potential energy of a system of two charges (NCERT 2.8.2)\nAssemble $q_1$ then $q_2$ into the external field region, positions $\\vec r_1,\\vec r_2$:\n- Bringing $q_1$ to $\\vec r_1$ costs $q_1V(\\vec r_1)$ (work against the external field alone).\n- Bringing $q_2$ to $\\vec r_2$ costs work against **both** the external field *and* the field now due to $q_1$:\n$$W_{q_2} = q_2V(\\vec r_2) + \\frac{1}{4\\pi\\varepsilon_0}\\frac{q_1q_2}{r_{12}}$$\n\nTotal potential energy of the assembled system:\n$$\\boxed{PE = q_1V(\\vec r_1) + q_2V(\\vec r_2) + \\frac{1}{4\\pi\\varepsilon_0}\\frac{q_1q_2}{r_{12}}}$$\n\n*(For reference, the board also carries the dipole-in-external-field result derived from this same equation: $PE = -\\vec p\\cdot\\vec E$ -- covered in more depth in a separate lecture on dipole potential energy.)*\n\n## Electric potential due to a uniformly charged sphere (NCERT 2.5)\n\n### On the surface\nOutside a uniformly charged sphere (charge $q$, radius $R$), the field is identical to that of a point charge $q$ at the centre: $E = \\dfrac{1}{4\\pi\\varepsilon_0}\\dfrac{q}{r^2}$. Integrating from infinity in to the surface:\n$$V = -\\int_\\infty^R \\vec E\\cdot d\\vec l = \\frac{1}{4\\pi\\varepsilon_0}\\frac{q}{R}$$\nSame value a point charge $q$ at the centre would produce at distance $R$.\n\n### Inside the sphere\nSplit the line integral at the surface -- from infinity to $R$ (as above), plus from $R$ inward to the field point:\n$$V = -\\int_\\infty^R \\vec E\\cdot d\\vec l \\;+\\; \\left(-\\int_R^{r} \\vec E\\cdot d\\vec l\\right)$$\nThe second term vanishes because $E = 0$ everywhere inside a charged conducting sphere. So:\n$$\\boxed{V_\\text{inside} = V_\\text{surface} = \\frac{1}{4\\pi\\varepsilon_0}\\frac{q}{R}}$$\n\n**Key takeaway:** potential inside the sphere is *constant*, equal to the surface value -- even though the field itself is zero throughout the interior. (Zero field means no *change* in potential, not zero potential; this is the same field/potential distinction flagged in the very first lecture of this chapter.)\n\n---\n*Note on this lecture's transcript:* the final ~340 seconds, covering the sphere derivation above, are not reliably transcribed -- see the flagged span below. Those two claims are grounded directly in the board frames instead.\n"
+}
