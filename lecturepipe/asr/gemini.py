@@ -110,6 +110,17 @@ def _cache_path(audio_sha256: str) -> Path:
     return CACHE_DIR / f"transcript_{_cache_key(audio_sha256)}.json"
 
 
+def overwrite_cache(audio_sha256: str, segments: list[TranscriptSegment]) -> None:
+    """Replace a cached transcript with a cleaned segment list (post
+    sanitize_segments). The cache is the single source of truth notes
+    synthesis reads from later -- it must hold trustworthy content by
+    default, not raw model output that a caller has to remember to
+    re-sanitize every time it's read."""
+    _cache_path(audio_sha256).write_text(
+        json.dumps({"segments": [s.__dict__ for s in segments]}, indent=2), encoding="utf-8"
+    )
+
+
 def _sha256_file(path: Path) -> str:
     h = hashlib.sha256()
     with open(path, "rb") as fh:

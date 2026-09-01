@@ -4,10 +4,15 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from lecturepipe.asr.gemini import Transcript, TranscriptSegment, build_prompt
-from lecturepipe.asr.verify import check_coverage, chunk_boundaries
+from lecturepipe.asr.verify import check_coverage, chunk_boundaries, sanitize_segments
 
 
-def _seg(start, end, text="hello", conf="high"):
+def _seg(start, end, text=None, conf="high"):
+    # Unique-by-default text: an accidental shared default (e.g. "hello"
+    # for every segment) would itself trigger the repetition-loop detector
+    # and silently truncate test fixtures -- happened once already here.
+    if text is None:
+        text = f"segment at {start}"
     return TranscriptSegment(start_seconds=start, end_seconds=end, text=text, confidence=conf)
 
 
@@ -42,6 +47,64 @@ def test_low_confidence_counted():
     result = check_coverage(t, true_duration_seconds=600.0)
     assert result.low_confidence_count == 2
     assert len(t.low_confidence_segments) == 2
+
+
+def test_sanitize_drops_fabricated_content_past_true_duration():
+    """Mirrors a real failure: gemini-3.5-flash-lite generated ~6 more
+    minutes of coherent, non-repeating, plausible-sounding physics content
+    past a verified-exact 1897.53s true duration on a real lecture. Audio
+    cannot contain content past its measured duration -- this is a hard
+    constraint, so anything past it must be dropped regardless of how
+    genuine the text reads."""
+    segs = [_seg(0, 30), _seg(30, 598), _seg(598, 605), _seg(650, 700), _seg(710, 750)]
+    result = sanitize_segments(segs, true_duration_seconds=600.0)
+    assert result.dropped_past_duration == 2  # the 650-700 and 710-750 segments
+    assert len(result.segments) == 3
+    assert result.segments[-1].end_seconds == 605
+
+
+def test_sanitize_keeps_small_tail_within_grace():
+    segs = [_seg(0, 30), _seg(30, 605)]  # 605 is within 600*1.03 = 618
+    result = sanitize_segments(segs, true_duration_seconds=600.0)
+    assert result.dropped_past_duration == 0
+    assert len(result.segments) == 2
+
+
+def test_sanitize_detects_repetition_loop():
+    """Mirrors the worse real failure: the same sentence repeated
+    verbatim with fabricated ever-increasing timestamps (1714% "coverage"
+    on the raw, unsanitized transcript)."""
+    loop_text = "So, you will have V_A - V_B = E_1 - ir_1, this is your equation one"
+    segs = [
+        _seg(0, 30, text="real content one"),
+        _seg(30, 60, text="real content two"),
+        _seg(60, 460, text=loop_text),
+        _seg(460, 860, text=loop_text),
+        _seg(860, 1260, text=loop_text),
+    ]
+    result = sanitize_segments(segs, true_duration_seconds=90.0)
+    assert result.repetition_detected
+    # keeps the first loop occurrence, drops the repeats
+    assert len(result.segments) == 3
+    assert result.segments[-1].text == loop_text
+
+
+def test_check_coverage_uses_sanitized_segments_not_raw():
+    """The exact bug found live: raw coverage read 1714% because it
+    trusted fabricated timestamps. Coverage must be computed on sanitized
+    segments, or the metric actively hides the failure it exists to catch."""
+    loop_text = "repeated fabricated sentence"
+    segs = [
+        _seg(0, 30, text="real"),
+        _seg(30, 598, text="also real"),
+        _seg(598, 1000, text=loop_text),
+        _seg(1000, 2000, text=loop_text),
+    ]
+    t = Transcript(segments=segs, source_audio_sha256="deadbeef")
+    result = check_coverage(t, true_duration_seconds=600.0)
+    assert result.coverage_ratio < 2.0  # not the ~333% the raw last-timestamp would give
+    assert result.passed  # 598/600 is within COVERAGE_THRESHOLD
+    assert result.sanitize.repetition_detected
 
 
 def test_chunk_boundaries_exact_division():

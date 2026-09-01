@@ -12,7 +12,7 @@ import sys
 from pathlib import Path
 
 from lecturepipe import state
-from lecturepipe.asr.gemini import GeminiAuthError, transcribe_lecture
+from lecturepipe.asr.gemini import GeminiAuthError, overwrite_cache, transcribe_lecture
 from lecturepipe.asr.verify import check_coverage
 from lecturepipe.config import LECTURES_DIR, MANIFEST_PATH, NCERT_DIR, config
 from lecturepipe.frames import dedupe_frames
@@ -166,6 +166,15 @@ def cmd_transcribe(args) -> int:
         print(f"  {'cache hit' if transcript.cache_hit else 'transcribed'}, "
               f"coverage={coverage.coverage_ratio:.1%}, "
               f"low_confidence={coverage.low_confidence_count}")
+        san = coverage.sanitize
+        if san and (san.dropped_past_duration or san.dropped_repetition):
+            print(
+                f"  SANITIZED: dropped {san.dropped_past_duration} segment(s) past true "
+                f"duration, {san.dropped_repetition} to a repetition loop"
+                f"{' (loop detected)' if san.repetition_detected else ''} -- "
+                f"cleaning cache so downstream reads see trustworthy content only"
+            )
+            overwrite_cache(transcript.source_audio_sha256, san.segments)
         if coverage.needs_chunk_fallback:
             print("  WARNING: coverage below threshold -- chunk fallback not yet wired into CLI, flagging for manual re-run")
             st.mark_error(f"low coverage: {coverage.coverage_ratio:.1%}")
