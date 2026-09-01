@@ -208,7 +208,8 @@ MAX_429_RETRIES = 4
 
 
 def _generate_with_retry(key: str, file_uri: str, prompt: str) -> dict:
-    """POST generateContent, retrying on 429 up to MAX_429_RETRIES times.
+    """POST generateContent, retrying on 429 and transient network failures
+    up to MAX_429_RETRIES times.
 
     Two different failure shapes hide behind a 429, and conflating them
     wastes real time in a 59-lecture batch: a per-minute rate limit is
@@ -217,25 +218,38 @@ def _generate_with_retry(key: str, file_uri: str, prompt: str) -> dict:
     matter how long you wait -- seen for real during development against
     gemini-3.1-pro-preview on this key. Fail fast on that case instead of
     burning the retry budget on something that can't recover.
+
+    Also retries on requests.exceptions.RequestException (proxy resets,
+    connection drops) -- this environment's forced HTTPS proxy dropped a
+    long-held connection mid-batch during development ("Remote end closed
+    connection without response"), which is a transient network condition,
+    not a reason to abandon the whole 59-lecture run.
     """
     for attempt in range(MAX_429_RETRIES + 1):
         _rate_limiter.wait()
-        resp = requests.post(
-            f"{API_BASE}/v1beta/models/{config.gemini_model}:generateContent?key={key}",
-            json={
-                "contents": [{
-                    "parts": [
-                        {"file_data": {"mime_type": "audio/wav", "file_uri": file_uri}},
-                        {"text": prompt},
-                    ]
-                }],
-                "generationConfig": {
-                    "responseMimeType": "application/json",
-                    "responseSchema": TRANSCRIPT_SCHEMA,
+        try:
+            resp = requests.post(
+                f"{API_BASE}/v1beta/models/{config.gemini_model}:generateContent?key={key}",
+                json={
+                    "contents": [{
+                        "parts": [
+                            {"file_data": {"mime_type": "audio/wav", "file_uri": file_uri}},
+                            {"text": prompt},
+                        ]
+                    }],
+                    "generationConfig": {
+                        "responseMimeType": "application/json",
+                        "responseSchema": TRANSCRIPT_SCHEMA,
+                    },
                 },
-            },
-            timeout=600,
-        )
+                timeout=600,
+            )
+        except requests.exceptions.RequestException as exc:
+            if attempt >= MAX_429_RETRIES:
+                raise GeminiASRError(f"Network error persisted after {MAX_429_RETRIES} retries: {exc}") from exc
+            time.sleep(min(15 * (2 ** attempt), 120))
+            continue
+
         if resp.status_code == 401 or resp.status_code == 403:
             raise GeminiAuthError(f"Gemini transcription auth failed: {resp.status_code} {resp.text[:300]}")
         if resp.status_code != 429:
