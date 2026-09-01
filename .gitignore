@@ -14,3 +14,6 @@ data/cache/
 
 # per-video checkpoint state (regenerable, machine-specific paths)
 state/
+
+# leftover git worktrees from background agent runs
+.claude/worktrees/
