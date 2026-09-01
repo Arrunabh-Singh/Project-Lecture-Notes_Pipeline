@@ -68,43 +68,60 @@ def extract_scene_frames(
     video_path: Path,
     out_dir: Path,
     scene_threshold: float = 0.35,
-    coverage_floor_seconds: float = 45.0,
+    coverage_floor_seconds: float = 20.0,
     duration_seconds: float | None = None,
+    enable_scene_detect: bool = True,
 ) -> list[FrameSpec]:
     """Two extraction passes merged together:
 
     1. Scene-change detection (ffmpeg's `select='gt(scene,threshold)'`) --
-       catches the moment the board content actually changes.
+       catches the moment the board content actually changes. USELESS on
+       this library's actual footage: these lectures are screen recordings
+       of stylus ink on a static Microsoft Word page, not a camera on a
+       physical board. Scene score measures frame-to-frame pixel delta,
+       and one ink stroke's delta is ~0.0001-0.0003 -- three orders of
+       magnitude below the 0.35 default. Verified empirically (ffmpeg
+       metadata=print across a real 42-minute lecture, zero frames past
+       threshold) before dropping the default coverage-floor interval to
+       compensate, rather than assumed. Left enabled (not removed) since a
+       genuinely camera-filmed board elsewhere in this project would make
+       it useful again -- it's dead weight for THIS library, not universally.
     2. A fixed-interval "coverage floor" every `coverage_floor_seconds` --
        catches long static stretches (a teacher talking through one board
        for 3 minutes) that scene-detect alone would skip entirely.
        Borrowed from claude-watch's coverage-floor idea (see plan's prior
-       art section) rather than reinvented from scratch.
+       art section) rather than reinvented from scratch. Default tightened
+       from 45s to 20s given (1) above -- this is now the only real signal,
+       and perceptual-hash dedupe (frames.py, already verified to collapse
+       true near-duplicates) keeps the denser sampling from blowing up
+       frame counts.
 
     Frames from both passes land in the same directory with timestamp-
     encoded filenames; perceptual-hash dedupe (frames.py) removes the
     overlap between the two passes downstream.
     """
     out_dir.mkdir(parents=True, exist_ok=True)
+    frames: list[FrameSpec] = []
 
-    scene_pattern = str(out_dir / "scene_%06d.jpg")
-    cmd_scene = [
-        FFMPEG, "-y", "-i", str(video_path),
-        "-vf", f"select='gt(scene,{scene_threshold})',showinfo",
-        "-vsync", "vfr",
-        "-q:v", "3",
-        scene_pattern,
-    ]
-    proc = subprocess.run(cmd_scene, stderr=subprocess.PIPE, stdout=subprocess.PIPE, text=True)
-    if proc.returncode != 0:
-        raise MediaError(f"Scene-detect frame extraction failed for {video_path}:\n{proc.stderr[-800:]}")
+    if enable_scene_detect:
+        scene_pattern = str(out_dir / "scene_%06d.jpg")
+        cmd_scene = [
+            FFMPEG, "-y", "-i", str(video_path),
+            "-vf", f"select='gt(scene,{scene_threshold})',showinfo",
+            "-vsync", "vfr",
+            "-q:v", "3",
+            scene_pattern,
+        ]
+        proc = subprocess.run(cmd_scene, stderr=subprocess.PIPE, stdout=subprocess.PIPE, text=True)
+        if proc.returncode != 0:
+            raise MediaError(f"Scene-detect frame extraction failed for {video_path}:\n{proc.stderr[-800:]}")
 
-    scene_timestamps = [float(t) for t in re.findall(r"pts_time:(\d+\.?\d*)", proc.stderr)]
-    scene_files = sorted(out_dir.glob("scene_*.jpg"))
-    frames = [
-        FrameSpec(timestamp_seconds=ts, path=p)
-        for ts, p in zip(scene_timestamps, scene_files)
-    ]
+        scene_timestamps = [float(t) for t in re.findall(r"pts_time:(\d+\.?\d*)", proc.stderr)]
+        scene_files = sorted(out_dir.glob("scene_*.jpg"))
+        frames.extend(
+            FrameSpec(timestamp_seconds=ts, path=p)
+            for ts, p in zip(scene_timestamps, scene_files)
+        )
 
     if duration_seconds:
         floor_pattern = str(out_dir / "floor_%06d.jpg")

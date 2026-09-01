@@ -107,7 +107,10 @@ def cmd_frames(args) -> int:
             print(f"SKIP (already extracted): {ref.title}")
             continue
         print(f"Extracting frames: {ref.title} ...")
-        raw_frames = extract_scene_frames(video_path, frames_dir, duration_seconds=st.duration_seconds)
+        raw_frames = extract_scene_frames(
+            video_path, frames_dir, duration_seconds=st.duration_seconds,
+            enable_scene_detect=args.scene_detect,
+        )
         deduped = dedupe_frames(raw_frames)
         (frames_dir / "index.json").write_text(json.dumps([d.__dict__ for d in deduped], indent=2))
         st.frame_count = len(deduped)
@@ -188,12 +191,25 @@ def main() -> int:
     for name, fn, help_text in [
         ("fetch", cmd_fetch, "Download video(s) from Drive"),
         ("audio", cmd_audio, "Extract audio from fetched video(s)"),
-        ("frames", cmd_frames, "Extract + dedupe board frames"),
     ]:
         p = sub.add_parser(name, help=help_text)
         p.add_argument("file_id", nargs="?", help="Drive file id (omit with --all)")
         p.add_argument("--all", action="store_true", help="Process every file in the manifest")
         p.set_defaults(func=fn)
+
+    p = sub.add_parser("frames", help="Extract + dedupe board frames")
+    p.add_argument("file_id", nargs="?", help="Drive file id (omit with --all)")
+    p.add_argument("--all", action="store_true", help="Process every file in the manifest")
+    p.add_argument(
+        "--scene-detect", action="store_true", default=False,
+        help="Also run ffmpeg scene-change detection. Off by default: verified "
+             "against this library's real footage (screen-recorded stylus ink, "
+             "not a camera on a board) to add zero frames while costing roughly "
+             "half the extraction time -- see media.py's extract_scene_frames "
+             "docstring. Worth re-enabling only for footage that's an actual "
+             "camera recording with real scene cuts.",
+    )
+    p.set_defaults(func=cmd_frames)
 
     p = sub.add_parser("transcribe", help="Transcribe audio via Gemini")
     p.add_argument("file_id", nargs="?")
