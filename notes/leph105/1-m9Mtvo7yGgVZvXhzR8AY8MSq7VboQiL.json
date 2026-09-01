@@ -1,0 +1,129 @@
+{
+  "file_id": "1-m9Mtvo7yGgVZvXhzR8AY8MSq7VboQiL",
+  "chapter_id": "leph105",
+  "title": "Hysteresis Curve: Retentivity, Coercivity, and Soft Iron vs. Steel",
+  "duration_seconds": 1661.0,
+  "claims": [
+    {
+      "text": "Hysteresis curve setup: a solenoid carrying current I with an iron rod (magnetizing material) inside. The hysteresis curve is a graph of B (total magnetic field inside the material, related to the intensity of magnetization -- how many of the material's dipoles are aligned) versus H (related to the current in the coil -- same number of turns, so H changes as current changes)",
+      "transcript_span": [
+        2.08,
+        155.0
+      ],
+      "frame_path": "data/lectures/leph105/1-m9Mtvo7yGgVZvXhzR8AY8MSq7VboQiL/frames/floor_000046.jpg",
+      "ncert_section": "5.5",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Step (i)-(ii), O to A: initially B=0 when H=0 (no current). As the material is placed in the solenoid and current is increased, H increases and B increases (domains align with B). Point A, where B stops increasing further no matter how much H increases, represents the SATURATION point -- all domains are now aligned, so there is nothing left to align",
+      "transcript_span": [
+        155.0,
+        262.0
+      ],
+      "frame_path": "data/lectures/leph105/1-m9Mtvo7yGgVZvXhzR8AY8MSq7VboQiL/frames/floor_000046.jpg",
+      "ncert_section": "5.5",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Step (iii), A to B on the curve: current (and hence H) is decreased back toward zero, but B does NOT retrace the same path back to zero -- when current (and H) reaches exactly zero, B is still non-zero. This value, OB on the graph, is called RETENTIVITY or residual magnetism: the material remains magnetized even after the magnetizing current is switched off",
+      "transcript_span": [
+        357.0,
+        660.0
+      ],
+      "frame_path": "data/lectures/leph105/1-m9Mtvo7yGgVZvXhzR8AY8MSq7VboQiL/frames/floor_000046.jpg",
+      "ncert_section": "5.5",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Step (iv), B to C on the curve: to fully demagnetize the material (bring B back to zero), the current must be reversed in direction and increased in magnitude. The point where B becomes zero (while H is now non-zero, in the reversed direction) is labelled C on the graph; OC is called COERCIVITY -- it measures how much reverse field is needed to demagnetize the material. Larger coercivity means the material is harder to demagnetize, which is why high coercivity is desirable for making permanent magnets",
+      "transcript_span": [
+        692.0,
+        1060.0
+      ],
+      "frame_path": "data/lectures/leph105/1-m9Mtvo7yGgVZvXhzR8AY8MSq7VboQiL/frames/floor_000046.jpg",
+      "ncert_section": "5.5",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Step (v), C to D and back to A: as the reversed current is increased further, saturation is reached again at point D (negative saturation). The same steps are then repeated in the forward direction (through points E, F) to close the loop back at A. This closed curve O-A-B-C-D-E-F is the hysteresis loop/curve",
+      "transcript_span": [
+        1024.0,
+        1240.0
+      ],
+      "frame_path": "data/lectures/leph105/1-m9Mtvo7yGgVZvXhzR8AY8MSq7VboQiL/frames/floor_000046.jpg",
+      "ncert_section": "5.5",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Definition: the phenomenon of the lagging of B behind H, when a specimen of magnetic material is subjected to a cycle of magnetisation, is called HYSTERESIS (hysteresis literally means 'lagging behind'). The B-H curve traced out over one such cycle is the hysteresis curve/loop",
+      "transcript_span": [
+        1102.0,
+        1232.0
+      ],
+      "frame_path": "data/lectures/leph105/1-m9Mtvo7yGgVZvXhzR8AY8MSq7VboQiL/frames/floor_000046.jpg",
+      "ncert_section": "5.5",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "The area enclosed by the hysteresis loop represents the energy dissipated per unit volume in one complete cycle of magnetisation-demagnetisation-remagnetisation. This dissipated energy shows up as heating of the substance; the larger the hysteresis loop, the more energy is dissipated per unit volume per cycle (units: B times H, which works out to energy per unit volume)",
+      "transcript_span": [
+        1232.0,
+        1343.0
+      ],
+      "frame_path": "data/lectures/leph105/1-m9Mtvo7yGgVZvXhzR8AY8MSq7VboQiL/frames/floor_000046.jpg",
+      "ncert_section": "5.5",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Comparing soft iron and steel via their hysteresis loops (steel's loop is visibly wider/fatter than soft iron's when both are drawn on the same B-H axes): (1) retentivity of steel < retentivity of soft iron; (2) coercivity of steel > coercivity of soft iron, and because of this steel is used for making permanent magnets (harder to demagnetize); (3) area of the hysteresis loop for steel > area for soft iron, so hysteresis loss (energy dissipated per cycle) in soft iron is less -- this is why soft iron, not steel, is used in electromagnets (which are repeatedly magnetized and demagnetized, so low hysteresis loss matters)",
+      "transcript_span": null,
+      "frame_path": "data/lectures/leph105/1-m9Mtvo7yGgVZvXhzR8AY8MSq7VboQiL/frames/floor_000067.jpg",
+      "ncert_section": "5.5",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Two practical ways to make a permanent magnet: (1) hold an iron (or steel) rod aligned in the north-south direction and hammer it repeatedly; (2) hold a steel rod and stroke it repeatedly, a large number of times, with one end of a bar magnet, always in the same sense/direction",
+      "transcript_span": null,
+      "frame_path": "data/lectures/leph105/1-m9Mtvo7yGgVZvXhzR8AY8MSq7VboQiL/frames/floor_000067.jpg",
+      "ncert_section": "5.5",
+      "ncert_agreement": "agrees"
+    }
+  ],
+  "uncertain_spans": [
+    {
+      "start_seconds": 233.0,
+      "end_seconds": 1060.0,
+      "reason": "The full explanation of the hysteresis curve's construction (saturation at A, decreasing H giving retentivity at B, reversing current to reach coercivity at C, the fourth/fifth steps) is transcribed once correctly (~t=233-660s) and then transcribed a SECOND time nearly verbatim (~t=692-1015s) -- the same delayed-repetition pattern found repeatedly in this chapter's lectures. This inflated the transcript's own self-reported timestamps: its last segment claims to end at 1724.84s even though the video's true duration is only 1661.0s, confirming the internal duplication pushed later timestamps out of sync with real video time. Content-wise nothing appears lost here (the two passes say the same thing), but the timestamps attached to claims in the back half of this note should be read as approximate."
+    },
+    {
+      "start_seconds": 1606.0,
+      "end_seconds": 1661.0,
+      "reason": "The transcript's own words announce the final topic twice ('Now we have hysteresis curve for soft iron and steel', repeated) and then cut off mid-sentence while just starting to draw a B-H curve ('I have a curve something like this... A curve main aise draw kar rahi hoon'), giving the impression the lecture ends before this comparison is actually taught. However, a board frame (floor_000067.jpg) -- whose own true video timestamp (t=1320s) falls chronologically BEFORE this final transcript segment's self-reported (drifted, see the span above) timestamp -- shows the soft-iron-vs-steel comparison already fully written out: three comparison properties (retentivity, coercivity, loop area/hysteresis loss) plus two practical methods for making a permanent magnet. This confirms the teacher did complete this topic on the board within the true 1661s runtime; the transcript simply never captured the spoken explanation of it. All of the soft-iron/steel and permanent-magnet content in this note is grounded entirely from that frame, not from the transcript's own words."
+    }
+  ],
+  "ncert_sections_covered": [
+    "5.5"
+  ],
+  "frame_paths": [
+    "data/lectures/leph105/1-m9Mtvo7yGgVZvXhzR8AY8MSq7VboQiL/frames/floor_000001.jpg",
+    "data/lectures/leph105/1-m9Mtvo7yGgVZvXhzR8AY8MSq7VboQiL/frames/floor_000003.jpg",
+    "data/lectures/leph105/1-m9Mtvo7yGgVZvXhzR8AY8MSq7VboQiL/frames/floor_000009.jpg",
+    "data/lectures/leph105/1-m9Mtvo7yGgVZvXhzR8AY8MSq7VboQiL/frames/floor_000012.jpg",
+    "data/lectures/leph105/1-m9Mtvo7yGgVZvXhzR8AY8MSq7VboQiL/frames/floor_000027.jpg",
+    "data/lectures/leph105/1-m9Mtvo7yGgVZvXhzR8AY8MSq7VboQiL/frames/floor_000034.jpg",
+    "data/lectures/leph105/1-m9Mtvo7yGgVZvXhzR8AY8MSq7VboQiL/frames/floor_000036.jpg",
+    "data/lectures/leph105/1-m9Mtvo7yGgVZvXhzR8AY8MSq7VboQiL/frames/floor_000042.jpg",
+    "data/lectures/leph105/1-m9Mtvo7yGgVZvXhzR8AY8MSq7VboQiL/frames/floor_000043.jpg",
+    "data/lectures/leph105/1-m9Mtvo7yGgVZvXhzR8AY8MSq7VboQiL/frames/floor_000046.jpg",
+    "data/lectures/leph105/1-m9Mtvo7yGgVZvXhzR8AY8MSq7VboQiL/frames/floor_000051.jpg",
+    "data/lectures/leph105/1-m9Mtvo7yGgVZvXhzR8AY8MSq7VboQiL/frames/floor_000054.jpg",
+    "data/lectures/leph105/1-m9Mtvo7yGgVZvXhzR8AY8MSq7VboQiL/frames/floor_000058.jpg",
+    "data/lectures/leph105/1-m9Mtvo7yGgVZvXhzR8AY8MSq7VboQiL/frames/floor_000060.jpg",
+    "data/lectures/leph105/1-m9Mtvo7yGgVZvXhzR8AY8MSq7VboQiL/frames/floor_000067.jpg",
+    "data/lectures/leph105/1-m9Mtvo7yGgVZvXhzR8AY8MSq7VboQiL/frames/floor_000069.jpg",
+    "data/lectures/leph105/1-m9Mtvo7yGgVZvXhzR8AY8MSq7VboQiL/frames/floor_000070.jpg",
+    "data/lectures/leph105/1-m9Mtvo7yGgVZvXhzR8AY8MSq7VboQiL/frames/floor_000079.jpg",
+    "data/lectures/leph105/1-m9Mtvo7yGgVZvXhzR8AY8MSq7VboQiL/frames/floor_000082.jpg"
+  ],
+  "markdown_body": "## The hysteresis curve (NCERT 5.5)\n\nA solenoid carries current $I$ with an iron rod (magnetizing material) inside. The **hysteresis curve** plots $B$ (total field inside the material — related to how many of its dipoles are aligned) against $H$ (related to the coil current).\n\n**Tracing the loop:**\n- **O:** initially $B=0$, $H=0$ (no current).\n- **O$\\to$A:** current increased $\\Rightarrow$ $H$ increases $\\Rightarrow$ $B$ increases (domains align with $B$). At **A**, $B$ stops increasing however much $H$ increases further — this is the **saturation point** (all domains now aligned).\n- **A$\\to$B:** current (and $H$) decreased back toward zero — but $B$ does *not* retrace the same path. When $H=0$, $B$ is still non-zero: $OB$ is the **retentivity** (residual magnetism) — the material stays magnetized after the current is switched off.\n- **B$\\to$C:** to bring $B$ back to zero, the current must be **reversed** and increased. Where $B=0$ (with $H\\ne0$, reversed) is point $C$: $OC$ is the **coercivity** — the reverse field needed to fully demagnetize. Larger coercivity $\\Rightarrow$ harder to demagnetize.\n- **C$\\to$D$\\to$...$\\to$A:** increasing the reversed current further reaches negative saturation at $D$; repeating the same steps in the forward direction (through $E$, $F$) closes the loop back at $A$.\n\n**Hysteresis:** the phenomenon of $B$ *lagging behind* $H$ when a magnetic specimen is taken through a cycle of magnetisation. The closed $B$–$H$ curve traced is the **hysteresis loop**.\n\n**Area of the loop** = energy dissipated per unit volume, per cycle (the substance heats up) — the bigger the loop, the greater the dissipation.\n\n## Soft iron vs. steel\n\nComparing their hysteresis loops (steel's is visibly wider):\n1. Retentivity: **steel < soft iron**\n2. Coercivity: **steel > soft iron** $\\Rightarrow$ steel is used for **permanent magnets** (harder to demagnetize)\n3. Loop area: **steel > soft iron** $\\Rightarrow$ hysteresis loss in soft iron is **less** $\\Rightarrow$ soft iron is used in **electromagnets** (repeatedly (de)magnetized, so low loss matters)\n\n### Making a permanent magnet\n1. Hold an iron/steel rod in the N–S direction and hammer it repeatedly.\n2. Hold a steel rod and stroke it repeatedly (many times), always in the same sense, with one end of a bar magnet.\n\n---\n*Note on this lecture's transcript:* the loop-construction explanation (saturation, retentivity, coercivity) is transcribed correctly once, then repeated nearly verbatim a second time -- inflating the transcript's own timestamps past the video's true duration. The final soft-iron-vs-steel comparison and the two permanent-magnet methods are visible in full on the board but never make it into the transcript's own words at all (it cuts off announcing the topic). Both are grounded entirely from frames; see the flagged spans below.\n"
+}
