@@ -1,0 +1,108 @@
+{
+  "file_id": "1TrDZWeix3GdDpPueABpS9p1ndSs7UTnh",
+  "chapter_id": "leph102",
+  "title": "Capacitors and Capacitance: Basics, Isolated Sphere, Spherical Capacitor, Cylindrical Capacitor",
+  "duration_seconds": 1926.13,
+  "claims": [
+    {
+      "text": "Capacitance of a conductor: as charge Q on a conductor increases, its potential V increases proportionally, so Q is proportional to V, i.e. Q=CV where C (a constant depending only on geometry) is called capacitance. On a Q-vs-V graph this is a straight line through the origin (y=mx form) whose slope gives C",
+      "transcript_span": [
+        16.7,
+        213.6
+      ],
+      "frame_path": "data/lectures/leph102/1TrDZWeix3GdDpPueABpS9p1ndSs7UTnh/frames/floor_000017.jpg",
+      "ncert_section": "2.11",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "SI unit of capacitance: 1 farad = 1 coulomb/volt. Worked example: Q=10 microC raises potential by 2.5 V, so C = Q/V = 10e-6/2.5 = 4e-6 F",
+      "transcript_span": [
+        145.0,
+        257.6
+      ],
+      "frame_path": "data/lectures/leph102/1TrDZWeix3GdDpPueABpS9p1ndSs7UTnh/frames/floor_000017.jpg",
+      "ncert_section": "2.11",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Motivation for two-plate arrangement: a single charged plate's potential rises so much that charge starts leaking into the atmosphere, limiting how much can be stored. Bringing a second (grounded) plate close by induces opposite charge on it, which drastically lowers the first plate's potential for the same charge -- allowing much more charge to be stored. This pair of two neighbouring conductors carrying equal and opposite charge is a capacitor",
+      "transcript_span": [
+        273.4,
+        554.8
+      ],
+      "frame_path": null,
+      "ncert_section": "2.11",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "C does not depend on Q or V themselves (their ratio stays constant); it depends only on the geometry: area of the plates, separation between them, and the medium (dielectric) between them. C is directly proportional to area, inversely proportional to separation d, and increases with a dielectric medium of constant K present -- C = K*eps0*A/d for a parallel plate capacitor (stated here, derived in a later lecture)",
+      "transcript_span": [
+        792.8,
+        1037.7
+      ],
+      "frame_path": null,
+      "ncert_section": "2.11",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Capacitance of an isolated spherical conductor (charge Q, radius R, other 'plate' taken at infinity): V = VA - VB = Q/(4 pi eps0 R) - 0, so C = Q/V = 4 pi eps0 R (or 4 pi eps0 K R with a dielectric medium of constant K) -- capacitance is directly proportional to the radius. Earth, modelled as a spherical conductor of radius 6400 km, works out to a capacitance of about 711 microfarad",
+      "transcript_span": [
+        1092.4,
+        1426.7
+      ],
+      "frame_path": "data/lectures/leph102/1TrDZWeix3GdDpPueABpS9p1ndSs7UTnh/frames/floor_000054.jpg",
+      "ncert_section": "2.11",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Capacitance of a spherical capacitor (two concentric spherical conductors, inner +Q at radius r1, outer -Q at radius r2, grounded): using a Gaussian surface at radius r between them, V = -integral[r1 to r2] E.dr = Q/(4 pi eps0) * (r2-r1)/(r1 r2), giving C = Q/V = 4 pi eps0 r1 r2/(r2 - r1)",
+      "transcript_span": null,
+      "frame_path": "data/lectures/leph102/1TrDZWeix3GdDpPueABpS9p1ndSs7UTnh/frames/floor_000073.jpg",
+      "ncert_section": null,
+      "ncert_agreement": null
+    },
+    {
+      "text": "Capacitance of a cylindrical capacitor (two coaxial cylinders, length L, inner radius a at +lambda linear charge density, outer radius b at -lambda, grounded): field between them from Gauss's law is E = lambda/(2 pi eps0 r); V = -integral[b to a] E.dr = lambda/(2 pi eps0) * ln(b/a); with lambda = Q/L, this gives C = Q/V = 2 pi eps0 L / ln(b/a)",
+      "transcript_span": null,
+      "frame_path": "data/lectures/leph102/1TrDZWeix3GdDpPueABpS9p1ndSs7UTnh/frames/floor_000096.jpg",
+      "ncert_section": null,
+      "ncert_agreement": null
+    }
+  ],
+  "uncertain_spans": [
+    {
+      "start_seconds": 1060.0,
+      "end_seconds": 1926.13,
+      "reason": "This is the most severe transcript failure found in this chapter so far. Board frames show the isolated-sphere derivation is essentially complete by t=1060s (floor_000054); by t=1220s (floor_000062) the board has already moved on to a NEW page titled 'capacitance of a spherical capacitor' with a two-conductor Gaussian-surface diagram; by t=1440s (floor_000073) that derivation is fully worked out to a boxed capacitance formula; by t=1700s (floor_000086) a further new page 'capacitance of a cylindrical capacitor' has begun; and by t=1900s (floor_000096, just 26s before the lecture's true end) that derivation too is complete with a boxed final formula -- exactly the two topics ('spherical, cylindrical') named in this lecture's own filename. The ASR transcript, however, does not follow any of this: from roughly t=1092s to t=1866s it transcribes the SAME 'isolated spherical conductor' derivation (including the identical Earth/711-microfarad example, down to near-identical sentence wording) TWICE in a row, then cuts off mid-sentence at t=1925s ('And say this is the second sphere, okay, surrounding it') just as it appears to begin the topic the board had already finished twenty minutes of board-time earlier. Automated coverage checks did not flag this: the repeated block is not adjacent-duplicate text (a few short transitional segments separate the two copies) so the repetition-loop detector missed it, and the final timestamp lands within the true duration so the duration-fabrication check also passed. The two capacitor-formula claims above (spherical and cylindrical) are grounded entirely from board frames, with no transcript corroboration at all."
+    }
+  ],
+  "ncert_sections_covered": [
+    "2.11"
+  ],
+  "frame_paths": [
+    "data/lectures/leph102/1TrDZWeix3GdDpPueABpS9p1ndSs7UTnh/frames/floor_000001.jpg",
+    "data/lectures/leph102/1TrDZWeix3GdDpPueABpS9p1ndSs7UTnh/frames/floor_000006.jpg",
+    "data/lectures/leph102/1TrDZWeix3GdDpPueABpS9p1ndSs7UTnh/frames/floor_000010.jpg",
+    "data/lectures/leph102/1TrDZWeix3GdDpPueABpS9p1ndSs7UTnh/frames/floor_000012.jpg",
+    "data/lectures/leph102/1TrDZWeix3GdDpPueABpS9p1ndSs7UTnh/frames/floor_000016.jpg",
+    "data/lectures/leph102/1TrDZWeix3GdDpPueABpS9p1ndSs7UTnh/frames/floor_000017.jpg",
+    "data/lectures/leph102/1TrDZWeix3GdDpPueABpS9p1ndSs7UTnh/frames/floor_000029.jpg",
+    "data/lectures/leph102/1TrDZWeix3GdDpPueABpS9p1ndSs7UTnh/frames/floor_000038.jpg",
+    "data/lectures/leph102/1TrDZWeix3GdDpPueABpS9p1ndSs7UTnh/frames/floor_000045.jpg",
+    "data/lectures/leph102/1TrDZWeix3GdDpPueABpS9p1ndSs7UTnh/frames/floor_000048.jpg",
+    "data/lectures/leph102/1TrDZWeix3GdDpPueABpS9p1ndSs7UTnh/frames/floor_000049.jpg",
+    "data/lectures/leph102/1TrDZWeix3GdDpPueABpS9p1ndSs7UTnh/frames/floor_000050.jpg",
+    "data/lectures/leph102/1TrDZWeix3GdDpPueABpS9p1ndSs7UTnh/frames/floor_000054.jpg",
+    "data/lectures/leph102/1TrDZWeix3GdDpPueABpS9p1ndSs7UTnh/frames/floor_000057.jpg",
+    "data/lectures/leph102/1TrDZWeix3GdDpPueABpS9p1ndSs7UTnh/frames/floor_000059.jpg",
+    "data/lectures/leph102/1TrDZWeix3GdDpPueABpS9p1ndSs7UTnh/frames/floor_000062.jpg",
+    "data/lectures/leph102/1TrDZWeix3GdDpPueABpS9p1ndSs7UTnh/frames/floor_000073.jpg",
+    "data/lectures/leph102/1TrDZWeix3GdDpPueABpS9p1ndSs7UTnh/frames/floor_000076.jpg",
+    "data/lectures/leph102/1TrDZWeix3GdDpPueABpS9p1ndSs7UTnh/frames/floor_000079.jpg",
+    "data/lectures/leph102/1TrDZWeix3GdDpPueABpS9p1ndSs7UTnh/frames/floor_000081.jpg",
+    "data/lectures/leph102/1TrDZWeix3GdDpPueABpS9p1ndSs7UTnh/frames/floor_000086.jpg",
+    "data/lectures/leph102/1TrDZWeix3GdDpPueABpS9p1ndSs7UTnh/frames/floor_000094.jpg",
+    "data/lectures/leph102/1TrDZWeix3GdDpPueABpS9p1ndSs7UTnh/frames/floor_000096.jpg"
+  ],
+  "markdown_body": "## Capacitors and capacitance (NCERT 2.11)\n\n### Capacitance of a conductor\nAs charge $Q$ on a conductor increases, its potential $V$ rises proportionally: $Q \\propto V$, so\n$$Q = CV$$\nwhere $C$, the **capacitance**, is a constant depending only on the conductor's geometry (independent of $Q$ and $V$ themselves). On a $Q$–$V$ graph this is a straight line through the origin; its slope gives $C$.\n\n**Unit:** $1~\\text{farad} = 1~\\text{coulomb/volt}$ (named for Faraday). **Worked example:** $Q = 10~\\mu\\text{C}$ raising the potential by $2.5$ V gives $C = Q/V = 4\\times10^{-6}$ F.\n\n### Why two plates, not one\nA single charged plate's potential rises so much (for a modest amount of charge) that the surrounding air can ionise and charge starts leaking away. Bringing a second, **grounded** plate close by induces opposite charge on it, which sharply lowers the first plate's potential for the *same* stored charge — allowing far more charge to be stored before breakdown. A **capacitor** is this pair of two neighbouring conductors carrying equal and opposite charge. Common shapes: parallel-plate, spherical, and cylindrical (coaxial) capacitors.\n\n### What capacitance depends on\n$C$ does **not** depend on $Q$ or $V$ individually (only their ratio) — it depends purely on **geometry**: plate area (directly proportional), separation $d$ (inversely proportional), and the medium between the plates (increases with dielectric constant $K$). For a parallel plate capacitor, $C = K\\varepsilon_0 A/d$ (stated here; derived from first principles in a later lecture).\n\n### Capacitance of an isolated spherical conductor\nA single charged sphere (charge $Q$, radius $R$), with the \"other plate\" taken at infinity:\n$$V = V_A - V_B = \\frac{Q}{4\\pi\\varepsilon_0 R} - 0 \\quad\\Rightarrow\\quad C = \\frac{Q}{V} = 4\\pi\\varepsilon_0 R \\;\\;(\\text{or } 4\\pi\\varepsilon_0 KR \\text{ with a dielectric of constant } K)$$\nSo $C \\propto R$. **Worked example:** modelling Earth as a spherical conductor of radius $6400$ km gives $C_\\text{Earth} \\approx 711~\\mu\\text{F}$.\n\n### Capacitance of a spherical capacitor\nTwo concentric spherical conductors: inner sphere charge $+Q$ at radius $r_1$, outer shell $-Q$ (grounded) at radius $r_2$. Using a Gaussian surface at radius $r$ between them ($E = \\frac{1}{4\\pi\\varepsilon_0}\\frac{Q}{r^2}$ in that region only):\n$$V = -\\int_{r_1}^{r_2}\\vec E\\cdot d\\vec r = \\frac{Q}{4\\pi\\varepsilon_0}\\left(\\frac{1}{r_1}-\\frac{1}{r_2}\\right) = \\frac{Q}{4\\pi\\varepsilon_0}\\frac{r_2-r_1}{r_1 r_2}$$\n$$\\boxed{C = \\frac{Q}{V} = \\frac{4\\pi\\varepsilon_0\\, r_1 r_2}{r_2-r_1}}$$\n\n### Capacitance of a cylindrical capacitor\nTwo coaxial cylinders of length $L$: inner radius $a$ carrying linear charge density $+\\lambda$, outer radius $b$ carrying $-\\lambda$ (grounded). Between them, Gauss's law gives $E = \\dfrac{\\lambda}{2\\pi\\varepsilon_0 r}$:\n$$V = -\\int_b^a \\vec E\\cdot d\\vec r = \\frac{\\lambda}{2\\pi\\varepsilon_0}\\ln\\!\\left(\\frac{b}{a}\\right)$$\nWith $\\lambda = Q/L$:\n$$\\boxed{C = \\frac{Q}{V} = \\frac{2\\pi\\varepsilon_0 L}{\\ln(b/a)}}$$\n\n---\n*Note on this lecture's transcript:* the two derivations above (spherical capacitor, cylindrical capacitor) are grounded entirely in board frames -- the transcript itself does not contain them at all; see the flagged span below for what happened instead. Also note: NCERT's core text (Section 2.11) covers capacitance of a single (isolated) conductor and states the general definition, but does not itself carry closed-form spherical/cylindrical capacitor derivations -- these two results are standard board/exam extensions beyond the strict textbook section, not verified against an NCERT-stated formula, though they follow directly from the same first principles ($V=-\\int\\vec E\\cdot d\\vec l$, Gauss's law) taught earlier in the chapter.\n"
+}
