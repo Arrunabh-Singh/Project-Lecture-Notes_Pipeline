@@ -1,0 +1,87 @@
+\\TEXTBOOKS\\RATIONALISED 20222-23\\Neha\\12089 — Physics Part-1\\1 Source Files\\Chapter-5\\Chapter 5.pmd
+
+Physics Chapter Five MAGNETISM AND MATTER
+
+136
+
+5.1 INTRODUCTION
+
+Magnetic phenomena are universal in nature. Vast, distant galaxies, the tiny invisible atoms, humans and beasts all are permeated through and through with a host of magnetic fields from a variety of sources. The earth’s magnetism predates human evolution. The word magnet is derived from the name of an island in Greece called magnesia where magnetic ore deposits were found, as early as 600 BC.
+
+In the previous chapter we have learned that moving charges or electric currents produce magnetic fields. This discovery, which was made in the early part of the nineteenth century is credited to Oersted, Ampere, Biot and Savart, among others.
+
+In the present chapter, we take a look at magnetism as a subject in its own right.
+
+Some of the commonly known ideas regarding magnetism are: (i) The earth behaves as a magnet with the magnetic field pointing
+
+approximately from the geographic south to the north. (ii) When a bar magnet is freely suspended, it points in the north-south direction. The tip which points to the geographic north is called the north pole and the tip which points to the geographic south is called the south pole of the magnet.
+
+Reprint 2026-27
+
+Magnetism and Matter
+
+(iii) There is a repulsive force when north poles ( or south poles ) of two magnets are brought close together. Conversely, there is an attractive force between the north pole of one magnet and the south pole of the other. (iv) We cannot isolate the north, or south pole of a magnet. If a bar magnet is broken into two halves, we get two similar bar magnets with somewhat weaker properties. Unlike electric charges, isolated magnetic north and south poles known as magnetic monopoles do not exist. (v) It is possible to make magnets out of iron and its alloys.
+
+We begin with a description of a bar magnet and its behaviour in an external magnetic field. We describe Gauss’s law of magnetism. We next describe how materials can be classified on the basis of their magnetic properties. We describe para-, dia-, and ferromagnetism.
+
+5.2 THE BAR MAGNET
+
+5.2.1 The magnetic field lines
+
+5.2.2 Bar magnet as an equivalent solenoid
+
+B = µ0 4π 2m r3 (5.1)
+
+5.2.3 The dipole in a uniform magnetic field
+
+τ = m × B (5.2)
+Um = –m.B (5.3)
+
+5.2.4 The electrostatic analog
+
+B = − µ0 m/4π r3 (equatorial, Eq 5.4)
+BA = µ0 2m/4π r3 (axial, Eq 5.5)
+
+5.3 MAGNETISM AND GAUSS’S LAW
+
+The net magnetic flux through any closed surface is zero. (Eq 5.6)
+
+5.4 MAGNETISATION AND MAGNETIC INTENSITY
+
+M = mnet/V (5.7)
+B0 = µ0 nI (5.8)
+B = B0 + Bm (5.9)
+Bm = μ0M (5.10)
+H = B/µ0 – M (5.11)
+B = μ0 (H + M) (5.12)
+M = χ H (5.13) — χ is magnetic susceptibility
+B = µ0(1 + χ) H = μ0 μr H = μH (5.14)/(5.15), μr = 1 + χ (relative permeability)
+
+5.5 MAGNETIC PROPERTIES OF MATERIALS
+
+5.5.1 Diamagnetism — χ negative, examples: bismuth, copper, lead, silicon, nitrogen (STP), water, sodium chloride. Superconductors: perfect diamagnets, χ = –1, μr = 0 (Meissner effect).
+5.5.2 Paramagnetism — χ small positive, examples: aluminium, sodium, calcium, oxygen (STP), copper chloride.
+5.5.3 Ferromagnetism — χ large positive, examples: iron, cobalt, nickel, gadolinium. Domains ~1mm, ~10^11 atoms. Hard vs soft ferromagnets (Alnico vs soft iron).
+
+SUMMARY
+1. Magnetic poles cannot be isolated (no monopoles).
+2. Bar magnet in uniform field B: force zero, torque m×B, PE = –m.B.
+3. Bar magnet field: axial B=μ0m/2πr³, equatorial B=–μ0m/4πr³ (r>>l).
+4. Gauss's law for magnetism: net flux through closed surface = 0.
+5. Magnetic intensity H = B/μ0 – M.
+6. Linear material: M=χH, B=μH, μ=μ0μr, μr=1+χ.
+7. Classification: diamagnetic (χ<0 small), paramagnetic (χ>0 small), ferromagnetic (χ>>1).
+8. Permanent magnets retain ferromagnetism at room temperature.
+
+POINTS TO PONDER
+1. Scientific understanding of magnetism (moving charges) postdates technological use of magnets by ~2000 years.
+2. Magnetic monopoles do not exist; charge is quantised (e = 1.6e-19 C), reason unknown.
+3. Magnetic field lines are continuous closed loops (no monopoles); electrostatic lines begin/end on charges.
+4. χ = –1e-5 (diamagnetic) vs +1e-5 (paramagnetic) — tiny difference, radically different behaviour.
+5. Superconductor: perfect diamagnet AND perfect conductor (BCS theory, Bardeen-Cooper-Schrieffer, 1957, Nobel 1970).
+6. Diamagnetism is universal but weak, masked by para/ferromagnetism.
+7. Other types exist: ferrimagnetic, anti-ferromagnetic, spin glass.
+
+EXERCISES (5.1–5.7): torque/magnetic moment of bar magnet in field; stable/unstable equilibrium and PE; solenoid as bar magnet, magnetic moment; torque on suspended solenoid; work to reorient magnet; force/torque on suspended solenoid in horizontal field; field of bar magnet on axis and equatorial line.
+
+Key named scientists: Oersted, Ampere, Biot, Savart, Karl Friedrich Gauss (1777-1855, first electric telegraph 1833 w/ Wilhelm Weber).

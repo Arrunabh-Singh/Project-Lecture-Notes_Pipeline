@@ -1,0 +1,69 @@
+{
+  "chapter_id": "leph106",
+  "chapter_number": 6,
+  "title": "Electromagnetic Induction",
+  "fidelity": "condensed_summary",
+  "lecture_folder": "Ch6 EMI",
+  "source_note": "NCERT Class 12 Physics Part I, Reprint 2026-27 (RATIONALISED 2022-23) -- current CBSE syllabus. Equations NOT reliable in this extraction; use board frames as the equation source of truth.",
+  "sections": [
+    {
+      "number": "6.1",
+      "heading": "Introduction"
+    },
+    {
+      "number": "6.2",
+      "heading": "The Experiments Of Faraday And Henry"
+    },
+    {
+      "number": "6.3",
+      "heading": "Magnetic Flux"
+    },
+    {
+      "number": "6.6",
+      "heading": "Motional Electromotive Force"
+    },
+    {
+      "number": "6.7",
+      "heading": "Inductance"
+    },
+    {
+      "number": "6.8",
+      "heading": "Ac Generator"
+    }
+  ],
+  "scientists": [
+    {
+      "name": "Michael Faraday",
+      "years": "1791–1867"
+    },
+    {
+      "name": "Heinrich Friedrich Lenz",
+      "years": "1804–1865"
+    }
+  ],
+  "lexicon": [
+    "Ac Generator",
+    "Electromotive",
+    "Experiments",
+    "Faraday",
+    "Flux",
+    "Force",
+    "Generator",
+    "Heinrich Friedrich",
+    "Heinrich Friedrich Lenz",
+    "Henry",
+    "Inductance",
+    "Introduction",
+    "Joseph Henry",
+    "Magnetic",
+    "Magnetic Flux",
+    "Michael Faraday",
+    "Motional",
+    "Motional Electromotive Force",
+    "Nicola Tesla"
+  ],
+  "summary": "1. ΦB = B.A = BA cos θ\n2. ε = –N dΦB/dt (Faraday's law)\n3. Lenz's law: induced emf opposes flux change (energy conservation)\n4. Motional emf: ε = Blv\n5. Inductance = flux-linkage/current = NΦ/I\n6. Mutual inductance: ε1 = –M12 dI2/dt, M12 = M21\n7. Self-inductance: ε = –L dI/dt\n8. Long solenoid: L = μr μ0 n² A l\n9. AC generator: ε = NBA(2πν) sin(2πνt)",
+  "points_to_ponder": "1. Oersted/Ampere (moving charge→field) then Faraday/Henry ~1830 (moving magnet→current) — deep symmetry.\n2. Induced currents oppose flux change per energy conservation (closed circuit); open circuit induces emf across ends.\n3. Motional emf explainable via Lorentz force (moving charge) OR via time-varying B inducing E even for stationary charge — hints at relativity principle relevance to Faraday's law.",
+  "exercises": "(6.1-6.8): direction of induced current (Lenz's law) in various geometries; solenoid+loop emf calc; rectangular loop emf on exit from field; rotating rod emf; falling horizontal wire emf; self-inductance from current-change/emf data; mutual inductance flux-linkage change.\n\nNamed scientists: Michael Faraday, Joseph Henry (1797-1878, Princeton, Smithsonian first director, electromagnet improvements, electromagnetic motor, self-induction discovery), Heinrich Friedrich Lenz, Nicola Tesla.",
+  "raw_char_count": 3788
+}

@@ -1,0 +1,5 @@
+requests>=2.31
+imageio-ffmpeg>=0.6
+pillow>=10
+imagehash>=4.3
+yt-dlp>=2024.1

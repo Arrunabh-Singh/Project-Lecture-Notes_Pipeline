@@ -1,0 +1,65 @@
+{
+  "chapter_id": "leph103",
+  "chapter_number": 3,
+  "title": "Current Electricity",
+  "fidelity": "full_raw_extract",
+  "lecture_folder": "Ch3 electricity",
+  "source_note": "NCERT Class 12 Physics Part I, Reprint 2026-27 (RATIONALISED 2022-23) -- current CBSE syllabus. Equations NOT reliable in this extraction; use board frames as the equation source of truth.",
+  "sections": [
+    {
+      "number": "3.1",
+      "heading": "Introduction"
+    },
+    {
+      "number": "3.5",
+      "heading": "Drift Of Electrons And The Origin"
+    },
+    {
+      "number": "3.8",
+      "heading": "Temperature Dependence Of Resistivity"
+    },
+    {
+      "number": "3.9",
+      "heading": "Electrical Energy, Power"
+    },
+    {
+      "number": "3.13",
+      "heading": "Wheatstone Bridge"
+    }
+  ],
+  "scientists": [
+    {
+      "name": "Georg Simon Ohm",
+      "years": "1787–1854"
+    },
+    {
+      "name": "Gustav Robert Kirchhoff",
+      "years": "1824–1887"
+    }
+  ],
+  "lexicon": [
+    "Bridge",
+    "Combining Eqs",
+    "Current Electricity",
+    "Dependence",
+    "Drift",
+    "Electrical",
+    "Electrical Energy, Power",
+    "Electrons",
+    "Energy",
+    "Georg Simon Ohm",
+    "Gustav Robert Kirchhoff",
+    "Introduction",
+    "Origin",
+    "Power",
+    "Resistivity",
+    "Temperature",
+    "Temperature Dependence Of Resistivity",
+    "Wheatstone",
+    "Wheatstone Bridge"
+  ],
+  "summary": "1\\. Current through a given area of a conductor is the net charge passing\n\nper unit time through the area. 2. To maintain a steady current, we must have a closed circuit in which an external agency moves electric charge from lower to higher potential energy. The work done per unit charge by the source in taking the charge from lower to higher potential energy (i.e., from one terminal of the source to the other) is called the electromotive force, or emf, of the source. Note that the emf is not a force; it is the voltage difference between the two terminals of a source in open circuit. 3. Ohm’s law: The electric current I flowing through a substance is proportional to the voltage V across its ends, i.e., V ∝ I or V = RI, where R is called the resistance of the substance. The unit of resistance is ohm: 1Ω = 1 V A–1.\n\nReprint 2026-27\n\nCurrent Electricity\n\n4\\. The resistance R of a conductor depends on its length l and\n\ncross-sectional area A through the relation,\n\nR = ρ Al where ρ, called resistivity is a property of the material and depends on temperature and pressure. 5. Electrical resistivity of substances varies over a very wide range. Metals have low resistivity, in the range of 10–8 Ω m to 10–6 Ω m. Insulators like glass and rubber have 1022 to 1024 times greater resistivity. Semiconductors like Si and Ge lie roughly in the middle range of resistivity on a logarithmic scale. 6. In most substances, the carriers of current are electrons; in some cases, for example, ionic crystals and electrolytic liquids, positive and negative ions carry the electric current. 7. Current density j gives the amount of charge flowing per second per\n\nunit area normal to the flow, j = nq vd where n is the number density (number per unit volume) of charge carriers each of charge q, and carriers. For electrons q = – e. If 103 vj d is is normal the drift velocity of the charge to a cross-sectional area A and is constant over the area, the magnitude of the current I through the area is nevd A. 8. Using E = V/l, I = nevd A, and Ohm’s law, one obtains\n\neE m =\n\nρ ne m 2 v d The proportionality between the force eE on the electrons in a metal due can be to the understood, external field if we E assume and the that drift the velocity electrons vd (not suffer acceleration) collisions with ions in the metal, which deflect them randomly. If such collisions occur on an average at a time interval τ, vd = aτ = eEτ/m where a is the acceleration of the electron. This gives\n\nρ = ne m2τ 9. In the temperature range in which resistivity increases linearly with temperature, the temperature coefficient of resistivity α is defined as the fractional increase in resistivity per unit increase in temperature. 10. Ohm’s law is obeyed by many substances, but it is not a fundamental\n\nlaw of nature. It fails if (a) V depends on I non-linearly. (b) the relation between V and I depends on the sign of V for the same\n\nabsolute value of V. (c) The relation between V and I is non-unique. An example of (a) is when ρ increases with I (even if temperature is kept fixed). A rectifier combines features (a) and (b). GaAs shows the feature (c). 11. When a source of emf ε is connected to an external resistance R, the\n\nvoltage Vext across R is given by Vext = IR = R ε+\n\nr R where r is the internal resistance of the source.\n\nReprint 2026-27\n\nPhysics\n\nPhysical Quantity Symbol Dimensions Unit Remark\n\nElectric current I \\[A\\] A SI base unit\n\nCharge Q, q \\[T A\\] C\n\nVoltage, Electric V \\[M L2 T–3 A–1\\] V Work/charge potential difference\n\nElectromotive force ε \\[M L2 T –3 A–1\\] V Work/charge\n\nResistance R \\[M L2 T –3 A–2\\] Ω R = V/I\n\nResistivity ρ \\[M L3 T –3 A–2\\] Ω m R = ρl/A\n\nElectrical σ \\[M –1 L–3 T3 A2\\] S σ = 1/ρ conductivity\n\nElectric field E \\[M L T –3 A–1\\] V m–1 Electric force\n\ncharge Drift speed vd \\[L T –1\\] m s–1 vd 10412. Kirchhoff’s Rules –\n\n(a) Junction Rule: At any junction of circuit elements, the sum of currents entering the junction must equal the sum of currents leaving it. (b) Loop Rule: The algebraic sum of changes in potential around any\n\nclosed loop must be zero. 13. The R3, Wheatstone R4 as bridge shown in is an arrangement of four resistances the text. The null-point condition is given – Rby\n\n1, R2,\n\nRR1R 2 = R 3 4using which the value of one resistance can be determined, knowing the other three resistances.\n\n\\= e m Eτ\n\nRelaxation time τ \\[T\\] s\n\nCurrent density j \\[L–2 A\\] A m–2 current/area\n\nMobility μ \\[M–1 L0 T 2 A\\] m 2 V–1s –1 v d/ E",
+  "points_to_ponder": "1\\. Current is a scalar although we represent current with an arrow. Currents do not obey the law of vector addition. That current is a scalar also follows from it’s definition. The current I through an area of cross-section is given by the scalar product of two vectors: I = j . ∆S where j and ∆S are vectors.\n\nReprint 2026-27\n\nCurrent Electricity\n\n2\\. Refer to V-I curves of a resistor and a diode as drawn in the text. A resistor obeys Ohm’s law while a diode does not. The assertion that V = IR is a statement of Ohm’s law is not true. This equation defines resistance and it may be applied to all conducting devices whether they obey Ohm’s law or not. The Ohm’s law asserts that the plot of I versus V is linear i.e., R is independent of V. Equation E = ρ j leads to another statement of Ohm’s law, i.e., a conducting material obeys Ohm’s law when the resistivity of the material does not depend on the magnitude and direction of applied electric field. 3. Homogeneous conductors like silver or semiconductors like pure germanium or germanium containing impurities obey Ohm’s law within some range of electric field values. If the field becomes too strong, there are departures from Ohm’s law in all cases. 4. Motion of conduction electrons in electric field E is the sum of (i) motion due to random collisions and (ii) that due to E. The motion due to random collisions averages to zero and does not contribute to velectric d (Chapter field 10, on Textbook the electron.\n\nof Class XI). vd , thus is only due to applied\n\n5\\. The relation j = ρ v should be applied to each type of charge carriers separately. In a conducting wire, the total current and charge density arises from both positive and negative charges: j = ρ+ v+ + ρ– v– ρ = ρ+ + ρ– Now in a neutral wire carrying electric current, ρ+ = – ρ– Further, v+ \\~ 0 which gives ρ = 0 j = ρ– v Thus, the relation j = ρ v does not apply to the total current charge density. 6. Kirchhoff’s junction rule is based on conservation of charge and the outgoing currents add up and are equal to incoming current at a junction. Bending or reorienting the wire does not change the validity of Kirchhoff’s junction rule.",
+  "exercises": "3.1 The storage battery of a car has an emf of 12 V. If the internal resistance of the battery is 0.4 Ω, what is the maximum current that can be drawn from the battery? 3.2 A battery of emf 10 V and internal resistance 3 Ω is connected to a resistor. If the current in the circuit is 0.5 A, what is the resistance of the resistor? What is the terminal voltage of the battery when the circuit is closed? 3.3 At room temperature (27.0 °C) the resistance of a heating element is 100 Ω. What is the temperature of the element if the resistance is found to be 117 Ω, given that the temperature coefficient of the material of the resistor is 1.70 × 10–4 °C–1.\n\n105\n\nReprint 2026-27\n\nPhysics\n\n106\n\n3.4 A negligibly small current is passed through a wire of length 15 m and uniform cross-section 6.0 × 10–7 m2, and its resistance is measured to be 5.0 Ω. What is the resistivity of the material at the temperature of the experiment? 3.5 A silver wire has a resistance of 2.1 Ω at 27.5 °C, and a resistance of 2.7 Ω at 100 °C. Determine the temperature coefficient of resistivity of silver. 3.6 A heating element using nichrome connected to a 230 V supply draws an initial current of 3.2 A which settles after a few seconds to a steady value of 2.8 A. What is the steady temperature of the heating element if the room temperature is 27.0 °C? Temperature coefficient of resistance of nichrome averaged over the temperature range involved is 1.70 × 10–4 °C–1. 3.7 Determine the current in each branch of the network shown in\n\nFig. 3.20:\n\nFIGURE 3.20\n\n3.8 A storage battery of emf 8.0 V and internal resistance 0.5 Ω is being charged by a 120 V dc supply using a series resistor of 15.5 Ω. What is the terminal voltage of the battery during charging? What is the purpose of having a series resistor in the charging circuit? 3.9 The number density of free electrons in a copper conductor estimated in Example 3.1 is 8.5 × 1028 m–3. How long does an electron take to drift from one end of a wire 3.0 m long to its other end? The area of cross-section of the wire is 2.0 × 10–6 m2 and it is carrying a current of 3.0 A.\n\nReprint 2026-27",
+  "raw_char_count": 56806
+}

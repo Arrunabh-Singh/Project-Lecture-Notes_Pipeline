@@ -1,0 +1,43 @@
+{
+  "chapter_id": "leph105",
+  "chapter_number": 5,
+  "title": "Magnetism and Matter",
+  "fidelity": "condensed_summary",
+  "lecture_folder": "Ch5 matter and magnetism",
+  "source_note": "NCERT Class 12 Physics Part I, Reprint 2026-27 (RATIONALISED 2022-23) -- current CBSE syllabus. Equations NOT reliable in this extraction; use board frames as the equation source of truth.",
+  "sections": [
+    {
+      "number": "5.1",
+      "heading": "Introduction"
+    },
+    {
+      "number": "5.2",
+      "heading": "The Bar Magnet"
+    },
+    {
+      "number": "5.4",
+      "heading": "Magnetisation And Magnetic Intensity"
+    },
+    {
+      "number": "5.5",
+      "heading": "Magnetic Properties Of Materials"
+    }
+  ],
+  "scientists": [],
+  "lexicon": [
+    "Intensity",
+    "Introduction",
+    "Magnet",
+    "Magnetic",
+    "Magnetic Properties Of Materials",
+    "Magnetisation",
+    "Magnetisation And Magnetic Intensity",
+    "Materials",
+    "Properties",
+    "The Bar Magnet"
+  ],
+  "summary": "1. Magnetic poles cannot be isolated (no monopoles).\n2. Bar magnet in uniform field B: force zero, torque m×B, PE = –m.B.\n3. Bar magnet field: axial B=μ0m/2πr³, equatorial B=–μ0m/4πr³ (r>>l).\n4. Gauss's law for magnetism: net flux through closed surface = 0.\n5. Magnetic intensity H = B/μ0 – M.\n6. Linear material: M=χH, B=μH, μ=μ0μr, μr=1+χ.\n7. Classification: diamagnetic (χ<0 small), paramagnetic (χ>0 small), ferromagnetic (χ>>1).\n8. Permanent magnets retain ferromagnetism at room temperature.",
+  "points_to_ponder": "1. Scientific understanding of magnetism (moving charges) postdates technological use of magnets by ~2000 years.\n2. Magnetic monopoles do not exist; charge is quantised (e = 1.6e-19 C), reason unknown.\n3. Magnetic field lines are continuous closed loops (no monopoles); electrostatic lines begin/end on charges.\n4. χ = –1e-5 (diamagnetic) vs +1e-5 (paramagnetic) — tiny difference, radically different behaviour.\n5. Superconductor: perfect diamagnet AND perfect conductor (BCS theory, Bardeen-Cooper-Schrieffer, 1957, Nobel 1970).\n6. Diamagnetism is universal but weak, masked by para/ferromagnetism.\n7. Other types exist: ferrimagnetic, anti-ferromagnetic, spin glass.",
+  "exercises": "(5.1–5.7): torque/magnetic moment of bar magnet in field; stable/unstable equilibrium and PE; solenoid as bar magnet, magnetic moment; torque on suspended solenoid; work to reorient magnet; force/torque on suspended solenoid in horizontal field; field of bar magnet on axis and equatorial line.\n\nKey named scientists: Oersted, Ampere, Biot, Savart, Karl Friedrich Gauss (1777-1855, first electric telegraph 1833 w/ Wilhelm Weber).",
+  "raw_char_count": 5008
+}

@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+
+# heavy media -- never committed. NCERT text/JSON under data/ncert/ is small
+# and IS tracked (see data/ncert/raw, data/ncert/processed).
+data/lectures/
+data/cache/
+*.mkv
+*.mp4
+*.wav
+*.mp3
+
+# per-video checkpoint state (regenerable, machine-specific paths)
+state/
