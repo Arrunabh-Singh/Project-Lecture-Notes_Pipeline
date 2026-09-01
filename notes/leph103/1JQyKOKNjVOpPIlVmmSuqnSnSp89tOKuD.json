@@ -1,0 +1,153 @@
+{
+  "file_id": "1JQyKOKNjVOpPIlVmmSuqnSnSp89tOKuD",
+  "chapter_id": "leph103",
+  "title": "Electric Current, Current Density, Drift Velocity and Mobility",
+  "duration_seconds": 1863.2,
+  "claims": [
+    {
+      "text": "Electric current is defined as the charge flowing per second through a cross-sectional area: I = Q/t, or in differential (instantaneous) form I = dQ/dt.",
+      "transcript_span": [
+        59,
+        241
+      ],
+      "frame_path": "data/lectures/leph103/1JQyKOKNjVOpPIlVmmSuqnSnSp89tOKuD/frames/floor_000019.jpg",
+      "ncert_section": "3.2",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "SI unit of current is the ampere: 1 A = 1 C/1 s. A current of 1 A means 1 coulomb of charge crosses a given cross-section in 1 second.",
+      "transcript_span": [
+        385,
+        444
+      ],
+      "frame_path": "data/lectures/leph103/1JQyKOKNjVOpPIlVmmSuqnSnSp89tOKuD/frames/floor_000019.jpg",
+      "ncert_section": "3.2",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Current is a scalar quantity, even though it is drawn with an arrow to indicate direction, because it does not obey the law of vector addition -- current through a wire is unchanged whether the wire runs straight or is curved/bent.",
+      "transcript_span": [
+        241,
+        384
+      ],
+      "frame_path": "data/lectures/leph103/1JQyKOKNjVOpPIlVmmSuqnSnSp89tOKuD/frames/floor_000019.jpg",
+      "ncert_section": null,
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Current density (vector, J) is defined as current per unit area, J = I/A, directed along the direction of current flow; for a cross-section tilted at angle theta to the current, the effective area is A cos(theta) so J = I/(A cos theta).",
+      "transcript_span": [
+        444,
+        717
+      ],
+      "frame_path": "data/lectures/leph103/1JQyKOKNjVOpPIlVmmSuqnSnSp89tOKuD/frames/floor_000019.jpg",
+      "ncert_section": "3.4",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "For a conductor of varying cross-section carrying the same current I, current density J is written as a dot product / integral: I = J . A (vector form), and in general I = integral over A of J.dA, since J can vary over the area. Unit of J is A/m^2.",
+      "transcript_span": [
+        817,
+        951
+      ],
+      "frame_path": "data/lectures/leph103/1JQyKOKNjVOpPIlVmmSuqnSnSp89tOKuD/frames/floor_000035.jpg",
+      "ncert_section": "3.4",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "In the absence of an applied field, free electrons in a conductor move randomly with a thermal speed set by kinetic theory: (1/2)mv^2 = (3/2)kT, so v = sqrt(3kT/m); at room temperature this works out to about 10^5 m/s.",
+      "transcript_span": [
+        1019,
+        1244
+      ],
+      "frame_path": "data/lectures/leph103/1JQyKOKNjVOpPIlVmmSuqnSnSp89tOKuD/frames/floor_000035.jpg",
+      "ncert_section": "3.5",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Because the N free electrons' thermal velocities are randomly oriented, their vector average is zero: (u1 + u2 + ... + uN)/N = 0, so despite the very high thermal speed there is no net current in the absence of an electric field.",
+      "transcript_span": [
+        1272,
+        1396
+      ],
+      "frame_path": "data/lectures/leph103/1JQyKOKNjVOpPIlVmmSuqnSnSp89tOKuD/frames/floor_000050.jpg",
+      "ncert_section": "3.5",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "The direction of current is taken opposite to the direction of electron motion: when the field drives electrons toward the positive terminal, the conventional current flows the other way.",
+      "transcript_span": [
+        1478,
+        1561
+      ],
+      "frame_path": "data/lectures/leph103/1JQyKOKNjVOpPIlVmmSuqnSnSp89tOKuD/frames/floor_000050.jpg",
+      "ncert_section": "3.3",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "When an external electric field E is applied, it exerts a force F = -eE on each electron (opposite to E since the electron's charge is negative); by Newton's second law F = ma, this gives acceleration a = -eE/m.",
+      "transcript_span": [
+        1619,
+        1851
+      ],
+      "frame_path": "data/lectures/leph103/1JQyKOKNjVOpPIlVmmSuqnSnSp89tOKuD/frames/floor_000050.jpg",
+      "ncert_section": "3.5",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Averaging the velocity gained since each electron's last collision over the average collision (relaxation) time tau gives the drift velocity: vd = a*tau = -(eE/m)*tau. The board also gives a numeric estimate of drift speed, vd of order 1 mm/s -- roughly 10^-8 times the thermal speed.",
+      "transcript_span": null,
+      "frame_path": "data/lectures/leph103/1JQyKOKNjVOpPIlVmmSuqnSnSp89tOKuD/frames/floor_000063.jpg",
+      "ncert_section": "3.5",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Mobility (mu), a scalar, is defined as the magnitude of drift velocity per unit electric field: mu = vd/E. Substituting vd = eE*tau/m gives mu = e*tau/m.",
+      "transcript_span": null,
+      "frame_path": "data/lectures/leph103/1JQyKOKNjVOpPIlVmmSuqnSnSp89tOKuD/frames/floor_000088.jpg",
+      "ncert_section": "3.5.1",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Mobility is independent of the applied field E (it depends only on e, m and the relaxation time tau). Since tau falls as temperature rises (more frequent collisions), mobility mu also falls with rising temperature.",
+      "transcript_span": null,
+      "frame_path": "data/lectures/leph103/1JQyKOKNjVOpPIlVmmSuqnSnSp89tOKuD/frames/floor_000090.jpg",
+      "ncert_section": "3.5.1",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Current density in terms of mobility: J = -n*e*vd = n*e*mu*E, tying current density directly to the number density of free electrons n, the electron charge e, and mobility mu.",
+      "transcript_span": null,
+      "frame_path": "data/lectures/leph103/1JQyKOKNjVOpPIlVmmSuqnSnSp89tOKuD/frames/floor_000093.jpg",
+      "ncert_section": "3.5.1",
+      "ncert_agreement": "agrees"
+    }
+  ],
+  "uncertain_spans": [
+    {
+      "start_seconds": 1851.0,
+      "end_seconds": 1863.2,
+      "reason": "The transcript's final segment (starting 1851s, 'let us suppose there are n electrons...') cuts off mid-sentence right as the teacher begins the formal N-electron derivation of drift velocity (NCERT eq. 3.16-3.17) -- the transcript never verbally states vd = a*tau = -eE*tau/m, the ~1 mm/s numeric estimate, the mobility definition, mu = e*tau/m, or J = n*e*mu*E. This is NOT the delayed-repetition ASR artifact found elsewhere in this chapter: the non-adjacent duplicate scan found 0 flagged pairs across all 65 segments, coverage passes cleanly (ratio 1.02), and every segment from 1396s onward is distinct, coherent, natural classroom speech (direction-of-current, then F=-eE, then Newton's-second-law acceleration) with no verbatim or near-verbatim repeats -- it reads like real audio that simply runs out at the video's true duration, not fabrication or a re-transcription loop. Board frames, however, show this exact content already written well before the transcript catches up: floor_000063 (1240s) has the boxed vd = -eE*tau/m and vd~1mm/s, and floor_000085 (1680s) through floor_000093 (1840s) show a clean incremental build of the mobility section (heading -> ratio definition -> mu=vd/E -> mu=e*tau/m boxed -> mu independent of E, temperature dependence -> J=neuE) -- a genuine progression, not an out-of-place page, and a direct continuation of the derivation the transcript was mid-way through narrating. The teacher appears to have written ahead of his own narration for this final stretch; all claims above with transcript_span=None are grounded from these frames alone."
+    }
+  ],
+  "ncert_sections_covered": [
+    "3.2",
+    "3.3",
+    "3.4",
+    "3.5",
+    "3.5.1"
+  ],
+  "frame_paths": [
+    "data/lectures/leph103/1JQyKOKNjVOpPIlVmmSuqnSnSp89tOKuD/frames/floor_000010.jpg",
+    "data/lectures/leph103/1JQyKOKNjVOpPIlVmmSuqnSnSp89tOKuD/frames/floor_000019.jpg",
+    "data/lectures/leph103/1JQyKOKNjVOpPIlVmmSuqnSnSp89tOKuD/frames/floor_000035.jpg",
+    "data/lectures/leph103/1JQyKOKNjVOpPIlVmmSuqnSnSp89tOKuD/frames/floor_000050.jpg",
+    "data/lectures/leph103/1JQyKOKNjVOpPIlVmmSuqnSnSp89tOKuD/frames/floor_000063.jpg",
+    "data/lectures/leph103/1JQyKOKNjVOpPIlVmmSuqnSnSp89tOKuD/frames/floor_000085.jpg",
+    "data/lectures/leph103/1JQyKOKNjVOpPIlVmmSuqnSnSp89tOKuD/frames/floor_000086.jpg",
+    "data/lectures/leph103/1JQyKOKNjVOpPIlVmmSuqnSnSp89tOKuD/frames/floor_000088.jpg",
+    "data/lectures/leph103/1JQyKOKNjVOpPIlVmmSuqnSnSp89tOKuD/frames/floor_000090.jpg",
+    "data/lectures/leph103/1JQyKOKNjVOpPIlVmmSuqnSnSp89tOKuD/frames/floor_000093.jpg"
+  ],
+  "markdown_body": "## Electric current (NCERT 3.2)\n\nCurrent is defined as the rate of flow of charge through a cross-sectional area:\n$$I = \\frac{Q}{t}, \\qquad I = \\frac{dQ}{dt}\\ \\text{(instantaneous form)}$$\nSI unit: the **ampere** (A), with $1\\text{ A} = 1\\text{ C}/1\\text{ s}$ -- a current of 1 A means 1 coulomb crosses the cross-section every second.\n\n**Current is a scalar**, not a vector, even though it is conventionally drawn with an arrow: it does not obey the law of vector addition. The teacher's example -- current through a wire is the same value $I$ whether the wire runs straight or is bent/curled -- matches NCERT's own point (a curved path would need vector resolution into components if current were a vector, but the measured current is identical regardless of the wire's shape).\n\n## Current density (NCERT 3.4)\n\nCurrent density $\\vec{J}$ is current per unit area, a **vector** directed along the flow of current:\n$$J = \\frac{I}{A}$$\nIf the cross-section is tilted at angle $\\theta$ to the current direction, the effective area is $A\\cos\\theta$, so\n$$J = \\frac{I}{A\\cos\\theta}$$\nFor a conductor whose cross-section changes along its length (same $I$ everywhere by charge conservation, but $A$ -- and hence $J$ -- varies), current density in general varies point to point. Since $\\vec{J}$ and $\\vec{A}$ are both vectors, the relation is written as a dot product, and in integral form (for $J$ non-uniform over the area):\n$$I = \\vec{J}\\cdot\\vec{A}, \\qquad I = \\int_A \\vec{J}\\cdot d\\vec{A}$$\nUnit of current density: $\\text{A/m}^2$.\n\n## Random thermal motion of free electrons (NCERT 3.5, cf. Example 3.1(b))\n\nIn a conductor with no applied field, free electrons move randomly, colliding with fixed ions. Each electron's thermal speed follows from kinetic theory:\n$$\\frac{1}{2}mv^2 = \\frac{3}{2}k_BT \\implies v = \\sqrt{\\frac{3k_BT}{m}}$$\nAt room temperature this comes out to about $10^5\\ \\text{m/s}$ -- very fast, but because the $N$ free electrons' velocities $u_1, u_2, \\ldots, u_N$ are randomly oriented, their vector average is zero:\n$$\\text{average velocity} = \\frac{\\vec{u}_1+\\vec{u}_2+\\cdots+\\vec{u}_N}{N} = 0$$\nSo despite the huge thermal speed, there is **no net current** without an applied field.\n\n## Drift velocity (NCERT 3.5, eq. 3.14-3.17)\n\nSwitching on an electric field $\\vec{E}$ exerts a force on each (negatively charged) electron:\n$$\\vec{F} = -e\\vec{E} \\quad(\\text{opposite to } \\vec{E}), \\qquad \\vec{a} = \\frac{\\vec{F}}{m} = -\\frac{e\\vec{E}}{m}$$\nCurrent direction is conventionally opposite to the direction electrons actually drift. Averaging the velocity gained since each electron's *last collision*, over the average time between collisions (the **relaxation time** $\\tau$), gives the drift velocity:\n$$\\vec{v}_d = \\vec{a}\\tau = -\\frac{e\\vec{E}}{m}\\tau$$\nPlugging in typical numbers gives $v_d \\approx 1\\ \\text{mm/s}$ -- consistent with NCERT's Example 3.1(a) result of $\\approx 1.1\\ \\text{mm/s}$ for a copper wire -- i.e. roughly $10^{-8}$ times the thermal speed, even though it's this tiny drift, not the large thermal motion, that constitutes the current.\n\n## Mobility (NCERT 3.5.1)\n\nMobility $\\mu$ (a scalar) is the magnitude of drift velocity per unit electric field:\n$$\\mu = \\frac{v_d}{E}$$\nSubstituting $v_d = eE\\tau/m$:\n$$\\boxed{\\mu = \\frac{e\\tau}{m}}$$\nMobility is **independent of $E$** -- it depends only on the electron's charge, mass, and the relaxation time $\\tau$. Since $\\tau$ decreases as temperature rises (more frequent collisions), $\\mu$ also decreases with rising temperature. Combining with the earlier current-density relation gives current density directly in terms of mobility:\n$$\\vec{J} = -ne\\vec{v}_d = ne\\mu\\vec{E}$$\n\n---\n*Note on this lecture's transcript:* coverage checks pass cleanly (ratio 1.02, no adjacent-repetition, and the non-adjacent duplicate scan found zero flagged pairs across all 65 segments) -- this lecture does **not** show the delayed-repetition ASR artifact found in some other lectures in this chapter. However, the transcript's own narration runs out about 12 seconds before the video's true end, right as the teacher begins the formal N-electron derivation of drift velocity. The quantitative drift-velocity result ($v_d=a\\tau$, $v_d\\approx1$ mm/s) and the entire mobility section above (definition, boxed formula, temperature dependence, and the final $J=ne\\mu E$ relation) are grounded entirely from board frames, not narration -- the board runs ahead of the spoken explanation for this last stretch. See the flagged span below for exactly which frames and why this reads as \"recording ran out,\" not a fabrication/repetition artifact.\n"
+}
