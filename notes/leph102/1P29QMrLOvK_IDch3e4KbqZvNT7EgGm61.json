@@ -1,13 +1,13 @@
 {
   "file_id": "1P29QMrLOvK_IDch3e4KbqZvNT7EgGm61",
   "chapter_id": "leph102",
-  "title": "The Parallel Plate Capacitor (with and without dielectric)",
+  "title": "Capacitance of a Parallel Plate Capacitor: No Dielectric, Fully Filled, Partially Filled",
   "duration_seconds": 802.67,
   "claims": [
     {
-      "text": "Without dielectric: E = sigma/eps0 = Q/(A eps0) between the plates; V = Ed; C = Q/V = A eps0 / d",
+      "text": "Capacitance of a parallel plate capacitor WITHOUT dielectric (medium = air/vacuum): separation D, plate area A, field between plates E = sigma/eps0 = Q/(A eps0). Since Q=CV and V=ED, we get V=QD/(A eps0), so C = Q/V = A eps0/D",
       "transcript_span": [
-        46.1,
+        12.0,
         169.6
       ],
       "frame_path": null,
@@ -15,7 +15,7 @@
       "ncert_agreement": "agrees"
     },
     {
-      "text": "With dielectric (constant k) completely filling the gap: field inside reduces to E0/k, giving C = k A eps0 / d",
+      "text": "Capacitance of a parallel plate capacitor WITH dielectric completely filling the gap (dielectric constant K): the field inside the dielectric is reduced to E0/K, i.e. E = sigma/(K eps0) = Q/(A K eps0). Following the same C=Q/V route as before, C = K A eps0 / D -- capacitance increases by a factor of K compared to the no-dielectric case",
       "transcript_span": [
         169.6,
         372.5
@@ -25,44 +25,50 @@
       "ncert_agreement": "agrees"
     },
     {
-      "text": "Practical capacitor types that use a dielectric to raise capacitance: paper capacitors, mica capacitors, electrolytic capacitors",
+      "text": "Real capacitor types mentioned: paper capacitors (paper as the insulating/dielectric layer) and electrolytic capacitors, among other dielectric-based constructions",
       "transcript_span": [
         372.5,
         435.8
       ],
       "frame_path": null,
       "ncert_section": "2.13",
-      "ncert_agreement": null
+      "ncert_agreement": "agrees"
     },
     {
-      "text": "Partially filled dielectric (slab of thickness t, constant k, inside gap d): V = (d-t)*sigma/eps0 + t*sigma/(k*eps0), giving C = A eps0 / [(d-t) + t/k]",
+      "text": "Capacitance of a parallel plate capacitor with a dielectric slab of thickness t (< D) PARTIALLY filling the gap (dielectric constant K): field is sigma/eps0 in the air gap (thickness D-t) and sigma/(K eps0) in the dielectric (thickness t). Adding the two potential-drop contributions: V = (Q/A eps0)[(D-t) + t/K], giving C = A eps0 / (D - t + t/K)",
       "transcript_span": [
-        527.8,
+        477.6,
         777.9
       ],
-      "frame_path": "data/lectures/leph102/1P29QMrLOvK_IDch3e4KbqZvNT7EgGm61/frames/floor_000023.jpg",
+      "frame_path": "data/lectures/leph102/1P29QMrLOvK_IDch3e4KbqZvNT7EgGm61/frames/floor_000025.jpg",
       "ncert_section": "2.13",
-      "ncert_agreement": null
+      "ncert_agreement": "agrees"
     },
     {
-      "text": "Generalizes to multiple slabs in series: C = A eps0 / (T1/K1 + T2/K2 + ...), with air treated as a slab of K=1",
+      "text": "General shortcut for multiple dielectric slabs stacked between the plates: C = A eps0 / (t1/K1 + t2/K2 + ...), where each ti is a layer's thickness and Ki its dielectric constant (air counts as a layer with K=1). Applied to the single-slab-plus-air-gap case: t1=t (the slab, constant K1=K) and t2=D-t (the air gap, constant K2=1)",
       "transcript_span": [
         777.9,
-        837.3
+        837.285
       ],
-      "frame_path": "data/lectures/leph102/1P29QMrLOvK_IDch3e4KbqZvNT7EgGm61/frames/floor_000030.jpg",
-      "ncert_section": null,
-      "ncert_agreement": null
+      "frame_path": null,
+      "ncert_section": "2.13",
+      "ncert_agreement": "agrees"
     },
     {
-      "text": "Limiting case: a metal slab that fully bridges the gap between the plates (touches both) is the K -> infinity limit of the partial-fill formula with t=d, giving C -> infinity (the plates are effectively short-circuited by the metal)",
+      "text": "Consistency checks on the general formula C = A eps0/(D-t+t/K): setting t=D (slab fills the whole gap) recovers C = KA eps0/D, matching the fully-filled-dielectric result. Setting the inserted slab to be a METAL instead of a dielectric corresponds to the limit K -> infinity, giving C -> infinity",
       "transcript_span": null,
       "frame_path": "data/lectures/leph102/1P29QMrLOvK_IDch3e4KbqZvNT7EgGm61/frames/floor_000034.jpg",
-      "ncert_section": null,
-      "ncert_agreement": null
+      "ncert_section": "2.13",
+      "ncert_agreement": "agrees"
     }
   ],
-  "uncertain_spans": [],
+  "uncertain_spans": [
+    {
+      "start_seconds": 660.0,
+      "end_seconds": 802.67,
+      "reason": "Board frame floor_000034.jpg (t=660s, comfortably within the true 802.67s duration) shows two consistency checks worked out after the main partially-filled-dielectric formula: substituting t=D to recover the fully-filled result, and the K->infinity (metal slab) limit giving C->infinity. Neither appears anywhere in the transcript's 37 segments, which end (at a coherent, naturally-concluding sentence) on the T1/K1+T2/K2 shortcut applied to this lecture's specific numbers. This is a much smaller gap than the severe substitution found in the previous lecture (14 ch2 capacitors) -- most likely a short board-only aside that went untranscribed near the true end of the audio, rather than sustained content substitution. The metal-slab/K-to-infinity claim above is grounded from the board frame only."
+    }
+  ],
   "ncert_sections_covered": [
     "2.12",
     "2.13"
@@ -76,5 +82,5 @@
     "data/lectures/leph102/1P29QMrLOvK_IDch3e4KbqZvNT7EgGm61/frames/floor_000030.jpg",
     "data/lectures/leph102/1P29QMrLOvK_IDch3e4KbqZvNT7EgGm61/frames/floor_000034.jpg"
   ],
-  "markdown_body": "## Capacitance of a parallel plate capacitor\n\n### Without dielectric (NCERT 2.12)\nPlate separation $d$, plate area $A$, charges $\\pm Q$ (surface charge density $\\sigma = Q/A$).\nField between the plates: $E = \\dfrac{\\sigma}{\\varepsilon_0} = \\dfrac{Q}{A\\varepsilon_0}$.\nPotential difference: $V = Ed$. Capacitance:\n$$C = \\frac{Q}{V} = \\frac{A\\varepsilon_0}{d}$$\nMatches NCERT Eq. (2.43) exactly.\n\n### Completely filled with dielectric, constant $k$ (NCERT 2.13)\nInside a dielectric the field is reduced by a factor $k$: $E = \\dfrac{\\sigma}{k\\varepsilon_0}$. Repeating the same steps:\n$$C = \\frac{kA\\varepsilon_0}{d}$$\nThis is why real capacitors use a dielectric between the plates -- it raises capacitance by a factor of $k$ for the same geometry. The lecture names three practical types built this way: **paper capacitors**, **mica capacitors**, and **electrolytic capacitors**.\n\n### Partially filled with dielectric\nA slab of thickness $t < d$ and dielectric constant $k$ sits in the gap; the remaining $(d-t)$ is air.\n- Field in the air gap: $E_{air} = \\sigma/\\varepsilon_0$\n- Field in the dielectric: $E_{diel} = \\sigma/(k\\varepsilon_0)$\n\n$$V = (d-t)\\frac{\\sigma}{\\varepsilon_0} + t\\frac{\\sigma}{k\\varepsilon_0} = \\frac{Q}{A\\varepsilon_0}\\left[(d-t) + \\frac{t}{k}\\right]$$\n$$C = \\frac{A\\varepsilon_0}{(d-t) + t/k}$$\n\n**Memory shortcut taught in the lecture:** treat each layer (air included, with $k=1$) as a slab of thickness $T_i$ and constant $K_i$, and sum:\n$$C = \\frac{A\\varepsilon_0}{\\sum_i T_i/K_i}$$\n\n### Special case: a metal slab bridging the gap\nIf the inserted slab is a conductor (not a dielectric) and it touches both plates, that is the $t \\to d$, $k \\to \\infty$ limit of the formula above -- the two plates are effectively short-circuited through the metal, so $C \\to \\infty$. This is the board's shorthand (\"$K=\\infty$ for metals\") for that specific boundary case, not a general claim that any metal slab makes $C$ infinite -- a metal slab of thickness $t<d$ that does **not** touch both plates instead just reduces the effective air gap to $(d-t)$, giving the ordinary partial-fill result with $k\\to\\infty$ applied only to that slab's own term (which drops out, leaving $C = A\\varepsilon_0/(d-t)$).\n"
+  "markdown_body": "## Capacitance of a parallel plate capacitor (NCERT 2.12, 2.13)\n\n### Without dielectric (medium = air/vacuum)\nPlates of area $A$, separation $D$. Field between the plates: $E = \\dfrac{\\sigma}{\\varepsilon_0} = \\dfrac{Q}{A\\varepsilon_0}$. Since $Q=CV$ and (for a uniform field) $V = ED$:\n$$V = \\frac{QD}{A\\varepsilon_0} \\quad\\Rightarrow\\quad \\boxed{C = \\frac{A\\varepsilon_0}{D}}$$\n\n### With dielectric completely filling the gap (dielectric constant $K$)\nInside the dielectric the field is reduced by a factor of $K$: $E = \\dfrac{\\sigma}{K\\varepsilon_0} = \\dfrac{Q}{AK\\varepsilon_0}$. The same route as above gives:\n$$\\boxed{C = \\frac{KA\\varepsilon_0}{D}}$$\nCapacitance increases by a factor of $K$ compared to the no-dielectric case. (Real capacitors are commonly built this way -- e.g. paper capacitors, electrolytic capacitors -- using a dielectric layer between the plates.)\n\n### With a dielectric slab partially filling the gap\nSlab of thickness $t < D$ and dielectric constant $K$ inserted between the plates (remaining $D-t$ is air). The field is $\\sigma/\\varepsilon_0$ across the air gap and $\\sigma/(K\\varepsilon_0)$ across the slab; adding the two potential-drop contributions:\n$$V = \\frac{Q}{A\\varepsilon_0}\\left[(D-t) + \\frac{t}{K}\\right] \\quad\\Rightarrow\\quad \\boxed{C = \\frac{A\\varepsilon_0}{D-t+\\dfrac{t}{K}}}$$\n\n**General shortcut** for any number of stacked layers (dielectric slabs and/or air gaps) between the plates:\n$$C = \\frac{A\\varepsilon_0}{\\dfrac{t_1}{K_1}+\\dfrac{t_2}{K_2}+\\cdots}$$\nwhere each $t_i$ is a layer's thickness and $K_i$ its dielectric constant (air is just a layer with $K=1$). The single-slab case above is the special case $t_1=t,\\,K_1=K$ and $t_2=D-t,\\,K_2=1$.\n\n### Consistency checks\n- Setting $t=D$ (slab fills the entire gap) in the partially-filled formula reduces it to $C = KA\\varepsilon_0/D$ -- matching the fully-filled result, as it must.\n- If the inserted slab is a **metal** rather than a dielectric, that's the limit $K\\to\\infty$: $C \\to \\infty$.\n\n---\n*Note on this lecture's transcript:* the two consistency-check results above are grounded from a board frame near the true end of the audio; the transcript itself doesn't reach them. See the flagged span below.\n"
 }
