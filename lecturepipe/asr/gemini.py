@@ -205,11 +205,17 @@ def _wait_for_active(file_info: dict, timeout_s: float = 120.0) -> str:
 
 
 MAX_429_RETRIES = 4
+# 429 = rate limit; 503 = "model experiencing high demand" -- both are the
+# server telling you to back off and try again, not a reason to give up on
+# this lecture. Seen live during development: file #2 of a real 58-lecture
+# batch hit a bare 503 immediately after the 429 fix, and the code at the
+# time only retried 429s, so it discarded that lecture for nothing.
+RETRYABLE_STATUSES = {429, 503}
 
 
 def _generate_with_retry(key: str, file_uri: str, prompt: str) -> dict:
-    """POST generateContent, retrying on 429 and transient network failures
-    up to MAX_429_RETRIES times.
+    """POST generateContent, retrying on 429/503 and transient network
+    failures up to MAX_429_RETRIES times.
 
     Two different failure shapes hide behind a 429, and conflating them
     wastes real time in a 59-lecture batch: a per-minute rate limit is
@@ -252,18 +258,20 @@ def _generate_with_retry(key: str, file_uri: str, prompt: str) -> dict:
 
         if resp.status_code == 401 or resp.status_code == 403:
             raise GeminiAuthError(f"Gemini transcription auth failed: {resp.status_code} {resp.text[:300]}")
-        if resp.status_code != 429:
+        if resp.status_code not in RETRYABLE_STATUSES:
             if resp.status_code != 200:
                 raise GeminiASRError(f"Gemini transcription failed: {resp.status_code} {resp.text[:500]}")
             return resp.json()
 
-        if "PerDay" in resp.text or "limit: 0" in resp.text:
+        if resp.status_code == 429 and ("PerDay" in resp.text or "limit: 0" in resp.text):
             raise GeminiASRError(
                 f"Gemini quota exhausted for {config.gemini_model} in a way retrying won't fix "
                 f"(daily limit or zero-quota tier): {resp.text[:400]}"
             )
         if attempt >= MAX_429_RETRIES:
-            raise GeminiASRError(f"Gemini rate limit persisted after {MAX_429_RETRIES} retries: {resp.text[:300]}")
+            raise GeminiASRError(
+                f"Gemini {resp.status_code} persisted after {MAX_429_RETRIES} retries: {resp.text[:300]}"
+            )
 
         delay = _parse_retry_delay(resp.text) or min(15 * (2 ** attempt), 120)
         time.sleep(delay)
