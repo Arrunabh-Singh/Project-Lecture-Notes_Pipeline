@@ -1,0 +1,134 @@
+{
+  "file_id": "1zUpiosAlh9hLP2fV4pc8_yGpQ0cW2dTd",
+  "chapter_id": "leph108",
+  "title": "Electromagnetic Spectrum: Production and Uses of EM Waves",
+  "duration_seconds": 2350.27,
+  "claims": [
+    {
+      "text": "Overview of the electromagnetic spectrum, ordered by wavelength: starting from the visible range (roughly 400 nm to 700 nm), UV lies to the shorter-wavelength side (10 nm to 400 nm), followed by X-rays (1 angstrom to 100 angstrom) and gamma rays (10^-3 angstrom to 1 angstrom) at even shorter wavelengths -- gamma rays obtained from nuclear reactions. On the longer-wavelength side of visible: infrared (700 nm to 1 mm), then microwaves (1 mm to 0.3 m), then radio waves (0.3 m to 10^5 m). Moving from visible towards shorter wavelengths, wavelength decreases (frequency increases); moving towards longer wavelengths, wavelength increases (frequency decreases). There is no sharp demarcation between adjacent bands -- they overlap at the boundaries, and different sources may cite slightly different boundary values (e.g. 700 nm vs 720 nm for red). A common exam question asks to arrange given radiation types in ascending/descending order of frequency using this ordering",
+      "transcript_span": [
+        3.0,
+        313.0
+      ],
+      "frame_path": "data/lectures/leph108/1zUpiosAlh9hLP2fV4pc8_yGpQ0cW2dTd/frames/floor_000008.jpg",
+      "ncert_section": "8.5",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Radio waves: produced by accelerated motion of charges in a conducting wire. Used in radio and television communication systems. AM radio band: 500 kHz to 1710 kHz. TV waves: around 54 MHz to 890 MHz. FM radio band: 88 MHz to 108 MHz (station frequencies like 92.7 MHz, 98.3 MHz lie in this range). Mobile phone frequencies are higher still, known as ultra-high frequencies",
+      "transcript_span": [
+        313.0,
+        750.0
+      ],
+      "frame_path": null,
+      "ncert_section": "8.5",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Microwaves: wavelength range roughly 0.1 m to 1 mm -- essentially the short-wavelength end of the radio wave region (sometimes classified as part of it, but distinguished by their much shorter wavelength). Produced by special vacuum tubes called klystrons or magnetrons. Used in RADAR systems (radio detection and ranging) -- their short wavelength gives high energy and good directional properties (not easily diffracted by objects, travel in straight lines), which is why radar antennas can transmit a narrow beam and detect reflections from objects precisely. Also used in microwave ovens: the microwave frequency is chosen to match the resonant frequency of water molecules, so energy transfers efficiently into the molecules' kinetic energy (via matching the frequency of their own oscillation about their mean position), raising the temperature of food containing water",
+      "transcript_span": [
+        750.0,
+        1040.0
+      ],
+      "frame_path": "data/lectures/leph108/1zUpiosAlh9hLP2fV4pc8_yGpQ0cW2dTd/frames/floor_000034.jpg",
+      "ncert_section": "8.5",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Infrared: wavelength range 1 mm to 700 nm. Produced by hot bodies and molecules. Also called 'heat waves', because water molecules present in most materials readily absorb infrared radiation, increasing their thermal motion and heating up their surroundings (this is why you feel warmth standing near a fire). Uses: infrared lamps in physiotherapy; electronic devices such as remote controls and remote switches",
+      "transcript_span": [
+        1040.0,
+        1502.0
+      ],
+      "frame_path": null,
+      "ncert_section": "8.5",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Greenhouse effect (explained via infrared absorption): using the analogy of a closed car heating up in sunlight -- high-energy UV rays from the sun enter through the glass; after striking the interior, their energy is reduced (re-emitted as lower-energy infrared), and this infrared can no longer easily escape back out through the glass, so the trapped energy raises the interior temperature. Similarly for Earth: incoming solar radiation is absorbed and partly re-radiated as infrared, which is then trapped by greenhouse gases (e.g. methane, water vapour, carbon dioxide) in the atmosphere rather than escaping to space -- keeping the Earth's surface warmer than it would otherwise be, including maintaining warmth overnight",
+      "transcript_span": [
+        1218.0,
+        1341.0
+      ],
+      "frame_path": null,
+      "ncert_section": "8.5",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Visible light: wavelength range roughly 700 nm to 400 nm. Produced by lamps and ionized gases. Its primary use/importance: visible light emitted or reflected from objects around us provides information about the world -- it is how we see. Also used to study molecular structure and the arrangement of electrons in the outer shells of atoms",
+      "transcript_span": [
+        1516.0,
+        1726.0
+      ],
+      "frame_path": null,
+      "ncert_section": "8.5",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Ultraviolet (UV) rays: wavelength range roughly 400 nm to 0.6 nm. Produced by special lamps and very hot bodies (the Sun being the primary natural source). Uses: focused into narrow beams for high-precision applications such as LASIK eye surgery (a commonly asked board-exam question); UV lamps used in water purification systems to kill germs; used to detect forged documents and fingerprints. Caution: depletion of the ozone layer by chlorofluorocarbons (CFCs) is a matter of concern, since the ozone layer normally filters out harmful UV radiation from reaching the Earth's surface",
+      "transcript_span": [
+        1730.0,
+        2022.0
+      ],
+      "frame_path": null,
+      "ncert_section": "8.5",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "X-rays: produced by bombardment of high-energy electrons onto a heavy metal target (inside a Coolidge tube -- a large potential difference accelerates the electrons before they strike the metal). Used as a diagnostic tool in medicine (X-ray imaging), in the treatment of certain forms of cancer, and in scientific research to reveal the structure of molecules (X-ray crystallography). Because X-rays are high-frequency/high-energy and can harm healthy cells with prolonged exposure, medical/diagnostic exposure to X-rays is kept to a very short duration, not prolonged",
+      "transcript_span": [
+        2022.0,
+        2360.849
+      ],
+      "frame_path": "data/lectures/leph108/1zUpiosAlh9hLP2fV4pc8_yGpQ0cW2dTd/frames/floor_000116.jpg",
+      "ncert_section": "8.5",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Gamma rays: wavelength less than 10^-3 nm -- the highest-frequency, highest-energy radiations in the EM spectrum. Produced in nuclear reactions and emitted by radioactive nuclei. Uses: in medicine, to destroy cancer cells; used for the study of atomic nuclei; and, because of their very high energy, gamma rays are also used to produce (induce) nuclear reactions",
+      "transcript_span": null,
+      "frame_path": "data/lectures/leph108/1zUpiosAlh9hLP2fV4pc8_yGpQ0cW2dTd/frames/floor_000116.jpg",
+      "ncert_section": "8.5",
+      "ncert_agreement": "agrees"
+    }
+  ],
+  "uncertain_spans": [
+    {
+      "start_seconds": 2200.0,
+      "end_seconds": 2350.27,
+      "reason": "The transcript's own words, right up through their final available segment, cover only the wavelength range, production method, and uses of X-rays -- despite the lecture opening (t=5s) explicitly promising to cover production and uses for ALL bands including gamma rays, and despite gamma rays being introduced (briefly, as produced by nuclear reactions) at the very start. A board frame (floor_000116.jpg), whose true video timestamp (t=2300s) falls before the video's true 2350.27s duration, shows a full 'gamma rays' section already written alongside the X-rays section: wavelength <10^-3 nm, produced in nuclear reactions / emitted by radioactive nuclei, and used in medicine to destroy cancer cells, to study atomic nuclei, and to produce nuclear reactions. None of this gamma-ray-uses content appears in the transcript's own words at all -- it is grounded entirely from this frame."
+    }
+  ],
+  "ncert_sections_covered": [
+    "8.5"
+  ],
+  "frame_paths": [
+    "data/lectures/leph108/1zUpiosAlh9hLP2fV4pc8_yGpQ0cW2dTd/frames/floor_000001.jpg",
+    "data/lectures/leph108/1zUpiosAlh9hLP2fV4pc8_yGpQ0cW2dTd/frames/floor_000008.jpg",
+    "data/lectures/leph108/1zUpiosAlh9hLP2fV4pc8_yGpQ0cW2dTd/frames/floor_000010.jpg",
+    "data/lectures/leph108/1zUpiosAlh9hLP2fV4pc8_yGpQ0cW2dTd/frames/floor_000013.jpg",
+    "data/lectures/leph108/1zUpiosAlh9hLP2fV4pc8_yGpQ0cW2dTd/frames/floor_000016.jpg",
+    "data/lectures/leph108/1zUpiosAlh9hLP2fV4pc8_yGpQ0cW2dTd/frames/floor_000028.jpg",
+    "data/lectures/leph108/1zUpiosAlh9hLP2fV4pc8_yGpQ0cW2dTd/frames/floor_000034.jpg",
+    "data/lectures/leph108/1zUpiosAlh9hLP2fV4pc8_yGpQ0cW2dTd/frames/floor_000040.jpg",
+    "data/lectures/leph108/1zUpiosAlh9hLP2fV4pc8_yGpQ0cW2dTd/frames/floor_000042.jpg",
+    "data/lectures/leph108/1zUpiosAlh9hLP2fV4pc8_yGpQ0cW2dTd/frames/floor_000048.jpg",
+    "data/lectures/leph108/1zUpiosAlh9hLP2fV4pc8_yGpQ0cW2dTd/frames/floor_000053.jpg",
+    "data/lectures/leph108/1zUpiosAlh9hLP2fV4pc8_yGpQ0cW2dTd/frames/floor_000062.jpg",
+    "data/lectures/leph108/1zUpiosAlh9hLP2fV4pc8_yGpQ0cW2dTd/frames/floor_000074.jpg",
+    "data/lectures/leph108/1zUpiosAlh9hLP2fV4pc8_yGpQ0cW2dTd/frames/floor_000077.jpg",
+    "data/lectures/leph108/1zUpiosAlh9hLP2fV4pc8_yGpQ0cW2dTd/frames/floor_000078.jpg",
+    "data/lectures/leph108/1zUpiosAlh9hLP2fV4pc8_yGpQ0cW2dTd/frames/floor_000084.jpg",
+    "data/lectures/leph108/1zUpiosAlh9hLP2fV4pc8_yGpQ0cW2dTd/frames/floor_000088.jpg",
+    "data/lectures/leph108/1zUpiosAlh9hLP2fV4pc8_yGpQ0cW2dTd/frames/floor_000096.jpg",
+    "data/lectures/leph108/1zUpiosAlh9hLP2fV4pc8_yGpQ0cW2dTd/frames/floor_000097.jpg",
+    "data/lectures/leph108/1zUpiosAlh9hLP2fV4pc8_yGpQ0cW2dTd/frames/floor_000098.jpg",
+    "data/lectures/leph108/1zUpiosAlh9hLP2fV4pc8_yGpQ0cW2dTd/frames/floor_000100.jpg",
+    "data/lectures/leph108/1zUpiosAlh9hLP2fV4pc8_yGpQ0cW2dTd/frames/floor_000103.jpg",
+    "data/lectures/leph108/1zUpiosAlh9hLP2fV4pc8_yGpQ0cW2dTd/frames/floor_000108.jpg",
+    "data/lectures/leph108/1zUpiosAlh9hLP2fV4pc8_yGpQ0cW2dTd/frames/floor_000112.jpg",
+    "data/lectures/leph108/1zUpiosAlh9hLP2fV4pc8_yGpQ0cW2dTd/frames/floor_000114.jpg",
+    "data/lectures/leph108/1zUpiosAlh9hLP2fV4pc8_yGpQ0cW2dTd/frames/floor_000116.jpg"
+  ],
+  "markdown_body": "## The electromagnetic spectrum (NCERT 8.5)\n\nOrdered by wavelength around the visible range ($\\approx400$–$700$ nm):\n\n| Band | Wavelength range |\n|---|---|\n| Radio waves | $0.3$ m – $10^5$ m |\n| Microwaves | $1$ mm – $0.3$ m |\n| Infrared | $700$ nm – $1$ mm |\n| **Visible** | $400$ nm – $700$ nm |\n| UV | $10$ nm – $400$ nm |\n| X-rays | $1$ Å – $100$ Å |\n| Gamma rays | $10^{-3}$ Å – $1$ Å |\n\nNo sharp boundaries — adjacent bands overlap, and cited boundary values vary slightly by source. Moving from visible toward shorter wavelength, frequency increases; toward longer wavelength, frequency decreases. (Common exam question: arrange given radiation types in ascending/descending order of frequency.)\n\n### Production and uses, band by band\n\n**Radio waves** — produced by accelerated charges in a conducting wire. Radio/TV communication: AM band $500$–$1710$ kHz, TV $\\approx54$–$890$ MHz, FM band $88$–$108$ MHz; mobile phones use even higher (ultra-high) frequencies.\n\n**Microwaves** — produced by klystrons/magnetrons. Used in **radar** (short wavelength $\\Rightarrow$ high energy, good directionality, minimal diffraction, straight-line travel) and **microwave ovens** (frequency tuned to water molecules' resonant frequency for efficient energy transfer, heating food).\n\n**Infrared** — produced by hot bodies/molecules; also called *heat waves* (water molecules readily absorb IR, raising thermal motion). Used in physiotherapy lamps, remote controls. Also explains the **greenhouse effect**: incoming solar UV/energy is absorbed and re-radiated as IR, which greenhouse gases (CH$_4$, H$_2$O, CO$_2$) trap in the atmosphere, warming the surface (analogous to a closed car heating in sunlight).\n\n**Visible light** — produced by lamps, ionized gases. Lets us see objects (light emitted/reflected carries information about the world); also used to study molecular structure and electron arrangement.\n\n**UV rays** — produced by special lamps and very hot bodies (the Sun). Used in LASIK eye surgery, water purification (killing germs), detecting forged documents/fingerprints. **Caution:** ozone-layer depletion by CFCs is a concern, since ozone normally filters harmful UV.\n\n**X-rays** — produced by high-energy electrons bombarding a heavy metal target (Coolidge tube). Used diagnostically in medicine, in cancer treatment, and in scientific research (revealing molecular structure) — exposure kept brief since prolonged exposure harms healthy cells.\n\n**Gamma rays** — wavelength $<10^{-3}$ nm, the highest-energy band; produced in nuclear reactions/emitted by radioactive nuclei. Used in medicine to destroy cancer cells, to study atomic nuclei, and (due to their high energy) to induce nuclear reactions.\n\n---\n*Note on this lecture's transcript:* this is an exceptionally clean and thorough transcript, covering radio through X-rays in full detail. The one gap is the gamma-rays uses section — the lecture opens by promising to cover production *and* uses for every band, and a board frame confirms the gamma-rays uses were written out (alongside X-rays) within the true video duration, but the transcript's own words never reach this content. Grounded from that frame; see the flagged span below.\n\n*This lecture exists as two byte-identical duplicate files in the source library (confirmed via matching SHA-256 hashes); only one copy was transcribed and noted.*\n"
+}
