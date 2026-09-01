@@ -12,11 +12,11 @@ import sys
 from pathlib import Path
 
 from lecturepipe import state
-from lecturepipe.asr.gemini import GeminiAuthError, overwrite_cache, transcribe_lecture
-from lecturepipe.asr.verify import check_coverage
+from lecturepipe.asr.gemini import GeminiAuthError, Transcript, TranscriptSegment, overwrite_cache, transcribe_lecture
+from lecturepipe.asr.verify import check_coverage, chunk_boundaries
 from lecturepipe.config import LECTURES_DIR, MANIFEST_PATH, NCERT_DIR, config
 from lecturepipe.frames import dedupe_frames
-from lecturepipe.media import extract_audio, extract_scene_frames, probe_duration_seconds
+from lecturepipe.media import extract_audio, extract_scene_frames, probe_duration_seconds, slice_audio
 from lecturepipe.sources.gdrive import DriveAuthError, DriveSource
 
 
@@ -120,6 +120,48 @@ def cmd_frames(args) -> int:
     return 0
 
 
+def _transcribe_with_chunk_fallback(
+    video_dir: Path, audio_path: Path, chapter_title: str, lexicon: list[str], true_duration: float
+) -> list[TranscriptSegment]:
+    """Split into 10-minute chunks and transcribe each separately.
+
+    Used when a single-shot request under-covers a lecture -- seen live on
+    ~25% of this library's lectures with gemini-3.5-flash-lite (real
+    numbers: 21%-90% coverage), the mirror-image failure of the
+    post-duration fabrication verify.py already handles: here the model
+    stops early instead of running past the end.
+
+    Each chunk is transcribed and sanitized against ITS OWN duration (a
+    chunk's fabricated tail would overrun the chunk, not the full
+    lecture), then timestamps are shifted back into full-lecture time
+    before merging. Chunk-level caching is separate from the full-file
+    cache (each chunk's own audio hash), so a chunk that already succeeded
+    isn't re-sent on a retry of the whole file.
+    """
+    boundaries = chunk_boundaries(true_duration, chunk_seconds=600.0)
+    chunks_dir = video_dir / "chunks"
+    merged: list[TranscriptSegment] = []
+    for i, (start, end) in enumerate(boundaries):
+        chunk_path = chunks_dir / f"chunk_{i:02d}.wav"
+        if not chunk_path.exists():
+            slice_audio(audio_path, chunk_path, start, end)
+        print(f"  [chunk {i + 1}/{len(boundaries)}] {start:.0f}-{end:.0f}s ...")
+        chunk_transcript = transcribe_lecture(chunk_path, chapter_title, lexicon)
+        chunk_coverage = check_coverage(chunk_transcript, end - start)
+        san = chunk_coverage.sanitize
+        dropped = (san.dropped_past_duration + san.dropped_repetition) if san else 0
+        print(f"    coverage={chunk_coverage.coverage_ratio:.1%}, sanitized {dropped} segment(s)")
+        clean_segments = san.segments if san else chunk_transcript.segments
+        for s in clean_segments:
+            merged.append(TranscriptSegment(
+                start_seconds=s.start_seconds + start,
+                end_seconds=s.end_seconds + start,
+                text=s.text,
+                confidence=s.confidence,
+            ))
+    return merged
+
+
 def cmd_transcribe(args) -> int:
     refs = {r.id: r for r in _load_manifest_refs()}
     targets = refs.values() if args.all else [refs[args.file_id]]
@@ -176,8 +218,25 @@ def cmd_transcribe(args) -> int:
             )
             overwrite_cache(transcript.source_audio_sha256, san.segments)
         if coverage.needs_chunk_fallback:
-            print("  WARNING: coverage below threshold -- chunk fallback not yet wired into CLI, flagging for manual re-run")
-            st.mark_error(f"low coverage: {coverage.coverage_ratio:.1%}")
+            print(f"  coverage {coverage.coverage_ratio:.1%} below threshold -- falling back to chunked transcription")
+            try:
+                merged_segments = _transcribe_with_chunk_fallback(
+                    _video_dir(ref), audio_path, chapter_title, lexicon, st.duration_seconds or 0.0
+                )
+            except Exception as e:
+                print(f"  CHUNK FALLBACK ERROR: {type(e).__name__}: {e}", file=sys.stderr)
+                st.mark_error(f"chunk fallback failed: {type(e).__name__}: {e}")
+                state.save(st)
+                continue
+            overwrite_cache(transcript.source_audio_sha256, merged_segments)
+            merged_transcript = Transcript(segments=merged_segments, source_audio_sha256=transcript.source_audio_sha256)
+            final = check_coverage(merged_transcript, st.duration_seconds or 0.0)
+            print(f"  chunk fallback complete: coverage={final.coverage_ratio:.1%}, low_confidence={final.low_confidence_count}")
+            if final.needs_chunk_fallback:
+                st.mark_error(f"still low coverage after chunk fallback: {final.coverage_ratio:.1%}")
+            else:
+                st.transcript_cache_key = transcript.source_audio_sha256
+                st.mark_done("transcribed")
         else:
             st.transcript_cache_key = transcript.source_audio_sha256
             st.mark_done("transcribed")

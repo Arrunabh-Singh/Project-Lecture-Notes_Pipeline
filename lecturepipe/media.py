@@ -41,6 +41,27 @@ def probe_duration_seconds(video_path: Path) -> float:
     return int(h) * 3600 + int(mnt) * 60 + float(s)
 
 
+def slice_audio(audio_path: Path, out_path: Path, start_seconds: float, end_seconds: float) -> Path:
+    """Extract [start, end) from an existing WAV, for the chunk-fallback
+    path when a single-shot transcription under-covers a lecture (~25% of
+    this library's lectures on gemini-3.5-flash-lite, seen live). -ss
+    before -i for fast seek; re-encoding (not stream copy) since a PCM WAV
+    has no keyframe-alignment concept to worry about, so an exact cut is
+    cheap either way."""
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    cmd = [
+        FFMPEG, "-y",
+        "-ss", str(start_seconds), "-to", str(end_seconds),
+        "-i", str(audio_path),
+        "-ac", "1", "-ar", "16000", "-c:a", "pcm_s16le",
+        str(out_path),
+    ]
+    proc = subprocess.run(cmd, stderr=subprocess.PIPE, stdout=subprocess.PIPE, text=True)
+    if proc.returncode != 0 or not out_path.exists():
+        raise MediaError(f"Audio slicing failed for {audio_path} [{start_seconds}-{end_seconds}]:\n{proc.stderr[-800:]}")
+    return out_path
+
+
 def extract_audio(video_path: Path, out_path: Path, sample_rate: int = 16000) -> Path:
     """Mono 16kHz WAV -- small enough for Gemini's Files API, and 16kHz is
     plenty for speech (well above the ~8kHz Nyquist needed for intelligible
