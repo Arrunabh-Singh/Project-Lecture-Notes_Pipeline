@@ -64,9 +64,26 @@ def test_sanitize_drops_fabricated_content_past_true_duration():
 
 
 def test_sanitize_keeps_small_tail_within_grace():
-    segs = [_seg(0, 30), _seg(30, 605)]  # 605 is within 600*1.03 = 618
+    # DURATION_GRACE_SECONDS is an absolute 5s, not a percentage -- a
+    # segment starting at 603s (within 5s of a 600s true duration) should
+    # survive; one starting at 607s (beyond it) should not. Checked on
+    # start_seconds, since that's what sanitize_segments actually filters.
+    segs = [_seg(0, 30), _seg(30, 598), _seg(598, 603)]
     result = sanitize_segments(segs, true_duration_seconds=600.0)
     assert result.dropped_past_duration == 0
+    assert len(result.segments) == 3
+
+
+def test_sanitize_uses_absolute_not_percentage_grace():
+    """Mirrors a real bug: DURATION_GRACE was originally a 3% multiplier,
+    which is a 70-SECOND window on a real 2335.17s lecture -- large enough
+    that a genuinely fabricated segment (starting 55s past the true
+    duration, paraphrased rather than verbatim so the repetition detector
+    also missed it) passed the old check untouched. An absolute grace
+    catches it regardless of lecture length."""
+    segs = [_seg(0, 2335), _seg(2335, 2390, text="a"), _seg(2390.7, 2420.7, text="b, worded differently")]
+    result = sanitize_segments(segs, true_duration_seconds=2335.17)
+    assert result.dropped_past_duration == 1
     assert len(result.segments) == 2
 
 

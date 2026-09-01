@@ -32,11 +32,19 @@ from lecturepipe.asr.gemini import Transcript, TranscriptSegment
 # treat it as truncated rather than "the lecture happened to end in silence".
 COVERAGE_THRESHOLD = 0.92
 
-# Small grace margin for trivial timestamp rounding at the very tail --
+# Small ABSOLUTE grace for trivial timestamp rounding at the very tail --
 # NOT a tolerance for genuine overshoot, since true_duration_seconds is
-# verified ground truth (see module docstring). Anything past this is
-# fabricated and dropped, full stop.
-DURATION_GRACE = 1.03
+# verified ground truth (see module docstring). Deliberately a constant,
+# not a percentage: a multiplicative 3% margin (the original design) gives
+# a 70-SECOND window on a 40-minute lecture, and a real fabricated segment
+# was found live hiding inside exactly that window -- paraphrased, not
+# verbatim, so the repetition detector missed it too (see
+# test_sanitize_drops_near_duplicate_paraphrase_past_grace). "Trivial
+# rounding" is a roughly constant few-second effect regardless of lecture
+# length; it should not get more forgiving on longer lectures, which is
+# backwards -- longer lectures are exactly where there's more room for
+# fabrication to hide.
+DURATION_GRACE_SECONDS = 5.0
 
 
 @dataclass
@@ -47,25 +55,44 @@ class SanitizeResult:
     repetition_detected: bool
 
 
+def _normalize(text: str) -> str:
+    return " ".join(text.strip().lower().split())
+
+
 def sanitize_segments(segments: list[TranscriptSegment], true_duration_seconds: float) -> SanitizeResult:
     """Strip fabricated tail content: anything past the verified true
-    duration, and any run of verbatim-repeated text (a distinct failure
-    mode that can in principle occur before the duration boundary too)."""
-    repetition_detected = False
-    loop_start = None
-    for i in range(len(segments) - 1):
-        if segments[i].text.strip() and segments[i].text.strip() == segments[i + 1].text.strip():
-            loop_start = i + 1
-            repetition_detected = True
-            break
+    duration, and any run of repeated text -- exact OR near-duplicate
+    (normalized: lowercased, whitespace-collapsed), since a real
+    fabrication loop was found paraphrasing itself slightly each repeat
+    rather than repeating verbatim. Once either failure mode is detected,
+    everything from that point onward is dropped, not just the segments
+    that individually fail the check -- once a model has started
+    fabricating, nothing after that point in the same response should be
+    trusted, even if a later segment happens to look fine in isolation.
+    """
+    max_trustworthy = true_duration_seconds + DURATION_GRACE_SECONDS
 
-    kept = segments[:loop_start] if loop_start is not None else list(segments)
-    dropped_repetition = len(segments) - len(kept)
+    # First index whose start is past the trustworthy boundary -- a hard
+    # physical cutoff, checked independently of repetition.
+    duration_cutoff = next(
+        (i for i, s in enumerate(segments) if s.start_seconds > max_trustworthy), None
+    )
+    # First index that repeats the previous segment (normalized match) --
+    # the loop-detection failure mode, independent of duration.
+    repetition_cutoff = next(
+        (i + 1 for i in range(len(segments) - 1)
+         if _normalize(segments[i].text) and _normalize(segments[i].text) == _normalize(segments[i + 1].text)),
+        None,
+    )
 
-    max_trustworthy = true_duration_seconds * DURATION_GRACE
-    before = len(kept)
-    kept = [s for s in kept if s.start_seconds <= max_trustworthy]
-    dropped_past_duration = before - len(kept)
+    candidates = [c for c in (duration_cutoff, repetition_cutoff) if c is not None]
+    cutoff = min(candidates) if candidates else None
+    repetition_detected = repetition_cutoff is not None and cutoff == repetition_cutoff
+
+    kept = segments[:cutoff] if cutoff is not None else list(segments)
+    dropped_total = len(segments) - len(kept)
+    dropped_repetition = dropped_total if repetition_detected else 0
+    dropped_past_duration = 0 if repetition_detected else dropped_total
 
     return SanitizeResult(
         segments=kept,
