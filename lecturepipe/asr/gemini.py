@@ -233,6 +233,8 @@ def _generate_with_retry(key: str, file_uri: str, prompt: str) -> dict:
     """
     for attempt in range(MAX_429_RETRIES + 1):
         _rate_limiter.wait()
+        t0 = time.monotonic()
+        print(f"  [gemini attempt {attempt + 1}/{MAX_429_RETRIES + 1}] POST generateContent ...", flush=True)
         try:
             resp = requests.post(
                 f"{API_BASE}/v1beta/models/{config.gemini_model}:generateContent?key={key}",
@@ -248,21 +250,33 @@ def _generate_with_retry(key: str, file_uri: str, prompt: str) -> dict:
                         "responseSchema": TRANSCRIPT_SCHEMA,
                     },
                 },
-                timeout=600,
+                # 180s, not the library default: a well-formed request for
+                # even a ~1h lecture shouldn't need longer than this to
+                # generate. Discovered live that a longer timeout (600s)
+                # combined with silent retries made a stuck/slow request
+                # indistinguishable from a hung process from outside --
+                # failing faster and retrying beats one file blocking the
+                # rest of a sequential 58-lecture batch for up to an hour.
+                timeout=180,
             )
         except requests.exceptions.RequestException as exc:
+            elapsed = time.monotonic() - t0
+            print(f"  [gemini attempt {attempt + 1}] network error after {elapsed:.0f}s: {exc}", flush=True)
             if attempt >= MAX_429_RETRIES:
                 raise GeminiASRError(f"Network error persisted after {MAX_429_RETRIES} retries: {exc}") from exc
             time.sleep(min(15 * (2 ** attempt), 120))
             continue
 
+        elapsed = time.monotonic() - t0
         if resp.status_code == 401 or resp.status_code == 403:
             raise GeminiAuthError(f"Gemini transcription auth failed: {resp.status_code} {resp.text[:300]}")
         if resp.status_code not in RETRYABLE_STATUSES:
             if resp.status_code != 200:
                 raise GeminiASRError(f"Gemini transcription failed: {resp.status_code} {resp.text[:500]}")
+            print(f"  [gemini attempt {attempt + 1}] 200 OK after {elapsed:.0f}s", flush=True)
             return resp.json()
 
+        print(f"  [gemini attempt {attempt + 1}] {resp.status_code} after {elapsed:.0f}s", flush=True)
         if resp.status_code == 429 and ("PerDay" in resp.text or "limit: 0" in resp.text):
             raise GeminiASRError(
                 f"Gemini quota exhausted for {config.gemini_model} in a way retrying won't fix "
@@ -274,6 +288,7 @@ def _generate_with_retry(key: str, file_uri: str, prompt: str) -> dict:
             )
 
         delay = _parse_retry_delay(resp.text) or min(15 * (2 ** attempt), 120)
+        print(f"  [gemini attempt {attempt + 1}] retrying in {delay:.0f}s", flush=True)
         time.sleep(delay)
     raise GeminiASRError("unreachable")  # loop always returns or raises
 
