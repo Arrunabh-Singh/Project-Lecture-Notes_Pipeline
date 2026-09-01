@@ -1,0 +1,104 @@
+{
+  "file_id": "11PJBrQAnSvPCehD49AwjPlJV783W3iIs",
+  "chapter_id": "leph108",
+  "title": "Displacement Current and Maxwell's Equations",
+  "duration_seconds": 980.19,
+  "claims": [
+    {
+      "text": "Ampere's circuital law: the closed line integral of B along a loop equals mu_0 times the current enclosed, oint(B.dl) = mu_0 * I.",
+      "transcript_span": [
+        7.0,
+        23.0
+      ],
+      "frame_path": "data/lectures/leph108/11PJBrQAnSvPCehD49AwjPlJV783W3iIs/frames/floor_000004.jpg",
+      "ncert_section": "8.2",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Setup for the paradox: a time-varying current i(t) charges a capacitor. Two different surfaces bounded by the SAME loop are considered -- a small 'pot'-shaped surface C1 that stays entirely outside/before the capacitor gap, and a larger surface C2 that bulges through between the plates (where no conduction current flows).",
+      "transcript_span": [
+        23.0,
+        218.0
+      ],
+      "frame_path": "data/lectures/leph108/11PJBrQAnSvPCehD49AwjPlJV783W3iIs/frames/floor_000022.jpg",
+      "ncert_section": "8.2",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Applying Ampere's law to both surfaces of the same loop gives inconsistent results: at C1, oint(B.dl) = mu_0*I (current enclosed); at C2, oint(B.dl) = 0 (no current is enclosed, since C2 passes through the capacitor gap). One law cannot give two different answers for the same loop -- a contradiction in Ampere's circuital law as originally stated.",
+      "transcript_span": [
+        255.0,
+        381.0
+      ],
+      "frame_path": "data/lectures/leph108/11PJBrQAnSvPCehD49AwjPlJV783W3iIs/frames/floor_000022.jpg",
+      "ncert_section": "8.2",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "The same picture also appears to violate Kirchhoff's first (junction) rule: current I flows in at a point P before the plate, then seems to vanish (nothing flows through the gap between the plates), and current reappears at a point Q on the far side -- as if charge disappeared and reappeared instead of flowing continuously.",
+      "transcript_span": [
+        419.0,
+        718.0
+      ],
+      "frame_path": "data/lectures/leph108/11PJBrQAnSvPCehD49AwjPlJV783W3iIs/frames/floor_000022.jpg",
+      "ncert_section": null,
+      "ncert_agreement": "teacher_simplifies"
+    },
+    {
+      "text": "Maxwell resolved both apparent contradictions by proposing a missing current term that exists inside the capacitor gap in addition to the ordinary conduction current -- the displacement current.",
+      "transcript_span": [
+        718.0,
+        778.0
+      ],
+      "frame_path": "data/lectures/leph108/11PJBrQAnSvPCehD49AwjPlJV783W3iIs/frames/floor_000022.jpg",
+      "ncert_section": "8.2",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Between the plates, the electric flux is Phi_E = E.A. Using the field between capacitor plates E = sigma/eps0 = Q/(A*eps0), this gives Phi_E = Q/eps0.",
+      "transcript_span": [
+        894.0,
+        968.0
+      ],
+      "frame_path": "data/lectures/leph108/11PJBrQAnSvPCehD49AwjPlJV783W3iIs/frames/floor_000030.jpg",
+      "ncert_section": "8.2",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Differentiating Phi_E = Q/eps0 with respect to time: eps0 * dPhi_E/dt = dQ/dt. Since dQ/dt is by definition a current, Maxwell calls this the displacement current, I_d = eps0 * dPhi_E/dt, and identifies it with the conduction current outside the gap (I_c = I_d in magnitude of effect), giving a single continuous total current I = I_c + I_d that resolves the Kirchhoff-law paradox too.",
+      "transcript_span": null,
+      "frame_path": "data/lectures/leph108/11PJBrQAnSvPCehD49AwjPlJV783W3iIs/frames/floor_000030.jpg",
+      "ncert_section": "8.2",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Maxwell's four equations in vacuum, as boxed on the board: (1) Gauss's law of electrostatics, oint(E.dA) = Q/eps0; (2) Gauss's law of magnetostatics, oint(B.dA) = 0; (3) Faraday's law of EMI, oint(E.dl) = -dPhi_B/dt (emf = -dPhi/dt); (4) the modified (Ampere-Maxwell) circuital law, oint(B.dl) = mu_0*(I_c + eps0*dPhi_E/dt).",
+      "transcript_span": null,
+      "frame_path": "data/lectures/leph108/11PJBrQAnSvPCehD49AwjPlJV783W3iIs/frames/floor_000049.jpg",
+      "ncert_section": "8.2",
+      "ncert_agreement": "agrees"
+    }
+  ],
+  "uncertain_spans": [
+    {
+      "start_seconds": 830.0,
+      "end_seconds": 980.19,
+      "reason": "The transcript's own final segment is timestamped 968.0-1056.0s, which overshoots the video's verified true duration (980.19s) by ~76s -- exactly the 'coverage looks clean but isn't' trap: check_coverage() reports 107% coverage and passes, yet the segment's text cuts off mid-word ('...electric field direction is this is the direction o'), and the delayed-duplicate scanner found no repeated block (0 flagged pairs), so this is neither of the two previously-catalogued failure modes cleanly -- it looks like a silent truncation whose tail segment was also given a stretched/overshot timestamp. Either way, the transcript's real captured content stalls partway through the displacement-current derivation (still building Phi_E = E.A) and never reaches the differentiation step (I_d = eps0 dPhi_E/dt), the I=Ic+Id statement, or any mention of 'Maxwell's equations' / 'Gauss's law' / 'Faraday's law' by name. The board frames, however, show this content completed and written out in full: floor_000030 (sampled at video t=580s -- notably BEFORE the transcript's own claimed timestamp for the Phi_E=E.A discussion, another sign the transcript's internal timestamps are not reliable in this stretch) already has the differentiation and I=Ic+Id; floor_000043 (t=840s) has Maxwell's equations 1-2 being written; floor_000049 (t=960s, near the true end) has all four complete. These three frames sit on the same continuously-built board page as the earlier, transcript-confirmed derivation (visible progression, not a jump to an unrelated page), which is why they are trusted as belonging to this lecture despite having no matching transcript span -- grounded from board frames alone, per claims 7 and 8 above."
+    }
+  ],
+  "ncert_sections_covered": [
+    "8.1",
+    "8.2"
+  ],
+  "frame_paths": [
+    "data/lectures/leph108/11PJBrQAnSvPCehD49AwjPlJV783W3iIs/frames/floor_000001.jpg",
+    "data/lectures/leph108/11PJBrQAnSvPCehD49AwjPlJV783W3iIs/frames/floor_000004.jpg",
+    "data/lectures/leph108/11PJBrQAnSvPCehD49AwjPlJV783W3iIs/frames/floor_000022.jpg",
+    "data/lectures/leph108/11PJBrQAnSvPCehD49AwjPlJV783W3iIs/frames/floor_000030.jpg",
+    "data/lectures/leph108/11PJBrQAnSvPCehD49AwjPlJV783W3iIs/frames/floor_000038.jpg",
+    "data/lectures/leph108/11PJBrQAnSvPCehD49AwjPlJV783W3iIs/frames/floor_000040.jpg",
+    "data/lectures/leph108/11PJBrQAnSvPCehD49AwjPlJV783W3iIs/frames/floor_000043.jpg",
+    "data/lectures/leph108/11PJBrQAnSvPCehD49AwjPlJV783W3iIs/frames/floor_000049.jpg"
+  ],
+  "markdown_body": "## The problem with Ampere's circuital law (NCERT 8.2)\n\nAmpere's circuital law states $\\oint \\vec{B}\\cdot d\\vec{l} = \\mu_0 I$, where $I$ is the current\nenclosed by the Amperian loop.\n\nConsider a capacitor being charged by a time-varying current $i(t)$. Draw a loop around one of\nthe connecting wires, and consider two different surfaces bounded by that same loop:\n\n- **$C_1$**: a small \"pot\"-shaped surface that stays outside the capacitor gap -- the wire's\n  conduction current $I$ pierces it, so Ampere's law gives $\\oint \\vec{B}\\cdot d\\vec{l} = \\mu_0 I$.\n- **$C_2$**: a larger surface bulging through *between* the plates -- no conduction current\n  crosses it (charge does not jump the gap), so Ampere's law gives $\\oint \\vec{B}\\cdot d\\vec{l} = 0$.\n\nBoth surfaces share the same boundary loop, so $\\vec{B}$ integrated around that loop cannot\nhave two different values -- Ampere's law as stated is inconsistent. The lecture also frames\nthis as an apparent violation of Kirchhoff's junction rule: current $I$ flows in at a point $P$\njust before one plate, seems to vanish across the gap, and reappears at a point $Q$ past the\nother plate.\n\n## Maxwell's resolution: displacement current (NCERT 8.2)\n\nMaxwell's fix: there must be a second current term active precisely in the gap where the\nconduction current is zero. Between the plates, the electric flux is\n\n$$\\Phi_E = \\vec E \\cdot \\vec A = \\frac{\\sigma}{\\varepsilon_0}A = \\frac{Q}{\\varepsilon_0}$$\n\nusing the field between capacitor plates $E = \\sigma/\\varepsilon_0 = Q/(A\\varepsilon_0)$.\nDifferentiating with respect to time,\n\n$$\\varepsilon_0\\frac{d\\Phi_E}{dt} = \\frac{dQ}{dt}$$\n\nand since $dQ/dt$ is a current by definition, Maxwell named this the **displacement current**,\n\n$$I_d = \\varepsilon_0 \\frac{d\\Phi_E}{dt}$$\n\nOutside the plates only conduction current flows ($I_d = 0$); inside the gap only displacement\ncurrent flows ($I_c = 0$); together they form one continuous total current $I = I_c + I_d$ that\nnever actually breaks at the gap -- resolving the Kirchhoff-rule paradox as well. This gives the\ncorrected, general form of Ampere's law (the Ampere-Maxwell law):\n\n$$\\oint \\vec B \\cdot d\\vec l = \\mu_0\\left(I_c + \\varepsilon_0\\frac{d\\Phi_E}{dt}\\right)$$\n\n## Maxwell's four equations (NCERT 8.2, boxed summary)\n\nThe board closes the lecture by collecting the complete set of Maxwell's equations in vacuum:\n\n1. **Gauss's law of electrostatics:** $\\oint \\vec E \\cdot d\\vec A = Q/\\varepsilon_0$\n2. **Gauss's law of magnetostatics:** $\\oint \\vec B \\cdot d\\vec A = 0$\n3. **Faraday's law of EMI:** $\\oint \\vec E \\cdot d\\vec l = -\\dfrac{d\\Phi_B}{dt}$ (i.e. $\\varepsilon = -d\\phi/dt$)\n4. **Modified (Ampere-Maxwell) circuital law:** $\\oint \\vec B \\cdot d\\vec l = \\mu_0\\left(I_c + \\varepsilon_0\\dfrac{d\\Phi_E}{dt}\\right)$\n\nThis is exactly NCERT's boxed list in section 8.2, same four laws, same order.\n\n## A note on this lecture's transcript\n\nThe automated coverage check reports 107% coverage and passes cleanly, but that is misleading\nhere -- see the uncertain span below. The ASR transcript's real content stalls mid-derivation\n(still building $\\Phi_E = E\\cdot A$) and its last captured sentence cuts off mid-word. It never\nnarrates the differentiation step, the $I=I_c+I_d$ statement, or Maxwell's four equations by\nname at all, even though the board frames show all of this written out, in a natural progressive\nbuild on the same page, well within the lecture's verified 980.19s duration. The final three\nclaims above (differentiation/$I_d$, and Maxwell's four equations) are therefore grounded from\nboard frames only.\n"
+}
