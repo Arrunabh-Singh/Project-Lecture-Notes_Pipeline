@@ -204,6 +204,70 @@ def _wait_for_active(file_info: dict, timeout_s: float = 120.0) -> str:
     return uri
 
 
+MAX_429_RETRIES = 4
+
+
+def _generate_with_retry(key: str, file_uri: str, prompt: str) -> dict:
+    """POST generateContent, retrying on 429 up to MAX_429_RETRIES times.
+
+    Two different failure shapes hide behind a 429, and conflating them
+    wastes real time in a 59-lecture batch: a per-minute rate limit is
+    worth waiting out (use the server's own retryDelay when it gives one),
+    but a "limit: 0" daily/per-model quota exhaustion will never succeed no
+    matter how long you wait -- seen for real during development against
+    gemini-3.1-pro-preview on this key. Fail fast on that case instead of
+    burning the retry budget on something that can't recover.
+    """
+    for attempt in range(MAX_429_RETRIES + 1):
+        _rate_limiter.wait()
+        resp = requests.post(
+            f"{API_BASE}/v1beta/models/{config.gemini_model}:generateContent?key={key}",
+            json={
+                "contents": [{
+                    "parts": [
+                        {"file_data": {"mime_type": "audio/wav", "file_uri": file_uri}},
+                        {"text": prompt},
+                    ]
+                }],
+                "generationConfig": {
+                    "responseMimeType": "application/json",
+                    "responseSchema": TRANSCRIPT_SCHEMA,
+                },
+            },
+            timeout=600,
+        )
+        if resp.status_code == 401 or resp.status_code == 403:
+            raise GeminiAuthError(f"Gemini transcription auth failed: {resp.status_code} {resp.text[:300]}")
+        if resp.status_code != 429:
+            if resp.status_code != 200:
+                raise GeminiASRError(f"Gemini transcription failed: {resp.status_code} {resp.text[:500]}")
+            return resp.json()
+
+        if "PerDay" in resp.text or "limit: 0" in resp.text:
+            raise GeminiASRError(
+                f"Gemini quota exhausted for {config.gemini_model} in a way retrying won't fix "
+                f"(daily limit or zero-quota tier): {resp.text[:400]}"
+            )
+        if attempt >= MAX_429_RETRIES:
+            raise GeminiASRError(f"Gemini rate limit persisted after {MAX_429_RETRIES} retries: {resp.text[:300]}")
+
+        delay = _parse_retry_delay(resp.text) or min(15 * (2 ** attempt), 120)
+        time.sleep(delay)
+    raise GeminiASRError("unreachable")  # loop always returns or raises
+
+
+def _parse_retry_delay(error_text: str) -> float | None:
+    try:
+        body = json.loads(error_text)
+        for detail in body.get("error", {}).get("details", []):
+            raw = detail.get("retryDelay")
+            if raw and raw.endswith("s"):
+                return float(raw[:-1])
+    except (json.JSONDecodeError, ValueError, KeyError):
+        pass
+    return None
+
+
 def transcribe_lecture(
     audio_path: Path,
     chapter_title: str,
@@ -221,31 +285,7 @@ def transcribe_lecture(
     file_uri = upload_audio(audio_path)
     prompt = build_prompt(chapter_title, lexicon)
 
-    _rate_limiter.wait()
-    resp = requests.post(
-        f"{API_BASE}/v1beta/models/{config.gemini_model}:generateContent?key={key}",
-        json={
-            "contents": [{
-                "parts": [
-                    {"file_data": {"mime_type": "audio/wav", "file_uri": file_uri}},
-                    {"text": prompt},
-                ]
-            }],
-            "generationConfig": {
-                "responseMimeType": "application/json",
-                "responseSchema": TRANSCRIPT_SCHEMA,
-            },
-        },
-        timeout=600,
-    )
-    if resp.status_code == 401 or resp.status_code == 403:
-        raise GeminiAuthError(f"Gemini transcription auth failed: {resp.status_code} {resp.text[:300]}")
-    if resp.status_code == 429:
-        raise GeminiASRError(f"Gemini rate limit hit: {resp.text[:300]}")
-    if resp.status_code != 200:
-        raise GeminiASRError(f"Gemini transcription failed: {resp.status_code} {resp.text[:500]}")
-
-    body = resp.json()
+    body = _generate_with_retry(key, file_uri, prompt)
     try:
         text_out = body["candidates"][0]["content"]["parts"][0]["text"]
         parsed = json.loads(text_out)

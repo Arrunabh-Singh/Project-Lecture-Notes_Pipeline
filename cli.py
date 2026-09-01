@@ -12,7 +12,7 @@ import sys
 from pathlib import Path
 
 from lecturepipe import state
-from lecturepipe.asr.gemini import GeminiAuthError, transcribe_lecture
+from lecturepipe.asr.gemini import GeminiASRError, GeminiAuthError, transcribe_lecture
 from lecturepipe.asr.verify import check_coverage
 from lecturepipe.config import LECTURES_DIR, MANIFEST_PATH, NCERT_DIR, config
 from lecturepipe.frames import dedupe_frames
@@ -146,6 +146,13 @@ def cmd_transcribe(args) -> int:
         except GeminiAuthError as e:
             print(f"AUTH ERROR: {e}", file=sys.stderr)
             return 1
+        except GeminiASRError as e:
+            # One bad lecture (quota hiccup, malformed response) must not
+            # abort the other 58 in a --all run -- log and move on.
+            print(f"  ERROR: {e}", file=sys.stderr)
+            st.mark_error(str(e))
+            state.save(st)
+            continue
 
         coverage = check_coverage(transcript, st.duration_seconds or 0.0)
         print(f"  {'cache hit' if transcript.cache_hit else 'transcribed'}, "
