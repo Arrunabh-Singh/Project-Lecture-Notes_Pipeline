@@ -1,0 +1,80 @@
+{
+  "file_id": "1P29QMrLOvK_IDch3e4KbqZvNT7EgGm61",
+  "chapter_id": "leph102",
+  "title": "The Parallel Plate Capacitor (with and without dielectric)",
+  "duration_seconds": 802.67,
+  "claims": [
+    {
+      "text": "Without dielectric: E = sigma/eps0 = Q/(A eps0) between the plates; V = Ed; C = Q/V = A eps0 / d",
+      "transcript_span": [
+        46.1,
+        169.6
+      ],
+      "frame_path": null,
+      "ncert_section": "2.12",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "With dielectric (constant k) completely filling the gap: field inside reduces to E0/k, giving C = k A eps0 / d",
+      "transcript_span": [
+        169.6,
+        372.5
+      ],
+      "frame_path": null,
+      "ncert_section": "2.13",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Practical capacitor types that use a dielectric to raise capacitance: paper capacitors, mica capacitors, electrolytic capacitors",
+      "transcript_span": [
+        372.5,
+        435.8
+      ],
+      "frame_path": null,
+      "ncert_section": "2.13",
+      "ncert_agreement": null
+    },
+    {
+      "text": "Partially filled dielectric (slab of thickness t, constant k, inside gap d): V = (d-t)*sigma/eps0 + t*sigma/(k*eps0), giving C = A eps0 / [(d-t) + t/k]",
+      "transcript_span": [
+        527.8,
+        777.9
+      ],
+      "frame_path": "data/lectures/leph102/1P29QMrLOvK_IDch3e4KbqZvNT7EgGm61/frames/floor_000023.jpg",
+      "ncert_section": "2.13",
+      "ncert_agreement": null
+    },
+    {
+      "text": "Generalizes to multiple slabs in series: C = A eps0 / (T1/K1 + T2/K2 + ...), with air treated as a slab of K=1",
+      "transcript_span": [
+        777.9,
+        837.3
+      ],
+      "frame_path": "data/lectures/leph102/1P29QMrLOvK_IDch3e4KbqZvNT7EgGm61/frames/floor_000030.jpg",
+      "ncert_section": null,
+      "ncert_agreement": null
+    },
+    {
+      "text": "Limiting case: a metal slab that fully bridges the gap between the plates (touches both) is the K -> infinity limit of the partial-fill formula with t=d, giving C -> infinity (the plates are effectively short-circuited by the metal)",
+      "transcript_span": null,
+      "frame_path": "data/lectures/leph102/1P29QMrLOvK_IDch3e4KbqZvNT7EgGm61/frames/floor_000034.jpg",
+      "ncert_section": null,
+      "ncert_agreement": null
+    }
+  ],
+  "uncertain_spans": [],
+  "ncert_sections_covered": [
+    "2.12",
+    "2.13"
+  ],
+  "frame_paths": [
+    "data/lectures/leph102/1P29QMrLOvK_IDch3e4KbqZvNT7EgGm61/frames/floor_000001.jpg",
+    "data/lectures/leph102/1P29QMrLOvK_IDch3e4KbqZvNT7EgGm61/frames/floor_000015.jpg",
+    "data/lectures/leph102/1P29QMrLOvK_IDch3e4KbqZvNT7EgGm61/frames/floor_000017.jpg",
+    "data/lectures/leph102/1P29QMrLOvK_IDch3e4KbqZvNT7EgGm61/frames/floor_000023.jpg",
+    "data/lectures/leph102/1P29QMrLOvK_IDch3e4KbqZvNT7EgGm61/frames/floor_000025.jpg",
+    "data/lectures/leph102/1P29QMrLOvK_IDch3e4KbqZvNT7EgGm61/frames/floor_000030.jpg",
+    "data/lectures/leph102/1P29QMrLOvK_IDch3e4KbqZvNT7EgGm61/frames/floor_000034.jpg"
+  ],
+  "markdown_body": "## Capacitance of a parallel plate capacitor\n\n### Without dielectric (NCERT 2.12)\nPlate separation $d$, plate area $A$, charges $\\pm Q$ (surface charge density $\\sigma = Q/A$).\nField between the plates: $E = \\dfrac{\\sigma}{\\varepsilon_0} = \\dfrac{Q}{A\\varepsilon_0}$.\nPotential difference: $V = Ed$. Capacitance:\n$$C = \\frac{Q}{V} = \\frac{A\\varepsilon_0}{d}$$\nMatches NCERT Eq. (2.43) exactly.\n\n### Completely filled with dielectric, constant $k$ (NCERT 2.13)\nInside a dielectric the field is reduced by a factor $k$: $E = \\dfrac{\\sigma}{k\\varepsilon_0}$. Repeating the same steps:\n$$C = \\frac{kA\\varepsilon_0}{d}$$\nThis is why real capacitors use a dielectric between the plates -- it raises capacitance by a factor of $k$ for the same geometry. The lecture names three practical types built this way: **paper capacitors**, **mica capacitors**, and **electrolytic capacitors**.\n\n### Partially filled with dielectric\nA slab of thickness $t < d$ and dielectric constant $k$ sits in the gap; the remaining $(d-t)$ is air.\n- Field in the air gap: $E_{air} = \\sigma/\\varepsilon_0$\n- Field in the dielectric: $E_{diel} = \\sigma/(k\\varepsilon_0)$\n\n$$V = (d-t)\\frac{\\sigma}{\\varepsilon_0} + t\\frac{\\sigma}{k\\varepsilon_0} = \\frac{Q}{A\\varepsilon_0}\\left[(d-t) + \\frac{t}{k}\\right]$$\n$$C = \\frac{A\\varepsilon_0}{(d-t) + t/k}$$\n\n**Memory shortcut taught in the lecture:** treat each layer (air included, with $k=1$) as a slab of thickness $T_i$ and constant $K_i$, and sum:\n$$C = \\frac{A\\varepsilon_0}{\\sum_i T_i/K_i}$$\n\n### Special case: a metal slab bridging the gap\nIf the inserted slab is a conductor (not a dielectric) and it touches both plates, that is the $t \\to d$, $k \\to \\infty$ limit of the formula above -- the two plates are effectively short-circuited through the metal, so $C \\to \\infty$. This is the board's shorthand (\"$K=\\infty$ for metals\") for that specific boundary case, not a general claim that any metal slab makes $C$ infinite -- a metal slab of thickness $t<d$ that does **not** touch both plates instead just reduces the effective air gap to $(d-t)$, giving the ordinary partial-fill result with $k\\to\\infty$ applied only to that slab's own term (which drops out, leaving $C = A\\varepsilon_0/(d-t)$).\n"
+}
