@@ -7,6 +7,10 @@
   "source_note": "NCERT Class 12 Physics Part I, Reprint 2026-27 (RATIONALISED 2022-23) -- current CBSE syllabus. Equations NOT reliable in this extraction; use board frames as the equation source of truth.",
   "sections": [
     {
+      "number": "2.2",
+      "heading": "Electrostatic Potential"
+    },
+    {
       "number": "2.3",
       "heading": "Potential Due To A Point Charge"
     },
@@ -23,6 +27,10 @@
       "heading": "Equipotential Surfaces"
     },
     {
+      "number": "2.7",
+      "heading": "Potential Energy Of A System Of Charges"
+    },
+    {
       "number": "2.8",
       "heading": "Potential Energy In An External Field"
     },
@@ -35,8 +43,24 @@
       "heading": "Dielectrics And Polarisation"
     },
     {
+      "number": "2.11",
+      "heading": "Capacitors And Capacitance"
+    },
+    {
+      "number": "2.12",
+      "heading": "The Parallel Plate Capacitor"
+    },
+    {
+      "number": "2.13",
+      "heading": "Effect Of Dielectric On Capacitance"
+    },
+    {
       "number": "2.14",
       "heading": "Combination Of Capacitors"
+    },
+    {
+      "number": "2.15",
+      "heading": "Energy Stored In A Capacitor"
     }
   ],
   "scientists": [
@@ -46,31 +70,43 @@
     }
   ],
   "lexicon": [
+    "Capacitance",
+    "Capacitor",
     "Capacitors",
+    "Capacitors And Capacitance",
     "Charge",
     "Charges",
     "Combination",
     "Combination Of Capacitors",
     "Conductors",
     "Count Alessandro Volta",
+    "Dielectric",
     "Dielectrics",
     "Dielectrics And Polarisation",
     "Dipole",
+    "Effect",
+    "Effect Of Dielectric On Capacitance",
     "Electric",
+    "Electrostatic",
     "Electrostatic Potential",
     "Electrostatics",
     "Electrostatics Of Conductors",
     "Energy",
+    "Energy Stored In A Capacitor",
     "Equipotential",
     "Equipotential Surfaces",
     "External",
     "Field",
+    "Parallel",
     "Physics Part",
+    "Plate",
     "Point",
     "Polarisation",
     "Potential",
+    "Stored",
     "Surfaces",
-    "System"
+    "System",
+    "The Parallel Plate Capacitor"
   ],
   "summary": "1\\. Electrostatic force is a conservative force. Work done by an external force (equal and opposite to the electrostatic force) in bringing a charge q from a point R to a point P is q(VP–VR), which is the difference in potential energy of charge q between the final and initial points. 2. Potential at a point is the work done per unit charge (by an external agency) in bringing a charge from infinity to that point. Potential at a point is arbitrary to within an additive constant, since it is the potential difference between two points which is physically significant. If potential at infinity is chosen to be zero; potential at a point with position vector r due to a point charge Q placed at the origin is given is given by\n\n( ) 4 V r\n\n\\= 1 Q π ε o r 3. The electrostatic potential at a point with position vector r due to a\n\npoint dipole of dipole moment p placed at the origin is\n\nV ( r\n\n) = ˆ1 4 π ε o p.r r 2The result is true also for a dipole (with charges –q and q separated by 2a) for r \\>\\> a.\n\n4\\. For a charge configuration q1, q2, ..., qn with position vectors r1, r2, ... rn, the potential at a point P is given by the superposition principle\n\nV = 4\n\nπ 1 ε 0 ( r q 1P 1 + r q 2P 2\n\n\\+ ... + r q nnP ) where r1P is the distance between q1 and P, as and so on. 5. An equipotential surface is a surface over which potential has a constant value. For a point charge, concentric spheres centred at a location of the charge are equipotential surfaces. The electric field E at a point is perpendicular to the equipotential surface through the point. E is in the direction of the steepest decrease of potential.\n\nReprint 2026-27\n\nElectrostatic Potential and Capacitance\n\n6\\. Potential energy stored in a system of charges is the work done (by an external agency) in assembling the charges at their locations. Potential energy of two charges q1, q2 at r1, r2 is given by\n\nU = 4\n\nπ 1ε 0 q r 1 12\n\nq 2\n\nwhere r12 is distance between q1 and q2. 7. The potential energy of a charge q in an external potential V(r) is qV(r). The potential energy of a dipole moment p in a uniform electric field E is –p.E.\n\n8\\. Electrostatics field E is zero in the interior of a conductor; just outside the surface of a charged conductor, E is normal to the surface given by\n\n0\n\n77 E = ε σn ˆ where ˆn is the unit vector along the outward normal to the surface and σ is the surface charge density. Charges in a conductor can reside only at its surface. Potential is constant within and on the surface of a conductor. In a cavity within a conductor (with no charges), the electric field is zero.\n\n9\\. A capacitor is a system of two conductors separated by an insulator. Its capacitance is defined by C = Q/V, where Q and –Q are the charges on the two conductors and V is the potential difference between them. C is determined purely geometrically, by the shapes, sizes and relative positions of the two conductors. The unit of capacitance is farad:, 1 F = 1 C V –1. For a parallel plate capacitor (with vacuum between the plates),\n\nC = ε 0 d Awhere A is the area of each plate and d the separation between them.\n\n10\\. If the medium between the plates of a capacitor is filled with an insulating substance (dielectric), the electric field due to the charged plates induces a net dipole moment in the dielectric. This effect, called polarisation, gives rise to a field in the opposite direction. The net electric field inside the dielectric and hence the potential difference between the plates is thus reduced. Consequently, the capacitance C increases from its value C0 when there is no medium (vacuum),\n\nC = KC0\n\nwhere K is the dielectric constant of the insulating substance.\n\n11\\. For capacitors in the series combination, the total capacitance C is given by\n\n1 C = C 1 1 + C 1 2 + C 1 3\n\n\\+ ... In the parallel combination, the total capacitance C is: C = C1 + C2 + C3 + ...\n\nwhere C1, C2, C3... are individual capacitances.\n\nReprint 2026-27\n\nPhysics\n\n78\n\n12\\. The energy U stored in a capacitor of capacitance C, with charge Q and\n\nvoltage V is\n\nU = 12\n\nQV = 12\n\nCV 2\n\n\\= 12\n\nQC 2\n\nThe electric energy density (energy per unit volume) in a region with electric field is (1/2)ε0E2.\n\nPhysical quantity Symbol Dimensions Unit Remark\n\nPotential or V \\[M1 L2 T–3 A–1\\] V Potential difference is physically significant\n\nCapacitance C \\[M–1 L–2 T–4 A2\\] F\n\nPolarisation P \\[L–2 AT\\] C m-2 Dipole moment per unit\n\nvolume\n\nDielectric constant K \\[Dimensionless\\]",
   "points_to_ponder": "1\\. Electrostatics deals with forces between charges at rest. But if there is a force on a charge, how can it be at rest? Thus, when we are talking of electrostatic force between charges, it should be understood that each charge is being kept at rest by some unspecified force that opposes the net Coulomb force on the charge.\n\n2\\. A capacitor is so configured that it confines the electric field lines within a small region of space. Thus, even though field may have considerable strength, the potential difference between the two conductors of a capacitor is small.\n\n3\\. Electric field is discontinuous shell. It is zero inside and continuous across the surface, εσ0 across ˆn equal outside. the to q/4πεsurface Electric 0R of a spherical charged potential is, however at the surface.\n\n4\\. The torque p × E on a dipole causes it to oscillate about E. Only if there is a dissipative mechanism, the oscillations are damped and the dipole eventually aligns with E.\n\n5\\. Potential due to a charge q at its own location is not defined – it is\n\ninfinite.\n\n6\\. In the expression qV(r) for potential energy of a charge q, V(r) is the potential due to external charges and not the potential due to q. As seen in point 5, this expression will be ill-defined if V(r) includes potential due to a charge q itself.\n\nReprint 2026-27\n\nElectrostatic Potential and Capacitance\n\n7\\. A cavity inside a conductor is shielded from outside electrical influences. It is worth noting that electrostatic shielding does not work the other way round; that is, if you put charges inside the cavity, the exterior of the conductor is not shielded from the fields by the inside charges.",

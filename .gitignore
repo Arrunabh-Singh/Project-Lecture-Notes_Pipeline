@@ -15,5 +15,8 @@ data/cache/
 # per-video checkpoint state (regenerable, machine-specific paths)
 state/
 
+# generated HTML artifact build output (regenerable from notes/ + data/lectures/)
+data/publish/
+
 # leftover git worktrees from background agent runs
 .claude/worktrees/

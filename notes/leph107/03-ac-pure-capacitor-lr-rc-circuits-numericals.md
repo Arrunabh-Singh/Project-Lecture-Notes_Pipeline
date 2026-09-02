@@ -1,8 +1,8 @@
 # AC Circuits: Pure Capacitor, Power in L/C, LR Circuit, RC Circuit, Numericals
 
-**NCERT sections covered:** 7.6, 7.7
+**NCERT sections covered:** 7.5, 7.6, 7.7
 
-## AC circuit with a pure capacitor (NCERT 7.6)
+## AC circuit with a pure capacitor (NCERT 7.5)
 
 With $E=E_0\sin(\omega t)$: $q=CE_0\sin(\omega t)$, $i=dq/dt=\omega C E_0\cos(\omega t) = E_0\omega C\sin(\omega t+\pi/2)$.
 
@@ -13,13 +13,13 @@ $X_C f = \dfrac{1}{2\pi C}=$ const $\Rightarrow$ $X_C$ vs. $f$ is a rectangular 
 
 **Worked numerical:** $318\,\mu$F, $230$ V, $50$ Hz. $X_C\approx10\,\Omega$; $I_\text{rms}=E_\text{rms}/X_C=230/10=23$ A; $i=I_0\sin(\omega t+\pi/2)$, $E_0=\sqrt2\,E_\text{rms}$.
 
-## Average power in pure L or C: zero (wattless current)
+## Average power in pure L or C: zero (wattless current) (NCERT 7.7)
 
 For a pure inductor, $P=EI=E_0I_0\sin(\omega t)\sin(\omega t-\pi/2) = -\tfrac12 E_0I_0\sin(2\omega t)$ — averages to **zero** over a full cycle. Current still flows despite zero power dissipation: this is **wattless current**. (Same result, opposite sign, for a pure capacitor.)
 
 **Practical use:** to reduce AC current with (ideally) no power loss, prefer an inductor over a resistor — old tube lights used a **choke coil** for exactly this reason.
 
-## LR circuit (NCERT 7.7)
+## LR circuit (extends NCERT 7.6's phasor method)
 
 $V_R$ and $V_L$ add as **phasors**, not algebraically (they're $90°$ out of phase — $V_L$ leads $V_R$):
 $$E = \sqrt{V_R^2+V_L^2} = I\sqrt{R^2+X_L^2} = IZ, \qquad Z=\sqrt{R^2+X_L^2}~\text{(impedance)}$$
@@ -27,7 +27,7 @@ $$\phi = \tan^{-1}\frac{X_L}{R}, \qquad E = E_0\sin(\omega t+\phi)$$
 
 **Worked numerical:** coil $L=0.5$ H, $R=100\,\Omega$, on $240$ V, $50$ Hz AC. $Z_L=\sqrt{R^2+(\omega L)^2}$; max current $I_0=E_0/Z_L\approx1.82$ A; phase angle $\phi=\tan^{-1}(\omega L/R)\approx57.5°$; **time lag** $=\phi/\omega\approx3.19\times10^{-3}$ s (current peaks this long after voltage peaks).
 
-## RC circuit (NCERT 7.7)
+## RC circuit (extends NCERT 7.6's phasor method)
 
 By analogous phasor reasoning (now $I$ leads $\varepsilon$, since current leads voltage across $C$):
 $$\varepsilon = \sqrt{V_R^2+V_C^2} = I\sqrt{R^2+X_C^2} = IZ_C, \qquad Z_C=\sqrt{R^2+\frac{1}{\omega^2C^2}}$$

@@ -11,8 +11,28 @@
       "heading": "Introduction"
     },
     {
+      "number": "3.2",
+      "heading": "Electric Current"
+    },
+    {
+      "number": "3.3",
+      "heading": "Electric Currents In Conductors"
+    },
+    {
+      "number": "3.4",
+      "heading": "Ohm’S Law"
+    },
+    {
       "number": "3.5",
       "heading": "Drift Of Electrons And The Origin"
+    },
+    {
+      "number": "3.6",
+      "heading": "Limitations Of Ohm’S Law"
+    },
+    {
+      "number": "3.7",
+      "heading": "Resistivity Of Various Materials"
     },
     {
       "number": "3.8",
@@ -21,6 +41,14 @@
     {
       "number": "3.9",
       "heading": "Electrical Energy, Power"
+    },
+    {
+      "number": "3.10",
+      "heading": "Cells, Emf, Internal Resistance"
+    },
+    {
+      "number": "3.12",
+      "heading": "Kirchhoff’S Rules"
     },
     {
       "number": "3.13",
@@ -39,22 +67,42 @@
   ],
   "lexicon": [
     "Bridge",
+    "Cells",
+    "Cells, Emf, Internal Resistance",
     "Combining Eqs",
+    "Conductors",
+    "Current",
     "Current Electricity",
+    "Currents",
     "Dependence",
     "Drift",
+    "Electric",
+    "Electric Current",
+    "Electric Currents In Conductors",
     "Electrical",
     "Electrical Energy, Power",
     "Electrons",
     "Energy",
     "Georg Simon Ohm",
     "Gustav Robert Kirchhoff",
+    "Internal",
     "Introduction",
+    "Kirchhoff’S",
+    "Kirchhoff’S Rules",
+    "Limitations",
+    "Limitations Of Ohm’S Law",
+    "Materials",
+    "Ohm’S",
+    "Ohm’S Law",
     "Origin",
     "Power",
+    "Resistance",
     "Resistivity",
+    "Resistivity Of Various Materials",
+    "Rules",
     "Temperature",
     "Temperature Dependence Of Resistivity",
+    "Various",
     "Wheatstone",
     "Wheatstone Bridge"
   ],

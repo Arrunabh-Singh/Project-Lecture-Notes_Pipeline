@@ -32,9 +32,19 @@ def find_gaps(chapter_id: str, lectures: list[LectureNotes]) -> list[CoverageGap
     for lecture in lectures:
         covered.update(lecture.ncert_sections_covered)
 
+    # A lecture sometimes cites a sub-section ("5.2.2") that is finer-grained
+    # than the chapter outline's own flat section list (which only has "5.2").
+    # Credit the parent section as covered too, so a real sub-topic citation
+    # doesn't show up as a false gap on its listed parent.
+    covered_with_parents = set(covered)
+    for sec in covered:
+        parts = sec.split(".")
+        if len(parts) > 2:
+            covered_with_parents.add(".".join(parts[:2]))
+
     gaps = []
     for section in chapter_sections(chapter_id):
-        if section["number"] not in covered:
+        if section["number"] not in covered_with_parents:
             gaps.append(CoverageGap(
                 chapter_id=chapter_id,
                 section_number=section["number"],

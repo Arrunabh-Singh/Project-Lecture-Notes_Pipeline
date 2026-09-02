@@ -27,12 +27,24 @@
       "heading": "Magnetic Field On The Axis Of A Circular"
     },
     {
+      "number": "4.6",
+      "heading": "Ampere’S Circuital Law"
+    },
+    {
+      "number": "4.7",
+      "heading": "The Solenoid"
+    },
+    {
       "number": "4.8",
       "heading": "Force Between Two Parallel"
     },
     {
       "number": "4.9",
       "heading": "Torque On Current Loop, Magnetic Dipole"
+    },
+    {
+      "number": "4.10",
+      "heading": "The Moving Coil Galvanometer"
     }
   ],
   "scientists": [
@@ -50,15 +62,20 @@
     }
   ],
   "lexicon": [
+    "Ampere’S",
+    "Ampere’S Circuital Law",
     "Andre Ampere",
     "Axis",
     "Between",
+    "Circuital",
     "Circular",
+    "Coil",
     "Current",
     "Dipole",
     "Field",
     "Force",
     "Force Between Two Parallel",
+    "Galvanometer",
     "Hans Christian",
     "Hans Christian Oersted",
     "Introduction",
@@ -68,9 +85,13 @@
     "Magnetic Force",
     "Motion",
     "Motion In A Magnetic Field",
+    "Moving",
     "Moving Charges",
     "Nikola Tesla",
     "Parallel",
+    "Solenoid",
+    "The Moving Coil Galvanometer",
+    "The Solenoid",
     "Torque"
   ],
   "summary": "1\\. The total force on a charge q moving with velocity v in the presence of magnetic and electric fields B and E, respectively is called the Lorentz force. It is given by the expression: F = q (v × B + E) The magnetic force q (v × B) is normal to v and work done by it is zero. 2. A straight conductor of length l and carrying a steady current I\n\nexperiences a force F in a uniform external magnetic field B, F = I l × B where|l| = l and the direction of l is given by the direction of the current. 3. In a uniform magnetic field B, a charge q executes a circular orbit in a plane normal to B. Its frequency of uniform circular motion is called the cyclotron frequency and is given by:\n\nν c = 2 q π Bm This frequency is independent of the particle’s speed and radius. This fact is exploited in a machine, the cyclotron, which is used to accelerate charged particles. 4. The Biot-Savart law asserts that the magnetic field dB due to an element dl carrying a steady current I at a point P at a distance r from the current element is:\n\nd B\n\n\\= µ 0 4 π\n\nI d l × r 3 r To obtain the total field at P, we must integrate this vector expression over the entire length of the conductor. 5. The magnitude of the magnetic field due to a circular coil of radius R\n\ncarrying a current I at an axial distance x from the centre is\n\nMoving Charges and Magnetism\n\nB = µ 0\n\nIR 2 2( x 2 +\n\nR\n\n2 ) 3/2 At the centre this reduces to\n\nB =\n\nµ 0I 2 R6. Ampere’s Circuital Law: Let an open surface S be bounded by a loop\n\nC. Then the Ampere’s law states that ∫ Ñ CB .d l = µ0\n\nI where I refers to\n\nthe current passing through S. The sign of I is determined from the right-hand rule. We have discussed a simplified form of this law. If B is directed along the tangent to every point on the perimeter L of a closed curve and is constant in magnitude along perimeter then, BL = µ0 Ie where Ie is the net current enclosed by the closed circuit. 7. The magnitude of the magnetic field at a distance R from a long,\n\nstraight wire carrying a current I is given by:\n\nB =\n\nµ 0 I 2\n\nπR\n\nThe field lines are circles concentric with the wire. 8. The magnitude of the field B inside a long solenoid carrying a current\n\nI is B = µ0nI where n is the number of turns per unit length. 9. Parallel currents attract and anti-parallel currents repel. 10. A planar loop carrying a current I, having N closely wound turns, and\n\nan area A possesses a magnetic moment m where, m = N I A and the direction of m is given by the right-hand thumb rule : curl the palm of your right hand along the loop with the fingers pointing in the direction of the current. The thumb sticking out gives the direction of m (and A) When this loop is placed in a uniform magnetic field B, the force F on it is: F = 0 And the torque on it is, τ = m × B In a moving coil galvanometer, this torque is balanced by a counter- torque due to a spring, yielding kφ = NI AB where φ is the equilibrium deflection and k the torsion constant of the spring. 11. A moving coil galvanometer can be converted into a ammeter by introducing converted into a shunt a voltmeter resistance by introducing rs, of small a value in parallel. It can be resistance of a large value in series.\n\nReprint 2026-27\n\n133\n\nPhysics\n\nPhysical Quantity Symbol Nature Dimensions Units Remarks\n\nPermeability of free space\n\nµ0 Scalar \\[MLT –2A–2\\] T m A–1 4π × 10–7 T m A–1\n\nMagnetic Field B Vector \\[M T –2A–1\\] T (telsa)\n\nMagnetic Moment m Vector \\[L2A\\] A m2 or J/T\n\nTorsion Constant k Scalar \\[M L2T–2\\] N m rad–1 Appears in MCG",

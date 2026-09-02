@@ -14,6 +14,7 @@ NCERT_DIR = DATA_DIR / "ncert" / "processed"
 MANIFEST_PATH = DATA_DIR / "lecture_manifest.json"
 NOTES_DIR = ROOT / "notes"
 STATE_DIR = ROOT / "state"
+PUBLISH_DIR = DATA_DIR / "publish"        # gitignored: generated HTML build output
 
 
 def _load_dotenv(path: Path) -> None:
@@ -54,5 +55,5 @@ class Config:
 
 config = Config()
 
-for _dir in (LECTURES_DIR, CACHE_DIR, NOTES_DIR, STATE_DIR):
+for _dir in (LECTURES_DIR, CACHE_DIR, NOTES_DIR, STATE_DIR, PUBLISH_DIR):
     _dir.mkdir(parents=True, exist_ok=True)

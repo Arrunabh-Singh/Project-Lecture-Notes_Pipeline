@@ -15,6 +15,10 @@
       "heading": "Ac Voltage Applied To A Resistor"
     },
     {
+      "number": "7.3",
+      "heading": "Representation By Rotating Vectors — Phasors"
+    },
+    {
       "number": "7.4",
       "heading": "Ac Voltage Applied To An Inductor"
     },
@@ -27,6 +31,10 @@
       "heading": "Ac Voltage Applied To Series Lcr Circuit"
     },
     {
+      "number": "7.7",
+      "heading": "Power In Ac Circuit: The Power Factor"
+    },
+    {
       "number": "7.8",
       "heading": "Transformers"
     }
@@ -36,11 +44,18 @@
     "Applied",
     "Capacitor",
     "Circuit",
+    "Circuit:",
+    "Factor",
     "Inductor",
     "Introduction",
+    "Phasors",
+    "Power",
+    "Representation",
     "Resistor",
+    "Rotating",
     "Series",
     "Transformers",
+    "Vectors",
     "Voltage"
   ],
   "summary": "1. Resistor: i=vm/R sinωt, in phase.\n2. rms: I=im/√2, V=vm/√2, P=IV=I²R.\n3. Inductor: XL=ωL, current lags π/2, avg power=0.\n4. Capacitor: XC=1/ωC, current leads π/2, avg power=0.\n5. Series RLC: Z=√(R²+(XC-XL)²), φ=tan⁻¹((XC-XL)/R), P=VIcosφ.\n6. Pure L/C: cosφ=0, wattless current.\n7. Phasor: rotating vector representation.\n8. Transformer: Vs/Vp = Ns/Np, Is/Ip = Np/Ns.",

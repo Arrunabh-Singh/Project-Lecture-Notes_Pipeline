@@ -11,7 +11,7 @@
         189.0
       ],
       "frame_path": "data/lectures/leph107/1xuxJ9eUZjiR7P4X06v_vBLMWF-GW03r4/frames/floor_000009.jpg",
-      "ncert_section": "7.6",
+      "ncert_section": "7.5",
       "ncert_agreement": "agrees"
     },
     {
@@ -21,7 +21,7 @@
         425.0
       ],
       "frame_path": "data/lectures/leph107/1xuxJ9eUZjiR7P4X06v_vBLMWF-GW03r4/frames/floor_000014.jpg",
-      "ncert_section": "7.6",
+      "ncert_section": "7.5",
       "ncert_agreement": "agrees"
     },
     {
@@ -31,7 +31,7 @@
         539.0
       ],
       "frame_path": "data/lectures/leph107/1xuxJ9eUZjiR7P4X06v_vBLMWF-GW03r4/frames/floor_000028.jpg",
-      "ncert_section": "7.6",
+      "ncert_section": "7.5",
       "ncert_agreement": "agrees"
     },
     {
@@ -41,7 +41,7 @@
         787.0
       ],
       "frame_path": "data/lectures/leph107/1xuxJ9eUZjiR7P4X06v_vBLMWF-GW03r4/frames/floor_000036.jpg",
-      "ncert_section": "7.6",
+      "ncert_section": "7.5",
       "ncert_agreement": "agrees"
     },
     {
@@ -51,7 +51,7 @@
         1033.0
       ],
       "frame_path": null,
-      "ncert_section": "7.6",
+      "ncert_section": "7.7",
       "ncert_agreement": "agrees"
     },
     {
@@ -61,7 +61,7 @@
         1121.0
       ],
       "frame_path": null,
-      "ncert_section": "7.6",
+      "ncert_section": "7.7",
       "ncert_agreement": "agrees"
     },
     {
@@ -71,7 +71,7 @@
         1804.0
       ],
       "frame_path": "data/lectures/leph107/1xuxJ9eUZjiR7P4X06v_vBLMWF-GW03r4/frames/floor_000042.jpg",
-      "ncert_section": "7.7",
+      "ncert_section": "7.6",
       "ncert_agreement": "agrees"
     },
     {
@@ -81,21 +81,21 @@
         2628.0
       ],
       "frame_path": "data/lectures/leph107/1xuxJ9eUZjiR7P4X06v_vBLMWF-GW03r4/frames/floor_000107.jpg",
-      "ncert_section": "7.7",
+      "ncert_section": "7.6",
       "ncert_agreement": "agrees"
     },
     {
       "text": "AC circuit containing R and C together (RC circuit): by an analogous phasor derivation to the LR circuit -- VR=IR (in phase with I), VC=I*Xc (but now, since current leads voltage across a capacitor, the phasor diagram has I ahead of VC by 90 degrees, or equivalently VC lags VR by 90 degrees) -- the resultant EMF is epsilon=root(VR^2+VC^2)=I*root(R^2+Xc^2)=I*Zc, where Zc=root(R^2+1/(omega^2*C^2)) is the impedance of the RC circuit. Here current I LEADS the EMF epsilon by phase angle phi (opposite sense from the LR circuit), with tan(phi)=Vc/VR=Xc/R=1/(omega*C*R), so phi=tan^-1(1/(omega*C*R))",
       "transcript_span": null,
       "frame_path": "data/lectures/leph107/1xuxJ9eUZjiR7P4X06v_vBLMWF-GW03r4/frames/floor_000134.jpg",
-      "ncert_section": "7.7",
+      "ncert_section": "7.6",
       "ncert_agreement": "agrees"
     },
     {
       "text": "Worked numerical (RC circuit, setup and method visible): a circuit connected to a 20 V, 50 Hz supply takes a current of 10 A, with current leading voltage by 1/12 of the time period. Find resistance, capacitive reactance, and capacitance. Method shown: phase angle phi corresponding to a time lead of T/12 is phi=360/12=30 degrees; then R=Zc*cos(phi) (with Zc=E_rms/I_rms from the given 20V, 10A), and similarly Xc follows from Zc and phi, with C then obtained from Xc=1/(omega*C)",
       "transcript_span": null,
       "frame_path": "data/lectures/leph107/1xuxJ9eUZjiR7P4X06v_vBLMWF-GW03r4/frames/floor_000134.jpg",
-      "ncert_section": "7.7",
+      "ncert_section": "7.6",
       "ncert_agreement": "agrees"
     }
   ],
@@ -112,6 +112,7 @@
     }
   ],
   "ncert_sections_covered": [
+    "7.5",
     "7.6",
     "7.7"
   ],
@@ -148,5 +149,5 @@
     "data/lectures/leph107/1xuxJ9eUZjiR7P4X06v_vBLMWF-GW03r4/frames/floor_000121.jpg",
     "data/lectures/leph107/1xuxJ9eUZjiR7P4X06v_vBLMWF-GW03r4/frames/floor_000134.jpg"
   ],
-  "markdown_body": "## AC circuit with a pure capacitor (NCERT 7.6)\n\nWith $E=E_0\\sin(\\omega t)$: $q=CE_0\\sin(\\omega t)$, $i=dq/dt=\\omega C E_0\\cos(\\omega t) = E_0\\omega C\\sin(\\omega t+\\pi/2)$.\n\n**Current leads EMF by $\\pi/2$** (opposite the inductor case). Writing $i=I_0\\sin(\\omega t+\\pi/2)$ with $I_0=E_0/X_C$:\n$$\\boxed{X_C = \\frac{1}{\\omega C}} \\quad\\text{(capacitive reactance, unit: ohm)}$$\n\n$X_C f = \\dfrac{1}{2\\pi C}=$ const $\\Rightarrow$ $X_C$ vs. $f$ is a rectangular hyperbola. At $f=0$ (DC), $X_C\\to\\infty$ — **a capacitor blocks DC**.\n\n**Worked numerical:** $318\\,\\mu$F, $230$ V, $50$ Hz. $X_C\\approx10\\,\\Omega$; $I_\\text{rms}=E_\\text{rms}/X_C=230/10=23$ A; $i=I_0\\sin(\\omega t+\\pi/2)$, $E_0=\\sqrt2\\,E_\\text{rms}$.\n\n## Average power in pure L or C: zero (wattless current)\n\nFor a pure inductor, $P=EI=E_0I_0\\sin(\\omega t)\\sin(\\omega t-\\pi/2) = -\\tfrac12 E_0I_0\\sin(2\\omega t)$ — averages to **zero** over a full cycle. Current still flows despite zero power dissipation: this is **wattless current**. (Same result, opposite sign, for a pure capacitor.)\n\n**Practical use:** to reduce AC current with (ideally) no power loss, prefer an inductor over a resistor — old tube lights used a **choke coil** for exactly this reason.\n\n## LR circuit (NCERT 7.7)\n\n$V_R$ and $V_L$ add as **phasors**, not algebraically (they're $90°$ out of phase — $V_L$ leads $V_R$):\n$$E = \\sqrt{V_R^2+V_L^2} = I\\sqrt{R^2+X_L^2} = IZ, \\qquad Z=\\sqrt{R^2+X_L^2}~\\text{(impedance)}$$\n$$\\phi = \\tan^{-1}\\frac{X_L}{R}, \\qquad E = E_0\\sin(\\omega t+\\phi)$$\n\n**Worked numerical:** coil $L=0.5$ H, $R=100\\,\\Omega$, on $240$ V, $50$ Hz AC. $Z_L=\\sqrt{R^2+(\\omega L)^2}$; max current $I_0=E_0/Z_L\\approx1.82$ A; phase angle $\\phi=\\tan^{-1}(\\omega L/R)\\approx57.5°$; **time lag** $=\\phi/\\omega\\approx3.19\\times10^{-3}$ s (current peaks this long after voltage peaks).\n\n## RC circuit (NCERT 7.7)\n\nBy analogous phasor reasoning (now $I$ leads $\\varepsilon$, since current leads voltage across $C$):\n$$\\varepsilon = \\sqrt{V_R^2+V_C^2} = I\\sqrt{R^2+X_C^2} = IZ_C, \\qquad Z_C=\\sqrt{R^2+\\frac{1}{\\omega^2C^2}}$$\n$$\\tan\\phi = \\frac{X_C}{R}=\\frac{1}{\\omega CR}, \\qquad \\phi = \\tan^{-1}\\left(\\frac{1}{\\omega CR}\\right)$$\n\n**Worked numerical (setup + method):** circuit on $20$ V, $50$ Hz takes $10$ A, current leading voltage by $T/12$. $\\phi = 360°/12=30°$; $R=Z_C\\cos\\phi$ (with $Z_C=E_\\text{rms}/I_\\text{rms}$); $X_C$ and hence $C$ follow similarly.\n\n**Second numerical (unfinished in available material):** a $100$ V, $60$ W lamp operated on $220$ V, $50$ Hz mains — find $R$, $X_C$, and $C$ (a lamp-in-series-with-capacitor circuit, used to drop voltage without wasting power in a resistor).\n\n---\n*Note on this lecture's transcript:* the LR-circuit derivation repeats nearly verbatim six times back-to-back, consuming roughly 1000 seconds and drifting the transcript's own timestamps for everything after it. As a result, the entire RC-circuit derivation and its own worked numerical are completely absent from the transcript's words and are grounded here from a board frame; the final lamp-and-capacitor numerical is left unsolved since neither the transcript nor the available frames capture its resolution.\n"
+  "markdown_body": "## AC circuit with a pure capacitor (NCERT 7.5)\n\nWith $E=E_0\\sin(\\omega t)$: $q=CE_0\\sin(\\omega t)$, $i=dq/dt=\\omega C E_0\\cos(\\omega t) = E_0\\omega C\\sin(\\omega t+\\pi/2)$.\n\n**Current leads EMF by $\\pi/2$** (opposite the inductor case). Writing $i=I_0\\sin(\\omega t+\\pi/2)$ with $I_0=E_0/X_C$:\n$$\\boxed{X_C = \\frac{1}{\\omega C}} \\quad\\text{(capacitive reactance, unit: ohm)}$$\n\n$X_C f = \\dfrac{1}{2\\pi C}=$ const $\\Rightarrow$ $X_C$ vs. $f$ is a rectangular hyperbola. At $f=0$ (DC), $X_C\\to\\infty$ — **a capacitor blocks DC**.\n\n**Worked numerical:** $318\\,\\mu$F, $230$ V, $50$ Hz. $X_C\\approx10\\,\\Omega$; $I_\\text{rms}=E_\\text{rms}/X_C=230/10=23$ A; $i=I_0\\sin(\\omega t+\\pi/2)$, $E_0=\\sqrt2\\,E_\\text{rms}$.\n\n## Average power in pure L or C: zero (wattless current) (NCERT 7.7)\n\nFor a pure inductor, $P=EI=E_0I_0\\sin(\\omega t)\\sin(\\omega t-\\pi/2) = -\\tfrac12 E_0I_0\\sin(2\\omega t)$ — averages to **zero** over a full cycle. Current still flows despite zero power dissipation: this is **wattless current**. (Same result, opposite sign, for a pure capacitor.)\n\n**Practical use:** to reduce AC current with (ideally) no power loss, prefer an inductor over a resistor — old tube lights used a **choke coil** for exactly this reason.\n\n## LR circuit (extends NCERT 7.6's phasor method)\n\n$V_R$ and $V_L$ add as **phasors**, not algebraically (they're $90°$ out of phase — $V_L$ leads $V_R$):\n$$E = \\sqrt{V_R^2+V_L^2} = I\\sqrt{R^2+X_L^2} = IZ, \\qquad Z=\\sqrt{R^2+X_L^2}~\\text{(impedance)}$$\n$$\\phi = \\tan^{-1}\\frac{X_L}{R}, \\qquad E = E_0\\sin(\\omega t+\\phi)$$\n\n**Worked numerical:** coil $L=0.5$ H, $R=100\\,\\Omega$, on $240$ V, $50$ Hz AC. $Z_L=\\sqrt{R^2+(\\omega L)^2}$; max current $I_0=E_0/Z_L\\approx1.82$ A; phase angle $\\phi=\\tan^{-1}(\\omega L/R)\\approx57.5°$; **time lag** $=\\phi/\\omega\\approx3.19\\times10^{-3}$ s (current peaks this long after voltage peaks).\n\n## RC circuit (extends NCERT 7.6's phasor method)\n\nBy analogous phasor reasoning (now $I$ leads $\\varepsilon$, since current leads voltage across $C$):\n$$\\varepsilon = \\sqrt{V_R^2+V_C^2} = I\\sqrt{R^2+X_C^2} = IZ_C, \\qquad Z_C=\\sqrt{R^2+\\frac{1}{\\omega^2C^2}}$$\n$$\\tan\\phi = \\frac{X_C}{R}=\\frac{1}{\\omega CR}, \\qquad \\phi = \\tan^{-1}\\left(\\frac{1}{\\omega CR}\\right)$$\n\n**Worked numerical (setup + method):** circuit on $20$ V, $50$ Hz takes $10$ A, current leading voltage by $T/12$. $\\phi = 360°/12=30°$; $R=Z_C\\cos\\phi$ (with $Z_C=E_\\text{rms}/I_\\text{rms}$); $X_C$ and hence $C$ follow similarly.\n\n**Second numerical (unfinished in available material):** a $100$ V, $60$ W lamp operated on $220$ V, $50$ Hz mains — find $R$, $X_C$, and $C$ (a lamp-in-series-with-capacitor circuit, used to drop voltage without wasting power in a resistor).\n\n---\n*Note on this lecture's transcript:* the LR-circuit derivation repeats nearly verbatim six times back-to-back, consuming roughly 1000 seconds and drifting the transcript's own timestamps for everything after it. As a result, the entire RC-circuit derivation and its own worked numerical are completely absent from the transcript's words and are grounded here from a board frame; the final lamp-and-capacitor numerical is left unsolved since neither the transcript nor the available frames capture its resolution.\n"
 }

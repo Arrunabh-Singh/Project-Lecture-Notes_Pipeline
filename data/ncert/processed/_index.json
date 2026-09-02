@@ -5,8 +5,8 @@
     "title": "Electric Charges and Fields",
     "lecture_folder": "Ch1 Electric field",
     "fidelity": "full_raw_extract",
-    "section_count": 6,
-    "lexicon_size": 18
+    "section_count": 14,
+    "lexicon_size": 36
   },
   {
     "chapter_id": "leph102",
@@ -14,8 +14,8 @@
     "title": "Electrostatic Potential and Capacitance",
     "lecture_folder": "Ch2 Electric potential",
     "fidelity": "full_raw_extract",
-    "section_count": 8,
-    "lexicon_size": 25
+    "section_count": 14,
+    "lexicon_size": 37
   },
   {
     "chapter_id": "leph103",
@@ -23,8 +23,8 @@
     "title": "Current Electricity",
     "lecture_folder": "Ch3 electricity",
     "fidelity": "full_raw_extract",
-    "section_count": 5,
-    "lexicon_size": 19
+    "section_count": 12,
+    "lexicon_size": 39
   },
   {
     "chapter_id": "leph104",
@@ -32,8 +32,8 @@
     "title": "Moving Charges and Magnetism",
     "lecture_folder": "Ch4 moving charges and magnetism",
     "fidelity": "full_raw_extract",
-    "section_count": 7,
-    "lexicon_size": 22
+    "section_count": 10,
+    "lexicon_size": 31
   },
   {
     "chapter_id": "leph105",
@@ -41,8 +41,8 @@
     "title": "Magnetism and Matter",
     "lecture_folder": "Ch5 matter and magnetism",
     "fidelity": "condensed_summary",
-    "section_count": 4,
-    "lexicon_size": 10
+    "section_count": 5,
+    "lexicon_size": 13
   },
   {
     "chapter_id": "leph106",
@@ -50,8 +50,8 @@
     "title": "Electromagnetic Induction",
     "lecture_folder": "Ch6 EMI",
     "fidelity": "condensed_summary",
-    "section_count": 6,
-    "lexicon_size": 19
+    "section_count": 8,
+    "lexicon_size": 25
   },
   {
     "chapter_id": "leph107",
@@ -59,8 +59,8 @@
     "title": "Alternating Current",
     "lecture_folder": "Ch7AC",
     "fidelity": "condensed_summary",
-    "section_count": 6,
-    "lexicon_size": 9
+    "section_count": 8,
+    "lexicon_size": 16
   },
   {
     "chapter_id": "leph108",

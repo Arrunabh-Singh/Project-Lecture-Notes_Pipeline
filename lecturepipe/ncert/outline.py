@@ -56,8 +56,8 @@ CHAPTER_TO_LECTURE_FOLDER = {
 }
 
 SECTION_RE = re.compile(
-    r"(?:^|\n)(?P<num>\d{1,2}\.\d{1,2}(?:\.\d{1,2})?)\s+"
-    r"(?P<head>[A-Z][A-Z0-9 ,&\-']{3,70}?)"
+    r"(?:^|\n|(?<=\s))(?P<num>\d{1,2}\.\d{1,2}(?:\.\d{1,2})?)\s+"
+    r"(?P<head>[A-Z][A-Z0-9 ,&:\-‐-―'‘’]{3,70}?)"
     r"(?=\n|\s+[A-Z][a-z])"
 )
 
@@ -113,7 +113,11 @@ def _extract_sections(text: str) -> list[dict]:
         if key in seen:
             continue
         seen.add(key)
-        sections.append({"number": num, "heading": head.title()})
+        # str.title() capitalizes the letter after an apostrophe too
+        # ("Coulomb'S Law") since it treats it as a word boundary; fix that
+        # one case up rather than hand-rolling a full title-case function.
+        titled = re.sub(r"(['‘’])([A-Z])", lambda m: m.group(1) + m.group(2).lower(), head.title())
+        sections.append({"number": num, "heading": titled})
     return sections
 
 

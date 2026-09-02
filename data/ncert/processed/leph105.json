@@ -15,6 +15,10 @@
       "heading": "The Bar Magnet"
     },
     {
+      "number": "5.3",
+      "heading": "Magnetism And Gauss’S Law"
+    },
+    {
       "number": "5.4",
       "heading": "Magnetisation And Magnetic Intensity"
     },
@@ -25,6 +29,7 @@
   ],
   "scientists": [],
   "lexicon": [
+    "Gauss’S",
     "Intensity",
     "Introduction",
     "Magnet",
@@ -32,6 +37,8 @@
     "Magnetic Properties Of Materials",
     "Magnetisation",
     "Magnetisation And Magnetic Intensity",
+    "Magnetism",
+    "Magnetism And Gauss’S Law",
     "Materials",
     "Properties",
     "The Bar Magnet"

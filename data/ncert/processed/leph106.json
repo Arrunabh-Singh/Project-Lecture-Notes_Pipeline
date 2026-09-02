@@ -19,6 +19,14 @@
       "heading": "Magnetic Flux"
     },
     {
+      "number": "6.4",
+      "heading": "Faraday’S Law Of Induction"
+    },
+    {
+      "number": "6.5",
+      "heading": "Lenz’S Law And Conservation Of Energy"
+    },
+    {
       "number": "6.6",
       "heading": "Motional Electromotive Force"
     },
@@ -43,9 +51,13 @@
   ],
   "lexicon": [
     "Ac Generator",
+    "Conservation",
     "Electromotive",
+    "Energy",
     "Experiments",
     "Faraday",
+    "Faraday’S",
+    "Faraday’S Law Of Induction",
     "Flux",
     "Force",
     "Generator",
@@ -53,8 +65,10 @@
     "Heinrich Friedrich Lenz",
     "Henry",
     "Inductance",
+    "Induction",
     "Introduction",
     "Joseph Henry",
+    "Lenz’S",
     "Magnetic",
     "Magnetic Flux",
     "Michael Faraday",
