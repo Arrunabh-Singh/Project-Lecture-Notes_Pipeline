@@ -31,7 +31,9 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 import sys
+from collections import Counter
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
@@ -44,6 +46,12 @@ CHEM_DIR = Path(__file__).resolve().parent
 TRANSCRIPTS_DIR = CHEM_DIR / "transcripts"
 AUDIO_CACHE_DIR = CHEM_DIR / "build" / "audio_cache"
 
+# Above this fraction of verbatim-repeated lines, treat the transcript as
+# looped rather than merely repetitive. Chosen from this batch's observed
+# split: clean files sat at 0-4% (a teacher genuinely repeating a point),
+# while the three looped ones were 10.9%, 17.9% and 27.6%.
+DUPLICATION_THRESHOLD = 0.06
+
 
 def _chapter_name(chapter_num: str) -> str:
     maps = json.loads((CHEM_DIR / "maps.json").read_text(encoding="utf-8"))
@@ -51,6 +59,27 @@ def _chapter_name(chapter_num: str) -> str:
     if entry is None:
         raise SystemExit(f"chapter {chapter_num} not found in chem/maps.json")
     return entry["name"]
+
+
+def duplication_ratio(segments: list[TranscriptSegment]) -> float:
+    """Fraction of substantial lines that are verbatim repeats of an earlier
+    line. Catches the failure mode neither the coverage check nor
+    verify.py's sanitize can see: Gemini looping back to re-emit an earlier
+    stretch of the lecture while its timestamps keep advancing. No gap, no
+    ADJACENT duplicate (the repeated lines aren't next to each other), so
+    both existing checks pass -- while whole minutes of real content are
+    replaced by a repeat and silently lost.
+
+    Found live on this batch: ch4-pyq had questions 4-8 emitted three times
+    each and questions 9-12 missing entirely, at a reported 100.3% coverage.
+    """
+    lines = [re.sub(r"[^a-z0-9 ]", "", s.text.lower()).strip() for s in segments]
+    lines = [l for l in lines if len(l) > 40]  # short lines repeat innocently
+    if not lines:
+        return 0.0
+    counts = Counter(lines)
+    duplicated = sum(c - 1 for c in counts.values() if c > 1)
+    return duplicated / len(lines)
 
 
 def _transcribe_chunked(
@@ -117,6 +146,12 @@ def main() -> None:
     parser.add_argument("--type", required=True, choices=["pyq", "oneshot"])
     parser.add_argument("--no-cache", action="store_true", help="force a fresh Gemini call")
     parser.add_argument(
+        "--force-chunk",
+        action="store_true",
+        help="skip the single-shot attempt's verdict and go straight to chunked "
+             "transcription, even if coverage and duplication both look fine",
+    )
+    parser.add_argument(
         "--lexicon-file",
         type=Path,
         default=None,
@@ -168,12 +203,24 @@ def main() -> None:
               f"{sanitize.dropped_repetition} repetition segments")
     print(f"  low-confidence segments: {coverage.low_confidence_count}")
 
+    single_shot_dupes = duplication_ratio(sanitize.segments if sanitize else transcript.segments)
+    print(f"  duplicated content: {single_shot_dupes:.1%}")
+
     used_chunking = False
-    if not coverage.passed:
+    needs_chunking = not coverage.passed or single_shot_dupes > DUPLICATION_THRESHOLD or args.force_chunk
+    if needs_chunking:
         used_chunking = True
         n_chunks = len(chunk_boundaries(duration))
-        print(f"\n  coverage below threshold ({coverage.coverage_ratio:.1%}) -- "
-              f"falling back to chunked transcription ({n_chunks} chunks) ...")
+        if args.force_chunk:
+            reason = "forced by --force-chunk"
+        elif not coverage.passed:
+            reason = f"coverage below threshold ({coverage.coverage_ratio:.1%})"
+        else:
+            # Coverage alone would have called this file fine. It isn't:
+            # the model looped and re-emitted earlier content in place of
+            # real lecture material, which coverage cannot see.
+            reason = f"looped output ({single_shot_dupes:.1%} duplicated) despite passing coverage"
+        print(f"\n  {reason} -- falling back to chunked transcription ({n_chunks} chunks) ...")
         # Each chunk was already sanitized independently inside
         # _transcribe_chunked (that's the correct scope for the
         # "everything after a detected repeat/fabrication is untrustworthy"
@@ -189,7 +236,16 @@ def main() -> None:
         )
         covered = chunked_segments[-1].end_seconds if chunked_segments else 0.0
         chunked_ratio = covered / duration if duration > 0 else 0.0
-        print(f"  chunked coverage: {chunked_ratio:.1%} ({covered:.0f}s / {duration:.0f}s)")
+        chunked_dupes = duplication_ratio(chunked_segments)
+        print(f"  chunked coverage: {chunked_ratio:.1%} ({covered:.0f}s / {duration:.0f}s), "
+              f"duplicated content: {chunked_dupes:.1%}")
+        if chunked_dupes > DUPLICATION_THRESHOLD:
+            print(
+                f"\n*** STILL {chunked_dupes:.1%} duplicated after chunking -- the model is "
+                "looping inside individual chunks too. Flag this transcript per "
+                "chem/SKILL.md section 7 (repeated block) and check what content is missing "
+                "before drafting notes from it. ***\n"
+            )
         if chunked_ratio < COVERAGE_THRESHOLD:
             print(
                 "\n*** STILL below threshold after chunking. Something other than "
