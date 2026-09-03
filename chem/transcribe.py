@@ -36,8 +36,8 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from lecturepipe.asr.gemini import GeminiASRError, GeminiAuthError, Transcript, TranscriptSegment, transcribe_lecture
-from lecturepipe.asr.verify import chunk_boundaries, check_coverage
+from lecturepipe.asr.gemini import GeminiASRError, GeminiAuthError, TranscriptSegment, transcribe_lecture
+from lecturepipe.asr.verify import COVERAGE_THRESHOLD, chunk_boundaries, check_coverage
 from lecturepipe.media import MediaError, extract_audio, probe_duration_seconds, slice_audio
 
 CHEM_DIR = Path(__file__).resolve().parent
@@ -148,19 +148,29 @@ def main() -> None:
               f"{sanitize.dropped_repetition} repetition segments")
     print(f"  low-confidence segments: {coverage.low_confidence_count}")
 
+    used_chunking = False
     if not coverage.passed:
+        used_chunking = True
         n_chunks = len(chunk_boundaries(duration))
         print(f"\n  coverage below threshold ({coverage.coverage_ratio:.1%}) -- "
               f"falling back to chunked transcription ({n_chunks} chunks) ...")
+        # Each chunk was already sanitized independently inside
+        # _transcribe_chunked (that's the correct scope for the
+        # "everything after a detected repeat/fabrication is untrustworthy"
+        # rule -- it applies within one continuous Gemini response). Do NOT
+        # re-run check_coverage's sanitize_segments on the concatenated
+        # result: that rule is wrong across independently-transcribed
+        # chunks, where an adjacent near-duplicate at a chunk boundary
+        # (plausible given ffmpeg's seek isn't sample-exact) would wrongly
+        # truncate every later chunk's real content, not just the
+        # boundary artifact. Coverage here is computed directly instead.
         chunked_segments = _transcribe_chunked(
             wav_path, chapter_name, lexicon, duration, use_cache=not args.no_cache,
         )
-        transcript = Transcript(segments=chunked_segments, source_audio_sha256=transcript.source_audio_sha256)
-        coverage = check_coverage(transcript, duration)
-        sanitize = coverage.sanitize
-        print(f"  chunked coverage: {coverage.coverage_ratio:.1%} "
-              f"({coverage.covered_seconds:.0f}s / {coverage.true_duration_seconds:.0f}s)")
-        if not coverage.passed:
+        covered = chunked_segments[-1].end_seconds if chunked_segments else 0.0
+        chunked_ratio = covered / duration if duration > 0 else 0.0
+        print(f"  chunked coverage: {chunked_ratio:.1%} ({covered:.0f}s / {duration:.0f}s)")
+        if chunked_ratio < COVERAGE_THRESHOLD:
             print(
                 "\n*** STILL below threshold after chunking. Something other than "
                 "single-shot truncation is going on (e.g. genuinely long silence, or a "
@@ -168,7 +178,7 @@ def main() -> None:
                 "rather than treating it as complete. ***\n"
             )
 
-    segments = sanitize.segments if sanitize else transcript.segments
+    segments = chunked_segments if used_chunking else (sanitize.segments if sanitize else transcript.segments)
     flat_text = "\n".join(s.text for s in segments)
     out_path = TRANSCRIPTS_DIR / f"ch{args.chapter}-{args.type}.txt"
     out_path.write_text(flat_text, encoding="utf-8")
