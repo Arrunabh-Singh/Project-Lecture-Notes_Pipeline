@@ -68,18 +68,38 @@ def _transcribe_chunked(
     chunk_dir = wav_path.parent / f"{wav_path.stem}_chunks"
     chunk_dir.mkdir(parents=True, exist_ok=True)
     all_segments: list[TranscriptSegment] = []
+    max_chunk_attempts = 3
 
     for i, (start, end) in enumerate(boundaries):
         chunk_path = chunk_dir / f"chunk_{i:03d}.wav"
-        print(f"    chunk {i + 1}/{len(boundaries)} [{start:.0f}s-{end:.0f}s] ...", flush=True)
         slice_audio(wav_path, chunk_path, start, end)
-        chunk_transcript = transcribe_lecture(
-            chunk_path, chapter_name, lexicon, use_cache=use_cache, subject="Chemistry",
-        )
-        chunk_coverage = check_coverage(chunk_transcript, end - start)
-        chunk_segments = chunk_coverage.sanitize.segments if chunk_coverage.sanitize else chunk_transcript.segments
-        print(f"      chunk coverage: {chunk_coverage.coverage_ratio:.1%}, "
-              f"{len(chunk_segments)} segments kept", flush=True)
+
+        chunk_coverage = None
+        chunk_segments: list = []
+        for attempt in range(max_chunk_attempts):
+            # Attempt 0 may hit cache (fast, free if this chunk was already
+            # transcribed correctly before). A bad cached result would
+            # otherwise repeat forever, so every retry attempt forces a
+            # fresh call -- caching a KNOWN-bad chunk result is pointless.
+            attempt_cache = use_cache and attempt == 0
+            print(f"    chunk {i + 1}/{len(boundaries)} [{start:.0f}s-{end:.0f}s] "
+                  f"(attempt {attempt + 1}/{max_chunk_attempts}) ...", flush=True)
+            chunk_transcript = transcribe_lecture(
+                chunk_path, chapter_name, lexicon, use_cache=attempt_cache, subject="Chemistry",
+            )
+            chunk_coverage = check_coverage(chunk_transcript, end - start)
+            chunk_segments = chunk_coverage.sanitize.segments if chunk_coverage.sanitize else chunk_transcript.segments
+            print(f"      chunk coverage: {chunk_coverage.coverage_ratio:.1%}, "
+                  f"{len(chunk_segments)} segments kept", flush=True)
+            if chunk_coverage.passed:
+                break
+            if attempt < max_chunk_attempts - 1:
+                print(f"      under threshold -- retrying this chunk fresh (not cached) ...", flush=True)
+        if chunk_coverage is not None and not chunk_coverage.passed:
+            print(f"    *** chunk {i + 1} still under threshold after {max_chunk_attempts} attempts -- "
+                  f"keeping best available ({chunk_coverage.coverage_ratio:.1%}), gap likely remains. "
+                  f"Flag this per chem/SKILL.md section 7. ***", flush=True)
+
         for s in chunk_segments:
             all_segments.append(TranscriptSegment(
                 start_seconds=s.start_seconds + start,
