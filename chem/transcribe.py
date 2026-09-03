@@ -36,9 +36,9 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from lecturepipe.asr.gemini import GeminiASRError, GeminiAuthError, transcribe_lecture
-from lecturepipe.asr.verify import check_coverage
-from lecturepipe.media import MediaError, extract_audio, probe_duration_seconds
+from lecturepipe.asr.gemini import GeminiASRError, GeminiAuthError, Transcript, TranscriptSegment, transcribe_lecture
+from lecturepipe.asr.verify import chunk_boundaries, check_coverage
+from lecturepipe.media import MediaError, extract_audio, probe_duration_seconds, slice_audio
 
 CHEM_DIR = Path(__file__).resolve().parent
 TRANSCRIPTS_DIR = CHEM_DIR / "transcripts"
@@ -51,6 +51,43 @@ def _chapter_name(chapter_num: str) -> str:
     if entry is None:
         raise SystemExit(f"chapter {chapter_num} not found in chem/maps.json")
     return entry["name"]
+
+
+def _transcribe_chunked(
+    wav_path: Path, chapter_name: str, lexicon: list[str], duration: float,
+    use_cache: bool, chunk_seconds: float = 600.0,
+) -> list[TranscriptSegment]:
+    """Fallback for when a single-shot Gemini call under-covers the audio
+    (see lecturepipe/asr/verify.py's docstring: silent truncation is a real,
+    seen-live failure mode, not hypothetical -- this chemistry batch hit it
+    on 7 of 12 files, a much higher rate than the physics project's ~25%,
+    likely because Sourabh sir's lectures run longer). Splits into fixed
+    chunks, transcribes each independently, and re-offsets each chunk's
+    segment timestamps back into the full lecture's timeline."""
+    boundaries = chunk_boundaries(duration, chunk_seconds=chunk_seconds)
+    chunk_dir = wav_path.parent / f"{wav_path.stem}_chunks"
+    chunk_dir.mkdir(parents=True, exist_ok=True)
+    all_segments: list[TranscriptSegment] = []
+
+    for i, (start, end) in enumerate(boundaries):
+        chunk_path = chunk_dir / f"chunk_{i:03d}.wav"
+        print(f"    chunk {i + 1}/{len(boundaries)} [{start:.0f}s-{end:.0f}s] ...", flush=True)
+        slice_audio(wav_path, chunk_path, start, end)
+        chunk_transcript = transcribe_lecture(
+            chunk_path, chapter_name, lexicon, use_cache=use_cache, subject="Chemistry",
+        )
+        chunk_coverage = check_coverage(chunk_transcript, end - start)
+        chunk_segments = chunk_coverage.sanitize.segments if chunk_coverage.sanitize else chunk_transcript.segments
+        print(f"      chunk coverage: {chunk_coverage.coverage_ratio:.1%}, "
+              f"{len(chunk_segments)} segments kept", flush=True)
+        for s in chunk_segments:
+            all_segments.append(TranscriptSegment(
+                start_seconds=s.start_seconds + start,
+                end_seconds=s.end_seconds + start,
+                text=s.text,
+                confidence=s.confidence,
+            ))
+    return all_segments
 
 
 def main() -> None:
@@ -112,13 +149,24 @@ def main() -> None:
     print(f"  low-confidence segments: {coverage.low_confidence_count}")
 
     if not coverage.passed:
-        print(
-            "\n*** COVERAGE BELOW THRESHOLD -- likely truncated. This script does not "
-            "implement the chunk-fallback path (physics-specific, unused here so far). "
-            "Inspect the output below; if it's genuinely incomplete, flag it per "
-            "chem/SKILL.md section 7 (\"transcript ends mid-topic\") rather than treating "
-            "it as complete. ***\n"
+        n_chunks = len(chunk_boundaries(duration))
+        print(f"\n  coverage below threshold ({coverage.coverage_ratio:.1%}) -- "
+              f"falling back to chunked transcription ({n_chunks} chunks) ...")
+        chunked_segments = _transcribe_chunked(
+            wav_path, chapter_name, lexicon, duration, use_cache=not args.no_cache,
         )
+        transcript = Transcript(segments=chunked_segments, source_audio_sha256=transcript.source_audio_sha256)
+        coverage = check_coverage(transcript, duration)
+        sanitize = coverage.sanitize
+        print(f"  chunked coverage: {coverage.coverage_ratio:.1%} "
+              f"({coverage.covered_seconds:.0f}s / {coverage.true_duration_seconds:.0f}s)")
+        if not coverage.passed:
+            print(
+                "\n*** STILL below threshold after chunking. Something other than "
+                "single-shot truncation is going on (e.g. genuinely long silence, or a "
+                "chunk itself failing) -- flag this transcript per chem/SKILL.md section 7 "
+                "rather than treating it as complete. ***\n"
+            )
 
     segments = sanitize.segments if sanitize else transcript.segments
     flat_text = "\n".join(s.text for s in segments)
