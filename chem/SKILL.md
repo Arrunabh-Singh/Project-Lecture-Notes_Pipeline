@@ -36,9 +36,23 @@ Never treat a video as an artifact by itself. A video is one half of a chapter's
 
 ## Settled facts — do not re-investigate
 
-- **YouTube fetching is blocked in this environment.** Re-confirmed via `.venv/bin/yt-dlp`
-  against a real video ID: HTTP 429, "Sign in to confirm you're not a bot." **Transcripts must
-  come from the user, pasted as text.** There is no audio, no video, no board frames, ever.
+- **YouTube fetching is blocked in this environment**, confirmed three independent ways: yt-dlp
+  captions (HTTP 429, "Sign in to confirm you're not a bot"), yt-dlp audio-only extraction (same
+  error, at the same webpage-extraction step every request type shares), and
+  `youtube-transcript-api` (explicit `IpBlocked` error — this container's outbound IP is a
+  cloud-provider range YouTube blocks outright). Do not re-attempt any of these, and do not try
+  cookie exports or proxy workarounds — that's circumventing anti-bot measures, not a bug to
+  route around.
+- **Fallback: the user downloads audio on their own (unblocked) machine and uploads it to
+  Google Drive; this session pulls it from Drive and runs it through Gemini ASR.** See
+  `chem/transcribe.py` — reuses `lecturepipe/asr/gemini.py` and `lecturepipe/asr/verify.py`
+  as-is (same Files API upload, 429/503 retry, fabricated-tail sanitize) with `subject`
+  generalized so the prompt says "Chemistry" instead of being hardcoded to physics. That script
+  takes a LOCAL file path only — pull the file down from Drive first via the
+  `mcp__Google_Drive__*` tools, then run the script. Output is raw ASR text: still run it
+  through §7 defect handling exactly like a pasted transcript before drafting notes from it. If
+  the user pastes a transcript directly, skip this whole path — it's a fallback, not the
+  default.
 - **NCERT is the only independent correctness check** (no board-frame safety net here, unlike
   the physics project this pipeline was built from).
 - **NCERT is reachable** via the Google Drive connector

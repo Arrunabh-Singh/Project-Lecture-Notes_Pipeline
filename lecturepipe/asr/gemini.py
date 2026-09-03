@@ -78,10 +78,10 @@ class Transcript:
         return [s for s in self.segments if s.confidence == "low"]
 
 
-def build_prompt(chapter_title: str, lexicon: list[str]) -> str:
+def build_prompt(chapter_title: str, lexicon: list[str], subject: str = "Physics") -> str:
     lexicon_str = ", ".join(lexicon[:120])  # cap prompt size; lexicon is already deduped/sorted
-    return f"""Transcribe this physics lecture audio verbatim. The lecture is on
-"{chapter_title}" (NCERT Class 12 Physics) and the speech is Hinglish
+    return f"""Transcribe this {subject.lower()} lecture audio verbatim. The lecture is on
+"{chapter_title}" (NCERT Class 12 {subject}) and the speech is Hinglish
 (code-switched Hindi/English), typical of an Indian classroom.
 
 Rules:
@@ -321,6 +321,7 @@ def transcribe_lecture(
     chapter_title: str,
     lexicon: list[str],
     use_cache: bool = True,
+    subject: str = "Physics",
 ) -> Transcript:
     audio_sha = _sha256_file(audio_path)
     cache_file = _cache_path(audio_sha)
@@ -331,7 +332,7 @@ def transcribe_lecture(
 
     key = _require_key()
     file_uri = upload_audio(audio_path)
-    prompt = build_prompt(chapter_title, lexicon)
+    prompt = build_prompt(chapter_title, lexicon, subject=subject)
 
     body = _generate_with_retry(key, file_uri, prompt)
     try:
