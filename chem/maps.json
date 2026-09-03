@@ -1,0 +1,126 @@
+{
+  "_readme": "Reference tables for the chemistry notes job. Confirmed this session: NCERT fileIds by reading each PDF's content snippet via the Drive connector (all RATIONALISED 2022-23 / Reprint 2026-27 = current syllabus). Video IDs are taken verbatim from the user's brief, not independently verified (YouTube fetching is blocked in this environment). Do not re-derive any of this -- copy it.",
+
+  "exam": {
+    "date": "2026-09-10",
+    "total_marks": 70,
+    "total_questions": 33,
+    "sections": {
+      "one_mark": {"count": 16, "note": "12 MCQ + 4 assertion-reason"},
+      "two_mark": {"count": 5, "internal_choice": "one question"},
+      "three_mark": {"count": 7, "internal_choice": "one question"},
+      "case_study_four_mark": {"count": 2},
+      "five_mark_long_answer": {"count": 3, "internal_choice": "all three questions"}
+    },
+    "blueprint_weights": {
+      "1": {"name": "Solutions", "marks": 15},
+      "2": {"name": "Electrochemistry", "marks": 14},
+      "3": {"name": "Chemical Kinetics", "marks": 13},
+      "4": {"name": "d and f Block Elements", "marks": 11},
+      "5": {"name": "Coordination Compounds", "marks": 11},
+      "6": {"name": "Haloalkanes and Haloarenes", "marks": 6, "scope_note": "Full chapter 6.1-6.8, per user confirmation this session -- NOT limited to 6.1-6.2 despite an earlier draft of the brief saying so."}
+    },
+    "sum_check": "15+14+13+11+11+6 = 70 -- matches total_marks exactly"
+  },
+
+  "prior_knowledge": {
+    "theory_done_numericals_gap": ["1", "2", "3"],
+    "first_contact": ["4", "5", "6"],
+    "rule": "Chapters 1-3: no [exposure] tags, teach properly but weight length toward numerical method. Chapters 4-6: every first-contact term gets [exposure] + 4-6 lines (what it is, why it exists, one concrete example)."
+  },
+
+  "chapters": [
+    {
+      "number": 1,
+      "name": "Solutions",
+      "ncert_file": "lech101.pdf",
+      "ncert_fileId": "1GlAVy8b4JzSS8lTR2VEYZ2l9eGneAyPr",
+      "pyq_video_id": "A45W60swXPY",
+      "pyq_video_url": "https://youtu.be/A45W60swXPY",
+      "oneshot_video_id": "DCbGwXVzYAQ",
+      "oneshot_video_url": "https://youtu.be/DCbGwXVzYAQ",
+      "oneshot_title": "Solutions — One Shot Notes",
+      "pyq_title": "Solutions — PYQ Patterns",
+      "oneshot_favicon": "🧪",
+      "pyq_favicon": "🧪🎯"
+    },
+    {
+      "number": 2,
+      "name": "Electrochemistry",
+      "ncert_file": "lech102.pdf",
+      "ncert_fileId": "1ABCjby0rbuw2KY7g84qUDDkRk6-lRMja",
+      "pyq_video_id": "yQ4DF7EWyuQ",
+      "pyq_video_url": "https://youtu.be/yQ4DF7EWyuQ",
+      "oneshot_video_id": "jjGwiGAHlPU",
+      "oneshot_video_url": "https://youtu.be/jjGwiGAHlPU",
+      "oneshot_title": "Electrochemistry — One Shot Notes",
+      "pyq_title": "Electrochemistry — PYQ Patterns",
+      "oneshot_favicon": "🔋",
+      "pyq_favicon": "🔋🎯"
+    },
+    {
+      "number": 3,
+      "name": "Chemical Kinetics",
+      "ncert_file": "lech103.pdf",
+      "ncert_fileId": "1H2UcTgMPbriTXnwXPADiyIpPvV9zvcr7",
+      "pyq_video_id": "e93W37mN2NI",
+      "pyq_video_url": "https://youtu.be/e93W37mN2NI",
+      "oneshot_video_id": "6HYp6s6GZJs",
+      "oneshot_video_url": "https://youtu.be/6HYp6s6GZJs",
+      "oneshot_title": "Chemical Kinetics — One Shot Notes",
+      "pyq_title": "Chemical Kinetics — PYQ Patterns",
+      "oneshot_favicon": "⏱️",
+      "pyq_favicon": "⏱️🎯"
+    },
+    {
+      "number": 4,
+      "name": "d and f Block Elements",
+      "ncert_file": "lech104.pdf",
+      "ncert_fileId": "1e8eDDpECxBfMnKB-2E9REr84iZzUYFTh",
+      "pyq_video_id": "psWIbDyyaIE",
+      "pyq_video_url": "https://youtu.be/psWIbDyyaIE",
+      "oneshot_video_id": "P05q-jXyKMI",
+      "oneshot_video_url": "https://youtu.be/P05q-jXyKMI",
+      "oneshot_title": "d and f Block — One Shot Notes",
+      "pyq_title": "d and f Block — PYQ Patterns",
+      "oneshot_favicon": "⚛️",
+      "pyq_favicon": "⚛️🎯"
+    },
+    {
+      "number": 5,
+      "name": "Coordination Compounds",
+      "ncert_file": "lech105.pdf",
+      "ncert_fileId": "1dIGhXHrNXTNNJRk_5brjokVPzRLoan6U",
+      "pyq_video_id": "vFco4et3suY",
+      "pyq_video_url": "https://youtu.be/vFco4et3suY",
+      "oneshot_video_id": "V6KOiLy-9t8",
+      "oneshot_video_url": "https://youtu.be/V6KOiLy-9t8",
+      "oneshot_title": "Coordination Compounds — One Shot Notes",
+      "pyq_title": "Coordination Compounds — PYQ Patterns",
+      "oneshot_favicon": "💠",
+      "pyq_favicon": "💠🎯"
+    },
+    {
+      "number": 6,
+      "name": "Haloalkanes and Haloarenes",
+      "ncert_file": "lech201.pdf",
+      "ncert_fileId": "1NyslO8ysUIydQaFjE2xXorzyec3G84H-",
+      "pyq_video_id": "cCY6kklMZ94",
+      "pyq_video_url": "https://youtu.be/cCY6kklMZ94",
+      "oneshot_video_id": "s3F5BPkolKM",
+      "oneshot_video_url": "https://youtu.be/s3F5BPkolKM",
+      "oneshot_title": "Haloalkanes and Haloarenes — One Shot Notes",
+      "pyq_title": "Haloalkanes and Haloarenes — PYQ Patterns",
+      "oneshot_favicon": "⚗️",
+      "pyq_favicon": "⚗️🎯",
+      "scope": "Full chapter, 6.1 (Classification) through 6.8 (Polyhalogen compounds). NCERT confirmed section run via grep this session: 6.1, 6.2 Nomenclature, 6.3 Nature of C-X bond, 6.4 Methods of preparation, 6.5 Physical properties, 6.6-6.7 Chemical reactions (incl. SN1/SN2, elimination), 6.8 Polyhalogen compounds (6.8.1 Dichloromethane, 6.8.2 Trichloromethane, 6.8.3 Triiodomethane, 6.8.4 Tetrachloromethane, 6.8.5 Freons)."
+    }
+  ],
+
+  "ncert_read_procedure": [
+    "1. Call mcp__Google_Drive__read_file_content with the fileId from this map.",
+    "2. Full chapter text is ~60k chars and WILL exceed the tool's token cap -- the error response names a saved local file path. Use that path.",
+    "3. Extracted text has PDF artifacts: drop-cap runs ('5.15.15.1 Werner's Theory Theory Theory'), section numbers colliding with exercise/example numbers. Grep tolerantly -- match on distinctive surrounding words, not exact section-number strings.",
+    "4. NCERT is authoritative for: term spelling, definitions, IUPAC names, standard formulae, constants, section numbering. NOT authoritative for: teaching order, exam technique, question selection, or exact equations in the extracted text (same unreliable-equation-extraction problem as the physics project -- write canonical correct formulae yourself, do not trust a formula copied from the extracted text)."
+  ]
+}
