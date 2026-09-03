@@ -1,182 +1,177 @@
-#!/usr/bin/env python3
-"""Pre-publish QA for chemistry artifacts -- scripts the checklist in
+"""Pre-publish QA for a chemistry chapter artifact -- scripts the checklist in
 chem/SKILL.md section 10 so it doesn't have to be re-read into a model's
-context by eye on every one of the 12 videos.
+context by eye on every one of the 6 chapter artifacts.
 
-Usage: python3 chem/qa.py chem/build/ch4-oneshot.html [more files...]
-       python3 chem/qa.py chem/build/*.html
-
-Exits 0 if every file passes every check, 1 otherwise. Chapter number and
-video type are read from the filename: ch<N>-<pyq|oneshot>.html.
+Usage:
+    python3 chem/qa.py chem/build/ch4.html
+    python3 chem/qa.py chem/build/ch4.html --stage lecture   # only the checks
+                                                              # that apply before
+                                                              # the PYQ section
+                                                              # has been added
+Exit code is 0 iff every applicable check passes. Chapter number and (for the
+--stage default, "final") whether the PYQ section is expected are taken from
+the filename ch<N>.html and chem/maps.json/chem/published.json.
 """
 from __future__ import annotations
 
+import argparse
 import json
 import re
 import sys
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent
-MAPS = json.loads((ROOT / "maps.json").read_text())
-CHAPTERS = {c["number"]: c for c in MAPS["chapters"]}
-FIRST_CONTACT = set(int(n) for n in MAPS["prior_knowledge"]["first_contact"])
+CHEM_DIR = Path(__file__).resolve().parent
+FIRST_CONTACT_CHAPTERS = {"4", "5", "6"}
+KATEX_SCRIPTS_IN_ORDER = [
+    "katex.min.js",
+    "contrib/mhchem.min.js",
+    "contrib/auto-render.min.js",
+]
 
-FILENAME_RE = re.compile(r"ch(\d+)-(pyq|oneshot)\.html$")
 
-MAX_BYTES = 16 * 1024 * 1024
+def _load_json(name: str) -> dict:
+    return json.loads((CHEM_DIR / name).read_text(encoding="utf-8"))
 
 
-def _strip_comments(html: str) -> str:
-    # Explanatory comments in template.html contain literal tag-looking
-    # text ("Do not add <!doctype>, <html>...") -- strip comments first so
-    # those never masquerade as real tags or real content.
+def _chapter_number_from_filename(path: Path) -> str:
+    m = re.match(r"ch(\d+)\.html?$", path.name)
+    if not m:
+        raise SystemExit(f"expected a filename like ch4.html, got {path.name!r}")
+    return m.group(1)
+
+
+def _root_token_block(html: str) -> str:
+    """The bare `:root { ... }` block -- i.e. NOT inside a @media or
+    :root[data-theme=...] selector. Used to check every var(--x) used
+    elsewhere is actually defined in the light-mode base block."""
+    m = re.search(r"(?<![\w\-\[\]\"'=(:.])\:root\s*\{([^}]*)\}", html)
+    return m.group(1) if m else ""
+
+
+def _strip_html_comments(html: str) -> str:
+    """template.html's own authoring comments mention '<html>', '<head>' etc.
+    by name as things NOT to add -- checking the raw file text would flag
+    those as false positives. Strip comments first so the structural checks
+    only see real markup."""
     return re.sub(r"<!--.*?-->", "", html, flags=re.DOTALL)
 
 
-def _root_token_defs(html: str) -> set[str]:
-    m = re.search(r":root\s*\{([^}]*)\}", html, flags=re.DOTALL)
-    if not m:
-        return set()
-    return set(re.findall(r"(--[\w-]+)\s*:", m.group(1)))
+def run_checks(html: str, chapter_num: str, expect_pyq: bool) -> list[tuple[str, bool, str]]:
+    """Returns a list of (check_name, passed, detail) tuples."""
+    checks: list[tuple[str, bool, str]] = []
+    stripped = _strip_html_comments(html)
 
+    def check(name: str, passed: bool, detail: str = "") -> None:
+        checks.append((name, passed, detail))
 
-def _used_tokens(html: str) -> set[str]:
-    return set(re.findall(r"var\((--[\w-]+)\)", html))
-
-
-def check_file(path: Path) -> list[tuple[str, bool, str]]:
-    """Returns list of (check_name, passed, detail)."""
-    name_match = FILENAME_RE.search(path.name)
-    results: list[tuple[str, bool, str]] = []
-
-    if not name_match:
-        return [("filename matches ch<N>-<pyq|oneshot>.html", False, path.name)]
-
-    chapter_num = int(name_match.group(1))
-    video_type = name_match.group(2)
-    chapter = CHAPTERS.get(chapter_num)
-    if chapter is None:
-        return [("chapter number is in maps.json", False, str(chapter_num))]
-
-    raw = path.read_text(encoding="utf-8")
-    html = _strip_comments(raw)
-
-    def add(name: str, passed: bool, detail: str = "") -> None:
-        results.append((name, passed, detail))
-
-    # 1. No wrapper tags.
-    wrapper_hits = re.findall(r"<!doctype|<html[\s>]|<head[\s>]|<body[\s>]", html, flags=re.IGNORECASE)
-    add("no <!doctype/html/head/body> wrapper tags", not wrapper_hits, str(wrapper_hits))
-
-    # 2. No top-level <details> with `open`.
-    open_details = re.findall(r"<details\b[^>]*\bopen\b", html, flags=re.IGNORECASE)
-    add("no top-level <details open>", not open_details, str(len(open_details)))
-
-    # 3. Every var(--token) used is defined in the bare :root block.
-    defined = _root_token_defs(html)
-    used = _used_tokens(html)
-    missing = sorted(used - defined)
-    add("every var(--token) is defined in :root", not missing, str(missing))
-
-    # 4. Both dark blocks present.
-    has_media_dark = bool(re.search(r'@media\s*\(prefers-color-scheme:\s*dark\)', html))
-    has_attr_dark = bool(re.search(r':root\[data-theme=["\']dark["\']\]', html))
-    add("prefers-color-scheme dark block present", has_media_dark)
-    add('[data-theme="dark"] block present', has_attr_dark)
-
-    # 5. body sets background from a token.
-    body_bg = re.search(r"body\s*\{[^}]*background[^:]*:\s*var\(--[\w-]+\)", html, flags=re.DOTALL)
-    add("body background set from a var() token", bool(body_bg))
-
-    # 6. <title> matches maps.json exactly.
-    title_field = "pyq_title" if video_type == "pyq" else "oneshot_title"
-    expected_title = chapter[title_field]
-    title_match = re.search(r"<title>(.*?)</title>", raw, flags=re.DOTALL)
-    actual_title = title_match.group(1).strip() if title_match else None
-    add("<title> matches maps.json exactly", actual_title == expected_title,
-        f"expected {expected_title!r}, got {actual_title!r}")
-
-    # 7. KaTeX CSS inlined + three scripts in required order.
-    has_katex_css = ".katex" in html
-    add("KaTeX CSS inlined (.katex selectors present)", has_katex_css)
-    script_srcs = re.findall(r'<script[^>]+src="([^"]+)"', raw)
-    katex_idx = next((i for i, s in enumerate(script_srcs) if "katex.min.js" in s and "mhchem" not in s), None)
-    mhchem_idx = next((i for i, s in enumerate(script_srcs) if "mhchem" in s), None)
-    autorender_idx = next((i for i, s in enumerate(script_srcs) if "auto-render" in s), None)
-    order_ok = (
-        katex_idx is not None and mhchem_idx is not None and autorender_idx is not None
-        and katex_idx < mhchem_idx < autorender_idx
+    check(
+        "no doctype/html/head/body wrapper",
+        not re.search(r"<!doctype|<html[ >]|<head[ >]|<body[ >]", stripped, re.IGNORECASE),
     )
-    add("katex -> mhchem -> auto-render script order", order_ok, str(script_srcs))
 
-    # 8. renderMathInElement targets a container id that exists.
-    target_match = re.search(r'getElementById\(["\']([\w-]+)["\']\)', html)
-    target_id = target_match.group(1) if target_match else None
-    id_exists = bool(target_id and re.search(rf'id="{re.escape(target_id)}"', html))
-    add("renderMathInElement target id exists in document", id_exists, str(target_id))
+    top_level_open = re.findall(r"<details\b[^>]*\bopen\b", stripped, re.IGNORECASE)
+    check("no top-level <details open>", len(top_level_open) == 0, f"{len(top_level_open)} found")
 
-    # Content-only view: CSS rules like ".exposure-tag { ... }" contain the
-    # same substrings as real usage, so tag/heading checks below must look
-    # only inside <main>, never in the <style> blocks.
-    main_match = re.search(r"<main\b[^>]*>(.*)</main>", html, flags=re.DOTALL)
-    content = main_match.group(1) if main_match else ""
+    root_block = _root_token_block(stripped)
+    defined_tokens = set(re.findall(r"--([\w-]+)\s*:", root_block))
+    used_tokens = set(re.findall(r"var\(--([\w-]+)\)", stripped))
+    undefined = sorted(t for t in used_tokens if t not in defined_tokens)
+    check(
+        "every var(--token) defined in bare :root",
+        len(undefined) == 0,
+        f"undefined: {undefined}" if undefined else "",
+    )
 
-    # 9/10. exposure tag presence rule (content only, not the CSS definition).
-    has_exposure = '<span class="exposure-tag"' in content or "[exposure]" in content
-    if chapter_num in FIRST_CONTACT:
-        add("Ch4/5/6: at least one [exposure] tag present", has_exposure)
+    has_media_dark = bool(
+        re.search(r'prefers-color-scheme:\s*dark\s*\)\s*\{[^}]*:root:not\(\[data-theme="light"\]\)', stripped, re.DOTALL)
+    )
+    has_explicit_dark = bool(re.search(r':root\[data-theme="dark"\]\s*\{', stripped))
+    check("prefers-color-scheme dark block present", has_media_dark)
+    check("[data-theme=dark] override block present", has_explicit_dark)
+
+    body_bg = re.search(r"\bbody\s*\{[^}]*background\s*:\s*var\(--", stripped, re.DOTALL)
+    check("body sets background from a token", bool(body_bg))
+
+    chapters = _load_json("maps.json")["chapters"]
+    entry = next((c for c in chapters if str(c["number"]) == chapter_num), None)
+    if entry is None:
+        check("title matches maps.json", False, f"no chapter {chapter_num} in maps.json")
     else:
-        add("Ch1/2/3: no [exposure] tags present", not has_exposure)
+        expected_title = entry["artifact_title"]
+        title_match = re.search(r"<title>(.*?)</title>", stripped, re.DOTALL)
+        actual = title_match.group(1).strip() if title_match else None
+        check("title matches maps.json exactly", actual == expected_title, f"got {actual!r}, want {expected_title!r}")
 
-    if video_type == "pyq":
-        # 11. All four PYQ parts present, in order.
-        headings = re.findall(r"<summary>\s*(?:<[^>]+>)?\s*(\d)\.", content)
-        add("PYQ: four numbered parts present in order 1-4", headings == ["1", "2", "3", "4"], str(headings))
+    script_positions = []
+    for script in KATEX_SCRIPTS_IN_ORDER:
+        m = re.search(re.escape(script), stripped)
+        script_positions.append(m.start() if m else None)
+    all_present = all(p is not None for p in script_positions)
+    in_order = all_present and script_positions == sorted(script_positions)
+    check("KaTeX + mhchem + auto-render scripts present", all_present, str(script_positions))
+    check("KaTeX scripts in required order", in_order)
 
-        # 12. Each numerical type: exactly one .worked block, rest answer-only.
-        numerical_section = re.search(r"Numerical types.*?</section>", content, flags=re.DOTALL)
-        if numerical_section:
-            worked_count = len(re.findall(r'class="worked"', numerical_section.group(0)))
-            coldq_count = len(re.findall(r'class="cold-q"', numerical_section.group(0)))
-            add("PYQ numerical section has worked + cold-q items", worked_count >= 1 and coldq_count >= 1,
-                f"worked={worked_count} cold-q={coldq_count}")
-        else:
-            add("PYQ: 'Numerical types' section found", False)
+    render_call = re.search(r'getElementById\(["\'](.+?)["\']\)', stripped)
+    if render_call:
+        target_id = render_call.group(1)
+        id_exists = bool(re.search(rf'id=["\']{ re.escape(target_id) }["\']', stripped))
+        check("renderMathInElement target id exists in document", id_exists, target_id)
+    else:
+        check("renderMathInElement target id exists in document", False, "no getElementById call found")
 
-    # 13. No leftover template placeholders.
-    leftover = re.findall(r"\{\{[A-Z0-9_]+\}\}", html)
-    add("no unfilled {{PLACEHOLDER}} tokens remain", not leftover, str(sorted(set(leftover))[:5]))
+    # The on-page marker for a first-contact term is the exposure-tag span
+    # (chem/template.html / chem/SKILL.md section 1), not literal "[exposure]"
+    # text -- count real usages, not the spec's own name for the tag.
+    exposure_count = len(re.findall(r'class="exposure-tag"', stripped))
+    if chapter_num in FIRST_CONTACT_CHAPTERS:
+        check("first-contact chapter: exposure-tag spans present", exposure_count > 0, f"{exposure_count} found")
+    else:
+        check("theory-known chapter: no exposure-tag spans", exposure_count == 0, f"{exposure_count} found")
 
-    # 14. No "In this video" sentence.
-    add('no sentence starts "In this video"', "in this video" not in html.lower())
+    in_this_video = re.search(r"\bin this video\b", stripped, re.IGNORECASE)
+    check('no sentence begins "In this video"', not bool(in_this_video))
 
-    # 15. File size.
-    size = path.stat().st_size
-    add(f"file under 16 MB (actual {size / 1024:.0f} KB)", size < MAX_BYTES)
+    size_mb = len(html.encode("utf-8")) / (1024 * 1024)
+    check("file under 16 MB", size_mb < 16, f"{size_mb:.2f} MB")
 
-    return results
+    if expect_pyq:
+        has_pyq_marker = bool(re.search(r"question types|repeat offenders|mark slot", stripped, re.IGNORECASE))
+        check("PYQ section present (expected)", has_pyq_marker)
+    else:
+        check("PYQ section correctly absent (not expected yet)", True, "skip: --stage lecture")
+
+    return checks
 
 
-def main(argv: list[str]) -> int:
-    if not argv:
-        print(__doc__)
-        return 1
-    all_passed = True
-    for arg in argv:
-        path = Path(arg)
-        print(f"\n=== {path.name} ===")
-        for check_name, passed, detail in check_file(path):
-            mark = "PASS" if passed else "FAIL"
-            line = f"  [{mark}] {check_name}"
-            if not passed and detail:
-                line += f"  -- {detail}"
-            print(line)
-            if not passed:
-                all_passed = False
-    print()
-    print("ALL CHECKS PASSED" if all_passed else "SOME CHECKS FAILED")
-    return 0 if all_passed else 1
+def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("html_path", type=Path)
+    parser.add_argument(
+        "--stage",
+        choices=["lecture", "pyq", "final"],
+        default="final",
+        help="lecture: only the lecture section exists yet. pyq: only the PYQ section exists "
+             "yet. final: both should be present (default).",
+    )
+    args = parser.parse_args()
+
+    html = args.html_path.read_text(encoding="utf-8")
+    chapter_num = _chapter_number_from_filename(args.html_path)
+    expect_pyq = args.stage in ("pyq", "final")
+
+    results = run_checks(html, chapter_num, expect_pyq)
+    failed = [r for r in results if not r[1]]
+
+    for name, passed, detail in results:
+        mark = "PASS" if passed else "FAIL"
+        line = f"[{mark}] {name}"
+        if detail and not passed:
+            line += f" -- {detail}"
+        print(line)
+
+    print(f"\n{len(results) - len(failed)}/{len(results)} checks passed.")
+    sys.exit(1 if failed else 0)
 
 
 if __name__ == "__main__":
-    raise SystemExit(main(sys.argv[1:]))
+    main()

@@ -1,218 +1,269 @@
-# Chemistry notes from Sourabh Raina's videos — build spec
+# Chemistry notes from Sourabh Raina's videos
 
-Read this whole file before building any artifact. It does not change between videos. If
-anything here conflicts with your own judgement, follow this file — it was written and approved
-by the user for exactly this purpose.
+Read this whole file before touching any transcript. It is the spec, not a summary of one —
+follow it literally.
 
 ## Who this is for
 
-Class XII CBSE student, DPS Indore. Half-yearly Chemistry paper: **10 September 2026**, 70
+Class XII CBSE student (DPS Indore). Half-yearly Chemistry paper: **10 September 2026**, 70
 marks, 33 questions (16 one-markers [12 MCQ + 4 assertion-reason], 5 two-markers, 7
 three-markers, 2 case studies of 4 marks, 3 long answers of 5 marks). Internal choice in one
 2-mark, one 3-mark, and all three 5-mark questions.
 
-Blueprint weights — see `chem/maps.json` → `exam.blueprint_weights` for the machine-readable
-version:
+Blueprint weights — every mark is accounted for, sums to 70:
 
-| Ch | Chapter | Marks |
-|----|---------|-------|
+| Ch | Name | Marks |
+|----|------|-------|
 | 1 | Solutions | 15 |
 | 2 | Electrochemistry | 14 |
 | 3 | Chemical Kinetics | 13 |
 | 4 | d and f Block Elements | 11 |
 | 5 | Coordination Compounds | 11 |
-| 6 | Haloalkanes and Haloarenes | 6 (full chapter, 6.1–6.8) |
+| 6 | Haloalkanes and Haloarenes | 6 (full chapter, 6.1–6.8 — not limited to 6.1–6.2) |
 
-Where the user stands: Chapters 1–3 are done at theory level — the gap there is **numericals**,
-not concepts. Chapters 4–6 are **untouched — first contact.** Write those as teaching, not
-revision.
+Chapters 1–3 are theory-known; the user's gap there is numericals. Chapters 4–6 are **first
+contact** — the user has never studied this material before.
 
-## There are 12 videos, one artifact each
+## The deliverable — read this before writing anything
 
-6 PYQ (past-year-question) videos and 6 one-shot lectures, one of each type per chapter. Video
-IDs, NCERT file IDs, titles and favicons are all in `chem/maps.json` — copy from there, never
-guess or re-derive.
+**One published Artifact per chapter (6 total, not 12).** Each chapter's artifact contains its
+lecture (one-shot) notes first, then that chapter's numerical-patterns-collected closer, then
+its PYQ (past-year-questions) section, appended last. The two halves usually arrive as separate
+pasted transcripts, in either order, possibly in different sessions — see §3a for exactly how to
+build and update the combined page across two passes.
 
-## Rule 1 — prior-knowledge depth (the most important rule in this file)
+Never treat a video as an artifact by itself. A video is one half of a chapter's artifact.
 
-The user was once handed a technically-correct Coordination Compounds summary written in
-revision style and it "read as gibberish, because revision notes assume prior learning I didn't
-have." Guard against exactly that, every time.
+## Settled facts — do not re-investigate
 
-Before writing any line, apply this test: **could a student who has never heard this word follow
-this sentence?**
+- **YouTube fetching is blocked in this environment.** Re-confirmed via `.venv/bin/yt-dlp`
+  against a real video ID: HTTP 429, "Sign in to confirm you're not a bot." **Transcripts must
+  come from the user, pasted as text.** There is no audio, no video, no board frames, ever.
+- **NCERT is the only independent correctness check** (no board-frame safety net here, unlike
+  the physics project this pipeline was built from).
+- **NCERT is reachable** via the Google Drive connector
+  (`mcp__Google_Drive__read_file_content`). A full chapter read is ~60k chars, **exceeds the
+  tool's token cap, and auto-saves to a local file** — the tool's error/result text names the
+  path. Read that path with `grep`, not the MCP tool again.
+- Extracted NCERT text has PDF artifacts: drop-cap runs (e.g. "5.15.15.1 Werner's Theory Theory
+  Theory"), section numbers colliding with worked-example/exercise numbers. Grep on distinctive
+  surrounding words, not exact section-number strings.
+- Equations inside the extracted NCERT *text* are unreliable — same PDF-extraction problem as
+  the physics project. For any formula, write the canonical correct form yourself; don't copy
+  one out of the extracted text.
+- **KaTeX assets are ready to use as-is** — `chem/template.html` already has the full KaTeX CSS
+  inlined (spliced from `lecturepipe/publish/static/katex-inline.css`) and the three required
+  `<script>` tags at the bottom, in the required order. Never touch that part of the template.
+- **mhchem** (`\ce{...}`) handles chemical equations/formulae — subscripts, charges, arrows,
+  states. Use it for every chemical equation and formula. Use plain KaTeX (`$...$` / `$$...$$`)
+  for ordinary maths (Nernst, Arrhenius, rate laws, `\Delta T_f = K_f \cdot m`, etc).
+- Never paste raw transcript sentences into the artifact as a stand-in for writing the note. The
+  content must be original teaching prose grounded in the transcript, not a copy of it — both
+  because a copy-paste note is exactly the "revision style, unreadable to a first-time reader"
+  failure this job exists to avoid, and because reproducing a lecture verbatim is not the
+  deliverable here.
+
+## Reference files in this folder
+
+- `chem/maps.json` — chapter ↔ NCERT file ↔ video ID map, plus the one artifact title and
+  favicon per chapter. Copy values from here; do not re-derive them.
+- `chem/published.json` — per-chapter build state (`url`, `has_lecture`, `has_pyq`). Read and
+  update this on every video. It is tracked in git, not gitignored — it is the only record of
+  progress across sessions.
+- `chem/template.html` — the artifact skeleton. Slots are `{{LIKE_THIS}}`. Fill it in, don't
+  restructure the CSS/script parts.
+- `chem/qa.py` — run this before every publish: `python3 chem/qa.py chem/build/ch<N>.html
+  --stage lecture|pyq|final`. Fix every FAIL before publishing.
+- `chem/transcripts/` — save each pasted transcript here as `ch<N>-<pyq|oneshot>.txt`
+  (gitignored).
+- `chem/build/` — local copy of the generated HTML, `ch<N>.html` (gitignored).
+
+## 1. Prior-knowledge rule — the most important rule in this file
+
+The user was once handed a technically correct Coordination Compounds summary written in
+revision style, and it read as gibberish — revision notes assume prior learning the user didn't
+have. Guard against exactly that.
+
+Before writing any line, ask: **could a student who has never heard this word follow this
+sentence?**
 
 - **Chapters 4, 5, 6** (d and f Block, Coordination Compounds, Haloalkanes) — assume the answer
-  is NO for every technical term. Tag it `<span class="exposure-tag">exposure</span>` and give it
-  **4–6 lines**: (1) what it is in plain words, (2) why it exists / what problem it solves, (3)
-  one concrete example with real formulae or real numbers.
-- **Chapters 1, 2, 3** (Solutions, Electrochemistry, Kinetics) — the student already knows the
-  theory. Do **not** use the exposure tag. Teach the concept properly but keep the statement
-  tight; put the length into **numerical method**, which is the actual gap.
+  is NO for every technical term. Tag it **`[exposure]`** (use the `exposure-tag` span in the
+  template) and give it **four to six lines**: (1) what it is in plain words, (2) why it exists
+  / what problem it solves, (3) one concrete example with real formulae or numbers.
+- **Chapters 1, 2, 3** (Solutions, Electrochemistry, Kinetics) — the student has already met the
+  theory. **Never** use `[exposure]` here. Still teach the concept properly, but keep the
+  concept statement tight and spend the length on **numerical method** — that's the actual gap.
 
-Never put the exposure tag on Ch 1–3 material. `chem/qa.py` checks this mechanically — it fails
-the build if a Ch1–3 file contains an exposure tag, or if a Ch4–6 file contains none.
+## 2. PYQ section — required structure, exactly four parts, appended LAST
 
-## Rule 2 — PYQ artifact structure (exactly four parts, in this order, never reordered)
+This is not a separate artifact. It is the final part of the chapter's one combined artifact,
+after the lecture content and its numerical-patterns-collected closer. Still format it visibly
+differently from the teaching sections above it — a past-questions video is not a chapter and
+shouldn't read like one, even sharing a page with one.
 
-A past-questions video is not a chapter. Do not format it like one.
+In this exact order:
 
 1. **Question types**, ranked by how often they appear. Per type: one-line recognition cue →
    numbered method steps → **the trap**.
 2. **Mark slots** — which slot each type belongs to (1-marker / 2 / 3 / 4-mark case study / one
-   of the three 5-markers). Take it from what the video states; if the video doesn't state marks,
-   infer from question shape and write `(inferred)`.
+   of the three 5-markers). Take it from what the video states; if the video doesn't state
+   marks, infer from question shape and mark it `(inferred)`.
 3. **Repeat offenders** — questions or near-identical variants that appeared more than once
-   across years. These are the highest-probability items in the whole chapter and the reason the
-   video is worth watching. Give them their own visually distinct section (the `--repeat` color
-   token, reserved for this section only).
-4. **Numerical types** — **exactly one** fully worked example per type, then **three or four**
-   more questions with answers only, no working. One model per pattern, then the student goes
-   cold. Do not work every question.
+   across years. Highest-probability items in the chapter; give them a visually distinct
+   section (the `.repeat-item` styling, using `--repeat`).
+4. **Numerical types** — **one fully worked example per type**, then **three or four more
+   questions with answers only, no working**. One model per pattern, then the student goes cold.
+   Do not work every question.
 
 Refer to questions as **year + number** (`2023 Q17`, `2019 Q5(b)`). Never reprint long question
 text — one line of paraphrase, maximum.
 
-## Rule 3 — one-shot artifact structure
+## 3. Lecture section — required structure, comes FIRST
 
-Follow the chapter's own teaching order, as Sourabh sir gives it in the transcript. Per topic:
-concept (depth per Rule 1) → the formula or reaction (KaTeX/mhchem) → one worked example if the
-topic is numerical → what the examiner asks from this topic. Close with a final section
-collecting every numerical pattern in the chapter in one place (heaviest for Ch 1–3, per the
-numericals-gap note above).
+Follow the chapter's own teaching order, the order Sourabh sir gives it in — do not reorder to
+match the NCERT chapter structure. Per topic:
 
-## Rule 4 — style
+concept (depth per §1) → the formula or reaction (KaTeX/mhchem) → one worked example if the
+topic is numerical → what the examiner asks from this topic.
+
+Close with **one** "Numerical patterns, collected" section gathering every worked pattern from
+the chapter in one place. This section is heaviest for Chapters 1–3.
+
+## 3a. Building one chapter artifact across two transcripts
+
+The lecture and PYQ transcripts for a chapter can arrive in either order, in separate turns,
+with other chapters' transcripts in between. `chem/published.json` is the source of truth for
+where each chapter stands. On every video:
+
+1. Look up the chapter's entry in `chem/published.json`.
+2. **First transcript for this chapter** (`url` is `null`): build only the section that
+   transcript covers (lecture per §3, or PYQ per §2) into `chem/template.html`. Leave the other
+   section's placeholder block out entirely — delete it, don't stub it. Publish as a new
+   Artifact using the `artifact_title` and `favicon` from `chem/maps.json` for this chapter.
+   Write the returned URL into `published.json`, and flip `has_lecture` or `has_pyq` to `true`.
+3. **Second transcript for this chapter** (`url` already set): use the Artifact tool's `read`
+   action on that `url` to fetch the currently published HTML. Insert the new section in the
+   correct position — lecture content always precedes the PYQ section, regardless of which was
+   written first. Publish again, passing the same `url`, so it updates in place instead of
+   creating a duplicate. Flip the remaining flag to `true`.
+4. A chapter is done once `url` is set and both flags are `true`. Run `chem/qa.py --stage final`
+   against the published content (read it back, don't trust the local `chem/build/` copy, which
+   may predate the merge).
+
+## 4. Style constraints — checkable, not vibes
 
 - Short sentences. Plain words. If a line takes two reads to parse, rewrite it.
-- No jargon unless NCERT or Xam Idea uses that exact term. If unavoidable, define it inline in
-  five words, once, and move on.
-- No introductions. Never write "in this video we will...". No summary of the summary.
+- No jargon unless NCERT or Xam Idea uses that exact term. If unavoidable: define inline in five
+  words, once, then move on.
+- No introductions. No "in this video we will". No summary of the summary.
 - Never reprint the syllabus back at the reader.
 
-## Rule 5 — chemistry rendering
+## 5. Chemistry rendering rules
 
-- **Chemical equations/formulae → mhchem**: `$\ce{2H2 + O2 -> 2H2O}$`,
+- **Chemical equations and formulae → mhchem**: `$\ce{2H2 + O2 -> 2H2O}$`,
   `$\ce{[Co(NH3)6]^3+}$`. Handles subscripts, charges, arrows, states correctly.
-- **Maths → plain KaTeX**: Nernst equation, Arrhenius equation, `$\Delta T_f = K_f \cdot m$`,
-  rate laws, etc.
-- Script order is non-negotiable: `katex.min.js` → `mhchem.min.js` → `auto-render.min.js` → the
-  `renderMathInElement` call. `chem/template.html` already has this wired correctly — do not
-  reorder the three `<script src=...>` tags.
-- Delimiters: `$$…$$` for display, `$…$` for inline. `throwOnError: false`.
-- `renderMathInElement` is scoped to `#chem-content`, never `document.body`. Do not change the
-  target id unless you also change the `id="chem-content"` on `<main>` to match.
+- **Maths → plain KaTeX**: Nernst, Arrhenius, `$\Delta T_f = K_f \cdot m$`, rate laws.
+- The three KaTeX/mhchem/auto-render scripts and their order are already correct in
+  `chem/template.html` — do not touch them.
+- Delimiters already wired in the template: `$$…$$` display, `$…$` inline, `throwOnError:
+  false`. `renderMathInElement` is already scoped to `#chem-content`, not `document.body`.
 
-## Rule 6 — NCERT cross-check: when and how
+## 6. NCERT cross-check — when and how
 
 Check against NCERT when: a term's spelling or definition matters, a formula or constant is
 being stated, an IUPAC name is given, or the transcript sounds garbled.
 
 1. Call `mcp__Google_Drive__read_file_content` with the chapter's `ncert_fileId` from
    `chem/maps.json`.
-2. A full chapter (~60k chars) will exceed the tool's token cap — the error/result text names a
-   local file path where the full text was saved. Use that path.
-3. `grep` that saved file for distinctive surrounding words, not exact section-number strings —
-   the extraction has drop-cap duplication artifacts (e.g. `5.15.15.1 Werner's Theory Theory
-   Theory`) and section numbers that collide with worked-example/exercise numbers.
+2. It will exceed the token cap and report a saved local file path. Use that path.
+3. `grep` the saved file for distinctive words — not exact section-number strings, because of
+   drop-cap artifacts.
 4. **NCERT is authoritative for**: term spelling, definitions, IUPAC names, standard formulae,
    constants, section numbering.
-5. **NCERT is NOT the source for**: teaching order, exam technique, or question selection.
-   Sourabh sir's material governs those — it is "the material," NCERT is only "for checks."
-6. Equations *inside the extracted NCERT text* are unreliable (PDF extraction artifact). For any
-   canonical formula, write the standard correct form yourself — do not copy a formula from the
-   extracted text.
+5. **NCERT is NOT the source for**: teaching order, exam technique, question selection. Sourabh
+   sir's material governs those — NCERT is for checks, not the material itself.
+6. Equations inside the extracted NCERT text are unreliable — write the canonical correct
+   formula yourself; don't trust one copied from the extraction.
 
-`chem/maps.json` → `ncert_read_procedure` restates this as a numbered list; `chem/maps.json` →
-`chapters[].ncert_fileId` has every file ID you need.
-
-## Rule 7 — transcript defect handling (there are no board frames here — no safety net but NCERT)
+## 7. Transcript defect handling — no board frames to fall back on
 
 - **Garbled technical term** (auto-captions mangle Hinglish chemistry badly — e.g. "lanthanoid
-  contraction" → "lantern node contraction"): correct it via NCERT (Rule 6). Never let a garbled
-  term reach the notes.
+  contraction" → "lantern node contraction"): correct it via NCERT. Never propagate a garbled
+  term into the notes.
 - **Repeated block**: caption loops happen. Repetition is not emphasis — write the content once.
-- **Transcript ends mid-topic**: say so in the artifact at the cutoff point, and tell the user in
-  your reply.
-- **Suspiciously short transcript** for a one-shot chapter: flag it and ask the user before
-  writing anything.
-- **Transcript content doesn't match the claimed chapter**: stop. Confirm with the user rather
-  than producing a whole wrong artifact.
-- **A number you cannot verify**: write it with a short "(verify)" marker rather than guessing.
+- **Transcript ends mid-topic**: say so in the artifact at the cut-off point, and tell the user.
+- **Suspiciously short transcript** for a one-shot chapter: flag it and ask before writing.
+- **Transcript content doesn't match the claimed chapter**: stop and confirm with the user
+  rather than producing a whole wrong artifact.
+- **A number you cannot verify**: write it with a short "verify" marker rather than guessing.
 
-## Rule 8 — design system (identical across all 12 artifacts, do not deviate)
+## 8. Design system — already built into chem/template.html
 
-`chem/template.html` already implements this. If you're filling it in, you inherit it for free —
-do not edit the `<style>` blocks. If you ever rebuild from scratch, reproduce exactly:
+Phone-first: single column, ~62ch measure, `<summary>` tap targets ≥44px tall. Every top-level
+section is a `<details>`, **closed by default**. `<summary>` = section name + a short "what's
+inside" line.
 
-- Phone-first, single column, ~62ch measure, `<summary>` tap targets ≥44px tall.
-- Every top-level section is `<details>` (`<section class="block">` in the template) **closed by
-  default**. `<summary>` = section/topic name + a short "what's inside" sub-line.
-- Three-block theming cascade — a token defined only inside a media/data-theme block is the
-  classic unreadable-artifact bug:
-  - bare `:root { }` — full light palette
-  - `@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { } }` — auto-dark
-  - `:root[data-theme="dark"] { }` — explicit override (same dark values, duplicated)
-  - `body` sets `background` from a token.
-- Tokens (already in the template — do not change): light `--bg #F6F8F7 · --surface #FFFFFF ·
-  --surface-alt #E9EEEC · --text #17211D · --text-muted #55635C · --border #D3DBD7 · --accent
-  #1F6F5C · --accent-soft #D8EAE3 · --trap #A05A1E · --trap-soft #F6E9DA · --repeat #8C2F4A ·
-  --repeat-soft #F7E1E7`; dark `--bg #101614 · --surface #182220 · --surface-alt #1F2B28 · --text
-  #E6EDEA · --text-muted #97A6A0 · --border #2B3936 · --accent #5FBFA3 · --accent-soft #1E3A33 ·
-  --trap #D9A05B · --trap-soft #35291B · --repeat #E58AA3 · --repeat-soft #3A2029`.
-- Type: IBM Plex Sans 600/700 (headings/UI) · Public Sans 400/500 (body) · IBM Plex Mono 400/500
-  (year-question refs, mark-slot badges, data). One Google Fonts `<link>`, real fallback stacks.
-  All already wired in the template.
-- `--trap` styles the trap callouts (`.trap`). `--repeat` is reserved for the Repeat Offenders
-  section only (`.repeat-item`), so the highest-value content is visually unmistakable.
-- Load the `artifact-design` skill before writing the first artifact of a session.
+Theming is the three-block cascade already in the template — bare `:root` (light) →
+`@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {…} }` →
+`:root[data-theme="dark"] {…}`. Don't add a token anywhere except duplicated across all three
+blocks; a token defined only inside a media query is the classic unreadable-artifact bug.
+`body` sets `background` from a token — already wired.
 
-## Per-video execution checklist
+Tokens already defined (don't invent new ones without adding them to all three blocks):
+`--bg --surface --surface-alt --text --text-muted --border --accent --accent-soft --trap
+--trap-soft --repeat --repeat-soft`.
 
-1. Identify the video from `chem/maps.json` (chapter + type: `pyq_video_id` or
-   `oneshot_video_id`). Confirm the pasted transcript's actual content matches that chapter
-   before writing anything (Rule 7).
+`--trap` styles trap callouts (`.trap`). `--repeat` is reserved for the Repeat Offenders section
+only (`.repeat-item`), so the highest-value items are visually unmistakable.
+
+Type: IBM Plex Sans (headings/UI) · Public Sans (body) · IBM Plex Mono (year-question refs,
+mark-slot badges, data) — already wired via the Google Fonts `<link>` in the template head.
+
+Load the `artifact-design` skill before writing the first artifact this session.
+
+## 9. Per-video execution checklist
+
+1. Identify the video from `chem/maps.json` (chapter + type: lecture/one-shot or PYQ). Confirm
+   the transcript's actual content matches that chapter before writing anything.
 2. Save the transcript to `chem/transcripts/ch<N>-<pyq|oneshot>.txt`. Strip timestamps.
-3. Skim for defects from Rule 7 first, before drafting.
-4. Pull the chapter's NCERT text per Rule 6. Keep the saved grep-source path handy for
-   spot-checks while writing.
-5. Draft content per Rule 2 (PYQ) or Rule 3 (one-shot), applying Rule 1 depth throughout.
-6. Copy `chem/template.html` to `chem/build/ch<N>-<pyq|oneshot>.html`. Fill in every
-   `{{PLACEHOLDER}}`. Delete whichever of STRUCTURE A / STRUCTURE B you are not using (the
-   template marks both with clear HTML comments — remove the unused block and its comments
-   entirely). Fill `{{ARTIFACT_TITLE}}`, `{{CHAPTER_NUMBER}}`, `{{CHAPTER_NAME}}`,
-   `{{VIDEO_TYPE_LABEL}}` (`"PYQ Patterns"` or `"One Shot"`) from `chem/maps.json`.
-7. Run `python3 chem/qa.py chem/build/ch<N>-<pyq|oneshot>.html`. Fix every `FAIL` before
-   publishing — do not publish with any check failing.
-8. Publish via the Artifact tool with the exact `title` and `favicon` from `chem/maps.json`
-   (`oneshot_title`/`pyq_title`, `oneshot_favicon`/`pyq_favicon`). Give the user the link.
+3. Skim for defects from §7 first, not after writing.
+4. Pull the chapter's NCERT file per §6 and keep the saved path handy for spot-checks.
+5. Draft content per §2 (PYQ section) or §3 (lecture section), applying §1 depth rules
+   throughout. Write original teaching prose grounded in the transcript.
+6. Check `chem/published.json` for this chapter and follow §3a.
+7. Fill `chem/template.html`, write the result to `chem/build/ch<N>.html`.
+8. Run `python3 chem/qa.py chem/build/ch<N>.html --stage <lecture|pyq|final>`. Fix every FAIL.
+9. Publish per §3a, update `chem/published.json`, and give the user the link. If this was the
+   second transcript for the chapter, say explicitly that the chapter is complete.
 
-`chem/qa.py` scripts most of this mechanically (see its own checks), but it cannot check content
-quality — Rule 1 depth, Rule 2/3 structure content, Rule 4 style, Rule 7 defect handling are your
-judgement calls, applied per this file.
+## 10. Pre-publish QA — scripted in chem/qa.py, run it, don't eyeball it
 
-## Verification once per artifact (things `chem/qa.py` cannot check)
+`chem/qa.py` checks: no doctype/html/head/body wrapper; no top-level `<details open>`; every
+`var(--token)` used is defined in the bare `:root` block; both dark blocks present; `body` sets
+`background` from a token; `<title>` matches `chem/maps.json`'s `artifact_title` exactly; the
+three KaTeX scripts present and in order; `renderMathInElement`'s target id exists; `[exposure]`
+present for Ch 4/5/6 and absent for Ch 1/2/3; no sentence starts "In this video"; file under
+16 MB. Additionally verify by eye, since the script can't check these:
 
-- On the **published** page (not the local file — `file://` cannot reach cdnjs), confirm KaTeX
-  and mhchem actually render: at least one `\ce{}` equation and one display formula.
+- PYQ section (once present): all four parts, in order, appended after the lecture content —
+  never interleaved with it.
+- Each numerical type in the PYQ section has **exactly one** worked example; extras are
+  answer-only.
+- Questions referenced as year + number; no long question text reprinted.
+- No verbatim transcript sentence appears in the artifact — spot-compare a few lines against
+  `chem/transcripts/`.
+- `chem/published.json` for this chapter matches reality (`url` set, flags correct).
+
+## Verification
+
+- **Pilot with a first-contact chapter (4, 5, or 6), not Ch 1 — and pilot the full chapter,
+  both transcripts**, so the §3a read-then-update-in-place flow is exercised at least once
+  before repeating it five more times unattended. Publish, have the user read it on a phone, and
+  confirm the `[exposure]` depth is right before building the other five chapters.
+- Confirm on the published page (not the local file — `file://` cannot reach cdnjs) that KaTeX
+  and mhchem actually render: one `\ce{}` equation and one display formula.
 - Toggle light/dark and confirm both are legible, including formula glyph colour.
-- Spot-check one NCERT-verified term against the grep result you kept from step 4.
-
-## Pilot note
-
-The first artifact built should be Chapter 4, 5, or 6 (first-contact material), not Chapter 1 —
-depth calibration (Rule 1) is the real risk on this job and it only shows up on first-contact
-content. After the pilot is published, the user reads it on a phone and confirms the exposure
-depth is right before the remaining 11 videos are built. Once signed off, the template and this
-file are frozen — reuse unchanged for the rest.
-
-## Where things live
-
-```
-chem/
-  SKILL.md          # this file — read first, every time
-  template.html     # artifact skeleton: KaTeX CSS inlined, both content structures, both scripts
-  maps.json          # video IDs, NCERT file IDs, titles, favicons, exam blueprint -- copy from here
-  qa.py             # python3 chem/qa.py chem/build/*.html -- run before every publish
-  transcripts/      # pasted transcripts, one per video          [gitignored]
-  build/            # generated HTML before publishing            [gitignored]
-```
+- Spot-check one NCERT-verified term per artifact against the grep result.
+- After the pilot chapter is signed off, the template is frozen — the remaining five chapters
+  reuse it unchanged.

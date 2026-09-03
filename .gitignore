@@ -21,6 +21,11 @@ data/publish/
 # leftover git worktrees from background agent runs
 .claude/worktrees/
 
+# chemistry job: pasted transcripts and local build output (regenerable;
+# chem/published.json and chem/maps.json ARE tracked -- see chem/SKILL.md)
+chem/transcripts/
+chem/build/
+
 # chemistry job: pasted transcripts and generated HTML build output are
 # regenerable from the transcript + chem/template.html -- not tracked
 chem/transcripts/

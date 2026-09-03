@@ -94,12 +94,6 @@ h1 {
   font-size: 1.5rem; font-weight: 700; margin: 0 0 0.5rem; line-height: 1.25;
   text-wrap: balance;
 }
-.video-badge {
-  display: inline-block; font-size: 0.78rem; padding: 0.2rem 0.6rem;
-  border-radius: 5px; background: var(--accent-soft); color: var(--accent);
-  font-weight: 600;
-}
-
 /* ===== Sections as <details> ===== */
 section.block {
   margin-bottom: 0.9rem; background: var(--surface); border: 1px solid var(--border);
@@ -174,90 +168,29 @@ summary .sub { display: block; font-size: 0.8rem; font-weight: 400; color: var(-
 <header>
   <p class="eyebrow">NCERT Class XII Chemistry · Chapter {{CHAPTER_NUMBER}} · {{CHAPTER_NAME}}</p>
   <h1>{{ARTIFACT_TITLE}}</h1>
-  <span class="video-badge">{{VIDEO_TYPE_LABEL}}</span>
-  <!-- VIDEO_TYPE_LABEL: "PYQ Patterns" or "One Shot" -->
 </header>
 
 <!--
   ============================================================
-  CHOOSE ONE STRUCTURE BELOW AND DELETE THE OTHER'S COMMENT BLOCK.
+  ONE ARTIFACT PER CHAPTER (chem/SKILL.md decision 4): lecture
+  sections first, in Sourabh sir's own teaching order, then the
+  PYQ section appended last. The two halves are usually written
+  in separate sessions as their transcripts arrive -- see
+  chem/SKILL.md section 3a for the read-then-update-in-place
+  build flow. On a chapter's FIRST publish, only one half may
+  exist yet; that is expected -- do not add a placeholder for
+  the missing half, just omit it, then insert the other one in
+  the correct position (lecture always precedes PYQ) once its
+  transcript arrives.
   ============================================================
 -->
 
 <!--
-  ===== STRUCTURE A: PYQ ARTIFACT =====
-  Exactly these four <section class="block"> blocks, in this order.
-  Do not add a fifth. Do not reorder.
--->
-
-<section class="block">
-  <summary>1. Question types<span class="sub">ranked by how often they appear</span></summary>
-  <div class="block-body">
-    <!--
-      Repeat this .qtype block once per question type, ranked most
-      frequent first. marks-badge text comes from part 2 of the spec
-      (the mark slot), stated here too so each type is self-contained.
-    -->
-    <div class="qtype">
-      <div class="qtype-head">
-        <span class="qtype-name">{{QUESTION_TYPE_NAME}}</span>
-        <span class="marks-badge">{{MARK_SLOT}}</span>
-      </div>
-      <p class="recognize">Recognise it: {{ONE_LINE_RECOGNITION_CUE}}</p>
-      <ol>
-        <li>{{METHOD_STEP}}</li>
-      </ol>
-      <div class="trap"><b>Trap:</b> {{THE_TRAP}}</div>
-    </div>
-  </div>
-</section>
-
-<section class="block">
-  <summary>2. Mark slots<span class="sub">what each type is worth, and the time that buys</span></summary>
-  <div class="block-body">
-    <!-- One row per question type from section 1. Keep it a scan, not new prose. -->
-    <div class="table-wrap">
-    <table>
-      <tr><th>Question type</th><th>Slot</th></tr>
-      <tr><td>{{QUESTION_TYPE_NAME}}</td><td>{{MARK_SLOT}}</td></tr>
-    </table>
-    </div>
-  </div>
-</section>
-
-<section class="block">
-  <summary>3. Repeat offenders<span class="sub">appeared more than once across years -- highest probability</span></summary>
-  <div class="block-body">
-    <div class="repeat-item">
-      <div class="yr">{{YEAR}} Q{{NUMBER}} &middot; {{YEAR}} Q{{NUMBER}}</div>
-      <p>{{ONE_LINE_PARAPHRASE_NOT_FULL_TEXT}}</p>
-    </div>
-  </div>
-</section>
-
-<section class="block">
-  <summary>4. Numerical types<span class="sub">one worked model per pattern, then cold practice</span></summary>
-  <div class="block-body">
-    <!-- Repeat once per numerical type -->
-    <h4>{{NUMERICAL_TYPE_NAME}}</h4>
-    <div class="worked">
-      <div class="worked-label">Worked example &middot; {{YEAR}} Q{{NUMBER}}</div>
-      <p>{{FULL_WORKING}}</p>
-    </div>
-    <div class="cold-q">{{YEAR}} Q{{NUMBER}} &mdash; <span class="ans">answer only: {{ANSWER}}</span></div>
-    <div class="cold-q">{{YEAR}} Q{{NUMBER}} &mdash; <span class="ans">answer only: {{ANSWER}}</span></div>
-    <div class="cold-q">{{YEAR}} Q{{NUMBER}} &mdash; <span class="ans">answer only: {{ANSWER}}</span></div>
-  </div>
-</section>
-
-<!-- ===== END STRUCTURE A ===== -->
-
-
-<!--
-  ===== STRUCTURE B: ONE-SHOT LECTURE ARTIFACT =====
+  ===== LECTURE SECTION (chem/SKILL.md section 3) =====
   One <section class="block"> per topic, in the chapter's own teaching
   order. Close with one numerical-patterns section collecting every
-  worked pattern from the chapter in one place.
+  worked pattern from the chapter in one place. This whole block comes
+  FIRST.
 -->
 
 <section class="block">
@@ -292,7 +225,77 @@ summary .sub { display: block; font-size: 0.8rem; font-weight: 400; color: var(-
   </div>
 </section>
 
-<!-- ===== END STRUCTURE B ===== -->
+<!-- ===== END LECTURE SECTION ===== -->
+
+
+<!--
+  ===== PYQ SECTION (chem/SKILL.md section 2) =====
+  Exactly these four <section class="block"> blocks, in this order.
+  Do not add a fifth. Do not reorder. This whole block comes LAST,
+  after every lecture-section block above.
+-->
+
+<section class="block">
+  <summary>Past year questions &middot; question types<span class="sub">ranked by how often they appear</span></summary>
+  <div class="block-body">
+    <!--
+      Repeat this .qtype block once per question type, ranked most
+      frequent first. marks-badge text comes from the mark-slots block
+      below too, stated here so each type is self-contained.
+    -->
+    <div class="qtype">
+      <div class="qtype-head">
+        <span class="qtype-name">{{QUESTION_TYPE_NAME}}</span>
+        <span class="marks-badge">{{MARK_SLOT}}</span>
+      </div>
+      <p class="recognize">Recognise it: {{ONE_LINE_RECOGNITION_CUE}}</p>
+      <ol>
+        <li>{{METHOD_STEP}}</li>
+      </ol>
+      <div class="trap"><b>Trap:</b> {{THE_TRAP}}</div>
+    </div>
+  </div>
+</section>
+
+<section class="block">
+  <summary>Past year questions &middot; mark slots<span class="sub">what each type is worth, and the time that buys</span></summary>
+  <div class="block-body">
+    <!-- One row per question type from the block above. Keep it a scan, not new prose. -->
+    <div class="table-wrap">
+    <table>
+      <tr><th>Question type</th><th>Slot</th></tr>
+      <tr><td>{{QUESTION_TYPE_NAME}}</td><td>{{MARK_SLOT}}</td></tr>
+    </table>
+    </div>
+  </div>
+</section>
+
+<section class="block">
+  <summary>Past year questions &middot; repeat offenders<span class="sub">appeared more than once across years -- highest probability</span></summary>
+  <div class="block-body">
+    <div class="repeat-item">
+      <div class="yr">{{YEAR}} Q{{NUMBER}} &middot; {{YEAR}} Q{{NUMBER}}</div>
+      <p>{{ONE_LINE_PARAPHRASE_NOT_FULL_TEXT}}</p>
+    </div>
+  </div>
+</section>
+
+<section class="block">
+  <summary>Past year questions &middot; numerical types<span class="sub">one worked model per pattern, then cold practice</span></summary>
+  <div class="block-body">
+    <!-- Repeat once per numerical type -->
+    <h4>{{NUMERICAL_TYPE_NAME}}</h4>
+    <div class="worked">
+      <div class="worked-label">Worked example &middot; {{YEAR}} Q{{NUMBER}}</div>
+      <p>{{FULL_WORKING}}</p>
+    </div>
+    <div class="cold-q">{{YEAR}} Q{{NUMBER}} &mdash; <span class="ans">answer only: {{ANSWER}}</span></div>
+    <div class="cold-q">{{YEAR}} Q{{NUMBER}} &mdash; <span class="ans">answer only: {{ANSWER}}</span></div>
+    <div class="cold-q">{{YEAR}} Q{{NUMBER}} &mdash; <span class="ans">answer only: {{ANSWER}}</span></div>
+  </div>
+</section>
+
+<!-- ===== END PYQ SECTION ===== -->
 
 </main>
 

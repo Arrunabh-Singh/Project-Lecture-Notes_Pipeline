@@ -1,5 +1,5 @@
 {
-  "_readme": "Reference tables for the chemistry notes job. Confirmed this session: NCERT fileIds by reading each PDF's content snippet via the Drive connector (all RATIONALISED 2022-23 / Reprint 2026-27 = current syllabus). Video IDs are taken verbatim from the user's brief, not independently verified (YouTube fetching is blocked in this environment). Do not re-derive any of this -- copy it.",
+  "_readme": "Reference tables for the chemistry notes job. Confirmed this session: NCERT fileIds by reading each PDF's content snippet via the Drive connector (all RATIONALISED 2022-23 / Reprint 2026-27 = current syllabus). Video IDs are taken verbatim from the user's brief, not independently verified (YouTube fetching is blocked in this environment -- re-confirmed via .venv/bin/yt-dlp, HTTP 429 bot-detection). Do not re-derive any of this -- copy it. Deliverable shape (decision 4, this session): ONE published artifact per chapter, combining lecture + PYQ content -- see chem/published.json for per-chapter build state and chem/SKILL.md section 3a for the build mechanic.",
 
   "exam": {
     "date": "2026-09-10",
@@ -39,10 +39,8 @@
       "pyq_video_url": "https://youtu.be/A45W60swXPY",
       "oneshot_video_id": "DCbGwXVzYAQ",
       "oneshot_video_url": "https://youtu.be/DCbGwXVzYAQ",
-      "oneshot_title": "Solutions — One Shot Notes",
-      "pyq_title": "Solutions — PYQ Patterns",
-      "oneshot_favicon": "🧪",
-      "pyq_favicon": "🧪🎯"
+      "artifact_title": "Solutions — Complete Notes",
+      "favicon": "🧪"
     },
     {
       "number": 2,
@@ -53,10 +51,8 @@
       "pyq_video_url": "https://youtu.be/yQ4DF7EWyuQ",
       "oneshot_video_id": "jjGwiGAHlPU",
       "oneshot_video_url": "https://youtu.be/jjGwiGAHlPU",
-      "oneshot_title": "Electrochemistry — One Shot Notes",
-      "pyq_title": "Electrochemistry — PYQ Patterns",
-      "oneshot_favicon": "🔋",
-      "pyq_favicon": "🔋🎯"
+      "artifact_title": "Electrochemistry — Complete Notes",
+      "favicon": "🔋"
     },
     {
       "number": 3,
@@ -67,10 +63,8 @@
       "pyq_video_url": "https://youtu.be/e93W37mN2NI",
       "oneshot_video_id": "6HYp6s6GZJs",
       "oneshot_video_url": "https://youtu.be/6HYp6s6GZJs",
-      "oneshot_title": "Chemical Kinetics — One Shot Notes",
-      "pyq_title": "Chemical Kinetics — PYQ Patterns",
-      "oneshot_favicon": "⏱️",
-      "pyq_favicon": "⏱️🎯"
+      "artifact_title": "Chemical Kinetics — Complete Notes",
+      "favicon": "⏱️"
     },
     {
       "number": 4,
@@ -81,10 +75,8 @@
       "pyq_video_url": "https://youtu.be/psWIbDyyaIE",
       "oneshot_video_id": "P05q-jXyKMI",
       "oneshot_video_url": "https://youtu.be/P05q-jXyKMI",
-      "oneshot_title": "d and f Block — One Shot Notes",
-      "pyq_title": "d and f Block — PYQ Patterns",
-      "oneshot_favicon": "⚛️",
-      "pyq_favicon": "⚛️🎯"
+      "artifact_title": "d and f Block — Complete Notes",
+      "favicon": "⚛️"
     },
     {
       "number": 5,
@@ -95,10 +87,8 @@
       "pyq_video_url": "https://youtu.be/vFco4et3suY",
       "oneshot_video_id": "V6KOiLy-9t8",
       "oneshot_video_url": "https://youtu.be/V6KOiLy-9t8",
-      "oneshot_title": "Coordination Compounds — One Shot Notes",
-      "pyq_title": "Coordination Compounds — PYQ Patterns",
-      "oneshot_favicon": "💠",
-      "pyq_favicon": "💠🎯"
+      "artifact_title": "Coordination Compounds — Complete Notes",
+      "favicon": "💠"
     },
     {
       "number": 6,
@@ -109,10 +99,8 @@
       "pyq_video_url": "https://youtu.be/cCY6kklMZ94",
       "oneshot_video_id": "s3F5BPkolKM",
       "oneshot_video_url": "https://youtu.be/s3F5BPkolKM",
-      "oneshot_title": "Haloalkanes and Haloarenes — One Shot Notes",
-      "pyq_title": "Haloalkanes and Haloarenes — PYQ Patterns",
-      "oneshot_favicon": "⚗️",
-      "pyq_favicon": "⚗️🎯",
+      "artifact_title": "Haloalkanes and Haloarenes — Complete Notes",
+      "favicon": "⚗️",
       "scope": "Full chapter, 6.1 (Classification) through 6.8 (Polyhalogen compounds). NCERT confirmed section run via grep this session: 6.1, 6.2 Nomenclature, 6.3 Nature of C-X bond, 6.4 Methods of preparation, 6.5 Physical properties, 6.6-6.7 Chemical reactions (incl. SN1/SN2, elimination), 6.8 Polyhalogen compounds (6.8.1 Dichloromethane, 6.8.2 Trichloromethane, 6.8.3 Triiodomethane, 6.8.4 Tetrachloromethane, 6.8.5 Freons)."
     }
   ],
