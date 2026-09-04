@@ -2,8 +2,8 @@
   "_readme": "Per-chapter build state for the chemistry notes job. See chem/SKILL.md section 3a. url is the published Artifact URL once the chapter's first transcript is built, null until then. has_lecture/has_pyq flip to true as each half is added. A chapter is complete once url is set and both flags are true.",
   "1": {"url": "https://claude.ai/code/artifact/927d0fb1-5347-49ac-a363-781f77361c4f", "has_lecture": true, "has_pyq": true},
   "2": {"url": "https://claude.ai/code/artifact/795e7e4e-0688-4989-acd5-148ceca1b1de", "has_lecture": true, "has_pyq": true},
-  "3": {"url": null, "has_lecture": false, "has_pyq": false},
-  "4": {"url": null, "has_lecture": false, "has_pyq": false},
-  "5": {"url": null, "has_lecture": false, "has_pyq": false},
-  "6": {"url": null, "has_lecture": false, "has_pyq": false}
+  "3": {"url": "https://claude.ai/code/artifact/679d01fc-9d06-4dc4-b9f8-b0c7622216ad", "has_lecture": true, "has_pyq": true},
+  "4": {"url": "https://claude.ai/code/artifact/b7f00c1b-3dbd-48c3-ab9a-6be583bc3c2d", "has_lecture": true, "has_pyq": true},
+  "5": {"url": "https://claude.ai/code/artifact/223bead0-fc4c-476e-9c34-26e601ed03d3", "has_lecture": true, "has_pyq": true},
+  "6": {"url": "https://claude.ai/code/artifact/1089dc56-986d-42a1-ab36-ddf5b2eb2e57", "has_lecture": true, "has_pyq": true}
 }
