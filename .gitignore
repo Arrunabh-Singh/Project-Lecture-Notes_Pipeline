@@ -30,3 +30,7 @@ chem/build/
 # regenerable from the transcript + chem/template.html -- not tracked
 chem/transcripts/
 chem/build/
+
+# generated sheet builds (the content fragments live in the session scratchpad;
+# the published Artifact is the deliverable)
+sheets/build/

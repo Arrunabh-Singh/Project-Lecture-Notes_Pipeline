@@ -1,0 +1,49 @@
+{
+  "_readme": "Titles, favicons and accents for the four cross-chapter sheets. sheets/build.py reads this to set <title> and to substitute the accent tokens into sheets/template.html; sheets/qa.py reads it to check the built <title> matches. Keep 'name' equal to the content filename stem so build.py can resolve one from the other.",
+  "sheets": [
+    {
+      "name": "chem-formulas",
+      "subject": "chemistry",
+      "artifact_title": "Every Chemistry Formula",
+      "favicon": "🧾",
+      "kind": "formulas",
+      "accent_light": "#1F6F5C",
+      "accent_soft_light": "#DCEDE7",
+      "accent_dark": "#5FBFA3",
+      "accent_soft_dark": "#173029"
+    },
+    {
+      "name": "chem-derivations",
+      "subject": "chemistry",
+      "artifact_title": "Chemistry, Derived",
+      "favicon": "🔬",
+      "kind": "derivations",
+      "accent_light": "#1F6F5C",
+      "accent_soft_light": "#DCEDE7",
+      "accent_dark": "#5FBFA3",
+      "accent_soft_dark": "#173029"
+    },
+    {
+      "name": "phys-formulas",
+      "subject": "physics",
+      "artifact_title": "Every Physics Formula",
+      "favicon": "📐",
+      "kind": "formulas",
+      "accent_light": "#2F4B8C",
+      "accent_soft_light": "#E0E7F5",
+      "accent_dark": "#8FA9E8",
+      "accent_soft_dark": "#1A2440"
+    },
+    {
+      "name": "phys-derivations",
+      "subject": "physics",
+      "artifact_title": "Physics, Derived",
+      "favicon": "🧮",
+      "kind": "derivations",
+      "accent_light": "#2F4B8C",
+      "accent_soft_light": "#E0E7F5",
+      "accent_dark": "#8FA9E8",
+      "accent_soft_dark": "#1A2440"
+    }
+  ]
+}

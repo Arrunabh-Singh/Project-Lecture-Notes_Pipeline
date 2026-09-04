@@ -20,15 +20,16 @@ import re
 import sys
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+
+from lecturepipe.publish.qa_checks import (
+    strip_html_comments as _strip_html_comments,
+    structural_checks,
+    title_check,
+)
+
 CHEM_DIR = Path(__file__).resolve().parent
 FIRST_CONTACT_CHAPTERS = {"4", "5", "6"}
-KATEX_SCRIPTS_IN_ORDER = [
-    "katex.min.js",
-    "contrib/mhchem.min.js",
-    "contrib/auto-render.min.js",
-]
-
-
 def _load_json(name: str) -> dict:
     return json.loads((CHEM_DIR / name).read_text(encoding="utf-8"))
 
@@ -40,84 +41,20 @@ def _chapter_number_from_filename(path: Path) -> str:
     return m.group(1)
 
 
-def _root_token_block(html: str) -> str:
-    """The bare `:root { ... }` block -- i.e. NOT inside a @media or
-    :root[data-theme=...] selector. Used to check every var(--x) used
-    elsewhere is actually defined in the light-mode base block."""
-    m = re.search(r"(?<![\w\-\[\]\"'=(:.])\:root\s*\{([^}]*)\}", html)
-    return m.group(1) if m else ""
-
-
-def _strip_html_comments(html: str) -> str:
-    """template.html's own authoring comments mention '<html>', '<head>' etc.
-    by name as things NOT to add -- checking the raw file text would flag
-    those as false positives. Strip comments first so the structural checks
-    only see real markup."""
-    return re.sub(r"<!--.*?-->", "", html, flags=re.DOTALL)
-
-
 def run_checks(html: str, chapter_num: str, expect_pyq: bool) -> list[tuple[str, bool, str]]:
     """Returns a list of (check_name, passed, detail) tuples."""
-    checks: list[tuple[str, bool, str]] = []
     stripped = _strip_html_comments(html)
+    checks = structural_checks(html, stripped, math_root_id="chem-content")
 
     def check(name: str, passed: bool, detail: str = "") -> None:
         checks.append((name, passed, detail))
-
-    check(
-        "no doctype/html/head/body wrapper",
-        not re.search(r"<!doctype|<html[ >]|<head[ >]|<body[ >]", stripped, re.IGNORECASE),
-    )
-
-    top_level_open = re.findall(r"<details\b[^>]*\bopen\b", stripped, re.IGNORECASE)
-    check("no top-level <details open>", len(top_level_open) == 0, f"{len(top_level_open)} found")
-
-    root_block = _root_token_block(stripped)
-    defined_tokens = set(re.findall(r"--([\w-]+)\s*:", root_block))
-    used_tokens = set(re.findall(r"var\(--([\w-]+)\)", stripped))
-    undefined = sorted(t for t in used_tokens if t not in defined_tokens)
-    check(
-        "every var(--token) defined in bare :root",
-        len(undefined) == 0,
-        f"undefined: {undefined}" if undefined else "",
-    )
-
-    has_media_dark = bool(
-        re.search(r'prefers-color-scheme:\s*dark\s*\)\s*\{[^}]*:root:not\(\[data-theme="light"\]\)', stripped, re.DOTALL)
-    )
-    has_explicit_dark = bool(re.search(r':root\[data-theme="dark"\]\s*\{', stripped))
-    check("prefers-color-scheme dark block present", has_media_dark)
-    check("[data-theme=dark] override block present", has_explicit_dark)
-
-    body_bg = re.search(r"\bbody\s*\{[^}]*background\s*:\s*var\(--", stripped, re.DOTALL)
-    check("body sets background from a token", bool(body_bg))
 
     chapters = _load_json("maps.json")["chapters"]
     entry = next((c for c in chapters if str(c["number"]) == chapter_num), None)
     if entry is None:
         check("title matches maps.json", False, f"no chapter {chapter_num} in maps.json")
     else:
-        expected_title = entry["artifact_title"]
-        title_match = re.search(r"<title>(.*?)</title>", stripped, re.DOTALL)
-        actual = title_match.group(1).strip() if title_match else None
-        check("title matches maps.json exactly", actual == expected_title, f"got {actual!r}, want {expected_title!r}")
-
-    script_positions = []
-    for script in KATEX_SCRIPTS_IN_ORDER:
-        m = re.search(re.escape(script), stripped)
-        script_positions.append(m.start() if m else None)
-    all_present = all(p is not None for p in script_positions)
-    in_order = all_present and script_positions == sorted(script_positions)
-    check("KaTeX + mhchem + auto-render scripts present", all_present, str(script_positions))
-    check("KaTeX scripts in required order", in_order)
-
-    render_call = re.search(r'getElementById\(["\'](.+?)["\']\)', stripped)
-    if render_call:
-        target_id = render_call.group(1)
-        id_exists = bool(re.search(rf'id=["\']{ re.escape(target_id) }["\']', stripped))
-        check("renderMathInElement target id exists in document", id_exists, target_id)
-    else:
-        check("renderMathInElement target id exists in document", False, "no getElementById call found")
+        checks.append(title_check(stripped, entry["artifact_title"]))
 
     # The on-page marker for a first-contact term is the exposure-tag span
     # (chem/template.html / chem/SKILL.md section 1), not literal "[exposure]"
@@ -128,11 +65,7 @@ def run_checks(html: str, chapter_num: str, expect_pyq: bool) -> list[tuple[str,
     else:
         check("theory-known chapter: no exposure-tag spans", exposure_count == 0, f"{exposure_count} found")
 
-    in_this_video = re.search(r"\bin this video\b", stripped, re.IGNORECASE)
-    check('no sentence begins "In this video"', not bool(in_this_video))
-
-    size_mb = len(html.encode("utf-8")) / (1024 * 1024)
-    check("file under 16 MB", size_mb < 16, f"{size_mb:.2f} MB")
+    check('no sentence begins "In this video"', not bool(re.search(r"\bin this video\b", stripped, re.IGNORECASE)))
 
     if expect_pyq:
         has_pyq_marker = bool(re.search(r"question types|repeat offenders|mark slot", stripped, re.IGNORECASE))
