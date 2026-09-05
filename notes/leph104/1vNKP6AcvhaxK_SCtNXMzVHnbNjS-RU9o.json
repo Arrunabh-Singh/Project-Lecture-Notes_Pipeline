@@ -1,0 +1,150 @@
+{
+  "file_id": "1vNKP6AcvhaxK_SCtNXMzVHnbNjS-RU9o",
+  "chapter_id": "leph104",
+  "title": "Oersted's Experiment, Biot-Savart Law, and Field at the Centre of a Coil",
+  "duration_seconds": 2534.2,
+  "claims": [
+    {
+      "text": "Historical intro: lodestone (natural magnetite, Fe3O4) was the earliest known source of magnetism, able to attract small pieces of iron. The unification of electricity and magnetism into 'electromagnetism' (electricity produces magnetic field and magnetic field can produce electric field) is credited to Faraday and Maxwell.",
+      "transcript_span": [
+        50.2,
+        157.0
+      ],
+      "frame_path": "data/lectures/leph104/1vNKP6AcvhaxK_SCtNXMzVHnbNjS-RU9o/frames/floor_000006.jpg",
+      "ncert_section": "4.1",
+      "ncert_agreement": "teacher_simplifies"
+    },
+    {
+      "text": "A moving charge or current element (I dl) is a source of magnetic field. Oersted's experiment: a current-carrying wire placed above/near a compass needle deflects it, showing that a magnetic field is produced by current -- this established the link between electricity and magnetism.",
+      "transcript_span": [
+        159.3,
+        448.3
+      ],
+      "frame_path": "data/lectures/leph104/1vNKP6AcvhaxK_SCtNXMzVHnbNjS-RU9o/frames/floor_000006.jpg",
+      "ncert_section": "4.1",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "'SNOW' rule (teacher's mnemonic for Oersted's deflection direction): if current flows from South to North and the wire is Over the needle, the North pole of the needle deflects toward West; reversing the current (North to South) flips the deflection to East. The rule flips again if the wire is placed below the needle instead of over it.",
+      "transcript_span": [
+        454.9,
+        739.0
+      ],
+      "frame_path": "data/lectures/leph104/1vNKP6AcvhaxK_SCtNXMzVHnbNjS-RU9o/frames/floor_000020.jpg",
+      "ncert_section": "4.1",
+      "ncert_agreement": "teacher_simplifies"
+    },
+    {
+      "text": "Magnetic field lines, compared with electric field lines: magnetic field lines always form closed loops (outside a bar magnet they run N to S, inside S to N, with no start/end point), unlike electric field lines which originate on positive charge and terminate on negative charge and never form closed loops. Field lines never intersect (else the point of intersection would have two directions of field, i.e. two tangents, which is impossible) -- same reasoning as for electric field lines. Parallel, equidistant field lines indicate a uniform field; crowded lines indicate a stronger field.",
+      "transcript_span": [
+        741.5,
+        1152.0
+      ],
+      "frame_path": "data/lectures/leph104/1vNKP6AcvhaxK_SCtNXMzVHnbNjS-RU9o/frames/floor_000036.jpg",
+      "ncert_section": "4.4",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Biot-Savart law: the magnetic field dB produced at a point P (distance r from a current element I dl) is directly proportional to the current element I dl, directly proportional to sin(theta) where theta is the angle between the current element and the line joining the element to P, and inversely proportional to r^2. Combining, dB = (mu0/4*pi) * I dl sin(theta) / r^2, where mu0/4*pi is the constant of proportionality (analogous to 1/4*pi*eps0 in Coulomb's law).",
+      "transcript_span": [
+        1152.4,
+        1653.5
+      ],
+      "frame_path": "data/lectures/leph104/1vNKP6AcvhaxK_SCtNXMzVHnbNjS-RU9o/frames/floor_000055.jpg",
+      "ncert_section": "4.4",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Vector form of the Biot-Savart law: dB = (mu0/4*pi) * (I dl x r-hat)/r^2 (equivalently (I dl x r)/r^3 with the unnormalized displacement vector r), since the sin(theta) dependence signals a cross product between the current element vector I dl and the displacement vector r.",
+      "transcript_span": [
+        1706.2,
+        1800.7
+      ],
+      "frame_path": "data/lectures/leph104/1vNKP6AcvhaxK_SCtNXMzVHnbNjS-RU9o/frames/floor_000055.jpg",
+      "ncert_section": "4.4",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Direction rule 1, 'right-hand palm rule': to find the direction of dB at point P due to a current element, point the thumb of the right hand along the direction of the current and the centre (middle) finger toward P; the palm then faces the direction such that if it faces into the page, B points into the page (cross, x), and if it faces out of the page, B points out of the page (dot).",
+      "transcript_span": [
+        1801.1,
+        2101.4
+      ],
+      "frame_path": "data/lectures/leph104/1vNKP6AcvhaxK_SCtNXMzVHnbNjS-RU9o/frames/floor_000068.jpg",
+      "ncert_section": "4.4",
+      "ncert_agreement": "teacher_simplifies"
+    },
+    {
+      "text": "Direction rule 2, 'right-hand thumb rule' (for straight wires): hold the wire in the right hand such that the thumb points in the direction of the current; the curled fingers then give the direction of the magnetic field circling the wire.",
+      "transcript_span": [
+        2120.3,
+        2210.1
+      ],
+      "frame_path": "data/lectures/leph104/1vNKP6AcvhaxK_SCtNXMzVHnbNjS-RU9o/frames/floor_000077.jpg",
+      "ncert_section": "4.4",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Direction rule 3, 'right-hand screw rule': B is perpendicular to the plane formed by I dl and r-hat, with the sense found by imagining the rotation that carries the first vector (dl) toward the second (r) -- this is the same right-hand-screw statement NCERT gives as a footnote to the Biot-Savart law. mu0 is labelled as the permeability of free space. This rule and label appear worked out on the board (with a diagram) but are not narrated in the audio at all -- the transcript jumps from finishing rule 2 straight to a worked example, never mentioning 'screw rule' or 'permeability' by name.",
+      "transcript_span": null,
+      "frame_path": "data/lectures/leph104/1vNKP6AcvhaxK_SCtNXMzVHnbNjS-RU9o/frames/floor_000077.jpg",
+      "ncert_section": "4.4",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Worked example applying the direction rules: for a vertical wire with current flowing downward and an observation point P to its right, using the right-hand palm rule (thumb down, centre finger toward P) the palm faces outward, so B at P points out of the page.",
+      "transcript_span": [
+        2005.4,
+        2101.4
+      ],
+      "frame_path": null,
+      "ncert_section": "4.4",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Magnetic field at the centre of a current-carrying circular coil of radius R carrying current I, derived from the Biot-Savart law: every current element I dl on the coil is at perpendicular distance R from the centre with theta = 90 degrees (sin theta = 1), so dB = (mu0/4*pi) * I dl / R^2. Integrating dl around the full circumference (integral of dl = 2*pi*R) gives B = (mu0/4*pi) * I / R^2 * 2*pi*R, which simplifies to B = mu0 * I / (2R).",
+      "transcript_span": [
+        2307.9,
+        2548.8
+      ],
+      "frame_path": "data/lectures/leph104/1vNKP6AcvhaxK_SCtNXMzVHnbNjS-RU9o/frames/floor_000124.jpg",
+      "ncert_section": "4.5",
+      "ncert_agreement": "agrees"
+    }
+  ],
+  "uncertain_spans": [
+    {
+      "start_seconds": 2210.1,
+      "end_seconds": 2237.4,
+      "reason": "Board frames (floor_000068 at 1340s, floor_000077 at 1520s) show a third direction rule -- the 'right-hand screw rule', with a diagram and the label 'mu0 = permeability of free space' -- fully written out on the same page as rules 1 and 2. The transcript, however, never narrates this rule or these words at all ('screw' and 'permeability' have zero hits across the full 141-segment transcript): after finishing rule 2 (right-hand thumb rule, ending ~2210s) it jumps directly to a worked direction example at 2237s and then on to the coil derivation. Automated coverage and repetition checks both pass cleanly here (no duplicated block, no duration overshoot) -- this is a case of the ASR silently skipping real board content rather than looping, not a duration or repetition failure. The screw-rule claim above is grounded from the board frames alone."
+    }
+  ],
+  "ncert_sections_covered": [
+    "4.1",
+    "4.4",
+    "4.5"
+  ],
+  "frame_paths": [
+    "data/lectures/leph104/1vNKP6AcvhaxK_SCtNXMzVHnbNjS-RU9o/frames/floor_000001.jpg",
+    "data/lectures/leph104/1vNKP6AcvhaxK_SCtNXMzVHnbNjS-RU9o/frames/floor_000006.jpg",
+    "data/lectures/leph104/1vNKP6AcvhaxK_SCtNXMzVHnbNjS-RU9o/frames/floor_000015.jpg",
+    "data/lectures/leph104/1vNKP6AcvhaxK_SCtNXMzVHnbNjS-RU9o/frames/floor_000020.jpg",
+    "data/lectures/leph104/1vNKP6AcvhaxK_SCtNXMzVHnbNjS-RU9o/frames/floor_000021.jpg",
+    "data/lectures/leph104/1vNKP6AcvhaxK_SCtNXMzVHnbNjS-RU9o/frames/floor_000025.jpg",
+    "data/lectures/leph104/1vNKP6AcvhaxK_SCtNXMzVHnbNjS-RU9o/frames/floor_000026.jpg",
+    "data/lectures/leph104/1vNKP6AcvhaxK_SCtNXMzVHnbNjS-RU9o/frames/floor_000034.jpg",
+    "data/lectures/leph104/1vNKP6AcvhaxK_SCtNXMzVHnbNjS-RU9o/frames/floor_000036.jpg",
+    "data/lectures/leph104/1vNKP6AcvhaxK_SCtNXMzVHnbNjS-RU9o/frames/floor_000040.jpg",
+    "data/lectures/leph104/1vNKP6AcvhaxK_SCtNXMzVHnbNjS-RU9o/frames/floor_000055.jpg",
+    "data/lectures/leph104/1vNKP6AcvhaxK_SCtNXMzVHnbNjS-RU9o/frames/floor_000056.jpg",
+    "data/lectures/leph104/1vNKP6AcvhaxK_SCtNXMzVHnbNjS-RU9o/frames/floor_000061.jpg",
+    "data/lectures/leph104/1vNKP6AcvhaxK_SCtNXMzVHnbNjS-RU9o/frames/floor_000065.jpg",
+    "data/lectures/leph104/1vNKP6AcvhaxK_SCtNXMzVHnbNjS-RU9o/frames/floor_000066.jpg",
+    "data/lectures/leph104/1vNKP6AcvhaxK_SCtNXMzVHnbNjS-RU9o/frames/floor_000068.jpg",
+    "data/lectures/leph104/1vNKP6AcvhaxK_SCtNXMzVHnbNjS-RU9o/frames/floor_000077.jpg",
+    "data/lectures/leph104/1vNKP6AcvhaxK_SCtNXMzVHnbNjS-RU9o/frames/floor_000105.jpg",
+    "data/lectures/leph104/1vNKP6AcvhaxK_SCtNXMzVHnbNjS-RU9o/frames/floor_000115.jpg",
+    "data/lectures/leph104/1vNKP6AcvhaxK_SCtNXMzVHnbNjS-RU9o/frames/floor_000124.jpg"
+  ],
+  "markdown_body": "## Historical introduction (NCERT 4.1)\nMagnetism was first known through **lodestone**, a naturally magnetised form of magnetite (an iron ore, $\\text{Fe}_3\\text{O}_4$), which attracts small pieces of iron. The realisation that electricity and magnetism are connected -- that electricity can produce a magnetic field and a magnetic field can (in turn) produce an electric field -- gave rise to the unified subject of **electromagnetism**, associated with Faraday and Maxwell. A moving charge, or equivalently a **current element** $I\\,d\\vec l$ (a small length $d\\vec l$ of current-carrying wire), is a source of magnetic field.\n\n### Oersted's experiment\nA compass needle placed near a current-carrying wire deflects when current flows, showing that a current-carrying wire produces a magnetic field around it -- the first experimental link between electricity and magnetism.\n\n**Teacher's 'SNOW' deflection rule** (a memory device, not itself an NCERT term): if current flows from **S**outh to **N**orth and the wire is **O**ver the needle, the needle's north pole deflects toward **W**est. Reversing the current direction (N to S) flips the deflection to East; placing the wire below the needle instead of above it also flips the result. Physically this is just a special case of the general right-hand rule for the circular field around a straight wire, applied to the fixed N-S rest orientation of a compass needle.\n\n## Magnetic field lines\nCompared with electric field lines (Chapter 1):\n- **Magnetic field lines always close on themselves** (outside a bar magnet they run N $\\to$ S; inside the magnet, S $\\to$ N) -- there is no starting or ending point.\n- **Electric field lines never form closed loops** -- they start on positive charge and terminate on negative charge. This is the key structural difference between the two, and NCERT states it explicitly (Sec. 4.4, and again in the chapter summary).\n- Field lines of either kind **never intersect**: at a crossing point the tangent (which gives the field direction) would have to point in two directions at once, which is impossible.\n- **Parallel, equally spaced lines** indicate a **uniform** field; **crowded** lines indicate a stronger field magnitude.\n\n## Biot-Savart law (NCERT 4.4)\nFor a current element $I\\,d\\vec l$ carrying current $I$, the magnetic field $d\\vec B$ it produces at a point $P$, a distance $r$ away, obeys:\n\n1. $dB \\propto I\\,dl$\n2. $dB \\propto \\sin\\theta$, where $\\theta$ is the angle between the current element and the line joining the element to $P$\n3. $dB \\propto \\dfrac{1}{r^2}$\n\nCombining these (in exact analogy with Coulomb's law, replacing $\\frac{1}{4\\pi\\varepsilon_0}$ with $\\frac{\\mu_0}{4\\pi}$):\n$$dB = \\frac{\\mu_0}{4\\pi}\\,\\frac{I\\,dl\\sin\\theta}{r^2}$$\n\nIn vector form, since the $\\sin\\theta$ dependence signals a cross product:\n$$d\\vec B = \\frac{\\mu_0}{4\\pi}\\,\\frac{I\\,d\\vec l \\times \\hat r}{r^2} = \\frac{\\mu_0}{4\\pi}\\,\\frac{I\\,d\\vec l \\times \\vec r}{r^3}$$\n\n### Finding the direction of $d\\vec B$\nThree equivalent right-hand rules were used on the board:\n1. **Right-hand palm rule:** point the thumb along the current, the centre finger toward $P$; the palm then faces the direction the field emerges from (out of the page $\\odot$, or into the page $\\otimes$).\n2. **Right-hand thumb rule (for a straight wire):** hold the wire with the thumb pointing along the current; the curled fingers give the sense of circulation of $\\vec B$ around the wire.\n3. **Right-hand screw rule:** $\\vec B$ is perpendicular to the plane containing $d\\vec l$ and $\\hat r$, in the sense obtained by imagining the rotation carrying $d\\vec l$ toward $\\hat r$ -- this is the exact rule NCERT itself gives as a footnote to the Biot-Savart law. This rule, and the label \"$\\mu_0$ = permeability of free space\", appear worked out on the board but are **not narrated in the transcript at all** -- see the flagged span below.\n\n**Worked example** (from the board): for a vertical wire carrying current downward, with $P$ to its side, the palm-rule construction (thumb down, centre finger toward $P$) gives a palm facing outward, so $\\vec B$ at $P$ points out of the page.\n\n## Magnetic field at the centre of a current-carrying circular coil (NCERT 4.5, special case)\nFor a circular coil of radius $R$ carrying current $I$, every current element $I\\,dl$ on the coil is at the same perpendicular distance $R$ from the centre, with $\\theta = 90^\\circ$ (so $\\sin\\theta = 1$). By the Biot-Savart law,\n$$dB = \\frac{\\mu_0}{4\\pi}\\frac{I\\,dl}{R^2}$$\nIntegrating around the full circumference ($\\oint dl = 2\\pi R$):\n$$B = \\oint dB = \\frac{\\mu_0}{4\\pi}\\frac{I}{R^2}(2\\pi R)$$\n$$\\boxed{B = \\frac{\\mu_0 I}{2R}}$$\nThis matches NCERT's own derivation in Sec. 4.5, which reaches the same field-at-the-centre result as the $x=0$ special case of the more general on-axis formula $B = \\dfrac{\\mu_0 I R^2}{2(x^2+R^2)^{3/2}}$ (the general axis formula itself is developed in the next lecture). The board also sketches the closed-loop field-line pattern threading through a current-carrying loop, consistent with NCERT Fig. 4.10.\n"
+}

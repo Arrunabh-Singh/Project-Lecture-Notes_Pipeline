@@ -1,0 +1,124 @@
+{
+  "file_id": "1-cpfGJ4QsSHu5-0NLBKFLRvxMCdfL-iI",
+  "chapter_id": "leph101",
+  "title": "Null-Point Numerical, Electric Dipole, and E Due to a Dipole at Axial and Equatorial Positions",
+  "duration_seconds": 2194.97,
+  "claims": [
+    {
+      "text": "Worked numerical: charges +Q and +2Q separated by r=2m; find the position of the null point (E_net=0) measured from +2Q. Setting up the null point at distance x from +Q (so 2-x from +2Q), equating |E1|=|E2|: Q/x^2 = 2Q/(2-x)^2, giving (2-x)^2=2x^2, then square-rooting (not expanding) to get 2-x=root(2)x, so x=2/(1+root2). Since the question asks for distance from +2Q (not +Q), the answer is (2-x) = 2 - 2/(1+root2). The null point is closer to the SMALLER-magnitude charge (+Q)",
+      "transcript_span": [
+        2.5,
+        464.2
+      ],
+      "frame_path": "data/lectures/leph101/1-cpfGJ4QsSHu5-0NLBKFLRvxMCdfL-iI/frames/floor_000009.jpg",
+      "ncert_section": null,
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Electric dipole: a pair of equal and opposite point charges +Q, -Q separated by a small distance (2L). Net charge of a dipole is always zero. Dipole moment p = Q x 2L, a measure of the dipole's strength, SI unit coulomb-metre (C m, written charge-unit first to avoid confusion with milli-coulomb). An IDEAL dipole is the limit where Q becomes very large and 2L very small such that p=2QL stays constant/well-defined",
+      "transcript_span": [
+        481.0,
+        696.7
+      ],
+      "frame_path": null,
+      "ncert_section": "1.10",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Electric field at an axial (end-on) point P, distance r from the dipole's centre O, along the line through both charges: using superposition (valid for E just as for forces), E = E(+Q) - E(-Q) since they point in opposite directions along the axis, combining to E = 2Pr/[4 pi eps0 (r^2-L^2)^2], vector along the dipole moment direction (E_net and dipole moment p point the same way at an axial point)",
+      "transcript_span": [
+        802.5,
+        1352.0
+      ],
+      "frame_path": "data/lectures/leph101/1-cpfGJ4QsSHu5-0NLBKFLRvxMCdfL-iI/frames/floor_000073.jpg",
+      "ncert_section": "1.10",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Far-field limit (r >> L) at the axial point: L^2 becomes negligible compared to r^2, simplifying to E_axial = 2P/(4 pi eps0 r^3) -- falls off as 1/r^3, faster than a point charge's 1/r^2, and on a E-vs-r graph the dipole's curve drops toward zero noticeably faster than the point charge's",
+      "transcript_span": [
+        1406.0,
+        1615.0
+      ],
+      "frame_path": "data/lectures/leph101/1-cpfGJ4QsSHu5-0NLBKFLRvxMCdfL-iI/frames/floor_000073.jpg",
+      "ncert_section": "1.10",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Electric field at an equatorial (broadside-on) point P, on the perpendicular bisector of the dipole, distance r from centre O: E(+Q) and E(-Q) have equal magnitude 1/(4 pi eps0) Q/(r^2+L^2) but different directions (along PB and PA respectively); resolving both into components, the sin-theta components (perpendicular to the dipole axis) cancel exactly by symmetry, leaving only the cos-theta components (antiparallel to the dipole axis) to add: E_net = 2 E(+Q) cos(theta), with cos(theta)=L/sqrt(r^2+L^2), giving E_eq = 2QL / [4 pi eps0 (r^2+L^2)^(3/2)]",
+      "transcript_span": [
+        1800.0,
+        2202.0
+      ],
+      "frame_path": "data/lectures/leph101/1-cpfGJ4QsSHu5-0NLBKFLRvxMCdfL-iI/frames/floor_000109.jpg",
+      "ncert_section": "1.10",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Far-field limit (r >> L) at the equatorial point: E_eq simplifies to P/(4 pi eps0 r^3) -- exactly HALF the axial-point value (2P/4 pi eps0 r^3) at the same distance r, and points ANTIPARALLEL to the dipole moment (opposite direction from the axial-point field)",
+      "transcript_span": null,
+      "frame_path": "data/lectures/leph101/1-cpfGJ4QsSHu5-0NLBKFLRvxMCdfL-iI/frames/floor_000110.jpg",
+      "ncert_section": "1.10",
+      "ncert_agreement": "agrees"
+    }
+  ],
+  "uncertain_spans": [],
+  "ncert_sections_covered": [
+    "1.10"
+  ],
+  "frame_paths": [
+    "data/lectures/leph101/1-cpfGJ4QsSHu5-0NLBKFLRvxMCdfL-iI/frames/floor_000001.jpg",
+    "data/lectures/leph101/1-cpfGJ4QsSHu5-0NLBKFLRvxMCdfL-iI/frames/floor_000003.jpg",
+    "data/lectures/leph101/1-cpfGJ4QsSHu5-0NLBKFLRvxMCdfL-iI/frames/floor_000007.jpg",
+    "data/lectures/leph101/1-cpfGJ4QsSHu5-0NLBKFLRvxMCdfL-iI/frames/floor_000008.jpg",
+    "data/lectures/leph101/1-cpfGJ4QsSHu5-0NLBKFLRvxMCdfL-iI/frames/floor_000009.jpg",
+    "data/lectures/leph101/1-cpfGJ4QsSHu5-0NLBKFLRvxMCdfL-iI/frames/floor_000010.jpg",
+    "data/lectures/leph101/1-cpfGJ4QsSHu5-0NLBKFLRvxMCdfL-iI/frames/floor_000011.jpg",
+    "data/lectures/leph101/1-cpfGJ4QsSHu5-0NLBKFLRvxMCdfL-iI/frames/floor_000012.jpg",
+    "data/lectures/leph101/1-cpfGJ4QsSHu5-0NLBKFLRvxMCdfL-iI/frames/floor_000016.jpg",
+    "data/lectures/leph101/1-cpfGJ4QsSHu5-0NLBKFLRvxMCdfL-iI/frames/floor_000018.jpg",
+    "data/lectures/leph101/1-cpfGJ4QsSHu5-0NLBKFLRvxMCdfL-iI/frames/floor_000021.jpg",
+    "data/lectures/leph101/1-cpfGJ4QsSHu5-0NLBKFLRvxMCdfL-iI/frames/floor_000024.jpg",
+    "data/lectures/leph101/1-cpfGJ4QsSHu5-0NLBKFLRvxMCdfL-iI/frames/floor_000027.jpg",
+    "data/lectures/leph101/1-cpfGJ4QsSHu5-0NLBKFLRvxMCdfL-iI/frames/floor_000028.jpg",
+    "data/lectures/leph101/1-cpfGJ4QsSHu5-0NLBKFLRvxMCdfL-iI/frames/floor_000032.jpg",
+    "data/lectures/leph101/1-cpfGJ4QsSHu5-0NLBKFLRvxMCdfL-iI/frames/floor_000033.jpg",
+    "data/lectures/leph101/1-cpfGJ4QsSHu5-0NLBKFLRvxMCdfL-iI/frames/floor_000034.jpg",
+    "data/lectures/leph101/1-cpfGJ4QsSHu5-0NLBKFLRvxMCdfL-iI/frames/floor_000037.jpg",
+    "data/lectures/leph101/1-cpfGJ4QsSHu5-0NLBKFLRvxMCdfL-iI/frames/floor_000038.jpg",
+    "data/lectures/leph101/1-cpfGJ4QsSHu5-0NLBKFLRvxMCdfL-iI/frames/floor_000045.jpg",
+    "data/lectures/leph101/1-cpfGJ4QsSHu5-0NLBKFLRvxMCdfL-iI/frames/floor_000047.jpg",
+    "data/lectures/leph101/1-cpfGJ4QsSHu5-0NLBKFLRvxMCdfL-iI/frames/floor_000049.jpg",
+    "data/lectures/leph101/1-cpfGJ4QsSHu5-0NLBKFLRvxMCdfL-iI/frames/floor_000052.jpg",
+    "data/lectures/leph101/1-cpfGJ4QsSHu5-0NLBKFLRvxMCdfL-iI/frames/floor_000053.jpg",
+    "data/lectures/leph101/1-cpfGJ4QsSHu5-0NLBKFLRvxMCdfL-iI/frames/floor_000058.jpg",
+    "data/lectures/leph101/1-cpfGJ4QsSHu5-0NLBKFLRvxMCdfL-iI/frames/floor_000060.jpg",
+    "data/lectures/leph101/1-cpfGJ4QsSHu5-0NLBKFLRvxMCdfL-iI/frames/floor_000063.jpg",
+    "data/lectures/leph101/1-cpfGJ4QsSHu5-0NLBKFLRvxMCdfL-iI/frames/floor_000064.jpg",
+    "data/lectures/leph101/1-cpfGJ4QsSHu5-0NLBKFLRvxMCdfL-iI/frames/floor_000065.jpg",
+    "data/lectures/leph101/1-cpfGJ4QsSHu5-0NLBKFLRvxMCdfL-iI/frames/floor_000066.jpg",
+    "data/lectures/leph101/1-cpfGJ4QsSHu5-0NLBKFLRvxMCdfL-iI/frames/floor_000067.jpg",
+    "data/lectures/leph101/1-cpfGJ4QsSHu5-0NLBKFLRvxMCdfL-iI/frames/floor_000069.jpg",
+    "data/lectures/leph101/1-cpfGJ4QsSHu5-0NLBKFLRvxMCdfL-iI/frames/floor_000071.jpg",
+    "data/lectures/leph101/1-cpfGJ4QsSHu5-0NLBKFLRvxMCdfL-iI/frames/floor_000073.jpg",
+    "data/lectures/leph101/1-cpfGJ4QsSHu5-0NLBKFLRvxMCdfL-iI/frames/floor_000074.jpg",
+    "data/lectures/leph101/1-cpfGJ4QsSHu5-0NLBKFLRvxMCdfL-iI/frames/floor_000076.jpg",
+    "data/lectures/leph101/1-cpfGJ4QsSHu5-0NLBKFLRvxMCdfL-iI/frames/floor_000077.jpg",
+    "data/lectures/leph101/1-cpfGJ4QsSHu5-0NLBKFLRvxMCdfL-iI/frames/floor_000080.jpg",
+    "data/lectures/leph101/1-cpfGJ4QsSHu5-0NLBKFLRvxMCdfL-iI/frames/floor_000081.jpg",
+    "data/lectures/leph101/1-cpfGJ4QsSHu5-0NLBKFLRvxMCdfL-iI/frames/floor_000082.jpg",
+    "data/lectures/leph101/1-cpfGJ4QsSHu5-0NLBKFLRvxMCdfL-iI/frames/floor_000084.jpg",
+    "data/lectures/leph101/1-cpfGJ4QsSHu5-0NLBKFLRvxMCdfL-iI/frames/floor_000085.jpg",
+    "data/lectures/leph101/1-cpfGJ4QsSHu5-0NLBKFLRvxMCdfL-iI/frames/floor_000092.jpg",
+    "data/lectures/leph101/1-cpfGJ4QsSHu5-0NLBKFLRvxMCdfL-iI/frames/floor_000093.jpg",
+    "data/lectures/leph101/1-cpfGJ4QsSHu5-0NLBKFLRvxMCdfL-iI/frames/floor_000095.jpg",
+    "data/lectures/leph101/1-cpfGJ4QsSHu5-0NLBKFLRvxMCdfL-iI/frames/floor_000099.jpg",
+    "data/lectures/leph101/1-cpfGJ4QsSHu5-0NLBKFLRvxMCdfL-iI/frames/floor_000100.jpg",
+    "data/lectures/leph101/1-cpfGJ4QsSHu5-0NLBKFLRvxMCdfL-iI/frames/floor_000103.jpg",
+    "data/lectures/leph101/1-cpfGJ4QsSHu5-0NLBKFLRvxMCdfL-iI/frames/floor_000105.jpg",
+    "data/lectures/leph101/1-cpfGJ4QsSHu5-0NLBKFLRvxMCdfL-iI/frames/floor_000107.jpg",
+    "data/lectures/leph101/1-cpfGJ4QsSHu5-0NLBKFLRvxMCdfL-iI/frames/floor_000109.jpg",
+    "data/lectures/leph101/1-cpfGJ4QsSHu5-0NLBKFLRvxMCdfL-iI/frames/floor_000110.jpg"
+  ],
+  "markdown_body": "## Worked numerical: null point between two like charges\n\nCharges $+Q$ and $+2Q$ separated by $r=2$ m — find the null point's position measured **from $+2Q$**. Setting the null point at distance $x$ from $+Q$ (so $2-x$ from $+2Q$) and equating magnitudes:\n$$\\frac{Q}{x^2} = \\frac{2Q}{(2-x)^2} \\;\\Rightarrow\\; (2-x)^2 = 2x^2 \\;\\xrightarrow{\\sqrt{\\ }}\\; 2-x=\\sqrt2\\,x \\;\\Rightarrow\\; x = \\frac{2}{1+\\sqrt2}$$\nSince the question asks for the distance from $+2Q$, the answer is $2-x$, **not** $x$ — read the question carefully. As expected, the null point sits closer to the smaller-magnitude charge ($+Q$).\n\n## Electric dipole (NCERT 1.10)\n\nA pair of equal and opposite point charges $+Q,-Q$ separated by a small distance $2L$. **Net charge is always zero.** Strength is measured by the **dipole moment**:\n$$p = Q\\times 2L,\\qquad \\text{SI unit: coulomb-metre (C m)}$$\n(Write \"C m\", not \"m C\" — the latter reads as millicoulomb.) An **ideal dipole** is the limit $Q\\to\\infty,\\ 2L\\to0$ such that $p=2QL$ stays finite and well-defined.\n\n### Axial (end-on) position\nPoint $P$ on the line through both charges, distance $r$ from the dipole's centre $O$. By superposition (valid for $\\vec E$ just as for forces):\n$$\\vec E = \\frac{2Pr}{4\\pi\\varepsilon_0(r^2-L^2)^2}\\hat p$$\n— pointing the **same** direction as $\\vec p$. For $r\\gg L$ ($L^2$ negligible):\n$$\\boxed{E_\\text{axial} = \\frac{2P}{4\\pi\\varepsilon_0 r^3}}$$\nFalls off as $1/r^3$ — faster than a point charge's $1/r^2$ (visible on an $E$-vs-$r$ graph as a noticeably steeper drop).\n\n### Equatorial (broadside-on) position\nPoint $P$ on the perpendicular bisector of the dipole, distance $r$ from $O$. $E_{+Q}$ and $E_{-Q}$ have equal magnitude $\\frac{1}{4\\pi\\varepsilon_0}\\frac{Q}{r^2+L^2}$ but different directions; by symmetry their components perpendicular to the dipole axis cancel exactly, leaving only the components along the (negative) axis direction to add:\n$$E_\\text{eq} = 2E_{+Q}\\cos\\theta = \\frac{2QL}{4\\pi\\varepsilon_0(r^2+L^2)^{3/2}},\\qquad \\cos\\theta=\\frac{L}{\\sqrt{r^2+L^2}}$$\nFor $r\\gg L$:\n$$\\boxed{E_\\text{eq} = \\frac{P}{4\\pi\\varepsilon_0 r^3}}$$\n— exactly **half** the axial-point value at the same $r$, and pointing **antiparallel** to $\\vec p$ (opposite direction from the axial-point field).\n"
+}

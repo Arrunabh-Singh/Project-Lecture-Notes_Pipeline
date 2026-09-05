@@ -1,0 +1,101 @@
+{
+  "chapter_id": "leph104",
+  "chapter_number": 4,
+  "title": "Moving Charges and Magnetism",
+  "fidelity": "full_raw_extract",
+  "lecture_folder": "Ch4 moving charges and magnetism",
+  "source_note": "NCERT Class 12 Physics Part I, Reprint 2026-27 (RATIONALISED 2022-23) -- current CBSE syllabus. Equations NOT reliable in this extraction; use board frames as the equation source of truth.",
+  "sections": [
+    {
+      "number": "4.1",
+      "heading": "Introduction"
+    },
+    {
+      "number": "4.2",
+      "heading": "Magnetic Force"
+    },
+    {
+      "number": "4.3",
+      "heading": "Motion In A Magnetic Field"
+    },
+    {
+      "number": "4.4",
+      "heading": "Magnetic Field Due To A Current"
+    },
+    {
+      "number": "4.5",
+      "heading": "Magnetic Field On The Axis Of A Circular"
+    },
+    {
+      "number": "4.6",
+      "heading": "Ampere’S Circuital Law"
+    },
+    {
+      "number": "4.7",
+      "heading": "The Solenoid"
+    },
+    {
+      "number": "4.8",
+      "heading": "Force Between Two Parallel"
+    },
+    {
+      "number": "4.9",
+      "heading": "Torque On Current Loop, Magnetic Dipole"
+    },
+    {
+      "number": "4.10",
+      "heading": "The Moving Coil Galvanometer"
+    }
+  ],
+  "scientists": [
+    {
+      "name": "Hans Christian Oersted",
+      "years": "1777–1851"
+    },
+    {
+      "name": "Nikola Tesla",
+      "years": "1856–1943"
+    },
+    {
+      "name": "Andre Ampere",
+      "years": "1775–1836"
+    }
+  ],
+  "lexicon": [
+    "Ampere’S",
+    "Ampere’S Circuital Law",
+    "Andre Ampere",
+    "Axis",
+    "Between",
+    "Circuital",
+    "Circular",
+    "Coil",
+    "Current",
+    "Dipole",
+    "Field",
+    "Force",
+    "Force Between Two Parallel",
+    "Galvanometer",
+    "Hans Christian",
+    "Hans Christian Oersted",
+    "Introduction",
+    "Loop",
+    "Magnetic",
+    "Magnetic Field",
+    "Magnetic Force",
+    "Motion",
+    "Motion In A Magnetic Field",
+    "Moving",
+    "Moving Charges",
+    "Nikola Tesla",
+    "Parallel",
+    "Solenoid",
+    "The Moving Coil Galvanometer",
+    "The Solenoid",
+    "Torque"
+  ],
+  "summary": "1\\. The total force on a charge q moving with velocity v in the presence of magnetic and electric fields B and E, respectively is called the Lorentz force. It is given by the expression: F = q (v × B + E) The magnetic force q (v × B) is normal to v and work done by it is zero. 2. A straight conductor of length l and carrying a steady current I\n\nexperiences a force F in a uniform external magnetic field B, F = I l × B where|l| = l and the direction of l is given by the direction of the current. 3. In a uniform magnetic field B, a charge q executes a circular orbit in a plane normal to B. Its frequency of uniform circular motion is called the cyclotron frequency and is given by:\n\nν c = 2 q π Bm This frequency is independent of the particle’s speed and radius. This fact is exploited in a machine, the cyclotron, which is used to accelerate charged particles. 4. The Biot-Savart law asserts that the magnetic field dB due to an element dl carrying a steady current I at a point P at a distance r from the current element is:\n\nd B\n\n\\= µ 0 4 π\n\nI d l × r 3 r To obtain the total field at P, we must integrate this vector expression over the entire length of the conductor. 5. The magnitude of the magnetic field due to a circular coil of radius R\n\ncarrying a current I at an axial distance x from the centre is\n\nMoving Charges and Magnetism\n\nB = µ 0\n\nIR 2 2( x 2 +\n\nR\n\n2 ) 3/2 At the centre this reduces to\n\nB =\n\nµ 0I 2 R6. Ampere’s Circuital Law: Let an open surface S be bounded by a loop\n\nC. Then the Ampere’s law states that ∫ Ñ CB .d l = µ0\n\nI where I refers to\n\nthe current passing through S. The sign of I is determined from the right-hand rule. We have discussed a simplified form of this law. If B is directed along the tangent to every point on the perimeter L of a closed curve and is constant in magnitude along perimeter then, BL = µ0 Ie where Ie is the net current enclosed by the closed circuit. 7. The magnitude of the magnetic field at a distance R from a long,\n\nstraight wire carrying a current I is given by:\n\nB =\n\nµ 0 I 2\n\nπR\n\nThe field lines are circles concentric with the wire. 8. The magnitude of the field B inside a long solenoid carrying a current\n\nI is B = µ0nI where n is the number of turns per unit length. 9. Parallel currents attract and anti-parallel currents repel. 10. A planar loop carrying a current I, having N closely wound turns, and\n\nan area A possesses a magnetic moment m where, m = N I A and the direction of m is given by the right-hand thumb rule : curl the palm of your right hand along the loop with the fingers pointing in the direction of the current. The thumb sticking out gives the direction of m (and A) When this loop is placed in a uniform magnetic field B, the force F on it is: F = 0 And the torque on it is, τ = m × B In a moving coil galvanometer, this torque is balanced by a counter- torque due to a spring, yielding kφ = NI AB where φ is the equilibrium deflection and k the torsion constant of the spring. 11. A moving coil galvanometer can be converted into a ammeter by introducing converted into a shunt a voltmeter resistance by introducing rs, of small a value in parallel. It can be resistance of a large value in series.\n\nReprint 2026-27\n\n133\n\nPhysics\n\nPhysical Quantity Symbol Nature Dimensions Units Remarks\n\nPermeability of free space\n\nµ0 Scalar \\[MLT –2A–2\\] T m A–1 4π × 10–7 T m A–1\n\nMagnetic Field B Vector \\[M T –2A–1\\] T (telsa)\n\nMagnetic Moment m Vector \\[L2A\\] A m2 or J/T\n\nTorsion Constant k Scalar \\[M L2T–2\\] N m rad–1 Appears in MCG",
+  "points_to_ponder": "1\\. Electrostatic field lines originate at a positive charge and terminate at a negative charge or fade at infinity. Magnetic field lines always form closed loops. 2. The discussion in this Chapter holds only for steady currents which do\n\nnot vary with time. When currents vary with time Newton’s third law is valid only if momentum carried by the electromagnetic field is taken into account. 3. Recall the expression for the Lorentz force,\n\nF = q (v × B + E)\n\nThis velocity dependent force has occupied the attention of some of the greatest scientific thinkers. If one switches to a frame with instantaneous velocity v, the magnetic part of the force vanishes. The motion of the charged particle is then explained by arguing that there exists an appropriate electric field in the new frame. We shall not discuss the details of this mechanism. However, we stress that the resolution of this paradox implies that electricity and magnetism are linked phenomena (electromagnetism) and that the Lorentz force expression does not imply a universal preferred frame of reference in nature. 4. Ampere’s Circuital law is not independent of the Biot-Savart law. It can be derived from the Biot-Savart law. Its relationship to the Biot-Savart law is similar to the relationship between Gauss’s law and Coulomb’s law.",
+  "exercises": "4.1 A circular coil of wire consisting of 100 turns, each of radius 8.0 cm carries a current of 0.40 A. What is the magnitude of the magnetic field B at the centre of the coil? 4.2 A long straight wire carries a current of 35 A. What is the magnitude\n\nof the field B at a point 20 cm from the wire? 4.3 A long straight wire in the horizontal plane carries a current of 50 A in north to south direction. Give the magnitude and direction of B 134\n\nat a point 2.5 m east of the wire.\n\nReprint 2026-27\n\nMoving Charges and Magnetism\n\n4.4 A horizontal overhead power line carries a current of 90 A in east to west direction. What is the magnitude and direction of the magnetic field due to the current 1.5 m below the line? 4.5 What is the magnitude of magnetic force per unit length on a wire carrying a current of 8 A and making an angle of 30º with the direction of a uniform magnetic field of 0.15 T? 4.6 A 3.0 cm wire carrying a current of 10 A is placed inside a solenoid perpendicular to its axis. The magnetic field inside the solenoid is given to be 0.27 T. What is the magnetic force on the wire? 4.7 Two long and parallel straight wires A and B carrying currents of 8.0 A and 5.0 A in the same direction are separated by a distance of 4.0 cm. Estimate the force on a 10 cm section of wire A. 4.8 A closely wound solenoid 80 cm long has 5 layers of windings of 400 turns each. The diameter of the solenoid is 1.8 cm. If the current carried is 8.0 A, estimate the magnitude of B inside the solenoid near its centre. 4.9 A square coil of side 10 cm consists of 20 turns and carries a current of 12 A. The coil is suspended vertically and the normal to the plane of the coil makes an angle of 30º with the direction of a uniform horizontal magnetic field of magnitude 0.80 T. What is the magnitude of torque experienced by the coil? 4.10 Two moving coil meters, M1 and M2 have the following particulars:\n\nR1 = 10 Ω, N1 = 30, A1 = 3.6 × 10–3 m2, B1 = 0.25 T R2 = 14 Ω, N2 = 42, A2 = 1.8 × 10–3 m2, B2 = 0.50 T (The spring constants are identical for the two meters). Determine the ratio of (a) current sensitivity and (b) voltage sensitivity of M2 and M1. 4.11 In a chamber, a uniform magnetic field of 6.5 G (1 G = 10–4 T) is maintained. An electron is shot into the field with a speed of 4.8 × 106 m s–1 normal to the field. Explain why the path of the electron is a circle. Determine the radius of the circular orbit. (e = 1.5 × 10–19 C, me = 9.1×10–31 kg) 4.12 In Exercise 4.11 obtain the frequency of revolution of the electron in its circular orbit. Does the answer depend on the speed of the electron? Explain. 4.13 (a) A circular coil of 30 turns and radius 8.0 cm carrying a current of 6.0 A is suspended vertically in a uniform horizontal magnetic field of magnitude 1.0 T. The field lines make an angle of 60° with the normal of the coil. Calculate the magnitude of the counter torque that must be applied to prevent the coil from turning. (b) Would your answer change, if the circular coil in (a) were replaced by a planar coil of some irregular shape that encloses the same area? (All other particulars are also unaltered.)\n\nReprint 2026-27\n\n135",
+  "raw_char_count": 64633
+}

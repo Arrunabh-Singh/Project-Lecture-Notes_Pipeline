@@ -1,0 +1,65 @@
+{
+  "chapter_id": "leph107",
+  "chapter_number": 7,
+  "title": "Alternating Current",
+  "fidelity": "condensed_summary",
+  "lecture_folder": "Ch7AC",
+  "source_note": "NCERT Class 12 Physics Part I, Reprint 2026-27 (RATIONALISED 2022-23) -- current CBSE syllabus. Equations NOT reliable in this extraction; use board frames as the equation source of truth.",
+  "sections": [
+    {
+      "number": "7.1",
+      "heading": "Introduction"
+    },
+    {
+      "number": "7.2",
+      "heading": "Ac Voltage Applied To A Resistor"
+    },
+    {
+      "number": "7.3",
+      "heading": "Representation By Rotating Vectors — Phasors"
+    },
+    {
+      "number": "7.4",
+      "heading": "Ac Voltage Applied To An Inductor"
+    },
+    {
+      "number": "7.5",
+      "heading": "Ac Voltage Applied To A Capacitor"
+    },
+    {
+      "number": "7.6",
+      "heading": "Ac Voltage Applied To Series Lcr Circuit"
+    },
+    {
+      "number": "7.7",
+      "heading": "Power In Ac Circuit: The Power Factor"
+    },
+    {
+      "number": "7.8",
+      "heading": "Transformers"
+    }
+  ],
+  "scientists": [],
+  "lexicon": [
+    "Applied",
+    "Capacitor",
+    "Circuit",
+    "Circuit:",
+    "Factor",
+    "Inductor",
+    "Introduction",
+    "Phasors",
+    "Power",
+    "Representation",
+    "Resistor",
+    "Rotating",
+    "Series",
+    "Transformers",
+    "Vectors",
+    "Voltage"
+  ],
+  "summary": "1. Resistor: i=vm/R sinωt, in phase.\n2. rms: I=im/√2, V=vm/√2, P=IV=I²R.\n3. Inductor: XL=ωL, current lags π/2, avg power=0.\n4. Capacitor: XC=1/ωC, current leads π/2, avg power=0.\n5. Series RLC: Z=√(R²+(XC-XL)²), φ=tan⁻¹((XC-XL)/R), P=VIcosφ.\n6. Pure L/C: cosφ=0, wattless current.\n7. Phasor: rotating vector representation.\n8. Transformer: Vs/Vp = Ns/Np, Is/Ip = Np/Ns.",
+  "points_to_ponder": "1. Quoted ac values are rms unless stated.\n2. Power rating = average power rating.\n3. Power consumed in ac circuit never negative.\n4. AC ampere defined via Joule heating (not mutual force like DC ampere, since attractive force averages to zero for AC).\n5. Adding voltages across elements: must account phase — VRC=√(VR²+VC²), not VR+VC.\n6. Voltage/current in phasor diagrams are scalars represented as rotating vectors (not true vectors).\n7. No power loss in pure L or C; only resistive element dissipates energy.\n8. Resonance (XL=XC) requires both L and C.\n9. Power factor measures closeness to max power expenditure.\n10. Motor: electrical→mechanical. Generator: mechanical→electrical.\n11. Step-up transformer: voltage↑, current↓ proportionally (energy conserved).",
+  "exercises": "(7.1-7.8): rms current/power for R,L,C circuits given source; peak/rms voltage-current conversion; LC free oscillation frequency; power at resonance for series LCR; resonant frequency, impedance, amplitude, potential drops for LCR circuit given L,C,R.\n\nKey terms/glossary: alternating voltage/current, phasor, inductive reactance XL, capacitive reactance XC, impedance Z, resonant frequency ω0, quality factor Q = ω0L/R = 1/(ω0CR), power factor cosφ, wattless current, transformer, step-up/step-down, eddy currents, hysteresis loss, flux leakage.",
+  "raw_char_count": 4692
+}

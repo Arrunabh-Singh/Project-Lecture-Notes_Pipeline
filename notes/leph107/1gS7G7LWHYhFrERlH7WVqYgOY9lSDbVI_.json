@@ -1,0 +1,114 @@
+{
+  "file_id": "1gS7G7LWHYhFrERlH7WVqYgOY9lSDbVI_",
+  "chapter_id": "leph107",
+  "title": "Power in AC Circuits, Power Factor, Wattless Current, and the Transformer",
+  "duration_seconds": 1698.6,
+  "claims": [
+    {
+      "text": "Deriving average power in an AC circuit: instantaneous power P=EI, with E=E0*sin(omega*t), I=I0*sin(omega*t+phi) (phi=general phase difference). Expanding P=E0*I0*sin(omega*t)*sin(omega*t+phi) using the compound-angle formula, and the identities sin^2(omega*t)=(1-cos(2*omega*t))/2 and sin(omega*t)cos(omega*t)=sin(2*omega*t)/2, gives P as a sum of a constant term and oscillating (cos(2*omega*t), sin(2*omega*t)) terms. Averaging over a full cycle (0 to T), the oscillating terms integrate to zero, leaving P_avg=(E0/root(2))(I0/root(2))*cos(phi)=E_rms*I_rms*cos(phi)",
+      "transcript_span": [
+        4.0,
+        510.0
+      ],
+      "frame_path": "data/lectures/leph107/1gS7G7LWHYhFrERlH7WVqYgOY9lSDbVI_/frames/floor_000019.jpg",
+      "ncert_section": "7.7",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Power factor and apparent power: cos(phi) (phi=phase angle between E and I) is called the POWER FACTOR. The product E_rms*I_rms (without the cos(phi) factor) is called the APPARENT POWER. So average power = apparent power x power factor",
+      "transcript_span": [
+        514.0,
+        556.0
+      ],
+      "frame_path": null,
+      "ncert_section": "7.7",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Power factor (cos phi) for each circuit type: for pure R, I and V are in phase, phi=0, cos(phi)=1, so P_avg=E_rms*I_rms (maximum possible). For pure L or pure C, phi=90 degrees, cos(phi)=0, so P_avg=0 over a complete cycle (matches the earlier wattless-current result). For LR circuit, cos(phi)=R/root(R^2+XL^2)=R/Z. For RC circuit, cos(phi)=R/root(R^2+Xc^2)=R/Z. For LCR circuit, cos(phi)=R/Z where Z=root(R^2+(XL-Xc)^2)",
+      "transcript_span": [
+        618.0,
+        925.0
+      ],
+      "frame_path": "data/lectures/leph107/1gS7G7LWHYhFrERlH7WVqYgOY9lSDbVI_/frames/floor_000039.jpg",
+      "ncert_section": "7.7",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Wattless current (general derivation): resolving the current phasor I_rms into two components relative to the voltage phasor E_rms (angle phi between them) -- one component I_rms*cos(phi) is along (parallel to) E_rms, the other I_rms*sin(phi) is perpendicular to E_rms. Since P_avg=E_rms*I_rms*cos(phi), only the parallel component (I_rms*cos(phi)) contributes to real power dissipation; the perpendicular component (I_rms*sin(phi)) contributes ZERO power (since the angle between E_rms and this component is 90 degrees, and cos(90)=0). This perpendicular component, I_rms*sin(phi), is called the WATTLESS CURRENT -- current that flows but involves no consumption of power over a cycle",
+      "transcript_span": [
+        933.0,
+        1215.0
+      ],
+      "frame_path": "data/lectures/leph107/1gS7G7LWHYhFrERlH7WVqYgOY9lSDbVI_/frames/floor_000048.jpg",
+      "ncert_section": "7.7",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Transformer: a device that converts high alternating voltage at low current to low alternating voltage at high current, and vice versa (e.g. converting 20V AC to 200V AC is a STEP-UP transformer; the reverse, 200V to 20V, is STEP-DOWN). Principle: mutual induction (so it involves two coils). Construction: consists of a soft iron core, LAMINATED (a solid block cut into thin insulated sheets tied together, to reduce eddy currents), with two sets of coils (primary and secondary) wound on it, insulated from each other. If the number of secondary turns exceeds the number of primary turns, it is a step-up transformer (and vice versa for step-down)",
+      "transcript_span": [
+        1227.0,
+        1722.0
+      ],
+      "frame_path": "data/lectures/leph107/1gS7G7LWHYhFrERlH7WVqYgOY9lSDbVI_/frames/floor_000061.jpg",
+      "ncert_section": "7.8",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Transformer working equations: since the changing current in the primary (Np turns) induces a back EMF in the primary and, via mutual induction, an EMF in the secondary (Ns turns), the ratio of secondary to primary EMF equals the ratio of turns: epsilon_s/epsilon_p = Ns/Np. If Ns>Np, epsilon_s>epsilon_p (step-up transformer); if Ns<Np, epsilon_s<epsilon_p (step-down). Assuming no energy losses, input power = output power: epsilon_p*I_p = epsilon_s*I_s, which combined with the turns ratio gives epsilon_s/epsilon_p = I_p/I_s = Ns/Np -- so a step-up transformer (more turns, higher voltage on secondary) correspondingly has LOWER current on the secondary side, and vice versa",
+      "transcript_span": null,
+      "frame_path": "data/lectures/leph107/1gS7G7LWHYhFrERlH7WVqYgOY9lSDbVI_/frames/floor_000074.jpg",
+      "ncert_section": "7.8",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Energy losses in a real transformer (four types): (1) Flux leakage -- not all flux from the primary links the secondary; reduced by winding one coil over the other (rather than side by side). (2) Resistance of the windings -- causes I^2R heat losses; reduced by using thick wire (low resistance). (3) Eddy currents -- induced in the iron core itself, causing heating; reduced by using a laminated core. (4) Hysteresis losses -- the core's magnetization is repeatedly reversed (magnetized/demagnetized) as the AC current alternates, dissipating energy each cycle (reduced by using a core material with a narrow/small hysteresis loop, such as soft iron)",
+      "transcript_span": null,
+      "frame_path": "data/lectures/leph107/1gS7G7LWHYhFrERlH7WVqYgOY9lSDbVI_/frames/floor_000081.jpg",
+      "ncert_section": "7.8",
+      "ncert_agreement": "agrees"
+    }
+  ],
+  "uncertain_spans": [
+    {
+      "start_seconds": 1460.0,
+      "end_seconds": 1698.6,
+      "reason": "The transcript's own words never get past explaining the transformer's construction (soft iron core, lamination to reduce eddy currents, coil winding) -- its last available segment ends mid-explanation of lamination/eddy currents. However, board frames confirm that, within the true video duration, the lecture goes on to derive the transformer's key working equations (epsilon_s/epsilon_p=Ns/Np=Ip/Is, step-up vs. step-down) and lists all four types of energy losses in a real transformer (flux leakage, winding resistance, eddy currents, hysteresis losses) -- none of which appear in the transcript's own words at all. Both the working-equations claim and the energy-losses claim above are grounded entirely from frames."
+    }
+  ],
+  "ncert_sections_covered": [
+    "7.7",
+    "7.8"
+  ],
+  "frame_paths": [
+    "data/lectures/leph107/1gS7G7LWHYhFrERlH7WVqYgOY9lSDbVI_/frames/floor_000001.jpg",
+    "data/lectures/leph107/1gS7G7LWHYhFrERlH7WVqYgOY9lSDbVI_/frames/floor_000003.jpg",
+    "data/lectures/leph107/1gS7G7LWHYhFrERlH7WVqYgOY9lSDbVI_/frames/floor_000004.jpg",
+    "data/lectures/leph107/1gS7G7LWHYhFrERlH7WVqYgOY9lSDbVI_/frames/floor_000007.jpg",
+    "data/lectures/leph107/1gS7G7LWHYhFrERlH7WVqYgOY9lSDbVI_/frames/floor_000010.jpg",
+    "data/lectures/leph107/1gS7G7LWHYhFrERlH7WVqYgOY9lSDbVI_/frames/floor_000015.jpg",
+    "data/lectures/leph107/1gS7G7LWHYhFrERlH7WVqYgOY9lSDbVI_/frames/floor_000017.jpg",
+    "data/lectures/leph107/1gS7G7LWHYhFrERlH7WVqYgOY9lSDbVI_/frames/floor_000019.jpg",
+    "data/lectures/leph107/1gS7G7LWHYhFrERlH7WVqYgOY9lSDbVI_/frames/floor_000022.jpg",
+    "data/lectures/leph107/1gS7G7LWHYhFrERlH7WVqYgOY9lSDbVI_/frames/floor_000025.jpg",
+    "data/lectures/leph107/1gS7G7LWHYhFrERlH7WVqYgOY9lSDbVI_/frames/floor_000029.jpg",
+    "data/lectures/leph107/1gS7G7LWHYhFrERlH7WVqYgOY9lSDbVI_/frames/floor_000036.jpg",
+    "data/lectures/leph107/1gS7G7LWHYhFrERlH7WVqYgOY9lSDbVI_/frames/floor_000038.jpg",
+    "data/lectures/leph107/1gS7G7LWHYhFrERlH7WVqYgOY9lSDbVI_/frames/floor_000039.jpg",
+    "data/lectures/leph107/1gS7G7LWHYhFrERlH7WVqYgOY9lSDbVI_/frames/floor_000043.jpg",
+    "data/lectures/leph107/1gS7G7LWHYhFrERlH7WVqYgOY9lSDbVI_/frames/floor_000048.jpg",
+    "data/lectures/leph107/1gS7G7LWHYhFrERlH7WVqYgOY9lSDbVI_/frames/floor_000049.jpg",
+    "data/lectures/leph107/1gS7G7LWHYhFrERlH7WVqYgOY9lSDbVI_/frames/floor_000053.jpg",
+    "data/lectures/leph107/1gS7G7LWHYhFrERlH7WVqYgOY9lSDbVI_/frames/floor_000054.jpg",
+    "data/lectures/leph107/1gS7G7LWHYhFrERlH7WVqYgOY9lSDbVI_/frames/floor_000056.jpg",
+    "data/lectures/leph107/1gS7G7LWHYhFrERlH7WVqYgOY9lSDbVI_/frames/floor_000061.jpg",
+    "data/lectures/leph107/1gS7G7LWHYhFrERlH7WVqYgOY9lSDbVI_/frames/floor_000064.jpg",
+    "data/lectures/leph107/1gS7G7LWHYhFrERlH7WVqYgOY9lSDbVI_/frames/floor_000068.jpg",
+    "data/lectures/leph107/1gS7G7LWHYhFrERlH7WVqYgOY9lSDbVI_/frames/floor_000070.jpg",
+    "data/lectures/leph107/1gS7G7LWHYhFrERlH7WVqYgOY9lSDbVI_/frames/floor_000074.jpg",
+    "data/lectures/leph107/1gS7G7LWHYhFrERlH7WVqYgOY9lSDbVI_/frames/floor_000078.jpg",
+    "data/lectures/leph107/1gS7G7LWHYhFrERlH7WVqYgOY9lSDbVI_/frames/floor_000080.jpg",
+    "data/lectures/leph107/1gS7G7LWHYhFrERlH7WVqYgOY9lSDbVI_/frames/floor_000081.jpg"
+  ],
+  "markdown_body": "## Average power in an AC circuit (NCERT 7.7)\n\n$P=EI$, $E=E_0\\sin(\\omega t)$, $I=I_0\\sin(\\omega t+\\phi)$. Expanding and averaging over a full cycle (oscillating terms vanish):\n$$\\boxed{P_\\text{avg} = E_\\text{rms}I_\\text{rms}\\cos\\phi}$$\n\n$\\cos\\phi$ is the **power factor**; $E_\\text{rms}I_\\text{rms}$ (without $\\cos\\phi$) is the **apparent power** — average power = apparent power $\\times$ power factor.\n\n**Power factor by circuit type:**\n| Circuit | $\\cos\\phi$ | $P_\\text{avg}$ |\n|---|---|---|\n| Pure $R$ | $1$ | $E_\\text{rms}I_\\text{rms}$ (max) |\n| Pure $L$ or $C$ | $0$ ($\\phi=90°$) | $0$ |\n| $LR$ | $R/\\sqrt{R^2+X_L^2}=R/Z$ | — |\n| $RC$ | $R/\\sqrt{R^2+X_C^2}=R/Z$ | — |\n| $LCR$ | $R/Z$, $Z=\\sqrt{R^2+(X_L-X_C)^2}$ | — |\n\n## Wattless current (general case)\n\nResolving $I_\\text{rms}$ relative to $E_\\text{rms}$ (angle $\\phi$): the parallel component $I_\\text{rms}\\cos\\phi$ delivers real power ($P_\\text{avg}=E_\\text{rms}I_\\text{rms}\\cos\\phi$); the perpendicular component $I_\\text{rms}\\sin\\phi$ delivers **zero** power (angle $90°$ to $E_\\text{rms}$). This perpendicular component is the **wattless current** — current that flows without consuming power over a cycle.\n\n## The transformer (NCERT 7.8)\n\nConverts high-voltage/low-current AC to low-voltage/high-current AC, or vice versa (**step-up**: e.g. 20 V $\\to$ 200 V; **step-down**: the reverse). **Principle:** mutual induction. **Construction:** laminated soft iron core (thin insulated sheets, to reduce eddy currents) with primary and secondary coils wound on it, insulated from each other. $N_s>N_p\\Rightarrow$ step-up; $N_s<N_p\\Rightarrow$ step-down.\n\n**Working equations:**\n$$\\frac{\\varepsilon_s}{\\varepsilon_p} = \\frac{N_s}{N_p}$$\nAssuming no losses, input power = output power ($\\varepsilon_p I_p=\\varepsilon_s I_s$):\n$$\\boxed{\\frac{\\varepsilon_s}{\\varepsilon_p} = \\frac{I_p}{I_s} = \\frac{N_s}{N_p}}$$\n(step-up $\\Rightarrow$ lower secondary current, and vice versa).\n\n**Energy losses (4 types):**\n1. **Flux leakage** — reduced by winding one coil over the other\n2. **Resistance of windings** ($I^2R$ heating) — reduced by thick wire\n3. **Eddy currents** in the core — reduced by laminating the core\n4. **Hysteresis losses** — core repeatedly (de)magnetized each cycle — reduced by a low-hysteresis-loss core material (e.g. soft iron)\n\n---\n*Note on this lecture's transcript:* power/power-factor/wattless-current is transcribed cleanly throughout, but the transcript's own words stop partway through the transformer's construction, before ever reaching its working equations or the four energy-loss mechanisms. Both are grounded from board frames; see the flagged span below.\n"
+}

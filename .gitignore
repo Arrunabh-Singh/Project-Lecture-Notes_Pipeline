@@ -1,0 +1,36 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+
+# heavy media -- never committed. NCERT text/JSON under data/ncert/ is small
+# and IS tracked (see data/ncert/raw, data/ncert/processed).
+data/lectures/
+data/cache/
+*.mkv
+*.mp4
+*.wav
+*.mp3
+
+# per-video checkpoint state (regenerable, machine-specific paths)
+state/
+
+# generated HTML artifact build output (regenerable from notes/ + data/lectures/)
+data/publish/
+
+# leftover git worktrees from background agent runs
+.claude/worktrees/
+
+# chemistry job: pasted transcripts and local build output (regenerable;
+# chem/published.json and chem/maps.json ARE tracked -- see chem/SKILL.md)
+chem/transcripts/
+chem/build/
+
+# chemistry job: pasted transcripts and generated HTML build output are
+# regenerable from the transcript + chem/template.html -- not tracked
+chem/transcripts/
+chem/build/
+
+# generated sheet builds (the content fragments live in the session scratchpad;
+# the published Artifact is the deliverable)
+sheets/build/

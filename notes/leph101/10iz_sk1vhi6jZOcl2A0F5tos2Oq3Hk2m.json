@@ -1,0 +1,148 @@
+{
+  "file_id": "10iz_sk1vhi6jZOcl2A0F5tos2Oq3Hk2m",
+  "chapter_id": "leph101",
+  "title": "Correction on Dipole PE, Total Force on a Dipole, Electric Flux, and Gauss's Law",
+  "duration_seconds": 1922.1,
+  "claims": [
+    {
+      "text": "Correction/recap from previous lecture: in the potential energy of a dipole numerical, the reference angle theta1 (where PE is taken as zero) must be 90 degrees, not 0 degrees -- so U = PE(0 - cos(theta)) using cos(90)=0, not U evaluated from theta1=0",
+      "transcript_span": [
+        8.0,
+        137.9
+      ],
+      "frame_path": null,
+      "ncert_section": "1.11",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Total (net) force on a dipole in a UNIFORM external field is zero: the two equal-and-opposite forces (F=EQ on each charge) cancel exactly, so the dipole only rotates (pure rotational motion), it doesn't translate. If the field is NOT uniform, the net force is no longer zero, and the dipole undergoes both translational and rotational motion",
+      "transcript_span": [
+        137.9,
+        320.6
+      ],
+      "frame_path": null,
+      "ncert_section": "1.11",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Area as a vector quantity: an area element dS has both magnitude and direction, with direction given by the OUTWARD-drawn normal to the surface at that point (illustrated with a cube: the outward normal points away from the enclosed volume through whichever face you're considering)",
+      "transcript_span": [
+        360.6,
+        677.2
+      ],
+      "frame_path": "data/lectures/leph101/10iz_sk1vhi6jZOcl2A0F5tos2Oq3Hk2m/frames/floor_000047.jpg",
+      "ncert_section": "1.9",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Electric flux (Phi) is defined as the number of electric field lines passing normally (perpendicularly) through a given area. For field E crossing area vector A at angle theta between them, Phi = EA cos(theta) = E.A (dot product) -- flux is maximum when E is parallel to the area's outward normal, and zero when E is parallel to the surface itself (e.g. a ring rotated edge-on to the flow, water-flow analogy: like the amount of water passing through a rotating bangle/ring)",
+      "transcript_span": [
+        677.2,
+        1279.8
+      ],
+      "frame_path": "data/lectures/leph101/10iz_sk1vhi6jZOcl2A0F5tos2Oq3Hk2m/frames/floor_000047.jpg",
+      "ncert_section": "1.9",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "General definition for a surface (flat or curved, closed or open): dPhi = E.dS for a small element, and Phi = closed-surface-integral of E.dS over the whole surface S. SI unit of flux: N m^2 C^-1 (since E is in N/C and area in m^2). Flux is a SCALAR quantity (it's a dot product)",
+      "transcript_span": [
+        1279.8,
+        1506.0
+      ],
+      "frame_path": null,
+      "ncert_section": "1.9",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Gauss's law (statement): the total electric flux through any closed surface S in vacuum equals (1/eps0) times the total charge Q enclosed by that surface: closed-surface-integral of E.dS = Q/eps0",
+      "transcript_span": [
+        1506.0,
+        1804.9
+      ],
+      "frame_path": null,
+      "ncert_section": "1.13",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Derivation of Gauss's law for a point charge Q using a spherical Gaussian surface of radius r centred on it: E is radial and has constant magnitude 1/(4 pi eps0)(Q/r^2) everywhere on the sphere, and is everywhere parallel to dS (theta=0, cos(theta)=1), so the flux integral simplifies to (1/4 pi eps0)(Q/r^2) times the closed-surface-integral of dS, and closed-surface-integral of dS over a sphere is its surface area 4 pi r^2. The r^2 cancels, giving Phi = Q/eps0 -- independent of the sphere's radius, and (though only proven here for a sphere) this result Phi=Q/eps0 holds for ANY shape of closed surface enclosing the same charge Q",
+      "transcript_span": null,
+      "frame_path": "data/lectures/leph101/10iz_sk1vhi6jZOcl2A0F5tos2Oq3Hk2m/frames/floor_000095.jpg",
+      "ncert_section": "1.13",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Flux example: for a uniform electric field passing straight through a closed cylinder oriented along the field direction (field lines entering one flat end and exiting the other, none crossing the curved side), the TOTAL flux through the closed cylindrical surface is zero -- the outward flux through the exit face exactly cancels the inward flux through the entry face",
+      "transcript_span": null,
+      "frame_path": "data/lectures/leph101/10iz_sk1vhi6jZOcl2A0F5tos2Oq3Hk2m/frames/floor_000095.jpg",
+      "ncert_section": "1.9",
+      "ncert_agreement": "agrees"
+    }
+  ],
+  "uncertain_spans": [
+    {
+      "start_seconds": 1804.0,
+      "end_seconds": 1922.1,
+      "reason": "The transcript re-transcribes the earlier flux-definition material (Phi=EA cos theta, roughly matching t=903-1030s) a second time from about t=1834s to its last segment at t=1918-1947s -- a delayed-repetition artifact, not new content. Board frames tell a different story for this same window: floor_000091.jpg and floor_000095.jpg (both around t=1800-1880s, within this window) show the actual mathematical PROOF of Gauss's law for a point charge using a spherical Gaussian surface (E radial and parallel to dS everywhere, integral reduces via the sphere's surface area 4 pi r^2 to Phi=Q/eps0), generalised to an arbitrary closed surface shape, plus a flux-through-a-closed-cylinder example (net flux zero). None of this derivation or example appears in the transcript, which only ever states Gauss's law verbally without deriving it. The two claims above (the spherical-surface derivation and the cylinder example) are grounded entirely from these board frames."
+    }
+  ],
+  "ncert_sections_covered": [
+    "1.9",
+    "1.11",
+    "1.13"
+  ],
+  "frame_paths": [
+    "data/lectures/leph101/10iz_sk1vhi6jZOcl2A0F5tos2Oq3Hk2m/frames/floor_000001.jpg",
+    "data/lectures/leph101/10iz_sk1vhi6jZOcl2A0F5tos2Oq3Hk2m/frames/floor_000002.jpg",
+    "data/lectures/leph101/10iz_sk1vhi6jZOcl2A0F5tos2Oq3Hk2m/frames/floor_000005.jpg",
+    "data/lectures/leph101/10iz_sk1vhi6jZOcl2A0F5tos2Oq3Hk2m/frames/floor_000006.jpg",
+    "data/lectures/leph101/10iz_sk1vhi6jZOcl2A0F5tos2Oq3Hk2m/frames/floor_000007.jpg",
+    "data/lectures/leph101/10iz_sk1vhi6jZOcl2A0F5tos2Oq3Hk2m/frames/floor_000008.jpg",
+    "data/lectures/leph101/10iz_sk1vhi6jZOcl2A0F5tos2Oq3Hk2m/frames/floor_000010.jpg",
+    "data/lectures/leph101/10iz_sk1vhi6jZOcl2A0F5tos2Oq3Hk2m/frames/floor_000011.jpg",
+    "data/lectures/leph101/10iz_sk1vhi6jZOcl2A0F5tos2Oq3Hk2m/frames/floor_000012.jpg",
+    "data/lectures/leph101/10iz_sk1vhi6jZOcl2A0F5tos2Oq3Hk2m/frames/floor_000013.jpg",
+    "data/lectures/leph101/10iz_sk1vhi6jZOcl2A0F5tos2Oq3Hk2m/frames/floor_000014.jpg",
+    "data/lectures/leph101/10iz_sk1vhi6jZOcl2A0F5tos2Oq3Hk2m/frames/floor_000015.jpg",
+    "data/lectures/leph101/10iz_sk1vhi6jZOcl2A0F5tos2Oq3Hk2m/frames/floor_000016.jpg",
+    "data/lectures/leph101/10iz_sk1vhi6jZOcl2A0F5tos2Oq3Hk2m/frames/floor_000018.jpg",
+    "data/lectures/leph101/10iz_sk1vhi6jZOcl2A0F5tos2Oq3Hk2m/frames/floor_000020.jpg",
+    "data/lectures/leph101/10iz_sk1vhi6jZOcl2A0F5tos2Oq3Hk2m/frames/floor_000022.jpg",
+    "data/lectures/leph101/10iz_sk1vhi6jZOcl2A0F5tos2Oq3Hk2m/frames/floor_000024.jpg",
+    "data/lectures/leph101/10iz_sk1vhi6jZOcl2A0F5tos2Oq3Hk2m/frames/floor_000025.jpg",
+    "data/lectures/leph101/10iz_sk1vhi6jZOcl2A0F5tos2Oq3Hk2m/frames/floor_000038.jpg",
+    "data/lectures/leph101/10iz_sk1vhi6jZOcl2A0F5tos2Oq3Hk2m/frames/floor_000040.jpg",
+    "data/lectures/leph101/10iz_sk1vhi6jZOcl2A0F5tos2Oq3Hk2m/frames/floor_000041.jpg",
+    "data/lectures/leph101/10iz_sk1vhi6jZOcl2A0F5tos2Oq3Hk2m/frames/floor_000042.jpg",
+    "data/lectures/leph101/10iz_sk1vhi6jZOcl2A0F5tos2Oq3Hk2m/frames/floor_000043.jpg",
+    "data/lectures/leph101/10iz_sk1vhi6jZOcl2A0F5tos2Oq3Hk2m/frames/floor_000044.jpg",
+    "data/lectures/leph101/10iz_sk1vhi6jZOcl2A0F5tos2Oq3Hk2m/frames/floor_000045.jpg",
+    "data/lectures/leph101/10iz_sk1vhi6jZOcl2A0F5tos2Oq3Hk2m/frames/floor_000046.jpg",
+    "data/lectures/leph101/10iz_sk1vhi6jZOcl2A0F5tos2Oq3Hk2m/frames/floor_000047.jpg",
+    "data/lectures/leph101/10iz_sk1vhi6jZOcl2A0F5tos2Oq3Hk2m/frames/floor_000053.jpg",
+    "data/lectures/leph101/10iz_sk1vhi6jZOcl2A0F5tos2Oq3Hk2m/frames/floor_000055.jpg",
+    "data/lectures/leph101/10iz_sk1vhi6jZOcl2A0F5tos2Oq3Hk2m/frames/floor_000058.jpg",
+    "data/lectures/leph101/10iz_sk1vhi6jZOcl2A0F5tos2Oq3Hk2m/frames/floor_000059.jpg",
+    "data/lectures/leph101/10iz_sk1vhi6jZOcl2A0F5tos2Oq3Hk2m/frames/floor_000060.jpg",
+    "data/lectures/leph101/10iz_sk1vhi6jZOcl2A0F5tos2Oq3Hk2m/frames/floor_000064.jpg",
+    "data/lectures/leph101/10iz_sk1vhi6jZOcl2A0F5tos2Oq3Hk2m/frames/floor_000065.jpg",
+    "data/lectures/leph101/10iz_sk1vhi6jZOcl2A0F5tos2Oq3Hk2m/frames/floor_000067.jpg",
+    "data/lectures/leph101/10iz_sk1vhi6jZOcl2A0F5tos2Oq3Hk2m/frames/floor_000068.jpg",
+    "data/lectures/leph101/10iz_sk1vhi6jZOcl2A0F5tos2Oq3Hk2m/frames/floor_000071.jpg",
+    "data/lectures/leph101/10iz_sk1vhi6jZOcl2A0F5tos2Oq3Hk2m/frames/floor_000073.jpg",
+    "data/lectures/leph101/10iz_sk1vhi6jZOcl2A0F5tos2Oq3Hk2m/frames/floor_000074.jpg",
+    "data/lectures/leph101/10iz_sk1vhi6jZOcl2A0F5tos2Oq3Hk2m/frames/floor_000076.jpg",
+    "data/lectures/leph101/10iz_sk1vhi6jZOcl2A0F5tos2Oq3Hk2m/frames/floor_000078.jpg",
+    "data/lectures/leph101/10iz_sk1vhi6jZOcl2A0F5tos2Oq3Hk2m/frames/floor_000080.jpg",
+    "data/lectures/leph101/10iz_sk1vhi6jZOcl2A0F5tos2Oq3Hk2m/frames/floor_000081.jpg",
+    "data/lectures/leph101/10iz_sk1vhi6jZOcl2A0F5tos2Oq3Hk2m/frames/floor_000083.jpg",
+    "data/lectures/leph101/10iz_sk1vhi6jZOcl2A0F5tos2Oq3Hk2m/frames/floor_000084.jpg",
+    "data/lectures/leph101/10iz_sk1vhi6jZOcl2A0F5tos2Oq3Hk2m/frames/floor_000086.jpg",
+    "data/lectures/leph101/10iz_sk1vhi6jZOcl2A0F5tos2Oq3Hk2m/frames/floor_000089.jpg",
+    "data/lectures/leph101/10iz_sk1vhi6jZOcl2A0F5tos2Oq3Hk2m/frames/floor_000091.jpg",
+    "data/lectures/leph101/10iz_sk1vhi6jZOcl2A0F5tos2Oq3Hk2m/frames/floor_000093.jpg",
+    "data/lectures/leph101/10iz_sk1vhi6jZOcl2A0F5tos2Oq3Hk2m/frames/floor_000094.jpg",
+    "data/lectures/leph101/10iz_sk1vhi6jZOcl2A0F5tos2Oq3Hk2m/frames/floor_000095.jpg"
+  ],
+  "markdown_body": "## Corrections and follow-ups from the previous lecture\n\n- In the dipole PE numerical, the reference angle $\\theta_1$ (where PE is taken as zero) is **$90°$**, not $0°$ — use $\\cos90°=0$.\n- **Total (net) force on a dipole in a uniform field is zero**: the two equal-and-opposite forces on the charges cancel exactly, so the dipole only *rotates*, it doesn't translate. In a **non-uniform** field, net force is no longer zero, so the dipole undergoes both translational *and* rotational motion.\n\n## Electric flux (NCERT 1.9)\n\n**Area as a vector:** an area element $d\\vec S$ has both magnitude and direction — direction given by the **outward-drawn normal** to the surface at that point (e.g. for a cube, the outward normal on each face points away from the enclosed volume).\n\n**Electric flux** $\\Phi$ is the number of field lines passing *normally* (perpendicularly) through a given area:\n$$\\Phi = EA\\cos\\theta = \\vec E\\cdot\\vec A$$\n($\\theta$ = angle between $\\vec E$ and the area's outward normal.) Maximum when $\\vec E$ is parallel to the normal; zero when $\\vec E$ lies in the plane of the surface (analogy used in the lecture: water flow through a rotating ring/bangle — maximum flow face-on, zero flow edge-on).\n\n**General definition:** $d\\Phi = \\vec E\\cdot d\\vec S$ for a small element, $\\Phi = \\oint_S \\vec E\\cdot d\\vec S$ over the whole surface. **SI unit:** N$\\,$m$^2$C$^{-1}$. Flux is a **scalar** (it's a dot product).\n\n## Gauss's law (NCERT 1.13)\n\n**Statement:** the total electric flux through any closed surface $S$ in vacuum equals $1/\\varepsilon_0$ times the total charge enclosed:\n$$\\boxed{\\oint_S \\vec E\\cdot d\\vec S = \\frac{Q_\\text{enclosed}}{\\varepsilon_0}}$$\n\n### Derivation for a point charge (spherical Gaussian surface)\nFor a point charge $Q$ at the centre of a sphere of radius $r$: $\\vec E$ is radial with constant magnitude $\\frac{1}{4\\pi\\varepsilon_0}\\frac{Q}{r^2}$ everywhere on the sphere, and everywhere **parallel** to $d\\vec S$ ($\\theta=0,\\ \\cos\\theta=1$). So:\n$$\\oint_S\\vec E\\cdot d\\vec S = \\frac{1}{4\\pi\\varepsilon_0}\\frac{Q}{r^2}\\oint_S dS = \\frac{1}{4\\pi\\varepsilon_0}\\frac{Q}{r^2}(4\\pi r^2) = \\frac{Q}{\\varepsilon_0}$$\nThe $r^2$ cancels — the result is **independent of the sphere's radius**. Though proved here only for a sphere, $\\Phi=Q/\\varepsilon_0$ holds for a closed surface of **any** shape enclosing the same charge $Q$.\n\n### Flux example: closed cylinder in a uniform field\nFor a uniform field passing straight through a closed cylinder aligned with the field (entering one flat end, exiting the other, none crossing the curved side): the **total** flux through the closed surface is **zero** — outward flux at the exit face exactly cancels inward flux at the entry face.\n\n---\n*Note on this lecture's transcript:* the Gauss's-law derivation and the cylinder example above are grounded entirely from board frames -- the transcript repeats earlier flux-definition material there instead. See the flagged span below.\n"
+}

@@ -1,0 +1,84 @@
+{
+  "file_id": "1LmbzhHRudRegWhsUvrYUyG2hLmFCS7ra",
+  "chapter_id": "leph106",
+  "title": "Mutual Inductance of Two Coaxial Solenoids, Worked Numerical, and the AC Generator",
+  "duration_seconds": 2239.53,
+  "claims": [
+    {
+      "text": "Deriving mutual inductance of two long coaxial solenoids S1 (inner, n1 turns/length, N1 total turns, area A1) and S2 (outer, n2 turns/length, N2 total turns, area A2), both of length l. Consider current I flowing through S1: the field it creates is B1=mu0*n1*I=mu0*(N1/l)*I. The flux linked with S2 (using S1's inner area A1, since that's where B1 exists) is phi2=N2*B1*A1=N2*mu0*(N1/l)*I*A1. By definition phi2=M21*I, so M21=mu0*N1*N2*A1/l",
+      "transcript_span": [
+        3.0,
+        303.0
+      ],
+      "frame_path": "data/lectures/leph106/1LmbzhHRudRegWhsUvrYUyG2hLmFCS7ra/frames/floor_000011.jpg",
+      "ncert_section": "6.7",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Reciprocity theorem, M12=M21: by a symmetric argument (current now flowing through S2 instead, generating field B2 only within its own cross-sectional area, and computing flux linked with S1 using the smaller/common area), one obtains M12=mu0*N1*N2*A1/l as well (using whichever solenoid's area is smaller/common to both, since the field of one solenoid only exists within its own cross-section) -- proving M12=M21, i.e. the mutual inductance is the same regardless of which coil is treated as primary and which as secondary",
+      "transcript_span": null,
+      "frame_path": null,
+      "ncert_section": "6.7",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Worked numerical (NCERT-style, classic two-coaxial-loops problem): a circular loop of radius 0.3 cm lies parallel to a much bigger circular loop of radius 20 cm; the distance between their centres is 15 cm. (a) What is the flux linking the bigger loop if a current of 0.2 A flows through the smaller loop? (b) Obtain the mutual inductance. Method: since the smaller loop is much smaller than its distance from the bigger loop's centre, treat it as a point dipole and use the bigger loop's on-axis field formula B=(mu0/2)*(I*a2^2)/(a2^2+x^2)^(3/2) evaluated at the smaller loop's location, then flux linking the (much bigger, effectively uniform-field-over-its-area) loop = phi = pi*a1^2 * B, giving phi in the 10^-11 Wb range; mutual inductance follows from M=phi/I",
+      "transcript_span": null,
+      "frame_path": "data/lectures/leph106/1LmbzhHRudRegWhsUvrYUyG2hLmFCS7ra/frames/floor_000060.jpg",
+      "ncert_section": "6.7",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "AC generator: based on electromagnetic induction; converts mechanical energy to electrical energy (ME -> EE). Construction has four main parts: (1) Armature -- a large number of turns of insulated copper wire wound on a metallic frame; (2) slip rings (S1, S2) -- metal rings that rotate with the armature; (3) carbon brushes (B1, B2) -- provide electrical contact between the rotating slip rings and the external (stationary) circuit; (4) field magnet -- the N-S pole pieces that provide the magnetic field the armature coil rotates within. Working: as the armature (coil ABCD) rotates between the N-S poles, after every half rotation the direction of the current through it reverses -- this is why we get alternating current (AC)",
+      "transcript_span": null,
+      "frame_path": "data/lectures/leph106/1LmbzhHRudRegWhsUvrYUyG2hLmFCS7ra/frames/floor_000112.jpg",
+      "ncert_section": "6.8",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "AC generator theory/derivation: flux through the rotating coil phi=AB*cos(theta)=AB*cos(omega*t) (theta=angle between area vector and B, omega=constant angular speed of rotation). EMF epsilon=-N*dphi/dt=NAB*omega*sin(omega*t), i.e. epsilon=epsilon0*sin(omega*t) where epsilon0=NAB*omega is the peak/maximum EMF. Corresponding current I=epsilon/R=(NAB*omega/R)*sin(omega*t). Values through one cycle: at t=0 (omega*t=0), epsilon=0; at t=T/4 (omega*t=90deg), epsilon=epsilon0 (maximum); at t=T/2 (omega*t=180deg), epsilon=0; at t=3T/4 (omega*t=270deg), epsilon=-epsilon0 (minimum); at t=T (omega*t=360deg), epsilon=0 again -- tracing out the standard sinusoidal AC waveform when plotted against omega*t",
+      "transcript_span": null,
+      "frame_path": "data/lectures/leph106/1LmbzhHRudRegWhsUvrYUyG2hLmFCS7ra/frames/floor_000112.jpg",
+      "ncert_section": "6.8",
+      "ncert_agreement": "agrees"
+    }
+  ],
+  "uncertain_spans": [
+    {
+      "start_seconds": 303.0,
+      "end_seconds": 2239.53,
+      "reason": "This is the most severe delayed-repetition failure found anywhere in this project: after correctly deriving M21 (t=3-303s), the transcript gets stuck setting up the M12=M21 proof ('to calculate M12, consider current flowing through S2... magnetic field generates only in area A2... M12 due to 2... n1 n2 mu0 a2 upon l') and re-transcribes this SAME ~230-second block at least SEVEN times back-to-back, continuing almost verbatim all the way to the transcript's very last word ('flowing', at t=2242.975s, cut off mid-sentence). Essentially the entire remaining 86% of this lecture's real content -- completion of the M12=M21 proof, the worked mutual-inductance numerical (the lecture's own second named topic), and the ENTIRE AC generator topic (construction, working, and the full sinusoidal-EMF derivation -- the lecture's own third named topic) -- is completely absent from the transcript's own words. Board frames confirm all of this content was genuinely taught and written out in full within the true 2239.5s runtime (the numerical at real t~1180s, the complete AC generator section by real t~2220s, near the very end of the video). Every claim in this note beyond the initial M21 derivation is grounded entirely from frames, not the transcript's own words."
+    }
+  ],
+  "ncert_sections_covered": [
+    "6.7",
+    "6.8"
+  ],
+  "frame_paths": [
+    "data/lectures/leph106/1LmbzhHRudRegWhsUvrYUyG2hLmFCS7ra/frames/floor_000001.jpg",
+    "data/lectures/leph106/1LmbzhHRudRegWhsUvrYUyG2hLmFCS7ra/frames/floor_000005.jpg",
+    "data/lectures/leph106/1LmbzhHRudRegWhsUvrYUyG2hLmFCS7ra/frames/floor_000011.jpg",
+    "data/lectures/leph106/1LmbzhHRudRegWhsUvrYUyG2hLmFCS7ra/frames/floor_000022.jpg",
+    "data/lectures/leph106/1LmbzhHRudRegWhsUvrYUyG2hLmFCS7ra/frames/floor_000026.jpg",
+    "data/lectures/leph106/1LmbzhHRudRegWhsUvrYUyG2hLmFCS7ra/frames/floor_000029.jpg",
+    "data/lectures/leph106/1LmbzhHRudRegWhsUvrYUyG2hLmFCS7ra/frames/floor_000033.jpg",
+    "data/lectures/leph106/1LmbzhHRudRegWhsUvrYUyG2hLmFCS7ra/frames/floor_000041.jpg",
+    "data/lectures/leph106/1LmbzhHRudRegWhsUvrYUyG2hLmFCS7ra/frames/floor_000045.jpg",
+    "data/lectures/leph106/1LmbzhHRudRegWhsUvrYUyG2hLmFCS7ra/frames/floor_000052.jpg",
+    "data/lectures/leph106/1LmbzhHRudRegWhsUvrYUyG2hLmFCS7ra/frames/floor_000060.jpg",
+    "data/lectures/leph106/1LmbzhHRudRegWhsUvrYUyG2hLmFCS7ra/frames/floor_000062.jpg",
+    "data/lectures/leph106/1LmbzhHRudRegWhsUvrYUyG2hLmFCS7ra/frames/floor_000064.jpg",
+    "data/lectures/leph106/1LmbzhHRudRegWhsUvrYUyG2hLmFCS7ra/frames/floor_000068.jpg",
+    "data/lectures/leph106/1LmbzhHRudRegWhsUvrYUyG2hLmFCS7ra/frames/floor_000071.jpg",
+    "data/lectures/leph106/1LmbzhHRudRegWhsUvrYUyG2hLmFCS7ra/frames/floor_000079.jpg",
+    "data/lectures/leph106/1LmbzhHRudRegWhsUvrYUyG2hLmFCS7ra/frames/floor_000080.jpg",
+    "data/lectures/leph106/1LmbzhHRudRegWhsUvrYUyG2hLmFCS7ra/frames/floor_000084.jpg",
+    "data/lectures/leph106/1LmbzhHRudRegWhsUvrYUyG2hLmFCS7ra/frames/floor_000088.jpg",
+    "data/lectures/leph106/1LmbzhHRudRegWhsUvrYUyG2hLmFCS7ra/frames/floor_000090.jpg",
+    "data/lectures/leph106/1LmbzhHRudRegWhsUvrYUyG2hLmFCS7ra/frames/floor_000097.jpg",
+    "data/lectures/leph106/1LmbzhHRudRegWhsUvrYUyG2hLmFCS7ra/frames/floor_000105.jpg",
+    "data/lectures/leph106/1LmbzhHRudRegWhsUvrYUyG2hLmFCS7ra/frames/floor_000107.jpg",
+    "data/lectures/leph106/1LmbzhHRudRegWhsUvrYUyG2hLmFCS7ra/frames/floor_000112.jpg"
+  ],
+  "markdown_body": "## Mutual inductance of two coaxial solenoids (NCERT 6.7)\n\nTwo long coaxial solenoids $S_1$ (inner, $n_1$ turns/length, $N_1$ turns, area $A_1$) and $S_2$ (outer, $n_2$, $N_2$, $A_2$), both length $l$. Current $I$ in $S_1$ creates:\n$$B_1 = \\mu_0 n_1 I = \\mu_0\\frac{N_1}{l}I$$\nFlux linked with $S_2$ (using $A_1$, the area where $B_1$ actually exists):\n$$\\phi_2 = N_2 B_1 A_1 = \\mu_0\\frac{N_1 N_2 A_1}{l}I \\quad\\Rightarrow\\quad \\boxed{M_{21} = \\frac{\\mu_0 N_1 N_2 A_1}{l}}$$\n\n**Reciprocity:** a symmetric argument (current in $S_2$ instead, using whichever cross-section is common/smaller) gives $M_{12}=M_{21}$ — the mutual inductance is the same either way.\n\n### Worked numerical (classic two-loop problem)\nA circular loop of radius $0.3$ cm lies parallel to a much bigger circular loop of radius $20$ cm, centres $15$ cm apart. (a) Flux linking the bigger loop for $I=0.2$ A in the smaller loop? (b) Mutual inductance?\n\n**Method:** treat the small loop as a point dipole; use the big loop's on-axis field $B=\\dfrac{\\mu_0}{2}\\dfrac{I a_2^2}{(a_2^2+x^2)^{3/2}}$ at the small loop's location, then $\\phi = \\pi a_1^2 B$ (uniform over the tiny loop's area); $M=\\phi/I$.\n\n## The AC generator (NCERT 6.8)\n\n**Principle:** electromagnetic induction — converts mechanical energy to electrical energy.\n\n**Construction:**\n1. **Armature** — many turns of insulated copper wire wound on a metallic frame\n2. **Slip rings** $(S_1, S_2)$ — rotate with the armature\n3. **Carbon brushes** $(B_1, B_2)$ — contact between rotating slip rings and the external circuit\n4. **Field magnet** (N–S) — provides the field the armature rotates in\n\n**Working:** after every half rotation, the current's direction through the armature reverses — this alternation is what produces AC.\n\n**Theory:** $\\phi = AB\\cos\\theta = AB\\cos(\\omega t)$, so:\n$$\\varepsilon = -N\\frac{d\\phi}{dt} = NAB\\omega\\sin(\\omega t) = \\varepsilon_0\\sin(\\omega t), \\qquad \\varepsilon_0 = NAB\\omega$$\n$$I = \\frac{\\varepsilon}{R} = \\frac{NAB\\omega}{R}\\sin(\\omega t)$$\n\n| $\\omega t$ | $0$ | $90°$ | $180°$ | $270°$ | $360°$ |\n|---|---|---|---|---|---|\n| $\\varepsilon$ | $0$ | $\\varepsilon_0$ | $0$ | $-\\varepsilon_0$ | $0$ |\n\ntracing the standard sinusoidal AC waveform.\n\n---\n*Note on this lecture's transcript:* after correctly deriving $M_{21}$, the ASR gets stuck re-transcribing the same ~230-second \"now let's calculate $M_{12}$\" setup at least seven times, all the way to the transcript's final (cut-off) word. As a result, the completed $M_{12}=M_{21}$ proof, the worked numerical, and the ENTIRE AC generator topic — construction, working, and the full EMF derivation — never appear in the transcript's own words at all, despite board frames confirming all of it was taught within the true runtime. Everything past the initial $M_{21}$ derivation above is grounded entirely from frames; see the flagged span below.\n"
+}

@@ -1,0 +1,93 @@
+\\TEXTBOOKS\\RATIONALISED 20222-23\\Neha\\12089 — Physics Part-1\\1 Source Files\\Chapter-7\\Chapter 7.pmd
+
+Chapter Seven ALTERNATING CURRENT
+
+7.1 INTRODUCTION
+DC vs AC. Mains supply varies as sine function. AC preferred: transformers allow efficient voltage conversion, economical long-distance transmission.
+
+7.2 AC VOLTAGE APPLIED TO A RESISTOR
+v = vm sin ωt (7.1)
+i = im sin ωt (7.2), im = vm/R (7.3) — Ohm's law, v and i in phase.
+Instantaneous power p = im²R sin²ωt (7.4); average <sin²ωt> = 1/2
+Average power p̄ = (1/2)im²R (7.5c)
+rms current I = im/√2 = 0.707im (7.6)
+Average power P = I²R (7.7)
+rms voltage V = vm/√2 = 0.707vm (7.8)
+V = IR (7.9)
+Named: Nicola Tesla (rotating magnetic field, induction motor, polyphase ac, Tesla coil), George Westinghouse (AC proponent vs Edison's DC, founded Westinghouse Co.)
+Household line voltage 220V is rms, peak vm=√2×220=311V.
+
+7.3 REPRESENTATION BY ROTATING VECTORS — PHASORS
+Phasor: vector rotating about origin with angular speed ω. Resistor: V and I phasors in phase (zero phase angle).
+
+7.4 AC VOLTAGE APPLIED TO AN INDUCTOR
+v – L di/dt = 0 (7.10)
+i = im sin(ωt – π/2) (7.12), im = vm/XL (7.14)
+XL = ωL (7.13) — inductive reactance, unit ohm (Ω)
+Current LAGS voltage by π/2 (quarter cycle).
+Average power over cycle = 0 (no dissipation in pure inductor).
+
+7.5 AC VOLTAGE APPLIED TO A CAPACITOR
+v = q/C (7.15)
+i = im sin(ωt + π/2) (7.16), im = vm/XC (7.18)
+XC = 1/ωC (7.17) — capacitive reactance
+Current LEADS voltage by π/2.
+Average power over cycle = 0.
+
+7.6 AC VOLTAGE APPLIED TO SERIES LCR CIRCUIT
+L di/dt + iR + q/C = v (7.20)
+i = im sin(ωt+φ) (7.21)
+im = vm/√(R² + (XC–XL)²) (7.25a)
+Z = √(R² + (XC–XL)²) (7.26) — impedance
+tan φ = (XC–XL)/R (7.27)
+If XC>XL: φ positive, circuit capacitive, current leads.
+If XC<XL: φ negative, circuit inductive, current lags.
+
+7.6.2 Resonance
+Resonant frequency: ω0 = 1/√(LC) (7.28), at resonance XC=XL, Z=R (minimum), im=vm/R (maximum)
+Applications: radio/TV tuning circuits. Resonance requires BOTH L and C present (not RL or RC alone).
+
+7.7 POWER IN AC CIRCUIT: THE POWER FACTOR
+P = VI cos φ (7.30a) = I²Z cos φ (7.30b)
+cos φ = power factor
+Case (i) Resistive: φ=0, cosφ=1, max power dissipation
+Case (ii) Pure L or C: φ=π/2, cosφ=0, "wattless current"
+Case (iii) LCR series: power dissipated only in R
+Case (iv) At resonance: cosφ=1, P=I²R (maximum)
+Low power factor → large transmission power loss (I²R); improved via capacitor addition (neutralizing wattless component).
+
+7.8 TRANSFORMERS
+Mutual induction principle. Primary Np turns, secondary Ns turns.
+εs = –Ns dφ/dt (7.31), εp = –Np dφ/dt (7.32)
+vs/vp = Ns/Np (7.33)
+ip/is = vs/vp = Ns/Np (7.35)
+Step-up: Ns>Np, Vs>Vp, Is<Ip. Step-down: Ns<Np, Vs<Vp, Is>Ip.
+Energy losses: (i) flux leakage (ii) winding resistance/I²R heating (iii) eddy currents — reduced by laminated core (iv) hysteresis loss.
+Power transmission: step-up at generator (reduce current, cut I²R loss), step-down at substations, ~240V to consumers.
+
+SUMMARY
+1. Resistor: i=vm/R sinωt, in phase.
+2. rms: I=im/√2, V=vm/√2, P=IV=I²R.
+3. Inductor: XL=ωL, current lags π/2, avg power=0.
+4. Capacitor: XC=1/ωC, current leads π/2, avg power=0.
+5. Series RLC: Z=√(R²+(XC-XL)²), φ=tan⁻¹((XC-XL)/R), P=VIcosφ.
+6. Pure L/C: cosφ=0, wattless current.
+7. Phasor: rotating vector representation.
+8. Transformer: Vs/Vp = Ns/Np, Is/Ip = Np/Ns.
+
+POINTS TO PONDER
+1. Quoted ac values are rms unless stated.
+2. Power rating = average power rating.
+3. Power consumed in ac circuit never negative.
+4. AC ampere defined via Joule heating (not mutual force like DC ampere, since attractive force averages to zero for AC).
+5. Adding voltages across elements: must account phase — VRC=√(VR²+VC²), not VR+VC.
+6. Voltage/current in phasor diagrams are scalars represented as rotating vectors (not true vectors).
+7. No power loss in pure L or C; only resistive element dissipates energy.
+8. Resonance (XL=XC) requires both L and C.
+9. Power factor measures closeness to max power expenditure.
+10. Motor: electrical→mechanical. Generator: mechanical→electrical.
+11. Step-up transformer: voltage↑, current↓ proportionally (energy conserved).
+
+EXERCISES (7.1-7.8): rms current/power for R,L,C circuits given source; peak/rms voltage-current conversion; LC free oscillation frequency; power at resonance for series LCR; resonant frequency, impedance, amplitude, potential drops for LCR circuit given L,C,R.
+
+Key terms/glossary: alternating voltage/current, phasor, inductive reactance XL, capacitive reactance XC, impedance Z, resonant frequency ω0, quality factor Q = ω0L/R = 1/(ω0CR), power factor cosφ, wattless current, transformer, step-up/step-down, eddy currents, hysteresis loss, flux leakage.

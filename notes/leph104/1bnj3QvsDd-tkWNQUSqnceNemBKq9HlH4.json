@@ -1,0 +1,79 @@
+{
+  "file_id": "1bnj3QvsDd-tkWNQUSqnceNemBKq9HlH4",
+  "chapter_id": "leph104",
+  "title": "The Cyclotron",
+  "duration_seconds": 1437.5,
+  "claims": [
+    {
+      "text": "Cyclotron: a device (developed by Lawrence) used to accelerate positively charged particles (proton, deuteron, alpha particle, etc.) to high energies using repeated passes through a comparatively small oscillating electric field, combined with a strong magnetic field",
+      "transcript_span": [
+        2.8,
+        256.7
+      ],
+      "frame_path": null,
+      "ncert_section": "4.3",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Construction: two hollow, evacuated D-shaped metal chambers (D1, D2, the 'Dees') separated by a small gap, connected to a high-frequency oscillator (providing the oscillating electric field across the gap), and placed inside a strong magnetic field perpendicular to the plane of the Dees",
+      "transcript_span": [
+        302.4,
+        546.7
+      ],
+      "frame_path": "data/lectures/leph104/1bnj3QvsDd-tkWNQUSqnceNemBKq9HlH4/frames/floor_000030.jpg",
+      "ncert_section": "4.3",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Working: a positive charge injected near the centre gets accelerated across the gap into one Dee, traces a semicircular path inside it (magnetic field only, no electric field inside a Dee since it's a hollow conductor), returns to the gap -- at which point the oscillator's polarity has reversed (the Dee it's leaving is now positive, the one it's entering is now negative), so it is accelerated again, gaining speed and hence tracing a larger-radius semicircle in the next Dee. This repeats, spiralling outward, until the particle exits through a window with high velocity and strikes a target",
+      "transcript_span": [
+        546.7,
+        946.0
+      ],
+      "frame_path": "data/lectures/leph104/1bnj3QvsDd-tkWNQUSqnceNemBKq9HlH4/frames/floor_000038.jpg",
+      "ncert_section": "4.3",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Cyclotron mathematics: inside a Dee, the magnetic force provides centripetal force, Bqv=mv^2/r, giving r=mv/(Bq). Using v=r*omega, this gives omega=Bq/m (the cyclotron/angular frequency), which is INDEPENDENT of the radius r (and hence independent of velocity/energy) -- as the particle's radius grows with each pass, its speed grows proportionally, keeping the time for each semicircle constant. Time period T=2*pi*m/(Bq). This constancy of T is exactly why the Dees' oscillator, tuned to this same fixed period, stays in sync with the particle across every pass: 'time period of oscillator = time period [of circular motion]'",
+      "transcript_span": [
+        946.0,
+        1237.1
+      ],
+      "frame_path": "data/lectures/leph104/1bnj3QvsDd-tkWNQUSqnceNemBKq9HlH4/frames/floor_000054.jpg",
+      "ncert_section": "4.3",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "A cyclotron is NOT suitable for accelerating electrons: because the electron's rest mass is so small, it reaches relativistic speeds very quickly inside the device, and its relativistic mass m=m0/sqrt(1-v^2/c^2) then increases with speed rather than staying constant. Since the time period T=2*pi*m/(Bq) depends on mass, an increasing mass means the electron's orbital period no longer matches the fixed-frequency oscillator -- the electron drifts out of phase with the oscillating field and stops being accelerated properly ('goes out of step'). Heavier particles like protons, deuterons, and alpha particles are far less affected by this relativistic mass increase at the same cyclotron energies, so cyclotrons work well for them",
+      "transcript_span": [
+        1237.1,
+        1442.0
+      ],
+      "frame_path": null,
+      "ncert_section": "4.3",
+      "ncert_agreement": "agrees"
+    }
+  ],
+  "uncertain_spans": [],
+  "ncert_sections_covered": [
+    "4.3"
+  ],
+  "frame_paths": [
+    "data/lectures/leph104/1bnj3QvsDd-tkWNQUSqnceNemBKq9HlH4/frames/floor_000001.jpg",
+    "data/lectures/leph104/1bnj3QvsDd-tkWNQUSqnceNemBKq9HlH4/frames/floor_000007.jpg",
+    "data/lectures/leph104/1bnj3QvsDd-tkWNQUSqnceNemBKq9HlH4/frames/floor_000012.jpg",
+    "data/lectures/leph104/1bnj3QvsDd-tkWNQUSqnceNemBKq9HlH4/frames/floor_000014.jpg",
+    "data/lectures/leph104/1bnj3QvsDd-tkWNQUSqnceNemBKq9HlH4/frames/floor_000016.jpg",
+    "data/lectures/leph104/1bnj3QvsDd-tkWNQUSqnceNemBKq9HlH4/frames/floor_000030.jpg",
+    "data/lectures/leph104/1bnj3QvsDd-tkWNQUSqnceNemBKq9HlH4/frames/floor_000034.jpg",
+    "data/lectures/leph104/1bnj3QvsDd-tkWNQUSqnceNemBKq9HlH4/frames/floor_000038.jpg",
+    "data/lectures/leph104/1bnj3QvsDd-tkWNQUSqnceNemBKq9HlH4/frames/floor_000043.jpg",
+    "data/lectures/leph104/1bnj3QvsDd-tkWNQUSqnceNemBKq9HlH4/frames/floor_000054.jpg",
+    "data/lectures/leph104/1bnj3QvsDd-tkWNQUSqnceNemBKq9HlH4/frames/floor_000055.jpg",
+    "data/lectures/leph104/1bnj3QvsDd-tkWNQUSqnceNemBKq9HlH4/frames/floor_000060.jpg",
+    "data/lectures/leph104/1bnj3QvsDd-tkWNQUSqnceNemBKq9HlH4/frames/floor_000068.jpg",
+    "data/lectures/leph104/1bnj3QvsDd-tkWNQUSqnceNemBKq9HlH4/frames/floor_000070.jpg"
+  ],
+  "markdown_body": "## The cyclotron (NCERT 4.3)\n\nA device (developed by Lawrence) that accelerates **positively charged particles** (proton, deuteron, alpha particle) to high energies using repeated passes through a comparatively small oscillating electric field, combined with a strong magnetic field.\n\n### Construction\nTwo hollow, evacuated D-shaped metal chambers (\"Dees\", $D_1,D_2$) separated by a small gap, connected to a high-frequency oscillator (providing the oscillating field across the gap), placed in a strong magnetic field perpendicular to the Dees' plane.\n\n### Working\nA positive charge injected near the centre accelerates across the gap into one Dee, traces a **semicircular path** inside it (magnetic force only — no field inside a hollow conducting Dee), returns to the gap just as the oscillator's polarity reverses, gets accelerated again, and traces a **larger** semicircle in the next Dee (higher speed now). This repeats — spiralling outward — until the particle exits through a window with high velocity and strikes a target.\n\n### Mathematics\nInside a Dee, the magnetic force supplies centripetal force:\n$$Bqv = \\frac{mv^2}{r} \\;\\Rightarrow\\; r = \\frac{mv}{Bq}$$\nUsing $v=r\\omega$:\n$$\\boxed{\\omega = \\frac{Bq}{m}}, \\qquad T = \\frac{2\\pi m}{Bq}$$\n$\\omega$ (and $T$) are **independent of radius** $r$ — as the radius grows with each pass, speed grows proportionally, keeping each semicircle's transit time constant. This is exactly why the oscillator, tuned to this fixed period, stays synchronized with the particle across every pass.\n\n### Why not electrons?\nAn electron's tiny rest mass means it reaches relativistic speeds almost immediately, so its **relativistic mass** $m=m_0/\\sqrt{1-v^2/c^2}$ grows with speed rather than staying constant. Since $T=2\\pi m/(Bq)$ depends on mass, a growing mass breaks the match with the fixed-frequency oscillator — the electron drifts **out of phase** and stops being properly accelerated. Heavier particles (protons, deuterons, alpha particles) are far less affected by this at cyclotron energies, so cyclotrons work well for them but not for electrons.\n"
+}
