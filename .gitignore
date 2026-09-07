@@ -34,3 +34,6 @@ chem/build/
 # generated sheet builds (the content fragments live in the session scratchpad;
 # the published Artifact is the deliverable)
 sheets/build/
+
+# transfer bundle, rebuilt on demand from pdf/
+Class-XII-PDFs.zip
