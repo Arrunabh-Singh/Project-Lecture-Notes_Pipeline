@@ -610,17 +610,48 @@ def main() -> None:
 
     # 3. the physics chapter notes, which are already Markdown
     notes_sections: list[tuple[str, str]] = []
+    chapters_dir = OUT / "physics" / "chapters"
+    chapters_dir.mkdir(parents=True, exist_ok=True)
     for chapter_dir in sorted((ROOT / "notes").glob("leph1*")):
         target = OUT / "physics" / "chapter-notes" / chapter_dir.name
         target.mkdir(parents=True, exist_ok=True)
         bodies: list[str] = []
-        for md_path in sorted(chapter_dir.glob("*.md")):
+        standalone: list[str] = []
+        note_paths = sorted(chapter_dir.glob("*.md"))
+        for md_path in note_paths:
             shutil.copy2(md_path, target / md_path.name)
             written.append(target / md_path.name)
-            bodies.append(rebase(md_path.read_text(encoding="utf-8"), 4))
-        if bodies:
-            head = PHYS_CHAPTERS.get(chapter_dir.name, chapter_dir.name)
-            notes_sections.append((f"{head} — lecture notes", "\n\n".join(bodies)))
+            raw = md_path.read_text(encoding="utf-8")
+            bodies.append(rebase(raw, 4))
+            standalone.append(rebase(raw, 2))
+        if not bodies:
+            continue
+        head = PHYS_CHAPTERS.get(chapter_dir.name, chapter_dir.name)
+        notes_sections.append((f"{head} — lecture notes", "\n\n".join(bodies)))
+
+        # One file per chapter, the lectures of that chapter in order. This is
+        # the view you want when revising a single chapter; the per-lecture
+        # files above are the view you want when chasing one topic.
+        num, name = head.split(" · ", 1)
+        stem = f"{num.split()[-1].zfill(2)}-{name.lower().replace(' ', '-')}"
+        # Flatten "1.13, 1.14" into its parts, then sort numerically -- a plain
+        # string sort puts 1.10 before 1.2.
+        secs = sorted({x.strip().rstrip(".")
+                       for b in standalone
+                       for grp in re.findall(r"NCERT sections covered:\*\* *([0-9., ]+)", b)
+                       for x in grp.split(",") if x.strip()},
+                      key=lambda v: [int(n) for n in v.split(".")])
+        front = [f"# {name}", "",
+                 f"*Class XII CBSE Physics · {num} · {len(note_paths)} lectures, in order.*", ""]
+        if secs:
+            front += [f"*NCERT sections covered: {', '.join(secs)}.*", ""]
+        front += ["*Transcribed from the teacher's recorded lectures and checked against the",
+                  "board frames and the NCERT text. Equations are board-grounded; any span the",
+                  "transcript could not resolve confidently is flagged in place.*", "", "---", ""]
+        dest = chapters_dir / f"{stem}.md"
+        dest.write_text("\n".join(front) + "\n" + "\n\n---\n\n".join(standalone).rstrip() + "\n",
+                        encoding="utf-8")
+        written.append(dest)
 
     phys_parts.extend(notes_sections)
 

@@ -110,6 +110,17 @@ appear as **Figure.** followed by their full prose description.
 - [03-sources-properties-equation-of-em-waves.md](physics/chapter-notes/leph108/03-sources-properties-equation-of-em-waves.md)
 - [04-electromagnetic-spectrum-production-and-uses.md](physics/chapter-notes/leph108/04-electromagnetic-spectrum-production-and-uses.md)
 
+### `physics/chapters/`
+
+- [01-electric-charges-and-fields.md](physics/chapters/01-electric-charges-and-fields.md)
+- [02-electrostatic-potential-and-capacitance.md](physics/chapters/02-electrostatic-potential-and-capacitance.md)
+- [03-current-electricity.md](physics/chapters/03-current-electricity.md)
+- [04-moving-charges-and-magnetism.md](physics/chapters/04-moving-charges-and-magnetism.md)
+- [05-magnetism-and-matter.md](physics/chapters/05-magnetism-and-matter.md)
+- [06-electromagnetic-induction.md](physics/chapters/06-electromagnetic-induction.md)
+- [07-alternating-current.md](physics/chapters/07-alternating-current.md)
+- [08-electromagnetic-waves.md](physics/chapters/08-electromagnetic-waves.md)
+
 ### `physics/pages/`
 
 - [alternating-current-in-eight-derivations.md](physics/pages/alternating-current-in-eight-derivations.md)
