@@ -1,0 +1,68 @@
+{
+  "file_id": "1LIz3XFhCKpoS5TnwLkBlnfzh3JuZ_eMZ",
+  "chapter_id": "leph104",
+  "title": "Torque on a Current-Carrying Loop in a Uniform Magnetic Field",
+  "duration_seconds": 1529.8,
+  "claims": [
+    {
+      "text": "Special case: rectangular current loop (sides PQ=RS=length l, QR=SP=breadth b, current I) placed such that B lies in the plane of the loop (equivalently, the normal to the loop is perpendicular to B, angle 90 degrees). Forces on sides SR and QP (parallel to B) are zero, since the current element and B are parallel/antiparallel there (IL x B = 0). Forces on PS and RQ (perpendicular to B) are each ILB in magnitude, equal and opposite but acting along different (non-collinear) lines, so they form a couple",
+      "transcript_span": [
+        2.7,
+        733.9
+      ],
+      "frame_path": "data/lectures/leph104/1LIz3XFhCKpoS5TnwLkBlnfzh3JuZ_eMZ/frames/floor_000037.jpg",
+      "ncert_section": "4.9",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "For this special case, torque = force x perpendicular distance between the lines of action of the two forces = (ILB)(b) = I(lb)B = IAB, where A=lb is the loop's area. Direction of torque is perpendicular to the plane formed by the area vector A and B, given by the right-hand cross-product rule. Mnemonic used: force=IL x B ('I love Bhopal'), torque=IA x B ('I admire Bhopal')",
+      "transcript_span": [
+        733.9,
+        1033.4
+      ],
+      "frame_path": "data/lectures/leph104/1LIz3XFhCKpoS5TnwLkBlnfzh3JuZ_eMZ/frames/floor_000037.jpg",
+      "ncert_section": "4.9",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "General case: the loop's plane is NOT aligned with B -- the angle between the normal (drawn to the loop) and B is theta (not 90 degrees). Setting up forces on all four arms again: forces on QR and SP are equal, opposite, and COLLINEAR (acting along the same line), so their resultant is zero. Forces on PQ and RS are equal, opposite, but NOT collinear (acting along parallel but offset lines), so they constitute the torque",
+      "transcript_span": [
+        1033.4,
+        1548.063
+      ],
+      "frame_path": "data/lectures/leph104/1LIz3XFhCKpoS5TnwLkBlnfzh3JuZ_eMZ/frames/floor_000072.jpg",
+      "ncert_section": "4.9",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "General torque formula: torque = force x perpendicular distance between the lines of action of the PQ/RS forces = I*l*B*sin(theta), and since l*b=A (loop area), this gives the general result torque = I*A*B*sin(theta), or in vector form torque = I(A vector cross B vector) -- the special case derived earlier (theta=90 degrees, sin=1, torque=IAB) is the maximum-torque special case of this general formula",
+      "transcript_span": null,
+      "frame_path": "data/lectures/leph104/1LIz3XFhCKpoS5TnwLkBlnfzh3JuZ_eMZ/frames/floor_000072.jpg",
+      "ncert_section": "4.9",
+      "ncert_agreement": "agrees"
+    }
+  ],
+  "uncertain_spans": [
+    {
+      "start_seconds": 1526.8,
+      "end_seconds": 1529.8,
+      "reason": "The transcript's last segment ends right as the general-case torque setup is completed ('force on PQ and RS... will constitute torque') but before the final formula is spoken. A board frame just past this point (floor_000072.jpg, t=1420s) shows the completed derivation and the boxed general result torque=I*A*B*sin(theta) (vector form tau=I(A x B)), so the final general-torque claim above is grounded from that frame rather than the transcript's own words, though it is the direct, expected algebraic completion of what the transcript does establish."
+    }
+  ],
+  "ncert_sections_covered": [
+    "4.9"
+  ],
+  "frame_paths": [
+    "data/lectures/leph104/1LIz3XFhCKpoS5TnwLkBlnfzh3JuZ_eMZ/frames/floor_000020.jpg",
+    "data/lectures/leph104/1LIz3XFhCKpoS5TnwLkBlnfzh3JuZ_eMZ/frames/floor_000026.jpg",
+    "data/lectures/leph104/1LIz3XFhCKpoS5TnwLkBlnfzh3JuZ_eMZ/frames/floor_000030.jpg",
+    "data/lectures/leph104/1LIz3XFhCKpoS5TnwLkBlnfzh3JuZ_eMZ/frames/floor_000033.jpg",
+    "data/lectures/leph104/1LIz3XFhCKpoS5TnwLkBlnfzh3JuZ_eMZ/frames/floor_000037.jpg",
+    "data/lectures/leph104/1LIz3XFhCKpoS5TnwLkBlnfzh3JuZ_eMZ/frames/floor_000040.jpg",
+    "data/lectures/leph104/1LIz3XFhCKpoS5TnwLkBlnfzh3JuZ_eMZ/frames/floor_000052.jpg",
+    "data/lectures/leph104/1LIz3XFhCKpoS5TnwLkBlnfzh3JuZ_eMZ/frames/floor_000065.jpg",
+    "data/lectures/leph104/1LIz3XFhCKpoS5TnwLkBlnfzh3JuZ_eMZ/frames/floor_000068.jpg",
+    "data/lectures/leph104/1LIz3XFhCKpoS5TnwLkBlnfzh3JuZ_eMZ/frames/floor_000072.jpg"
+  ],
+  "markdown_body": "## Torque on a current-carrying loop (NCERT 4.9)\n\n### Special case: B in the plane of the loop (normal $\\perp B$)\nRectangular loop (sides $PQ=RS=l$, $QR=SP=b$, current $I$), $\\vec B$ lying in the loop's plane. Forces on the two sides parallel to $B$ (SR, QP) are zero ($I\\vec L\\times\\vec B=0$ there). Forces on the two sides perpendicular to $B$ (PS, RQ) are each $ILB$, equal and opposite but acting along **different** lines — a couple.\n\n$$\\tau = (\\text{force})\\times(\\text{perpendicular distance between lines of action}) = (ILB)(b) = I(lb)B = \\boxed{IAB}$$\nwhere $A=lb$ is the loop's area. Direction: perpendicular to the plane of $\\vec A$ and $\\vec B$ (right-hand cross-product rule).\n\n*Mnemonic used in the lecture:* force $=I\\vec L\\times\\vec B$ (\"I love Bhopal\"), torque $=I\\vec A\\times\\vec B$ (\"I admire Bhopal\").\n\n### General case: normal at angle $\\theta$ to $B$\nNow the loop's normal makes angle $\\theta$ (not $90°$) with $\\vec B$. Forces on the sides perpendicular to the *original* orientation (QR, SP) turn out equal, opposite, and **collinear** — their resultant is zero. Forces on the other pair (PQ, RS) are equal, opposite, but **not collinear** — these constitute the torque:\n$$\\tau = (ILB\\sin\\theta)\\times b = IAB\\sin\\theta$$\n$$\\boxed{\\vec\\tau = I(\\vec A\\times\\vec B)}, \\qquad |\\tau| = IAB\\sin\\theta$$\nThe special case above ($\\theta=90°$, $\\sin\\theta=1$, $\\tau=IAB$) is the **maximum-torque** special case of this general result.\n"
+}

@@ -1,0 +1,107 @@
+{
+  "file_id": "1JTTKsxBW4FNxDa_gPLqQi2ZlMUSQYVch",
+  "chapter_id": "leph102",
+  "title": "Redistribution of Charges, Dielectric Strength, and Kirchhoff's Laws for Capacitor Networks",
+  "duration_seconds": 2590.87,
+  "claims": [
+    {
+      "text": "Redistribution of charges: two separately-charged capacitors (Q1=C1V1, Q2=C2V2) connected together (positive-to-positive) end up connected in PARALLEL (same final voltage V, different final charges Q1', Q2'), not series -- charge conservation gives Q1+Q2=Q1'+Q2', and the common final potential is V = (Q1+Q2)/(C1+C2) = (C1V1+C2V2)/(C1+C2)",
+      "transcript_span": [
+        4.1,
+        405.4
+      ],
+      "frame_path": "data/lectures/leph102/1JTTKsxBW4FNxDa_gPLqQi2ZlMUSQYVch/frames/floor_000009.jpg",
+      "ncert_section": "2.11",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Connecting two differently-charged capacitors always causes a loss of energy (as heat in the connecting wires), even though total charge is conserved. Deriving Ui - Uf using U=(1/2)CV^2 and simplifying gives delta U = (1/2)[C1C2/(C1+C2)](V1-V2)^2, which is always positive (a squared quantity), confirming Ui > Uf whenever V1 != V2",
+      "transcript_span": [
+        533.3,
+        837.8
+      ],
+      "frame_path": null,
+      "ncert_section": "2.11",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Worked numerical: a 10 microF capacitor charged by 30 V DC is then connected to an uncharged 50 microF capacitor. Find the final (common) potential difference and the initial/final energies, and account for the difference between them (this is the same scenario as NCERT's own Example 2.10, with different numeric values)",
+      "transcript_span": [
+        837.8,
+        1434.9
+      ],
+      "frame_path": "data/lectures/leph102/1JTTKsxBW4FNxDa_gPLqQi2ZlMUSQYVch/frames/floor_000031.jpg",
+      "ncert_section": "2.11",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Worked example: a small sphere (radius r, charge +q) and a large sphere (radius R, charge +Q) are connected by a wire -- which way do charges flow? Using potential inside a sphere = potential on its surface (from an earlier lecture), VA - VB = (Q/4 pi eps0)(1/r - 1/R). Since r<R, VA>VB, so charges flow from the smaller sphere (A) to the larger sphere (B), i.e. from higher to lower potential -- NOT necessarily from more charge to less charge",
+      "transcript_span": [
+        1434.9,
+        2042.8
+      ],
+      "frame_path": null,
+      "ncert_section": "2.5",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Dielectric strength of a dielectric is the maximum electric field it can withstand without breakdown of its insulating property -- distinct from dielectric constant K (dimensionless). Vacuum has infinite dielectric strength (nothing to ionise); air's dielectric strength is about 3x10^6 V/m. Exceeding it causes breakdown: bound charges get torn free and the material starts conducting/leaking charge",
+      "transcript_span": [
+        2042.8,
+        2333.0
+      ],
+      "frame_path": null,
+      "ncert_section": "2.11",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Kirchhoff's laws applied to a capacitor network: (1) in an isolated system, net charge is conserved -- sum of charges is constant; (2) around any loop, sum of voltage sources plus sum of Q/C terms equals zero (sum V + sum Q/C = 0), the capacitor-network analogue of Kirchhoff's voltage law for resistor circuits",
+      "transcript_span": null,
+      "frame_path": "data/lectures/leph102/1JTTKsxBW4FNxDa_gPLqQi2ZlMUSQYVch/frames/floor_000113.jpg",
+      "ncert_section": null,
+      "ncert_agreement": null
+    }
+  ],
+  "uncertain_spans": [
+    {
+      "start_seconds": 2280.0,
+      "end_seconds": 2590.87,
+      "reason": "Board frames show a page titled 'Kirchhoff's laws in capacitors' beginning to be written at t=2120s (floor_000107, page still blank) and fully complete with both stated laws and a worked circuit by t=2240s (floor_000113) -- comfortably within this lecture's own duration and matching the third topic named in its filename. The transcript, however, never once mentions Kirchhoff -- its own narration is still mid-way through the dielectric-strength discussion (vacuum/air breakdown fields, a paper-capacitor breakdown example, and a 'can you charge a 1m-radius sphere with 1 coulomb?' worked question) right up to its last segment at t=2603s, with the paper-breakdown example itself repeated near-verbatim twice (t=2378-2467s and again t=2499-2581s) before the transcript ends without ever resolving the sphere-charging question. This matches the same delayed-repetition-then-substitution pattern found in other lectures in this chapter. The Kirchhoff's-laws claim above is grounded entirely from the board frame; the dielectric-strength claim above uses only the transcript's first (non-duplicated) pass through that material."
+    }
+  ],
+  "ncert_sections_covered": [
+    "2.11"
+  ],
+  "frame_paths": [
+    "data/lectures/leph102/1JTTKsxBW4FNxDa_gPLqQi2ZlMUSQYVch/frames/floor_000001.jpg",
+    "data/lectures/leph102/1JTTKsxBW4FNxDa_gPLqQi2ZlMUSQYVch/frames/floor_000009.jpg",
+    "data/lectures/leph102/1JTTKsxBW4FNxDa_gPLqQi2ZlMUSQYVch/frames/floor_000026.jpg",
+    "data/lectures/leph102/1JTTKsxBW4FNxDa_gPLqQi2ZlMUSQYVch/frames/floor_000027.jpg",
+    "data/lectures/leph102/1JTTKsxBW4FNxDa_gPLqQi2ZlMUSQYVch/frames/floor_000031.jpg",
+    "data/lectures/leph102/1JTTKsxBW4FNxDa_gPLqQi2ZlMUSQYVch/frames/floor_000032.jpg",
+    "data/lectures/leph102/1JTTKsxBW4FNxDa_gPLqQi2ZlMUSQYVch/frames/floor_000035.jpg",
+    "data/lectures/leph102/1JTTKsxBW4FNxDa_gPLqQi2ZlMUSQYVch/frames/floor_000037.jpg",
+    "data/lectures/leph102/1JTTKsxBW4FNxDa_gPLqQi2ZlMUSQYVch/frames/floor_000043.jpg",
+    "data/lectures/leph102/1JTTKsxBW4FNxDa_gPLqQi2ZlMUSQYVch/frames/floor_000044.jpg",
+    "data/lectures/leph102/1JTTKsxBW4FNxDa_gPLqQi2ZlMUSQYVch/frames/floor_000046.jpg",
+    "data/lectures/leph102/1JTTKsxBW4FNxDa_gPLqQi2ZlMUSQYVch/frames/floor_000051.jpg",
+    "data/lectures/leph102/1JTTKsxBW4FNxDa_gPLqQi2ZlMUSQYVch/frames/floor_000056.jpg",
+    "data/lectures/leph102/1JTTKsxBW4FNxDa_gPLqQi2ZlMUSQYVch/frames/floor_000059.jpg",
+    "data/lectures/leph102/1JTTKsxBW4FNxDa_gPLqQi2ZlMUSQYVch/frames/floor_000061.jpg",
+    "data/lectures/leph102/1JTTKsxBW4FNxDa_gPLqQi2ZlMUSQYVch/frames/floor_000064.jpg",
+    "data/lectures/leph102/1JTTKsxBW4FNxDa_gPLqQi2ZlMUSQYVch/frames/floor_000067.jpg",
+    "data/lectures/leph102/1JTTKsxBW4FNxDa_gPLqQi2ZlMUSQYVch/frames/floor_000072.jpg",
+    "data/lectures/leph102/1JTTKsxBW4FNxDa_gPLqQi2ZlMUSQYVch/frames/floor_000075.jpg",
+    "data/lectures/leph102/1JTTKsxBW4FNxDa_gPLqQi2ZlMUSQYVch/frames/floor_000083.jpg",
+    "data/lectures/leph102/1JTTKsxBW4FNxDa_gPLqQi2ZlMUSQYVch/frames/floor_000085.jpg",
+    "data/lectures/leph102/1JTTKsxBW4FNxDa_gPLqQi2ZlMUSQYVch/frames/floor_000092.jpg",
+    "data/lectures/leph102/1JTTKsxBW4FNxDa_gPLqQi2ZlMUSQYVch/frames/floor_000093.jpg",
+    "data/lectures/leph102/1JTTKsxBW4FNxDa_gPLqQi2ZlMUSQYVch/frames/floor_000098.jpg",
+    "data/lectures/leph102/1JTTKsxBW4FNxDa_gPLqQi2ZlMUSQYVch/frames/floor_000100.jpg",
+    "data/lectures/leph102/1JTTKsxBW4FNxDa_gPLqQi2ZlMUSQYVch/frames/floor_000103.jpg",
+    "data/lectures/leph102/1JTTKsxBW4FNxDa_gPLqQi2ZlMUSQYVch/frames/floor_000106.jpg",
+    "data/lectures/leph102/1JTTKsxBW4FNxDa_gPLqQi2ZlMUSQYVch/frames/floor_000107.jpg",
+    "data/lectures/leph102/1JTTKsxBW4FNxDa_gPLqQi2ZlMUSQYVch/frames/floor_000113.jpg"
+  ],
+  "markdown_body": "## Redistribution of charges (NCERT 2.11, cf. Example 2.10)\n\nTwo capacitors, separately charged ($Q_1=C_1V_1$, $Q_2=C_2V_2$), connected together (positive plate to positive plate): once connected, charge redistributes until both reach the **same potential** $V$. This makes them effectively **parallel** (same $V$, different $Q_1', Q_2'$), even though the connection can visually resemble a series arrangement.\n\nBy charge conservation, $Q_1+Q_2 = Q_1'+Q_2'$, and the common potential is:\n$$V = \\frac{Q_1+Q_2}{C_1+C_2} = \\frac{C_1V_1+C_2V_2}{C_1+C_2}$$\n\n### Energy loss on redistribution\nEven though charge is conserved, energy is **not**. Using $U=\\frac12CV^2$ for the initial (separate) and final (common-potential) states and simplifying:\n$$\\Delta U = U_i - U_f = \\frac{1}{2}\\frac{C_1C_2}{C_1+C_2}(V_1-V_2)^2$$\nThis is always $\\geq 0$ (a squared quantity), so $U_i \\geq U_f$ whenever $V_1\\neq V_2$ — the \"lost\" energy is dissipated as heat in the connecting wires during the transient redistribution. Nothing about this process is free.\n\n**Worked numerical** (matching the structure of NCERT Example 2.10): a $10~\\mu\\text{F}$ capacitor charged by $30$ V DC is connected to an uncharged $50~\\mu\\text{F}$ capacitor — find the common potential, the initial and final energies, and account for the difference.\n\n### Worked example: which way do charges flow?\nTwo spheres — radius $r$ with charge $+q$, radius $R$ with charge $+Q$ — connected by a wire. Using potential-inside-a-sphere-equals-potential-on-surface (from an earlier lecture):\n$$V_A - V_B = \\frac{Q}{4\\pi\\varepsilon_0}\\left(\\frac{1}{r}-\\frac{1}{R}\\right)$$\nSince $r<R$, this is positive, so $V_A > V_B$: charges flow from the **smaller** sphere to the **larger** one. The general rule is charges flow from **higher to lower potential**, not simply from \"more charge\" to \"less charge\" — the two are not the same thing.\n\n## Dielectric strength (NCERT 2.11)\n\nDistinct from dielectric constant $K$ (dimensionless): the **dielectric strength** of a material is the maximum electric field it can withstand without breakdown of its insulating property. Vacuum's dielectric strength is infinite (nothing there to ionise); air's is about $3\\times10^6$ V/m. Beyond this field, bound charges get torn free and the material starts conducting, letting stored charge leak away — this is why a capacitor's practical charge-storage limit is set by breakdown, not just by $C=Q/V$ alone.\n\n## Kirchhoff's laws for capacitor networks\n\n1. **Charge conservation in an isolated system:** the net charge is constant, $\\sum Q = 0$ for any change.\n2. **Loop rule:** around any closed loop in a capacitor network, $\\sum V + \\sum \\dfrac{Q}{C} = 0$ — the capacitor-network analogue of Kirchhoff's voltage law used for resistor circuits (covered in the Current Electricity chapter).\n\n---\n*Note on this lecture's transcript:* the Kirchhoff's-laws section above is grounded entirely from a board frame -- the transcript's own narration never reaches it, instead getting stuck repeating a dielectric-strength worked example and ending on an unresolved question. See the flagged span below.\n"
+}

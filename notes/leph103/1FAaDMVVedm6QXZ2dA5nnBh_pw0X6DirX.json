@@ -1,0 +1,139 @@
+{
+  "file_id": "1FAaDMVVedm6QXZ2dA5nnBh_pw0X6DirX",
+  "chapter_id": "leph103",
+  "title": "N Identical Cells, Kirchhoff's Rules, Wheatstone Bridge, and Resistors in Series/Parallel",
+  "duration_seconds": 2889.57,
+  "claims": [
+    {
+      "text": "N identical cells (EMF E, internal resistance r each) in SERIES with external resistance R: total EMF=NE, total internal resistance=Nr, so I=NE/(R+Nr). If R>>Nr, I=NE/R=N x (current due to one cell) -- worth connecting in series. If R<<Nr, I=E/r, same as a single cell -- no benefit to adding more cells in series. Conclusion: cells are connected in series only when external resistance is much greater than the total internal resistance",
+      "transcript_span": [
+        1.4,
+        326.1
+      ],
+      "frame_path": "data/lectures/leph103/1FAaDMVVedm6QXZ2dA5nnBh_pw0X6DirX/frames/floor_000019.jpg",
+      "ncert_section": "3.11",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "N identical cells (EMF E, internal resistance r each) in PARALLEL with external resistance R: net EMF=E (all cells at the same EMF between the two junction points), net internal resistance=r/N, so I=E/(R+r/N). If R>>r/N, I=E/R, same as a single cell -- no benefit. If R<<r/N, I=NE/r=N x (current due to one cell) -- worth connecting in parallel. Conclusion: cells are connected in parallel only when external resistance is much smaller than internal resistance",
+      "transcript_span": [
+        326.1,
+        600.0
+      ],
+      "frame_path": "data/lectures/leph103/1FAaDMVVedm6QXZ2dA5nnBh_pw0X6DirX/frames/floor_000019.jpg",
+      "ncert_section": "3.11",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Kirchhoff's first law (junction/current law): the algebraic sum of currents meeting at any junction is zero (sum I = 0) -- equivalently, current entering a junction equals current leaving it. Before solving a circuit, assume a direction for each unknown current; if the assumption is wrong the final numeric answer simply comes out negative",
+      "transcript_span": [
+        600.0,
+        1107.8
+      ],
+      "frame_path": null,
+      "ncert_section": "3.12",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Kirchhoff's second law (loop/voltage law): in any closed loop, the algebraic sum of potential differences (EMFs and IR drops) is zero -- based on conservation of energy. Sign convention used: a potential DROP in the direction you are traversing (same direction as assumed current, or through a cell from + to -) is taken negative; a RISE (opposite to assumed current, or through a cell from - to +) is taken positive. Consistency in applying one convention throughout is essential -- mixing conventions mid-problem gives wrong answers",
+      "transcript_span": [
+        1107.8,
+        1461.3
+      ],
+      "frame_path": "data/lectures/leph103/1FAaDMVVedm6QXZ2dA5nnBh_pw0X6DirX/frames/floor_000110.jpg",
+      "ncert_section": "3.12",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Worked example applying both Kirchhoff's laws to a multi-branch circuit: assign unknown currents (I1, I2, I3) at a junction using the first law (I1=I2+I3, reducing the unknowns needed), then apply the second law around two independent loops to get two more equations, and solve the resulting simultaneous equations for the currents. In general, N unknown currents require N independent simultaneous equations (from combining junction and loop equations)",
+      "transcript_span": [
+        1461.3,
+        1841.3
+      ],
+      "frame_path": null,
+      "ncert_section": "3.12",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Wheatstone bridge network: four resistors R1, R2, R3, R4 arranged in a diamond/bridge shape, with a galvanometer (resistance G) connected across the bridge diagonal. Balance condition: R1/R2 = R3/R4. When balanced, points B and C (the galvanometer's two ends) are at equal potential (VB=VC), so no current flows through the galvanometer (IG=0) -- proved by applying Kirchhoff's loop law to two loops of the bridge and imposing IG=0",
+      "transcript_span": [
+        1841.3,
+        2409.3
+      ],
+      "frame_path": "data/lectures/leph103/1FAaDMVVedm6QXZ2dA5nnBh_pw0X6DirX/frames/floor_000110.jpg",
+      "ncert_section": "3.13",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Practical use of a balanced Wheatstone bridge: since no current flows through the bridge (galvanometer) arm when balanced, that resistor can simply be removed/neglected from the circuit for the purpose of calculating equivalent resistance, leaving a simpler series-parallel combination of the remaining resistors to solve",
+      "transcript_span": [
+        2400.0,
+        2471.4
+      ],
+      "frame_path": null,
+      "ncert_section": "3.13",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Worked circuit-simplification examples (effective/equivalent resistance between two points A and B): for two resistors of the same value along genuinely separate parallel paths, combine via the series-then-parallel formula R_eff = R1 R2/(R1+R2) (valid only for exactly two resistors in parallel). For symmetric networks where multiple points are actually electrically identical (connected by plain wire, zero resistance), first identify and relabel those equivalent points -- this can reveal that several resistors are secretly all in parallel between the same two effective nodes, e.g. three 1-ohm resistors all effectively between A and B giving R_eff = 1/3 ohm by the reciprocal rule",
+      "transcript_span": [
+        2471.4,
+        2890.9
+      ],
+      "frame_path": "data/lectures/leph103/1FAaDMVVedm6QXZ2dA5nnBh_pw0X6DirX/frames/floor_000144.jpg",
+      "ncert_section": null,
+      "ncert_agreement": "agrees"
+    }
+  ],
+  "uncertain_spans": [
+    {
+      "start_seconds": 2855.0,
+      "end_seconds": 2889.57,
+      "reason": "This is a clean truncation at the natural end of the recording rather than a repetition or substitution artifact: the transcript's last segment ends mid-sentence while labelling a new 5-resistor (R1-R5) network for one final effective-resistance example, and the last board frame (floor_000144.jpg, at the true end of the recording) shows that same network redrawn in its equivalent Wheatstone-bridge diamond shape, ready for balance-condition analysis -- but the lecture simply ends there, with no numeric answer worked out in either the transcript or any captured frame. This final example is therefore left unsolved in this note rather than guessed at."
+    }
+  ],
+  "ncert_sections_covered": [
+    "3.11",
+    "3.12",
+    "3.13"
+  ],
+  "frame_paths": [
+    "data/lectures/leph103/1FAaDMVVedm6QXZ2dA5nnBh_pw0X6DirX/frames/floor_000001.jpg",
+    "data/lectures/leph103/1FAaDMVVedm6QXZ2dA5nnBh_pw0X6DirX/frames/floor_000005.jpg",
+    "data/lectures/leph103/1FAaDMVVedm6QXZ2dA5nnBh_pw0X6DirX/frames/floor_000006.jpg",
+    "data/lectures/leph103/1FAaDMVVedm6QXZ2dA5nnBh_pw0X6DirX/frames/floor_000009.jpg",
+    "data/lectures/leph103/1FAaDMVVedm6QXZ2dA5nnBh_pw0X6DirX/frames/floor_000013.jpg",
+    "data/lectures/leph103/1FAaDMVVedm6QXZ2dA5nnBh_pw0X6DirX/frames/floor_000019.jpg",
+    "data/lectures/leph103/1FAaDMVVedm6QXZ2dA5nnBh_pw0X6DirX/frames/floor_000023.jpg",
+    "data/lectures/leph103/1FAaDMVVedm6QXZ2dA5nnBh_pw0X6DirX/frames/floor_000025.jpg",
+    "data/lectures/leph103/1FAaDMVVedm6QXZ2dA5nnBh_pw0X6DirX/frames/floor_000029.jpg",
+    "data/lectures/leph103/1FAaDMVVedm6QXZ2dA5nnBh_pw0X6DirX/frames/floor_000031.jpg",
+    "data/lectures/leph103/1FAaDMVVedm6QXZ2dA5nnBh_pw0X6DirX/frames/floor_000047.jpg",
+    "data/lectures/leph103/1FAaDMVVedm6QXZ2dA5nnBh_pw0X6DirX/frames/floor_000051.jpg",
+    "data/lectures/leph103/1FAaDMVVedm6QXZ2dA5nnBh_pw0X6DirX/frames/floor_000052.jpg",
+    "data/lectures/leph103/1FAaDMVVedm6QXZ2dA5nnBh_pw0X6DirX/frames/floor_000073.jpg",
+    "data/lectures/leph103/1FAaDMVVedm6QXZ2dA5nnBh_pw0X6DirX/frames/floor_000077.jpg",
+    "data/lectures/leph103/1FAaDMVVedm6QXZ2dA5nnBh_pw0X6DirX/frames/floor_000084.jpg",
+    "data/lectures/leph103/1FAaDMVVedm6QXZ2dA5nnBh_pw0X6DirX/frames/floor_000089.jpg",
+    "data/lectures/leph103/1FAaDMVVedm6QXZ2dA5nnBh_pw0X6DirX/frames/floor_000090.jpg",
+    "data/lectures/leph103/1FAaDMVVedm6QXZ2dA5nnBh_pw0X6DirX/frames/floor_000093.jpg",
+    "data/lectures/leph103/1FAaDMVVedm6QXZ2dA5nnBh_pw0X6DirX/frames/floor_000097.jpg",
+    "data/lectures/leph103/1FAaDMVVedm6QXZ2dA5nnBh_pw0X6DirX/frames/floor_000099.jpg",
+    "data/lectures/leph103/1FAaDMVVedm6QXZ2dA5nnBh_pw0X6DirX/frames/floor_000101.jpg",
+    "data/lectures/leph103/1FAaDMVVedm6QXZ2dA5nnBh_pw0X6DirX/frames/floor_000110.jpg",
+    "data/lectures/leph103/1FAaDMVVedm6QXZ2dA5nnBh_pw0X6DirX/frames/floor_000113.jpg",
+    "data/lectures/leph103/1FAaDMVVedm6QXZ2dA5nnBh_pw0X6DirX/frames/floor_000114.jpg",
+    "data/lectures/leph103/1FAaDMVVedm6QXZ2dA5nnBh_pw0X6DirX/frames/floor_000115.jpg",
+    "data/lectures/leph103/1FAaDMVVedm6QXZ2dA5nnBh_pw0X6DirX/frames/floor_000118.jpg",
+    "data/lectures/leph103/1FAaDMVVedm6QXZ2dA5nnBh_pw0X6DirX/frames/floor_000121.jpg",
+    "data/lectures/leph103/1FAaDMVVedm6QXZ2dA5nnBh_pw0X6DirX/frames/floor_000122.jpg",
+    "data/lectures/leph103/1FAaDMVVedm6QXZ2dA5nnBh_pw0X6DirX/frames/floor_000127.jpg",
+    "data/lectures/leph103/1FAaDMVVedm6QXZ2dA5nnBh_pw0X6DirX/frames/floor_000128.jpg",
+    "data/lectures/leph103/1FAaDMVVedm6QXZ2dA5nnBh_pw0X6DirX/frames/floor_000131.jpg",
+    "data/lectures/leph103/1FAaDMVVedm6QXZ2dA5nnBh_pw0X6DirX/frames/floor_000132.jpg",
+    "data/lectures/leph103/1FAaDMVVedm6QXZ2dA5nnBh_pw0X6DirX/frames/floor_000136.jpg",
+    "data/lectures/leph103/1FAaDMVVedm6QXZ2dA5nnBh_pw0X6DirX/frames/floor_000139.jpg",
+    "data/lectures/leph103/1FAaDMVVedm6QXZ2dA5nnBh_pw0X6DirX/frames/floor_000144.jpg"
+  ],
+  "markdown_body": "## N identical cells in series and parallel (NCERT 3.11)\n\n### In series (with external resistance $R$)\n$$I = \\frac{N\\mathcal E}{R+Nr}$$\n- $R\\gg Nr$: $I \\approx N\\mathcal E/R = N\\times$(current from one cell) — worth connecting in series.\n- $R\\ll Nr$: $I\\approx \\mathcal E/r$, same as a single cell — no benefit.\n\n**Conclusion:** connect cells in series only when external resistance is much greater than total internal resistance.\n\n### In parallel (with external resistance $R$)\nNet EMF $=\\mathcal E$ (all cells share the same EMF between the junction points), net internal resistance $=r/N$:\n$$I = \\frac{\\mathcal E}{R+r/N}$$\n- $R\\gg r/N$: $I\\approx\\mathcal E/R$, same as a single cell — no benefit.\n- $R\\ll r/N$: $I\\approx N\\mathcal E/r = N\\times$(current from one cell) — worth connecting in parallel.\n\n**Conclusion:** connect cells in parallel only when external resistance is much smaller than internal resistance.\n\n## Kirchhoff's rules (NCERT 3.12)\n\n**First law (junction rule):** $\\sum I = 0$ at any junction — current in equals current out. Assume a direction for each unknown current before solving; a wrong guess simply comes out negative in the answer.\n\n**Second law (loop rule):** around any closed loop, $\\sum(\\text{EMFs and }IR\\text{ drops}) = 0$ (conservation of energy). **Sign convention:** a potential *drop* in the direction you're tracing (same as assumed current, or through a cell $+\\to-$) is negative; a *rise* is positive. Pick one convention and use it consistently for the whole problem — mixing conventions mid-solution gives wrong answers.\n\n**Solving a circuit:** assign unknown currents using the junction rule (reduces the count of unknowns needed), then write loop equations for enough independent loops to match the number of remaining unknowns, and solve simultaneously.\n\n## Wheatstone bridge (NCERT 3.13)\n\nFour resistors $R_1,R_2,R_3,R_4$ in a diamond/bridge arrangement, galvanometer (resistance $G$) across the diagonal. **Balance condition:**\n$$\\boxed{\\frac{R_1}{R_2} = \\frac{R_3}{R_4}}$$\nWhen balanced, the galvanometer's two ends are at equal potential, so **no current flows through it** ($I_G=0$) — provable by applying the loop rule to two loops of the bridge and setting $I_G=0$.\n\n**Practical use:** in a balanced bridge, the galvanometer-arm resistor can simply be dropped from the circuit for equivalent-resistance calculations, leaving a simpler series-parallel network.\n\n## Resistors in series and parallel: worked simplifications\n\n- Two resistors in parallel: $R_{eff} = \\dfrac{R_1R_2}{R_1+R_2}$ (only valid for exactly two).\n- For symmetric networks, first check whether multiple labelled points are actually the *same* electrical node (connected by plain, zero-resistance wire) — relabelling them can reveal resistors are secretly all in parallel between the same two effective points. Example: three $1\\,\\Omega$ resistors that turn out to all sit between the same two nodes $A,B$ give $R_{eff}=1/3\\,\\Omega$ by the reciprocal rule.\n\n---\n*Note on this lecture's transcript:* the final worked example (a 5-resistor bridge-shaped network) is left unsolved -- the recording ends with it redrawn in equivalent bridge form, before a numeric answer is reached in either the transcript or the board frames. See the flagged span below.\n"
+}

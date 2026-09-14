@@ -1,0 +1,92 @@
+{
+  "file_id": "1o1xVs4A_TTbRRuik2XvJPy-FxBHNWhRf",
+  "chapter_id": "leph106",
+  "title": "Motional EMF: Polarity, Numericals, Rotating Rod, and Energy Consideration",
+  "duration_seconds": 1958.03,
+  "claims": [
+    {
+      "text": "Finding which end of a rod moving through a magnetic field becomes positive/negative: a rod (made of many positive and negative charges) moves with velocity v through field B. Using F=qv x B on the positive charges, force accumulates positive charge at one end (say A) and negative at the other (B). As charges accumulate, they set up their own electric field opposing further accumulation; equilibrium is reached when the electric force FE equals the magnetic force FM on the charges. The rod then behaves as if a fictitious battery is connected across it (though no battery is actually there -- it is charge separation), giving the direction of the motional EMF",
+      "transcript_span": [
+        2.943,
+        654.0
+      ],
+      "frame_path": "data/lectures/leph106/1o1xVs4A_TTbRRuik2XvJPy-FxBHNWhRf/frames/floor_000020.jpg",
+      "ncert_section": "6.6",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Worked numerical (jet plane in Earth's magnetic field): a jet plane, wingspan (length) l=25 m, flies west at v=1800 km/hr. Only the Earth's HORIZONTAL field component BH (not the vertical component BV, since BV is parallel to the wing length l and so contributes nothing -- all three of v, l, and B must be mutually perpendicular for motional EMF) is relevant, since BH is perpendicular to both v and l. Given B=5x10^-4 T and angle of dip delta=30 degrees, BH = B cos(delta) = 5x10^-4 x (root3/2). EMF = BH x l x v (v converted to m/s via x5/18). Polarity found the same way as above (F=qv x B on positive charges) -- for this configuration, wingtip A comes out negative and B positive",
+      "transcript_span": [
+        654.0,
+        1226.0
+      ],
+      "frame_path": "data/lectures/leph106/1o1xVs4A_TTbRRuik2XvJPy-FxBHNWhRf/frames/floor_000026.jpg",
+      "ncert_section": "6.6",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "EMF induced due to rotation of a conductor in a uniform magnetic field: a rod of length l, hinged at one end (centre) and free at the other, rotates with angular velocity omega in a uniform field B (parallel to the rotation axis). Considering the small EMF contributed by an element of the rod and integrating (calculus setup: d(flux) over dt), the total EMF between the centre and the outer end works out to epsilon = (1/2) B omega l^2",
+      "transcript_span": [
+        1775.0,
+        1970.0
+      ],
+      "frame_path": "data/lectures/leph106/1o1xVs4A_TTbRRuik2XvJPy-FxBHNWhRf/frames/floor_000064.jpg",
+      "ncert_section": "6.6",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Worked numerical (rotating rod): a metallic rod of length 1 m is rotated at a frequency of 50 rev/s, one end hinged at the centre, the other end at the circumference of a circular metallic ring of radius 1 m, about an axis through the centre perpendicular to the ring's plane. A uniform field B=1 T is parallel to the axis everywhere. Find the EMF between the centre and the ring. Solution: omega=2*pi*nu=2*pi*50 rad/s; epsilon=(1/2)*B*omega*l^2=(1/2)(1)(2*pi*50)(1)^2=50*pi volts",
+      "transcript_span": null,
+      "frame_path": "data/lectures/leph106/1o1xVs4A_TTbRRuik2XvJPy-FxBHNWhRf/frames/floor_000064.jpg",
+      "ncert_section": "6.6",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Second worked numerical (started on the board, NCERT-style): a wheel with 10 metallic spokes, each 0.5 m long, is rotated at 120 rev/min in a plane normal to the horizontal component of Earth's magnetic field HE at a place, where HE=0.4 gauss",
+      "transcript_span": null,
+      "frame_path": "data/lectures/leph106/1o1xVs4A_TTbRRuik2XvJPy-FxBHNWhRf/frames/floor_000064.jpg",
+      "ncert_section": "6.6",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Energy consideration in a motional-EMF circuit: a conducting rod ab (length l) slides with velocity v on rails cd, connected via a resistor R, in field B. EMF epsilon=Blv, current i=Blv/R. The magnetic force on the current-carrying rod is Fm=BIl=B^2l^2v/R, directed opposite to v (by Fleming's left-hand rule / F=I(l x B), consistent with Lenz's law). To keep the rod moving at constant velocity, an external applied force F=B^2l^2v/R (equal and opposite to Fm) must be supplied. The rate at which this applied force does work is P_applied = F*v = B^2l^2v^2/R. The rate at which electrical energy is dissipated in the circuit is P_dissipated = I^2*R = (Blv/R)^2*R = B^2l^2v^2/R. Since these are equal, P_applied=P_dissipated -- confirming energy conservation: the mechanical work done in pushing the rod is exactly converted into electrical energy dissipated in the resistor",
+      "transcript_span": null,
+      "frame_path": "data/lectures/leph106/1o1xVs4A_TTbRRuik2XvJPy-FxBHNWhRf/frames/floor_000096.jpg",
+      "ncert_section": "6.6",
+      "ncert_agreement": "agrees"
+    }
+  ],
+  "uncertain_spans": [
+    {
+      "start_seconds": 654.0,
+      "end_seconds": 1775.0,
+      "reason": "The jet-plane numerical (motional EMF, Earth's field) is transcribed correctly once (~t=654-1226s), but the ASR then re-transcribes essentially the same explanation nearly verbatim a second time (~t=1226-1775s) -- the same delayed-repetition pattern found repeatedly in this chapter's and Ch5's lectures. Board frames show that by real video time t=1260s the class has already finished this numerical AND completed the rotating-rod EMF derivation (epsilon=(1/2)*B*omega*l^2) plus solved a full worked numerical on it (metallic rod, 50 rev/s, giving 50*pi V) and started a second one (wheel with 10 spokes) -- meaning the transcript's self-reported timestamps for its second half are significantly drifted later than real video time due to this internal duplication. The rotating-rod claims above are grounded from frames rather than the transcript's own words, since the transcript (in its own, drifted timeline) only reaches the point of setting up the rotating-conductor problem before cutting off."
+    },
+    {
+      "start_seconds": 1775.0,
+      "end_seconds": 1958.03,
+      "reason": "The transcript's own words never get past setting up the rotating-rod problem (its last segment describes the rod and asks for the EMF between a and b, without deriving or solving it). Board frames, however, show that -- likely well within the true 1958s runtime, given the timestamp drift documented above -- the class not only completes the rotating-rod derivation and two numericals but goes on to a full 'Energy consideration in motional EMF' derivation (floor_000079.jpg, floor_000096.jpg): the magnetic braking force on the rod, the applied force needed to sustain constant velocity, and the equality of applied mechanical power and dissipated electrical power. This entire topic -- named directly in this lecture's own filename ('numericals, energy consideration') -- is completely absent from the transcript's own words and is grounded here entirely from frames."
+    }
+  ],
+  "ncert_sections_covered": [
+    "6.6"
+  ],
+  "frame_paths": [
+    "data/lectures/leph106/1o1xVs4A_TTbRRuik2XvJPy-FxBHNWhRf/frames/floor_000001.jpg",
+    "data/lectures/leph106/1o1xVs4A_TTbRRuik2XvJPy-FxBHNWhRf/frames/floor_000020.jpg",
+    "data/lectures/leph106/1o1xVs4A_TTbRRuik2XvJPy-FxBHNWhRf/frames/floor_000022.jpg",
+    "data/lectures/leph106/1o1xVs4A_TTbRRuik2XvJPy-FxBHNWhRf/frames/floor_000026.jpg",
+    "data/lectures/leph106/1o1xVs4A_TTbRRuik2XvJPy-FxBHNWhRf/frames/floor_000034.jpg",
+    "data/lectures/leph106/1o1xVs4A_TTbRRuik2XvJPy-FxBHNWhRf/frames/floor_000035.jpg",
+    "data/lectures/leph106/1o1xVs4A_TTbRRuik2XvJPy-FxBHNWhRf/frames/floor_000050.jpg",
+    "data/lectures/leph106/1o1xVs4A_TTbRRuik2XvJPy-FxBHNWhRf/frames/floor_000055.jpg",
+    "data/lectures/leph106/1o1xVs4A_TTbRRuik2XvJPy-FxBHNWhRf/frames/floor_000060.jpg",
+    "data/lectures/leph106/1o1xVs4A_TTbRRuik2XvJPy-FxBHNWhRf/frames/floor_000064.jpg",
+    "data/lectures/leph106/1o1xVs4A_TTbRRuik2XvJPy-FxBHNWhRf/frames/floor_000068.jpg",
+    "data/lectures/leph106/1o1xVs4A_TTbRRuik2XvJPy-FxBHNWhRf/frames/floor_000070.jpg",
+    "data/lectures/leph106/1o1xVs4A_TTbRRuik2XvJPy-FxBHNWhRf/frames/floor_000076.jpg",
+    "data/lectures/leph106/1o1xVs4A_TTbRRuik2XvJPy-FxBHNWhRf/frames/floor_000079.jpg",
+    "data/lectures/leph106/1o1xVs4A_TTbRRuik2XvJPy-FxBHNWhRf/frames/floor_000096.jpg"
+  ],
+  "markdown_body": "## Motional EMF: polarity, and worked numericals (NCERT 6.6)\n\n**Finding polarity:** for a rod moving with velocity $v$ through field $B$, using $\\vec F=q\\vec v\\times\\vec B$ on the rod's free charges, positive charge accumulates at one end and negative at the other, until the resulting internal electric field balances the magnetic force ($F_E=F_M$ at equilibrium). The rod then behaves like a fictitious battery — no battery is actually present, only charge separation.\n\n### Worked numerical: jet plane in Earth's field\nA jet, wingspan $l=25$ m, flies west at $v=1800$ km/hr. Only Earth's **horizontal** field component $B_H$ matters (the vertical component $B_V$ is parallel to $l$, so contributes nothing — $v$, $l$, $B$ must all be mutually perpendicular). With $B=5\\times10^{-4}$ T, dip angle $\\delta=30°$:\n$$B_H = B\\cos\\delta = 5\\times10^{-4}\\times\\frac{\\sqrt3}{2}$$\n$$\\varepsilon = B_H\\, l\\, v \\qquad (v \\text{ in m/s, via} \\times 5/18)$$\nPolarity found the same way as above via $\\vec F=q\\vec v\\times\\vec B$.\n\n## EMF from a rotating conductor\n\nA rod of length $l$, hinged at the centre and free at the other end, rotates with angular velocity $\\omega$ in a uniform field $B$ parallel to the rotation axis:\n$$\\boxed{\\varepsilon = \\frac{1}{2}B\\omega l^2}$$\n\n**Worked numerical:** rod length $1$ m, rotated at $50$ rev/s, hinged at the centre of a ring of radius $1$ m, $B=1$ T parallel to the axis. $\\omega=2\\pi\\nu=2\\pi(50)$ rad/s:\n$$\\varepsilon = \\frac{1}{2}(1)(2\\pi\\times50)(1)^2 = 50\\pi~\\text{V}$$\n\n**Second numerical (setup):** a wheel with $10$ metallic spokes, each $0.5$ m long, rotated at $120$ rev/min in a plane normal to Earth's horizontal field $H_E=0.4$ gauss.\n\n## Energy consideration in motional EMF (NCERT 6.6)\n\nConducting rod $ab$ (length $l$) slides with velocity $v$ on rails, closed through resistance $R$, in field $B$:\n$$\\varepsilon = Blv, \\qquad i = \\frac{Blv}{R}$$\nMagnetic force on the current-carrying rod, opposing $v$ (Lenz's law / Fleming's left-hand rule):\n$$F_m = BIl = \\frac{B^2l^2v}{R}$$\nTo keep the rod moving at **constant velocity**, an equal and opposite applied force $F=B^2l^2v/R$ is needed. Rate of work done by this applied force:\n$$P_\\text{applied} = Fv = \\frac{B^2l^2v^2}{R}$$\nRate of electrical energy dissipated in the circuit:\n$$P_\\text{dissipated} = I^2R = \\left(\\frac{Blv}{R}\\right)^2 R = \\frac{B^2l^2v^2}{R}$$\n$$\\boxed{P_\\text{applied} = P_\\text{dissipated}}$$\nconfirming energy conservation: mechanical work done pushing the rod converts exactly into dissipated electrical energy.\n\n---\n*Note on this lecture's transcript:* the jet-plane numerical is transcribed correctly once, then repeated nearly verbatim a second time, which drifted the transcript's own self-reported timestamps well behind real video time. As a result, three major topics that the board confirms were fully taught within the true ~1958s runtime — the completed rotating-rod derivation and its two numericals, and the entire \"energy consideration\" topic (this lecture's own second named topic) — never appear in the transcript's own words at all. All are grounded entirely from frames; see the flagged spans below.\n"
+}

@@ -1,0 +1,116 @@
+{
+  "file_id": "1lDdCUBMm8ldQidwi0dweVvbnx5PrBsul",
+  "chapter_id": "leph101",
+  "title": "Dielectric Constant, Coulomb's Law in Vector Form, and the Superposition Principle",
+  "duration_seconds": 1875.83,
+  "claims": [
+    {
+      "text": "In a medium other than vacuum, Coulomb's law uses the medium's absolute permittivity eps (not eps0): F=(1/4 pi eps)Q1Q2/r^2. Relative permittivity eps_r = eps/eps0 is preferred over the absolute value because it's a dimensionless ratio against a fixed reference (vacuum) -- analogous to specific gravity/relative density (water=1, mercury=13.6, kerosene=0.8 g/cm^3, always quoted relative to water)",
+      "transcript_span": [
+        5.9,
+        359.0
+      ],
+      "frame_path": "data/lectures/leph101/1lDdCUBMm8ldQidwi0dweVvbnx5PrBsul/frames/floor_000011.jpg",
+      "ncert_section": null,
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Relative permittivity eps_r is also called the dielectric constant, denoted K. So F=(1/4 pi eps0 K)Q1Q2/r^2 -- there is no difference between 'relative permittivity' and 'dielectric constant', they are the same quantity by two names",
+      "transcript_span": [
+        411.3,
+        554.1
+      ],
+      "frame_path": "data/lectures/leph101/1lDdCUBMm8ldQidwi0dweVvbnx5PrBsul/frames/floor_000046.jpg",
+      "ncert_section": null,
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Aside on CGS units: in the CGS system, Coulomb's law is written with the proportionality constant k taken as exactly 1 (i.e. 1/4 pi eps0 = 1 in CGS), and charge is measured in electrostatic units (esu, or statcoulomb) rather than coulombs, with 1 coulomb = 3x10^9 esu",
+      "transcript_span": [
+        608.0,
+        693.4
+      ],
+      "frame_path": null,
+      "ncert_section": null,
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Technique for a charge pair separated partly by vacuum and partly by a dielectric slab (thickness t, constant K, remaining distance r-t in vacuum): replace the dielectric-filled segment with an EQUIVALENT vacuum distance r0 = sqrt(K)*t (found by equating the force through thickness t of dielectric K to the force through an unknown vacuum distance r0), then treat the whole gap as vacuum with total effective distance (r-t)+sqrt(K)*t. Force: F = (1/4 pi eps0) Q1Q2 / [(r-t)+sqrt(K)t]^2",
+      "transcript_span": [
+        713.6,
+        1236.6
+      ],
+      "frame_path": "data/lectures/leph101/1lDdCUBMm8ldQidwi0dweVvbnx5PrBsul/frames/floor_000046.jpg",
+      "ncert_section": null,
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Coulomb's law in vector form: for charges Q1 (at position vector r1) and Q2 (at r2), the force on Q2 due to Q1 is F21 = (1/4 pi eps0) Q1Q2 (r2-r1) / |r2-r1|^3, equivalently written using the unit vector r12-hat as F21 = (1/4 pi eps0)(Q1Q2/r12^2) r12-hat. By Newton's third law F12 = -F21",
+      "transcript_span": [
+        1236.6,
+        1800.0
+      ],
+      "frame_path": "data/lectures/leph101/1lDdCUBMm8ldQidwi0dweVvbnx5PrBsul/frames/floor_000089.jpg",
+      "ncert_section": "1.5",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Principle of superposition: the net force on any one charge due to several other charges is the VECTOR sum of the individual pairwise Coulomb forces from each other charge, computed independently as if each other charge acted alone (using the triangle/parallelogram law of vector addition to combine them). E.g. for charges Q1..Q5, the force on Q4 is F(4 due to 1) + F(4 due to 2) + F(4 due to 3) + F(4 due to 5)",
+      "transcript_span": [
+        1800.0,
+        1850.5
+      ],
+      "frame_path": "data/lectures/leph101/1lDdCUBMm8ldQidwi0dweVvbnx5PrBsul/frames/floor_000089.jpg",
+      "ncert_section": "1.6",
+      "ncert_agreement": "agrees"
+    }
+  ],
+  "uncertain_spans": [],
+  "ncert_sections_covered": [
+    "1.5",
+    "1.6"
+  ],
+  "frame_paths": [
+    "data/lectures/leph101/1lDdCUBMm8ldQidwi0dweVvbnx5PrBsul/frames/floor_000001.jpg",
+    "data/lectures/leph101/1lDdCUBMm8ldQidwi0dweVvbnx5PrBsul/frames/floor_000002.jpg",
+    "data/lectures/leph101/1lDdCUBMm8ldQidwi0dweVvbnx5PrBsul/frames/floor_000004.jpg",
+    "data/lectures/leph101/1lDdCUBMm8ldQidwi0dweVvbnx5PrBsul/frames/floor_000006.jpg",
+    "data/lectures/leph101/1lDdCUBMm8ldQidwi0dweVvbnx5PrBsul/frames/floor_000007.jpg",
+    "data/lectures/leph101/1lDdCUBMm8ldQidwi0dweVvbnx5PrBsul/frames/floor_000008.jpg",
+    "data/lectures/leph101/1lDdCUBMm8ldQidwi0dweVvbnx5PrBsul/frames/floor_000011.jpg",
+    "data/lectures/leph101/1lDdCUBMm8ldQidwi0dweVvbnx5PrBsul/frames/floor_000016.jpg",
+    "data/lectures/leph101/1lDdCUBMm8ldQidwi0dweVvbnx5PrBsul/frames/floor_000017.jpg",
+    "data/lectures/leph101/1lDdCUBMm8ldQidwi0dweVvbnx5PrBsul/frames/floor_000022.jpg",
+    "data/lectures/leph101/1lDdCUBMm8ldQidwi0dweVvbnx5PrBsul/frames/floor_000024.jpg",
+    "data/lectures/leph101/1lDdCUBMm8ldQidwi0dweVvbnx5PrBsul/frames/floor_000028.jpg",
+    "data/lectures/leph101/1lDdCUBMm8ldQidwi0dweVvbnx5PrBsul/frames/floor_000029.jpg",
+    "data/lectures/leph101/1lDdCUBMm8ldQidwi0dweVvbnx5PrBsul/frames/floor_000031.jpg",
+    "data/lectures/leph101/1lDdCUBMm8ldQidwi0dweVvbnx5PrBsul/frames/floor_000038.jpg",
+    "data/lectures/leph101/1lDdCUBMm8ldQidwi0dweVvbnx5PrBsul/frames/floor_000039.jpg",
+    "data/lectures/leph101/1lDdCUBMm8ldQidwi0dweVvbnx5PrBsul/frames/floor_000041.jpg",
+    "data/lectures/leph101/1lDdCUBMm8ldQidwi0dweVvbnx5PrBsul/frames/floor_000044.jpg",
+    "data/lectures/leph101/1lDdCUBMm8ldQidwi0dweVvbnx5PrBsul/frames/floor_000046.jpg",
+    "data/lectures/leph101/1lDdCUBMm8ldQidwi0dweVvbnx5PrBsul/frames/floor_000047.jpg",
+    "data/lectures/leph101/1lDdCUBMm8ldQidwi0dweVvbnx5PrBsul/frames/floor_000050.jpg",
+    "data/lectures/leph101/1lDdCUBMm8ldQidwi0dweVvbnx5PrBsul/frames/floor_000053.jpg",
+    "data/lectures/leph101/1lDdCUBMm8ldQidwi0dweVvbnx5PrBsul/frames/floor_000054.jpg",
+    "data/lectures/leph101/1lDdCUBMm8ldQidwi0dweVvbnx5PrBsul/frames/floor_000057.jpg",
+    "data/lectures/leph101/1lDdCUBMm8ldQidwi0dweVvbnx5PrBsul/frames/floor_000060.jpg",
+    "data/lectures/leph101/1lDdCUBMm8ldQidwi0dweVvbnx5PrBsul/frames/floor_000061.jpg",
+    "data/lectures/leph101/1lDdCUBMm8ldQidwi0dweVvbnx5PrBsul/frames/floor_000063.jpg",
+    "data/lectures/leph101/1lDdCUBMm8ldQidwi0dweVvbnx5PrBsul/frames/floor_000064.jpg",
+    "data/lectures/leph101/1lDdCUBMm8ldQidwi0dweVvbnx5PrBsul/frames/floor_000066.jpg",
+    "data/lectures/leph101/1lDdCUBMm8ldQidwi0dweVvbnx5PrBsul/frames/floor_000068.jpg",
+    "data/lectures/leph101/1lDdCUBMm8ldQidwi0dweVvbnx5PrBsul/frames/floor_000070.jpg",
+    "data/lectures/leph101/1lDdCUBMm8ldQidwi0dweVvbnx5PrBsul/frames/floor_000071.jpg",
+    "data/lectures/leph101/1lDdCUBMm8ldQidwi0dweVvbnx5PrBsul/frames/floor_000073.jpg",
+    "data/lectures/leph101/1lDdCUBMm8ldQidwi0dweVvbnx5PrBsul/frames/floor_000076.jpg",
+    "data/lectures/leph101/1lDdCUBMm8ldQidwi0dweVvbnx5PrBsul/frames/floor_000079.jpg",
+    "data/lectures/leph101/1lDdCUBMm8ldQidwi0dweVvbnx5PrBsul/frames/floor_000080.jpg",
+    "data/lectures/leph101/1lDdCUBMm8ldQidwi0dweVvbnx5PrBsul/frames/floor_000081.jpg",
+    "data/lectures/leph101/1lDdCUBMm8ldQidwi0dweVvbnx5PrBsul/frames/floor_000085.jpg",
+    "data/lectures/leph101/1lDdCUBMm8ldQidwi0dweVvbnx5PrBsul/frames/floor_000089.jpg",
+    "data/lectures/leph101/1lDdCUBMm8ldQidwi0dweVvbnx5PrBsul/frames/floor_000091.jpg"
+  ],
+  "markdown_body": "## Dielectric constant\n\n### Force in a medium other than vacuum\n$$F = \\frac{1}{4\\pi\\varepsilon_0}\\frac{Q_1Q_2}{r^2}\\quad\\text{(vacuum)} \\qquad F = \\frac{1}{4\\pi\\varepsilon}\\frac{Q_1Q_2}{r^2}\\quad\\text{(medium, absolute permittivity }\\varepsilon\\text{)}$$\n\n**Relative permittivity** $\\varepsilon_r = \\varepsilon/\\varepsilon_0$ is preferred to quoting $\\varepsilon$ directly, for the same reason density is usually quoted relative to water (density of water $=1$ g/cm$^3$, mercury $=13.6$, kerosene $=0.8$): a dimensionless ratio against a fixed, universal reference is more useful than an absolute value with units.\n\n**Dielectric constant** $K$ is just another name for relative permittivity — there is no physical difference between the two terms:\n$$\\boxed{F = \\frac{1}{4\\pi\\varepsilon_0 K}\\frac{Q_1Q_2}{r^2}}, \\qquad K=\\varepsilon_r=\\varepsilon/\\varepsilon_0$$\n\n*(Aside: in the CGS system, the Coulomb's-law constant is taken as exactly $1$, and charge is measured in electrostatic units/statcoulombs, with $1$ C $=3\\times10^9$ esu. Mentioned for context; SI is used throughout this course.)*\n\n### Partly-dielectric, partly-vacuum gap\nFor two charges separated by distance $r$, with a dielectric slab of thickness $t$ (constant $K$) occupying part of the gap and the rest ($r-t$) vacuum: replace the dielectric segment with an **equivalent vacuum distance** $r_0=\\sqrt{K}\\,t$ (found by equating the force through the real dielectric thickness to the force through an unknown vacuum thickness), then treat the whole path as vacuum with total effective separation $(r-t)+\\sqrt{K}t$:\n$$F = \\frac{1}{4\\pi\\varepsilon_0}\\frac{Q_1Q_2}{\\left[(r-t)+\\sqrt{K}\\,t\\right]^2}$$\n\n## Coulomb's law in vector form (NCERT 1.5)\n\nFor charges $Q_1$ at $\\vec r_1$ and $Q_2$ at $\\vec r_2$, the force on $Q_2$ due to $Q_1$:\n$$\\vec F_{21} = \\frac{1}{4\\pi\\varepsilon_0}\\frac{Q_1Q_2(\\vec r_2-\\vec r_1)}{|\\vec r_2-\\vec r_1|^3} = \\frac{1}{4\\pi\\varepsilon_0}\\frac{Q_1Q_2}{r_{12}^2}\\hat r_{12}$$\nBy Newton's third law, $\\vec F_{12}=-\\vec F_{21}$.\n\n## Principle of superposition (NCERT 1.6)\n\nThe net force on any one charge due to several others is the **vector sum** of the individual pairwise Coulomb forces, each computed independently as though only that one pair of charges existed, then combined via the triangle/parallelogram law of vector addition. For charges $Q_1,\\dots,Q_5$, the force on $Q_4$:\n$$\\vec F_4 = \\vec F_{41}+\\vec F_{42}+\\vec F_{43}+\\vec F_{45}$$\n"
+}

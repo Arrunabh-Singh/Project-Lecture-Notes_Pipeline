@@ -1,0 +1,104 @@
+{
+  "file_id": "1XQ2oXVaAvwoAnxVGnlvgdQ6nCXR9-QcU",
+  "chapter_id": "leph101",
+  "title": "Introduction to Electrostatics: Frictional Electricity, the Gold Leaf Electroscope, and Basic Properties of Charge",
+  "duration_seconds": 1254.7,
+  "claims": [
+    {
+      "text": "Electrostatics = electro (charge) + static (at rest): the study of charges at rest. Chapter roadmap: frictional electricity -> electric field -> electric potential -> applications (capacitors)",
+      "transcript_span": [
+        6.0,
+        144.0
+      ],
+      "frame_path": "data/lectures/leph101/1XQ2oXVaAvwoAnxVGnlvgdQ6nCXR9-QcU/frames/floor_000058.jpg",
+      "ncert_section": "1.1",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Frictional electricity: rubbing two different materials against each other (e.g. silk cloth and a glass rod, or silk cloth and an ebonite rod) transfers charge between them. Which material ends up positive vs negative depends on how tightly each material's valence electrons are bound -- the material whose electrons are easier to remove loses electrons and becomes positive, the other gains electrons and becomes negative. For silk+glass: glass becomes positive, silk negative. For silk+ebonite: silk becomes positive, ebonite negative",
+      "transcript_span": [
+        216.0,
+        544.0
+      ],
+      "frame_path": "data/lectures/leph101/1XQ2oXVaAvwoAnxVGnlvgdQ6nCXR9-QcU/frames/floor_000058.jpg",
+      "ncert_section": "1.2",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Benjamin Franklin named the two kinds of charge 'positive' and 'negative'. An atom as a whole is neutral: it has equal numbers of positive and negative charges. The SI unit of charge is the coulomb (C)",
+      "transcript_span": [
+        550.0,
+        639.0
+      ],
+      "frame_path": null,
+      "ncert_section": "1.2",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "The Gold Leaf Electroscope detects the presence of charge: an insulated metal knob (to prevent leakage and shield against stray air currents) connects via a wire to two thin gold leaves inside an enclosed container. Touching a charged rod to the knob distributes charge onto both leaves, which then repel each other and diverge -- the degree of divergence indicates the strength of the charge",
+      "transcript_span": [
+        649.0,
+        812.0
+      ],
+      "frame_path": "data/lectures/leph101/1XQ2oXVaAvwoAnxVGnlvgdQ6nCXR9-QcU/frames/floor_000041.jpg",
+      "ncert_section": "1.2",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Conservation of charge (property 1): charge can neither be created nor destroyed, only transferred from one body to another -- total charge before and after any process (rubbing, a nuclear reaction, etc.) stays the same. Example: alpha decay of Uranium-238 to Thorium-234 + Helium-4 conserves both mass number (238=234+4) and atomic/charge number",
+      "transcript_span": [
+        820.0,
+        1004.0
+      ],
+      "frame_path": "data/lectures/leph101/1XQ2oXVaAvwoAnxVGnlvgdQ6nCXR9-QcU/frames/floor_000041.jpg",
+      "ncert_section": "1.4.2",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Additivity of charges (property 2): charges add and subtract like ordinary algebraic quantities, with sign. Example: charges -e, -2e, +3e, +4e together give a total of q = -e-2e+3e+4e = +4e",
+      "transcript_span": [
+        1014.0,
+        1103.0
+      ],
+      "frame_path": "data/lectures/leph101/1XQ2oXVaAvwoAnxVGnlvgdQ6nCXR9-QcU/frames/floor_000041.jpg",
+      "ncert_section": "1.4.1",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Quantisation of charge (property 3): the charge on any body is always an integral multiple of the elementary charge e (charge of the electron), q = +-ne -- never a fraction like e/3 or -2e/3. Quarks are an exception with fractional charges (+e/3, -e/3, +-2e/3), but they always combine in bound states whose total charge is again an integral multiple of e, so this doesn't violate the rule at the level of observable free particles",
+      "transcript_span": [
+        1103.0,
+        1252.0
+      ],
+      "frame_path": null,
+      "ncert_section": "1.4.3",
+      "ncert_agreement": "agrees"
+    }
+  ],
+  "uncertain_spans": [],
+  "ncert_sections_covered": [
+    "1.2",
+    "1.4"
+  ],
+  "frame_paths": [
+    "data/lectures/leph101/1XQ2oXVaAvwoAnxVGnlvgdQ6nCXR9-QcU/frames/floor_000001.jpg",
+    "data/lectures/leph101/1XQ2oXVaAvwoAnxVGnlvgdQ6nCXR9-QcU/frames/floor_000003.jpg",
+    "data/lectures/leph101/1XQ2oXVaAvwoAnxVGnlvgdQ6nCXR9-QcU/frames/floor_000004.jpg",
+    "data/lectures/leph101/1XQ2oXVaAvwoAnxVGnlvgdQ6nCXR9-QcU/frames/floor_000005.jpg",
+    "data/lectures/leph101/1XQ2oXVaAvwoAnxVGnlvgdQ6nCXR9-QcU/frames/floor_000018.jpg",
+    "data/lectures/leph101/1XQ2oXVaAvwoAnxVGnlvgdQ6nCXR9-QcU/frames/floor_000026.jpg",
+    "data/lectures/leph101/1XQ2oXVaAvwoAnxVGnlvgdQ6nCXR9-QcU/frames/floor_000029.jpg",
+    "data/lectures/leph101/1XQ2oXVaAvwoAnxVGnlvgdQ6nCXR9-QcU/frames/floor_000033.jpg",
+    "data/lectures/leph101/1XQ2oXVaAvwoAnxVGnlvgdQ6nCXR9-QcU/frames/floor_000034.jpg",
+    "data/lectures/leph101/1XQ2oXVaAvwoAnxVGnlvgdQ6nCXR9-QcU/frames/floor_000038.jpg",
+    "data/lectures/leph101/1XQ2oXVaAvwoAnxVGnlvgdQ6nCXR9-QcU/frames/floor_000041.jpg",
+    "data/lectures/leph101/1XQ2oXVaAvwoAnxVGnlvgdQ6nCXR9-QcU/frames/floor_000046.jpg",
+    "data/lectures/leph101/1XQ2oXVaAvwoAnxVGnlvgdQ6nCXR9-QcU/frames/floor_000048.jpg",
+    "data/lectures/leph101/1XQ2oXVaAvwoAnxVGnlvgdQ6nCXR9-QcU/frames/floor_000050.jpg",
+    "data/lectures/leph101/1XQ2oXVaAvwoAnxVGnlvgdQ6nCXR9-QcU/frames/floor_000052.jpg",
+    "data/lectures/leph101/1XQ2oXVaAvwoAnxVGnlvgdQ6nCXR9-QcU/frames/floor_000055.jpg",
+    "data/lectures/leph101/1XQ2oXVaAvwoAnxVGnlvgdQ6nCXR9-QcU/frames/floor_000056.jpg",
+    "data/lectures/leph101/1XQ2oXVaAvwoAnxVGnlvgdQ6nCXR9-QcU/frames/floor_000058.jpg"
+  ],
+  "markdown_body": "## Introduction (NCERT 1.1)\nElectrostatics = \"electro\" (charge) + \"static\" (at rest): the study of charges at rest. This chapter builds up in stages: frictional electricity $\\to$ electric field $\\to$ electric potential $\\to$ applications (capacitors) -- each stage depends on the one before it (e.g. capacitors can't be understood without electric field, which can't be understood without first understanding charge itself).\n\n## Frictional electricity (NCERT 1.2)\nRubbing two different materials against each other transfers charge between them (the everyday \"shock\" felt in winter, or hair sticking to a comb, are both this phenomenon). Which material ends up positively vs. negatively charged is decided by how tightly each material's valence electrons are bound: the material whose electrons are *easier to pull away* loses electrons (becomes positive); the other gains those electrons (becomes negative).\n\n- **Silk cloth + glass rod:** glass becomes positive, silk becomes negative.\n- **Silk cloth + ebonite rod:** silk becomes positive, ebonite becomes negative.\n\n(Silk isn't intrinsically \"always negative\" -- its sign depends on what it's rubbed against.)\n\n**Naming:** Benjamin Franklin named the two kinds of charge *positive* and *negative*. An atom as a whole is electrically **neutral**: equal numbers of positive and negative charges. SI unit of charge: the **coulomb (C)**.\n\n### Detecting charge: the Gold Leaf Electroscope\nAn insulated metal knob (insulation prevents leakage and shields against stray air currents affecting the reading) connects via a wire to two thin gold leaves sealed inside a container. Touching a charged rod to the knob distributes charge onto both leaves; since like charges repel, the leaves diverge from each other. The degree of divergence indicates the strength of the charge present.\n\n## Basic properties of electric charge (NCERT 1.4)\n\n### 1. Conservation of charge (1.4.2)\nCharge can neither be created nor destroyed, only **transferred** from one body to another. Total charge before and after any process (rubbing, a nuclear reaction, etc.) is unchanged.\n\n**Example:** alpha decay $\\,^{238}_{92}\\text{U} \\to \\,^{234}_{90}\\text{Th} + \\,^{4}_{2}\\text{He}$ conserves both mass number ($238=234+4$) and atomic/charge number ($92=90+2$).\n\n### 2. Additivity of charges (1.4.1)\nCharges combine like ordinary signed algebraic quantities. Example: $-e,-2e,+3e,+4e$ together give a total charge\n$$q = -e-2e+3e+4e = +4e$$\n\n### 3. Quantisation of charge (1.4.3)\nThe charge on any body is always an **integral multiple** of the elementary charge $e$ (the electron's charge):\n$$q = \\pm ne$$\nNever a fraction like $e/3$ or $-2e/3$. **Quarks** are the well-known exception, carrying fractional charges ($+e/3$, $-e/3$, $\\pm2e/3$) -- but they only ever exist in bound combinations whose *total* charge is again an integral multiple of $e$, so quantisation still holds for every observable free particle.\n"
+}

@@ -1,0 +1,109 @@
+{
+  "file_id": "1jlZ4rMEy9tBfBViutvu8m61rWwO68pKb",
+  "chapter_id": "leph101",
+  "title": "Continuous Charge Distribution (Linear, Surface, Volume), and Numericals on Placing a Third Charge",
+  "duration_seconds": 1942.9,
+  "claims": [
+    {
+      "text": "For a continuous (non-point) charge distribution, break it into small elements dl/ds/dV, find the charge dq on each element, compute the small force df on a test charge q0 due to that element via Coulomb's law, then integrate df over the whole distribution to get the total force -- analogous to knowing 'cost per mango' letting you price any quantity of mangoes without asking each time",
+      "transcript_span": [
+        6.8,
+        391.7
+      ],
+      "frame_path": "data/lectures/leph101/1jlZ4rMEy9tBfBViutvu8m61rWwO68pKb/frames/floor_000050.jpg",
+      "ncert_section": "1.12",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Linear charge density (1-D distribution, e.g. a charged wire or a ring -- a ring's charge lies along its circumference, a length, not its area): lambda = total charge / total length = dq/dl, so dq = lambda*dl. Force on a test charge q0 from a line element dl at distance r: dF = (1/4 pi eps0 K) q0 lambda dl / r^2, and the total force is F = integral of dF over the whole length",
+      "transcript_span": [
+        391.7,
+        694.4
+      ],
+      "frame_path": "data/lectures/leph101/1jlZ4rMEy9tBfBViutvu8m61rWwO68pKb/frames/floor_000050.jpg",
+      "ncert_section": "1.12",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Surface charge density (2-D distribution, e.g. a charged plane sheet, or the surface of a metal solid/hollow sphere): sigma = charge/area = dq/ds, so dq = sigma*ds. Any charge given to a metal (conducting) solid sphere migrates entirely to its outer surface (area 4 pi r^2) -- so even though the sphere is a 3D object, its charge distribution is a surface (2D) one, same as for a hollow metal sphere",
+      "transcript_span": [
+        700.7,
+        867.0
+      ],
+      "frame_path": "data/lectures/leph101/1jlZ4rMEy9tBfBViutvu8m61rWwO68pKb/frames/floor_000050.jpg",
+      "ncert_section": "1.12",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Volume charge density (3-D distribution, genuinely filling a volume rather than sitting on a surface): rho = charge/volume = dq/dV, so dq = rho*dV, and dF = (1/4 pi eps0 K)(q0 rho dV / r^2) r-hat, integrated over the whole volume",
+      "transcript_span": null,
+      "frame_path": "data/lectures/leph101/1jlZ4rMEy9tBfBViutvu8m61rWwO68pKb/frames/floor_000050.jpg",
+      "ncert_section": "1.12",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Worked numerical: two same-sign point charges Q1 and Q2 (in this worked case Q2=2*Q1) separated by distance r, find where a third charge Q0 placed BETWEEN them experiences zero net force. Setting the two force magnitudes equal, Q1/x^2 = Q2/(r-x)^2 (x = distance from Q1), gives (r-x)^2 = (Q2/Q1)x^2; for Q2=2Q1 this becomes (r-x)^2=2x^2, so r-x=sqrt(2)x, giving x = r/(1+sqrt(2))",
+      "transcript_span": null,
+      "frame_path": "data/lectures/leph101/1jlZ4rMEy9tBfBViutvu8m61rWwO68pKb/frames/floor_000066.jpg",
+      "ncert_section": null,
+      "ncert_agreement": null
+    },
+    {
+      "text": "Worked numerical: for two OPPOSITE-sign charges +2Q and -Q separated by distance r, a third charge +Q0 placed anywhere BETWEEN them feels forces from both charges pointing in the SAME direction (repelled by +2Q, attracted toward -Q -- both push it toward -Q), so they can never cancel there; the zero-force point must lie OUTSIDE the segment, on the far side of the smaller-magnitude charge (-Q). Setting force magnitudes equal at distance x beyond -Q: (1/4 pi eps0)(2Q q0/x^2) = (1/4 pi eps0)(Q q0/(r+x)^2), giving x = r/(sqrt(2)-1)",
+      "transcript_span": null,
+      "frame_path": "data/lectures/leph101/1jlZ4rMEy9tBfBViutvu8m61rWwO68pKb/frames/floor_000096.jpg",
+      "ncert_section": null,
+      "ncert_agreement": null
+    }
+  ],
+  "uncertain_spans": [
+    {
+      "start_seconds": 870.0,
+      "end_seconds": 1942.9,
+      "reason": "This lecture's transcript is unusually badly corrupted: after the surface-charge-density/metal-sphere material (ending around t=870s), the ASR falls into a repeating loop, re-transcribing the SAME linear/surface charge density content 3-4 times over with shifted timestamps (a delayed-repetition artifact matching the pattern found across this chapter's sibling chapters), all the way to the transcript's nominal end near t=1942s. As a result the transcript never once mentions volume charge density (rho) at all, and never mentions the lecture's own second named topic -- 'numerical on placing of third charge' -- anywhere. Board frames tell the real story: floor_000050.jpg (t=980s) shows all three charge-density types (linear, surface, volume) laid out together on one page, confirming volume charge density genuinely was covered (most likely in the real, un-transcribed audio around t=870-980s); frames from t=1120s through t=1900s (floor_000057, floor_000065-66, floor_000072-74, floor_000096) show at least two distinct fully-worked numericals on where to place a third charge for zero net force -- one for two same-sign charges (null point between them), one for two opposite-sign charges (null point outside the segment) -- spanning what is likely more than half of this lecture's real running time. The volume-charge-density claim and both numerical claims above are grounded entirely from board frames, not the transcript."
+    }
+  ],
+  "ncert_sections_covered": [
+    "1.12"
+  ],
+  "frame_paths": [
+    "data/lectures/leph101/1jlZ4rMEy9tBfBViutvu8m61rWwO68pKb/frames/floor_000001.jpg",
+    "data/lectures/leph101/1jlZ4rMEy9tBfBViutvu8m61rWwO68pKb/frames/floor_000002.jpg",
+    "data/lectures/leph101/1jlZ4rMEy9tBfBViutvu8m61rWwO68pKb/frames/floor_000005.jpg",
+    "data/lectures/leph101/1jlZ4rMEy9tBfBViutvu8m61rWwO68pKb/frames/floor_000007.jpg",
+    "data/lectures/leph101/1jlZ4rMEy9tBfBViutvu8m61rWwO68pKb/frames/floor_000008.jpg",
+    "data/lectures/leph101/1jlZ4rMEy9tBfBViutvu8m61rWwO68pKb/frames/floor_000012.jpg",
+    "data/lectures/leph101/1jlZ4rMEy9tBfBViutvu8m61rWwO68pKb/frames/floor_000016.jpg",
+    "data/lectures/leph101/1jlZ4rMEy9tBfBViutvu8m61rWwO68pKb/frames/floor_000018.jpg",
+    "data/lectures/leph101/1jlZ4rMEy9tBfBViutvu8m61rWwO68pKb/frames/floor_000019.jpg",
+    "data/lectures/leph101/1jlZ4rMEy9tBfBViutvu8m61rWwO68pKb/frames/floor_000021.jpg",
+    "data/lectures/leph101/1jlZ4rMEy9tBfBViutvu8m61rWwO68pKb/frames/floor_000022.jpg",
+    "data/lectures/leph101/1jlZ4rMEy9tBfBViutvu8m61rWwO68pKb/frames/floor_000023.jpg",
+    "data/lectures/leph101/1jlZ4rMEy9tBfBViutvu8m61rWwO68pKb/frames/floor_000027.jpg",
+    "data/lectures/leph101/1jlZ4rMEy9tBfBViutvu8m61rWwO68pKb/frames/floor_000028.jpg",
+    "data/lectures/leph101/1jlZ4rMEy9tBfBViutvu8m61rWwO68pKb/frames/floor_000030.jpg",
+    "data/lectures/leph101/1jlZ4rMEy9tBfBViutvu8m61rWwO68pKb/frames/floor_000034.jpg",
+    "data/lectures/leph101/1jlZ4rMEy9tBfBViutvu8m61rWwO68pKb/frames/floor_000037.jpg",
+    "data/lectures/leph101/1jlZ4rMEy9tBfBViutvu8m61rWwO68pKb/frames/floor_000041.jpg",
+    "data/lectures/leph101/1jlZ4rMEy9tBfBViutvu8m61rWwO68pKb/frames/floor_000047.jpg",
+    "data/lectures/leph101/1jlZ4rMEy9tBfBViutvu8m61rWwO68pKb/frames/floor_000050.jpg",
+    "data/lectures/leph101/1jlZ4rMEy9tBfBViutvu8m61rWwO68pKb/frames/floor_000055.jpg",
+    "data/lectures/leph101/1jlZ4rMEy9tBfBViutvu8m61rWwO68pKb/frames/floor_000057.jpg",
+    "data/lectures/leph101/1jlZ4rMEy9tBfBViutvu8m61rWwO68pKb/frames/floor_000065.jpg",
+    "data/lectures/leph101/1jlZ4rMEy9tBfBViutvu8m61rWwO68pKb/frames/floor_000066.jpg",
+    "data/lectures/leph101/1jlZ4rMEy9tBfBViutvu8m61rWwO68pKb/frames/floor_000070.jpg",
+    "data/lectures/leph101/1jlZ4rMEy9tBfBViutvu8m61rWwO68pKb/frames/floor_000072.jpg",
+    "data/lectures/leph101/1jlZ4rMEy9tBfBViutvu8m61rWwO68pKb/frames/floor_000073.jpg",
+    "data/lectures/leph101/1jlZ4rMEy9tBfBViutvu8m61rWwO68pKb/frames/floor_000074.jpg",
+    "data/lectures/leph101/1jlZ4rMEy9tBfBViutvu8m61rWwO68pKb/frames/floor_000077.jpg",
+    "data/lectures/leph101/1jlZ4rMEy9tBfBViutvu8m61rWwO68pKb/frames/floor_000079.jpg",
+    "data/lectures/leph101/1jlZ4rMEy9tBfBViutvu8m61rWwO68pKb/frames/floor_000081.jpg",
+    "data/lectures/leph101/1jlZ4rMEy9tBfBViutvu8m61rWwO68pKb/frames/floor_000086.jpg",
+    "data/lectures/leph101/1jlZ4rMEy9tBfBViutvu8m61rWwO68pKb/frames/floor_000087.jpg",
+    "data/lectures/leph101/1jlZ4rMEy9tBfBViutvu8m61rWwO68pKb/frames/floor_000089.jpg",
+    "data/lectures/leph101/1jlZ4rMEy9tBfBViutvu8m61rWwO68pKb/frames/floor_000091.jpg",
+    "data/lectures/leph101/1jlZ4rMEy9tBfBViutvu8m61rWwO68pKb/frames/floor_000094.jpg",
+    "data/lectures/leph101/1jlZ4rMEy9tBfBViutvu8m61rWwO68pKb/frames/floor_000096.jpg"
+  ],
+  "markdown_body": "## Continuous charge distribution (NCERT 1.12)\n\nFor a continuous (non-point) charge distribution: break it into small elements, find the charge $dq$ on each, compute the small force $d\\vec F$ on a test charge $q_0$ due to that element via Coulomb's law, then **integrate** over the whole distribution. (Analogy used in the lecture: once you know the cost *per* mango, you can price any quantity without asking again and again — same idea as knowing charge *per unit* length/area/volume.)\n\n### Linear charge density (1-D)\nFor a wire, or a ring (whose charge lies along its circumference — a *length*, not an area):\n$$\\lambda = \\frac{\\text{total charge}}{\\text{total length}} = \\frac{dq}{dl} \\quad\\Rightarrow\\quad dq = \\lambda\\,dl$$\nForce on $q_0$ from an element $dl$ at distance $r$: $d\\vec F = \\dfrac{1}{4\\pi\\varepsilon_0 K}\\dfrac{q_0\\lambda\\,dl}{r^2}\\hat r$, and the total force is $\\vec F = \\int d\\vec F$ over the whole length.\n\n### Surface charge density (2-D)\nFor a charged plane sheet, or the surface of a metal solid/hollow sphere:\n$$\\sigma = \\frac{\\text{charge}}{\\text{area}} = \\frac{dq}{ds} \\quad\\Rightarrow\\quad dq = \\sigma\\,ds$$\n**Key point:** any charge given to a metal (conducting) solid sphere migrates entirely to its outer surface (area $4\\pi r^2$) — so even though the sphere is a 3-D object, its charge distribution is *surface* (2-D), exactly like a hollow metal sphere.\n\n### Volume charge density (3-D)\nFor a distribution that genuinely fills a volume:\n$$\\rho = \\frac{\\text{charge}}{\\text{volume}} = \\frac{dq}{dV} \\quad\\Rightarrow\\quad dq = \\rho\\,dV,\\qquad d\\vec F = \\frac{1}{4\\pi\\varepsilon_0 K}\\frac{q_0\\rho\\,dV}{r^2}\\hat r$$\n\n## Numericals: placing a third charge for zero net force\n\n### Two same-sign charges\n$Q_1$ and $Q_2$ (worked case: $Q_2=2Q_1$) separated by $r$ — find where $Q_0$, placed **between** them, feels zero net force. Setting the two force magnitudes equal (distance $x$ from $Q_1$):\n$$\\frac{Q_1}{x^2} = \\frac{Q_2}{(r-x)^2} \\;\\Rightarrow\\; (r-x)^2 = 2x^2 \\;\\Rightarrow\\; r-x=\\sqrt2\\,x \\;\\Rightarrow\\; \\boxed{x = \\frac{r}{1+\\sqrt2}}$$\n\n### Two opposite-sign charges\n$+2Q$ and $-Q$ separated by $r$. A charge $+Q_0$ placed **between** them feels both forces pushing it the *same* direction (repelled by $+2Q$, attracted toward $-Q$) — they can never cancel there. The zero-force point must lie **outside** the segment, beyond the smaller-magnitude charge ($-Q$). At distance $x$ beyond $-Q$:\n$$\\frac{1}{4\\pi\\varepsilon_0}\\frac{2Q\\,Q_0}{x^2} = \\frac{1}{4\\pi\\varepsilon_0}\\frac{Q\\,Q_0}{(r+x)^2} \\;\\Rightarrow\\; \\boxed{x = \\frac{r}{\\sqrt2-1}}$$\n\n**General technique for this type of problem:** first determine whether the null point can even exist *between* the charges (same sign → yes, between them; opposite sign → no, it's outside, on the far side of the weaker charge), *then* set up and solve the force-balance equation.\n\n---\n*Note on this lecture's transcript:* volume charge density and both worked numericals above are grounded entirely from board frames -- the transcript itself falls into a repeated loop of earlier material and never reaches any of this. See the flagged span below.\n"
+}

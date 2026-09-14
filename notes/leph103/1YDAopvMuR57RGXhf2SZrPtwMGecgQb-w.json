@@ -1,0 +1,64 @@
+{
+  "file_id": "1YDAopvMuR57RGXhf2SZrPtwMGecgQb-w",
+  "chapter_id": "leph103",
+  "title": "Resistance of a Cube Network, and the Metre Bridge",
+  "duration_seconds": 1062.77,
+  "claims": [
+    {
+      "text": "Worked numerical: a cube has an identical resistor R on each of its 12 edges. Find the effective resistance between two opposite corners connected by a BODY DIAGONAL (points X and Y, the two farthest-apart vertices of the cube). By the symmetry of the cube, current I entering at X splits equally into three paths of I/3 each (three edges meet at X); at the next three vertices, each I/3 further splits equally into I/6 and I/6 (two edges leave each of those vertices toward the far corner); the six I/6 branches then recombine in pairs back into three I/3 branches converging at Y",
+      "transcript_span": [
+        0.0,
+        447.0
+      ],
+      "frame_path": "data/lectures/leph103/1YDAopvMuR57RGXhf2SZrPtwMGecgQb-w/frames/floor_000001.jpg",
+      "ncert_section": null,
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Applying Kirchhoff's loop rule along one path from X to Y (through an edge carrying I/3, then one carrying I/6, then one carrying I/3, each of resistance R) and back through the battery (EMF E): E = IR(1/3 + 1/6 + 1/3) = IR(2+1+2)/6 = (5/6)IR. Using I = E/R_effective, this gives the classic result R_effective = (5/6)R for the body-diagonal resistance of a cube of equal-value edge resistors",
+      "transcript_span": [
+        447.0,
+        1136.0
+      ],
+      "frame_path": "data/lectures/leph103/1YDAopvMuR57RGXhf2SZrPtwMGecgQb-w/frames/floor_000001.jpg",
+      "ncert_section": null,
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "The metre bridge is a practical device based on the Wheatstone bridge network, used to find an unknown resistance X. Method: take a known resistance R from a resistance box, connect it and the unknown X as the two 'gap' resistors of the bridge, with the other two bridge arms formed by a 100 cm resistance wire (AB, typically nichrome) stretched over a metre scale. A jockey is tapped along the wire until the galvanometer shows zero deflection (the null/balance point), at position C, dividing the wire into a length l (from A) and 100-l (from C to B)",
+      "transcript_span": null,
+      "frame_path": "data/lectures/leph103/1YDAopvMuR57RGXhf2SZrPtwMGecgQb-w/frames/floor_000041.jpg",
+      "ncert_section": "3.13",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Metre bridge balance condition and formula: the two wire segments act as resistances R'=(rho*l)/A and R''=(rho*(100-l))/A (rho=wire's resistivity, A=cross-sectional area), forming a Wheatstone bridge with R and X. Applying the balance condition R/l = X/[(100-l)] type ratio (bridge condition R/R' = X/R'', with the resistivity and area factors cancelling) gives X = R(100-l)/l. For best accuracy, the jockey's null position l should fall near the centre of the wire (around 50 cm)",
+      "transcript_span": null,
+      "frame_path": "data/lectures/leph103/1YDAopvMuR57RGXhf2SZrPtwMGecgQb-w/frames/floor_000052.jpg",
+      "ncert_section": "3.13",
+      "ncert_agreement": "agrees"
+    }
+  ],
+  "uncertain_spans": [
+    {
+      "start_seconds": 0.0,
+      "end_seconds": 1062.77,
+      "reason": "This is an unusually total content-omission failure: the transcript's 20 segments, spanning essentially the entire lecture from t=0 to its stated end, describe ONLY the resistance-of-a-cube numerical -- the metre bridge, the lecture's own second named topic, is never mentioned even once in the transcript. Board frames tell a completely different story: floor_000041.jpg (t=800s) already shows the full metre-bridge setup (heading, method description, and circuit diagram) essentially complete, and floor_000052.jpg (t=1020s, near the true end) shows the full derivation through to the boxed final formula X=R(100-l)/l, plus a practical note about keeping the null point near the wire's centre for accuracy. Since the transcript's own timestamps leave no visible gap for this material (it reads as one continuous narration of the cube problem throughout), this looks like the ASR silently failing to transcribe an entire audio segment covering a real second topic, rather than a duration-truncation or delayed-repetition case seen elsewhere in this project. All metre-bridge claims above are grounded entirely from the two board frames."
+    }
+  ],
+  "ncert_sections_covered": [
+    "3.13"
+  ],
+  "frame_paths": [
+    "data/lectures/leph103/1YDAopvMuR57RGXhf2SZrPtwMGecgQb-w/frames/floor_000001.jpg",
+    "data/lectures/leph103/1YDAopvMuR57RGXhf2SZrPtwMGecgQb-w/frames/floor_000011.jpg",
+    "data/lectures/leph103/1YDAopvMuR57RGXhf2SZrPtwMGecgQb-w/frames/floor_000019.jpg",
+    "data/lectures/leph103/1YDAopvMuR57RGXhf2SZrPtwMGecgQb-w/frames/floor_000022.jpg",
+    "data/lectures/leph103/1YDAopvMuR57RGXhf2SZrPtwMGecgQb-w/frames/floor_000026.jpg",
+    "data/lectures/leph103/1YDAopvMuR57RGXhf2SZrPtwMGecgQb-w/frames/floor_000029.jpg",
+    "data/lectures/leph103/1YDAopvMuR57RGXhf2SZrPtwMGecgQb-w/frames/floor_000033.jpg",
+    "data/lectures/leph103/1YDAopvMuR57RGXhf2SZrPtwMGecgQb-w/frames/floor_000041.jpg",
+    "data/lectures/leph103/1YDAopvMuR57RGXhf2SZrPtwMGecgQb-w/frames/floor_000052.jpg"
+  ],
+  "markdown_body": "## Resistance of a cube network (worked numerical)\n\nA cube with an identical resistor $R$ on each of its 12 edges — find the effective resistance between two opposite corners along a **body diagonal** ($X$ and $Y$).\n\n**Symmetry argument:** current $I$ entering at $X$ splits equally into three paths of $I/3$ (three edges meet at $X$). At each of the next three vertices, $I/3$ splits further into $I/6+I/6$ (two edges lead onward toward $Y$'s neighbourhood). The six $I/6$ branches recombine in pairs back into three $I/3$ branches, converging at $Y$.\n\n**Applying Kirchhoff's loop rule** along one $X\\to Y$ path (edges carrying $I/3$, then $I/6$, then $I/3$, each of resistance $R$), back through the battery (EMF $\\mathcal E$):\n$$\\mathcal E = IR\\left(\\frac13+\\frac16+\\frac13\\right) = IR\\cdot\\frac{2+1+2}{6} = \\frac56 IR$$\nUsing $I=\\mathcal E/R_\\text{eff}$:\n$$\\boxed{R_\\text{eff} = \\frac{5}{6}R}$$\n— the classic result for a cube's body-diagonal resistance when every edge carries the same $R$.\n\n## The metre bridge (NCERT 3.13, application of the Wheatstone bridge)\n\nA practical device based on the Wheatstone bridge, used to find an **unknown resistance** $X$.\n\n**Method:** take a known resistance $R$ from a resistance box; connect $R$ and $X$ as the two \"gap\" resistors of the bridge. The other two bridge arms are formed by a $100$ cm resistance wire $AB$ (typically nichrome) stretched over a metre scale. Tap a jockey along the wire until the galvanometer shows **zero deflection** (the null/balance point) at position $C$, splitting the wire into length $l$ (from $A$) and $100-l$ (from $C$ to $B$).\n\n**Balance condition:** the two wire segments act as resistances $R'=\\rho l/A$ and $R''=\\rho(100-l)/A$ ($\\rho$ = wire resistivity, $A$ = cross-sectional area), forming a bridge with $R$ and $X$. The resistivity/area factors cancel in the balance ratio, giving:\n$$\\boxed{X = \\frac{R(100-l)}{l}}$$\n\n**Practical note:** for the best accuracy, the null point $l$ should fall near the **centre** of the wire (around $50$ cm).\n\n---\n*Note on this lecture's transcript:* the entire metre bridge section above is grounded from board frames -- the transcript's own 20 segments describe only the cube-resistance problem, with no mention of the metre bridge anywhere. See the flagged span below.\n"
+}

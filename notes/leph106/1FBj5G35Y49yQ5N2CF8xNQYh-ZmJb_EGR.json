@@ -1,0 +1,162 @@
+{
+  "file_id": "1FBj5G35Y49yQ5N2CF8xNQYh-ZmJb_EGR",
+  "chapter_id": "leph106",
+  "title": "Faraday and Henry's Experiments, Magnetic Flux, Faraday's Law",
+  "duration_seconds": 1386.6,
+  "claims": [
+    {
+      "text": "Motivating question for the chapter: Oersted/Ampere showed a current produces a magnetic field -- can a magnetic field produce a current? Yes; this phenomenon is electromagnetic induction.",
+      "transcript_span": [
+        4.2,
+        41.1
+      ],
+      "frame_path": null,
+      "ncert_section": "6.1",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Magnetic flux through an area A in field B is $\\Phi_B = \\vec A\\cdot\\vec B = BA\\cos\\theta$, where theta is the angle between B and the area's normal. It is a scalar quantity with SI unit weber (Wb), and Wb = T·m^2.",
+      "transcript_span": [
+        59.6,
+        248.5
+      ],
+      "frame_path": "data/lectures/leph106/1FBj5G35Y49yQ5N2CF8xNQYh-ZmJb_EGR/frames/floor_000015.jpg",
+      "ncert_section": "6.3",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Dimensional formula of magnetic flux, derived on the board from B = torque/(I*A) (via tau = M B sin(theta), M = IA): [Phi] = [M^1 L^2 T^-2 A^-1]. This is a board/exam-technique derivation, not itself a numbered NCERT result -- NCERT's section 6.3 states the flux formula and its weber unit but does not walk through this dimensional derivation.",
+      "transcript_span": [
+        249.3,
+        433.8
+      ],
+      "frame_path": "data/lectures/leph106/1FBj5G35Y49yQ5N2CF8xNQYh-ZmJb_EGR/frames/floor_000016.jpg",
+      "ncert_section": null,
+      "ncert_agreement": null
+    },
+    {
+      "text": "Magnetic flux density, B = Phi/A, carries the same unit as B itself: tesla, or equivalently Wb/m^2.",
+      "transcript_span": [
+        452.4,
+        529.2
+      ],
+      "frame_path": "data/lectures/leph106/1FBj5G35Y49yQ5N2CF8xNQYh-ZmJb_EGR/frames/floor_000017.jpg",
+      "ncert_section": "6.3",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Faraday's Experiment 1: a bar magnet moved towards/away from a coil C connected to a galvanometer produces a deflection only while the magnet is in motion (larger deflection for faster motion), and the deflection reverses when the direction of motion (or the pole facing the coil) reverses. No deflection when the magnet is held stationary.",
+      "transcript_span": [
+        620.5,
+        774.2
+      ],
+      "frame_path": "data/lectures/leph106/1FBj5G35Y49yQ5N2CF8xNQYh-ZmJb_EGR/frames/floor_000019.jpg",
+      "ncert_section": "6.2",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Faraday's Experiment 2: replacing the bar magnet with a second, current-carrying coil C2 (which has its own magnetic field) produces the identical effect when C2 is moved towards/away from C1 -- confirming what matters is relative motion between the field source and the coil, not specifically a permanent magnet.",
+      "transcript_span": [
+        774.6,
+        961.0
+      ],
+      "frame_path": "data/lectures/leph106/1FBj5G35Y49yQ5N2CF8xNQYh-ZmJb_EGR/frames/floor_000025.jpg",
+      "ncert_section": "6.2",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Faraday's Experiment 3: two stationary coils, one (C1) wired to a battery through a key, the other (C2) to a galvanometer. Closing or opening the key produces a brief galvanometer deflection (opposite direction on make vs. break); the galvanometer reads zero once steady current is established. The deflection is stronger with an iron rod inserted through the coils.",
+      "transcript_span": [
+        998.4,
+        1140.2
+      ],
+      "frame_path": "data/lectures/leph106/1FBj5G35Y49yQ5N2CF8xNQYh-ZmJb_EGR/frames/floor_000031.jpg",
+      "ncert_section": "6.2",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Synthesis of the three experiments: what matters in every case is a CHANGE in the magnetic flux linked with the coil, not the presence of flux itself. A coil sitting in a steady, unchanging magnetic field carries no induced current; motion or a switched current is only relevant insofar as it changes the flux through the coil.",
+      "transcript_span": [
+        1157.3,
+        1315.7
+      ],
+      "frame_path": null,
+      "ncert_section": "6.2",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Faraday's First Law of electromagnetic induction (qualitative form): whenever the magnetic flux linked with a coil changes, an emf is induced in the coil.",
+      "transcript_span": [
+        1217.5,
+        1234.3
+      ],
+      "frame_path": "data/lectures/leph106/1FBj5G35Y49yQ5N2CF8xNQYh-ZmJb_EGR/frames/floor_000055.jpg",
+      "ncert_section": "6.4",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Faraday's Second Law (quantitative form, as boarded): the magnitude of the induced emf is directly proportional to the rate of change of magnetic flux linked with the coil: |eps| = N (dPhi/dt) approx N(delta Phi/delta t) for an N-turn coil, and the induced current I = eps/R = (N/R)(dPhi/dt). Boarded WITHOUT the minus sign NCERT carries in eps = -N dPhi/dt -- the direction/sign (Lenz's law) is deferred to the next lecture, so this lecture states magnitude only.",
+      "transcript_span": null,
+      "frame_path": "data/lectures/leph106/1FBj5G35Y49yQ5N2CF8xNQYh-ZmJb_EGR/frames/floor_000057.jpg",
+      "ncert_section": "6.4",
+      "ncert_agreement": "teacher_simplifies"
+    },
+    {
+      "text": "Worked example (board only): the magnetic flux through a 500-turn coil falls from 0.8 Wb to zero in 0.02 s. Induced emf |eps| = N dPhi/dt = 500 x (0 - 0.8)/0.02 = 20,000 V = 20 kV.",
+      "transcript_span": null,
+      "frame_path": "data/lectures/leph106/1FBj5G35Y49yQ5N2CF8xNQYh-ZmJb_EGR/frames/floor_000063.jpg",
+      "ncert_section": null,
+      "ncert_agreement": null
+    },
+    {
+      "text": "Worked example (board only, left unfinished as the recording ends): a 100-turn coil of area 0.1 m^2 sits in a field that grows from 0 to 4x10^-3 Wb/m^2 in 4 s, after which the coil is reversed through 180 degrees. Setup shown: Phi1 = BA cos(0) = BA; Phi2 = BA cos(180) = -BA; so the change on reversal is Delta Phi = -2BA, and |eps| = 2BA/t was being substituted (2 x 4x10^-3 / ...) when the board frames stop.",
+      "transcript_span": null,
+      "frame_path": "data/lectures/leph106/1FBj5G35Y49yQ5N2CF8xNQYh-ZmJb_EGR/frames/floor_000069.jpg",
+      "ncert_section": null,
+      "ncert_agreement": null
+    }
+  ],
+  "uncertain_spans": [
+    {
+      "start_seconds": 283.9,
+      "end_seconds": 346.7,
+      "reason": "Minor delayed-duplicate: the flagged pair-scan catches segments 22-26 (283.9-312.8s, 'torque is MB sin(theta)... B = tau/M... M=IA...') repeated almost verbatim as segments 27-32 (313.3-346.7s), separated by no true new content in between. Unlike the severe cases found elsewhere in this chapter, this one does NOT swallow any missing material -- the dimensional derivation resumes correctly right after (segment 33, 'so this will cancel out') and completes normally by t=433.8s, matching the board (floor_000018-000019). Left un-grounded rather than double-counted as a claim."
+    },
+    {
+      "start_seconds": 1080.0,
+      "end_seconds": 1386.6,
+      "reason": "The lecture's own promised final topic ('...and law') -- Faraday's Second Law in quantitative form and both worked numericals -- is missing from the ASR transcript entirely, despite being fully present on the board and on schedule well within the verified duration (1386.6s). Board timeline: floor_000055 (t=1080s) is the first frame showing a 'Faraday's law of em induction' heading with the qualitative first law; floor_000057 (t=1120s) shows the complete quantitative second law (|eps|=N dPhi/dt, I=eps/R) on a fresh page; floor_000059 (t=1160s) already has the first worked numerical's question written ('coil of 500 turns varies...'); floor_000063/000065 (t=1240-1280s) show it fully solved (20 kV); floor_000067/000069 (t=1320-1360s) show a second numerical (100 turns, 0.1 m^2, field reversed through 180 degrees) set up and half-solved, right where the frame set ends (only 26.6s of true runtime remains after the last extracted frame). The transcript, however, over this same interval (segments 75-92, t=998.4-1400.9s) stays on a qualitative re-explanation of experiments 1-3 and 'change in flux causes current' (itself somewhat repetitive across segments 83-91, though not an exact loop) and never once contains the words 'law', 'emf', 'proportional', '500', or 'turns'. Automated checks do not catch this: coverage_ratio is 1.010 (comfortably 'passed'), and check_coverage/sanitize_segments report repetition_detected=False, because the transcript's final ~400s is a paraphrase of earlier ground rather than a verbatim repeat of adjacent segments. The second-law equation, both worked numericals, and the phrase 'Faraday's law' itself are grounded from board frames alone in this note."
+    }
+  ],
+  "ncert_sections_covered": [
+    "6.1",
+    "6.2",
+    "6.3",
+    "6.4"
+  ],
+  "frame_paths": [
+    "data/lectures/leph106/1FBj5G35Y49yQ5N2CF8xNQYh-ZmJb_EGR/frames/floor_000001.jpg",
+    "data/lectures/leph106/1FBj5G35Y49yQ5N2CF8xNQYh-ZmJb_EGR/frames/floor_000007.jpg",
+    "data/lectures/leph106/1FBj5G35Y49yQ5N2CF8xNQYh-ZmJb_EGR/frames/floor_000013.jpg",
+    "data/lectures/leph106/1FBj5G35Y49yQ5N2CF8xNQYh-ZmJb_EGR/frames/floor_000014.jpg",
+    "data/lectures/leph106/1FBj5G35Y49yQ5N2CF8xNQYh-ZmJb_EGR/frames/floor_000015.jpg",
+    "data/lectures/leph106/1FBj5G35Y49yQ5N2CF8xNQYh-ZmJb_EGR/frames/floor_000016.jpg",
+    "data/lectures/leph106/1FBj5G35Y49yQ5N2CF8xNQYh-ZmJb_EGR/frames/floor_000017.jpg",
+    "data/lectures/leph106/1FBj5G35Y49yQ5N2CF8xNQYh-ZmJb_EGR/frames/floor_000018.jpg",
+    "data/lectures/leph106/1FBj5G35Y49yQ5N2CF8xNQYh-ZmJb_EGR/frames/floor_000019.jpg",
+    "data/lectures/leph106/1FBj5G35Y49yQ5N2CF8xNQYh-ZmJb_EGR/frames/floor_000025.jpg",
+    "data/lectures/leph106/1FBj5G35Y49yQ5N2CF8xNQYh-ZmJb_EGR/frames/floor_000031.jpg",
+    "data/lectures/leph106/1FBj5G35Y49yQ5N2CF8xNQYh-ZmJb_EGR/frames/floor_000037.jpg",
+    "data/lectures/leph106/1FBj5G35Y49yQ5N2CF8xNQYh-ZmJb_EGR/frames/floor_000043.jpg",
+    "data/lectures/leph106/1FBj5G35Y49yQ5N2CF8xNQYh-ZmJb_EGR/frames/floor_000049.jpg",
+    "data/lectures/leph106/1FBj5G35Y49yQ5N2CF8xNQYh-ZmJb_EGR/frames/floor_000055.jpg",
+    "data/lectures/leph106/1FBj5G35Y49yQ5N2CF8xNQYh-ZmJb_EGR/frames/floor_000057.jpg",
+    "data/lectures/leph106/1FBj5G35Y49yQ5N2CF8xNQYh-ZmJb_EGR/frames/floor_000059.jpg",
+    "data/lectures/leph106/1FBj5G35Y49yQ5N2CF8xNQYh-ZmJb_EGR/frames/floor_000061.jpg",
+    "data/lectures/leph106/1FBj5G35Y49yQ5N2CF8xNQYh-ZmJb_EGR/frames/floor_000063.jpg",
+    "data/lectures/leph106/1FBj5G35Y49yQ5N2CF8xNQYh-ZmJb_EGR/frames/floor_000065.jpg",
+    "data/lectures/leph106/1FBj5G35Y49yQ5N2CF8xNQYh-ZmJb_EGR/frames/floor_000067.jpg",
+    "data/lectures/leph106/1FBj5G35Y49yQ5N2CF8xNQYh-ZmJb_EGR/frames/floor_000069.jpg"
+  ],
+  "markdown_body": "## Motivation and setup (NCERT 6.1)\nOersted and Ampere had already shown that a moving charge (current) produces a magnetic field. Faraday and Henry's ~1830 experiments asked the converse question: can a magnetic field produce a current? The chapter's answer is yes -- **electromagnetic induction**.\n\n## Magnetic flux (NCERT 6.3)\nFor a plane area $A$ sitting in a uniform field $\\vec B$, with the area's normal at angle $\\theta$ to $\\vec B$:\n$$\\Phi_B = \\vec A \\cdot \\vec B = BA\\cos\\theta$$\n$\\Phi_B$ is a **scalar**. SI unit: **weber** (Wb); since $\\Phi_B = BA$, $\\text{Wb} = \\text{T}\\cdot\\text{m}^2$.\n\n**Dimensional formula (board derivation, exam-technique aside, not itself an NCERT-numbered result):** using $B = \\tau/(IA)$ from $\\tau = MB\\sin\\theta$ (with $M=IA$), and $\\tau$ in N·m:\n$$[\\Phi_B] = [M][A] = \\left[\\frac{N\\cdot m}{A\\cdot m^2}\\right][m^2] = [M^1 L^2 T^{-2} A^{-1}]$$\n(A short board loop repeats this sub-derivation once before continuing -- see flagged span below; it doesn't affect the final result.)\n\n**Magnetic flux density:** $B = \\Phi_B/A$, so $B$ can equivalently be expressed in Wb/m$^2$ as well as tesla.\n\n## Faraday and Henry's experiments (NCERT 6.2)\nThree experiments, each showing current is induced in a coil connected to a galvanometer (no battery in the coil circuit itself):\n\n**Experiment 1.** A bar magnet is moved towards, then away from, a coil $C$ wired to a galvanometer $G$. A deflection appears only *while the magnet is moving* -- faster motion gives a larger deflection -- and the deflection reverses direction when the motion (or the facing pole) reverses. A stationary magnet, however close, gives zero deflection.\n\n**Experiment 2.** The bar magnet is replaced by a second coil $C_2$ carrying a steady current from a battery (so $C_2$ itself has a magnetic field and plays the magnet's role). Moving $C_2$ towards/away from $C_1$ (or vice versa) reproduces exactly the same deflection behaviour as Experiment 1. This shows relative motion between the flux source and the coil is what matters, not that the source specifically be a permanent magnet.\n\n**Experiment 3.** Both coils are now held **stationary**. $C_1$ is wired to a battery through a key $K$; $C_2$ to the galvanometer. Closing the key produces a brief deflection that decays to zero once the current in $C_1$ becomes steady; opening the key produces a brief deflection in the *opposite* direction. Inserting an iron rod through the coils strengthens the effect (it strengthens the coupling field).\n\n**What ties the three together:** in every case, current is induced only when the magnetic flux linked with the coil is *changing* -- via relative motion in Experiments 1-2, or via the current (and hence field) switching on/off/settling in Experiment 3. A coil sitting in any steady flux, however large, shows no induced current.\n\n## Faraday's Law of electromagnetic induction (NCERT 6.4)\n*(Grounded from board frames -- see the flagged span below for what the transcript does instead over this stretch.)*\n\n**First law (qualitative):** whenever the magnetic flux linked with a coil changes, an emf is induced in it.\n\n**Second law (quantitative), as boarded:** the induced emf's magnitude is directly proportional to the rate of change of flux linkage:\n$$|\\varepsilon| = N\\frac{d\\Phi_B}{dt} \\approx N\\frac{\\Delta\\Phi_B}{\\Delta t}, \\qquad I = \\frac{\\varepsilon}{R} = \\frac{N}{R}\\frac{d\\Phi_B}{dt}$$\nThis lecture boards the **magnitude-only** form -- NCERT's Eq. 6.4 carries a minus sign, $\\varepsilon = -N\\,d\\Phi_B/dt$, whose direction is Lenz's law; that sign/direction is explicitly deferred to the next lecture (\"#2 Lenz law and motional emf\"), so treat this as the teacher intentionally splitting magnitude from direction across two lectures rather than a factual gap.\n\n**Worked example 1 (board only):** flux through a 500-turn coil falls from $0.8$ Wb to $0$ in $0.02$ s.\n$$|\\varepsilon| = N\\frac{d\\Phi}{dt} = 500\\times\\frac{0-0.8}{0.02} = 20{,}000~\\text{V} = 20~\\text{kV}$$\n\n**Worked example 2 (board only, unfinished at the recording's end):** a 100-turn coil of area $0.1~\\text{m}^2$ sits in a field growing from $0$ to $4\\times10^{-3}$ Wb/m$^2$ over $4$ s, after which the coil is reversed through $180°$.\n$$\\Phi_1 = BA\\cos 0° = BA, \\qquad \\Phi_2 = BA\\cos 180° = -BA, \\qquad \\Delta\\Phi = \\Phi_2-\\Phi_1 = -2BA$$\nThe board was mid-substitution ($|\\varepsilon| = 2BA/t = 2\\times(4\\times10^{-3})/\\ldots$) when the frame set ends, so the final numeric answer isn't recoverable from the available material.\n\n---\n*Note on this lecture's transcript:* the ASR transcript covers Experiments 1-3 and the flux/dimensional-analysis material solidly, corroborated closely by the board. But it never reaches Faraday's Law by name, never states the quantitative $N\\,d\\Phi/dt$ form, and never transcribes either worked numerical -- even though all of that is written on the board well inside the verified 1386.6s duration, and is exactly the \"...and law\" this lecture's own filename promises. See the flagged span below for the full timeline and why the automated coverage/repetition checks didn't catch it.\n"
+}

@@ -1,0 +1,569 @@
+<header class="mast">
+  <p class="eyebrow">Class XII CBSE · Chemistry · Chapters 1–3</p>
+  <h1>Chemistry, Derived</h1>
+  <p class="standfirst">Twelve derivations, one algebraic move per line, each with the reason it is allowed. Every one ends in a formula that is already on <b>Every Chemistry Formula</b> — the point of this page is that you can rebuild them when memory fails, and that you can write the proof out when the paper asks for it.</p>
+  <dl class="totals">
+    <div class="tot"><dt>Derivations</dt><dd>12</dd></div>
+    <div class="tot"><dt>Figures</dt><dd>12</dd></div>
+    <div class="tot"><dt>Chapters</dt><dd>3</dd></div>
+    <div class="tot"><dt>Marks covered</dt><dd>42</dd></div>
+  </dl>
+</header>
+
+<div class="howto">
+  <h2>How to use this</h2>
+  <p>Chapters 4, 5 and 6 have no derivations worth the name — their marks come from recall and reasoning, and those live on the formula sheet. Everything derivable in this paper is on this page.</p>
+  <p>Read the <b>setup</b> first and draw the figure yourself before you look at the steps. A derivation you can only follow is not one you can write.</p>
+  <p>The <i>italic reason</i> beside a step is what turns it from an assertion into a proof. In the exam, those reasons are usually where the marks are.</p>
+</div>
+
+<section>
+  <details class="ch">
+    <summary><span class="num">CH 3</span>Chemical Kinetics<span class="tail">5 derivations · 13 marks</span></summary>
+    <div class="ch-body">
+
+      <div class="deriv" id="D1">
+        <div class="deriv-head"><span class="d-num">D1</span><span class="d-title">Integrated rate law for a zero order reaction</span><span class="d-marks">2–3 marks</span></div>
+        <p class="setup">A reaction $\ce{R -> P}$ whose rate does not depend on the concentration of $\ce{R}$ at all. Start from the definition of rate, put the zero-order rate law into it, and integrate from the start of the reaction to time $t$. Write $[R]_0$ for the concentration at $t=0$ and $[R]$ for the concentration at time $t$.</p>
+
+        <figure class="fig">
+          <svg viewBox="0 0 420 250" role="img" aria-label="Graph of concentration of R against time for a zero order reaction: a straight line starting at the initial concentration on the vertical axis and falling with constant slope minus k, meeting the time axis when all of R is used up.">
+            <line x1="62" y1="30" x2="62" y2="205" stroke="currentColor" stroke-width="1.5"/>
+            <line x1="62" y1="205" x2="392" y2="205" stroke="currentColor" stroke-width="1.5"/>
+            <line x1="62" y1="55" x2="330" y2="205" stroke="currentColor" stroke-width="2.5"/>
+            <line x1="62" y1="55" x2="330" y2="55" stroke="currentColor" stroke-width="1" stroke-dasharray="3 4" opacity="0.45"/>
+            <circle cx="62" cy="55" r="3.5" fill="currentColor"/>
+            <circle cx="330" cy="205" r="3.5" fill="currentColor"/>
+            <text x="54" y="59" text-anchor="end" font-size="12" fill="currentColor">[R]₀</text>
+            <text x="54" y="209" text-anchor="end" font-size="12" fill="currentColor">0</text>
+            <text x="30" y="120" text-anchor="middle" font-size="12" fill="currentColor" transform="rotate(-90 30 120)">[R]</text>
+            <text x="227" y="234" text-anchor="middle" font-size="12" fill="currentColor">time  t</text>
+            <text x="215" y="112" font-size="12" fill="currentColor" font-style="italic">slope = −k</text>
+            <text x="336" y="199" font-size="11" fill="currentColor" opacity="0.75">R exhausted</text>
+          </svg>
+          <figcaption>Zero order is the only order whose concentration–time plot is a straight line. Its slope is $-k$ and its intercept is $[R]_0$, which is how both are read off experimental data.</figcaption>
+        </figure>
+
+        <ol class="steps">
+          <li>Rate $= -\dfrac{d[R]}{dt}$ <span class="why">(definition; minus sign because $[R]$ falls)</span></li>
+          <li>Rate $= k[R]^0 = k$ <span class="why">(zero order: anything to the power 0 is 1)</span></li>
+          <li>$-\dfrac{d[R]}{dt} = k$</li>
+          <li>$d[R] = -k\,dt$ <span class="why">(separating the variables)</span></li>
+          <li>$\displaystyle\int_{[R]_0}^{[R]} d[R] = -k\int_{0}^{t} dt$ <span class="why">(integrating between the two states)</span></li>
+          <li>$[R] - [R]_0 = -k\,(t - 0)$</li>
+          <li>$[R] - [R]_0 = -kt$</li>
+          <li>$[R] = -kt + [R]_0$ <span class="why">(the straight line in the figure, $y = mx + c$)</span></li>
+          <li>$kt = [R]_0 - [R]$ <span class="why">(rearranging for $k$)</span></li>
+          <li>$k = \dfrac{[R]_0 - [R]}{t}$</li>
+        </ol>
+        <div class="result"><span class="lbl">Result</span>$[R] = -kt + [R]_0 \qquad k = \dfrac{[R]_0 - [R]}{t}$</div>
+        <p class="note">Units check: $k$ comes out as concentration ÷ time, $\ce{mol L^-1 s^-1}$ — which is exactly what C3.4 predicts for $n=0$.</p>
+      </div>
+
+      <div class="deriv" id="D2">
+        <div class="deriv-head"><span class="d-num">D2</span><span class="d-title">Half-life of a zero order reaction</span><span class="d-marks">2 marks</span></div>
+        <p class="setup">Half-life $t_{1/2}$ is the time at which exactly half the reactant is left. Take the integrated law from D1 and substitute that one condition.</p>
+        <div class="shared"><b>Shared setup with D1.</b> Every half-life derivation is the integrated rate law with $[R] = [R]_0/2$ and $t = t_{1/2}$ substituted. If you can do D1 and D3, you can do D2 and D4 without learning anything new.</div>
+
+        <figure class="fig">
+          <svg viewBox="0 0 420 250" role="img" aria-label="Zero order concentration against time, with the half-life marked: the concentration reaches half its initial value at a time equal to the initial concentration divided by twice k, and reaches zero at twice that time.">
+            <line x1="62" y1="30" x2="62" y2="205" stroke="currentColor" stroke-width="1.5"/>
+            <line x1="62" y1="205" x2="392" y2="205" stroke="currentColor" stroke-width="1.5"/>
+            <line x1="62" y1="55" x2="330" y2="205" stroke="currentColor" stroke-width="2.5"/>
+            <line x1="62" y1="130" x2="196" y2="130" stroke="currentColor" stroke-width="1" stroke-dasharray="3 4" opacity="0.6"/>
+            <line x1="196" y1="130" x2="196" y2="205" stroke="currentColor" stroke-width="1" stroke-dasharray="3 4" opacity="0.6"/>
+            <circle cx="196" cy="130" r="3.5" fill="currentColor"/>
+            <text x="54" y="59" text-anchor="end" font-size="12" fill="currentColor">[R]₀</text>
+            <text x="54" y="134" text-anchor="end" font-size="12" fill="currentColor">[R]₀/2</text>
+            <text x="196" y="224" text-anchor="middle" font-size="12" fill="currentColor">t½</text>
+            <text x="330" y="224" text-anchor="middle" font-size="12" fill="currentColor">2t½</text>
+            <text x="30" y="120" text-anchor="middle" font-size="12" fill="currentColor" transform="rotate(-90 30 120)">[R]</text>
+            <text x="227" y="240" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.75">time</text>
+          </svg>
+          <figcaption>Because the line is straight, the reaction finishes at exactly $2t_{1/2}$ — a zero order reaction really does run out, which no first order reaction ever does.</figcaption>
+        </figure>
+
+        <ol class="steps">
+          <li>$k = \dfrac{[R]_0 - [R]}{t}$ <span class="why">(from D1)</span></li>
+          <li>At $t = t_{1/2}$, $[R] = \dfrac{[R]_0}{2}$ <span class="why">(definition of half-life)</span></li>
+          <li>$k = \dfrac{[R]_0 - \tfrac{[R]_0}{2}}{t_{1/2}}$ <span class="why">(substituting both)</span></li>
+          <li>$k = \dfrac{\tfrac{[R]_0}{2}}{t_{1/2}}$</li>
+          <li>$k\,t_{1/2} = \dfrac{[R]_0}{2}$</li>
+          <li>$t_{1/2} = \dfrac{[R]_0}{2k}$</li>
+        </ol>
+        <div class="result"><span class="lbl">Result</span>$t_{1/2} = \dfrac{[R]_0}{2k}$ — <i>directly proportional</i> to the initial concentration</div>
+      </div>
+
+      <div class="deriv" id="D3">
+        <div class="deriv-head"><span class="d-num">D3</span><span class="d-title">Integrated rate law for a first order reaction</span><span class="d-marks">3 marks</span></div>
+        <p class="setup">Same reaction $\ce{R -> P}$, but now the rate is proportional to $[R]$. The integration produces a natural logarithm, which is then converted to base 10 because every exam table and graph uses $\log$.</p>
+
+        <figure class="fig">
+          <svg viewBox="0 0 420 250" role="img" aria-label="Graph of log of concentration of R against time for a first order reaction: a straight line with intercept log of the initial concentration and slope minus k over 2.303.">
+            <line x1="62" y1="30" x2="62" y2="205" stroke="currentColor" stroke-width="1.5"/>
+            <line x1="62" y1="205" x2="392" y2="205" stroke="currentColor" stroke-width="1.5"/>
+            <line x1="62" y1="55" x2="350" y2="185" stroke="currentColor" stroke-width="2.5"/>
+            <circle cx="62" cy="55" r="3.5" fill="currentColor"/>
+            <text x="54" y="59" text-anchor="end" font-size="12" fill="currentColor">log[R]₀</text>
+            <text x="26" y="120" text-anchor="middle" font-size="12" fill="currentColor" transform="rotate(-90 26 120)">log [R]</text>
+            <text x="227" y="234" text-anchor="middle" font-size="12" fill="currentColor">time  t</text>
+            <text x="196" y="106" font-size="12" fill="currentColor" font-style="italic">slope = −k / 2.303</text>
+          </svg>
+          <figcaption>A first order reaction is straight only after you take the logarithm. That is the practical test: if $\log[R]$ against $t$ is a line, the reaction is first order and $k$ is $2.303\times$ the magnitude of its slope.</figcaption>
+        </figure>
+
+        <ol class="steps">
+          <li>Rate $= -\dfrac{d[R]}{dt}$ <span class="why">(definition)</span></li>
+          <li>Rate $= k[R]^1 = k[R]$ <span class="why">(first order rate law)</span></li>
+          <li>$-\dfrac{d[R]}{dt} = k[R]$</li>
+          <li>$\dfrac{d[R]}{[R]} = -k\,dt$ <span class="why">(separating the variables)</span></li>
+          <li>$\displaystyle\int_{[R]_0}^{[R]} \dfrac{d[R]}{[R]} = -k\int_{0}^{t} dt$</li>
+          <li>$\ln[R] - \ln[R]_0 = -kt$ <span class="why">(integral of $1/x$ is $\ln x$)</span></li>
+          <li>$\ln\dfrac{[R]}{[R]_0} = -kt$ <span class="why">(law of logarithms)</span></li>
+          <li>$\ln\dfrac{[R]_0}{[R]} = kt$ <span class="why">(inverting the fraction flips the sign)</span></li>
+          <li>$2.303\log\dfrac{[R]_0}{[R]} = kt$ <span class="why">($\ln x = 2.303\log_{10} x$)</span></li>
+          <li>$k = \dfrac{2.303}{t}\log\dfrac{[R]_0}{[R]}$</li>
+          <li>Rearranged for a graph: $\log[R] = -\dfrac{k}{2.303}t + \log[R]_0$ <span class="why">(the straight line drawn above)</span></li>
+        </ol>
+        <div class="result"><span class="lbl">Result</span>$k = \dfrac{2.303}{t}\log\dfrac{[R]_0}{[R]}$</div>
+        <p class="note">Units check: the log is dimensionless, so $k$ has units of $1/\text{time}$, $\ce{s^-1}$ — matching C3.4 for $n=1$. That is also why the next derivation comes out independent of concentration.</p>
+      </div>
+
+      <div class="deriv" id="D4">
+        <div class="deriv-head"><span class="d-num">D4</span><span class="d-title">First order half-life, and why it ignores concentration</span><span class="d-marks">2–3 marks</span></div>
+        <p class="setup">Substitute the half-life condition into D3. Watch what happens to $[R]_0$ — the whole point of this derivation is that it cancels.</p>
+
+        <figure class="fig">
+          <svg viewBox="0 0 420 250" role="img" aria-label="First order decay curve: concentration falls from its initial value to one half after one half-life, to one quarter after two half-lives and one eighth after three, with the three time intervals all equal.">
+            <line x1="62" y1="30" x2="62" y2="205" stroke="currentColor" stroke-width="1.5"/>
+            <line x1="62" y1="205" x2="392" y2="205" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M62 50 C 110 96, 140 122, 158 134 C 200 162, 240 178, 254 183 C 300 196, 340 201, 380 203" fill="none" stroke="currentColor" stroke-width="2.5"/>
+            <line x1="62" y1="127" x2="158" y2="127" stroke="currentColor" stroke-width="1" stroke-dasharray="3 4" opacity="0.55"/>
+            <line x1="158" y1="127" x2="158" y2="205" stroke="currentColor" stroke-width="1" stroke-dasharray="3 4" opacity="0.55"/>
+            <line x1="62" y1="166" x2="254" y2="166" stroke="currentColor" stroke-width="1" stroke-dasharray="3 4" opacity="0.55"/>
+            <line x1="254" y1="166" x2="254" y2="205" stroke="currentColor" stroke-width="1" stroke-dasharray="3 4" opacity="0.55"/>
+            <line x1="62" y1="185" x2="350" y2="185" stroke="currentColor" stroke-width="1" stroke-dasharray="3 4" opacity="0.55"/>
+            <line x1="350" y1="185" x2="350" y2="205" stroke="currentColor" stroke-width="1" stroke-dasharray="3 4" opacity="0.55"/>
+            <text x="54" y="54" text-anchor="end" font-size="12" fill="currentColor">[R]₀</text>
+            <text x="54" y="131" text-anchor="end" font-size="11" fill="currentColor">[R]₀/2</text>
+            <text x="54" y="170" text-anchor="end" font-size="11" fill="currentColor">[R]₀/4</text>
+            <text x="54" y="189" text-anchor="end" font-size="11" fill="currentColor">[R]₀/8</text>
+            <text x="158" y="222" text-anchor="middle" font-size="11" fill="currentColor">t½</text>
+            <text x="254" y="222" text-anchor="middle" font-size="11" fill="currentColor">2t½</text>
+            <text x="350" y="222" text-anchor="middle" font-size="11" fill="currentColor">3t½</text>
+            <text x="227" y="242" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.75">equal intervals, every time</text>
+          </svg>
+          <figcaption>Each successive halving takes the same time, no matter how little is left. That is the visual statement of the algebraic cancellation below, and it is why radioactive decay has a fixed half-life.</figcaption>
+        </figure>
+
+        <ol class="steps">
+          <li>$k = \dfrac{2.303}{t}\log\dfrac{[R]_0}{[R]}$ <span class="why">(from D3)</span></li>
+          <li>At $t = t_{1/2}$, $[R] = \dfrac{[R]_0}{2}$ <span class="why">(definition of half-life)</span></li>
+          <li>$k = \dfrac{2.303}{t_{1/2}}\log\dfrac{[R]_0}{[R]_0/2}$</li>
+          <li>$\dfrac{[R]_0}{[R]_0/2} = 2$ <span class="why">($[R]_0$ cancels — this is the whole result)</span></li>
+          <li>$k = \dfrac{2.303}{t_{1/2}}\log 2$</li>
+          <li>$\log 2 = 0.301$</li>
+          <li>$k = \dfrac{2.303 \times 0.301}{t_{1/2}} = \dfrac{0.693}{t_{1/2}}$</li>
+          <li>$t_{1/2} = \dfrac{0.693}{k}$</li>
+        </ol>
+        <div class="result"><span class="lbl">Result</span>$t_{1/2} = \dfrac{0.693}{k}$ — <i>independent</i> of the initial concentration</div>
+        <p class="note">Step 4 is the answer to "show that the half-life of a first order reaction is independent of initial concentration". Do not skip it; it is the mark.</p>
+      </div>
+
+      <div class="deriv" id="D5">
+        <div class="deriv-head"><span class="d-num">D5</span><span class="d-title">Activation energy from rate constants at two temperatures</span><span class="d-marks">3 marks</span></div>
+        <p class="setup">Start from the Arrhenius equation, take logarithms to make it linear, write it once at each of two temperatures $T_1$ and $T_2$, and subtract. The frequency factor $A$ is unknown and must disappear — that is what the subtraction is for.</p>
+
+        <figure class="fig">
+          <svg viewBox="0 0 420 250" role="img" aria-label="Arrhenius plot: log k against one over T is a descending straight line whose intercept is log A and whose slope is minus the activation energy divided by 2.303 R.">
+            <line x1="62" y1="30" x2="62" y2="205" stroke="currentColor" stroke-width="1.5"/>
+            <line x1="62" y1="205" x2="392" y2="205" stroke="currentColor" stroke-width="1.5"/>
+            <line x1="62" y1="52" x2="352" y2="182" stroke="currentColor" stroke-width="2.5"/>
+            <circle cx="62" cy="52" r="3.5" fill="currentColor"/>
+            <circle cx="150" cy="91" r="3.5" fill="currentColor"/>
+            <circle cx="272" cy="146" r="3.5" fill="currentColor"/>
+            <line x1="150" y1="91" x2="150" y2="205" stroke="currentColor" stroke-width="1" stroke-dasharray="3 4" opacity="0.5"/>
+            <line x1="272" y1="146" x2="272" y2="205" stroke="currentColor" stroke-width="1" stroke-dasharray="3 4" opacity="0.5"/>
+            <text x="54" y="56" text-anchor="end" font-size="12" fill="currentColor">log A</text>
+            <text x="150" y="222" text-anchor="middle" font-size="11" fill="currentColor">1/T₂</text>
+            <text x="272" y="222" text-anchor="middle" font-size="11" fill="currentColor">1/T₁</text>
+            <text x="26" y="118" text-anchor="middle" font-size="12" fill="currentColor" transform="rotate(-90 26 118)">log k</text>
+            <text x="227" y="242" text-anchor="middle" font-size="12" fill="currentColor">1 / T</text>
+            <text x="196" y="100" font-size="12" fill="currentColor" font-style="italic">slope = −Eₐ / 2.303R</text>
+          </svg>
+          <figcaption>$T_2 \gt T_1$, so $1/T_2$ sits to the <i>left</i> of $1/T_1$ and the higher temperature gives the higher $\log k$. Reading the axis backwards is the commonest error on this plot.</figcaption>
+        </figure>
+
+        <ol class="steps">
+          <li>$k = A\,e^{-E_a/RT}$ <span class="why">(Arrhenius equation)</span></li>
+          <li>$\ln k = \ln A - \dfrac{E_a}{RT}$ <span class="why">(taking natural logs of both sides)</span></li>
+          <li>$\log k = \log A - \dfrac{E_a}{2.303RT}$ <span class="why">(converting to base 10)</span></li>
+          <li>At $T_1$: $\log k_1 = \log A - \dfrac{E_a}{2.303RT_1}$</li>
+          <li>At $T_2$: $\log k_2 = \log A - \dfrac{E_a}{2.303RT_2}$</li>
+          <li>Subtracting: $\log k_2 - \log k_1 = -\dfrac{E_a}{2.303RT_2} + \dfrac{E_a}{2.303RT_1}$ <span class="why">($\log A$ cancels — it is the same constant at both temperatures)</span></li>
+          <li>$\log\dfrac{k_2}{k_1} = \dfrac{E_a}{2.303R}\left[\dfrac{1}{T_1} - \dfrac{1}{T_2}\right]$</li>
+          <li>$\dfrac{1}{T_1} - \dfrac{1}{T_2} = \dfrac{T_2 - T_1}{T_1T_2}$ <span class="why">(common denominator)</span></li>
+          <li>$\log\dfrac{k_2}{k_1} = \dfrac{E_a}{2.303R}\left[\dfrac{T_2 - T_1}{T_1T_2}\right]$</li>
+        </ol>
+        <div class="result"><span class="lbl">Result</span>$\log\dfrac{k_2}{k_1} = \dfrac{E_a}{2.303R}\left[\dfrac{T_2 - T_1}{T_1T_2}\right]$</div>
+        <p class="note">The bracket is $\tfrac{1}{T_1} - \tfrac{1}{T_2}$, smaller temperature first. If you get a negative $E_a$, you reversed it at step 7.</p>
+      </div>
+
+    </div>
+  </details>
+
+  <details class="ch">
+    <summary><span class="num">CH 2</span>Electrochemistry<span class="tail">3 derivations · 14 marks</span></summary>
+    <div class="ch-body">
+
+      <div class="deriv" id="D6">
+        <div class="deriv-head"><span class="d-num">D6</span><span class="d-title">The Nernst equation</span><span class="d-marks">3 marks</span></div>
+        <p class="setup">A galvanic cell running the reaction $\ce{aA + bB -> cC + dD}$ with $n$ electrons transferred. Two facts are combined: the thermodynamic relation between Gibbs energy and the reaction quotient, and the electrochemical relation between Gibbs energy and cell potential.</p>
+
+        <figure class="fig">
+          <svg viewBox="0 0 460 250" role="img" aria-label="A galvanic cell: a zinc electrode in zinc sulphate solution on the left as the anode where oxidation occurs, a copper electrode in copper sulphate solution on the right as the cathode where reduction occurs, joined by a salt bridge that dips into both solutions and by an external circuit with a voltmeter through which electrons flow from left to right.">
+            <defs>
+              <marker id="cd6-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+                <path d="M0,0 L10,5 L0,10 Z" fill="currentColor"/>
+              </marker>
+            </defs>
+            <path d="M40 100 L40 200 L180 200 L180 100" fill="none" stroke="currentColor" stroke-width="1.8"/>
+            <path d="M280 100 L280 200 L420 200 L420 100" fill="none" stroke="currentColor" stroke-width="1.8"/>
+            <line x1="40" y1="124" x2="180" y2="124" stroke="currentColor" stroke-width="1" opacity="0.5"/>
+            <line x1="280" y1="124" x2="420" y2="124" stroke="currentColor" stroke-width="1" opacity="0.5"/>
+            <rect x="104" y="76" width="13" height="94" fill="none" stroke="currentColor" stroke-width="1.8"/>
+            <rect x="344" y="76" width="13" height="94" fill="none" stroke="currentColor" stroke-width="1.8"/>
+            <text x="110" y="188" text-anchor="middle" font-size="11" fill="currentColor">Zn</text>
+            <text x="350" y="188" text-anchor="middle" font-size="11" fill="currentColor">Cu</text>
+            <path d="M110 76 L110 32 L350 32 L350 76" fill="none" stroke="currentColor" stroke-width="1.5"/>
+            <circle cx="230" cy="32" r="16" fill="none" stroke="currentColor" stroke-width="1.5"/>
+            <text x="230" y="37" text-anchor="middle" font-size="12" fill="currentColor">V</text>
+            <line x1="148" y1="20" x2="196" y2="20" stroke="currentColor" stroke-width="1.5" marker-end="url(#cd6-arrow)"/>
+            <text x="172" y="13" text-anchor="middle" font-size="11" fill="currentColor">e⁻</text>
+            <path d="M152 158 L152 82 Q152 72 162 72 L298 72 Q308 72 308 82 L308 158" fill="none" stroke="currentColor" stroke-width="1.8" stroke-dasharray="5 3"/>
+            <text x="230" y="64" text-anchor="middle" font-size="11" fill="currentColor">salt bridge</text>
+            <text x="110" y="144" text-anchor="middle" font-size="11" fill="currentColor">Zn²⁺</text>
+            <text x="350" y="144" text-anchor="middle" font-size="11" fill="currentColor">Cu²⁺</text>
+            <text x="56" y="94" text-anchor="middle" font-size="11" fill="currentColor">anode</text>
+            <text x="404" y="94" text-anchor="middle" font-size="11" fill="currentColor">cathode</text>
+            <text x="56" y="222" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.75">(−) oxidation</text>
+            <text x="404" y="222" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.75">(+) reduction</text>
+          </svg>
+          <figcaption>The Daniell cell, $E^\circ_{\text{cell}} = 1.1\ \text{V}$. The Nernst equation says what happens to that reading when the two solutions are not at 1 M — and the sign of the correction follows from Le Chatelier, not from memory.</figcaption>
+        </figure>
+
+        <ol class="steps">
+          <li>$\Delta_r G = \Delta_r G^{\,\circ} + RT\ln Q$ <span class="why">(thermodynamics: Gibbs energy away from standard state)</span></li>
+          <li>$\Delta_r G = -nFE_{\text{cell}}$ <span class="why">(electrical work done by the cell)</span></li>
+          <li>$\Delta_r G^{\,\circ} = -nFE^{\,\circ}_{\text{cell}}$ <span class="why">(same relation at standard state)</span></li>
+          <li>$-nFE_{\text{cell}} = -nFE^{\,\circ}_{\text{cell}} + RT\ln Q$ <span class="why">(substituting 2 and 3 into 1)</span></li>
+          <li>Divide throughout by $-nF$:</li>
+          <li>$E_{\text{cell}} = E^{\,\circ}_{\text{cell}} - \dfrac{RT}{nF}\ln Q$</li>
+          <li>$E_{\text{cell}} = E^{\,\circ}_{\text{cell}} - \dfrac{2.303RT}{nF}\log Q$ <span class="why">(converting to base 10)</span></li>
+          <li>At 298 K: $\dfrac{2.303 \times 8.314 \times 298}{96487} = 0.059$ <span class="why">(substituting $R$, $T$ and $F$)</span></li>
+          <li>$E_{\text{cell}} = E^{\,\circ}_{\text{cell}} - \dfrac{0.059}{n}\log Q$</li>
+        </ol>
+        <div class="result"><span class="lbl">Result</span>$E_{\text{cell}} = E^{\,\circ}_{\text{cell}} - \dfrac{2.303RT}{nF}\log Q \;\xrightarrow{298\text{ K}}\; E^{\,\circ}_{\text{cell}} - \dfrac{0.059}{n}\log Q$</div>
+        <p class="note">Step 8 is worth writing out in full — being asked where the 0.059 comes from is a common follow-up, and "$2.303RT/F$ at 298 K" is the whole answer.</p>
+      </div>
+
+      <div class="deriv" id="D7">
+        <div class="deriv-head"><span class="d-num">D7</span><span class="d-title">Equilibrium constant from standard cell potential</span><span class="d-marks">2–3 marks</span></div>
+        <p class="setup">Take the Nernst equation and ask what it says at the one moment the cell stops working. A cell at equilibrium has no driving force, so it reads zero volts — and at that moment the reaction quotient has become the equilibrium constant.</p>
+        <div class="shared"><b>Shared setup with D6.</b> This is the Nernst equation with one substitution. Do not learn it as a separate formula.</div>
+
+        <figure class="fig">
+          <svg viewBox="0 0 420 240" role="img" aria-label="Graph of cell potential against log Q: a descending straight line of slope minus 0.059 over n, with intercept the standard cell potential at log Q equals zero, crossing the horizontal axis at log of the equilibrium constant where the cell is dead.">
+            <line x1="70" y1="30" x2="70" y2="200" stroke="currentColor" stroke-width="1.5"/>
+            <line x1="70" y1="150" x2="392" y2="150" stroke="currentColor" stroke-width="1.5"/>
+            <line x1="70" y1="58" x2="360" y2="196" stroke="currentColor" stroke-width="2.5"/>
+            <circle cx="70" cy="58" r="3.5" fill="currentColor"/>
+            <circle cx="263" cy="150" r="4.5" fill="currentColor"/>
+            <line x1="263" y1="150" x2="263" y2="176" stroke="currentColor" stroke-width="1" stroke-dasharray="3 3" opacity="0.6"/>
+            <text x="62" y="62" text-anchor="end" font-size="12" fill="currentColor">E°cell</text>
+            <text x="62" y="154" text-anchor="end" font-size="12" fill="currentColor">0</text>
+            <text x="263" y="192" text-anchor="middle" font-size="11" fill="currentColor">log K</text>
+            <text x="30" y="105" text-anchor="middle" font-size="12" fill="currentColor" transform="rotate(-90 30 105)">E cell</text>
+            <text x="380" y="142" text-anchor="end" font-size="12" fill="currentColor">log Q</text>
+            <text x="292" y="126" font-size="11" fill="currentColor" opacity="0.8">cell is dead</text>
+          </svg>
+          <figcaption>The cell potential falls linearly as products build up. Where the line crosses zero, $Q$ has reached $K_c$ — the battery is flat. Reading the intercept and the zero-crossing off this one line gives both results.</figcaption>
+        </figure>
+
+        <ol class="steps">
+          <li>$E_{\text{cell}} = E^{\,\circ}_{\text{cell}} - \dfrac{0.059}{n}\log Q$ <span class="why">(from D6)</span></li>
+          <li>At equilibrium the cell delivers no work, so $E_{\text{cell}} = 0$ <span class="why">(a dead cell)</span></li>
+          <li>At equilibrium $Q = K_c$ <span class="why">(definition of the equilibrium constant)</span></li>
+          <li>$0 = E^{\,\circ}_{\text{cell}} - \dfrac{0.059}{n}\log K_c$</li>
+          <li>$E^{\,\circ}_{\text{cell}} = \dfrac{0.059}{n}\log K_c$ <span class="why">(moving the log term across — this is why the sign is now positive)</span></li>
+          <li>$\log K_c = \dfrac{n\,E^{\,\circ}_{\text{cell}}}{0.059}$ <span class="why">(rearranged for $K_c$)</span></li>
+          <li>Equivalently, from $\Delta_r G^{\,\circ} = -nFE^{\,\circ}_{\text{cell}}$ and $\Delta_r G^{\,\circ} = -RT\ln K_c$:</li>
+          <li>$nFE^{\,\circ}_{\text{cell}} = RT\ln K_c$ <span class="why">(equating the two expressions for $\Delta_r G^\circ$)</span></li>
+        </ol>
+        <div class="result"><span class="lbl">Result</span>$E^{\,\circ}_{\text{cell}} = \dfrac{0.059}{n}\log K_c \qquad \log K_c = \dfrac{n\,E^{\,\circ}_{\text{cell}}}{0.059}$</div>
+      </div>
+
+      <div class="deriv" id="D8">
+        <div class="deriv-head"><span class="d-num">D8</span><span class="d-title">Molar conductivity from conductivity — where the 1000 comes from</span><span class="d-marks">2 marks</span></div>
+        <p class="setup">A conductivity cell of electrode area $A$ and separation $l$. Conductivity $\kappa$ is defined for a $1\ \text{cm}$ cube of solution; molar conductivity $\Lambda_m$ is defined for however much solution contains exactly one mole. The 1000 is nothing but a $\ce{cm^3}$-to-litre conversion, and this derivation is really a units argument.</p>
+
+        <figure class="fig">
+          <svg viewBox="0 0 440 210" role="img" aria-label="A conductivity cell: two parallel electrodes of area A separated by a distance l, with the cell constant defined as l divided by A, beside a unit cube of solution of side one centimetre whose conductance is the conductivity.">
+            <defs>
+              <marker id="cd8-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+                <path d="M0,0 L10,5 L0,10 Z" fill="currentColor"/>
+              </marker>
+            </defs>
+            <rect x="52" y="46" width="150" height="112" fill="none" stroke="currentColor" stroke-width="1.5" opacity="0.55"/>
+            <rect x="74" y="60" width="11" height="84" fill="none" stroke="currentColor" stroke-width="2"/>
+            <rect x="168" y="60" width="11" height="84" fill="none" stroke="currentColor" stroke-width="2"/>
+            <line x1="85" y1="176" x2="168" y2="176" stroke="currentColor" stroke-width="1.3" marker-start="url(#cd8-arrow)" marker-end="url(#cd8-arrow)"/>
+            <text x="126" y="192" text-anchor="middle" font-size="12" fill="currentColor">l</text>
+            <line x1="62" y1="60" x2="62" y2="144" stroke="currentColor" stroke-width="1.3" marker-start="url(#cd8-arrow)" marker-end="url(#cd8-arrow)"/>
+            <text x="48" y="106" text-anchor="middle" font-size="12" fill="currentColor">A</text>
+            <text x="127" y="34" text-anchor="middle" font-size="11" fill="currentColor">cell constant  G* = l / A</text>
+            <path d="M270 76 L340 76 L340 146 L270 146 Z" fill="none" stroke="currentColor" stroke-width="1.8"/>
+            <path d="M270 76 L292 56 L362 56 L340 76" fill="none" stroke="currentColor" stroke-width="1.5" opacity="0.75"/>
+            <path d="M340 76 L362 56 L362 126 L340 146" fill="none" stroke="currentColor" stroke-width="1.5" opacity="0.75"/>
+            <text x="305" y="118" text-anchor="middle" font-size="11" fill="currentColor">1 cm³</text>
+            <text x="316" y="178" text-anchor="middle" font-size="11" fill="currentColor">κ = conductance</text>
+            <text x="316" y="193" text-anchor="middle" font-size="11" fill="currentColor">of this cube</text>
+          </svg>
+          <figcaption>Two different reference volumes: $\kappa$ is per cubic centimetre, $\Lambda_m$ is per mole. Converting between them is the entire content of the formula.</figcaption>
+        </figure>
+
+        <ol class="steps">
+          <li>$\Lambda_m = \kappa \times V$ <span class="why">($V$ = volume of solution containing exactly 1 mole of electrolyte)</span></li>
+          <li>Let the concentration be $c$ mol per litre <span class="why">(the unit every exam question uses)</span></li>
+          <li>$c$ moles occupy $1\ \text{L}$, so 1 mole occupies $\dfrac{1}{c}\ \text{L}$</li>
+          <li>$1\ \text{L} = 1000\ \text{cm}^3$ <span class="why">(the conversion — this is the 1000)</span></li>
+          <li>1 mole occupies $\dfrac{1000}{c}\ \text{cm}^3$</li>
+          <li>$\Lambda_m = \kappa \times \dfrac{1000}{c}$</li>
+          <li>Units: $\ce{S cm^-1} \times \ce{cm^3 mol^-1} = \ce{S cm^2 mol^-1}$ <span class="why">(confirming the standard unit)</span></li>
+        </ol>
+        <div class="result"><span class="lbl">Result</span>$\Lambda_m = \dfrac{\kappa \times 1000}{c}$ in $\ce{S cm^2 mol^-1}$</div>
+        <p class="note">In strict SI ($\kappa$ in $\ce{S m^-1}$, $c$ in $\ce{mol m^-3}$) step 4 disappears and $\Lambda_m = \kappa/c$ in $\ce{S m^2 mol^-1}$. The 1000 is a unit artefact, not physics.</p>
+      </div>
+
+    </div>
+  </details>
+
+  <details class="ch">
+    <summary><span class="num">CH 1</span>Solutions<span class="tail">4 derivations · 15 marks</span></summary>
+    <div class="ch-body">
+
+      <div class="deriv" id="D9">
+        <div class="deriv-head"><span class="d-num">D9</span><span class="d-title">Relative lowering of vapour pressure equals the solute's mole fraction</span><span class="d-marks">3 marks</span></div>
+        <p class="setup">A non-volatile solute B dissolved in a volatile solvent A. Only A can evaporate, so the vapour above the solution is pure A — but there is less of it, because solute particles occupy part of the surface. Start from Raoult's law and rearrange.</p>
+
+        <figure class="fig">
+          <svg viewBox="0 0 440 210" role="img" aria-label="Two beakers side by side: pure solvent on the left with many molecules escaping from its surface, and a solution on the right whose surface is partly occupied by solute particles so fewer solvent molecules escape, giving a lower vapour pressure.">
+            <defs>
+              <marker id="cd9-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+                <path d="M0,0 L10,5 L0,10 Z" fill="currentColor"/>
+              </marker>
+            </defs>
+            <path d="M40 60 L40 178 L172 178 L172 60" fill="none" stroke="currentColor" stroke-width="1.8"/>
+            <line x1="40" y1="104" x2="172" y2="104" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M268 60 L268 178 L400 178 L400 60" fill="none" stroke="currentColor" stroke-width="1.8"/>
+            <line x1="268" y1="104" x2="400" y2="104" stroke="currentColor" stroke-width="1.5"/>
+            <line x1="66" y1="96" x2="66" y2="52" stroke="currentColor" stroke-width="1.3" marker-end="url(#cd9-arrow)"/>
+            <line x1="94" y1="96" x2="94" y2="46" stroke="currentColor" stroke-width="1.3" marker-end="url(#cd9-arrow)"/>
+            <line x1="122" y1="96" x2="122" y2="52" stroke="currentColor" stroke-width="1.3" marker-end="url(#cd9-arrow)"/>
+            <line x1="148" y1="96" x2="148" y2="46" stroke="currentColor" stroke-width="1.3" marker-end="url(#cd9-arrow)"/>
+            <line x1="300" y1="96" x2="300" y2="52" stroke="currentColor" stroke-width="1.3" marker-end="url(#cd9-arrow)"/>
+            <line x1="368" y1="96" x2="368" y2="52" stroke="currentColor" stroke-width="1.3" marker-end="url(#cd9-arrow)"/>
+            <circle cx="284" cy="104" r="5.5" fill="currentColor"/>
+            <circle cx="326" cy="104" r="5.5" fill="currentColor"/>
+            <circle cx="348" cy="104" r="5.5" fill="currentColor"/>
+            <circle cx="390" cy="104" r="5.5" fill="currentColor"/>
+            <text x="106" y="200" text-anchor="middle" font-size="12" fill="currentColor">pure solvent · p°</text>
+            <text x="334" y="200" text-anchor="middle" font-size="12" fill="currentColor">solution · p &lt; p°</text>
+            <text x="106" y="34" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.8">4 escaping</text>
+            <text x="334" y="34" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.8">2 escaping</text>
+          </svg>
+          <figcaption>Solute particles (filled circles) take up surface sites, so fewer solvent molecules can leave. The fraction of the surface still available to solvent is $x_A$ — which is exactly what Raoult's law asserts.</figcaption>
+        </figure>
+
+        <ol class="steps">
+          <li>$p_A = x_A\,p_A^{\,\circ}$ <span class="why">(Raoult's law; the solute is non-volatile so $p_{\text{soln}} = p_A$)</span></li>
+          <li>$p_A^{\,\circ} - p_A = p_A^{\,\circ} - x_A p_A^{\,\circ}$ <span class="why">(subtracting both sides from $p_A^\circ$)</span></li>
+          <li>$p_A^{\,\circ} - p_A = p_A^{\,\circ}(1 - x_A)$</li>
+          <li>$x_A + x_B = 1$, so $1 - x_A = x_B$ <span class="why">(mole fractions sum to one)</span></li>
+          <li>$p_A^{\,\circ} - p_A = p_A^{\,\circ}\,x_B$</li>
+          <li>$\dfrac{p_A^{\,\circ} - p_A}{p_A^{\,\circ}} = x_B$ <span class="why">(dividing by $p_A^\circ$ — the left side is the relative lowering)</span></li>
+          <li>$x_B = \dfrac{n_B}{n_A + n_B}$ <span class="why">(definition of mole fraction)</span></li>
+          <li>For a dilute solution $n_B \ll n_A$, so $n_A + n_B \approx n_A$</li>
+          <li>$\dfrac{p_A^{\,\circ} - p_A}{p_A^{\,\circ}} \approx \dfrac{n_B}{n_A} = \dfrac{w_B/M_B}{w_A/M_A}$</li>
+          <li>$\dfrac{p_A^{\,\circ} - p_A}{p_A^{\,\circ}} = \dfrac{w_B\,M_A}{M_B\,w_A}$ <span class="why">(rearranged to give molar mass)</span></li>
+        </ol>
+        <div class="result"><span class="lbl">Result</span>$\dfrac{p_A^{\,\circ} - p_A}{p_A^{\,\circ}} = x_B \qquad M_B = \dfrac{w_B\,M_A\,p_A^{\,\circ}}{w_A\left(p_A^{\,\circ} - p_A\right)}$</div>
+        <p class="note">Steps 1–6 are exact. Step 8 is the only approximation, and it is only valid for a dilute solution — say so if you use it.</p>
+      </div>
+
+      <div class="deriv" id="D10">
+        <div class="deriv-head"><span class="d-num">D10</span><span class="d-title">Elevation of boiling point is proportional to molality</span><span class="d-marks">3 marks</span></div>
+        <p class="setup">A liquid boils when its vapour pressure equals the external pressure. A non-volatile solute lowers the vapour pressure at every temperature (D9), so the solution's curve sits below the solvent's — and has to be taken to a higher temperature before it reaches the 1 atm line.</p>
+
+        <figure class="fig">
+          <svg viewBox="0 0 440 250" role="img" aria-label="Vapour pressure against temperature for pure solvent and for solution: the solution curve lies below the solvent curve everywhere, so it meets the one atmosphere line at a higher temperature, and the gap between the two crossing points is the elevation of boiling point.">
+            <defs>
+              <marker id="cd10-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+                <path d="M0,0 L10,5 L0,10 Z" fill="currentColor"/>
+              </marker>
+            </defs>
+            <line x1="62" y1="24" x2="62" y2="200" stroke="currentColor" stroke-width="1.5"/>
+            <line x1="62" y1="200" x2="404" y2="200" stroke="currentColor" stroke-width="1.5"/>
+            <line x1="62" y1="76" x2="404" y2="76" stroke="currentColor" stroke-width="1.2" stroke-dasharray="4 4" opacity="0.7"/>
+            <text x="400" y="68" text-anchor="end" font-size="11" fill="currentColor" opacity="0.85">1 atm</text>
+            <path d="M84 190 C 160 184, 230 150, 268 76 C 280 54, 288 42, 296 32" fill="none" stroke="currentColor" stroke-width="2.5"/>
+            <path d="M84 196 C 168 191, 244 162, 288 76 C 300 52, 308 42, 316 32" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="6 4"/>
+            <circle cx="268" cy="76" r="4" fill="currentColor"/>
+            <circle cx="288" cy="76" r="4" fill="currentColor"/>
+            <line x1="268" y1="76" x2="268" y2="212" stroke="currentColor" stroke-width="1" stroke-dasharray="3 3" opacity="0.55"/>
+            <line x1="288" y1="76" x2="288" y2="212" stroke="currentColor" stroke-width="1" stroke-dasharray="3 3" opacity="0.55"/>
+            <line x1="268" y1="226" x2="288" y2="226" stroke="currentColor" stroke-width="1.4" marker-start="url(#cd10-arrow)" marker-end="url(#cd10-arrow)"/>
+            <text x="278" y="243" text-anchor="middle" font-size="11" fill="currentColor">ΔT<tspan font-size="9" dy="3">b</tspan></text>
+            <text x="256" y="222" text-anchor="end" font-size="11" fill="currentColor">T<tspan font-size="9" dy="-4">°</tspan><tspan font-size="9" dy="7">b</tspan></text>
+            <text x="302" y="222" text-anchor="start" font-size="11" fill="currentColor">T<tspan font-size="9" dy="3">b</tspan></text>
+            <line x1="88" y1="44" x2="116" y2="44" stroke="currentColor" stroke-width="2.5"/>
+            <text x="122" y="48" font-size="11" fill="currentColor">solvent</text>
+            <line x1="88" y1="64" x2="116" y2="64" stroke="currentColor" stroke-width="2" stroke-dasharray="6 4"/>
+            <text x="122" y="68" font-size="11" fill="currentColor">solution</text>
+            <text x="26" y="112" text-anchor="middle" font-size="12" fill="currentColor" transform="rotate(-90 26 112)">vapour pressure</text>
+            <text x="150" y="222" text-anchor="middle" font-size="12" fill="currentColor">temperature →</text>
+          </svg>
+          <figcaption>The dashed curve is the solution. It never reaches 1 atm at the solvent's boiling point, so the temperature must be raised by $\Delta T_b$ — and for a dilute solution the two curves are near enough parallel that the shift is proportional to how much vapour pressure was lost.</figcaption>
+        </figure>
+
+        <ol class="steps">
+          <li>For a dilute solution, the lowering of vapour pressure is proportional to the elevation of boiling point: $\Delta T_b \propto \left(p_A^{\,\circ} - p_A\right)$ <span class="why">(the two curves are almost straight and almost parallel over this small range)</span></li>
+          <li>$\dfrac{p_A^{\,\circ} - p_A}{p_A^{\,\circ}} = x_B$ <span class="why">(from D9)</span></li>
+          <li>So $\Delta T_b \propto x_B$ <span class="why">($p_A^\circ$ is a constant for a given solvent)</span></li>
+          <li>$x_B = \dfrac{n_B}{n_A + n_B} \approx \dfrac{n_B}{n_A}$ <span class="why">(dilute solution)</span></li>
+          <li>$\Delta T_b \propto \dfrac{n_B}{n_A}$</li>
+          <li>$n_A = \dfrac{w_A}{M_A}$, so $\dfrac{n_B}{n_A} = \dfrac{n_B M_A}{w_A}$</li>
+          <li>$M_A$ is a constant for a given solvent, so $\Delta T_b \propto \dfrac{n_B}{w_A}$</li>
+          <li>$\dfrac{n_B}{w_A \text{ in kg}} = m$, the molality <span class="why">(definition of molality)</span></li>
+          <li>$\Delta T_b \propto m$</li>
+          <li>$\Delta T_b = K_b\,m$ <span class="why">(introducing the proportionality constant)</span></li>
+          <li>$m = \dfrac{w_B \times 1000}{M_B\,w_A}$ <span class="why">(molality written from masses, $w_A$ in grams)</span></li>
+          <li>$\Delta T_b = \dfrac{K_b\,w_B \times 1000}{M_B\,w_A}$</li>
+          <li>$M_B = \dfrac{K_b\,w_B \times 1000}{\Delta T_b\,w_A}$</li>
+        </ol>
+        <div class="result"><span class="lbl">Result</span>$\Delta T_b = K_b\,m \qquad M_B = \dfrac{K_b\,w_B \times 1000}{\Delta T_b\,w_A}$</div>
+        <p class="note">$K_b$ is the elevation for a 1 molal solution, and depends only on the solvent — for water $0.52\ \ce{K kg mol^-1}$.</p>
+      </div>
+
+      <div class="deriv" id="D11">
+        <div class="deriv-head"><span class="d-num">D11</span><span class="d-title">Depression of freezing point is proportional to molality</span><span class="d-marks">3 marks</span></div>
+        <p class="setup">A solution freezes when the vapour pressure of the liquid equals that of the pure solid solvent. Adding solute lowers the liquid's vapour pressure, so the two curves now meet at a <i>lower</i> temperature. Structurally identical to D10 — only the meeting point changes.</p>
+        <div class="shared"><b>Shared setup with D10.</b> Both start from "vapour pressure is lowered by $x_B$" and end in "proportional to molality". If you can write one, change the meeting condition and you have written the other.</div>
+
+        <figure class="fig">
+          <svg viewBox="0 0 440 250" role="img" aria-label="Vapour pressure against temperature near the freezing point: the solid solvent line crosses the pure solvent curve at the normal freezing point on the right, and crosses the lower solution curve at a lower temperature on the left, the gap between the two crossings being the depression of freezing point.">
+            <defs>
+              <marker id="cd11-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+                <path d="M0,0 L10,5 L0,10 Z" fill="currentColor"/>
+              </marker>
+            </defs>
+            <line x1="62" y1="24" x2="62" y2="200" stroke="currentColor" stroke-width="1.5"/>
+            <line x1="62" y1="200" x2="404" y2="200" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M100 170 C 165 158, 215 132, 272 100 C 296 86, 316 66, 330 50" fill="none" stroke="currentColor" stroke-width="2.5"/>
+            <path d="M100 182 C 160 174, 205 156, 232 132 C 262 106, 300 74, 320 56" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="6 4"/>
+            <line x1="170" y1="182" x2="300" y2="78" stroke="currentColor" stroke-width="1.6" opacity="0.9"/>
+            <circle cx="272" cy="100" r="4" fill="currentColor"/>
+            <circle cx="232" cy="132" r="4" fill="currentColor"/>
+            <line x1="272" y1="100" x2="272" y2="212" stroke="currentColor" stroke-width="1" stroke-dasharray="3 3" opacity="0.55"/>
+            <line x1="232" y1="132" x2="232" y2="212" stroke="currentColor" stroke-width="1" stroke-dasharray="3 3" opacity="0.55"/>
+            <line x1="232" y1="226" x2="272" y2="226" stroke="currentColor" stroke-width="1.4" marker-start="url(#cd11-arrow)" marker-end="url(#cd11-arrow)"/>
+            <text x="252" y="243" text-anchor="middle" font-size="11" fill="currentColor">ΔT<tspan font-size="9" dy="3">f</tspan></text>
+            <text x="226" y="222" text-anchor="end" font-size="11" fill="currentColor">T<tspan font-size="9" dy="3">f</tspan></text>
+            <text x="278" y="222" text-anchor="start" font-size="11" fill="currentColor">T<tspan font-size="9" dy="-4">°</tspan><tspan font-size="9" dy="7">f</tspan></text>
+            <line x1="88" y1="44" x2="116" y2="44" stroke="currentColor" stroke-width="2.5"/>
+            <text x="122" y="48" font-size="11" fill="currentColor">solvent</text>
+            <line x1="88" y1="64" x2="116" y2="64" stroke="currentColor" stroke-width="2" stroke-dasharray="6 4"/>
+            <text x="122" y="68" font-size="11" fill="currentColor">solution</text>
+            <line x1="88" y1="84" x2="116" y2="84" stroke="currentColor" stroke-width="1.6" opacity="0.9"/>
+            <text x="122" y="88" font-size="11" fill="currentColor">solid solvent</text>
+            <text x="26" y="112" text-anchor="middle" font-size="12" fill="currentColor" transform="rotate(-90 26 112)">vapour pressure</text>
+            <text x="150" y="222" text-anchor="middle" font-size="12" fill="currentColor">temperature →</text>
+          </svg>
+          <figcaption>Freezing happens where the liquid curve crosses the solid curve. Lowering the liquid curve moves that crossing to the left, and the shift is $\Delta T_f$. Note the solid curve is unchanged — solute does not dissolve in the solid solvent.</figcaption>
+        </figure>
+
+        <ol class="steps">
+          <li>A solution freezes when the vapour pressure of the liquid equals that of the pure solid solvent <span class="why">(definition of freezing point)</span></li>
+          <li>For a dilute solution, $\Delta T_f \propto \left(p_A^{\,\circ} - p_A\right)$ <span class="why">(same near-linear argument as D10)</span></li>
+          <li>$\dfrac{p_A^{\,\circ} - p_A}{p_A^{\,\circ}} = x_B$ <span class="why">(from D9)</span></li>
+          <li>$\Delta T_f \propto x_B$</li>
+          <li>$x_B \approx \dfrac{n_B}{n_A}$ <span class="why">(dilute solution)</span></li>
+          <li>$\Delta T_f \propto \dfrac{n_B}{w_A}$ <span class="why">($M_A$ constant for a given solvent)</span></li>
+          <li>$\Delta T_f \propto m$ <span class="why">(definition of molality)</span></li>
+          <li>$\Delta T_f = K_f\,m$</li>
+          <li>$m = \dfrac{w_B \times 1000}{M_B\,w_A}$</li>
+          <li>$M_B = \dfrac{K_f\,w_B \times 1000}{\Delta T_f\,w_A}$</li>
+        </ol>
+        <div class="result"><span class="lbl">Result</span>$\Delta T_f = K_f\,m \qquad M_B = \dfrac{K_f\,w_B \times 1000}{\Delta T_f\,w_A}$</div>
+        <p class="note">$K_f$ for water is $1.86\ \ce{K kg mol^-1}$ — larger than $K_b$, which is why freezing-point depression is the more sensitive method for finding a molar mass.</p>
+      </div>
+
+      <div class="deriv" id="D12">
+        <div class="deriv-head"><span class="d-num">D12</span><span class="d-title">Degree of dissociation from the van't Hoff factor</span><span class="d-marks">2–3 marks</span></div>
+        <p class="setup">One mole of an electrolyte $\ce{A_n}$ that breaks into $n$ particles, with a fraction $\alpha$ actually dissociating. Colligative properties count <i>particles</i>, so build the particle total after dissociation and compare it with the total before.</p>
+
+        <figure class="fig">
+          <svg viewBox="0 0 440 190" role="img" aria-label="Particle count before and after dissociation: one mole of solute starts as one particle, and after a fraction alpha dissociates into n particles the total becomes one minus alpha plus n alpha, whose ratio to the original is the van't Hoff factor.">
+            <defs>
+              <marker id="cd12-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+                <path d="M0,0 L10,5 L0,10 Z" fill="currentColor"/>
+              </marker>
+            </defs>
+            <text x="70" y="34" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.8">before</text>
+            <text x="320" y="34" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.8">after</text>
+            <circle cx="70" cy="76" r="17" fill="none" stroke="currentColor" stroke-width="2"/>
+            <text x="70" y="81" text-anchor="middle" font-size="12" fill="currentColor">Aₙ</text>
+            <text x="70" y="116" text-anchor="middle" font-size="11" fill="currentColor">1 mol</text>
+            <line x1="104" y1="76" x2="176" y2="76" stroke="currentColor" stroke-width="1.6" marker-end="url(#cd12-arrow)"/>
+            <text x="140" y="66" text-anchor="middle" font-size="11" fill="currentColor">α dissociates</text>
+            <circle cx="212" cy="76" r="17" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="4 3"/>
+            <text x="212" y="81" text-anchor="middle" font-size="11" fill="currentColor">Aₙ</text>
+            <text x="212" y="116" text-anchor="middle" font-size="11" fill="currentColor">(1 − α)</text>
+            <text x="248" y="81" text-anchor="middle" font-size="14" fill="currentColor">+</text>
+            <circle cx="286" cy="76" r="11" fill="currentColor" opacity="0.85"/>
+            <circle cx="316" cy="76" r="11" fill="currentColor" opacity="0.85"/>
+            <circle cx="346" cy="76" r="11" fill="currentColor" opacity="0.85"/>
+            <text x="378" y="81" text-anchor="middle" font-size="12" fill="currentColor">…</text>
+            <text x="330" y="116" text-anchor="middle" font-size="11" fill="currentColor">n α</text>
+            <line x1="196" y1="140" x2="396" y2="140" stroke="currentColor" stroke-width="1.2" opacity="0.6"/>
+            <text x="296" y="162" text-anchor="middle" font-size="12" fill="currentColor">total = 1 − α + nα</text>
+            <text x="296" y="180" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.8">i = total after ÷ total before</text>
+          </svg>
+          <figcaption>Only the fraction $\alpha$ splits; the rest stays whole. Counting both contributions is the entire derivation — $i$ is just the ratio of the two particle totals.</figcaption>
+        </figure>
+
+        <ol class="steps">
+          <li>$\ce{A_n -> nA}$, starting from 1 mole with a fraction $\alpha$ dissociating</li>
+          <li>Moles of $\ce{A_n}$ left undissociated $= 1 - \alpha$</li>
+          <li>Moles of $\ce{A}$ produced $= n\alpha$ <span class="why">(each dissociated mole gives $n$ particles)</span></li>
+          <li>Total moles of particles after $= (1-\alpha) + n\alpha$</li>
+          <li>$i = \dfrac{\text{total particles after}}{\text{total particles before}} = \dfrac{1 - \alpha + n\alpha}{1}$ <span class="why">(definition of the van't Hoff factor)</span></li>
+          <li>$i = 1 - \alpha + n\alpha$</li>
+          <li>$i - 1 = \alpha(n - 1)$ <span class="why">(collecting the $\alpha$ terms)</span></li>
+          <li>$\alpha = \dfrac{i - 1}{n - 1}$</li>
+          <li>For <b>association</b>, $n$ molecules combine into 1, so the total after is $1 - \alpha + \dfrac{\alpha}{n}$</li>
+          <li>$i = 1 - \alpha + \dfrac{\alpha}{n} = 1 - \alpha\left(1 - \dfrac{1}{n}\right)$</li>
+          <li>$\alpha = \dfrac{1 - i}{1 - \tfrac{1}{n}}$</li>
+        </ol>
+        <div class="result"><span class="lbl">Result</span>$\alpha_{\text{dissoc}} = \dfrac{i-1}{n-1} \qquad \alpha_{\text{assoc}} = \dfrac{1-i}{1-\tfrac{1}{n}}$</div>
+        <p class="note">Dissociation gives $i \gt 1$ and association $i \lt 1$; both formulas return a positive $\alpha$ because the numerator flips with them.</p>
+      </div>
+
+    </div>
+  </details>
+</section>
+
+<footer>
+  <p>Built from Sourabh Raina's one-shot and PYQ videos for Chapters 1–3, and cross-checked against NCERT Class XII Chemistry (Rationalised 2022–23) for constants and conventions — $F = 96487\ \ce{C mol^-1}$, $R = 8.314\ \ce{J K^-1 mol^-1}$, $K_b = 0.52$ and $K_f = 1.86\ \ce{K kg mol^-1}$ for water, and <b>0.059</b> rather than 0.0591 in the Nernst equation.</p>
+  <p>Chapters 4, 5 and 6 are not represented here because they contain no derivations — their marks come from trends, reasons and reactivity orders, all of which are on the companion page, <b>Every Chemistry Formula</b>.</p>
+</footer>

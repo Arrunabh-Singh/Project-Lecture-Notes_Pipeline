@@ -1,0 +1,116 @@
+{
+  "file_id": "1PX8RGMUTUX3AeFcziWCBog3eNIbSXihK",
+  "chapter_id": "leph101",
+  "title": "Applications of Gauss's Law: Cube Flux Numericals, Infinite Wire, Infinite Sheet, Charged Spherical Shell",
+  "duration_seconds": 2858.03,
+  "claims": [
+    {
+      "text": "Numerical: a point charge is 10cm from the center of one face of an imaginary cube (equivalently, complete the surface into a cube so the charge sits centred on that face's plane). Flux through the whole (closed) cube is q/eps0; since a cube has 6 identical faces, the flux through just the one face asked about is (1/6)(q/eps0)",
+      "transcript_span": [
+        63.6,
+        233.4
+      ],
+      "frame_path": null,
+      "ncert_section": "1.13",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Numerical: point charge q placed at different special points of a cube -- (a) BODY CENTRE: charge fully enclosed by one cube, total flux through the cube = q/eps0. (b) FACE CENTRE: the charge sits on the boundary shared with one neighbouring cube, so only half the charge is effectively enclosed per cube, flux = q/(2 eps0). (c) EDGE CENTRE: the charge is shared among 8 cubes meeting at that edge, so effective enclosed charge is q/8, flux = q/(8 eps0)",
+      "transcript_span": [
+        234.3,
+        815.7
+      ],
+      "frame_path": null,
+      "ncert_section": "1.13",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Motivation for applications of Gauss's law: Gauss's law provides a shortcut to find E for continuous charge distributions with high symmetry (line charge with linear density lambda, an infinite sheet with surface density sigma, a charged sphere), by choosing a Gaussian surface that matches the symmetry so E can be pulled out of the flux integral",
+      "transcript_span": [
+        822.5,
+        1005.0
+      ],
+      "frame_path": null,
+      "ncert_section": "1.14",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Electric field due to an infinitely long uniformly charged wire (linear charge density lambda), at perpendicular distance r from it: construct a cylindrical Gaussian surface of radius r and length L, coaxial with the wire. By symmetry E is radially outward and constant in magnitude over the curved surface, and E is parallel to that curved surface's area vector (theta=0) while perpendicular to the two flat end-caps (theta=90, no contribution there). So flux = E times curved-surface-area = E(2 pi r L). Charge enclosed = lambda*L. Equating via Gauss's law: E(2 pi r L) = lambda L/eps0, the L cancels, giving E = lambda/(2 pi eps0 r) -- inversely proportional to r (a rectangular-hyperbola-shaped E-vs-r graph, same family as the point-charge and dipole graphs seen earlier). In vector form E = lambda/(2 pi eps0 r) n-hat, n-hat being the outward radial unit vector",
+      "transcript_span": [
+        1023.7,
+        2153.3
+      ],
+      "frame_path": "data/lectures/leph101/1PX8RGMUTUX3AeFcziWCBog3eNIbSXihK/frames/floor_000103.jpg",
+      "ncert_section": "1.14.1",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Electric field due to a thin infinite plane sheet (uniform surface charge density sigma): field points perpendicular to the sheet, same magnitude on both sides, pointing away from the sheet if positively charged. Construct a thin 'pillbox' cylindrical Gaussian surface straddling the sheet, with its two flat circular end-caps (each area A) parallel to the sheet and equidistant from it. E is parallel to both end-caps' area vectors (theta=0, contributing E*A each) and perpendicular to the curved side (theta=90, zero contribution), giving total flux = 2EA. Charge enclosed = sigma*A. Equating: 2EA = sigma*A/eps0, the A cancels, giving E = sigma/(2 eps0) -- independent of distance from the sheet (a straight horizontal line on an E-vs-r graph)",
+      "transcript_span": [
+        2153.3,
+        2780.9
+      ],
+      "frame_path": "data/lectures/leph101/1PX8RGMUTUX3AeFcziWCBog3eNIbSXihK/frames/floor_000103.jpg",
+      "ncert_section": "1.14.2",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Electric field due to a thin uniformly charged spherical shell (total charge q, radius R), OUTSIDE and ON the surface (Gaussian sphere of radius r>=R, concentric with the shell): the whole charge q behaves as if concentrated at the centre for points at or beyond the surface, exactly like a point charge -- E = (1/4 pi eps0)(q/r^2) for r>R, and E = (1/4 pi eps0)(q/R^2) exactly on the surface (r=R)",
+      "transcript_span": null,
+      "frame_path": "data/lectures/leph101/1PX8RGMUTUX3AeFcziWCBog3eNIbSXihK/frames/floor_000134.jpg",
+      "ncert_section": "1.14.3",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Electric field INSIDE a uniformly charged spherical shell (Gaussian sphere of radius r<R, concentric, drawn inside the shell): the enclosed charge q_in is zero, since all the shell's charge resides on its outer surface, none inside. Gauss's law then forces E=0 everywhere strictly inside the shell (since the surface-area factor 4 pi r^2 in the flux integral is never zero for r>0, E itself must vanish)",
+      "transcript_span": null,
+      "frame_path": "data/lectures/leph101/1PX8RGMUTUX3AeFcziWCBog3eNIbSXihK/frames/floor_000138.jpg",
+      "ncert_section": "1.14.3",
+      "ncert_agreement": "agrees"
+    }
+  ],
+  "uncertain_spans": [
+    {
+      "start_seconds": 2780.9,
+      "end_seconds": 2858.03,
+      "reason": "This is a straightforward truncation rather than a repetition/substitution artifact: the transcript's own last segment is the single sentence 'So, what we do is we consider a thin spherical shell, let us suppose we consider this as a thin spherical shell,' right at the very start of the third application (field due to a charged spherical shell), and no further segments follow even though this was clearly meant to be a full derivation (matching this very long, 48-minute lecture's own title, 'application of gauss th'). Board frames fill the gap completely: floor_000134.jpg and floor_000138.jpg (both well within the true 2858s duration, after the transcript's own cutoff) show the full three-case derivation -- outside/on the surface (Gauss's law with a Gaussian sphere of radius r>=R, giving the point-charge-like result), and inside (Gaussian sphere r<R encloses zero charge, forcing E=0) -- reaching clean, boxed final results in each case. Both spherical-shell claims above are grounded entirely from these two board frames."
+    }
+  ],
+  "ncert_sections_covered": [
+    "1.13",
+    "1.14"
+  ],
+  "frame_paths": [
+    "data/lectures/leph101/1PX8RGMUTUX3AeFcziWCBog3eNIbSXihK/frames/floor_000001.jpg",
+    "data/lectures/leph101/1PX8RGMUTUX3AeFcziWCBog3eNIbSXihK/frames/floor_000010.jpg",
+    "data/lectures/leph101/1PX8RGMUTUX3AeFcziWCBog3eNIbSXihK/frames/floor_000020.jpg",
+    "data/lectures/leph101/1PX8RGMUTUX3AeFcziWCBog3eNIbSXihK/frames/floor_000030.jpg",
+    "data/lectures/leph101/1PX8RGMUTUX3AeFcziWCBog3eNIbSXihK/frames/floor_000040.jpg",
+    "data/lectures/leph101/1PX8RGMUTUX3AeFcziWCBog3eNIbSXihK/frames/floor_000050.jpg",
+    "data/lectures/leph101/1PX8RGMUTUX3AeFcziWCBog3eNIbSXihK/frames/floor_000060.jpg",
+    "data/lectures/leph101/1PX8RGMUTUX3AeFcziWCBog3eNIbSXihK/frames/floor_000070.jpg",
+    "data/lectures/leph101/1PX8RGMUTUX3AeFcziWCBog3eNIbSXihK/frames/floor_000080.jpg",
+    "data/lectures/leph101/1PX8RGMUTUX3AeFcziWCBog3eNIbSXihK/frames/floor_000090.jpg",
+    "data/lectures/leph101/1PX8RGMUTUX3AeFcziWCBog3eNIbSXihK/frames/floor_000094.jpg",
+    "data/lectures/leph101/1PX8RGMUTUX3AeFcziWCBog3eNIbSXihK/frames/floor_000097.jpg",
+    "data/lectures/leph101/1PX8RGMUTUX3AeFcziWCBog3eNIbSXihK/frames/floor_000100.jpg",
+    "data/lectures/leph101/1PX8RGMUTUX3AeFcziWCBog3eNIbSXihK/frames/floor_000103.jpg",
+    "data/lectures/leph101/1PX8RGMUTUX3AeFcziWCBog3eNIbSXihK/frames/floor_000110.jpg",
+    "data/lectures/leph101/1PX8RGMUTUX3AeFcziWCBog3eNIbSXihK/frames/floor_000111.jpg",
+    "data/lectures/leph101/1PX8RGMUTUX3AeFcziWCBog3eNIbSXihK/frames/floor_000112.jpg",
+    "data/lectures/leph101/1PX8RGMUTUX3AeFcziWCBog3eNIbSXihK/frames/floor_000113.jpg",
+    "data/lectures/leph101/1PX8RGMUTUX3AeFcziWCBog3eNIbSXihK/frames/floor_000115.jpg",
+    "data/lectures/leph101/1PX8RGMUTUX3AeFcziWCBog3eNIbSXihK/frames/floor_000119.jpg",
+    "data/lectures/leph101/1PX8RGMUTUX3AeFcziWCBog3eNIbSXihK/frames/floor_000121.jpg",
+    "data/lectures/leph101/1PX8RGMUTUX3AeFcziWCBog3eNIbSXihK/frames/floor_000122.jpg",
+    "data/lectures/leph101/1PX8RGMUTUX3AeFcziWCBog3eNIbSXihK/frames/floor_000123.jpg",
+    "data/lectures/leph101/1PX8RGMUTUX3AeFcziWCBog3eNIbSXihK/frames/floor_000124.jpg",
+    "data/lectures/leph101/1PX8RGMUTUX3AeFcziWCBog3eNIbSXihK/frames/floor_000127.jpg",
+    "data/lectures/leph101/1PX8RGMUTUX3AeFcziWCBog3eNIbSXihK/frames/floor_000130.jpg",
+    "data/lectures/leph101/1PX8RGMUTUX3AeFcziWCBog3eNIbSXihK/frames/floor_000131.jpg",
+    "data/lectures/leph101/1PX8RGMUTUX3AeFcziWCBog3eNIbSXihK/frames/floor_000134.jpg",
+    "data/lectures/leph101/1PX8RGMUTUX3AeFcziWCBog3eNIbSXihK/frames/floor_000137.jpg",
+    "data/lectures/leph101/1PX8RGMUTUX3AeFcziWCBog3eNIbSXihK/frames/floor_000138.jpg"
+  ],
+  "markdown_body": "## Gauss's law: flux numericals with a cube\n\n**Charge near one face:** a point charge $10$ cm from the centre of one face of a cube — flux through the whole (closed) cube is $q/\\varepsilon_0$; since a cube has 6 identical faces, flux through just that one face is $\\dfrac{1}{6}\\dfrac{q}{\\varepsilon_0}$.\n\n**Charge at special points of a cube:**\n- **Body centre:** charge fully enclosed by one cube $\\Rightarrow$ flux $=q/\\varepsilon_0$.\n- **Face centre:** charge sits on the boundary shared with one neighbouring cube $\\Rightarrow$ effective enclosed charge $q/2$, flux $=\\dfrac{q}{2\\varepsilon_0}$.\n- **Edge centre:** charge shared among the $8$ cubes meeting at that edge $\\Rightarrow$ effective enclosed charge $q/8$, flux $=\\dfrac{q}{8\\varepsilon_0}$.\n\n## Applications of Gauss's law (NCERT 1.14)\n\nGauss's law gives a shortcut to find $E$ for highly symmetric continuous charge distributions: choose a Gaussian surface matching the symmetry, so $E$ can be pulled outside the flux integral.\n\n### Field due to an infinitely long charged wire (1.14.1)\nLinear charge density $\\lambda$, field point at perpendicular distance $r$. Gaussian surface: a coaxial cylinder of radius $r$, length $L$. By symmetry $E$ is radial and constant on the curved surface (parallel to its area vector, $\\theta=0$), and perpendicular to the two flat end-caps ($\\theta=90°$, zero contribution):\n$$E(2\\pi rL) = \\frac{\\lambda L}{\\varepsilon_0} \\;\\Rightarrow\\; \\boxed{E = \\frac{\\lambda}{2\\pi\\varepsilon_0 r}}$$\n($L$ cancels.) Inversely proportional to $r$ — same rectangular-hyperbola-shaped $E$-vs-$r$ graph family as the point charge and the dipole.\n\n### Field due to an infinite plane sheet (1.14.2)\nSurface charge density $\\sigma$; field is perpendicular to the sheet, equal magnitude both sides. Gaussian surface: a thin \"pillbox\" cylinder straddling the sheet, flat circular end-caps of area $A$ parallel to the sheet. $E$ parallel to both end-caps ($\\theta=0$, contributing $EA$ each) and perpendicular to the curved side (zero):\n$$2EA = \\frac{\\sigma A}{\\varepsilon_0} \\;\\Rightarrow\\; \\boxed{E = \\frac{\\sigma}{2\\varepsilon_0}}$$\n($A$ cancels.) **Independent of distance** from the sheet — a flat horizontal line on an $E$-vs-$r$ graph.\n\n### Field due to a uniformly charged thin spherical shell (1.14.3)\nTotal charge $q$, radius $R$.\n- **Outside / on the surface** ($r\\geq R$, Gaussian sphere concentric with the shell): the whole charge behaves as if concentrated at the centre, exactly like a point charge:\n$$E = \\frac{1}{4\\pi\\varepsilon_0}\\frac{q}{r^2}\\ (r>R), \\qquad E = \\frac{1}{4\\pi\\varepsilon_0}\\frac{q}{R^2}\\ (r=R)$$\n- **Inside** ($r<R$): a Gaussian sphere strictly inside the shell encloses **zero** charge (all the shell's charge sits on its outer surface). Since the flux integral's surface-area factor $4\\pi r^2$ is never zero for $r>0$, this forces:\n$$\\boxed{E = 0 \\text{ everywhere strictly inside a uniformly charged shell}}$$\n\n---\n*Note on this lecture's transcript:* both the outside/surface and inside results for the charged spherical shell above are grounded entirely from board frames near the true end of this (very long, 48-minute) lecture -- the transcript itself stops right at the sentence introducing this final application, with no further segments. See the flagged span below.\n"
+}

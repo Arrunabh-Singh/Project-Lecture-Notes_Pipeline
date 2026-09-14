@@ -1,0 +1,101 @@
+{
+  "file_id": "1rbldxUH1ygCRBseDgUddNHEJuRInnnpX",
+  "chapter_id": "leph103",
+  "title": "The Potentiometer: Principle, Sensitivity, and Comparing EMFs",
+  "duration_seconds": 2047.73,
+  "claims": [
+    {
+      "text": "Why a potentiometer is preferred over a voltmeter for measuring EMF: EMF is defined as the potential difference across a cell's terminals when NO current is drawn from it. A real voltmeter always has finite (not infinite) resistance, so it inevitably draws a small current when connected, meaning its reading is not exactly the true EMF. A potentiometer, based on the NULL DEFLECTION method, draws no current from the cell being measured at its balance point, so it measures true EMF exactly",
+      "transcript_span": [
+        3.1,
+        347.3
+      ],
+      "frame_path": null,
+      "ncert_section": null,
+      "ncert_agreement": null
+    },
+    {
+      "text": "Principle of the potentiometer: for a wire of uniform cross-sectional area carrying a steady current, the fall of potential across any portion of the wire is directly proportional to the length of that portion. Since V=IR=I(rho*L/A), and I, rho, A are all constant (steady current, same wire), V=KL where K=V/L is a constant -- called the potential gradient (fall of potential per unit length), analogous to other length-based rate quantities like temperature gradient (dT/dx)",
+      "transcript_span": [
+        347.3,
+        1096.3
+      ],
+      "frame_path": "data/lectures/leph103/1rbldxUH1ygCRBseDgUddNHEJuRInnnpX/frames/floor_000038.jpg",
+      "ncert_section": null,
+      "ncert_agreement": null
+    },
+    {
+      "text": "Sensitivity of a potentiometer: the smallest potential difference it can measure/detect. A smaller potential gradient K means finer resolution, i.e. higher sensitivity (e.g. 0.1 V/cm is more sensitive than 1 V/cm). Sensitivity can be increased by (1) increasing the total length of the potentiometer wire, or (2) decreasing the potential difference (equivalently, the current) across the potentiometer wire itself -- achieved in practice by adding a series resistance (rheostat) in the main circuit to reduce the current/voltage delivered to the wire",
+      "transcript_span": [
+        1096.3,
+        1552.1
+      ],
+      "frame_path": "data/lectures/leph103/1rbldxUH1ygCRBseDgUddNHEJuRInnnpX/frames/floor_000056.jpg",
+      "ncert_section": null,
+      "ncert_agreement": null
+    },
+    {
+      "text": "Potentiometer apparatus: a long uniform wire (e.g. 4 m, laid out on a board) from point A to B, connected in the main circuit to a driver battery, key, and (optionally) a rheostat. The two cells to be compared (E1, E2) are connected via a commutator (a three-way switch) so that only one cell is connected to the galvanometer branch at a time, with a protective resistance in series with the galvanometer and a jockey used to tap along the wire and find the null point",
+      "transcript_span": [
+        1552.1,
+        1724.5
+      ],
+      "frame_path": "data/lectures/leph103/1rbldxUH1ygCRBseDgUddNHEJuRInnnpX/frames/floor_000079.jpg",
+      "ncert_section": null,
+      "ncert_agreement": null
+    },
+    {
+      "text": "Use 1 -- comparing EMFs of two cells: connect E1 to the galvanometer branch (E2 left open), tap the jockey to find the null point (zero galvanometer deflection, meaning zero current is drawn from E1, so the potentiometer reading truly equals E1) at length L1 from A, giving E1=K*L1. Repeat with E2 connected to get E2=K*L2. Taking the ratio: E1/E2 = L1/L2",
+      "transcript_span": [
+        1724.5,
+        1888.8
+      ],
+      "frame_path": "data/lectures/leph103/1rbldxUH1ygCRBseDgUddNHEJuRInnnpX/frames/floor_000096.jpg",
+      "ncert_section": null,
+      "ncert_agreement": null
+    },
+    {
+      "text": "Important precaution when connecting a potentiometer: the positive terminal of each cell being measured must be connected to the same positive terminal of the main (driver) circuit. If one cell is connected with the wrong polarity, its potential will add to (rather than oppose) the driver circuit's potential along the wire, and a null point will never be found",
+      "transcript_span": [
+        1888.8,
+        1928.72
+      ],
+      "frame_path": null,
+      "ncert_section": null,
+      "ncert_agreement": null
+    },
+    {
+      "text": "Use 2 -- finding the internal resistance of a cell using a potentiometer: board heading and circuit diagram ('find internal resistance of cell using potentiometer') show a modified circuit with a resistance box (R) placed in series with the cell-and-galvanometer branch, alongside a reminder of the earlier-derived formula r = [(E-V)/V] R (from lecture 4 of this chapter, where this exact formula was flagged as 'we will use this when doing potentiometer')",
+      "transcript_span": null,
+      "frame_path": "data/lectures/leph103/1rbldxUH1ygCRBseDgUddNHEJuRInnnpX/frames/floor_000096.jpg",
+      "ncert_section": null,
+      "ncert_agreement": null
+    }
+  ],
+  "uncertain_spans": [
+    {
+      "start_seconds": 1928.72,
+      "end_seconds": 2047.73,
+      "reason": "The transcript's real narration (247 unique segments) runs coherently through the potentiometer's principle, sensitivity, apparatus, and the EMF-comparison use, ending naturally on the positive-terminal precaution at t=1928.7s -- about 119 seconds before the recording's true end. The last captured board frame (floor_000096.jpg, t=1900s) shows a second use of the potentiometer just beginning: 'Find internal resistance of cell using potentiometer', with a circuit diagram (resistance box, galvanometer) and a reminder of the r=[(E-V)/V]R formula derived in an earlier lecture -- but only the heading and circuit setup are visible, with no further frames available to confirm a worked derivation. This second use is included above only as what is directly visible (the setup), not as a completed derivation, since neither the transcript nor any later frame confirms how far it was carried."
+    }
+  ],
+  "ncert_sections_covered": [],
+  "frame_paths": [
+    "data/lectures/leph103/1rbldxUH1ygCRBseDgUddNHEJuRInnnpX/frames/floor_000031.jpg",
+    "data/lectures/leph103/1rbldxUH1ygCRBseDgUddNHEJuRInnnpX/frames/floor_000033.jpg",
+    "data/lectures/leph103/1rbldxUH1ygCRBseDgUddNHEJuRInnnpX/frames/floor_000036.jpg",
+    "data/lectures/leph103/1rbldxUH1ygCRBseDgUddNHEJuRInnnpX/frames/floor_000038.jpg",
+    "data/lectures/leph103/1rbldxUH1ygCRBseDgUddNHEJuRInnnpX/frames/floor_000056.jpg",
+    "data/lectures/leph103/1rbldxUH1ygCRBseDgUddNHEJuRInnnpX/frames/floor_000062.jpg",
+    "data/lectures/leph103/1rbldxUH1ygCRBseDgUddNHEJuRInnnpX/frames/floor_000066.jpg",
+    "data/lectures/leph103/1rbldxUH1ygCRBseDgUddNHEJuRInnnpX/frames/floor_000071.jpg",
+    "data/lectures/leph103/1rbldxUH1ygCRBseDgUddNHEJuRInnnpX/frames/floor_000076.jpg",
+    "data/lectures/leph103/1rbldxUH1ygCRBseDgUddNHEJuRInnnpX/frames/floor_000079.jpg",
+    "data/lectures/leph103/1rbldxUH1ygCRBseDgUddNHEJuRInnnpX/frames/floor_000089.jpg",
+    "data/lectures/leph103/1rbldxUH1ygCRBseDgUddNHEJuRInnnpX/frames/floor_000091.jpg",
+    "data/lectures/leph103/1rbldxUH1ygCRBseDgUddNHEJuRInnnpX/frames/floor_000092.jpg",
+    "data/lectures/leph103/1rbldxUH1ygCRBseDgUddNHEJuRInnnpX/frames/floor_000093.jpg",
+    "data/lectures/leph103/1rbldxUH1ygCRBseDgUddNHEJuRInnnpX/frames/floor_000096.jpg"
+  ],
+  "markdown_body": "## Why a potentiometer, not a voltmeter, for measuring EMF\n\nEMF is defined as the potential difference across a cell's terminals when **no current** is drawn. A real voltmeter has finite (not infinite) resistance, so it always draws a small current, meaning its reading is never *exactly* EMF. A potentiometer, based on the **null-deflection method**, draws no current from the cell at its balance point — so it measures true EMF exactly.\n\n## Principle of the potentiometer\n\nFor a wire of uniform cross-sectional area carrying a **steady current**, the fall of potential across any portion is directly proportional to that portion's length. Since $V=IR=I\\rho L/A$ and $I,\\rho,A$ are all constant:\n$$V = KL, \\qquad K = \\frac{V}{L} = \\text{potential gradient (fall of potential per unit length)}$$\n(Analogous to other length-based rate quantities, e.g. temperature gradient $dT/dx$.)\n\n## Sensitivity\n\nThe smallest potential difference the potentiometer can detect. Smaller $K$ (potential gradient) $\\Rightarrow$ finer resolution $\\Rightarrow$ **higher** sensitivity (e.g. $0.1$ V/cm is more sensitive than $1$ V/cm). Increase sensitivity by:\n1. **Increasing** the total wire length, or\n2. **Decreasing** the potential difference (equivalently, current) across the wire — in practice, by adding a series rheostat in the main circuit.\n\n## Apparatus\n\nA long uniform wire (e.g. $4$ m) from $A$ to $B$, connected in the main circuit to a driver battery, key, and optional rheostat. The two cells being compared connect via a **commutator** (three-way switch, only one cell in the galvanometer branch at a time), with a protective resistance in series with the galvanometer, and a **jockey** to tap along the wire and find the null point.\n\n## Use 1: comparing EMFs of two cells\n\nConnect $\\mathcal E_1$ to the galvanometer branch ($\\mathcal E_2$ left open); tap the jockey to find the null point (zero galvanometer deflection $\\Rightarrow$ zero current drawn from $\\mathcal E_1$) at length $L_1$: $\\mathcal E_1 = KL_1$. Repeat with $\\mathcal E_2$ to get $\\mathcal E_2=KL_2$. Then:\n$$\\boxed{\\frac{\\mathcal E_1}{\\mathcal E_2} = \\frac{L_1}{L_2}}$$\n\n**Precaution:** the positive terminal of each cell must connect to the *same* positive terminal of the main circuit — wrong polarity means the potentials add instead of oppose, and no null point will ever be found.\n\n## Use 2: internal resistance of a cell (setup only)\n\nA board heading and circuit diagram show a second use beginning: finding a cell's internal resistance using the potentiometer, with a resistance box added in the cell-and-galvanometer branch, alongside a reminder of $r=\\dfrac{(\\mathcal E-V)}{V}R$ (a formula derived in an earlier lecture of this chapter specifically for this purpose). Only the setup is confirmed here — see the flagged span below for why the worked derivation isn't included.\n\n---\n**A note on syllabus status:** the Potentiometer topic covered in this lecture does not appear anywhere in the current (rationalised) NCERT Class 12 Physics textbook's Current Electricity chapter -- it was one of the topics removed in the CBSE 2022-23 rationalisation. It may still be relevant depending on your specific school's or exam's syllabus, but it is not in the current official NCERT text, so no NCERT section number is cited for any claim in this note.\n"
+}

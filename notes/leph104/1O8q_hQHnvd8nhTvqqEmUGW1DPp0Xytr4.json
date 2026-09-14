@@ -1,0 +1,59 @@
+{
+  "file_id": "1O8q_hQHnvd8nhTvqqEmUGW1DPp0Xytr4",
+  "chapter_id": "leph104",
+  "title": "Numerical: Identifying Proton, Alpha Particle, and Electron by Radius in a Magnetic Field",
+  "duration_seconds": 374.4,
+  "claims": [
+    {
+      "text": "Worked numerical: three particles -- a proton, an alpha particle, and an electron -- all moving with the same velocity v, enter a uniform magnetic field B and are seen to trace three different curved paths of different radii. Identify which particle is which",
+      "transcript_span": [
+        3.8,
+        91.3
+      ],
+      "frame_path": "data/lectures/leph104/1O8q_hQHnvd8nhTvqqEmUGW1DPp0Xytr4/frames/floor_000009.jpg",
+      "ncert_section": "4.3",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Since a proton and an alpha particle are both positively charged while an electron is negatively charged, the electron curves the opposite way from the other two -- immediately identifying particle 1 (curving oppositely) as the electron",
+      "transcript_span": [
+        14.9,
+        37.5
+      ],
+      "frame_path": "data/lectures/leph104/1O8q_hQHnvd8nhTvqqEmUGW1DPp0Xytr4/frames/floor_000009.jpg",
+      "ncert_section": "4.3",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Charge-to-mass ratios: proton (1-H-1) has charge +e and mass m, so q/m=e/m. Alpha particle (2-He-4, a helium nucleus) has charge +2e and mass 4m, so q/m=2e/4m=e/2m. Since radius r=mv/(Bq)=v/[B(q/m)] is inversely proportional to charge-to-mass ratio, and the proton's q/m (e/m) is greater than the alpha particle's (e/2m), the proton traces the SMALLER radius and the alpha particle the LARGER radius: r_proton < r_alpha. This identifies particle 2 (smaller radius) as the proton and particle 3 (larger radius) as the alpha particle",
+      "transcript_span": [
+        37.5,
+        186.8
+      ],
+      "frame_path": "data/lectures/leph104/1O8q_hQHnvd8nhTvqqEmUGW1DPp0Xytr4/frames/floor_000009.jpg",
+      "ncert_section": "4.3",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "General method for reading charge and mass off isotope notation (used here for proton 1-H-1, and mentioned for deuteron 1-H-2 and tritium 1-H-3): the subscript (atomic number Z) gives the charge as +Ze, and the superscript (mass number A) gives the mass as approximately A times the mass of one nucleon. Deuteron and tritium both have the SAME charge (+e, since both are hydrogen isotopes, Z=1) but different masses (2m and 3m respectively, from their different mass numbers)",
+      "transcript_span": [
+        186.8,
+        251.3
+      ],
+      "frame_path": null,
+      "ncert_section": null,
+      "ncert_agreement": "agrees"
+    }
+  ],
+  "uncertain_spans": [],
+  "ncert_sections_covered": [
+    "4.3"
+  ],
+  "frame_paths": [
+    "data/lectures/leph104/1O8q_hQHnvd8nhTvqqEmUGW1DPp0Xytr4/frames/floor_000001.jpg",
+    "data/lectures/leph104/1O8q_hQHnvd8nhTvqqEmUGW1DPp0Xytr4/frames/floor_000009.jpg",
+    "data/lectures/leph104/1O8q_hQHnvd8nhTvqqEmUGW1DPp0Xytr4/frames/floor_000013.jpg",
+    "data/lectures/leph104/1O8q_hQHnvd8nhTvqqEmUGW1DPp0Xytr4/frames/floor_000016.jpg"
+  ],
+  "markdown_body": "## Worked numerical: identifying particles by radius in a magnetic field\n\nThree particles -- a **proton**, an **alpha particle**, and an **electron** -- all moving with the same velocity $v$, enter a uniform magnetic field $B$ and trace three visibly different curved paths. Identify which is which.\n\n**Step 1 -- sign of charge:** proton and alpha particle are both positive; the electron is negative, so it curves the *opposite* way from the other two. This immediately identifies the electron.\n\n**Step 2 -- radius comparison for the two positive particles:**\n$$r = \\frac{mv}{Bq} = \\frac{v}{B(q/m)} \\quad\\Rightarrow\\quad r \\propto \\frac{1}{q/m}$$\n- **Proton** ($^1_1\\text{H}$): charge $+e$, mass $m$ $\\Rightarrow q/m = e/m$\n- **Alpha particle** ($^4_2\\text{He}$, a helium nucleus): charge $+2e$, mass $4m$ $\\Rightarrow q/m = 2e/4m = e/2m$\n\nSince $e/m > e/2m$, the proton has the larger charge-to-mass ratio, hence the **smaller** radius: $r_\\text{proton} < r_\\text{alpha particle}$. The particle tracing the smaller-radius curve is the proton; the larger-radius one is the alpha particle.\n\n### Reading charge and mass from isotope notation\nFor $^A_Z X$: the subscript $Z$ (atomic number) gives charge $+Ze$; the superscript $A$ (mass number) gives mass $\\approx Am$ (one nucleon mass each). Example: deuteron ($^2_1\\text{H}$) and tritium ($^3_1\\text{H}$) share the same charge $+e$ (both hydrogen, $Z=1$) but different masses ($2m$ and $3m$, from their different mass numbers).\n\n---\n*Note: this recording continues past this numerical into the start of the next topic (force on a current-carrying conductor in an external magnetic field) — that derivation is covered fully in the following lecture's own note, not duplicated here.*\n"
+}

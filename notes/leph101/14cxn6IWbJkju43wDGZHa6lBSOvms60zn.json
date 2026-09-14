@@ -1,0 +1,115 @@
+{
+  "file_id": "14cxn6IWbJkju43wDGZHa6lBSOvms60zn",
+  "chapter_id": "leph101",
+  "title": "Torque and Potential Energy of a Dipole in a Uniform Electric Field",
+  "duration_seconds": 2046.5,
+  "claims": [
+    {
+      "text": "Recap of torque (from Class 11): torque = R cross F, magnitude RF sin(theta) where theta is the angle between the position vector R and force F, direction perpendicular to the plane of R and F via the right-hand curl rule. Equivalently, for a couple (two equal and opposite forces), torque = force x perpendicular distance between their lines of action",
+      "transcript_span": [
+        111.4,
+        531.4
+      ],
+      "frame_path": "data/lectures/leph101/14cxn6IWbJkju43wDGZHa6lBSOvms60zn/frames/floor_000038.jpg",
+      "ncert_section": null,
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Torque on a dipole (charges +Q,-Q, length 2L, dipole moment p) placed in a uniform external field E, angle theta between p and E: each charge feels an equal-magnitude force F=EQ but in different directions (since E points from + to -), forming a couple. Perpendicular distance between the lines of action of the two forces is 2L sin(theta), so torque = F x 2L sin(theta) = EQ x 2L sin(theta) = PE sin(theta) (using p=2QL). In vector form, torque = p cross E, direction perpendicular to the plane of p and E via the right-hand curl rule (from p to E)",
+      "transcript_span": [
+        539.9,
+        1018.7
+      ],
+      "frame_path": "data/lectures/leph101/14cxn6IWbJkju43wDGZHa6lBSOvms60zn/frames/floor_000038.jpg",
+      "ncert_section": "1.11",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Torque is maximum (=PE) when theta=90 degrees (p perpendicular to E, sin(90)=1); torque is zero when theta=0 or theta=180 degrees (p parallel or antiparallel to E, sin=0) -- in both these aligned cases there is no net turning effect even though forces still act on the individual charges",
+      "transcript_span": [
+        1018.7,
+        1184.8
+      ],
+      "frame_path": "data/lectures/leph101/14cxn6IWbJkju43wDGZHa6lBSOvms60zn/frames/floor_000038.jpg",
+      "ncert_section": "1.11",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Work done rotating a dipole from angle theta1 to theta2 in a uniform field, and the potential energy stored: small work dW = torque*d(theta) = PE sin(theta) d(theta) (rotational analogue of dW=F*dx). Integrating sin(theta)d(theta) from theta1 to theta2 (using integral of sin = -cos) gives W = PE[cos(theta1) - cos(theta2)]. This work is stored as potential energy: U = -PE cos(theta), taking the reference theta1=90 degrees (cos90=0) as zero PE. In vector form, U = -p dot E",
+      "transcript_span": [
+        1184.8,
+        1506.0
+      ],
+      "frame_path": "data/lectures/leph101/14cxn6IWbJkju43wDGZHa6lBSOvms60zn/frames/floor_000038.jpg",
+      "ncert_section": "1.11",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Worked numerical: a dipole has charge 1 microC, separated by 1 cm, placed in E=2x10^6 N/C. (i) Dipole moment p=Q*2L=1e-6*1e-2=1e-8 C.m. (ii) Maximum torque = PE = 1e-8*2e6 = 2x10^-2 N.m. (iii) Work done rotating the dipole through 180 degrees starting from theta=0: WD = PE[cos(theta1)-cos(theta2)] = PE[cos0-cos180] = PE[1-(-1)] = 2PE",
+      "transcript_span": null,
+      "frame_path": "data/lectures/leph101/14cxn6IWbJkju43wDGZHa6lBSOvms60zn/frames/floor_000102.jpg",
+      "ncert_section": "1.11",
+      "ncert_agreement": "agrees"
+    }
+  ],
+  "uncertain_spans": [
+    {
+      "start_seconds": 1506.0,
+      "end_seconds": 2046.5,
+      "reason": "Two separate transcript problems compound here. First, from roughly t=1506s the transcript re-transcribes the potential-energy derivation (theta1-to-theta2 rotation, the sin/cos integration, U=-PE cos theta) almost verbatim a second time -- a delayed-repetition artifact, not real re-teaching -- before cutting off mid-sentence at t=1883.7s. Second, and more seriously, this transcript's own timestamped coverage stops there entirely: it has NO segments at all for the final ~163 seconds of the lecture's true 2046.5s duration (a genuine truncation, not just a hidden-by-repetition gap). Board frames fill in what was lost: the last captured frame (floor_000102.jpg, t=2020s, well inside the untranscribed window) shows a 'stable eqm' heading (visible only as a two-word label -- the supporting derivation, if any, is off the top of the captured frame and not recoverable from the sampled images) followed by a fully worked numerical (dipole moment, maximum torque, and work done rotating through 180 degrees from theta=0) plus a small formula-summary box. The worked-numerical claim above is grounded entirely from that frame; the stable-equilibrium point is mentioned only as a heading seen on the board, not as a verified claim, since its derivation isn't visible in any captured frame."
+    }
+  ],
+  "ncert_sections_covered": [
+    "1.11"
+  ],
+  "frame_paths": [
+    "data/lectures/leph101/14cxn6IWbJkju43wDGZHa6lBSOvms60zn/frames/floor_000001.jpg",
+    "data/lectures/leph101/14cxn6IWbJkju43wDGZHa6lBSOvms60zn/frames/floor_000002.jpg",
+    "data/lectures/leph101/14cxn6IWbJkju43wDGZHa6lBSOvms60zn/frames/floor_000003.jpg",
+    "data/lectures/leph101/14cxn6IWbJkju43wDGZHa6lBSOvms60zn/frames/floor_000006.jpg",
+    "data/lectures/leph101/14cxn6IWbJkju43wDGZHa6lBSOvms60zn/frames/floor_000010.jpg",
+    "data/lectures/leph101/14cxn6IWbJkju43wDGZHa6lBSOvms60zn/frames/floor_000012.jpg",
+    "data/lectures/leph101/14cxn6IWbJkju43wDGZHa6lBSOvms60zn/frames/floor_000016.jpg",
+    "data/lectures/leph101/14cxn6IWbJkju43wDGZHa6lBSOvms60zn/frames/floor_000031.jpg",
+    "data/lectures/leph101/14cxn6IWbJkju43wDGZHa6lBSOvms60zn/frames/floor_000038.jpg",
+    "data/lectures/leph101/14cxn6IWbJkju43wDGZHa6lBSOvms60zn/frames/floor_000040.jpg",
+    "data/lectures/leph101/14cxn6IWbJkju43wDGZHa6lBSOvms60zn/frames/floor_000041.jpg",
+    "data/lectures/leph101/14cxn6IWbJkju43wDGZHa6lBSOvms60zn/frames/floor_000042.jpg",
+    "data/lectures/leph101/14cxn6IWbJkju43wDGZHa6lBSOvms60zn/frames/floor_000044.jpg",
+    "data/lectures/leph101/14cxn6IWbJkju43wDGZHa6lBSOvms60zn/frames/floor_000047.jpg",
+    "data/lectures/leph101/14cxn6IWbJkju43wDGZHa6lBSOvms60zn/frames/floor_000048.jpg",
+    "data/lectures/leph101/14cxn6IWbJkju43wDGZHa6lBSOvms60zn/frames/floor_000050.jpg",
+    "data/lectures/leph101/14cxn6IWbJkju43wDGZHa6lBSOvms60zn/frames/floor_000051.jpg",
+    "data/lectures/leph101/14cxn6IWbJkju43wDGZHa6lBSOvms60zn/frames/floor_000052.jpg",
+    "data/lectures/leph101/14cxn6IWbJkju43wDGZHa6lBSOvms60zn/frames/floor_000053.jpg",
+    "data/lectures/leph101/14cxn6IWbJkju43wDGZHa6lBSOvms60zn/frames/floor_000056.jpg",
+    "data/lectures/leph101/14cxn6IWbJkju43wDGZHa6lBSOvms60zn/frames/floor_000057.jpg",
+    "data/lectures/leph101/14cxn6IWbJkju43wDGZHa6lBSOvms60zn/frames/floor_000058.jpg",
+    "data/lectures/leph101/14cxn6IWbJkju43wDGZHa6lBSOvms60zn/frames/floor_000059.jpg",
+    "data/lectures/leph101/14cxn6IWbJkju43wDGZHa6lBSOvms60zn/frames/floor_000063.jpg",
+    "data/lectures/leph101/14cxn6IWbJkju43wDGZHa6lBSOvms60zn/frames/floor_000066.jpg",
+    "data/lectures/leph101/14cxn6IWbJkju43wDGZHa6lBSOvms60zn/frames/floor_000069.jpg",
+    "data/lectures/leph101/14cxn6IWbJkju43wDGZHa6lBSOvms60zn/frames/floor_000070.jpg",
+    "data/lectures/leph101/14cxn6IWbJkju43wDGZHa6lBSOvms60zn/frames/floor_000072.jpg",
+    "data/lectures/leph101/14cxn6IWbJkju43wDGZHa6lBSOvms60zn/frames/floor_000075.jpg",
+    "data/lectures/leph101/14cxn6IWbJkju43wDGZHa6lBSOvms60zn/frames/floor_000079.jpg",
+    "data/lectures/leph101/14cxn6IWbJkju43wDGZHa6lBSOvms60zn/frames/floor_000083.jpg",
+    "data/lectures/leph101/14cxn6IWbJkju43wDGZHa6lBSOvms60zn/frames/floor_000085.jpg",
+    "data/lectures/leph101/14cxn6IWbJkju43wDGZHa6lBSOvms60zn/frames/floor_000087.jpg",
+    "data/lectures/leph101/14cxn6IWbJkju43wDGZHa6lBSOvms60zn/frames/floor_000088.jpg",
+    "data/lectures/leph101/14cxn6IWbJkju43wDGZHa6lBSOvms60zn/frames/floor_000089.jpg",
+    "data/lectures/leph101/14cxn6IWbJkju43wDGZHa6lBSOvms60zn/frames/floor_000090.jpg",
+    "data/lectures/leph101/14cxn6IWbJkju43wDGZHa6lBSOvms60zn/frames/floor_000091.jpg",
+    "data/lectures/leph101/14cxn6IWbJkju43wDGZHa6lBSOvms60zn/frames/floor_000092.jpg",
+    "data/lectures/leph101/14cxn6IWbJkju43wDGZHa6lBSOvms60zn/frames/floor_000093.jpg",
+    "data/lectures/leph101/14cxn6IWbJkju43wDGZHa6lBSOvms60zn/frames/floor_000094.jpg",
+    "data/lectures/leph101/14cxn6IWbJkju43wDGZHa6lBSOvms60zn/frames/floor_000095.jpg",
+    "data/lectures/leph101/14cxn6IWbJkju43wDGZHa6lBSOvms60zn/frames/floor_000096.jpg",
+    "data/lectures/leph101/14cxn6IWbJkju43wDGZHa6lBSOvms60zn/frames/floor_000097.jpg",
+    "data/lectures/leph101/14cxn6IWbJkju43wDGZHa6lBSOvms60zn/frames/floor_000098.jpg",
+    "data/lectures/leph101/14cxn6IWbJkju43wDGZHa6lBSOvms60zn/frames/floor_000099.jpg",
+    "data/lectures/leph101/14cxn6IWbJkju43wDGZHa6lBSOvms60zn/frames/floor_000101.jpg",
+    "data/lectures/leph101/14cxn6IWbJkju43wDGZHa6lBSOvms60zn/frames/floor_000102.jpg"
+  ],
+  "markdown_body": "## Recap: torque\n$$\\vec\\tau = \\vec R\\times\\vec F,\\qquad |\\vec\\tau| = RF\\sin\\theta$$\nDirection perpendicular to the plane of $\\vec R,\\vec F$, via the right-hand curl rule. Equivalently, for a **couple** (two equal and opposite forces): $\\tau = F\\times(\\text{perpendicular distance between their lines of action})$.\n\n## Torque on a dipole in a uniform field (NCERT 1.11)\n\nDipole (charges $+Q,-Q$, length $2L$, moment $p=2QL$) at angle $\\theta$ to a uniform field $\\vec E$. Each charge feels an equal-magnitude force $F=EQ$, but in different directions (since $\\vec E$ points from $+$ to $-$) — a couple. The perpendicular distance between the two forces' lines of action is $2L\\sin\\theta$, so:\n$$\\tau = F\\times 2L\\sin\\theta = EQ\\times2L\\sin\\theta = PE\\sin\\theta$$\nIn vector form:\n$$\\boxed{\\vec\\tau = \\vec p\\times\\vec E}$$\ndirection perpendicular to the plane of $\\vec p,\\vec E$ (right-hand curl rule, fingers curling from $\\vec p$ to $\\vec E$).\n\n**Extremes:** torque is **maximum** ($=PE$) at $\\theta=90°$ ($\\vec p\\perp\\vec E$); torque is **zero** at $\\theta=0°$ or $180°$ ($\\vec p$ parallel or antiparallel to $\\vec E$) — even though forces still act on each charge individually, there's no net turning effect once aligned.\n\n## Potential energy of a dipole (NCERT 1.11)\n\nSmall work done rotating the dipole by $d\\theta$: $dW = \\tau\\,d\\theta = PE\\sin\\theta\\,d\\theta$ (rotational analogue of $dW=F\\,dx$). Integrating from $\\theta_1$ to $\\theta_2$ (using $\\int\\sin\\theta\\,d\\theta=-\\cos\\theta$):\n$$W = PE\\left[\\cos\\theta_1-\\cos\\theta_2\\right]$$\nThis work is stored as potential energy. Taking $\\theta_1=90°$ (where $\\cos90°=0$) as the zero-PE reference:\n$$\\boxed{U = -PE\\cos\\theta = -\\vec p\\cdot\\vec E}$$\n\n### Worked numerical\nA dipole with charge $1~\\mu\\text{C}$, separated by $1$ cm, placed in $E=2\\times10^6$ N/C:\n- **(i)** Dipole moment: $p = Q\\times2L = 10^{-6}\\times10^{-2} = 10^{-8}$ C$\\cdot$m\n- **(ii)** Maximum torque: $\\tau_\\max = PE = 10^{-8}\\times2\\times10^6 = 2\\times10^{-2}$ N$\\cdot$m\n- **(iii)** Work done rotating through $180°$ starting from $\\theta=0$: $W = PE[\\cos0°-\\cos180°] = PE[1-(-1)] = 2PE$\n\n---\n*Note on this lecture's transcript:* the worked numerical above is grounded entirely from a board frame near the true end of the lecture -- the transcript repeats earlier material there and then stops well short of the lecture's actual end. See the flagged span below.\n"
+}

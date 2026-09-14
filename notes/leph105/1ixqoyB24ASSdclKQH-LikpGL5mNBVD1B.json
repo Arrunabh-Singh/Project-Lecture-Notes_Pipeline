@@ -1,0 +1,78 @@
+{
+  "file_id": "1ixqoyB24ASSdclKQH-LikpGL5mNBVD1B",
+  "chapter_id": "leph105",
+  "title": "Ferromagnetic Substances and Domain Theory",
+  "duration_seconds": 1551.4,
+  "claims": [
+    {
+      "text": "Ferromagnetic substances: when placed in an external magnetic field, they get STRONGLY magnetized in the direction of the magnetizing field (contrast with paramagnetic substances, which are only feebly magnetized). Examples: iron, cobalt, nickel, and their alloy Alnico (aluminium, nickel, cobalt, iron, and some copper)",
+      "transcript_span": [
+        2.15,
+        91.0
+      ],
+      "frame_path": "data/lectures/leph105/1ixqoyB24ASSdclKQH-LikpGL5mNBVD1B/frames/floor_000019.jpg",
+      "ncert_section": "5.5",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Domain theory explanation: each atom in a ferromagnetic substance has a magnetic dipole moment (as in a paramagnetic substance), but here the nearby atomic dipole moments strongly interact with each other, so they spontaneously align themselves in a common direction over a macroscopic volume called a DOMAIN. Each domain thus has its own net magnetic dipole moment, but this net moment's direction varies randomly from domain to domain, so the resultant magnetic moment of the WHOLE substance is still zero (M_net=0) when B=0 -- unlike paramagnetic substances, which don't form domains at all (each individual atom there is randomly oriented on its own)",
+      "transcript_span": [
+        91.0,
+        399.0
+      ],
+      "frame_path": "data/lectures/leph105/1ixqoyB24ASSdclKQH-LikpGL5mNBVD1B/frames/floor_000019.jpg",
+      "ncert_section": "5.5",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "When a ferromagnetic substance is placed in an external magnetic field, the domains themselves orient in the direction of B and grow in size (domain boundaries shift so smaller domains merge into progressively bigger ones, ultimately approaching one giant domain aligned with B). Because the domains are now aligned rather than randomly oriented, the substance's net magnetic dipole moment M_net becomes non-zero, and it behaves as a magnet",
+      "transcript_span": [
+        401.0,
+        916.0
+      ],
+      "frame_path": "data/lectures/leph105/1ixqoyB24ASSdclKQH-LikpGL5mNBVD1B/frames/floor_000019.jpg",
+      "ncert_section": "5.5",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Worked numerical (paramagnetic salt, Curie's law -- NCERT exercise, pre-rationalisation numbering 5.13): a sample of a paramagnetic salt contains 2x10^24 dipoles, each of magnetic moment 1.5x10^-23 J/T. It is placed in a field B1=0.64 T and cooled to T1=4.2 K, achieving a degree of magnetic saturation of 15%. Find the total dipole moment of the sample for B2=0.98 T and T2=2.8 K, assuming Curie's law. Solution as far as shown: total dipole moment of the sample (fully saturated) = (2x10^24)(1.5x10^-23) = 30 J/T. At 15% saturation, M1 = 0.15x30 = 4.5 J/T. Using Curie's law (M proportional to B/T), the second state's dipole moment M2 (at B2=0.98 T, T2=2.8 K) follows from M2 = M1 x (B2/B1) x (T1/T2)",
+      "transcript_span": null,
+      "frame_path": "data/lectures/leph105/1ixqoyB24ASSdclKQH-LikpGL5mNBVD1B/frames/floor_000074.jpg",
+      "ncert_section": null,
+      "ncert_agreement": null
+    }
+  ],
+  "uncertain_spans": [
+    {
+      "start_seconds": 401.0,
+      "end_seconds": 1551.4,
+      "reason": "This transcript has a severe, repeated delayed-repetition problem: the same ~230-word domain-theory explanation ('this domain theory... individual atoms possess dipole moment... they interact... align... called domain... each domain has net M but it varies domain to domain... M net of whole substance is zero... place in external field... domains orient... grow... form giant domain...') is transcribed essentially verbatim FIVE separate times, at approximately t=91-399s (first, genuine pass, matching the board diagrams in floor_000019.jpg), then re-transcribed nearly word-for-word again at t=625-916s, t=918-1143s, t=1129-1371s (this one partially overlapping/out-of-order with the previous), and t=1396-1560s. Only the first pass reflects new content; the other four are ASR hallucinated repeats that silently displaced whatever the teacher actually said during those stretches. Board frames confirm real new content WAS being taught during this displaced time: from floor_000061.jpg (t=1200s) onward, the board shows a full worked Curie's-law numerical (a paramagnetic-salt problem, apparently NCERT exercise 5.13 in the pre-rationalisation numbering) being written and solved, continuing through the last available frame (floor_000074.jpg, t=1460s) -- none of which appears anywhere in the transcript's own words. The numerical is grounded entirely from these frames; the method for the final step (M2 via Curie's law ratio) is the direct, expected completion of the givens shown, but the frames do not show a final computed value for M2, so none is stated here."
+    }
+  ],
+  "ncert_sections_covered": [
+    "5.5"
+  ],
+  "frame_paths": [
+    "data/lectures/leph105/1ixqoyB24ASSdclKQH-LikpGL5mNBVD1B/frames/floor_000001.jpg",
+    "data/lectures/leph105/1ixqoyB24ASSdclKQH-LikpGL5mNBVD1B/frames/floor_000012.jpg",
+    "data/lectures/leph105/1ixqoyB24ASSdclKQH-LikpGL5mNBVD1B/frames/floor_000013.jpg",
+    "data/lectures/leph105/1ixqoyB24ASSdclKQH-LikpGL5mNBVD1B/frames/floor_000016.jpg",
+    "data/lectures/leph105/1ixqoyB24ASSdclKQH-LikpGL5mNBVD1B/frames/floor_000019.jpg",
+    "data/lectures/leph105/1ixqoyB24ASSdclKQH-LikpGL5mNBVD1B/frames/floor_000021.jpg",
+    "data/lectures/leph105/1ixqoyB24ASSdclKQH-LikpGL5mNBVD1B/frames/floor_000026.jpg",
+    "data/lectures/leph105/1ixqoyB24ASSdclKQH-LikpGL5mNBVD1B/frames/floor_000032.jpg",
+    "data/lectures/leph105/1ixqoyB24ASSdclKQH-LikpGL5mNBVD1B/frames/floor_000039.jpg",
+    "data/lectures/leph105/1ixqoyB24ASSdclKQH-LikpGL5mNBVD1B/frames/floor_000042.jpg",
+    "data/lectures/leph105/1ixqoyB24ASSdclKQH-LikpGL5mNBVD1B/frames/floor_000046.jpg",
+    "data/lectures/leph105/1ixqoyB24ASSdclKQH-LikpGL5mNBVD1B/frames/floor_000050.jpg",
+    "data/lectures/leph105/1ixqoyB24ASSdclKQH-LikpGL5mNBVD1B/frames/floor_000054.jpg",
+    "data/lectures/leph105/1ixqoyB24ASSdclKQH-LikpGL5mNBVD1B/frames/floor_000056.jpg",
+    "data/lectures/leph105/1ixqoyB24ASSdclKQH-LikpGL5mNBVD1B/frames/floor_000058.jpg",
+    "data/lectures/leph105/1ixqoyB24ASSdclKQH-LikpGL5mNBVD1B/frames/floor_000059.jpg",
+    "data/lectures/leph105/1ixqoyB24ASSdclKQH-LikpGL5mNBVD1B/frames/floor_000061.jpg",
+    "data/lectures/leph105/1ixqoyB24ASSdclKQH-LikpGL5mNBVD1B/frames/floor_000066.jpg",
+    "data/lectures/leph105/1ixqoyB24ASSdclKQH-LikpGL5mNBVD1B/frames/floor_000069.jpg",
+    "data/lectures/leph105/1ixqoyB24ASSdclKQH-LikpGL5mNBVD1B/frames/floor_000074.jpg"
+  ],
+  "markdown_body": "## Ferromagnetic substances and domain theory (NCERT 5.5)\n\n**Ferromagnetic substances** get **strongly** magnetized in the direction of an external field (contrast: paramagnetic substances are only feebly magnetized). Examples: iron, cobalt, nickel, and the alloy **Alnico** (Al, Ni, Co, Fe, and some Cu).\n\n### Domain theory\nEach atom has a magnetic dipole moment (as in a paramagnetic substance), but here neighbouring atomic dipoles **interact strongly** and spontaneously align in a common direction over a macroscopic volume called a **domain**. Each domain has its own net dipole moment, but domain directions vary randomly across the sample, so the substance's overall $M_\\text{net}=0$ when $B=0$. (This is the key structural difference from paramagnetic substances, which don't form domains at all — there, each individual *atom* is independently randomly oriented.)\n\nWhen placed in an external field $\\vec B$: the domains themselves **orient toward $\\vec B$ and grow** — domain boundaries shift so smaller domains merge into bigger ones, approaching one giant domain aligned with $B$. With the domains now aligned, $M_\\text{net}\\ne0$: the substance behaves as a magnet.\n\n### Worked numerical (Curie's law, paramagnetic salt)\n*(NCERT exercise, pre-rationalisation numbering 5.13)*\n\nA paramagnetic salt has $2\\times10^{24}$ dipoles, each of moment $1.5\\times10^{-23}$ J/T. Placed in $B_1=0.64$ T, cooled to $T_1=4.2$ K, it reaches $15\\%$ magnetic saturation. Find the total dipole moment at $B_2=0.98$ T, $T_2=2.8$ K (assume Curie's law).\n\n- Fully-saturated total moment: $(2\\times10^{24})(1.5\\times10^{-23}) = 30$ J/T\n- At $15\\%$ saturation: $M_1 = 0.15\\times30 = 4.5$ J/T\n- By Curie's law ($M\\propto B/T$): $M_2 = M_1\\times\\dfrac{B_2}{B_1}\\times\\dfrac{T_1}{T_2}$\n\n---\n*Note on this lecture's transcript:* the domain-theory explanation above is transcribed correctly on its first pass, but the ASR then re-transcribes the *same* explanation nearly verbatim four more times back-to-back, filling almost the entire second half of the lecture. Board frames show that, during this same stretch, the teacher had actually moved on to the worked Curie's-law numerical above — none of which made it into the transcript's own words. The numerical is grounded entirely from frames; see the flagged span below.\n"
+}

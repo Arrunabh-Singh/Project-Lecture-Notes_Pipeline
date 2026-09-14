@@ -1,0 +1,63 @@
+\\TEXTBOOKS\\RATIONALISED 20222-23\\Neha\\12089 — Physics Part-1\\1 Source Files\\Chapter-6\\Chapter 6.pmd
+
+Physics Chapter Six ELECTROMAGNETIC INDUCTION
+
+154
+
+6.1 INTRODUCTION
+Faraday (England) and Joseph Henry (USA), ~1830: electric currents induced in closed coils by changing magnetic fields. Phenomenon: electromagnetic induction.
+
+6.2 THE EXPERIMENTS OF FARADAY AND HENRY
+Experiment 6.1: bar magnet moved towards/away from coil C1 connected to galvanometer G — deflection only during relative motion; larger deflection for faster motion; reversed for opposite pole/direction.
+Experiment 6.2: coil C2 (steady current, battery) replaces bar magnet, moved towards/away from C1 — same effect. Relative motion between coils matters.
+Experiment 6.3: two coils C1, C2 held stationary; C1 connected to battery via key K, C2 to galvanometer. Momentary deflection when K pressed/released, none when current steady. Deflection increases with iron rod inserted.
+
+6.3 MAGNETIC FLUX
+ΦB = B.A = BA cos θ (6.1)
+ΦB = ΣBi.dAi (6.2), SI unit weber (Wb) = T m²
+
+6.4 FARADAY’S LAW OF INDUCTION
+ε = –dΦB/dt (6.3)
+ε = –N dΦB/dt (6.4) for N-turn coil
+Named: Michael Faraday (1791-1867) — electromagnetic induction, laws of electrolysis, benzene, electric motor/generator/transformer.
+
+6.5 LENZ’S LAW AND CONSERVATION OF ENERGY
+Heinrich Friedrich Lenz (1804-1865): "The polarity of induced emf is such that it tends to produce a current which opposes the change in magnetic flux that produced it." Negative sign in Eq 6.3 represents this. Connected to conservation of energy (no perpetual motion).
+
+6.6 MOTIONAL ELECTROMOTIVE FORCE
+ΦB = Blx; ε = –dΦB/dt = Blv (6.5), "motional emf"
+Via Lorentz force: W = qvBl, ε = W/q = Blv
+For stationary conductor, changing B: F = q(E + v×B) = qE since v=0 — time-varying B generates E.
+
+6.7 INDUCTANCE
+NΦB ∝ I; SI unit of inductance: henry (H), dimension [M L² T⁻² A⁻²]
+6.7.1 Mutual inductance: N1Φ1 = M12 I2 (6.7); M12 = μ0 n1 n2 π r1² l (6.9, coaxial solenoids); M12 = M21 = M (6.12, reciprocity theorem)
+ε1 = –M dI2/dt
+6.7.2 Self-inductance: NΦB = LI (6.13); ε = –L dI/dt (6.14)
+Long solenoid: L = μ0 n² A l (6.15); with core μr: L = μr μ0 n² A l (6.16)
+Energy stored: W = ½LI² (6.17); energy density uB = B²/2μ0 (6.18)
+
+6.8 AC GENERATOR
+Nicola Tesla — credited with development. ΦB = BA cos ωt; ε = NBAω sin ωt (6.19) = ε0 sin ωt (6.20) = ε0 sin 2πνt (6.21)
+India: 50 Hz mains frequency; USA: 60 Hz.
+Hydro-electric, thermal, nuclear generators (mechanical energy source varies).
+
+SUMMARY
+1. ΦB = B.A = BA cos θ
+2. ε = –N dΦB/dt (Faraday's law)
+3. Lenz's law: induced emf opposes flux change (energy conservation)
+4. Motional emf: ε = Blv
+5. Inductance = flux-linkage/current = NΦ/I
+6. Mutual inductance: ε1 = –M12 dI2/dt, M12 = M21
+7. Self-inductance: ε = –L dI/dt
+8. Long solenoid: L = μr μ0 n² A l
+9. AC generator: ε = NBA(2πν) sin(2πνt)
+
+POINTS TO PONDER
+1. Oersted/Ampere (moving charge→field) then Faraday/Henry ~1830 (moving magnet→current) — deep symmetry.
+2. Induced currents oppose flux change per energy conservation (closed circuit); open circuit induces emf across ends.
+3. Motional emf explainable via Lorentz force (moving charge) OR via time-varying B inducing E even for stationary charge — hints at relativity principle relevance to Faraday's law.
+
+EXERCISES (6.1-6.8): direction of induced current (Lenz's law) in various geometries; solenoid+loop emf calc; rectangular loop emf on exit from field; rotating rod emf; falling horizontal wire emf; self-inductance from current-change/emf data; mutual inductance flux-linkage change.
+
+Named scientists: Michael Faraday, Joseph Henry (1797-1878, Princeton, Smithsonian first director, electromagnet improvements, electromagnetic motor, self-induction discovery), Heinrich Friedrich Lenz, Nicola Tesla.

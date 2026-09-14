@@ -1,0 +1,124 @@
+{
+  "file_id": "1GL0goEtenp6dcclfuVakFQdtzzPJCaDa",
+  "chapter_id": "leph102",
+  "title": "Potential Due to an Electric Dipole, and Potential Energy of a System of Charges",
+  "duration_seconds": 1858.43,
+  "claims": [
+    {
+      "text": "For a general point P at polar coordinates (r, theta) from a dipole's center (not restricted to axial or equatorial), by superposition V = V(+q) + V(-q), with distances to each charge approximated via PN ~= AP after dropping perpendiculars -- giving ON = L cos(theta)",
+      "transcript_span": [
+        120.3,
+        621.0
+      ],
+      "frame_path": "data/lectures/leph102/1GL0goEtenp6dcclfuVakFQdtzzPJCaDa/frames/floor_000030.jpg",
+      "ncert_section": "2.4",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Exact result: V = P cos(theta) / [4 pi eps0 (r^2 - l^2 cos^2(theta))]; for r >> l this simplifies to V = P cos(theta) / (4 pi eps0 r^2) -- falls off as 1/r^2, faster than a point charge's 1/r, and depends on direction (theta) unlike a point charge's potential",
+      "transcript_span": [
+        605.0,
+        684.5
+      ],
+      "frame_path": "data/lectures/leph102/1GL0goEtenp6dcclfuVakFQdtzzPJCaDa/frames/floor_000030.jpg",
+      "ncert_section": "2.4",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Special cases: on the axis (theta=0), V = P/(4 pi eps0 r^2) [maximum]; on the equatorial line (theta=90 deg), V = 0 exactly (the two charges' potentials cancel, same conclusion as the general system-of-charges superposition example from the previous lecture)",
+      "transcript_span": [
+        684.5,
+        830.1
+      ],
+      "frame_path": "data/lectures/leph102/1GL0goEtenp6dcclfuVakFQdtzzPJCaDa/frames/floor_000035.jpg",
+      "ncert_section": "2.4",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Worked example: q=100e-9 C, -q=-100e-9 C, separation 2L=2e-3 m (dipole moment P=2QL=2e-10 C.m), point at 0.5 m from center. Axial position: V=7.2 V. Broadside (equatorial) position: V=0",
+      "transcript_span": [
+        837.9,
+        1145.0
+      ],
+      "frame_path": "data/lectures/leph102/1GL0goEtenp6dcclfuVakFQdtzzPJCaDa/frames/floor_000048.jpg",
+      "ncert_section": "2.4",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Potential energy of a system of two point charges: bringing q1 from infinity costs no work (no field yet); bringing q2 to distance r from q1 costs W = potential due to q1, times q2 = (1/4 pi eps0) q1 q2 / r. This total work is stored as the system's potential energy U",
+      "transcript_span": [
+        1145.0,
+        1250.3
+      ],
+      "frame_path": "data/lectures/leph102/1GL0goEtenp6dcclfuVakFQdtzzPJCaDa/frames/floor_000054.jpg",
+      "ncert_section": null,
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Potential energy of three point charges: U = (1/4 pi eps0) [q1 q2/r12 + q1 q3/r13 + q2 q3/r23] -- sum over every pair, each brought in from infinity in turn against the field of the charges already placed",
+      "transcript_span": [
+        1250.3,
+        1571.4
+      ],
+      "frame_path": "data/lectures/leph102/1GL0goEtenp6dcclfuVakFQdtzzPJCaDa/frames/floor_000063.jpg",
+      "ncert_section": null,
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Generalizes to n point charges: U = (1/2)(1/4 pi eps0) sum_i sum_j (q_i q_j / r_ij) for i != j, or equivalently the sum over i=1..n, j>i to count each pair exactly once without double-counting",
+      "transcript_span": [
+        1616.7,
+        1758.1
+      ],
+      "frame_path": "data/lectures/leph102/1GL0goEtenp6dcclfuVakFQdtzzPJCaDa/frames/floor_000074.jpg",
+      "ncert_section": null,
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Worked example: equilateral triangle of side a=0.1m, charges q1=q, q2=2q, q3=-2q with q=1e-6 C. U = (1/4 pi eps0)(q^2/a)[q(2q) + q(-2q) + 2q(-2q)] type sum, worked out to a negative final energy (~ -0.36 J per the lecture's arithmetic)",
+      "transcript_span": [
+        1758.1,
+        1858.7
+      ],
+      "frame_path": "data/lectures/leph102/1GL0goEtenp6dcclfuVakFQdtzzPJCaDa/frames/floor_000089.jpg",
+      "ncert_section": null,
+      "ncert_agreement": null
+    }
+  ],
+  "uncertain_spans": [],
+  "ncert_sections_covered": [
+    "2.4"
+  ],
+  "frame_paths": [
+    "data/lectures/leph102/1GL0goEtenp6dcclfuVakFQdtzzPJCaDa/frames/floor_000001.jpg",
+    "data/lectures/leph102/1GL0goEtenp6dcclfuVakFQdtzzPJCaDa/frames/floor_000006.jpg",
+    "data/lectures/leph102/1GL0goEtenp6dcclfuVakFQdtzzPJCaDa/frames/floor_000017.jpg",
+    "data/lectures/leph102/1GL0goEtenp6dcclfuVakFQdtzzPJCaDa/frames/floor_000021.jpg",
+    "data/lectures/leph102/1GL0goEtenp6dcclfuVakFQdtzzPJCaDa/frames/floor_000026.jpg",
+    "data/lectures/leph102/1GL0goEtenp6dcclfuVakFQdtzzPJCaDa/frames/floor_000028.jpg",
+    "data/lectures/leph102/1GL0goEtenp6dcclfuVakFQdtzzPJCaDa/frames/floor_000030.jpg",
+    "data/lectures/leph102/1GL0goEtenp6dcclfuVakFQdtzzPJCaDa/frames/floor_000032.jpg",
+    "data/lectures/leph102/1GL0goEtenp6dcclfuVakFQdtzzPJCaDa/frames/floor_000035.jpg",
+    "data/lectures/leph102/1GL0goEtenp6dcclfuVakFQdtzzPJCaDa/frames/floor_000042.jpg",
+    "data/lectures/leph102/1GL0goEtenp6dcclfuVakFQdtzzPJCaDa/frames/floor_000044.jpg",
+    "data/lectures/leph102/1GL0goEtenp6dcclfuVakFQdtzzPJCaDa/frames/floor_000048.jpg",
+    "data/lectures/leph102/1GL0goEtenp6dcclfuVakFQdtzzPJCaDa/frames/floor_000054.jpg",
+    "data/lectures/leph102/1GL0goEtenp6dcclfuVakFQdtzzPJCaDa/frames/floor_000057.jpg",
+    "data/lectures/leph102/1GL0goEtenp6dcclfuVakFQdtzzPJCaDa/frames/floor_000059.jpg",
+    "data/lectures/leph102/1GL0goEtenp6dcclfuVakFQdtzzPJCaDa/frames/floor_000061.jpg",
+    "data/lectures/leph102/1GL0goEtenp6dcclfuVakFQdtzzPJCaDa/frames/floor_000062.jpg",
+    "data/lectures/leph102/1GL0goEtenp6dcclfuVakFQdtzzPJCaDa/frames/floor_000063.jpg",
+    "data/lectures/leph102/1GL0goEtenp6dcclfuVakFQdtzzPJCaDa/frames/floor_000065.jpg",
+    "data/lectures/leph102/1GL0goEtenp6dcclfuVakFQdtzzPJCaDa/frames/floor_000070.jpg",
+    "data/lectures/leph102/1GL0goEtenp6dcclfuVakFQdtzzPJCaDa/frames/floor_000074.jpg",
+    "data/lectures/leph102/1GL0goEtenp6dcclfuVakFQdtzzPJCaDa/frames/floor_000078.jpg",
+    "data/lectures/leph102/1GL0goEtenp6dcclfuVakFQdtzzPJCaDa/frames/floor_000079.jpg",
+    "data/lectures/leph102/1GL0goEtenp6dcclfuVakFQdtzzPJCaDa/frames/floor_000081.jpg",
+    "data/lectures/leph102/1GL0goEtenp6dcclfuVakFQdtzzPJCaDa/frames/floor_000082.jpg",
+    "data/lectures/leph102/1GL0goEtenp6dcclfuVakFQdtzzPJCaDa/frames/floor_000084.jpg",
+    "data/lectures/leph102/1GL0goEtenp6dcclfuVakFQdtzzPJCaDa/frames/floor_000085.jpg",
+    "data/lectures/leph102/1GL0goEtenp6dcclfuVakFQdtzzPJCaDa/frames/floor_000087.jpg",
+    "data/lectures/leph102/1GL0goEtenp6dcclfuVakFQdtzzPJCaDa/frames/floor_000089.jpg"
+  ],
+  "markdown_body": "## Potential due to an electric dipole (NCERT 2.4)\n\nUnlike the earlier electric-field-intensity treatment (which used axial and equatorial special points), here a **general point** $P$ at polar coordinates $(r,\\theta)$ from the dipole's center is considered directly.\n\nBy superposition (potential is a scalar, so this is simple addition, not vector addition like $\\vec E$):\n$$V = V_{+q} + V_{-q} = \\frac{1}{4\\pi\\varepsilon_0}\\frac{q}{R_1} - \\frac{1}{4\\pi\\varepsilon_0}\\frac{q}{R_2}$$\n\nUsing the standard far-field approximation (dropping perpendiculars from each charge to the line $OP$, giving $PN \\approx AP$ and $ON = L\\cos\\theta$):\n\n$$V = \\frac{P\\cos\\theta}{4\\pi\\varepsilon_0\\left(r^2 - l^2\\cos^2\\theta\\right)}$$\n\nFor $r \\gg l$ (the point far from the dipole compared to its size), this simplifies to:\n$$\\boxed{V = \\frac{P\\cos\\theta}{4\\pi\\varepsilon_0 r^2}}$$\n\nTwo things worth noting against the point-charge result $V \\propto 1/r$: dipole potential falls off **faster** ($1/r^2$), and it's **direction-dependent** through $\\cos\\theta$ — a point charge's potential has no such angular dependence.\n\n### Special cases\n- **Axial** ($\\theta = 0$): $V = \\dfrac{P}{4\\pi\\varepsilon_0 r^2}$ (maximum)\n- **Equatorial / \"broadside\"** ($\\theta = 90°$): $V = 0$ exactly, since $\\cos 90° = 0$ — consistent with the direct superposition argument from the previous lecture (equidistant $+q$ and $-q$ cancel).\n\n### Worked example\n$q = 100\\times10^{-9}$ C, separation $2L = 2\\times10^{-3}$ m (so $P = 2QL = 2\\times10^{-10}$ C·m), evaluated at $r=0.5$ m:\n- Axial position: $V = 7.2$ V\n- Broadside (equatorial) position: $V = 0$\n\n## Potential energy of a system of point charges\n\nDefined as the total work needed to assemble the charge configuration by bringing each charge in from infinity, one at a time, against the field of the charges already in place.\n\n**Two charges:** bringing $q_1$ in first costs nothing (no field exists yet); bringing $q_2$ to a distance $r$ from $q_1$ costs work equal to (potential due to $q_1$) $\\times\\, q_2$:\n$$U = \\frac{1}{4\\pi\\varepsilon_0}\\frac{q_1 q_2}{r}$$\n\n**Three charges:** sum over every pair, in the order each charge is brought in:\n$$U = \\frac{1}{4\\pi\\varepsilon_0}\\left[\\frac{q_1q_2}{r_{12}} + \\frac{q_1q_3}{r_{13}} + \\frac{q_2q_3}{r_{23}}\\right]$$\n\n**General result, $n$ charges:** every pair contributes exactly once:\n$$U = \\frac{1}{2}\\cdot\\frac{1}{4\\pi\\varepsilon_0}\\sum_{i=1}^n\\sum_{\\substack{j=1\\\\j\\ne i}}^n \\frac{q_iq_j}{r_{ij}} \\;=\\; \\frac{1}{4\\pi\\varepsilon_0}\\sum_{i<j} \\frac{q_iq_j}{r_{ij}}$$\n(the two forms are equivalent -- the first double-counts every pair once from each side and divides by 2; the second restricts to $j>i$ so each pair is counted exactly once directly.)\n\n### Worked example\nEquilateral triangle of side $a = 0.1$ m, with $q_1=q$, $q_2=2q$, $q_3=-2q$ and $q=10^{-6}$ C:\n$$U = \\frac{1}{4\\pi\\varepsilon_0}\\frac{q^2}{a}\\Big[(1)(2) + (1)(-2) + (2)(-2)\\Big]$$\nevaluated by the lecture to a negative total (a bound, energy-releasing configuration) — worth re-deriving by hand to check the arithmetic rather than trusting the board's final numeric answer verbatim.\n"
+}
