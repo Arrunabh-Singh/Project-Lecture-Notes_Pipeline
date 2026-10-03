@@ -1,0 +1,159 @@
+{
+  "file_id": "1mLjxE1R4tqJgzG4LFURIDDgCwRI0bVID",
+  "chapter_id": "leph107",
+  "title": "LCR Series Circuit, Resonance, Q Factor, and LC Oscillations",
+  "duration_seconds": 3103.47,
+  "claims": [
+    {
+      "text": "LCR series circuit phasor derivation: with current I flowing, VR=IR (in phase with I), VL=IXL (leads I by 90 deg), VC=IXc (lags I by 90 deg). Since VL and VC are exactly out of phase with each other (180 deg apart), their resultant is simply VL-VC (assuming VL>VC, inductive-dominated case). This resultant (VL-VC) is perpendicular to VR, so overall E=root(VR^2+(VL-VC)^2). Substituting VR=IR, VL-VC=I(XL-Xc): E=I*root(R^2+(XL-Xc)^2)=IZ, where Z=root(R^2+(XL-Xc)^2) is the impedance of the LCR circuit (the 'impedance triangle' has legs R and (XL-Xc), hypotenuse Z). Phase angle: tan(phi)=(XL-Xc)/R -- E leads I if XL>VC (inductive-dominated), or I leads E if Xc>XL (capacitive-dominated)",
+      "transcript_span": [
+        29.0,
+        591.0
+      ],
+      "frame_path": "data/lectures/leph107/1mLjxE1R4tqJgzG4LFURIDDgCwRI0bVID/frames/floor_000020.jpg",
+      "ncert_section": "7.7",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Special case: when XL=Xc (i.e. omega*L=1/(omega*C)), the circuit is said to be at RESONANCE. At this condition Z=R (minimum possible impedance, since the reactive part (XL-Xc) vanishes), phase angle phi=0 (E and I are in the same phase, the circuit behaves as if it is purely resistive), and current is MAXIMUM at resonance, I_max=E/R. Setting omega*L=1/(omega*C) and solving gives the resonant angular frequency omega_r=1/root(LC)",
+      "transcript_span": [
+        591.0,
+        924.0
+      ],
+      "frame_path": "data/lectures/leph107/1mLjxE1R4tqJgzG4LFURIDDgCwRI0bVID/frames/floor_000024.jpg",
+      "ncert_section": "7.8",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Resonance curve (graph of current amplitude I0 vs. driving frequency omega): peaks sharply at omega=omega_r. Plotting this for different values of R (R1<R2<R3) shows that smaller resistance gives a SHARPER, more peaked curve, while larger resistance gives a flatter, broader curve. A sharper curve (small R) means the circuit is more SELECTIVE -- it responds strongly only to frequencies very close to omega_r and rejects others. This selectivity property is exactly what is used when tuning a radio or TV set to a particular station's frequency, allowing that one station to be picked out clearly from many overlapping broadcast frequencies",
+      "transcript_span": [
+        924.0,
+        1317.0
+      ],
+      "frame_path": "data/lectures/leph107/1mLjxE1R4tqJgzG4LFURIDDgCwRI0bVID/frames/floor_000053.jpg",
+      "ncert_section": "7.8",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Quality factor (Q factor): a measure of how sharp/selective the resonance is. Defined (first way) as the ratio of voltage across L (or C) at resonance to the voltage across R at resonance: Q=(voltage across L)/(voltage across R)=(omega_r*L*I)/(R*I)=omega_r*L/R. Substituting omega_r=1/root(LC): Q=1/(R*root(L/C))=(1/R)*root(L/C) -- so a good (high) Q factor needs large L and small R, C. An equivalent derivation using voltage across C instead gives the same result (via omega_r=1/root(LC), Q=1/(omega_r*R*C)=(1/R)*root(L/C))",
+      "transcript_span": [
+        1322.0,
+        1656.0
+      ],
+      "frame_path": "data/lectures/leph107/1mLjxE1R4tqJgzG4LFURIDDgCwRI0bVID/frames/floor_000041.jpg",
+      "ncert_section": "7.8",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Half-power points and bandwidth: omega1 and omega2 are the two frequencies (one below, one above omega_r) at which the current amplitude falls to I0/root(2) (corresponding to half the maximum power, since P is proportional to I^2). The BANDWIDTH is BW=omega2-omega1 (the width of the resonance curve at the half-power points). A sharper resonance curve (small R, high Q) has a SMALLER bandwidth. Second definition of Q factor: Q = omega_r / BW (ratio of resonant frequency to bandwidth) -- for a fixed omega_r, smaller bandwidth means larger Q",
+      "transcript_span": null,
+      "frame_path": "data/lectures/leph107/1mLjxE1R4tqJgzG4LFURIDDgCwRI0bVID/frames/floor_000053.jpg",
+      "ncert_section": "7.8",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Deriving the LC oscillation equation: in a circuit with charged capacitor Q and inductor L only (no resistor), charge decreases as current increases (and vice versa), giving Q/C - L(dI/dt)=0 with I=-dQ/dt, leading to Q/C + L(d^2Q/dt^2)=0, or d^2Q/dt^2 + Q/(LC) = 0. This has exactly the form of the SHM differential equation d^2x/dt^2 + omega^2*x=0 (with x replaced by charge Q) -- so the charge on the capacitor oscillates simple-harmonically, with omega^2=1/(LC), i.e. omega=1/root(LC) (same as the resonant frequency of the driven LCR circuit)",
+      "transcript_span": [
+        1760.0,
+        1935.0
+      ],
+      "frame_path": "data/lectures/leph107/1mLjxE1R4tqJgzG4LFURIDDgCwRI0bVID/frames/floor_000083.jpg",
+      "ncert_section": "7.9",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Solution of the LC oscillation equation: Q=Q0*cos(omega*t) (satisfies the differential equation; at t=0, Q=Q0, the initial maximum charge on the capacitor). Differentiating, I=dQ/dt=-omega*Q0*sin(omega*t); since I and Q's rate of change are related with a sign convention (I=-dQ/dt physically, due to the direction of current as charge decreases), this is written as I=I0*sin(omega*t) with I0=omega*Q0 -- satisfying I=0 at t=0, matching the physical picture that current starts at zero when charge is maximum",
+      "transcript_span": [
+        1935.0,
+        2117.0
+      ],
+      "frame_path": "data/lectures/leph107/1mLjxE1R4tqJgzG4LFURIDDgCwRI0bVID/frames/floor_000083.jpg",
+      "ncert_section": "7.9",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "LC oscillations defined: electrical oscillations (not mechanical) produced by the exchange of energy between a capacitor (which stores electrical/electrostatic energy, U_E) and an inductor (which stores magnetic energy, U_M)",
+      "transcript_span": [
+        2129.0,
+        2236.0
+      ],
+      "frame_path": null,
+      "ncert_section": "7.9",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Initial setup of the LC oscillation circuit: at t=0, the capacitor (charge Q0) is fully charged and connected to the (initially current-free) inductor via a switch. At this instant, U_E=(1/2)*Q0^2/C (maximum) and U_M=0 (no current yet). Once the switch is closed, at t=T/4 the capacitor is fully discharged (U_E=0) while current through the inductor is at its maximum I0, so U_M=(1/2)*L*I0^2 (maximum) -- all the energy has transferred from the capacitor's electric field to the inductor's magnetic field",
+      "transcript_span": null,
+      "frame_path": "data/lectures/leph107/1mLjxE1R4tqJgzG4LFURIDDgCwRI0bVID/frames/floor_000123.jpg",
+      "ncert_section": "7.9",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Tracing the full cycle of energy exchange: at t=T/2, current has fallen to zero and charge is again maximum, but with REVERSED polarity on the capacitor (U_E maximum again, U_M=0). At t=3T/4, current is again maximum but flowing in the opposite direction compared to t=T/4 (U_M maximum, U_E=0). At t=T, the system returns to exactly the same state as t=0 (original polarity, zero current), and the whole process repeats. Total energy U_E+U_M remains constant throughout (energy conservation) -- only the split between electric and magnetic energy oscillates back and forth",
+      "transcript_span": [
+        2400.0,
+        2765.0
+      ],
+      "frame_path": null,
+      "ncert_section": "7.9",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Mechanical analogy: LC oscillations are analogous to a spring-mass system. Maximum charge on the capacitor (U_E max, U_M=0) corresponds to the mass at maximum displacement (potential energy max, kinetic energy zero); the capacitor fully discharged with maximum current (U_M max, U_E=0) corresponds to the mass passing through its mean position (kinetic energy max, potential energy zero) -- energy continuously converts back and forth between the two forms in both systems, just as charge/current oscillate and displacement/velocity oscillate respectively",
+      "transcript_span": [
+        2765.0,
+        2958.0
+      ],
+      "frame_path": null,
+      "ncert_section": "7.9",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Why real LC oscillations are damped (not ideal/undamped) in practice: two reasons. (1) Due to the circuit's finite resistance, the oscillation amplitude gradually decreases as energy is dissipated in the form of heat. (2) An accelerated charge is a source of electromagnetic waves -- since the oscillating charge/current in the LC circuit is continuously accelerating and decelerating, energy is also lost as it is radiated out in the form of electromagnetic waves. Both effects cause the amplitude of the oscillations to decay over time -- these are damped oscillations",
+      "transcript_span": [
+        2958.0,
+        3120.33
+      ],
+      "frame_path": null,
+      "ncert_section": "7.9",
+      "ncert_agreement": "agrees"
+    }
+  ],
+  "uncertain_spans": [
+    {
+      "start_seconds": 2236.0,
+      "end_seconds": 2400.0,
+      "reason": "There is a genuine ~164-second gap in the transcript with no segments at all (jumping directly from the definition of LC oscillations, ending mid-sentence around t=2236s, to a segment at t=2400s that is itself mid-sentence: 'c and Um is equal to zero'). This is where the initial circuit setup (capacitor charged, connected via switch to the inductor) and the first two energy states (t=0: U_E max, U_M=0; t=T/4: U_E=0, U_M max) must have been explained, based on both the surrounding context and a board frame (floor_000123.jpg) that shows exactly this content -- the t=0 and t=T/4 circuit diagrams with their energy formulas. The initial-setup claim above is grounded from this frame rather than the transcript's own words, since no transcript segments exist for this stretch."
+    }
+  ],
+  "ncert_sections_covered": [
+    "7.7",
+    "7.8",
+    "7.9"
+  ],
+  "frame_paths": [
+    "data/lectures/leph107/1mLjxE1R4tqJgzG4LFURIDDgCwRI0bVID/frames/floor_000001.jpg",
+    "data/lectures/leph107/1mLjxE1R4tqJgzG4LFURIDDgCwRI0bVID/frames/floor_000007.jpg",
+    "data/lectures/leph107/1mLjxE1R4tqJgzG4LFURIDDgCwRI0bVID/frames/floor_000017.jpg",
+    "data/lectures/leph107/1mLjxE1R4tqJgzG4LFURIDDgCwRI0bVID/frames/floor_000020.jpg",
+    "data/lectures/leph107/1mLjxE1R4tqJgzG4LFURIDDgCwRI0bVID/frames/floor_000024.jpg",
+    "data/lectures/leph107/1mLjxE1R4tqJgzG4LFURIDDgCwRI0bVID/frames/floor_000026.jpg",
+    "data/lectures/leph107/1mLjxE1R4tqJgzG4LFURIDDgCwRI0bVID/frames/floor_000035.jpg",
+    "data/lectures/leph107/1mLjxE1R4tqJgzG4LFURIDDgCwRI0bVID/frames/floor_000041.jpg",
+    "data/lectures/leph107/1mLjxE1R4tqJgzG4LFURIDDgCwRI0bVID/frames/floor_000053.jpg",
+    "data/lectures/leph107/1mLjxE1R4tqJgzG4LFURIDDgCwRI0bVID/frames/floor_000069.jpg",
+    "data/lectures/leph107/1mLjxE1R4tqJgzG4LFURIDDgCwRI0bVID/frames/floor_000074.jpg",
+    "data/lectures/leph107/1mLjxE1R4tqJgzG4LFURIDDgCwRI0bVID/frames/floor_000083.jpg",
+    "data/lectures/leph107/1mLjxE1R4tqJgzG4LFURIDDgCwRI0bVID/frames/floor_000089.jpg",
+    "data/lectures/leph107/1mLjxE1R4tqJgzG4LFURIDDgCwRI0bVID/frames/floor_000091.jpg",
+    "data/lectures/leph107/1mLjxE1R4tqJgzG4LFURIDDgCwRI0bVID/frames/floor_000095.jpg",
+    "data/lectures/leph107/1mLjxE1R4tqJgzG4LFURIDDgCwRI0bVID/frames/floor_000099.jpg",
+    "data/lectures/leph107/1mLjxE1R4tqJgzG4LFURIDDgCwRI0bVID/frames/floor_000108.jpg",
+    "data/lectures/leph107/1mLjxE1R4tqJgzG4LFURIDDgCwRI0bVID/frames/floor_000109.jpg",
+    "data/lectures/leph107/1mLjxE1R4tqJgzG4LFURIDDgCwRI0bVID/frames/floor_000114.jpg",
+    "data/lectures/leph107/1mLjxE1R4tqJgzG4LFURIDDgCwRI0bVID/frames/floor_000123.jpg",
+    "data/lectures/leph107/1mLjxE1R4tqJgzG4LFURIDDgCwRI0bVID/frames/floor_000129.jpg",
+    "data/lectures/leph107/1mLjxE1R4tqJgzG4LFURIDDgCwRI0bVID/frames/floor_000131.jpg"
+  ],
+  "markdown_body": "## LCR series circuit (NCERT 7.7)\n\n$V_R=IR$ (in phase with $I$), $V_L=IX_L$ (leads $I$ by $90°$), $V_C=IX_C$ (lags $I$ by $90°$). Since $V_L$, $V_C$ are $180°$ apart, their resultant is $V_L-V_C$ (say $V_L>V_C$), perpendicular to $V_R$:\n$$E = \\sqrt{V_R^2+(V_L-V_C)^2} = I\\sqrt{R^2+(X_L-X_C)^2} = IZ$$\n$$Z=\\sqrt{R^2+(X_L-X_C)^2}~\\text{(impedance)}, \\qquad \\tan\\phi=\\frac{X_L-X_C}{R}$$\n\n## Resonance (NCERT 7.8)\n\nWhen $X_L=X_C$ ($\\omega L = 1/\\omega C$): **resonance**. Here $Z=R$ (minimum), $\\phi=0$ (purely resistive behavior), and current is **maximum**, $I_\\text{max}=E/R$.\n$$\\boxed{\\omega_r = \\frac{1}{\\sqrt{LC}}}$$\n\n**Resonance curve** ($I_0$ vs. $\\omega$): peaks at $\\omega_r$. Smaller $R$ $\\Rightarrow$ sharper peak $\\Rightarrow$ more **selective** — exactly the property used to tune a radio/TV to one station among many overlapping frequencies.\n\n### Quality factor (Q)\n$$Q = \\frac{V_L\\text{ (or }V_C\\text{) at resonance}}{V_R\\text{ at resonance}} = \\frac{\\omega_r L}{R} = \\frac{1}{R}\\sqrt{\\frac{L}{C}}$$\nHigh $Q$ needs large $L$, small $R,C$.\n\n**Half-power points** $\\omega_1,\\omega_2$: where $I=I_0/\\sqrt2$. **Bandwidth** $BW=\\omega_2-\\omega_1$ (smaller for sharper curves). Second definition:\n$$Q = \\frac{\\omega_r}{BW}$$\n\n## LC oscillations (NCERT 7.9)\n\nCharged capacitor + inductor, no resistor: $\\dfrac{Q}{C} - L\\dfrac{dI}{dt}=0$ with $I=-dQ/dt$ gives\n$$\\frac{d^2Q}{dt^2} + \\frac{Q}{LC} = 0$$\n— the SHM equation, with $\\omega=1/\\sqrt{LC}$. Solution: $Q=Q_0\\cos(\\omega t)$, $I=I_0\\sin(\\omega t)$ ($I_0=\\omega Q_0$).\n\n**Electrical oscillations** produced by energy exchange between the capacitor ($U_E$, electric) and inductor ($U_M$, magnetic):\n\n| $t$ | $0$ | $T/4$ | $T/2$ | $3T/4$ | $T$ |\n|---|---|---|---|---|---|\n| $U_E$ | $\\frac12 Q_0^2/C$ (max) | $0$ | max (reversed polarity) | $0$ | back to start |\n| $U_M$ | $0$ | $\\frac12 LI_0^2$ (max) | $0$ | max (reversed current) | $0$ |\n\nTotal energy $U_E+U_M$ constant (energy conservation) — only the split oscillates.\n\n**Mechanical analogy:** spring-mass system — max displacement (PE max, KE zero) $\\leftrightarrow$ max charge ($U_E$ max, $U_M=0$); mean position (KE max, PE zero) $\\leftrightarrow$ max current ($U_M$ max, $U_E=0$).\n\n**Why real oscillations damp:** (1) finite resistance dissipates energy as heat; (2) an accelerated charge radiates electromagnetic waves, carrying energy away. Both cause the amplitude to decay over time.\n\n---\n*Note on this lecture's transcript:* this is one of the cleanest, most complete transcripts found in this project. The one gap is a genuine ~164-second silent stretch with no transcript segments at all, covering the initial LC-circuit setup (t=0 and t=T/4 energy states) — grounded from a board frame; see the flagged span below.\n"
+}

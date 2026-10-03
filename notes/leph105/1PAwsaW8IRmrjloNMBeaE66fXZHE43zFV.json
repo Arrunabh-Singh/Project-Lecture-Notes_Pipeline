@@ -1,0 +1,133 @@
+{
+  "file_id": "1PAwsaW8IRmrjloNMBeaE66fXZHE43zFV",
+  "chapter_id": "leph105",
+  "title": "Magnetism Intro: Gauss's Law, Electrostatic Analogy, and Bar Magnet as Equivalent Solenoid",
+  "duration_seconds": 1982.3,
+  "claims": [
+    {
+      "text": "Lodestone is a naturally occurring magnet (an ore of iron, magnetite). A freely suspended bar magnet always seeks the north-south direction, which is why the earth itself behaves as a magnet. Magnetic monopoles do not exist: breaking a bar magnet in two (however many times) always yields smaller magnets, each with its own N and S pole -- you can never isolate a single pole.",
+      "transcript_span": [
+        3.4,
+        179.6
+      ],
+      "frame_path": "data/lectures/leph105/1PAwsaW8IRmrjloNMBeaE66fXZHE43zFV/frames/floor_000012.jpg",
+      "ncert_section": "5.1",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Gauss's law in magnetism: because monopoles don't exist, field lines emerging from the north pole of a magnet always curve back and re-enter at the south pole -- they form closed loops. So for any closed surface, whatever flux enters must also leave, giving zero net magnetic flux: $\\oint \\vec B \\cdot d\\vec S = 0$. This is contrasted directly with Gauss's law in electrostatics, $\\oint \\vec E\\cdot d\\vec S = q/\\varepsilon_0$, which is generally nonzero because isolated electric charges (unlike magnetic poles) do exist.",
+      "transcript_span": [
+        180.4,
+        336.2
+      ],
+      "frame_path": "data/lectures/leph105/1PAwsaW8IRmrjloNMBeaE66fXZHE43zFV/frames/floor_000012.jpg",
+      "ncert_section": "5.3",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "General properties of magnetic field lines recapped: they form closed loops, the tangent at any point gives the field direction, two field lines never intersect, and denser lines mean stronger field. Bar magnet vs. solenoid: differences are that a bar magnet's field strength and pole identity are fixed once magnetised, whereas a solenoid's field ($B=\\mu_0 nI$) can be changed by varying turns-per-length $n$ or current $I$, and its poles can be reversed by reversing the current. Similarities are that both, when freely suspended, align north-south, both attract small iron pieces, and both have field lines and two poles -- motivating the idea that a bar magnet behaves like an equivalent solenoid.",
+      "transcript_span": [
+        341.3,
+        505.4
+      ],
+      "frame_path": null,
+      "ncert_section": "5.2.2",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "The chapter builds a formal electrostatics-to-magnetism analogy by introducing a hypothetical 'pole strength' $m$ (with $m_N$, $m_S$ for north/south poles) as the magnetic counterpart of electric charge -- explicitly flagged as a hypothetical/model concept since isolated poles don't really exist. The force between two poles is $F = \\dfrac{\\mu_0}{4\\pi}\\dfrac{m_1 m_2}{r^2}$, directly mirroring Coulomb's law $F=\\dfrac{1}{4\\pi\\varepsilon_0}\\dfrac{q_1q_2}{r^2}$.",
+      "transcript_span": [
+        505.9,
+        622.8
+      ],
+      "frame_path": "data/lectures/leph105/1PAwsaW8IRmrjloNMBeaE66fXZHE43zFV/frames/floor_000032.jpg",
+      "ncert_section": "5.2.4",
+      "ncert_agreement": "teacher_simplifies"
+    },
+    {
+      "text": "Magnetic dipole moment is defined by analogy with electric dipole moment ($\\vec p = q(2\\vec l)$, pointing from $-q$ to $+q$): $\\vec M = m(2\\vec l)$ for two poles of pole-strength $m$ separated by $2l$, pointing from S to N. Comparing $\\tau = NIA\\times B$ (derived earlier for a current loop) with $\\tau = MB\\sin\\theta$ gives $M = NIA$, from which the SI unit of pole strength follows: since $[M]=\\text{A m}^2$ and $M = m\\cdot(2l)$, $m$ has unit $\\text{A m}$.",
+      "transcript_span": [
+        631.0,
+        863.0
+      ],
+      "frame_path": "data/lectures/leph105/1PAwsaW8IRmrjloNMBeaE66fXZHE43zFV/frames/floor_000044.jpg",
+      "ncert_section": "5.2.3",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Torque and potential energy of a magnetic dipole in a uniform field, by direct analogy with the electric dipole: $\\vec\\tau = \\vec M \\times \\vec B$ (magnitude $MB\\sin\\theta$), and potential energy $U = -\\vec M\\cdot\\vec B$, mirroring $\\vec\\tau = \\vec p\\times\\vec E$ and $U=-\\vec p\\cdot\\vec E$ from electrostatics.",
+      "transcript_span": [
+        863.0,
+        913.0
+      ],
+      "frame_path": "data/lectures/leph105/1PAwsaW8IRmrjloNMBeaE66fXZHE43zFV/frames/floor_000044.jpg",
+      "ncert_section": "5.2.3",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Axial and equatorial magnetic field of a dipole, obtained purely by analogy with the electric dipole results ($E_\\text{axial}=\\dfrac{2p}{4\\pi\\varepsilon_0 r^3}$, $E_\\text{equatorial}=\\dfrac{-p}{4\\pi\\varepsilon_0 r^3}$): $$B_\\text{axial} = \\frac{\\mu_0}{4\\pi}\\frac{2M}{r^3}, \\qquad B_\\text{equatorial} = -\\frac{\\mu_0}{4\\pi}\\frac{M}{r^3}$$ (the minus sign indicating $\\vec B_\\text{eq}$ points opposite to $\\vec M$).",
+      "transcript_span": [
+        913.0,
+        1130.0
+      ],
+      "frame_path": "data/lectures/leph105/1PAwsaW8IRmrjloNMBeaE66fXZHE43zFV/frames/floor_000047.jpg",
+      "ncert_section": "5.2.4",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Brief conceptual aside (not a full worked numerical): if a bar magnet of pole strength $m$ and length $2l$ is cut once along its axis, or once perpendicular to its axis through the centre, both cuts still produce two smaller magnets, each with its own north and south pole -- consistent with 'monopoles do not exist'. The teacher begins setting this up as a numerical (with a diagram) but moves on before working out the resulting pole strengths/moments quantitatively for each case.",
+      "transcript_span": [
+        1130.0,
+        1222.0
+      ],
+      "frame_path": null,
+      "ncert_section": null,
+      "ncert_agreement": null
+    },
+    {
+      "text": "Derivation: 'Bar magnet as an equivalent solenoid'. Goal -- show that at large axial distance, the field of a current-carrying solenoid equals the field of a bar magnet, $B=\\frac{\\mu_0}{4\\pi}\\frac{2m}{r^3}$. Setup: a solenoid of radius $a$, half-length $l$ (total length $2l$, turns per unit length $n$), axis along $x$, with a field point $P$ at distance $r$ from the centre $O$. A thin current-carrying element of width $dx$ at position $x$ from the centre contains $n\\,dx$ turns, and its contribution at $P$ (distance $r-x$ away) is obtained by adapting the on-axis field of a circular coil, $B=\\dfrac{\\mu_0 I a^2}{2(a^2+x^2)^{3/2}}$: $$dB = \\frac{\\mu_0\\, I\\, a^2\\, n\\,dx}{2\\big(a^2+(r-x)^2\\big)^{3/2}}$$",
+      "transcript_span": [
+        1200.0,
+        1742.5
+      ],
+      "frame_path": "data/lectures/leph105/1PAwsaW8IRmrjloNMBeaE66fXZHE43zFV/frames/floor_000084.jpg",
+      "ncert_section": "5.2.2",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Applying the far-field approximation $r \\gg x$ and $r\\gg a$ (so $x$ and $a$ can be dropped from the denominator, leaving just $r^3$) and integrating $dB$ from $x=-l$ to $x=+l$: $$B = \\int_{-l}^{l} \\frac{\\mu_0\\, n\\,I\\,a^2}{2r^3}\\,dx = \\frac{\\mu_0\\, n\\, I\\, a^2\\, (2l)}{2 r^3}$$ Substituting $n = N/(2l)$ (turns per unit length, $N$ total turns) cancels the $2l$ factor, and multiplying/dividing by $\\pi$ turns $I a^2\\pi$ into $I\\times(\\text{area})$, i.e. the magnetic moment $M = NIA = NI(\\pi a^2)$: $$B = \\frac{\\mu_0}{4\\pi}\\frac{2M}{r^3}$$ This matches exactly the bar-magnet axial-field expression compared against at the start, so a solenoid at large axial distance behaves exactly like a bar magnet of moment $M=NIA$ -- completing the proof.",
+      "transcript_span": [
+        1742.5,
+        1982.2
+      ],
+      "frame_path": "data/lectures/leph105/1PAwsaW8IRmrjloNMBeaE66fXZHE43zFV/frames/floor_000097.jpg",
+      "ncert_section": "5.2.2",
+      "ncert_agreement": "agrees"
+    }
+  ],
+  "uncertain_spans": [],
+  "ncert_sections_covered": [
+    "5.1",
+    "5.2.2",
+    "5.2.3",
+    "5.2.4",
+    "5.3"
+  ],
+  "frame_paths": [
+    "data/lectures/leph105/1PAwsaW8IRmrjloNMBeaE66fXZHE43zFV/frames/floor_000001.jpg",
+    "data/lectures/leph105/1PAwsaW8IRmrjloNMBeaE66fXZHE43zFV/frames/floor_000012.jpg",
+    "data/lectures/leph105/1PAwsaW8IRmrjloNMBeaE66fXZHE43zFV/frames/floor_000027.jpg",
+    "data/lectures/leph105/1PAwsaW8IRmrjloNMBeaE66fXZHE43zFV/frames/floor_000032.jpg",
+    "data/lectures/leph105/1PAwsaW8IRmrjloNMBeaE66fXZHE43zFV/frames/floor_000044.jpg",
+    "data/lectures/leph105/1PAwsaW8IRmrjloNMBeaE66fXZHE43zFV/frames/floor_000047.jpg",
+    "data/lectures/leph105/1PAwsaW8IRmrjloNMBeaE66fXZHE43zFV/frames/floor_000056.jpg",
+    "data/lectures/leph105/1PAwsaW8IRmrjloNMBeaE66fXZHE43zFV/frames/floor_000060.jpg",
+    "data/lectures/leph105/1PAwsaW8IRmrjloNMBeaE66fXZHE43zFV/frames/floor_000068.jpg",
+    "data/lectures/leph105/1PAwsaW8IRmrjloNMBeaE66fXZHE43zFV/frames/floor_000073.jpg",
+    "data/lectures/leph105/1PAwsaW8IRmrjloNMBeaE66fXZHE43zFV/frames/floor_000084.jpg",
+    "data/lectures/leph105/1PAwsaW8IRmrjloNMBeaE66fXZHE43zFV/frames/floor_000090.jpg",
+    "data/lectures/leph105/1PAwsaW8IRmrjloNMBeaE66fXZHE43zFV/frames/floor_000093.jpg",
+    "data/lectures/leph105/1PAwsaW8IRmrjloNMBeaE66fXZHE43zFV/frames/floor_000097.jpg"
+  ],
+  "markdown_body": "## Introduction: monopoles and Gauss's law in magnetism (NCERT 5.1, 5.3)\nLodestone (natural magnetite) is introduced as a naturally occurring magnet, and the earth itself is described as behaving like a giant magnet (a freely suspended bar magnet always settles north-south). A key qualitative fact is developed by repeatedly breaking a bar magnet: **magnetic monopoles do not exist** -- however small a piece you cut, it still has both an N and an S pole.\n\nThis directly motivates **Gauss's law in magnetism**: since field lines leaving the N pole always curve around and re-enter at S (closed loops, unlike electric field lines which start/end on isolated charges), the net magnetic flux through *any* closed surface is zero:\n$$\\oint \\vec B\\cdot d\\vec S = 0$$\nThis is explicitly contrasted with Gauss's law in electrostatics, $\\oint \\vec E\\cdot d\\vec S = q/\\varepsilon_0$, which is nonzero in general because isolated electric charge does exist.\n\n## Bar magnet vs. solenoid: similarities and differences\nBefore deriving the equivalence formally, the lecture recaps general field-line properties (closed loops, tangent gives direction, never intersect, density $\\propto$ strength) and lists concrete differences/similarities between a bar magnet and a current-carrying solenoid:\n\n- **Differences:** a bar magnet's field strength is fixed once magnetised and its poles cannot be swapped; a solenoid's field $B=\\mu_0 nI$ can be tuned via turns-per-length $n$ or current $I$, and its poles reverse if the current direction reverses.\n- **Similarities:** both align north-south when freely suspended, both attract small iron pieces, and both have field lines and two poles.\n\nThese similarities are the motivation for treating a bar magnet as an \"equivalent solenoid\" -- the main derivation of this lecture.\n\n## The electrostatic analogy (NCERT 5.2.3, 5.2.4)\nA large stretch of the lecture builds up magnetism's dipole formulas entirely by comparison with the already-known electric dipole formulas, introducing a hypothetical **pole strength** $m$ (analogous to charge $q$) purely as a bookkeeping device -- flagged explicitly as *not* physically real, since isolated poles don't exist.\n\n| Electrostatics | Magnetism |\n|---|---|\n| Charges $q_1,q_2$ | Pole strengths $m_N,\\,m_S$ (hypothetical) |\n| $F=\\dfrac{1}{4\\pi\\varepsilon_0}\\dfrac{q_1q_2}{r^2}$ | $F=\\dfrac{\\mu_0}{4\\pi}\\dfrac{m_1m_2}{r^2}$ |\n| $\\vec p = q(2\\vec l)$, points $-q\\to+q$ | $\\vec M = m(2\\vec l)$, points S$\\to$N |\n| $\\vec\\tau=\\vec p\\times\\vec E$ | $\\vec\\tau=\\vec M\\times\\vec B$ |\n| $U=-\\vec p\\cdot\\vec E$ | $U=-\\vec M\\cdot\\vec B$ |\n| $E=F/q$ | $B=F/m$ |\n| $E=\\dfrac{1}{4\\pi\\varepsilon_0}\\dfrac{q}{r^2}$ | $B=\\dfrac{\\mu_0}{4\\pi}\\dfrac{m}{r^2}$ |\n| $E_\\text{axial}=\\dfrac{2p}{4\\pi\\varepsilon_0 r^3}$ | $B_\\text{axial}=\\dfrac{\\mu_0}{4\\pi}\\dfrac{2M}{r^3}$ |\n| $E_\\text{equatorial}=\\dfrac{-p}{4\\pi\\varepsilon_0 r^3}$ | $B_\\text{equatorial}=-\\dfrac{\\mu_0}{4\\pi}\\dfrac{M}{r^3}$ |\n\nThe magnetic dipole moment magnitude is pinned down independently by comparing two expressions for the torque on a current loop of $N$ turns, area $A$, in field $B$: $\\tau=NIAB\\sin\\theta$ (from $\\tau=I\\vec A\\times\\vec B$, done in the previous chapter) against $\\tau=MB\\sin\\theta$ (the magnetic analogue of $\\tau=pE\\sin\\theta$), giving\n$$M = NIA$$\nand from $M=m(2l)$ with $[M]=\\text{A m}^2$, the SI unit of pole strength $m$ works out to $\\text{A m}$.\n\n*Brief aside (not fully worked):* the lecture briefly poses cutting a bar magnet either along its axis or perpendicular to its axis through the centre, noting in both cases you get two smaller magnets, each still with an N and S pole -- reinforcing the \"no monopoles\" theme -- but does not carry the numerical through to compute the resulting pole strengths/moments.\n\n## Derivation: bar magnet as an equivalent solenoid (NCERT 5.2.2)\n**Goal:** prove that at a large axial distance $r$, the magnetic field of a current-carrying solenoid equals the known axial field of a bar magnet, $B=\\dfrac{\\mu_0}{4\\pi}\\dfrac{2m}{r^3}$ -- i.e. a solenoid *is* equivalent to a bar magnet of moment $M=NIA$.\n\n**Prerequisite** (recalled from the previous chapter): the on-axis field of a single circular current loop of radius $a$ at distance $x$ from its centre is $B=\\dfrac{\\mu_0 I a^2}{2(a^2+x^2)^{3/2}}$, which reduces to $B=\\dfrac{\\mu_0 I}{2a}$ at the centre ($x=0$).\n\n**Setup:** a solenoid of radius $a$, total length $2l$, turns per unit length $n$, axis along $x$ with origin $O$ at the centre. Field point $P$ lies on the axis at distance $r$ from $O$ ($r\\gg l$, $r\\gg a$). Consider a thin slice of width $dx$ at position $x$ from centre, carrying $n\\,dx$ turns; its distance from $P$ is $(r-x)$, so treating it as a single loop of $n\\,dx$ turns:\n$$dB = \\frac{\\mu_0\\, I\\, a^2\\, n\\, dx}{2\\big(a^2+(r-x)^2\\big)^{3/2}}$$\n\n**Far-field approximation:** since $r\\gg x$ and $r\\gg a$, the denominator simplifies to just $r^3$:\n$$dB \\approx \\frac{\\mu_0\\, n\\, I\\, a^2}{2 r^3}\\,dx$$\n\n**Integrate** over the whole solenoid, $x=-l$ to $x=+l$:\n$$B=\\int_{-l}^{l} dB = \\frac{\\mu_0\\, n\\, I\\, a^2}{2r^3}(2l)$$\n\n**Substitute** $n = N/(2l)$ (so the $2l$'s cancel) and multiply/divide by $\\pi$ to turn $Ia^2$ into $I(\\pi a^2) = I\\!\\cdot\\!(\\text{loop area})$, i.e. the magnetic moment $M=NIA=NI\\pi a^2$:\n$$\\boxed{B = \\frac{\\mu_0}{4\\pi}\\frac{2M}{r^3}}$$\n\nThis is exactly the bar-magnet axial field formula the derivation set out to reproduce (matching NCERT Eq. 5.1) -- so at large axial distances, a current-carrying solenoid of moment $M=NIA$ behaves identically to a bar magnet of the same moment, completing the proof.\n\n---\n*Note on this lecture:* the transcript and board frames agree closely throughout -- the derivation completes on the board (boxed final result, `floor_000097.jpg`) right at the very end of the lecture's true duration, matching the transcript's own conclusion at essentially the same point. No delayed-repetition or missing-topic issue was found in this lecture; the automated non-adjacent-duplicate scan flagged only two short, low-length phrase pairs (natural verbal repetition of brief labelling statements), not a genuine content loop.\n"
+}

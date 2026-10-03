@@ -1,0 +1,69 @@
+{
+  "file_id": "19i4V7N-FXiEKyFNb1IGYya04cOG69AqU",
+  "chapter_id": "leph104",
+  "title": "Force on a Current-Carrying Conductor, Fleming's Left-Hand Rule, Force Between Parallel Wires, and the Ampere",
+  "duration_seconds": 1599.7,
+  "claims": [
+    {
+      "text": "Derivation of force on a current-carrying conductor of length L, area of cross-section A, in external field B: each conduction electron feels a small force f=(-e)(v_d cross B) due to its drift velocity v_d. With n = electron density (electrons per unit volume), the number of electrons in volume AL is nAL, so total charge is -enAL, and total force F=(-enAL)(v_d cross B). Using I=neAv_d (current in terms of drift velocity) and noting v_d and the current direction are opposite (electrons drift opposite to conventional current), the signs work out to give F = I(L cross B), where L is a vector along the current's direction with magnitude equal to the conductor's length",
+      "transcript_span": [
+        2.1,
+        638.2
+      ],
+      "frame_path": null,
+      "ncert_section": "4.2",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Fleming's left-hand rule gives the direction of F=IL x B: hold the thumb, first (index) finger, and centre (middle) finger of the LEFT hand mutually perpendicular; centre finger points in the direction of current, first finger points in the direction of the magnetic field, and the thumb then gives the direction of the force. (Equivalently, the direction can always be found by directly evaluating the cross product IL x B using unit vectors)",
+      "transcript_span": [
+        638.2,
+        1056.5
+      ],
+      "frame_path": null,
+      "ncert_section": "4.2",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Force between two infinitely long, straight, parallel current-carrying wires (currents I1, I2, separated by distance r): the magnetic field due to wire 1 at wire 2's location is B1=mu0*I1/(2*pi*r). Wire 2 (length L, carrying I2) sits in this field, so the force on it is F2=I2*L*B1 (angle between I2's direction and B1 is 90 degrees), giving force PER UNIT LENGTH F2/L = mu0*I1*I2/(2*pi*r). By symmetry, the same expression gives the force per unit length on wire 1 due to wire 2's field",
+      "transcript_span": [
+        1056.5,
+        1580.4
+      ],
+      "frame_path": "data/lectures/leph104/19i4V7N-FXiEKyFNb1IGYya04cOG69AqU/frames/floor_000066.jpg",
+      "ncert_section": "4.8",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Direction rule for parallel current-carrying wires: if the two currents flow in the SAME direction, the wires ATTRACT each other; if the currents flow in OPPOSITE directions, the wires REPEL each other",
+      "transcript_span": null,
+      "frame_path": "data/lectures/leph104/19i4V7N-FXiEKyFNb1IGYya04cOG69AqU/frames/floor_000066.jpg",
+      "ncert_section": "4.8",
+      "ncert_agreement": "agrees"
+    }
+  ],
+  "uncertain_spans": [
+    {
+      "start_seconds": 1580.4,
+      "end_seconds": 1599.7,
+      "reason": "The transcript's real narration ends mid-sentence right after stating the force-per-unit-length formula and beginning to plug in numbers ('this value will be 2x10^-7 ne[wton]...'), cutting off just short of formally stating the definition of 1 ampere -- the lecture's own second named topic. No board frame is available past t=1300s to confirm the exact wording used for this definition. Since the numerical ingredients (mu0/(2 pi) = 2x10^-7 N/A^2, from mu0=4*pi*10^-7) are already given directly in the transcript's own final segments, the definition of 1 ampere is stated in this note as the direct, unavoidable algebraic completion of what the transcript itself already establishes -- setting I1=I2=1 A and r=1 m in the just-derived formula -- rather than as independently confirmed content."
+    }
+  ],
+  "ncert_sections_covered": [
+    "4.2",
+    "4.8"
+  ],
+  "frame_paths": [
+    "data/lectures/leph104/19i4V7N-FXiEKyFNb1IGYya04cOG69AqU/frames/floor_000028.jpg",
+    "data/lectures/leph104/19i4V7N-FXiEKyFNb1IGYya04cOG69AqU/frames/floor_000034.jpg",
+    "data/lectures/leph104/19i4V7N-FXiEKyFNb1IGYya04cOG69AqU/frames/floor_000041.jpg",
+    "data/lectures/leph104/19i4V7N-FXiEKyFNb1IGYya04cOG69AqU/frames/floor_000047.jpg",
+    "data/lectures/leph104/19i4V7N-FXiEKyFNb1IGYya04cOG69AqU/frames/floor_000049.jpg",
+    "data/lectures/leph104/19i4V7N-FXiEKyFNb1IGYya04cOG69AqU/frames/floor_000053.jpg",
+    "data/lectures/leph104/19i4V7N-FXiEKyFNb1IGYya04cOG69AqU/frames/floor_000055.jpg",
+    "data/lectures/leph104/19i4V7N-FXiEKyFNb1IGYya04cOG69AqU/frames/floor_000061.jpg",
+    "data/lectures/leph104/19i4V7N-FXiEKyFNb1IGYya04cOG69AqU/frames/floor_000062.jpg",
+    "data/lectures/leph104/19i4V7N-FXiEKyFNb1IGYya04cOG69AqU/frames/floor_000066.jpg"
+  ],
+  "markdown_body": "## Force on a current-carrying conductor (NCERT 4.2)\n\nEach conduction electron (drift velocity $v_d$) feels $\\vec f = (-e)(\\vec v_d\\times\\vec B)$. With electron density $n$, a conductor of length $L$, area $A$ has $nAL$ electrons, total charge $-enAL$:\n$$\\vec F = (-enAL)(\\vec v_d\\times\\vec B)$$\nUsing $I=neAv_d$ (and that $\\vec v_d$ points opposite to conventional current), the signs resolve to:\n$$\\boxed{\\vec F = I(\\vec L\\times\\vec B)}$$\nwhere $\\vec L$ points along the current, magnitude = conductor length.\n\n### Fleming's left-hand rule\nHold thumb, first (index), and centre (middle) fingers of the **left** hand mutually perpendicular: centre finger = current direction, first finger = field direction, **thumb = force direction**. (Equivalently, evaluate $I\\vec L\\times\\vec B$ directly with unit vectors.)\n\n## Force between two parallel current-carrying wires (NCERT 4.8)\n\nTwo infinitely long, straight, parallel wires, currents $I_1,I_2$, separated by $r$. Field due to wire 1 at wire 2's location: $B_1 = \\dfrac{\\mu_0 I_1}{2\\pi r}$. Force on wire 2 (length $L$) in this field: $F_2 = I_2LB_1$ (angle $90°$), giving **force per unit length**:\n$$\\boxed{\\frac{F}{L} = \\frac{\\mu_0 I_1 I_2}{2\\pi r}}$$\n(By symmetry, the same expression gives the force per unit length on wire 1 due to wire 2.)\n\n**Direction:** currents in the **same** direction $\\Rightarrow$ wires **attract**; currents in **opposite** directions $\\Rightarrow$ wires **repel**.\n\n### Definition of the ampere\nSetting $I_1=I_2=1$ A and $r=1$ m in the force-per-unit-length formula, with $\\mu_0=4\\pi\\times10^{-7}$ T·m/A:\n$$\\frac{F}{L} = \\frac{\\mu_0}{2\\pi}(1)(1) = 2\\times10^{-7}~\\text{N/m}$$\n**One ampere** is the constant current which, if maintained in each of two infinitely long, straight, parallel conductors of negligible cross-section placed 1 metre apart in vacuum, would produce a force of exactly $2\\times10^{-7}$ newton per metre of length between them.\n"
+}

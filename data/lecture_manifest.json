@@ -1,0 +1,129 @@
+{
+  "_meta": {
+    "source": "Google Drive folder 1H2jSzZesz5wFk3jTTZf9D4Tkj-RHUJ1t (teacher: gaekwad269@gmail.com), enumerated via Drive MCP connector search_files",
+    "discovered_files": 59,
+    "total_bytes": 4364871213,
+    "notes": [
+      "Ch8 leph108: 1b910aN0Reew4trJW79xEHR-2QF_43xCE is an exact duplicate of 1zUpiosAlh9hLP2fV4pc8_yGpQ0cW2dTd (identical title, size, and mtime) -- process once, skip the duplicate after hash confirmation.",
+      "Ch7 leph107: 'LCR ,LC Osc.mp4' (119680894 bytes) and '#4 LCR, Resonance,LC Osc.mkv' (130751708 bytes) cover overlapping topics but differ in size -- NOT auto-deduped, treat as distinct recordings pending hash comparison.",
+      "Ch8 leph108: '#1Displacement current and Maxwell Eqns.mp4' (40436980 bytes) and 'Displacement and maxwell Eqns..mkv' (42825147 bytes) likewise overlap but differ in size -- NOT auto-deduped."
+    ]
+  },
+  "chapters": [
+    {
+      "chapter_id": "leph101",
+      "folder_name": "Ch1 Electric field",
+      "folder_id": "1k0jNS3VwrAdZt1obc1CMjbYmzvEbh8gU",
+      "files": [
+        {"id": "1XQ2oXVaAvwoAnxVGnlvgdQ6nCXR9-QcU", "title": "1.elecrostatics-1props of charges.21m.mkv", "size_bytes": 39926458, "mime_type": "video/x-matroska"},
+        {"id": "1sajKzaqSa7mMlJ649P4O2F9w0slxR7Mt", "title": "2. induction and coulomb law36m.mkv", "size_bytes": 66449123, "mime_type": "video/x-matroska"},
+        {"id": "1lDdCUBMm8ldQidwi0dweVvbnx5PrBsul", "title": "3..31mdielectric constant,vector form,superposition princile..mkv", "size_bytes": 58221403, "mime_type": "video/x-matroska"},
+        {"id": "1jlZ4rMEy9tBfBViutvu8m61rWwO68pKb", "title": "4. 32m continous charge ditribution and numerical on placing of third charge..mkv", "size_bytes": 61815161, "mime_type": "video/x-matroska"},
+        {"id": "1yYlO3NwmdAwPSWZjSNqlsP2--JLfovKs", "title": "5.46 mElectric field intensity and field lines..mkv", "size_bytes": 86759546, "mime_type": "video/x-matroska"},
+        {"id": "1-cpfGJ4QsSHu5-0NLBKFLRvxMCdfL-iI", "title": "6. 36m electric dipole,axial and equa. position..mkv", "size_bytes": 69180383, "mime_type": "video/x-matroska"},
+        {"id": "14cxn6IWbJkju43wDGZHa6lBSOvms60zn", "title": "7.35m torque andPE of a dipole..mkv", "size_bytes": 61974181, "mime_type": "video/x-matroska"},
+        {"id": "10iz_sk1vhi6jZOcl2A0F5tos2Oq3Hk2m", "title": "8. 32m flux and Gauss th..mkv", "size_bytes": 61604460, "mime_type": "video/x-matroska"},
+        {"id": "1PX8RGMUTUX3AeFcziWCBog3eNIbSXihK", "title": "9. 48m application of gauss th..mkv", "size_bytes": 88344265, "mime_type": "video/x-matroska"}
+      ]
+    },
+    {
+      "chapter_id": "leph102",
+      "folder_name": "Ch2 Electric potential",
+      "folder_id": "1H2jSzZesz5wFk3jTTZf9D4Tkj-RHUJ1t",
+      "files": [
+        {"id": "1zuKs_Q4ij-bZmM3Gz7Q5Btb8MA7v4DXY", "title": "10 Ch2 electric potential at a point..mkv", "size_bytes": 70851278, "mime_type": "video/x-matroska"},
+        {"id": "1GL0goEtenp6dcclfuVakFQdtzzPJCaDa", "title": "11 ch 2 potential due to diole and PE of system of charges..mkv", "size_bytes": 57070641, "mime_type": "video/x-matroska"},
+        {"id": "1mpVpXjjVp8wWCZBAUPgTwgzKcXKeyrJ0", "title": "12 ch2  potential in external field and pot inside sphere..mkv", "size_bytes": 42919749, "mime_type": "video/x-matroska"},
+        {"id": "160Qxz5xhlbr-YcEYiR74_oUg0ED9UmbM", "title": "13 ch 2 equipotential surface and polarisation..mkv", "size_bytes": 89423487, "mime_type": "video/x-matroska"},
+        {"id": "1TrDZWeix3GdDpPueABpS9p1ndSs7UTnh", "title": "14 ch 2 capacitors,spherical ,cylindrical..mkv", "size_bytes": 58662778, "mime_type": "video/x-matroska"},
+        {"id": "1P29QMrLOvK_IDch3e4KbqZvNT7EgGm61", "title": "15 ch 2 parallel plate capacitor..mkv", "size_bytes": 25076270, "mime_type": "video/x-matroska"},
+        {"id": "1P9EYZF6aMOUpMai9zybxNSGp0Pnb9IkP", "title": "16 ch2 force,energy and combination of capacitor.mkv", "size_bytes": 63751573, "mime_type": "video/x-matroska"},
+        {"id": "1JTTKsxBW4FNxDa_gPLqQi2ZlMUSQYVch", "title": "17 ch 2  redistribution of charges,dielectric strength,kirchoffs law..mkv", "size_bytes": 79677523, "mime_type": "video/x-matroska"}
+      ]
+    },
+    {
+      "chapter_id": "leph103",
+      "folder_name": "Ch3 electricity",
+      "folder_id": "1UPkG53zC5_tCaR0DbzpU4vEWzN5SI7WH",
+      "files": [
+        {"id": "1JQyKOKNjVOpPIlVmmSuqnSnSp89tOKuD", "title": "1 Ch3 current,drift velocity,mobility.mkv", "size_bytes": 74454352, "mime_type": "video/x-matroska"},
+        {"id": "1TfvnrM3L-mA-r735mVKMceMFwFHwQhqB", "title": "2 Ch 3resistivity,conductivity,ohmic and non ohmic conductors.mkv", "size_bytes": 72377202, "mime_type": "video/x-matroska"},
+        {"id": "1sI5DRUwnK32T6nLTHP0WvayrHI2QQU1q", "title": "3 ch3joule law,carbon resistor,temp coefficient..mkv", "size_bytes": 85557779, "mime_type": "video/x-matroska"},
+        {"id": "1kQZzcJfyqh3pXs9HgYISGg8eE4veGpFA", "title": "4 Ch3 internal resis,emf,terminal pd,combination of cells..mkv", "size_bytes": 82850885, "mime_type": "video/x-matroska"},
+        {"id": "1FAaDMVVedm6QXZ2dA5nnBh_pw0X6DirX", "title": "5 Ch 3identical cells in series and parallel,kirchoffs laws,wheatstone bridge,resistors in seris and parallel.mkv", "size_bytes": 125442976, "mime_type": "video/x-matroska"},
+        {"id": "1YDAopvMuR57RGXhf2SZrPtwMGecgQb-w", "title": "6 Ch 3resistance in cube, metre bridge..mkv", "size_bytes": 42291219, "mime_type": "video/x-matroska"},
+        {"id": "1rbldxUH1ygCRBseDgUddNHEJuRInnnpX", "title": "7 Ch3 potentiometer.mkv", "size_bytes": 85184711, "mime_type": "video/x-matroska"}
+      ]
+    },
+    {
+      "chapter_id": "leph104",
+      "folder_name": "Ch4 moving charges and magnetism",
+      "folder_id": "1l2TlI2I388ZEZqg3DVJ7ucM50LCC07st",
+      "files": [
+        {"id": "1vNKP6AcvhaxK_SCtNXMzVHnbNjS-RU9o", "title": "1 Ch4 oersted expt,biot savart law,B due to coil.mkv", "size_bytes": 99918588, "mime_type": "video/x-matroska"},
+        {"id": "12Fk8juwxCFCRm21K76pvqohsDeYolkPO", "title": "2 Ch4 B at axis of coil,ampere circuital law..mkv", "size_bytes": 58110275, "mime_type": "video/x-matroska"},
+        {"id": "1xP2VppJSiqby6nk4Gys--lX5GeM1TGNg", "title": "3 Ch4 Solenoid and toroid.mkv", "size_bytes": 82923814, "mime_type": "video/x-matroska"},
+        {"id": "1UiQD9opVZH5bD2zf-VAMwk0LPfu9Uevc", "title": "4a Ch4  force on charge,helix.mkv", "size_bytes": 73495931, "mime_type": "video/x-matroska"},
+        {"id": "1O8q_hQHnvd8nhTvqqEmUGW1DPp0Xytr4", "title": "5numerical on proton, alpha particle..mkv", "size_bytes": 13768611, "mime_type": "video/x-matroska"},
+        {"id": "19i4V7N-FXiEKyFNb1IGYya04cOG69AqU", "title": "6 Ch4 force on wire and def of 1A.mkv", "size_bytes": 72341151, "mime_type": "video/x-matroska"},
+        {"id": "1LIz3XFhCKpoS5TnwLkBlnfzh3JuZ_eMZ", "title": "7 Ch4  Torque on coil.mkv", "size_bytes": 66959906, "mime_type": "video/x-matroska"},
+        {"id": "1bnj3QvsDd-tkWNQUSqnceNemBKq9HlH4", "title": "4bCyclotron.mkv", "size_bytes": 51008404, "mime_type": "video/x-matroska"}
+      ]
+    },
+    {
+      "chapter_id": "leph105",
+      "folder_name": "Ch5 matter and magnetism",
+      "folder_id": "1XmZPfRxB8E0-zTJclrtyXPrKGSiXRNPo",
+      "files": [
+        {"id": "1PAwsaW8IRmrjloNMBeaE66fXZHE43zFV", "title": "#1Bar magnet as solenoid.mkv", "size_bytes": 80013600, "mime_type": "video/x-matroska"},
+        {"id": "1m4AoOHwpC_9w8IIvcsthjGUPRXxy3jRn", "title": "#2dipole as SHM.mkv", "size_bytes": 46346326, "mime_type": "video/x-matroska"},
+        {"id": "1oh_cXJE77hcYgYYSfeVsmQaLBChgKcqw", "title": "#3Earth's magnetism.mkv", "size_bytes": 57122879, "mime_type": "video/x-matroska"},
+        {"id": "1uOHUuWn_bCtKAbxkazxJgUnPRs85cAQk", "title": "#4 numericals,null point,atom as diole.mkv", "size_bytes": 97096935, "mime_type": "video/x-matroska"},
+        {"id": "1E4ZrV7LjZf2JAN8IjqVXW4_vXyxhfvWQ", "title": "#5terms related to magnetism.mkv", "size_bytes": 47526337, "mime_type": "video/x-matroska"},
+        {"id": "1wpy14u-5vkXh7xrEwBvhd391YpJV3Syy", "title": "#6Dia and Para magnetic substances..mkv", "size_bytes": 78369689, "mime_type": "video/x-matroska"},
+        {"id": "1ixqoyB24ASSdclKQH-LikpGL5mNBVD1B", "title": "#7ferro magnetic substance.mkv", "size_bytes": 57186861, "mime_type": "video/x-matroska"},
+        {"id": "1-m9Mtvo7yGgVZvXhzR8AY8MSq7VboQiL", "title": "#8hysteresis curve.mkv", "size_bytes": 64309086, "mime_type": "video/x-matroska"}
+      ]
+    },
+    {
+      "chapter_id": "leph106",
+      "folder_name": "Ch6 EMI",
+      "folder_id": "1dfBBrs760-moqyJaT768271W5b2Gi5IF",
+      "files": [
+        {"id": "1FBj5G35Y49yQ5N2CF8xNQYh-ZmJb_EGR", "title": "#1 Faradays expt and law..mkv", "size_bytes": 55799361, "mime_type": "video/x-matroska"},
+        {"id": "1vVYmmSe60thQw-aRUF1eIwsZUJLeNBHh", "title": "#2 Lenz law and motional emf.mkv", "size_bytes": 81850753, "mime_type": "video/x-matroska"},
+        {"id": "1o1xVs4A_TTbRRuik2XvJPy-FxBHNWhRf", "title": "#3 numericals,energy consideration.mkv", "size_bytes": 87750584, "mime_type": "video/x-matroska"},
+        {"id": "158rAfrYl7wWw7v6FnT6HXx56SHGeLzgM", "title": "#4 numerical on graph,eddy currents,induced charge.mkv", "size_bytes": 93882244, "mime_type": "video/x-matroska"},
+        {"id": "1DnUYqqOkzy1sfmchNurgl-_DY5uWYsyC", "title": "#5 Self induction, self inductance.mkv", "size_bytes": 57188729, "mime_type": "video/x-matroska"},
+        {"id": "1x5prEaDVgFXoxsSilPHSRjPsof8N1rX1", "title": "#6 inductor,exp for L, energy stored,mutual induction.mkv", "size_bytes": 52473242, "mime_type": "video/x-matroska"},
+        {"id": "1LmbzhHRudRegWhsUvrYUyG2hLmFCS7ra", "title": "#7 mutual inductance of 2 coils, numericals,ac generator.mkv", "size_bytes": 89632013, "mime_type": "video/x-matroska"}
+      ]
+    },
+    {
+      "chapter_id": "leph107",
+      "folder_name": "Ch7AC",
+      "folder_id": "1VFAZKTX5mQ3JkcVEiVRk46n9l1FZQkAf",
+      "files": [
+        {"id": "1SBolq0vbwrzMmecQUCjrOZE5LzI09g2D", "title": "#1 mean and rms current..mkv", "size_bytes": 96120653, "mime_type": "video/x-matroska"},
+        {"id": "1i7eHMg8Ya2FZRP7QGTt64uVywkCG0R1S", "title": "#2 AC with R and L only.mkv", "size_bytes": 79675456, "mime_type": "video/x-matroska"},
+        {"id": "1xuxJ9eUZjiR7P4X06v_vBLMWF-GW03r4", "title": "#3 AC with Conly,,LR,RC circuit.mkv", "size_bytes": 107546636, "mime_type": "video/x-matroska"},
+        {"id": "1mLjxE1R4tqJgzG4LFURIDDgCwRI0bVID", "title": "#4 LCR, Resonance,LC Osc.mkv", "size_bytes": 130751708, "mime_type": "video/x-matroska"},
+        {"id": "1gS7G7LWHYhFrERlH7WVqYgOY9lSDbVI_", "title": "#5 Power, Transformer..mkv", "size_bytes": 67308284, "mime_type": "video/x-matroska"},
+        {"id": "16lSRGlQyK7tlRSnOYWpMGn0ppwjcBTqQ", "title": "LCR ,LC Osc.mp4", "size_bytes": 119680894, "mime_type": "video/mp4", "review_note": "possible topic overlap with #4 LCR, Resonance,LC Osc.mkv -- different size, not auto-deduped"}
+      ]
+    },
+    {
+      "chapter_id": "leph108",
+      "folder_name": "Ch8 EM Waves",
+      "folder_id": "1X0-G_03o3ZRd2ziH4Nh4_dcwDstvEmUe",
+      "files": [
+        {"id": "11PJBrQAnSvPCehD49AwjPlJV783W3iIs", "title": "#1Displacement current and Maxwell Eqns.mp4", "size_bytes": 40436980, "mime_type": "video/mp4", "review_note": "possible topic overlap with 'Displacement and maxwell Eqns..mkv' -- different size, not auto-deduped"},
+        {"id": "1g_FqLAo4SRLkK2ZpbJ8XLy1VAzvc04hD", "title": "Displacement and maxwell Eqns..mkv", "size_bytes": 42825147, "mime_type": "video/x-matroska"},
+        {"id": "1sYTInU41Ns69GJPrbGc51z496lzGBnXw", "title": "#2Hertz Experiment.mkv", "size_bytes": 26506424, "mime_type": "video/x-matroska"},
+        {"id": "15QEqVbIzq_o_6o7LC-Gex08AfVsbJxcP", "title": "#3Properties and equation of em waves.mkv", "size_bytes": 64908709, "mime_type": "video/x-matroska"},
+        {"id": "1zUpiosAlh9hLP2fV4pc8_yGpQ0cW2dTd", "title": "#4em specctrum,production and uses of em waves..mkv", "size_bytes": 83621246, "mime_type": "video/x-matroska"},
+        {"id": "1b910aN0Reew4trJW79xEHR-2QF_43xCE", "title": "#4em specctrum,production and uses of em waves..mkv", "size_bytes": 83621246, "mime_type": "video/x-matroska", "known_duplicate_of": "1zUpiosAlh9hLP2fV4pc8_yGpQ0cW2dTd"}
+      ]
+    }
+  ]
+}

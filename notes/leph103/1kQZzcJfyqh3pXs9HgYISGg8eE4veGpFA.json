@@ -1,0 +1,104 @@
+{
+  "file_id": "1kQZzcJfyqh3pXs9HgYISGg8eE4veGpFA",
+  "chapter_id": "leph103",
+  "title": "Internal Resistance, EMF, Terminal PD, and Combination of Cells",
+  "duration_seconds": 1990.97,
+  "claims": [
+    {
+      "text": "Internal resistance (r) of a cell: the electrolyte inside the cell hinders current flow, just as an external resistor does. It depends on the electrolyte's nature, temperature, and concentration, is directly proportional to the separation between electrodes, and inversely proportional to the immersed area of the electrodes: r = c*l/A (at a given temperature), where c depends on the electrolyte's nature and concentration. Internal resistance decreases with increasing temperature, and increases as a cell ages/is used over time",
+      "transcript_span": [
+        4.9,
+        412.3
+      ],
+      "frame_path": null,
+      "ncert_section": "3.10",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "EMF (electromotive force) of a cell: despite the name, EMF has nothing to do with force -- its unit is the volt, not the newton (a historical misnomer). EMF is defined as work done per unit charge, specifically the potential difference across a cell's terminals when NO current is drawn (open circuit)",
+      "transcript_span": [
+        412.3,
+        716.5
+      ],
+      "frame_path": null,
+      "ncert_section": "3.10",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Terminal potential difference (V): once the cell is connected to an external resistor R and current flows (closed circuit), the potential difference measured across the cell's terminals is called the terminal PD, distinct from EMF. Relation: E = V + Ir (equivalently V = E - Ir), derived from the IR drop across R being V and the total EMF driving current through both R and internal resistance r. During DISCHARGING (normal use), E > V",
+      "transcript_span": [
+        716.5,
+        1146.4
+      ],
+      "frame_path": null,
+      "ncert_section": "3.10",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Rearranged forms: current I = E/(R+r), and internal resistance r = [(E-V)/V] * R (useful later for the potentiometer method of measuring internal resistance)",
+      "transcript_span": [
+        1110.8,
+        1251.7
+      ],
+      "frame_path": null,
+      "ncert_section": "3.10",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "During CHARGING of a cell, the direction of current through the cell reverses; the relation becomes V = E + Ir, so V > E while charging (opposite of the discharging case)",
+      "transcript_span": [
+        1251.7,
+        1421.3
+      ],
+      "frame_path": null,
+      "ncert_section": "3.10",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Method for combining cells (introduced via a sign-convention / Kirchhoff-style potential walk): pick a direction of current, treat a potential drop in the direction of current as negative and a rise (opposite to current) as positive; then, walking from one point to another along the circuit, write down each EMF and each IR term with its sign to get an equation like VA - VB = E1 - i*r1 for that branch. This same walking method is reused later in the potentiometer topic",
+      "transcript_span": [
+        1421.3,
+        1999.6
+      ],
+      "frame_path": null,
+      "ncert_section": "3.11",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Cells in parallel: two cells (EMF E1, internal resistance r1) and (E2, r2) connected between the same two points A and B, each supplying current I1, I2 with I=I1+I2. From I1=(E1-V)/r1 and I2=(E2-V)/r2, combining and solving for V in terms of the total current I gives an equivalent single cell with EMF E_eq = (E1*r2 + E2*r1)/(r1+r2) and internal resistance 1/r_eq = 1/r1 + 1/r2 (i.e. r_eq = r1*r2/(r1+r2)), such that V = E_eq - I*r_eq -- combining exactly like the reciprocal (parallel) rule for resistors, but with EMF-weighted numerator for E_eq",
+      "transcript_span": null,
+      "frame_path": "data/lectures/leph103/1kQZzcJfyqh3pXs9HgYISGg8eE4veGpFA/frames/floor_000097.jpg",
+      "ncert_section": "3.11",
+      "ncert_agreement": "agrees"
+    }
+  ],
+  "uncertain_spans": [
+    {
+      "start_seconds": 1421.0,
+      "end_seconds": 1990.97,
+      "reason": "The transcript's real (non-repeated) narration introduces 'combination of cells' and demonstrates the sign-convention potential-walk method for a series-like arrangement (deriving VA-VB=E1-ir1 and VB-VC=E2-ir2 for two cells), then cuts off exactly at the true end of the recording, right as a new worked-numerical circuit is being set up. Board frames extend past this: floor_000088.jpg through floor_000097.jpg (t=1740-1920s, within the true duration) show a full 'cells in parallel' page already in progress and then complete, deriving the equivalent EMF and equivalent internal resistance for two cells in parallel -- none of it narrated in the available transcript. The cells-in-parallel claim above is grounded entirely from the final frame. The corresponding final compact formula for cells in SERIES (which would logically precede the parallel case, analogous to E_eq=E1+E2, r_eq=r1+r2 for aligned cells) was not found written out on any sampled frame either, so it is intentionally left out of this note rather than assumed from the general pattern."
+    }
+  ],
+  "ncert_sections_covered": [
+    "3.10",
+    "3.11"
+  ],
+  "frame_paths": [
+    "data/lectures/leph103/1kQZzcJfyqh3pXs9HgYISGg8eE4veGpFA/frames/floor_000042.jpg",
+    "data/lectures/leph103/1kQZzcJfyqh3pXs9HgYISGg8eE4veGpFA/frames/floor_000047.jpg",
+    "data/lectures/leph103/1kQZzcJfyqh3pXs9HgYISGg8eE4veGpFA/frames/floor_000059.jpg",
+    "data/lectures/leph103/1kQZzcJfyqh3pXs9HgYISGg8eE4veGpFA/frames/floor_000064.jpg",
+    "data/lectures/leph103/1kQZzcJfyqh3pXs9HgYISGg8eE4veGpFA/frames/floor_000067.jpg",
+    "data/lectures/leph103/1kQZzcJfyqh3pXs9HgYISGg8eE4veGpFA/frames/floor_000070.jpg",
+    "data/lectures/leph103/1kQZzcJfyqh3pXs9HgYISGg8eE4veGpFA/frames/floor_000073.jpg",
+    "data/lectures/leph103/1kQZzcJfyqh3pXs9HgYISGg8eE4veGpFA/frames/floor_000074.jpg",
+    "data/lectures/leph103/1kQZzcJfyqh3pXs9HgYISGg8eE4veGpFA/frames/floor_000076.jpg",
+    "data/lectures/leph103/1kQZzcJfyqh3pXs9HgYISGg8eE4veGpFA/frames/floor_000077.jpg",
+    "data/lectures/leph103/1kQZzcJfyqh3pXs9HgYISGg8eE4veGpFA/frames/floor_000079.jpg",
+    "data/lectures/leph103/1kQZzcJfyqh3pXs9HgYISGg8eE4veGpFA/frames/floor_000087.jpg",
+    "data/lectures/leph103/1kQZzcJfyqh3pXs9HgYISGg8eE4veGpFA/frames/floor_000088.jpg",
+    "data/lectures/leph103/1kQZzcJfyqh3pXs9HgYISGg8eE4veGpFA/frames/floor_000092.jpg",
+    "data/lectures/leph103/1kQZzcJfyqh3pXs9HgYISGg8eE4veGpFA/frames/floor_000097.jpg"
+  ],
+  "markdown_body": "## Internal resistance (NCERT 3.10)\n\nA cell's electrolyte hinders current flow just like an external resistor. Internal resistance $r$ depends on the electrolyte's nature, temperature, and concentration; it is directly proportional to electrode separation $l$ and inversely proportional to immersed electrode area $A$:\n$$r = \\frac{cl}{A}\\quad\\text{(at a given temperature)}$$\n$r$ **decreases** with increasing temperature, and **increases** as a cell ages with use.\n\n## EMF and terminal potential difference (NCERT 3.10)\n\n**EMF** ($\\mathcal E$): despite the name, has nothing to do with force — unit is the **volt**, not newton (a historical misnomer). Defined as work done per unit charge; equals the potential difference across a cell's terminals when **no current is drawn** (open circuit).\n\n**Terminal PD** ($V$): once current flows through an external resistor $R$ (closed circuit), the measured PD across the cell's terminals:\n$$\\mathcal E = V + Ir \\quad\\Leftrightarrow\\quad V = \\mathcal E - Ir$$\nDuring **discharging** (normal use), $\\mathcal E > V$. Rearranged forms: $I = \\dfrac{\\mathcal E}{R+r}$, and $r = \\dfrac{\\mathcal E - V}{V}R$ (this last form is reused later for the potentiometer method of measuring internal resistance).\n\n**During charging**, current direction through the cell reverses: $V = \\mathcal E + Ir$, so $V > \\mathcal E$.\n\n## Combination of cells (NCERT 3.11)\n\n**Sign-convention / potential-walk method:** pick a current direction; a potential *drop* in the direction of current is negative, a *rise* is positive. Walking from one circuit point to another, sum each EMF and $Ir$ term with its sign — e.g. $V_A - V_B = \\mathcal E_1 - ir_1$ for one branch. (This same method is reused later for potentiometer problems.)\n\n### Cells in parallel\nTwo cells $(\\mathcal E_1,r_1)$ and $(\\mathcal E_2,r_2)$ between the same points $A,B$, supplying $I_1=\\dfrac{\\mathcal E_1-V}{r_1}$, $I_2=\\dfrac{\\mathcal E_2-V}{r_2}$, with $I=I_1+I_2$. Solving for $V$ in terms of total current $I$ gives an equivalent single cell:\n$$\\mathcal E_{eq} = \\frac{\\mathcal E_1 r_2+\\mathcal E_2 r_1}{r_1+r_2}, \\qquad \\frac{1}{r_{eq}} = \\frac{1}{r_1}+\\frac{1}{r_2}\\quad(\\text{i.e. } r_{eq}=\\frac{r_1 r_2}{r_1+r_2})$$\n$$V = \\mathcal E_{eq} - I\\,r_{eq}$$\nInternal resistances combine exactly like the reciprocal (parallel) rule for resistors; the equivalent EMF is a resistance-weighted combination of the two.\n\n---\n*Note on this lecture's transcript:* the cells-in-parallel derivation above is grounded entirely from a board frame near the true end of the lecture -- the transcript's own narration stops mid-way through setting up the series case. See the flagged span below.\n"
+}

@@ -1,0 +1,72 @@
+\\TEXTBOOKS\\RATIONALISED 20222-23\\Neha\\12089 — Physics Part-I\\1 Source Files\\Chapter-8\\Chapter 8.pmd
+
+Chapter Eight ELECTROMAGNETIC WAVES
+
+8.1 INTRODUCTION
+James Clerk Maxwell (1831-1879): time-varying electric field generates magnetic field (not just current). Applying Ampere's circuital law to charging capacitor revealed inconsistency → displacement current concept. Maxwell's equations + Lorentz force = complete classical electromagnetism. Predicted EM waves, speed ≈ speed of light → light IS an EM wave. Hertz (1885) experimentally demonstrated EM waves.
+
+8.2 DISPLACEMENT CURRENT
+∮B.dl = μ0 i(t) (8.1) — Ampere's circuital law
+B(2πr) = μ0 i(t) (8.2)
+Contradiction found using different surfaces bounded by same loop (pot-shaped vs tiffin-box-shaped) through capacitor gap — conduction current inconsistent.
+ΦE = EA = (Q/Aε0)A = Q/ε0 (8.3) — electric flux through capacitor-gap surface
+ε0 dΦE/dt = dQ/dt = i (8.4) — displacement current, missing term
+Total current: i = ic + id, id = ε0 dΦE/dt (8.5)
+Ampere-Maxwell law: ∮B.dl = μ0 ic + μ0ε0 dΦE/dt (8.6)
+Outside capacitor plates: only conduction current (id=0). Inside/between plates: only displacement current (ic=0).
+Maxwell's equations in vacuum (box):
+1. ∮E.dA = Q/ε0 (Gauss's Law - electricity)
+2. ∮B.dA = 0 (Gauss's Law - magnetism)
+3. ∮E.dl = –dΦB/dt (Faraday's Law)
+4. ∮B.dl = μ0ic + μ0ε0 dΦE/dt (Ampere-Maxwell Law)
+
+8.3 ELECTROMAGNETIC WAVES
+8.3.1 Sources: accelerated charges radiate EM waves. Oscillating charge → oscillating E → oscillating B → regenerating fields → propagating wave. Frequency of EM wave = frequency of charge oscillation. Hertz's 1887 experiment: low frequency (radio) region, since visible light freq (~6×10^14 Hz) unreachable by circuits (~10^11 Hz).
+Named: Heinrich Rudolf Hertz (1857-1894) — first to broadcast/receive radio waves, showed vibration/reflection/refraction same as light/heat, discovered photoelectric effect.
+Jagdish Chandra Bose (Calcutta, 7 yrs after Hertz): shorter wavelength EM waves (25mm-5mm).
+Guglielmo Marconi (Italy): long-distance transmission, began communication field.
+
+8.3.2 Nature of electromagnetic waves
+E and B perpendicular to each other AND to propagation direction (transverse wave).
+Ex = E0 sin(kz–ωt) [8.7(a)], By = B0 sin(kz–ωt) [8.7(b)]
+k = 2π/λ (8.8)
+ω = ck, c = 1/√(μ0ε0) [8.9(a)]
+νλ = c [8.9(b)]
+B0 = E0/c (8.10)
+EM waves: self-sustaining oscillations, no medium required (unlike other waves studied).
+In medium (permittivity ε, permeability μ): v = 1/√(µε) (8.11)
+Refractive index = ratio of velocities in two media.
+Speed of light in vacuum: constant, independent of wavelength, ~3×10^8 m/s — used to define standard of length.
+EM waves carry energy (radio/TV signals, sunlight→earth).
+Worked examples: B from given E (freq 25MHz); wavelength/frequency from given B field equation, deriving E component.
+
+8.4 ELECTROMAGNETIC SPECTRUM
+No sharp boundaries between regions; classified by production/detection method.
+8.4.1 Radio waves: >0.1m, accelerated charges in wires, AM 530-1710kHz, shortwave to 54MHz, TV 54-890MHz, FM 88-108MHz, cellular UHF band.
+8.4.2 Microwaves: 0.1m-1mm, GHz range, klystrons/magnetrons/Gunn diodes, radar (aircraft nav, speed guns), microwave ovens (resonant freq of water molecules).
+8.4.3 Infrared: 1mm-700nm, hot bodies/molecules, "heat waves", absorbed by CO2/H2O/NH3, greenhouse effect, physical therapy, remote controls (LEDs), satellite crop monitoring.
+8.4.4 Visible: 700-400nm (4×10^14 to 7×10^14 Hz), detected by human eye.
+8.4.5 Ultraviolet: 400nm(4×10⁻⁷m) to 0.6nm(6×10⁻¹⁰m), sun is major source, absorbed by ozone layer (40-50km altitude), causes tanning/skin damage, absorbed by ordinary glass, used in LASIK, water purifiers (germicidal). Ozone depletion by CFCs = concern.
+8.4.6 X-rays: 10nm to 10⁻⁴nm, produced by bombarding metal target with high-energy electrons, medical diagnostic/cancer treatment, damages living tissue.
+8.4.7 Gamma rays: 10⁻¹⁰m to <10⁻¹⁴m, from nuclear reactions/radioactive decay, used to destroy cancer cells.
+
+TABLE 8.1 Types, wavelength ranges, production, detection (radio→gamma).
+
+SUMMARY
+1. Displacement current id = ε0 dΦE/dt, acts as magnetic field source like conduction current.
+2. Accelerating charge → EM waves of same frequency ν. Electric dipole = basic source.
+3. Hertz (1887) first produced/detected EM waves in lab, verified Maxwell.
+4. E, B oscillate sinusoidally, perpendicular to each other and to propagation direction. E0/B0 = c.
+5. c = 1/√(μ0ε0) = speed of light. In medium: v = 1/√(µε).
+6. Spectrum: γ-rays, X-rays, UV, visible, IR, microwaves, radio waves (increasing λ, 10⁻¹²m to 10⁶m). Interaction depends on λ and medium.
+
+POINTS TO PONDER
+1. All EM waves travel at same speed in vacuum; differ in wavelength/frequency → different matter interaction.
+2. Wavelength correlates with radiating system size: gamma (10⁻¹⁴-10⁻¹⁵m, nucleus), X-ray (heavy atoms), radio (circuits/antennas ~antenna size for efficient radiation). Visible light wavelength >> atomic size though.
+3. Infrared vibrates entire atoms/molecules (not just electrons) → heat waves.
+4. Human eye sensitivity peak coincides with solar spectrum peak (evolutionary).
+
+EXERCISES (8.1-8.10): capacitance/displacement current for charging capacitor; rms conduction current, B amplitude for parallel plate capacitor on ac supply; common quantity for X-ray/red light/radiowave (answer: speed c); E,B direction and wavelength given frequency; radio tuning wavelength band; oscillator frequency→EM wave frequency; E0 from given B0; E0,B0,ω,k,λ,ν from given data; photon energy E=hν across spectrum; wavelength/B-amplitude/energy-density-equality for given E field.
+
+Key terms/glossary: displacement current, conduction current, Ampere-Maxwell law, Maxwell's equations, transverse wave, electromagnetic spectrum, radio waves, microwaves, infrared, visible, ultraviolet, X-rays, gamma rays, ozone layer, greenhouse effect.
+Named scientists: James Clerk Maxwell, Heinrich Hertz, Jagdish Chandra Bose, Guglielmo Marconi.

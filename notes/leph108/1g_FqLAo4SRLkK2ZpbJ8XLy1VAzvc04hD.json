@@ -1,0 +1,169 @@
+{
+  "file_id": "1g_FqLAo4SRLkK2ZpbJ8XLy1VAzvc04hD",
+  "chapter_id": "leph108",
+  "title": "Displacement Current, Maxwell's Equations, and the E-B Symmetry",
+  "duration_seconds": 1063.3,
+  "claims": [
+    {
+      "text": "Ampere's circuital law: oint(B.dl) = mu_0 * I, where I is the current enclosed by the loop.",
+      "transcript_span": [
+        16.0,
+        31.0
+      ],
+      "frame_path": "data/lectures/leph108/1g_FqLAo4SRLkK2ZpbJ8XLy1VAzvc04hD/frames/floor_000007.jpg",
+      "ncert_section": "8.2",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Setup: a time-varying current i(t) charges a capacitor. Two surfaces bounded by the same loop are considered -- C1, a small pot-shaped surface outside the capacitor gap, and C2, a larger surface that bulges through between the plates.",
+      "transcript_span": [
+        31.5,
+        226.2
+      ],
+      "frame_path": "data/lectures/leph108/1g_FqLAo4SRLkK2ZpbJ8XLy1VAzvc04hD/frames/floor_000011.jpg",
+      "ncert_section": "8.2",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Applying Ampere's law to both surfaces of the same loop: at C1, oint(B.dl) = mu_0*I; at C2 (no current crosses the capacitor gap), oint(B.dl) = 0. One loop, one law, two different answers -- a contradiction.",
+      "transcript_span": [
+        227.7,
+        412.0
+      ],
+      "frame_path": "data/lectures/leph108/1g_FqLAo4SRLkK2ZpbJ8XLy1VAzvc04hD/frames/floor_000015.jpg",
+      "ncert_section": "8.2",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "The same picture appears to violate Kirchhoff's first (junction) rule too: current flows in at a point P before the plate and seems to vanish across the gap, reappearing at a point Q past the far plate.",
+      "transcript_span": [
+        412.4,
+        536.9
+      ],
+      "frame_path": "data/lectures/leph108/1g_FqLAo4SRLkK2ZpbJ8XLy1VAzvc04hD/frames/floor_000015.jpg",
+      "ncert_section": null,
+      "ncert_agreement": "teacher_simplifies"
+    },
+    {
+      "text": "Resolution: between the plates, Phi_E = E.A = Q/eps0. As the current varies, the charge (and hence Phi_E) on the plates changes with time. Outside the plates, only conduction current I_c flows and displacement current I_d = 0; inside the gap, I_c = 0 and only displacement current flows, with I_d = eps0 * dPhi_E/dt.",
+      "transcript_span": [
+        560.8,
+        654.5
+      ],
+      "frame_path": "data/lectures/leph108/1g_FqLAo4SRLkK2ZpbJ8XLy1VAzvc04hD/frames/floor_000030.jpg",
+      "ncert_section": "8.2",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "This gives the modified (Ampere-Maxwell) circuital law: oint(B.dl) = mu_0*I_c + mu_0*eps0*(dPhi_E/dt), i.e. oint(B.dl) = mu_0*(I_c + I_d).",
+      "transcript_span": [
+        621.7,
+        654.5
+      ],
+      "frame_path": "data/lectures/leph108/1g_FqLAo4SRLkK2ZpbJ8XLy1VAzvc04hD/frames/floor_000040.jpg",
+      "ncert_section": "8.2",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "A conceptual point beyond the bare derivation: the lecture explicitly draws out the symmetry of electromagnetic theory here -- from the electromagnetic induction chapter, a time-varying magnetic field generates an electric field (Faraday's law); the displacement-current result just derived shows the converse is also true, a time-varying electric field generates a magnetic field. The two effects are described as symmetrical / interchangeable.",
+      "transcript_span": [
+        731.7,
+        852.7
+      ],
+      "frame_path": null,
+      "ncert_section": "8.1",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "With displacement current included, Kirchhoff's first law is no longer violated: the current just outside point P is conduction current, the current in the gap is displacement current, and I_c = I_d, so the 'current' flowing through the loop is continuous after all.",
+      "transcript_span": [
+        852.7,
+        873.8
+      ],
+      "frame_path": "data/lectures/leph108/1g_FqLAo4SRLkK2ZpbJ8XLy1VAzvc04hD/frames/floor_000040.jpg",
+      "ncert_section": "8.2",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Having derived displacement current, the lecture states that there are four important equations, together known as Maxwell's equations.",
+      "transcript_span": [
+        873.8,
+        946.0
+      ],
+      "frame_path": "data/lectures/leph108/1g_FqLAo4SRLkK2ZpbJ8XLy1VAzvc04hD/frames/floor_000041.jpg",
+      "ncert_section": "8.2",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Maxwell's equation 1 -- Gauss's law of electrostatics: oint(E.ds) over a closed surface = Q/eps0 (surface integral of the electric field over a closed surface equals the enclosed charge over eps0).",
+      "transcript_span": [
+        946.0,
+        1006.5
+      ],
+      "frame_path": "data/lectures/leph108/1g_FqLAo4SRLkK2ZpbJ8XLy1VAzvc04hD/frames/floor_000043.jpg",
+      "ncert_section": "8.2",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Maxwell's equation 2 -- Gauss's law of magnetostatics: oint(B.ds) over a closed surface = 0 (whatever magnetic field enters a closed loop also leaves it, i.e. no magnetic monopoles).",
+      "transcript_span": [
+        1006.5,
+        1036.5
+      ],
+      "frame_path": "data/lectures/leph108/1g_FqLAo4SRLkK2ZpbJ8XLy1VAzvc04hD/frames/floor_000043.jpg",
+      "ncert_section": "8.2",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Maxwell's equation 3 -- Faraday's law of electromagnetic induction: emf = -dPhi/dt, i.e. oint(E.dl) = -dPhi_B/dt.",
+      "transcript_span": [
+        1036.5,
+        1063.3
+      ],
+      "frame_path": "data/lectures/leph108/1g_FqLAo4SRLkK2ZpbJ8XLy1VAzvc04hD/frames/floor_000049.jpg",
+      "ncert_section": "8.2",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Maxwell's equation 4 (recap) -- the modified Ampere circuital law: oint(B.dl) = mu_0*(I_c + eps0*dPhi_E/dt). This was already fully derived and spoken earlier in the lecture (claim 6 above); the board frame here shows it restated as the fourth item in the summary list.",
+      "transcript_span": null,
+      "frame_path": "data/lectures/leph108/1g_FqLAo4SRLkK2ZpbJ8XLy1VAzvc04hD/frames/floor_000052.jpg",
+      "ncert_section": "8.2",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Bridging note on the board past the four equations: 'Light is EM waves => it consists of electric field and magnetic field intensities' -- a preview of the next topic (light as an electromagnetic wave).",
+      "transcript_span": null,
+      "frame_path": "data/lectures/leph108/1g_FqLAo4SRLkK2ZpbJ8XLy1VAzvc04hD/frames/floor_000052.jpg",
+      "ncert_section": "8.1",
+      "ncert_agreement": "agrees"
+    }
+  ],
+  "uncertain_spans": [
+    {
+      "start_seconds": 1000.0,
+      "end_seconds": 1063.3,
+      "reason": "check_coverage() reports 103.5% coverage and passes cleanly (the last segment is timestamped 1036.5-1101.1s, overshooting the video's verified true duration of 1063.3s by ~38s) -- the same 'clean-looking but misleading' pattern seen in the companion lecture 01. The delayed-duplicate scanner found no repeated block here either (only one short flagged pair, segments 27 vs 30 at ratio 0.73, which is just the teacher naturally repeating the short phrase 'modified ampere circuited law' a few sentences apart, not a real loop). The transcript's actual content, however, cuts off mid-sentence while defining EMF from Faraday's law ('...we can also write EMF as...'). Two things past that cutoff are grounded from board frames only: the explicit restatement of Maxwell's 4th equation in the summary list (already independently derived and narrated earlier in the lecture, at ~610-655s, so this is a recap gap, not a missing-content gap), and the 'light is EM waves' bridging note, which is not spoken anywhere in the available transcript at all. Frame floor_000052 (t=1020s), close to the true end of the video, is a direct continuation of the same board page built up continuously from floor_000041 onward, so it is trusted as belonging to this lecture."
+    }
+  ],
+  "ncert_sections_covered": [
+    "8.1",
+    "8.2"
+  ],
+  "frame_paths": [
+    "data/lectures/leph108/1g_FqLAo4SRLkK2ZpbJ8XLy1VAzvc04hD/frames/floor_000001.jpg",
+    "data/lectures/leph108/1g_FqLAo4SRLkK2ZpbJ8XLy1VAzvc04hD/frames/floor_000007.jpg",
+    "data/lectures/leph108/1g_FqLAo4SRLkK2ZpbJ8XLy1VAzvc04hD/frames/floor_000011.jpg",
+    "data/lectures/leph108/1g_FqLAo4SRLkK2ZpbJ8XLy1VAzvc04hD/frames/floor_000015.jpg",
+    "data/lectures/leph108/1g_FqLAo4SRLkK2ZpbJ8XLy1VAzvc04hD/frames/floor_000021.jpg",
+    "data/lectures/leph108/1g_FqLAo4SRLkK2ZpbJ8XLy1VAzvc04hD/frames/floor_000030.jpg",
+    "data/lectures/leph108/1g_FqLAo4SRLkK2ZpbJ8XLy1VAzvc04hD/frames/floor_000039.jpg",
+    "data/lectures/leph108/1g_FqLAo4SRLkK2ZpbJ8XLy1VAzvc04hD/frames/floor_000040.jpg",
+    "data/lectures/leph108/1g_FqLAo4SRLkK2ZpbJ8XLy1VAzvc04hD/frames/floor_000041.jpg",
+    "data/lectures/leph108/1g_FqLAo4SRLkK2ZpbJ8XLy1VAzvc04hD/frames/floor_000043.jpg",
+    "data/lectures/leph108/1g_FqLAo4SRLkK2ZpbJ8XLy1VAzvc04hD/frames/floor_000045.jpg",
+    "data/lectures/leph108/1g_FqLAo4SRLkK2ZpbJ8XLy1VAzvc04hD/frames/floor_000049.jpg",
+    "data/lectures/leph108/1g_FqLAo4SRLkK2ZpbJ8XLy1VAzvc04hD/frames/floor_000052.jpg"
+  ],
+  "markdown_body": "## Relationship to the other Displacement-Current lecture in this chapter\n\nThis lecture (`Displacement and maxwell Eqns..mkv`, 1063.3s) covers essentially the same\nmaterial as the shorter `#1Displacement current and Maxwell Eqns.mp4` (980.19s, see\n`01-displacement-current-and-maxwells-equations.md`) -- same opening line almost verbatim, the\nidentical pot/tiffin-box two-surface argument, the identical Kirchhoff-paradox framing, and (from\nthe board) what looks like literally the same handwritten page for the first half of the\nderivation. It is **not** a duplicate file (different sha256, different duration, different\nGemini cache key -- see the chapter's file-list note), and it is meaningfully more complete: it\ncontinues past the point where lecture 01's transcript stalls, explicitly *narrating* (not just\nwriting on the board) all four of Maxwell's equations one at a time by name and formula, and\ncloses with a spoken resolution of the apparent Kirchhoff violation and a short discussion of the\nsymmetry between Faraday's law and the displacement-current result that lecture 01 does not have\nin its transcript at all. It also continues slightly further, into a one-line preview of \"light is\nan EM wave\" that bridges into the chapter's next topic. Whether this is an independent retake or\nan extended second pass over the same board is not determinable from the available material, but\nfor note-taking purposes this version supersedes lecture 01 in coverage -- if a student only had\ntime for one of the two, this is the more complete one.\n\n## The problem with Ampere's circuital law (NCERT 8.2)\n\nAmpere's circuital law states $\\oint \\vec B \\cdot d\\vec l = \\mu_0 I$. For a capacitor being\ncharged by a time-varying current $i(t)$, two different surfaces bounded by the same loop give\ndifferent answers: a small surface $C_1$ that the wire's conduction current pierces gives\n$\\oint \\vec B\\cdot d\\vec l = \\mu_0 I$, while a larger surface $C_2$ bulging through the capacitor\ngap (where no conduction current crosses) gives $\\oint \\vec B \\cdot d\\vec l = 0$. Same loop, same\nlaw, two different results -- and the same picture looks like it violates Kirchhoff's junction\nrule too, since current flowing in at a point $P$ seems to vanish across the gap and reappear at\na point $Q$ on the other plate.\n\n## Displacement current and the modified Ampere-Maxwell law (NCERT 8.2)\n\nBetween the plates, $\\Phi_E = \\vec E\\cdot\\vec A = Q/\\varepsilon_0$. As the current varies, the\ncharge on the plates -- and hence $\\Phi_E$ -- changes with time. Outside the plates only\nconduction current flows; inside the gap only **displacement current**,\n\n$$I_d = \\varepsilon_0\\frac{d\\Phi_E}{dt}$$\n\nflows, with $I_c = I_d$. This gives the corrected, general Ampere-Maxwell law:\n\n$$\\oint \\vec B \\cdot d\\vec l = \\mu_0 I_c + \\mu_0\\varepsilon_0\\frac{d\\Phi_E}{dt} = \\mu_0(I_c + I_d)$$\n\nWith displacement current in the picture, Kirchhoff's rule is no longer violated -- current just\noutside $P$ is conduction current, current in the gap is displacement current, and the two are\nequal, so the total current is continuous through the whole loop after all.\n\n### A symmetry worth noting\nThe lecture pauses here to connect this back to electromagnetic induction (Ch. 7): a\ntime-varying **magnetic** field generates an **electric** field (Faraday's law). The\ndisplacement-current result just derived shows the converse also holds -- a time-varying\n**electric** field generates a **magnetic** field. The two effects are symmetric/interchangeable,\nwhich is part of why light (an oscillating $E$ and $B$ sustaining each other) can propagate\nwithout a medium.\n\n## Maxwell's four equations (NCERT 8.2, boxed summary)\n\n1. **Gauss's law of electrostatics:** $\\oint \\vec E\\cdot d\\vec s = Q/\\varepsilon_0$\n2. **Gauss's law of magnetostatics:** $\\oint \\vec B\\cdot d\\vec s = 0$\n3. **Faraday's law of EMI:** $\\text{emf} = -d\\Phi/dt$, i.e. $\\oint \\vec E\\cdot d\\vec l = -d\\Phi_B/dt$\n4. **Modified Ampere-Maxwell law:** $\\oint \\vec B\\cdot d\\vec l = \\mu_0\\left(I_c + \\varepsilon_0\\dfrac{d\\Phi_E}{dt}\\right)$\n\nMatches NCERT's boxed list in 8.2 exactly, same four laws and order. The board's final line for\nthis lecture -- \"light is EM waves $\\Rightarrow$ it consists of electric field and magnetic field\nintensities\" -- previews the chapter's next topic (NCERT 8.1's remark that Maxwell's predicted EM\nwave speed matching light's speed is what identifies light itself as an electromagnetic wave).\n\n## A note on this lecture's transcript\n\nCoverage checks report 103.5% and pass cleanly, but (as with lecture 01) that is misleading --\nthe transcript's real content cuts off mid-sentence while defining EMF, before the fourth\nequation is explicitly re-stated in the summary and before the \"light is EM waves\" note. Both are\ngrounded from board frames only -- see the uncertain span below. Unlike lecture 01, though, this\ntranscript *does* narrate all four equations by name and formula, and derives displacement\ncurrent with a fully spoken formula, before that late cutoff -- so the gap here is much smaller\nand confined to the closing recap.\n"
+}

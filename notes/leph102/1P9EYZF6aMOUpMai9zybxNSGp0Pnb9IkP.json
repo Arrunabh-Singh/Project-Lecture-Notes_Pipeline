@@ -1,0 +1,115 @@
+{
+  "file_id": "1P9EYZF6aMOUpMai9zybxNSGp0Pnb9IkP",
+  "chapter_id": "leph102",
+  "title": "Force Between Capacitor Plates, Energy Stored, Energy Density, and Combination of Capacitors",
+  "duration_seconds": 2098.93,
+  "claims": [
+    {
+      "text": "Force between the plates of a parallel plate capacitor: the force on plate 1 due to plate 2 is F = (electric field at 1 due to 2 ONLY) x charge = (sigma/2 eps0) x q = q^2/(2 A eps0). The plates attract each other with this force",
+      "transcript_span": [
+        30.3,
+        254.5
+      ],
+      "frame_path": "data/lectures/leph102/1P9EYZF6aMOUpMai9zybxNSGp0Pnb9IkP/frames/floor_000007.jpg",
+      "ncert_section": "2.14",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Energy stored in a charged capacitor: work is done by the battery (at the expense of chemical energy) to move each successive small charge dQ onto the capacitor against the potential V=Q/C already present. Integrating dW=(Q/C)dQ from 0 to the final charge q gives total work done U = q^2/(2C), equivalently U = (1/2)CV^2 or U = (1/2)qV",
+      "transcript_span": [
+        255.5,
+        741.1
+      ],
+      "frame_path": "data/lectures/leph102/1P9EYZF6aMOUpMai9zybxNSGp0Pnb9IkP/frames/floor_000038.jpg",
+      "ncert_section": "2.15",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Important distinction: the battery does total work QV in charging the capacitor, but the energy actually STORED in the capacitor is only (1/2)QV. The remaining (1/2)QV is dissipated as heat in the connecting wires during the charging process -- not an error in the derivation, a genuinely different quantity",
+      "transcript_span": [
+        741.1,
+        881.6
+      ],
+      "frame_path": "data/lectures/leph102/1P9EYZF6aMOUpMai9zybxNSGp0Pnb9IkP/frames/floor_000038.jpg",
+      "ncert_section": "2.15",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Electrostatic energy per unit volume (energy density) for a parallel plate capacitor with dielectric constant K: starting from U=(1/2)Q^2/C with C=K eps0 A/d, Q=K eps0 E A (from sigma=Q/A=K eps0 E), substituting and simplifying using volume=A*d gives U/(Ad) = (1/2) K eps0 E^2 -- the electrostatic energy stored per unit volume of the field region",
+      "transcript_span": [
+        881.6,
+        1295.7
+      ],
+      "frame_path": "data/lectures/leph102/1P9EYZF6aMOUpMai9zybxNSGp0Pnb9IkP/frames/floor_000038.jpg",
+      "ncert_section": "2.15",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Capacitors in series: same charge Q flows onto every capacitor's plates (by induction, analogous to how current -- not voltage -- is the same quantity shared across series resistors), but voltages add: V = V1+V2+V3 = Q/C1+Q/C2+Q/C3, giving 1/C_eff = 1/C1 + 1/C2 + 1/C3 -- the reciprocal-sum rule, structurally opposite to series resistors (R_eff = R1+R2+R3)",
+      "transcript_span": [
+        1438.4,
+        1836.7
+      ],
+      "frame_path": "data/lectures/leph102/1P9EYZF6aMOUpMai9zybxNSGp0Pnb9IkP/frames/floor_000090.jpg",
+      "ncert_section": "2.14.1",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Capacitors in parallel: same voltage V is applied across every capacitor, and the equivalent capacitance is a plain sum of the individual capacitances, C_eff = C' + C''",
+      "transcript_span": [
+        1836.7,
+        1929.0
+      ],
+      "frame_path": null,
+      "ncert_section": "2.14.2",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Balanced Wheatstone-bridge network of capacitors: for a bridge arrangement of C1..C5 (C5 being the 'bridge' capacitor connecting the midpoints), if C1/C2 = C3/C4 the network is balanced and C5 carries no charge, so it can be removed from the circuit entirely, leaving a simpler series-parallel combination of C1..C4 to solve",
+      "transcript_span": [
+        1935.5,
+        2098.93
+      ],
+      "frame_path": "data/lectures/leph102/1P9EYZF6aMOUpMai9zybxNSGp0Pnb9IkP/frames/floor_000105.jpg",
+      "ncert_section": null,
+      "ncert_agreement": null
+    }
+  ],
+  "uncertain_spans": [],
+  "ncert_sections_covered": [
+    "2.14",
+    "2.15"
+  ],
+  "frame_paths": [
+    "data/lectures/leph102/1P9EYZF6aMOUpMai9zybxNSGp0Pnb9IkP/frames/floor_000001.jpg",
+    "data/lectures/leph102/1P9EYZF6aMOUpMai9zybxNSGp0Pnb9IkP/frames/floor_000007.jpg",
+    "data/lectures/leph102/1P9EYZF6aMOUpMai9zybxNSGp0Pnb9IkP/frames/floor_000015.jpg",
+    "data/lectures/leph102/1P9EYZF6aMOUpMai9zybxNSGp0Pnb9IkP/frames/floor_000016.jpg",
+    "data/lectures/leph102/1P9EYZF6aMOUpMai9zybxNSGp0Pnb9IkP/frames/floor_000023.jpg",
+    "data/lectures/leph102/1P9EYZF6aMOUpMai9zybxNSGp0Pnb9IkP/frames/floor_000026.jpg",
+    "data/lectures/leph102/1P9EYZF6aMOUpMai9zybxNSGp0Pnb9IkP/frames/floor_000030.jpg",
+    "data/lectures/leph102/1P9EYZF6aMOUpMai9zybxNSGp0Pnb9IkP/frames/floor_000032.jpg",
+    "data/lectures/leph102/1P9EYZF6aMOUpMai9zybxNSGp0Pnb9IkP/frames/floor_000033.jpg",
+    "data/lectures/leph102/1P9EYZF6aMOUpMai9zybxNSGp0Pnb9IkP/frames/floor_000038.jpg",
+    "data/lectures/leph102/1P9EYZF6aMOUpMai9zybxNSGp0Pnb9IkP/frames/floor_000042.jpg",
+    "data/lectures/leph102/1P9EYZF6aMOUpMai9zybxNSGp0Pnb9IkP/frames/floor_000043.jpg",
+    "data/lectures/leph102/1P9EYZF6aMOUpMai9zybxNSGp0Pnb9IkP/frames/floor_000047.jpg",
+    "data/lectures/leph102/1P9EYZF6aMOUpMai9zybxNSGp0Pnb9IkP/frames/floor_000053.jpg",
+    "data/lectures/leph102/1P9EYZF6aMOUpMai9zybxNSGp0Pnb9IkP/frames/floor_000058.jpg",
+    "data/lectures/leph102/1P9EYZF6aMOUpMai9zybxNSGp0Pnb9IkP/frames/floor_000060.jpg",
+    "data/lectures/leph102/1P9EYZF6aMOUpMai9zybxNSGp0Pnb9IkP/frames/floor_000061.jpg",
+    "data/lectures/leph102/1P9EYZF6aMOUpMai9zybxNSGp0Pnb9IkP/frames/floor_000065.jpg",
+    "data/lectures/leph102/1P9EYZF6aMOUpMai9zybxNSGp0Pnb9IkP/frames/floor_000067.jpg",
+    "data/lectures/leph102/1P9EYZF6aMOUpMai9zybxNSGp0Pnb9IkP/frames/floor_000068.jpg",
+    "data/lectures/leph102/1P9EYZF6aMOUpMai9zybxNSGp0Pnb9IkP/frames/floor_000069.jpg",
+    "data/lectures/leph102/1P9EYZF6aMOUpMai9zybxNSGp0Pnb9IkP/frames/floor_000070.jpg",
+    "data/lectures/leph102/1P9EYZF6aMOUpMai9zybxNSGp0Pnb9IkP/frames/floor_000076.jpg",
+    "data/lectures/leph102/1P9EYZF6aMOUpMai9zybxNSGp0Pnb9IkP/frames/floor_000088.jpg",
+    "data/lectures/leph102/1P9EYZF6aMOUpMai9zybxNSGp0Pnb9IkP/frames/floor_000089.jpg",
+    "data/lectures/leph102/1P9EYZF6aMOUpMai9zybxNSGp0Pnb9IkP/frames/floor_000090.jpg",
+    "data/lectures/leph102/1P9EYZF6aMOUpMai9zybxNSGp0Pnb9IkP/frames/floor_000094.jpg",
+    "data/lectures/leph102/1P9EYZF6aMOUpMai9zybxNSGp0Pnb9IkP/frames/floor_000095.jpg",
+    "data/lectures/leph102/1P9EYZF6aMOUpMai9zybxNSGp0Pnb9IkP/frames/floor_000105.jpg"
+  ],
+  "markdown_body": "## Force between the plates of a capacitor (NCERT 2.14 context)\n\nThe force on plate 1 is due to the field produced by plate 2 *alone* (a plate cannot exert a net force on its own charge), so the relevant field is $E = \\sigma/2\\varepsilon_0$, not the full inter-plate field $\\sigma/\\varepsilon_0$:\n$$F = \\left(\\frac{\\sigma}{2\\varepsilon_0}\\right)q = \\frac{q^2}{2A\\varepsilon_0}$$\nThe plates attract each other with this force.\n\n## Energy stored in a capacitor (NCERT 2.15)\n\nCharging a capacitor means moving successive small charges $dQ$ onto it against the potential $V=Q/C$ already built up. Total work done charging from $0$ to final charge $q$:\n$$U = \\int_0^q \\frac{Q}{C}\\,dQ = \\frac{q^2}{2C} = \\frac{1}{2}CV^2 = \\frac{1}{2}qV$$\n\n**Subtlety worth remembering for exams:** the battery does total work $QV$, but only **half** of that, $\\frac{1}{2}QV$, ends up stored as the capacitor's potential energy. The other half is dissipated as heat in the connecting wires during charging -- both statements are correct simultaneously, they're just different quantities.\n\n### Energy density\nStarting from $U = \\frac{1}{2}Q^2/C$ with $C = K\\varepsilon_0 A/d$ and $Q = K\\varepsilon_0 E A$ (from $\\sigma = Q/A = K\\varepsilon_0 E$), and using $\\text{volume} = Ad$:\n$$\\boxed{u = \\frac{U}{Ad} = \\frac{1}{2}K\\varepsilon_0 E^2}$$\nthe electrostatic energy stored per unit volume of the field region (NCERT states the vacuum case $u=\\frac12\\varepsilon_0E^2$; this is the direct generalisation for a linear dielectric medium of constant $K$, using the field actually present inside it).\n\n## Combination of capacitors (NCERT 2.14)\n\n### Series (2.14.1)\nEvery capacitor in series carries the **same charge** $Q$ (by induction at each junction — the series analogue of current, not voltage, being shared in series resistors), while voltages **add**:\n$$V = V_1+V_2+V_3 = \\frac{Q}{C_1}+\\frac{Q}{C_2}+\\frac{Q}{C_3} \\quad\\Rightarrow\\quad \\boxed{\\frac{1}{C_\\text{eff}} = \\frac{1}{C_1}+\\frac{1}{C_2}+\\frac{1}{C_3}}$$\nStructurally the *opposite* of series resistors, where $R_\\text{eff}=R_1+R_2+R_3$ directly.\n\n### Parallel (2.14.2)\nEvery capacitor sees the **same voltage** $V$; capacitances simply add:\n$$\\boxed{C_\\text{eff} = C' + C''}$$\n\n### Balanced Wheatstone-bridge network of capacitors\nFor a bridge arrangement of five capacitors $C_1,\\dots,C_5$ ($C_5$ bridging the two midpoints), if\n$$\\frac{C_1}{C_2} = \\frac{C_3}{C_4}$$\nthe bridge is **balanced** and $C_5$ carries no charge — it can simply be removed from the circuit, leaving a plain series–parallel reduction of $C_1$–$C_4$.\n\n---\n*Note on this lecture's transcript:* the raw ASR transcript repeats the energy-density derivation (the \"$\\frac12K\\varepsilon_0E^2$\" section, roughly t=934s onward) two-to-three times in a row with different timestamps before moving on -- a delayed-repetition artifact, not a sign the teacher re-taught it live (a single board frame, floor_000038.jpg, shows the derivation written out exactly once). The physics content above reflects that single, real derivation; the duplicate text was not used for anything beyond confirming the same content twice.\n"
+}

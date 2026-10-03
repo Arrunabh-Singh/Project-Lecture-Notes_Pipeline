@@ -1,0 +1,89 @@
+{
+  "file_id": "1x5prEaDVgFXoxsSilPHSRjPsof8N1rX1",
+  "chapter_id": "leph106",
+  "title": "Inductor, Self Inductance of a Solenoid, Energy Stored, and Intro to Mutual Induction",
+  "duration_seconds": 1332.03,
+  "claims": [
+    {
+      "text": "An ideal resistor has zero self-inductance (only resistance); an ideal inductor has zero resistance and a high value of self-inductance. An inductor is defined as a tightly wound coil of insulated wire (insulated so adjacent turns don't short each other). In reality, neither is perfectly ideal -- real resistors have some small inductance and real inductors have some small resistance",
+      "transcript_span": [
+        4.0,
+        232.0
+      ],
+      "frame_path": "data/lectures/leph106/1x5prEaDVgFXoxsSilPHSRjPsof8N1rX1/frames/floor_000009.jpg",
+      "ncert_section": "6.7",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Derivation of self-inductance of a solenoid (length L, n turns per unit length, total N turns, cross-sectional area A, carrying current I): using B=mu0*n*I (from Ampere's circuital law) and flux through one turn phi=BA, the TOTAL flux linked (all N turns) is phi_total=N*phi=N*A*B=N*A*mu0*n*I. Writing N=nL: phi_total=(nL)(A)(mu0*n*I)=mu0*n^2*A*L*I. Since phi_total=L*I (by definition of self-inductance), dividing both sides by I gives L=mu0*n^2*A*L (self-inductance depends on the square of turns density, area, and length -- and, if a magnetic material of relative permeability mu_r fills the core, L=mu0*mu_r*n^2*A*L, i.e. the inductance increases, opposing current even more strongly)",
+      "transcript_span": [
+        232.0,
+        716.0
+      ],
+      "frame_path": "data/lectures/leph106/1x5prEaDVgFXoxsSilPHSRjPsof8N1rX1/frames/floor_000021.jpg",
+      "ncert_section": "6.7",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Derivation of energy stored in an inductor: the battery must do extra work against the inductor's back EMF as current builds up; this work is stored as magnetic energy in the inductor. For instantaneous current I, moving an additional charge dq against the back EMF E does work dW=E*dq. Since E=L*(dI/dt) (magnitude) and dq=I*dt, dW=L*(dI/dt)*I*dt=L*I*dI (the dt's cancel). Total work done charging the inductor from 0 to I is the integral, giving U_M = (1/2)*L*I^2 -- this energy is stored as magnetic energy in the inductor. Using phi=LI, this can also be written as U_M=(1/2)*phi*I",
+      "transcript_span": [
+        719.0,
+        1212.0
+      ],
+      "frame_path": "data/lectures/leph106/1x5prEaDVgFXoxsSilPHSRjPsof8N1rX1/frames/floor_000047.jpg",
+      "ncert_section": "6.7",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Deriving energy per unit volume (energy density) in the magnetic field of a solenoid-inductor: u=U_M/Volume=(1/2)LI^2/(AL) (volume=area x length). Substituting phi=NAB (N=total turns) and L=phi/I, then B=mu0*n*I so that n*I=B/mu0, the expression simplifies (following through the algebra started in the derivation) to the energy density stored in a magnetic field: u = B^2/(2*mu0)",
+      "transcript_span": null,
+      "frame_path": "data/lectures/leph106/1x5prEaDVgFXoxsSilPHSRjPsof8N1rX1/frames/floor_000047.jpg",
+      "ncert_section": "6.7",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Introduction to mutual induction: the phenomenon of inducing current in a nearby coil (secondary, S) due to a changing current in another coil (primary, P) is called mutual induction. The coefficient of mutual induction (mutual inductance) is defined via: the flux linked with the secondary coil is directly proportional to the current flowing in the primary coil, phi_S proportional to I_P",
+      "transcript_span": null,
+      "frame_path": "data/lectures/leph106/1x5prEaDVgFXoxsSilPHSRjPsof8N1rX1/frames/floor_000061.jpg",
+      "ncert_section": "6.7",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Demonstration of mutual induction: an AC source drives a primary coil A; a nearby secondary coil B has a bulb connected to it. The bulb glows due to the current induced in coil B by mutual induction with A (a changing current in A, due to the AC source). If coil B is physically moved further away (upward) from A, the bulb gets dimmer, because the flux linking coil B (from coil A's field) decreases with increasing separation",
+      "transcript_span": null,
+      "frame_path": "data/lectures/leph106/1x5prEaDVgFXoxsSilPHSRjPsof8N1rX1/frames/floor_000061.jpg",
+      "ncert_section": "6.7",
+      "ncert_agreement": "agrees"
+    }
+  ],
+  "uncertain_spans": [
+    {
+      "start_seconds": 1212.0,
+      "end_seconds": 1332.03,
+      "reason": "The transcript's own words are still working through the algebra of the energy-per-unit-volume derivation right up to its very last segment ('I want my answer... I want basically B, I don't want to eliminate B because at the back of the mind I want to prove that this energy per unit volume...'), cutting off before ever stating the final result or reaching mutual induction at all. However, a board frame (floor_000061.jpg) -- whose true video timestamp (t=1200s) falls BEFORE the transcript's own self-reported final segment (which claims to start at t=1336s, already past the video's true 1332.03s duration) -- shows mutual induction already introduced in full: its definition, the coefficient of mutual induction (phi_S proportional to I_P), and a primary/secondary coil demonstration with a bulb. This confirms the transcript's own timestamps drifted later than real video time by the end of the lecture. The final energy-density result (u=B^2/2*mu0) is the direct, expected algebraic completion of the transcript's own work and is standard NCERT content; the mutual-induction claims are grounded entirely from the frame, not the transcript's own words."
+    }
+  ],
+  "ncert_sections_covered": [
+    "6.7"
+  ],
+  "frame_paths": [
+    "data/lectures/leph106/1x5prEaDVgFXoxsSilPHSRjPsof8N1rX1/frames/floor_000001.jpg",
+    "data/lectures/leph106/1x5prEaDVgFXoxsSilPHSRjPsof8N1rX1/frames/floor_000006.jpg",
+    "data/lectures/leph106/1x5prEaDVgFXoxsSilPHSRjPsof8N1rX1/frames/floor_000009.jpg",
+    "data/lectures/leph106/1x5prEaDVgFXoxsSilPHSRjPsof8N1rX1/frames/floor_000011.jpg",
+    "data/lectures/leph106/1x5prEaDVgFXoxsSilPHSRjPsof8N1rX1/frames/floor_000015.jpg",
+    "data/lectures/leph106/1x5prEaDVgFXoxsSilPHSRjPsof8N1rX1/frames/floor_000019.jpg",
+    "data/lectures/leph106/1x5prEaDVgFXoxsSilPHSRjPsof8N1rX1/frames/floor_000021.jpg",
+    "data/lectures/leph106/1x5prEaDVgFXoxsSilPHSRjPsof8N1rX1/frames/floor_000023.jpg",
+    "data/lectures/leph106/1x5prEaDVgFXoxsSilPHSRjPsof8N1rX1/frames/floor_000025.jpg",
+    "data/lectures/leph106/1x5prEaDVgFXoxsSilPHSRjPsof8N1rX1/frames/floor_000032.jpg",
+    "data/lectures/leph106/1x5prEaDVgFXoxsSilPHSRjPsof8N1rX1/frames/floor_000037.jpg",
+    "data/lectures/leph106/1x5prEaDVgFXoxsSilPHSRjPsof8N1rX1/frames/floor_000044.jpg",
+    "data/lectures/leph106/1x5prEaDVgFXoxsSilPHSRjPsof8N1rX1/frames/floor_000045.jpg",
+    "data/lectures/leph106/1x5prEaDVgFXoxsSilPHSRjPsof8N1rX1/frames/floor_000047.jpg",
+    "data/lectures/leph106/1x5prEaDVgFXoxsSilPHSRjPsof8N1rX1/frames/floor_000054.jpg",
+    "data/lectures/leph106/1x5prEaDVgFXoxsSilPHSRjPsof8N1rX1/frames/floor_000057.jpg",
+    "data/lectures/leph106/1x5prEaDVgFXoxsSilPHSRjPsof8N1rX1/frames/floor_000061.jpg"
+  ],
+  "markdown_body": "## Ideal resistor vs. ideal inductor; self-inductance of a solenoid (NCERT 6.7)\n\nAn **ideal resistor** has zero self-inductance; an **ideal inductor** has zero resistance and high self-inductance. An inductor is a tightly wound coil of insulated wire. (Real components are never perfectly ideal.)\n\n### Self-inductance of a solenoid\nSolenoid: length $L$, $n$ turns per unit length ($N=nL$ total turns), area $A$, current $I$. Using $B=\\mu_0 nI$ (Ampere's law) and flux per turn $\\phi=BA$:\n$$\\phi_\\text{total} = N\\phi = N A B = (nL)(A)(\\mu_0 nI) = \\mu_0 n^2 A L\\, I$$\nSince $\\phi_\\text{total}=LI$:\n$$\\boxed{L = \\mu_0 n^2 A L}$$\nWith a magnetic core of relative permeability $\\mu_r$: $L=\\mu_0\\mu_r n^2 A L$ (bigger $L$ opposes current more strongly).\n\n## Energy stored in an inductor\n\nCharging current against the back EMF does work: $dW = E\\,dq$. With $E=L\\,dI/dt$ and $dq=I\\,dt$: $dW = LI\\,dI$. Integrating from $0$ to $I$:\n$$\\boxed{U_M = \\frac{1}{2}LI^2 = \\frac{1}{2}\\phi I}$$\n\n### Energy density (energy per unit volume)\n$$u = \\frac{U_M}{\\text{Volume}} = \\frac{\\frac12 LI^2}{AL}$$\nSubstituting $\\phi=NAB$, $L=\\phi/I$, and $B=\\mu_0 nI$ (so $nI=B/\\mu_0$), this simplifies to the standard result:\n$$\\boxed{u = \\frac{B^2}{2\\mu_0}}$$\n\n## Mutual induction (intro)\n\n**Phenomenon:** inducing a current in a nearby coil (secondary, $S$) due to a changing current in another coil (primary, $P$). Coefficient of mutual induction:\n$$\\phi_S \\propto I_P$$\n\n**Demo:** AC-driven primary coil $A$; secondary coil $B$ with a bulb lights up due to mutual induction. Moving $B$ further from $A$ dims the bulb — flux linking $B$ decreases with separation.\n\n---\n*Note on this lecture's transcript:* the derivation of energy density is cut off mid-algebra right at the transcript's own final words, and the introduction to mutual induction (this lecture's own third named topic) never appears in the transcript at all. Both are completed/grounded from a board frame; see the flagged span below.\n"
+}

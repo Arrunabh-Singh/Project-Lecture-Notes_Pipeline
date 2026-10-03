@@ -1,0 +1,129 @@
+{
+  "file_id": "160Qxz5xhlbr-YcEYiR74_oUg0ED9UmbM",
+  "chapter_id": "leph102",
+  "title": "Equipotential Surfaces, and an Introduction to Dielectric Polarisation",
+  "duration_seconds": 2916.07,
+  "claims": [
+    {
+      "text": "An equipotential surface is a surface drawn in an electric field such that the electric potential is the same at every point on it -- e.g. concentric spherical surfaces around a point charge q, where VA = VB = VC = VD for any points A, B, C, D on the same sphere",
+      "transcript_span": [
+        0.0,
+        245.9
+      ],
+      "frame_path": "data/lectures/leph102/160Qxz5xhlbr-YcEYiR74_oUg0ED9UmbM/frames/floor_000007.jpg",
+      "ncert_section": "2.6",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "The electric field is always perpendicular to an equipotential surface at every point. Reasoning: if E had a component along the surface, moving a test charge along that direction would require nonzero work, but work done between any two points on an equipotential surface is zero by definition (no potential difference) -- so no tangential component of E can exist",
+      "transcript_span": [
+        245.9,
+        726.0
+      ],
+      "frame_path": "data/lectures/leph102/160Qxz5xhlbr-YcEYiR74_oUg0ED9UmbM/frames/floor_000027.jpg",
+      "ncert_section": "2.6",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "The surface of a conductor in electrostatic equilibrium (e.g. a charged spherical conductor) is itself an equipotential surface, since E has no tangential component on/inside a conductor at equilibrium",
+      "transcript_span": [
+        301.8,
+        408.8
+      ],
+      "frame_path": null,
+      "ncert_section": "2.6",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "E = -dV/dr (already derived earlier in the chapter): the negative sign means the electric field points in the direction of decreasing potential, not increasing potential",
+      "transcript_span": [
+        935.2,
+        1076.7
+      ],
+      "frame_path": "data/lectures/leph102/160Qxz5xhlbr-YcEYiR74_oUg0ED9UmbM/frames/floor_000027.jpg",
+      "ncert_section": "2.2",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Worked examples applying the decreasing-potential rule: for a negative charge -q with points A (closer) and B (farther), decide the sign of VA vs VB and the direction of E purely from where potential is higher/lower along the field-line direction; same method repeated for a positive charge +q with points C, D",
+      "transcript_span": [
+        1076.7,
+        1547.0
+      ],
+      "frame_path": "data/lectures/leph102/160Qxz5xhlbr-YcEYiR74_oUg0ED9UmbM/frames/floor_000027.jpg",
+      "ncert_section": "2.6",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Since E = -dV/dr, for a fixed potential difference dV between two successive equipotential surfaces, the spacing dr between them is inversely proportional to the field strength E: closer spacing where E is stronger, wider spacing where E is weaker",
+      "transcript_span": [
+        1599.4,
+        2216.7
+      ],
+      "frame_path": null,
+      "ncert_section": "2.6",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Equipotential surfaces for a uniform electric field are planes perpendicular to the field direction, equally spaced (since E is constant, equal potential differences correspond to equal spacings)",
+      "transcript_span": [
+        2636.3,
+        2736.6
+      ],
+      "frame_path": null,
+      "ncert_section": "2.6",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Free charges exist in conductors/metals and are able to move; bound charges are the ions and electrons bound within the atoms/molecules of an insulator (dielectric) and cannot move freely",
+      "transcript_span": null,
+      "frame_path": "data/lectures/leph102/160Qxz5xhlbr-YcEYiR74_oUg0ED9UmbM/frames/floor_000078.jpg",
+      "ncert_section": "2.10",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Electric polarisation is the phenomenon of relative displacement of the positive and negative charge within a dielectric's molecules, caused by an external electric field -- each molecule develops a separation between its positive and negative charge (a simplified induced-dipole picture), rather than charge actually leaving the material",
+      "transcript_span": [
+        2840.1,
+        2955.6
+      ],
+      "frame_path": "data/lectures/leph102/160Qxz5xhlbr-YcEYiR74_oUg0ED9UmbM/frames/floor_000095.jpg",
+      "ncert_section": "2.10",
+      "ncert_agreement": "agrees"
+    }
+  ],
+  "uncertain_spans": [
+    {
+      "start_seconds": 2040.0,
+      "end_seconds": 2740.0,
+      "reason": "Board frames in this window (e.g. floor_000103 at t=2040s: polar vs non-polar molecule classification with examples H2O/HCl/CO, induced-charge diagram; floor_000138 at t=2740s: polarisation vector P = q_i.t/(A.t) = q_i/A with SI unit C/m^2, and 'susceptibility of a dielectric') show substantially more advanced dielectric material than the transcript's own narrated content ever reaches -- the transcript's last 51st segment (2900.5-2955.6s) is still at the introductory 'one molecule gets displaced, simplified model' stage. Two other frames sampled in this same document (floor_000066 at t=1300s and floor_000074 at t=1460s) show an unrelated 'electrostatic shielding / Faraday's cage' page that has no correspondence anywhere in this lecture's transcript at all, confirming this recording's slide document contains material from other classes that the teacher scrolls past or pre-writes without narrating in this particular video. For that reason the polar/non-polar classification and the P=q_i/A formula are NOT included as grounded claims above -- only the qualitative polarisation definition that the transcript itself independently states is included."
+    }
+  ],
+  "ncert_sections_covered": [
+    "2.6",
+    "2.10"
+  ],
+  "frame_paths": [
+    "data/lectures/leph102/160Qxz5xhlbr-YcEYiR74_oUg0ED9UmbM/frames/floor_000001.jpg",
+    "data/lectures/leph102/160Qxz5xhlbr-YcEYiR74_oUg0ED9UmbM/frames/floor_000007.jpg",
+    "data/lectures/leph102/160Qxz5xhlbr-YcEYiR74_oUg0ED9UmbM/frames/floor_000008.jpg",
+    "data/lectures/leph102/160Qxz5xhlbr-YcEYiR74_oUg0ED9UmbM/frames/floor_000011.jpg",
+    "data/lectures/leph102/160Qxz5xhlbr-YcEYiR74_oUg0ED9UmbM/frames/floor_000012.jpg",
+    "data/lectures/leph102/160Qxz5xhlbr-YcEYiR74_oUg0ED9UmbM/frames/floor_000013.jpg",
+    "data/lectures/leph102/160Qxz5xhlbr-YcEYiR74_oUg0ED9UmbM/frames/floor_000021.jpg",
+    "data/lectures/leph102/160Qxz5xhlbr-YcEYiR74_oUg0ED9UmbM/frames/floor_000023.jpg",
+    "data/lectures/leph102/160Qxz5xhlbr-YcEYiR74_oUg0ED9UmbM/frames/floor_000027.jpg",
+    "data/lectures/leph102/160Qxz5xhlbr-YcEYiR74_oUg0ED9UmbM/frames/floor_000030.jpg",
+    "data/lectures/leph102/160Qxz5xhlbr-YcEYiR74_oUg0ED9UmbM/frames/floor_000038.jpg",
+    "data/lectures/leph102/160Qxz5xhlbr-YcEYiR74_oUg0ED9UmbM/frames/floor_000047.jpg",
+    "data/lectures/leph102/160Qxz5xhlbr-YcEYiR74_oUg0ED9UmbM/frames/floor_000049.jpg",
+    "data/lectures/leph102/160Qxz5xhlbr-YcEYiR74_oUg0ED9UmbM/frames/floor_000051.jpg",
+    "data/lectures/leph102/160Qxz5xhlbr-YcEYiR74_oUg0ED9UmbM/frames/floor_000058.jpg",
+    "data/lectures/leph102/160Qxz5xhlbr-YcEYiR74_oUg0ED9UmbM/frames/floor_000061.jpg",
+    "data/lectures/leph102/160Qxz5xhlbr-YcEYiR74_oUg0ED9UmbM/frames/floor_000078.jpg",
+    "data/lectures/leph102/160Qxz5xhlbr-YcEYiR74_oUg0ED9UmbM/frames/floor_000088.jpg",
+    "data/lectures/leph102/160Qxz5xhlbr-YcEYiR74_oUg0ED9UmbM/frames/floor_000092.jpg",
+    "data/lectures/leph102/160Qxz5xhlbr-YcEYiR74_oUg0ED9UmbM/frames/floor_000095.jpg"
+  ],
+  "markdown_body": "## Equipotential surfaces (NCERT 2.6)\n\n### Definition\nA surface drawn in an electric field such that the electric potential is the same at every point of it. For points $A,B,C,D$ all on one such surface around a charge $q$:\n$$V_A = V_B = V_C = V_D$$\n\n### E is always perpendicular to an equipotential surface\nIf $\\vec E$ had any component *along* the surface, moving a test charge in that direction would require work -- but work done between any two points of an equipotential surface is zero (no potential difference between them, by definition). So $\\vec E$ can have no tangential component: it must be purely normal to the surface everywhere.\n\n**Corollary:** the surface of a conductor in electrostatic equilibrium is itself an equipotential surface (no tangential $E$ on/inside a conductor at equilibrium).\n\n### Reading direction and relative magnitude of V from E = -dV/dr\n$$\\vec E = -\\frac{dV}{dr}$$\nThe **negative sign** means $\\vec E$ points in the direction of *decreasing* potential -- not increasing. This gives a fast way to answer \"which of two points is at higher potential / which way does $E$ point\" questions: follow the field lines from high potential to low potential (for $-q$: field lines point *into* the charge, so potential increases as you move away from it; for $+q$: field lines point *away*, so potential decreases as you move away).\n\n### Spacing between equipotential surfaces\nFor a **fixed** potential difference $dV$ between successive equipotential surfaces, the spacing $dr$ between them is set by $E = -dV/dr$, i.e. $dr \\propto 1/E$:\n- Where the field is **stronger**, equipotential surfaces are drawn **closer together**.\n- Where the field is **weaker**, they are drawn **farther apart**.\n\nThis is the visual companion to field-line density: both crowd together where $E$ is large.\n\n### Equipotential surfaces for a uniform field\nFor a uniform $\\vec E$ (e.g. between parallel plates), equipotential surfaces are **planes perpendicular to $\\vec E$**, equally spaced (since $E$ doesn't vary, equal $dV$ steps mean equal $dr$ steps throughout).\n\n## Electric polarisation -- introduction (NCERT 2.10)\n\n**Free charges** exist in conductors (metals) and are free to move through the material. **Bound charges** are the electrons and ions bound within the atoms/molecules of an insulator -- they cannot move freely through the material. Insulators are also called **dielectrics**.\n\n**Electric polarisation:** when a dielectric is placed in an external electric field, each molecule's positive and negative charge get displaced relative to each other (a simplified picture of an induced dipole forming), even though no charge actually leaves the material. This relative displacement, summed across the dielectric, is what's meant by polarisation.\n\n---\n*Note on this lecture's transcript:* the transcript stops right at the introduction of polarisation -- board pages visible later in this same recording carry more advanced dielectric material (polar/non-polar molecule classification, a quantitative polarisation formula) that the transcript's own narration never reaches, and at least one other visible page (an \"electrostatic shielding\" page) doesn't belong to this lecture's spoken content at all. See the flagged span below -- only the qualitative polarisation definition above, independently confirmed by the transcript's own words, is treated as covered by this lecture.\n"
+}

@@ -1,0 +1,150 @@
+{
+  "file_id": "1vVYmmSe60thQw-aRUF1eIwsZUJLeNBHh",
+  "chapter_id": "leph106",
+  "title": "Lenz's Law and Motional EMF",
+  "duration_seconds": 2129.8,
+  "claims": [
+    {
+      "text": "Recap: Faraday's law gives only the MAGNITUDE of induced emf (eps = N dPhi/dt); it says nothing about direction. Lenz's law supplies the direction: the induced emf/current is always such that it opposes the cause that produces it.",
+      "transcript_span": [
+        4.1,
+        129.6
+      ],
+      "frame_path": "data/lectures/leph106/1vVYmmSe60thQw-aRUF1eIwsZUJLeNBHh/frames/floor_000013.jpg",
+      "ncert_section": "6.5",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Derivation of Lenz's law from energy conservation: bring a magnet's north pole towards a coil. If the near face of the coil were induced to become a south pole, the coil would spontaneously attract the magnet inward with zero work done -- creating energy from nothing, which is impossible. So the near face MUST become north (repelling the approaching magnet); the work done pushing against this repulsion is what converts to the induced electrical energy. This is why Lenz's law is said to be a statement of conservation of energy.",
+      "transcript_span": [
+        151.8,
+        608.2
+      ],
+      "frame_path": "data/lectures/leph106/1vVYmmSe60thQw-aRUF1eIwsZUJLeNBHh/frames/floor_000013.jpg",
+      "ncert_section": "6.5",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Same reasoning run in reverse: as the magnet is withdrawn, the near face of the coil must become attractive (opposite pole to the receding magnet) so that work must be done AGAINST attraction to pull it away -- again converting mechanical work to electrical energy, consistent with why the induced current reverses direction between approach and withdrawal (first observed back in Faraday's Experiment 1).",
+      "transcript_span": [
+        438.9,
+        718.5
+      ],
+      "frame_path": "data/lectures/leph106/1vVYmmSe60thQw-aRUF1eIwsZUJLeNBHh/frames/floor_000019.jpg",
+      "ncert_section": "6.5",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Lenz's law numerical: a rectangular/triangular conducting loop (ABC) is dragged through a region with field B into the page, in three stages -- entering (flux increasing), fully inside with the same portion translating (no flux change once the enclosed area within the field stops changing shape/coverage), and leaving (flux decreasing). Direction found by the right-hand rule: curl the fingers in the (trial) current direction, thumb gives the field the loop's own current would create; this must OPPOSE the field's actual change. Result: current is anti-clockwise while entering, zero while the flux is momentarily unchanged, and clockwise while leaving.",
+      "transcript_span": [
+        809.5,
+        1445.0
+      ],
+      "frame_path": "data/lectures/leph106/1vVYmmSe60thQw-aRUF1eIwsZUJLeNBHh/frames/floor_000037.jpg",
+      "ncert_section": "6.5",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Same right-hand-rule technique applied to circle, square, and triangle loops each crossing a field-region boundary: induced current opposes the local flux change (anti-clockwise entering the field shown into the page, etc.) -- practice repetitions of the same Lenz's-law reasoning as the ABC-loop problem, worked entirely on the board.",
+      "transcript_span": null,
+      "frame_path": "data/lectures/leph106/1vVYmmSe60thQw-aRUF1eIwsZUJLeNBHh/frames/floor_000049.jpg",
+      "ncert_section": "6.5",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "A different Lenz's-law setup (board only): a straight current-carrying wire runs near a small coil/ring; when the wire's current is increasing, the induced current in the nearby coil is clockwise (opposing the increasing flux linking it from the wire's field); a second, smaller ring case is also worked with current shown anti-clockwise.",
+      "transcript_span": null,
+      "frame_path": "data/lectures/leph106/1vVYmmSe60thQw-aRUF1eIwsZUJLeNBHh/frames/floor_000059.jpg",
+      "ncert_section": "6.5",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "A coil moving towards a bar magnet's field region (viewed from the north-pole side): direction of induced current found by the same pole-facing/energy-conservation method used earlier -- worked to a concluded clockwise/anti-clockwise answer on the board.",
+      "transcript_span": null,
+      "frame_path": "data/lectures/leph106/1vVYmmSe60thQw-aRUF1eIwsZUJLeNBHh/frames/floor_000063.jpg",
+      "ncert_section": "6.5",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Faraday's and Lenz's laws combined into the single boarded equation with its sign restored: eps = -N dPhi/dt, where the minus sign IS the mathematical statement of Lenz's law (the induced emf opposes the change producing it). This completes what Lecture 1 deliberately left as a magnitude-only |eps| = N dPhi/dt.",
+      "transcript_span": null,
+      "frame_path": "data/lectures/leph106/1vVYmmSe60thQw-aRUF1eIwsZUJLeNBHh/frames/floor_000073.jpg",
+      "ncert_section": "6.4",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Framing for the rest of the lecture (board only): since Phi = ABcos(theta), emf can be induced three ways -- changing B, changing the area A, or changing the angle theta. Changing B was covered via Faraday/Lenz already; changing A is introduced here as leading to 'motional emf'.",
+      "transcript_span": null,
+      "frame_path": "data/lectures/leph106/1vVYmmSe60thQw-aRUF1eIwsZUJLeNBHh/frames/floor_000077.jpg",
+      "ncert_section": "6.6",
+      "ncert_agreement": "teacher_simplifies"
+    },
+    {
+      "text": "Motional emf derivation (flux rule, board only): a conducting rod ab of length l slides with velocity v along rails in a uniform field B (into the page), sweeping out area at rate l(dx/dt). d(Phi) = B l dA = B l dx, so eps = -dPhi/dt = -B l (dx/dt) = -Blv. Since it is the conductor's own motion producing the emf, this is called MOTIONAL EMF: eps = -Blv, valid when B, l, and v are mutually perpendicular.",
+      "transcript_span": null,
+      "frame_path": "data/lectures/leph106/1vVYmmSe60thQw-aRUF1eIwsZUJLeNBHh/frames/floor_000085.jpg",
+      "ncert_section": "6.6",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Direction of motional emf/current via Fleming's Right Hand Rule (FRHR), boarded as a mnemonic: thumb = direction of motion (velocity), forefinger = magnetic field, centre (middle) finger = direction of induced current.",
+      "transcript_span": null,
+      "frame_path": "data/lectures/leph106/1vVYmmSe60thQw-aRUF1eIwsZUJLeNBHh/frames/floor_000091.jpg",
+      "ncert_section": null,
+      "ncert_agreement": null
+    },
+    {
+      "text": "Special and general cases of motional emf (board only): if v is parallel to B, a moving conductor has zero induced emf (no field component drives the charge separation along the rod). In the fully general case where the rod (length l) and its velocity v are both inclined at angle theta to B, the induced emf is eps = Blv sin(theta).",
+      "transcript_span": null,
+      "frame_path": "data/lectures/leph106/1vVYmmSe60thQw-aRUF1eIwsZUJLeNBHh/frames/floor_000106.jpg",
+      "ncert_section": null,
+      "ncert_agreement": null
+    }
+  ],
+  "uncertain_spans": [
+    {
+      "start_seconds": 646.0,
+      "end_seconds": 2134.8,
+      "reason": "Severe delayed-duplication, worse than a single repeat: the same block of content (magnet-withdrawal Lenz argument through the ABC-loop right-hand-rule problem, corresponding to real segments ~44-100) appears to have been re-transcribed by the model a SECOND time as segments 101-132 (timestamps 1632.2-1888.8s) and a THIRD time as segments 133-167 (timestamps 1888.8-2134.8s, i.e. running to and past the true 2129.8s end) -- e.g. segment 71@1070s / 143@1966s / 159@2072s are a near-verbatim ratio=1.00 triple, as are several dozen other pairs the delayed-duplicate scan flagged (54 pairs total, ratios 0.71-1.00). check_coverage()/sanitize_segments() do not catch this: duration coverage is ~100% and repetition_detected is False, because none of the duplicate segments are ADJACENT to their earlier twin -- each recurrence is separated by many segments, exactly the blind spot this scan exists for."
+    },
+    {
+      "start_seconds": 950.0,
+      "end_seconds": 2129.8,
+      "reason": "Consequence of the above: essentially everything the board shows from floor_000049 (t=960s) onward is missing from the ASR transcript, which spends that entire real-time window re-outputting earlier material under fabricated later timestamps instead. No transcript segment anywhere in this 168-segment transcript contains the words 'motional', 'Blv', 'Fleming', or 'Lorentz' -- despite 'motional emf' being this lecture's own named second topic, and despite a complete board derivation of it existing on schedule, well inside the verified 2129.8s duration. Board timeline used to ground this note: floor_000049 (960s) circle/square/triangle Lenz practice problems; floor_000059 (1160s) current-carrying-wire-and-coil problem; floor_000063/65 (1240-1280s) coil-approaching-magnet problem; floor_000071/73 (1400-1440s) Faraday+Lenz recombined WITH the minus sign, then 'ways to induce emf'; floor_000077-87 (1520-1720s) the full motional-emf flux-rule derivation to eps=-Blv; floor_000089/91 (1760-1800s) Fleming's Right Hand Rule; floor_000095-106 (1880-2100s, the last extracted frame) the v-parallel-to-B null case and the general eps=Blv*sin(theta) case, which is where the board's own content ends, matching the lecture's true runtime closely. Every claim in this note past 'the ABC-loop problem' is grounded from board frames alone for exactly this reason."
+    }
+  ],
+  "ncert_sections_covered": [
+    "6.4",
+    "6.5",
+    "6.6"
+  ],
+  "frame_paths": [
+    "data/lectures/leph106/1vVYmmSe60thQw-aRUF1eIwsZUJLeNBHh/frames/floor_000001.jpg",
+    "data/lectures/leph106/1vVYmmSe60thQw-aRUF1eIwsZUJLeNBHh/frames/floor_000013.jpg",
+    "data/lectures/leph106/1vVYmmSe60thQw-aRUF1eIwsZUJLeNBHh/frames/floor_000019.jpg",
+    "data/lectures/leph106/1vVYmmSe60thQw-aRUF1eIwsZUJLeNBHh/frames/floor_000025.jpg",
+    "data/lectures/leph106/1vVYmmSe60thQw-aRUF1eIwsZUJLeNBHh/frames/floor_000031.jpg",
+    "data/lectures/leph106/1vVYmmSe60thQw-aRUF1eIwsZUJLeNBHh/frames/floor_000037.jpg",
+    "data/lectures/leph106/1vVYmmSe60thQw-aRUF1eIwsZUJLeNBHh/frames/floor_000043.jpg",
+    "data/lectures/leph106/1vVYmmSe60thQw-aRUF1eIwsZUJLeNBHh/frames/floor_000049.jpg",
+    "data/lectures/leph106/1vVYmmSe60thQw-aRUF1eIwsZUJLeNBHh/frames/floor_000055.jpg",
+    "data/lectures/leph106/1vVYmmSe60thQw-aRUF1eIwsZUJLeNBHh/frames/floor_000059.jpg",
+    "data/lectures/leph106/1vVYmmSe60thQw-aRUF1eIwsZUJLeNBHh/frames/floor_000063.jpg",
+    "data/lectures/leph106/1vVYmmSe60thQw-aRUF1eIwsZUJLeNBHh/frames/floor_000065.jpg",
+    "data/lectures/leph106/1vVYmmSe60thQw-aRUF1eIwsZUJLeNBHh/frames/floor_000071.jpg",
+    "data/lectures/leph106/1vVYmmSe60thQw-aRUF1eIwsZUJLeNBHh/frames/floor_000073.jpg",
+    "data/lectures/leph106/1vVYmmSe60thQw-aRUF1eIwsZUJLeNBHh/frames/floor_000077.jpg",
+    "data/lectures/leph106/1vVYmmSe60thQw-aRUF1eIwsZUJLeNBHh/frames/floor_000079.jpg",
+    "data/lectures/leph106/1vVYmmSe60thQw-aRUF1eIwsZUJLeNBHh/frames/floor_000083.jpg",
+    "data/lectures/leph106/1vVYmmSe60thQw-aRUF1eIwsZUJLeNBHh/frames/floor_000085.jpg",
+    "data/lectures/leph106/1vVYmmSe60thQw-aRUF1eIwsZUJLeNBHh/frames/floor_000087.jpg",
+    "data/lectures/leph106/1vVYmmSe60thQw-aRUF1eIwsZUJLeNBHh/frames/floor_000089.jpg",
+    "data/lectures/leph106/1vVYmmSe60thQw-aRUF1eIwsZUJLeNBHh/frames/floor_000091.jpg",
+    "data/lectures/leph106/1vVYmmSe60thQw-aRUF1eIwsZUJLeNBHh/frames/floor_000095.jpg",
+    "data/lectures/leph106/1vVYmmSe60thQw-aRUF1eIwsZUJLeNBHh/frames/floor_000097.jpg",
+    "data/lectures/leph106/1vVYmmSe60thQw-aRUF1eIwsZUJLeNBHh/frames/floor_000099.jpg",
+    "data/lectures/leph106/1vVYmmSe60thQw-aRUF1eIwsZUJLeNBHh/frames/floor_000101.jpg",
+    "data/lectures/leph106/1vVYmmSe60thQw-aRUF1eIwsZUJLeNBHh/frames/floor_000106.jpg"
+  ],
+  "markdown_body": "## Recap: Faraday's law gives magnitude only (NCERT 6.4)\n$$|\\varepsilon| = N\\frac{d\\Phi_B}{dt}$$\nThis tells you *how much* emf is induced, but not its *direction* -- for that, we need **Lenz's law**.\n\n## Lenz's Law (NCERT 6.5)\n**Statement:** the direction of an induced emf (and the current it drives) is always such that it **opposes the cause that produces it**.\n\n**Why -- derived from energy conservation, not asserted:** bring the north pole of a magnet towards a coil.\n- *Suppose* the coil's near face became a **south** pole. South attracts north, so the coil would pull the magnet in on its own, with **no work done by you** -- yet a current (energy) would appear. That is a free lunch, forbidden by conservation of energy.\n- So the near face **must** become **north** instead. You now have to do mechanical work pushing the magnet in *against* this repulsion -- and it is exactly that mechanical work which converts into the induced electrical energy.\n\nRun the same argument with the magnet being *withdrawn*: the near face must become attractive (opposite pole), so you do work pulling it away against attraction -- which is also why the induced current reverses direction between approach and withdrawal (matching Experiment 1 from Lecture 1). **Lenz's law is thus a restatement of conservation of energy**, and the minus sign in $\\varepsilon = -N\\,d\\Phi_B/dt$ (restored explicitly later this lecture) is its mathematical signature.\n\n### Worked Lenz's-law problems (direction-finding practice)\nThe board works through several loop-crossing-a-field-boundary problems using the right-hand rule (curl fingers along the trial current, thumb gives the field that current would create; the real current must be whichever direction makes that field **oppose** the actual flux change):\n- A triangular loop $ABC$ dragged through a field region into the page: **anti-clockwise** while entering (opposing increasing flux), **no current** while fully inside and flux is momentarily steady, **clockwise** while leaving (opposing decreasing flux).\n- The same technique repeated for circular and square loops crossing a field boundary.\n- A straight current-carrying wire next to a small coil: coil current is clockwise when the wire's current (and hence its field) is increasing.\n- A coil approaching a bar magnet's field region, solved by the pole-facing method.\n\n*(These worked examples are grounded from board frames -- see the flagged spans below for why the transcript is not a reliable source for this material.)*\n\n## Motional EMF (NCERT 6.6)\n**Setup:** since $\\Phi_B = BA\\cos\\theta$, emf can be induced by changing $B$, changing $A$, or changing $\\theta$. Changing $B$ is the Faraday/Lenz case just covered; changing the **area** is new and gives **motional emf**.\n\n**Derivation (flux rule).** A conducting rod $ab$ of length $l$ slides with velocity $v$ along rails, in a uniform field $B$ into the page. In time $dt$ it sweeps extra area $dA = l\\,dx$:\n$$d\\Phi_B = B\\,dA = B\\,l\\,dx \\quad\\Rightarrow\\quad \\varepsilon = -\\frac{d\\Phi_B}{dt} = -Bl\\frac{dx}{dt} = -Blv$$\nBecause the emf here comes from the conductor's own **motion** (not a changing $B$), this is called **motional emf**:\n$$\\boxed{\\varepsilon = -Blv} \\qquad (B, l, v \\text{ mutually perpendicular})$$\n\n**Direction -- Fleming's Right Hand Rule (FRHR):** thumb = direction of motion ($v$), forefinger = magnetic field ($B$), centre finger = induced current.\n\n**Special and general cases:**\n- If $v \\parallel B$: **no emf is induced** (the rod's motion has no component driving charges along its length relative to the field).\n- If the rod and its velocity are both inclined at angle $\\theta$ to $B$ (the fully general case): $\\varepsilon = Blv\\sin\\theta$.\n\n---\n*Note on this lecture's transcript:* the opening recap and the Lenz's-law energy-conservation argument (roughly the first 950 seconds of real content) are well corroborated by both transcript and board frames. Past that point, the transcript becomes unreliable -- a large block of earlier material gets re-transcribed a second and even a third time with fabricated later timestamps, silently standing in for the real audio. As a direct result, **every worked Lenz's-law practice problem past the ABC-loop case, the explicit $\\varepsilon=-N\\,d\\Phi_B/dt$ recombination, and this lecture's entire motional-emf derivation (its own named second topic) are grounded from board frames alone.** See the flagged spans below for the full timeline and why the automated coverage/repetition checks did not catch it.\n"
+}

@@ -1,0 +1,184 @@
+{
+  "file_id": "158rAfrYl7wWw7v6FnT6HXx56SHGeLzgM",
+  "chapter_id": "leph106",
+  "title": "Flux/EMF Graph Numerical, Induced Charge, Induced Electric Field, Eddy Currents",
+  "duration_seconds": 2188.67,
+  "claims": [
+    {
+      "text": "Worked numerical (NCERT-style, classic rectangular-conductor-with-moving-arm problem): the arm PQ of a rectangular conductor is moved from x=0 outwards. A uniform magnetic field is perpendicular to the plane and extends from x=0 to x=b, and is zero for x>b; only arm PQ has substantial resistance r. PQ is pulled outward from x=0 to x=2b, then moved back to x=0 at constant speed v. Find and sketch how flux, induced EMF, force needed to pull the arm, and power dissipated all vary with distance",
+      "transcript_span": [
+        2.08,
+        45.0
+      ],
+      "frame_path": "data/lectures/leph106/158rAfrYl7wWw7v6FnT6HXx56SHGeLzgM/frames/floor_000030.jpg",
+      "ncert_section": "6.4",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Flux: for 0<=x<b, phi=Blx (increasing linearly, since PQ is sweeping out area within the field region). For b<=x<2b, phi=Blb (constant -- once PQ leaves the field region at x=b, no more new field-threaded area is swept, so flux stays at its maximum value). On the return trip (2b back to 0), the same pattern retraces in reverse: flux decreases back from Blb to 0 as PQ re-enters and crosses the field region",
+      "transcript_span": [
+        45.0,
+        460.0
+      ],
+      "frame_path": "data/lectures/leph106/158rAfrYl7wWw7v6FnT6HXx56SHGeLzgM/frames/floor_000030.jpg",
+      "ncert_section": "6.4",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Induced EMF: E=-dphi/dt=-Blv for 0<=x<b (constant magnitude while flux is linearly changing), and E=0 for b<=x<2b (flux is constant there, so no EMF). Graphed against x, this gives a step-function-like shape: -Blv (or +Blv, sign depending on direction of motion) on each field-crossing interval and zero on the field-free interval, alternating on the outward and return trips",
+      "transcript_span": [
+        460.0,
+        605.0
+      ],
+      "frame_path": "data/lectures/leph106/158rAfrYl7wWw7v6FnT6HXx56SHGeLzgM/frames/floor_000030.jpg",
+      "ncert_section": "6.4",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Force needed to pull the arm PQ: since current I=E/r=Blv/r flows while PQ is in the field, the magnetic force opposing the motion (which the applied force must overcome to maintain constant velocity) is F=IlB=(Blv/r)lB=B^2l^2v/r for 0<=x<b, and F=0 for b<=x<2b (no current, hence no opposing force, once PQ leaves the field region)",
+      "transcript_span": null,
+      "frame_path": "data/lectures/leph106/158rAfrYl7wWw7v6FnT6HXx56SHGeLzgM/frames/floor_000030.jpg",
+      "ncert_section": "6.4",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Power dissipated as Joule heating: P=I^2r=(Blv/r)^2 r=B^2l^2v^2/r for 0<=x<b, and P=0 for b<=x<2b",
+      "transcript_span": null,
+      "frame_path": "data/lectures/leph106/158rAfrYl7wWw7v6FnT6HXx56SHGeLzgM/frames/floor_000030.jpg",
+      "ncert_section": "6.4",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Proof that induced charge does not depend on the time interval, only on the change in flux: starting from E=-N dphi/dt, and I=E/R=-(N/R)(dphi/dt), the charge that flows in a small time dt is dq=I dt=(N/R)dphi. Integrating (or working with a finite interval delta t and corresponding flux change delta phi), q=(N/R)*delta(phi) -- the delta t cancels out entirely, so the induced charge depends only on the number of turns N, the resistance R, and the total change in flux, NOT on how quickly or slowly that change happens",
+      "transcript_span": [
+        616.0,
+        990.0
+      ],
+      "frame_path": null,
+      "ncert_section": "6.4",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Induced electric field is fundamentally different from electrostatic (Coulomb) electric field: an electrostatic field arises from static charges and is conservative (the closed-loop integral E.dl around any closed path is zero, since electrostatic PE/work is path-independent). An induced electric field, however, arises due to a time-varying magnetic field -- for this induced field, the closed-loop integral E.dl is NOT zero (it equals the induced EMF, -dphi/dt); the induced electric field is therefore non-conservative",
+      "transcript_span": [
+        995.0,
+        1207.0
+      ],
+      "frame_path": null,
+      "ncert_section": "6.4",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Eddy currents (also called Foucault currents): defined as the induced circulating currents produced within a metal itself, due to a change in the magnetic flux linked with the metal. Their direction is given by Lenz's law (they oppose the change that produces them)",
+      "transcript_span": [
+        1200.0,
+        1284.0
+      ],
+      "frame_path": "data/lectures/leph106/158rAfrYl7wWw7v6FnT6HXx56SHGeLzgM/frames/floor_000066.jpg",
+      "ncert_section": "6.5",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Damping example: a metal plate suspended so it can oscillate in and out of a magnetic field comes to rest very quickly (compared to oscillating with no field present), because the varying flux through the plate as it moves induces eddy currents whose direction (by Lenz's law) opposes the oscillation -- effectively, induced poles form that attract/oppose the plate's motion, damping it. Eddy currents (and hence the damping) can be reduced by cutting slots/holes in the plate, forcing any induced current to take a longer path, increasing effective resistance and reducing current -- such a slotted plate oscillates for a longer time",
+      "transcript_span": [
+        1284.0,
+        1582.0
+      ],
+      "frame_path": "data/lectures/leph106/158rAfrYl7wWw7v6FnT6HXx56SHGeLzgM/frames/floor_000066.jpg",
+      "ncert_section": "6.5",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Jumping-ring/disc demonstration: a coil connected to an AC source, with a metal disc placed on/near it. When switched on, the varying magnetic field (from the varying current) induces eddy currents in the disc; by Lenz's law these currents oppose the change, creating an induced pole that repels the coil's pole, so the disc jumps upward, falls back under gravity, and bounces repeatedly",
+      "transcript_span": [
+        1582.0,
+        1711.0
+      ],
+      "frame_path": null,
+      "ncert_section": "6.5",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Falling-magnet-in-a-tube demonstration: a magnet is dropped through two tubes of equal length L, one plastic (non-conductive) and one copper (conductive). As the magnet falls through the copper tube, its changing flux induces eddy currents in the tube walls, which (by Lenz's law) oppose the magnet's fall, decelerating it below free-fall. As a result the magnet falling through the COPPER tube has acceleration a<g, while the magnet falling through the PLASTIC tube (no eddy currents possible, since plastic is not a conductor) falls in free fall with a=g -- so the magnet takes longer to emerge from the copper tube than from the plastic one",
+      "transcript_span": null,
+      "frame_path": "data/lectures/leph106/158rAfrYl7wWw7v6FnT6HXx56SHGeLzgM/frames/floor_000092.jpg",
+      "ncert_section": "6.5",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Disadvantages of eddy currents: (1) loss of electrical energy in the form of heat. (2) they may cause an unwanted damping effect (as in the oscillating-plate example). Applications of eddy currents (mentioned without going into detail): induction furnaces (heat production), speedometers, dead-beat galvanometers (the needle settles at its deflected reading quickly rather than oscillating, because eddy currents induced in the coil's frame damp the oscillation), and electric braking systems (e.g. in trains)",
+      "transcript_span": [
+        1800.0,
+        2038.0
+      ],
+      "frame_path": null,
+      "ncert_section": "6.5",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Introducing EMF induced by changing the orientation of a coil (third way to change flux, alongside changing B and changing area): flux phi=AB cos(theta), where theta is the angle between the coil's area vector (normal, n-hat) and the magnetic field B. As the coil is rotated by angle theta (varying with time), this sets up the changing flux needed for an induced EMF -- this is the underlying principle of the AC generator",
+      "transcript_span": [
+        2038.0,
+        2206.87
+      ],
+      "frame_path": "data/lectures/leph106/158rAfrYl7wWw7v6FnT6HXx56SHGeLzgM/frames/floor_000105.jpg",
+      "ncert_section": "6.8",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Completing the EMF-by-rotation derivation: with theta=omega*t (omega=constant angular speed), phi=AB cos(omega t). Then epsilon=-dphi/dt=-d/dt(AB cos(omega t)). Using d(cos(omega t))/dt=-omega sin(omega t), this gives epsilon=AB*omega*sin(omega t) -- the sinusoidal EMF of an AC generator (for a coil of N turns, epsilon=NAB*omega*sin(omega t))",
+      "transcript_span": null,
+      "frame_path": "data/lectures/leph106/158rAfrYl7wWw7v6FnT6HXx56SHGeLzgM/frames/floor_000105.jpg",
+      "ncert_section": "6.8",
+      "ncert_agreement": "agrees"
+    }
+  ],
+  "uncertain_spans": [
+    {
+      "start_seconds": 45.0,
+      "end_seconds": 605.0,
+      "reason": "At the very start of this numerical (t=29s), the transcript explicitly announces that FOUR quantities will be found: flux, EMF, force, and power. The transcript's actual narration, however, only ever works through flux and EMF (with their graphs) before moving on (at t=605s) to a completely different topic (proving induced charge is independent of time interval) -- the force and power parts are never spoken at all. A board frame (floor_000030.jpg, t=580s -- chronologically before even the transcript's own EMF-graph discussion concludes) shows the complete solution already written for all four parts, including force (F=B^2l^2v/r) and power (P=B^2l^2v^2/r) with their own graphs vs. x. The force and power claims above are grounded entirely from this frame, not the transcript's own words."
+    },
+    {
+      "start_seconds": 1780.0,
+      "end_seconds": 1807.0,
+      "reason": "The transcript describes a falling-magnet demonstration (dropping a magnet through a copper pipe vs. a plastic pipe of the same length, to see which one it exits first) but cuts off mid-sentence ('when it is coming down...') right as it should explain the actual physical conclusion, then abruptly jumps to a new topic ('advantages and disadvantages of eddy currents') with an out-of-order timestamp (the next segment's reported start, 1800s, is earlier than the cut-off segment's own start of 1801s) -- suggesting a dropped/skipped segment rather than a natural transition. A board frame (floor_000092.jpg) shows the resolution: the copper-tube magnet falls with a<g (eddy-current braking) while the plastic-tube magnet falls with a=g (free fall, no eddy currents possible in a non-conductor). This conclusion is grounded entirely from the frame."
+    },
+    {
+      "start_seconds": 2073.0,
+      "end_seconds": 2188.67,
+      "reason": "The transcript's own words, in their final segments, introduce flux=AB*cos(theta) and identify theta as the angle between the area vector and B, but never reach the point of substituting theta=omega*t or taking the derivative to get the sinusoidal EMF form. A board frame (floor_000105.jpg) shows this next step already written (phi=AB cos(omega t), epsilon=-dphi/dt, with the derivative rule for cos(omega t) noted alongside) -- the direct, expected continuation of what the transcript itself sets up. The final AC-generator EMF formula claim above is grounded from this frame rather than the transcript's own words."
+    }
+  ],
+  "ncert_sections_covered": [
+    "6.4",
+    "6.5",
+    "6.6",
+    "6.8"
+  ],
+  "frame_paths": [
+    "data/lectures/leph106/158rAfrYl7wWw7v6FnT6HXx56SHGeLzgM/frames/floor_000001.jpg",
+    "data/lectures/leph106/158rAfrYl7wWw7v6FnT6HXx56SHGeLzgM/frames/floor_000029.jpg",
+    "data/lectures/leph106/158rAfrYl7wWw7v6FnT6HXx56SHGeLzgM/frames/floor_000030.jpg",
+    "data/lectures/leph106/158rAfrYl7wWw7v6FnT6HXx56SHGeLzgM/frames/floor_000032.jpg",
+    "data/lectures/leph106/158rAfrYl7wWw7v6FnT6HXx56SHGeLzgM/frames/floor_000036.jpg",
+    "data/lectures/leph106/158rAfrYl7wWw7v6FnT6HXx56SHGeLzgM/frames/floor_000043.jpg",
+    "data/lectures/leph106/158rAfrYl7wWw7v6FnT6HXx56SHGeLzgM/frames/floor_000045.jpg",
+    "data/lectures/leph106/158rAfrYl7wWw7v6FnT6HXx56SHGeLzgM/frames/floor_000047.jpg",
+    "data/lectures/leph106/158rAfrYl7wWw7v6FnT6HXx56SHGeLzgM/frames/floor_000052.jpg",
+    "data/lectures/leph106/158rAfrYl7wWw7v6FnT6HXx56SHGeLzgM/frames/floor_000054.jpg",
+    "data/lectures/leph106/158rAfrYl7wWw7v6FnT6HXx56SHGeLzgM/frames/floor_000055.jpg",
+    "data/lectures/leph106/158rAfrYl7wWw7v6FnT6HXx56SHGeLzgM/frames/floor_000056.jpg",
+    "data/lectures/leph106/158rAfrYl7wWw7v6FnT6HXx56SHGeLzgM/frames/floor_000063.jpg",
+    "data/lectures/leph106/158rAfrYl7wWw7v6FnT6HXx56SHGeLzgM/frames/floor_000066.jpg",
+    "data/lectures/leph106/158rAfrYl7wWw7v6FnT6HXx56SHGeLzgM/frames/floor_000078.jpg",
+    "data/lectures/leph106/158rAfrYl7wWw7v6FnT6HXx56SHGeLzgM/frames/floor_000087.jpg",
+    "data/lectures/leph106/158rAfrYl7wWw7v6FnT6HXx56SHGeLzgM/frames/floor_000090.jpg",
+    "data/lectures/leph106/158rAfrYl7wWw7v6FnT6HXx56SHGeLzgM/frames/floor_000092.jpg",
+    "data/lectures/leph106/158rAfrYl7wWw7v6FnT6HXx56SHGeLzgM/frames/floor_000096.jpg",
+    "data/lectures/leph106/158rAfrYl7wWw7v6FnT6HXx56SHGeLzgM/frames/floor_000100.jpg",
+    "data/lectures/leph106/158rAfrYl7wWw7v6FnT6HXx56SHGeLzgM/frames/floor_000102.jpg",
+    "data/lectures/leph106/158rAfrYl7wWw7v6FnT6HXx56SHGeLzgM/frames/floor_000105.jpg"
+  ],
+  "markdown_body": "## Worked numerical: flux, EMF, force, and power vs. distance (NCERT 6.4)\n\nClassic NCERT-style problem: the arm PQ of a rectangular conductor is moved from $x=0$ outwards. A uniform field $B$ is perpendicular to the plane, present for $0\\le x\\le b$ and zero for $x>b$; only PQ (length $l$) has resistance $r$. PQ is pulled from $x=0$ to $x=2b$, then back to $x=0$, at constant speed $v$.\n\n| Quantity | $0\\le x<b$ | $b\\le x<2b$ |\n|---|---|---|\n| Flux $\\phi$ | $Blx$ (linear) | $Blb$ (constant) |\n| EMF $\\varepsilon=-d\\phi/dt$ | $-Blv$ | $0$ |\n| Force to pull PQ | $F=I l B=\\dfrac{B^2l^2v}{r}$ | $0$ |\n| Power dissipated | $P=I^2r=\\dfrac{B^2l^2v^2}{r}$ | $0$ |\n\n(Same pattern retraces, sign-flipped, on the return trip from $2b$ back to $0$.)\n\n## Induced charge is independent of time (NCERT 6.4)\n\nFrom $\\varepsilon=-N\\dfrac{d\\phi}{dt}$ and $I=\\varepsilon/R$: charge in a small interval $dt$ is $dq = I\\,dt = \\dfrac{N}{R}d\\phi$. Over a finite interval:\n$$\\boxed{q = \\frac{N}{R}\\,\\Delta\\phi}$$\nThe time interval cancels out completely — induced charge depends only on $N$, $R$, and the *total* flux change, never on how fast it happens.\n\n## Induced electric field (NCERT 6.4)\n\nUnlike an **electrostatic** field (conservative: $\\oint\\vec E\\cdot d\\vec l=0$), an **induced** electric field arises from a time-varying $B$ and is **non-conservative**: $\\oint\\vec E\\cdot d\\vec l = -\\dfrac{d\\phi}{dt} \\ne 0$.\n\n## Eddy (Foucault) currents (NCERT 6.5)\n\n**Definition:** induced circulating currents produced *within* a metal itself, due to a change in flux linked with the metal; direction given by Lenz's law.\n\n- **Damping example:** a metal plate oscillating in/out of a field comes to rest quickly — eddy currents oppose the motion. Slotting the plate lengthens the current path (more resistance, less current), reducing damping.\n- **Jumping ring/disc:** an AC-driven coil induces eddy currents in a nearby disc; by Lenz's law the induced pole repels the coil's pole, making the disc jump.\n- **Falling magnet in a tube:** dropping a magnet through a copper tube vs. a plastic tube of the same length — eddy currents in the copper brake the fall ($a<g$), while the plastic tube (non-conductive, no eddy currents) lets it fall freely ($a=g$).\n- **Disadvantages:** energy loss as heat; unwanted damping.\n- **Applications:** induction furnaces, speedometers, dead-beat galvanometers, electric braking (e.g. trains).\n\n## Third way to induce EMF: changing coil orientation (NCERT 6.8, intro to AC generator)\n\n$$\\phi = AB\\cos\\theta$$\nwhere $\\theta$ is the angle between the coil's area vector $\\hat n$ and $\\vec B$. With $\\theta=\\omega t$:\n$$\\phi = AB\\cos(\\omega t), \\qquad \\varepsilon = -\\frac{d\\phi}{dt} = AB\\omega\\sin(\\omega t)$$\nFor an $N$-turn coil: $\\varepsilon = NAB\\omega\\sin(\\omega t)$ — the sinusoidal EMF of an **AC generator**.\n\n---\n*Note on this lecture's transcript:* the numerical's force and power parts (announced at the start but never narrated), the conclusion of the falling-magnet demonstration (cut off mid-sentence), and the final step of the AC-generator derivation are all grounded from board frames rather than the transcript's own words. See the flagged spans below.\n"
+}

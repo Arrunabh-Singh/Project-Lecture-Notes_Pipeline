@@ -1,0 +1,101 @@
+{
+  "file_id": "1E4ZrV7LjZf2JAN8IjqVXW4_vXyxhfvWQ",
+  "chapter_id": "leph105",
+  "title": "Magnetizing Intensity, Intensity of Magnetization, Permeability, and Susceptibility",
+  "duration_seconds": 1432.2,
+  "claims": [
+    {
+      "text": "Magnetizing force / magnetizing intensity H: recalling the solenoid result B0=mu0*n*I (n=turns per unit length), the quantity nI (or NI) itself, independent of any material, is called the magnetizing intensity H. So B0=mu0*H when the solenoid's core is air/vacuum, and more generally B=mu*H when the core is filled with a material of permeability mu. SI unit of H: turns/length x current = A/m (A m^-1)",
+      "transcript_span": [
+        2.7,
+        194.9
+      ],
+      "frame_path": "data/lectures/leph105/1E4ZrV7LjZf2JAN8IjqVXW4_vXyxhfvWQ/frames/floor_000001.jpg",
+      "ncert_section": "5.4",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Intensity of magnetization I (also written M): a vector quantity, defined as the magnetic moment per unit volume of a material placed in a magnetizing field -- the individual atomic dipoles in the material align with the field, and I quantifies how strongly, per unit volume: I = (magnetic moment)/(volume) = m/V. Its SI unit works out to A/m -- the SAME unit as H, even though the two represent different physical things (H relates to the external coil/current setup; I is a property of the material's own response)",
+      "transcript_span": [
+        194.9,
+        445.7
+      ],
+      "frame_path": "data/lectures/leph105/1E4ZrV7LjZf2JAN8IjqVXW4_vXyxhfvWQ/frames/floor_000021.jpg",
+      "ncert_section": "5.4",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Magnetic permeability mu: quantifies the extent to which a magnetic field can penetrate/pass through a material (illustrated with an iron bar placed between the poles of a magnet, drawing field lines through it more readily than through air). From B=mu*H, mu=B/H. SI units: tesla / (A/m) = T.m.A^-1, equivalently Wb.m^-1.A^-1 (since tesla = weber/m^2)",
+      "transcript_span": [
+        452.9,
+        620.0
+      ],
+      "frame_path": "data/lectures/leph105/1E4ZrV7LjZf2JAN8IjqVXW4_vXyxhfvWQ/frames/floor_000034.jpg",
+      "ncert_section": "5.4",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Relation between magnetic permeability and susceptibility: total field B = B0 + Bm = mu0*H + mu0*I (the material's own contribution Bm=mu0*I adds to the field mu0*H that would exist without it). Magnetic susceptibility is defined as chi_m = I/H, so I = chi_m*H. Substituting: B = mu0*H(1+chi_m). Comparing with B=mu*H gives mu = mu0(1+chi_m), and relative permeability mu_r = mu/mu0 = 1+chi_m",
+      "transcript_span": null,
+      "frame_path": "data/lectures/leph105/1E4ZrV7LjZf2JAN8IjqVXW4_vXyxhfvWQ/frames/floor_000047.jpg",
+      "ncert_section": "5.4",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Worked numerical (Rowland ring): a Rowland ring of mean radius 15 cm has 3500 turns of wire wound on a ferromagnetic core of relative permeability 800, carrying current 1.2 A. Find the magnetic field B in the core. Solution: n=N/(2*pi*r) (turns per unit length for the ring), then B=mu0*mu_r*n*I, giving B=4.48 T",
+      "transcript_span": null,
+      "frame_path": "data/lectures/leph105/1E4ZrV7LjZf2JAN8IjqVXW4_vXyxhfvWQ/frames/floor_000060.jpg",
+      "ncert_section": "5.4",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Worked numerical: a steel magnet has magnetic moment M=2.5 A.m^2 and mass 6.6 g, with steel's density 7.9x10^3 kg/m^3. Find the intensity of magnetization I. (Method: use density and mass to find the magnet's volume V=mass/density, then I=M/V)",
+      "transcript_span": null,
+      "frame_path": "data/lectures/leph105/1E4ZrV7LjZf2JAN8IjqVXW4_vXyxhfvWQ/frames/floor_000060.jpg",
+      "ncert_section": "5.4",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Worked numerical: an iron rod of 0.2 cm^2 cross-sectional area is subjected to a magnetizing field of H=1200 A/m, with susceptibility chi_m=599. Find the permeability mu and the magnetic flux. Solution: mu_r=1+chi_m=600, mu=mu0(1+chi_m)=7.536x10^-4 T.m.A^-1 (using mu0/4pi=10^-7); the magnetic flux follows from phi=B*A with B=mu*H",
+      "transcript_span": null,
+      "frame_path": "data/lectures/leph105/1E4ZrV7LjZf2JAN8IjqVXW4_vXyxhfvWQ/frames/floor_000069.jpg",
+      "ncert_section": "5.4",
+      "ncert_agreement": "agrees"
+    }
+  ],
+  "uncertain_spans": [
+    {
+      "start_seconds": 452.9,
+      "end_seconds": 1432.2,
+      "reason": "This is one of the most severely corrupted transcripts found in this project: after cleanly covering magnetizing intensity H and intensity of magnetization I, the transcript's narration of 'magnetic permeability' repeats itself at least four to five times over (near-identical short phrases like 'to which magnetic field can penetrate a material' and 'mu is equal to B upon H' recur at t=452s, 623s, 814s, 997s, and 1129s), then the 'intensity of magnetization' definition is re-transcribed a second time (t=1160-1420s) nearly verbatim from its first pass (t=194-445s) -- all classic delayed-repetition artifacts. Crucially, the transcript NEVER once mentions magnetic susceptibility, despite board frames showing it is thoroughly covered: floor_000047.jpg (t=920s) shows the full permeability-susceptibility relation derivation (chi_m=I/H, mu=mu0(1+chi_m)); floor_000050.jpg through floor_000060.jpg (t=980-1180s) show a complete Rowland-ring numerical; and floor_000060.jpg through floor_000069.jpg (t=1180-1360s) show a magnet intensity-of-magnetization numerical and an iron-rod susceptibility numerical, both fully worked. Roughly the back half of this lecture (everything from the susceptibility relation onward) is grounded entirely from these frames."
+    }
+  ],
+  "ncert_sections_covered": [
+    "5.4"
+  ],
+  "frame_paths": [
+    "data/lectures/leph105/1E4ZrV7LjZf2JAN8IjqVXW4_vXyxhfvWQ/frames/floor_000001.jpg",
+    "data/lectures/leph105/1E4ZrV7LjZf2JAN8IjqVXW4_vXyxhfvWQ/frames/floor_000007.jpg",
+    "data/lectures/leph105/1E4ZrV7LjZf2JAN8IjqVXW4_vXyxhfvWQ/frames/floor_000009.jpg",
+    "data/lectures/leph105/1E4ZrV7LjZf2JAN8IjqVXW4_vXyxhfvWQ/frames/floor_000016.jpg",
+    "data/lectures/leph105/1E4ZrV7LjZf2JAN8IjqVXW4_vXyxhfvWQ/frames/floor_000021.jpg",
+    "data/lectures/leph105/1E4ZrV7LjZf2JAN8IjqVXW4_vXyxhfvWQ/frames/floor_000023.jpg",
+    "data/lectures/leph105/1E4ZrV7LjZf2JAN8IjqVXW4_vXyxhfvWQ/frames/floor_000025.jpg",
+    "data/lectures/leph105/1E4ZrV7LjZf2JAN8IjqVXW4_vXyxhfvWQ/frames/floor_000027.jpg",
+    "data/lectures/leph105/1E4ZrV7LjZf2JAN8IjqVXW4_vXyxhfvWQ/frames/floor_000029.jpg",
+    "data/lectures/leph105/1E4ZrV7LjZf2JAN8IjqVXW4_vXyxhfvWQ/frames/floor_000032.jpg",
+    "data/lectures/leph105/1E4ZrV7LjZf2JAN8IjqVXW4_vXyxhfvWQ/frames/floor_000034.jpg",
+    "data/lectures/leph105/1E4ZrV7LjZf2JAN8IjqVXW4_vXyxhfvWQ/frames/floor_000037.jpg",
+    "data/lectures/leph105/1E4ZrV7LjZf2JAN8IjqVXW4_vXyxhfvWQ/frames/floor_000039.jpg",
+    "data/lectures/leph105/1E4ZrV7LjZf2JAN8IjqVXW4_vXyxhfvWQ/frames/floor_000040.jpg",
+    "data/lectures/leph105/1E4ZrV7LjZf2JAN8IjqVXW4_vXyxhfvWQ/frames/floor_000047.jpg",
+    "data/lectures/leph105/1E4ZrV7LjZf2JAN8IjqVXW4_vXyxhfvWQ/frames/floor_000050.jpg",
+    "data/lectures/leph105/1E4ZrV7LjZf2JAN8IjqVXW4_vXyxhfvWQ/frames/floor_000055.jpg",
+    "data/lectures/leph105/1E4ZrV7LjZf2JAN8IjqVXW4_vXyxhfvWQ/frames/floor_000060.jpg",
+    "data/lectures/leph105/1E4ZrV7LjZf2JAN8IjqVXW4_vXyxhfvWQ/frames/floor_000062.jpg",
+    "data/lectures/leph105/1E4ZrV7LjZf2JAN8IjqVXW4_vXyxhfvWQ/frames/floor_000063.jpg",
+    "data/lectures/leph105/1E4ZrV7LjZf2JAN8IjqVXW4_vXyxhfvWQ/frames/floor_000068.jpg",
+    "data/lectures/leph105/1E4ZrV7LjZf2JAN8IjqVXW4_vXyxhfvWQ/frames/floor_000069.jpg"
+  ],
+  "markdown_body": "## Magnetizing intensity, intensity of magnetization, and permeability (NCERT 5.4)\n\n**Magnetizing intensity $H$:** from the solenoid result $B_0=\\mu_0 nI$, the quantity $nI$ (turns/length $\\times$ current), independent of any material, is called $H$. So $B_0=\\mu_0 H$ for an air/vacuum core, or generally $B=\\mu H$ with a material core. SI unit: A/m.\n\n**Intensity of magnetization $I$ (or $M$):** a vector, defined as magnetic moment per unit volume of a material placed in the magnetizing field — the material's atomic dipoles align with the field:\n$$I = \\frac{m}{V}$$\nSame SI unit as $H$ (A/m), despite representing a different physical quantity (external coil/current setup vs. the material's own response).\n\n**Magnetic permeability $\\mu$:** quantifies how readily a magnetic field can penetrate a material (e.g. an iron bar between magnet poles draws field lines through it far more than air would). $\\mu = B/H$. SI units: T$\\cdot$m$\\cdot$A$^{-1}$ (equivalently Wb$\\cdot$m$^{-1}\\cdot$A$^{-1}$).\n\n### Relation between permeability and susceptibility\nTotal field $B = B_0+B_m = \\mu_0 H + \\mu_0 I$ (the material's own contribution $B_m=\\mu_0 I$ adds to the bare $\\mu_0 H$). **Magnetic susceptibility** $\\chi_m = I/H$, so $I=\\chi_m H$:\n$$B = \\mu_0 H(1+\\chi_m)$$\nComparing with $B=\\mu H$:\n$$\\boxed{\\mu = \\mu_0(1+\\chi_m)}, \\qquad \\mu_r = \\frac{\\mu}{\\mu_0} = 1+\\chi_m$$\n\n### Worked numericals\n- **Rowland ring:** mean radius $15$ cm, $3500$ turns on a ferromagnetic core ($\\mu_r=800$), current $1.2$ A. $n=N/2\\pi r$, $B=\\mu_0\\mu_r nI = 4.48$ T.\n- **Steel magnet:** $M=2.5$ A$\\cdot$m$^2$, mass $6.6$ g, density $7.9\\times10^3$ kg/m$^3$. Find $I$: get volume from mass/density, then $I=M/V$.\n- **Iron rod:** cross-section $0.2$ cm$^2$, $H=1200$ A/m, $\\chi_m=599$. Find $\\mu$ and flux $\\phi$: $\\mu_r=1+\\chi_m=600$, $\\mu=\\mu_0(1+\\chi_m)=7.536\\times10^{-4}$ T$\\cdot$m$\\cdot$A$^{-1}$; then $\\phi=BA$ with $B=\\mu H$.\n\n---\n*Note on this lecture's transcript:* the susceptibility relation and all three worked numericals above are grounded entirely from board frames -- the transcript itself never mentions susceptibility at all, instead getting stuck repeating the permeability and magnetization definitions several times over. See the flagged span below.\n"
+}

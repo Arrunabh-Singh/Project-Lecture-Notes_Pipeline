@@ -1,0 +1,56 @@
+{
+  "chapter_id": "leph108",
+  "chapter_number": 8,
+  "title": "Electromagnetic Waves",
+  "fidelity": "condensed_summary",
+  "lecture_folder": "Ch8 EM Waves",
+  "source_note": "NCERT Class 12 Physics Part I, Reprint 2026-27 (RATIONALISED 2022-23) -- current CBSE syllabus. Equations NOT reliable in this extraction; use board frames as the equation source of truth.",
+  "sections": [
+    {
+      "number": "8.1",
+      "heading": "Introduction"
+    },
+    {
+      "number": "8.2",
+      "heading": "Displacement Current"
+    },
+    {
+      "number": "8.3",
+      "heading": "Electromagnetic Waves"
+    },
+    {
+      "number": "8.4",
+      "heading": "Electromagnetic Spectrum"
+    }
+  ],
+  "scientists": [
+    {
+      "name": "James Clerk Maxwell",
+      "years": "1831–1879"
+    },
+    {
+      "name": "Heinrich Rudolf Hertz",
+      "years": "1857–1894"
+    }
+  ],
+  "lexicon": [
+    "Current",
+    "Displacement",
+    "Displacement Current",
+    "Electromagnetic",
+    "Electromagnetic Spectrum",
+    "Electromagnetic Waves",
+    "Guglielmo Marconi",
+    "Heinrich Rudolf Hertz",
+    "Introduction",
+    "Jagdish Chandra",
+    "James Clerk",
+    "James Clerk Maxwell",
+    "Spectrum",
+    "Waves"
+  ],
+  "summary": "1. Displacement current id = ε0 dΦE/dt, acts as magnetic field source like conduction current.\n2. Accelerating charge → EM waves of same frequency ν. Electric dipole = basic source.\n3. Hertz (1887) first produced/detected EM waves in lab, verified Maxwell.\n4. E, B oscillate sinusoidally, perpendicular to each other and to propagation direction. E0/B0 = c.\n5. c = 1/√(μ0ε0) = speed of light. In medium: v = 1/√(µε).\n6. Spectrum: γ-rays, X-rays, UV, visible, IR, microwaves, radio waves (increasing λ, 10⁻¹²m to 10⁶m). Interaction depends on λ and medium.",
+  "points_to_ponder": "1. All EM waves travel at same speed in vacuum; differ in wavelength/frequency → different matter interaction.\n2. Wavelength correlates with radiating system size: gamma (10⁻¹⁴-10⁻¹⁵m, nucleus), X-ray (heavy atoms), radio (circuits/antennas ~antenna size for efficient radiation). Visible light wavelength >> atomic size though.\n3. Infrared vibrates entire atoms/molecules (not just electrons) → heat waves.\n4. Human eye sensitivity peak coincides with solar spectrum peak (evolutionary).",
+  "exercises": "(8.1-8.10): capacitance/displacement current for charging capacitor; rms conduction current, B amplitude for parallel plate capacitor on ac supply; common quantity for X-ray/red light/radiowave (answer: speed c); E,B direction and wavelength given frequency; radio tuning wavelength band; oscillator frequency→EM wave frequency; E0 from given B0; E0,B0,ω,k,λ,ν from given data; photon energy E=hν across spectrum; wavelength/B-amplitude/energy-density-equality for given E field.\n\nKey terms/glossary: displacement current, conduction current, Ampere-Maxwell law, Maxwell's equations, transverse wave, electromagnetic spectrum, radio waves, microwaves, infrared, visible, ultraviolet, X-rays, gamma rays, ozone layer, greenhouse effect.\nNamed scientists: James Clerk Maxwell, Heinrich Hertz, Jagdish Chandra Bose, Guglielmo Marconi.",
+  "raw_char_count": 6014
+}

@@ -1,0 +1,76 @@
+{
+  "file_id": "1UiQD9opVZH5bD2zf-VAMwk0LPfu9Uevc",
+  "chapter_id": "leph104",
+  "title": "Force on a Moving Charge in a Magnetic Field, the Lorentz Force, the Velocity Selector, and Helical Motion",
+  "duration_seconds": 1806.9,
+  "claims": [
+    {
+      "text": "Force on a moving charge in a uniform magnetic field: F = Q(v cross B). Maximum when the angle theta between v and B is 90 degrees (F_max=BQv); zero when theta=0 or 180 degrees (velocity parallel or antiparallel to B) -- and zero when velocity is zero (a stationary charge feels no magnetic force at all, since F=BQv*sin(theta) needs v). Direction of F is perpendicular to the plane of v and B, found via the right-hand curl rule (curl fingers from v to B, thumb gives F's direction)",
+      "transcript_span": [
+        2.1,
+        721.4
+      ],
+      "frame_path": "data/lectures/leph104/1UiQD9opVZH5bD2zf-VAMwk0LPfu9Uevc/frames/floor_000011.jpg",
+      "ncert_section": "4.2",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Lorentz force: when a moving charge is in BOTH an electric field E and a magnetic field B simultaneously, the electric force is QE and the magnetic force is Q(v cross B); the total force is their vector sum, F = QE + Q(v cross B) -- this combined expression is known as the Lorentz force",
+      "transcript_span": [
+        721.4,
+        1030.7
+      ],
+      "frame_path": null,
+      "ncert_section": "4.2",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Velocity selector setup: uses CROSSED electric and magnetic fields, meaning E and B are perpendicular to each other. For a charge +q moving with velocity v along the x-axis, with E along one axis and B along another (mutually perpendicular to each other and to v), both an electric force and a magnetic force act on the charge simultaneously, generally in different directions",
+      "transcript_span": [
+        1030.7,
+        1740.1
+      ],
+      "frame_path": "data/lectures/leph104/1UiQD9opVZH5bD2zf-VAMwk0LPfu9Uevc/frames/floor_000047.jpg",
+      "ncert_section": "4.2",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Helical motion of a charged particle in a magnetic field: for velocity v at an angle theta to B, decompose it into a component v*cos(theta) parallel to B (unaffected by the magnetic force, causing uniform straight-line motion along B) and a component v*sin(theta) perpendicular to B (causing circular motion, via the same v cross B analysis as before). The combination of straight-line motion along B and circular motion around B traces out a HELIX. The distance moved along B in one full rotation is called the pitch: p = v_parallel * T = v*cos(theta) * (2*pi*m)/(B*q), where T is the period of the circular component. The radius of the helix equals the radius of the circular component of motion",
+      "transcript_span": null,
+      "frame_path": "data/lectures/leph104/1UiQD9opVZH5bD2zf-VAMwk0LPfu9Uevc/frames/floor_000090.jpg",
+      "ncert_section": "4.3",
+      "ncert_agreement": "agrees"
+    }
+  ],
+  "uncertain_spans": [
+    {
+      "start_seconds": 1600.0,
+      "end_seconds": 1806.9,
+      "reason": "The transcript's real narration continues describing the velocity-selector's cross-product setup (unit vectors i, j, k) right up to its last segment at t=1827s (just past the true 1806.9s duration), never once using the word 'helix' or describing helical motion -- despite it being the second topic explicitly named in this lecture's own filename ('force on charge, helix'). Board frames tell a different story: floor_000081.jpg (t=1600s) already shows the helix topic's introduction (decomposing v into components parallel and perpendicular to B), and floor_000090.jpg (t=1780s, essentially at the true end) shows the complete derivation through to the pitch formula and the radius-of-helix statement, plus a one-line preview of 'cyclotron' (the next lecture's topic in this same chapter). The helical-motion claim above is grounded entirely from these two frames; the velocity selector's final balancing condition (which would follow directly as qE=qvB, i.e. v=E/B, from the setup that IS confirmed in the transcript) is not separately asserted here since neither the transcript nor a frame explicitly states that concluding line."
+    }
+  ],
+  "ncert_sections_covered": [
+    "4.2",
+    "4.3"
+  ],
+  "frame_paths": [
+    "data/lectures/leph104/1UiQD9opVZH5bD2zf-VAMwk0LPfu9Uevc/frames/floor_000001.jpg",
+    "data/lectures/leph104/1UiQD9opVZH5bD2zf-VAMwk0LPfu9Uevc/frames/floor_000004.jpg",
+    "data/lectures/leph104/1UiQD9opVZH5bD2zf-VAMwk0LPfu9Uevc/frames/floor_000011.jpg",
+    "data/lectures/leph104/1UiQD9opVZH5bD2zf-VAMwk0LPfu9Uevc/frames/floor_000018.jpg",
+    "data/lectures/leph104/1UiQD9opVZH5bD2zf-VAMwk0LPfu9Uevc/frames/floor_000020.jpg",
+    "data/lectures/leph104/1UiQD9opVZH5bD2zf-VAMwk0LPfu9Uevc/frames/floor_000024.jpg",
+    "data/lectures/leph104/1UiQD9opVZH5bD2zf-VAMwk0LPfu9Uevc/frames/floor_000027.jpg",
+    "data/lectures/leph104/1UiQD9opVZH5bD2zf-VAMwk0LPfu9Uevc/frames/floor_000032.jpg",
+    "data/lectures/leph104/1UiQD9opVZH5bD2zf-VAMwk0LPfu9Uevc/frames/floor_000047.jpg",
+    "data/lectures/leph104/1UiQD9opVZH5bD2zf-VAMwk0LPfu9Uevc/frames/floor_000049.jpg",
+    "data/lectures/leph104/1UiQD9opVZH5bD2zf-VAMwk0LPfu9Uevc/frames/floor_000053.jpg",
+    "data/lectures/leph104/1UiQD9opVZH5bD2zf-VAMwk0LPfu9Uevc/frames/floor_000056.jpg",
+    "data/lectures/leph104/1UiQD9opVZH5bD2zf-VAMwk0LPfu9Uevc/frames/floor_000062.jpg",
+    "data/lectures/leph104/1UiQD9opVZH5bD2zf-VAMwk0LPfu9Uevc/frames/floor_000071.jpg",
+    "data/lectures/leph104/1UiQD9opVZH5bD2zf-VAMwk0LPfu9Uevc/frames/floor_000075.jpg",
+    "data/lectures/leph104/1UiQD9opVZH5bD2zf-VAMwk0LPfu9Uevc/frames/floor_000081.jpg",
+    "data/lectures/leph104/1UiQD9opVZH5bD2zf-VAMwk0LPfu9Uevc/frames/floor_000090.jpg"
+  ],
+  "markdown_body": "## Force on a moving charge in a magnetic field (NCERT 4.2)\n\n$$\\vec F = Q(\\vec v\\times\\vec B)$$\n- **Maximum** at $\\theta=90°$ (angle between $v$ and $B$): $F_\\max = BQv$.\n- **Zero** at $\\theta=0°$ or $180°$ (velocity parallel/antiparallel to $B$) — and also zero if $v=0$ (a stationary charge feels no magnetic force).\n- **Direction:** perpendicular to the plane of $\\vec v$ and $\\vec B$, via the right-hand curl rule (curl fingers from $\\vec v$ to $\\vec B$, thumb gives $\\vec F$).\n\n### The Lorentz force\nWhen a charge moves through both an electric field $\\vec E$ and a magnetic field $\\vec B$ simultaneously, the electric force $Q\\vec E$ and magnetic force $Q(\\vec v\\times\\vec B)$ combine as a vector sum:\n$$\\boxed{\\vec F = Q\\vec E + Q(\\vec v\\times\\vec B)}$$\n\n### Velocity selector (setup)\nUses **crossed** electric and magnetic fields ($\\vec E\\perp\\vec B$). A charge $+q$ moving with velocity $v$ (say along the $x$-axis) experiences both an electric force and a magnetic force simultaneously, generally in different directions — the basis of a device that only lets through particles of one specific speed (where the two forces exactly balance).\n\n## Helical motion (NCERT 4.3)\n\nFor velocity $\\vec v$ at angle $\\theta$ to $\\vec B$, decompose it:\n- $v\\cos\\theta$, **parallel** to $\\vec B$ — unaffected by the magnetic force, giving uniform straight-line motion along $\\vec B$.\n- $v\\sin\\theta$, **perpendicular** to $\\vec B$ — causes circular motion (same $\\vec v\\times\\vec B$ analysis as for purely perpendicular velocity).\n\nThe combination of straight-line motion along $\\vec B$ and circular motion around it traces a **helix**. The distance moved along $\\vec B$ in one full rotation is the **pitch**:\n$$p = v_\\parallel T = v\\cos\\theta\\cdot\\frac{2\\pi m}{Bq}$$\nThe radius of the helix equals the radius of its circular component of motion.\n"
+}

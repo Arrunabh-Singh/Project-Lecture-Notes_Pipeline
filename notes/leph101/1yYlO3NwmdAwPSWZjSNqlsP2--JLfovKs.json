@@ -1,0 +1,159 @@
+{
+  "file_id": "1yYlO3NwmdAwPSWZjSNqlsP2--JLfovKs",
+  "chapter_id": "leph101",
+  "title": "Electric Field Intensity, Field Lines, and the Point-Charge Field Formula",
+  "duration_seconds": 2774.87,
+  "claims": [
+    {
+      "text": "Electric field: the region around a charge where its effect (force on another charge) can be felt, analogous to a magnetic field around a magnet. Electric field intensity E-vector is the measurable physical quantity: the force per unit charge experienced by a very small ('test') positive charge q0 placed at a point, in the limit q0 tends to zero (so it doesn't disturb the original field): E = lim(q0->0) F/q0. E is a vector, direction same as the force on a positive test charge",
+      "transcript_span": [
+        1.5,
+        653.4
+      ],
+      "frame_path": "data/lectures/leph101/1yYlO3NwmdAwPSWZjSNqlsP2--JLfovKs/frames/floor_000008.jpg",
+      "ncert_section": "1.7",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "SI unit of E: newton/coulomb (N/C). Dimensional formula derived from F=ma and Q=It: [E] = M^1 L^1 T^-3 A^-1",
+      "transcript_span": [
+        662.6,
+        765.2
+      ],
+      "frame_path": null,
+      "ncert_section": "1.7",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Electric field lines (analogous to magnetic field lines, e.g. traced by iron filings around a magnet) are imaginary curves such that the tangent at any point gives the direction of E there, and along which an isolated free positive test charge would tend to move. Where field lines are crowded together, field intensity is greater",
+      "transcript_span": [
+        844.7,
+        1157.0
+      ],
+      "frame_path": null,
+      "ncert_section": "1.8",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Characteristics of electric field lines: (1) they start on positive charges and terminate on negative charges (unlike magnetic field lines, which always form closed loops, going N to S outside a magnet and S to N inside it); (2) electric field lines never form closed loops -- this is the key distinguishing difference between electric and magnetic field lines",
+      "transcript_span": [
+        1218.7,
+        1362.5
+      ],
+      "frame_path": null,
+      "ncert_section": "1.8",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Field lines for an isolated point charge: for +q, lines radiate straight outward to infinity (terminating charge assumed at infinity); for -q, lines point straight inward from infinity. A common student mistake is drawing curved/converging lines near the charge -- for a true point charge the lines must be radially straight and never touch/cross at the charge itself",
+      "transcript_span": [
+        1362.5,
+        1629.7
+      ],
+      "frame_path": "data/lectures/leph101/1yYlO3NwmdAwPSWZjSNqlsP2--JLfovKs/frames/floor_000067.jpg",
+      "ncert_section": "1.8",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Field lines for two like charges (e.g. +Q and +Q, or +2Q and +Q): lines repel each other and bend away, never intersecting; there is a 'null point' (E=0) between the two charges, located closer to the SMALLER-magnitude charge. For equal charges (+Q,+Q or -Q,-Q) the null point is exactly at the midpoint",
+      "transcript_span": [
+        1634.3,
+        2145.3
+      ],
+      "frame_path": null,
+      "ncert_section": "1.8",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Field lines for two unlike charges (e.g. +Q and -Q, or +2Q and -Q): lines run from the positive to the negative charge and curve toward each other, but this is NOT a closed loop -- a closed loop requires the same line to return to its own starting point, whereas here each line simply terminates once, going from one distinct charge to the other. Asymmetric magnitudes (+2Q, -Q) are drawn with more lines from the larger-magnitude charge",
+      "transcript_span": [
+        2145.3,
+        2390.6
+      ],
+      "frame_path": null,
+      "ncert_section": "1.8",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Electric field intensity due to a point charge Q at distance r: E-vector = (1/4 pi eps0)(Q/r^2) r-hat -- following directly from combining the definition E=F/q0 with Coulomb's law F=(1/4 pi eps0)(Qq0/r^2). E is INDEPENDENT of the test charge q0 -- the q0 cancels out algebraically, confirming E is a property of the source charge and the field point only, not of whatever test charge you use to probe it",
+      "transcript_span": null,
+      "frame_path": "data/lectures/leph101/1yYlO3NwmdAwPSWZjSNqlsP2--JLfovKs/frames/floor_000138.jpg",
+      "ncert_section": "1.7",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "E vs r is an inverse-square curve (a 'rectangular hyperbola' shape, same family as PV=const or xy=const graphs). Plotting E*r^2 (constant = Q/4pi eps0) against 1/r^2 instead gives a straight line through the origin (of the form y=mx), the standard technique for linearising an inverse-square relationship on a graph, analogous to plotting V vs I for Ohm's law (V=IR, slope=R)",
+      "transcript_span": null,
+      "frame_path": "data/lectures/leph101/1yYlO3NwmdAwPSWZjSNqlsP2--JLfovKs/frames/floor_000131.jpg",
+      "ncert_section": "1.7",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Worked numerical: a charge of 2 mC is placed at point O; find the electric field intensity at a distance of 40 cm from it. E = (1/4 pi eps0)(Q/r^2) = (9x10^9 x 2x10^-3)/(40x10^-2)^2 N/C",
+      "transcript_span": null,
+      "frame_path": "data/lectures/leph101/1yYlO3NwmdAwPSWZjSNqlsP2--JLfovKs/frames/floor_000138.jpg",
+      "ncert_section": "1.7",
+      "ncert_agreement": "agrees"
+    }
+  ],
+  "uncertain_spans": [
+    {
+      "start_seconds": 2390.0,
+      "end_seconds": 2774.87,
+      "reason": "The transcript's real, non-repeated narration runs continuously and coherently from t=0 to about t=2390s, thoroughly covering the definition of E, field lines, and field-line patterns for point charges and charge pairs. From t=2390s to the transcript's nominal end (t=2771s) it then loops back and re-transcribes the earlier point-charge and like-charges field-line material nearly verbatim -- the same delayed-repetition ASR artifact found elsewhere in this chapter. Unlike some other cases, board frames here show this is NOT just wasted/lost time: floor_000131.jpg (t=2600s) and floor_000138.jpg (t=2740s, the last captured frame, well within the true 2774.87s duration) show substantial genuinely new material -- the quantitative point-charge field formula E=(1/4 pi eps0)(Q/r^2) boxed 'by definition', an E-vs-r graph-linearisation discussion, a worked numerical (2 mC charge, field at 40cm), and a conceptual aside confirming E is independent of the test charge -- none of which appears anywhere in the transcript. The four point-charge-formula/numerical claims above are grounded entirely from these two board frames."
+    }
+  ],
+  "ncert_sections_covered": [
+    "1.7",
+    "1.8"
+  ],
+  "frame_paths": [
+    "data/lectures/leph101/1yYlO3NwmdAwPSWZjSNqlsP2--JLfovKs/frames/floor_000001.jpg",
+    "data/lectures/leph101/1yYlO3NwmdAwPSWZjSNqlsP2--JLfovKs/frames/floor_000002.jpg",
+    "data/lectures/leph101/1yYlO3NwmdAwPSWZjSNqlsP2--JLfovKs/frames/floor_000008.jpg",
+    "data/lectures/leph101/1yYlO3NwmdAwPSWZjSNqlsP2--JLfovKs/frames/floor_000010.jpg",
+    "data/lectures/leph101/1yYlO3NwmdAwPSWZjSNqlsP2--JLfovKs/frames/floor_000011.jpg",
+    "data/lectures/leph101/1yYlO3NwmdAwPSWZjSNqlsP2--JLfovKs/frames/floor_000017.jpg",
+    "data/lectures/leph101/1yYlO3NwmdAwPSWZjSNqlsP2--JLfovKs/frames/floor_000020.jpg",
+    "data/lectures/leph101/1yYlO3NwmdAwPSWZjSNqlsP2--JLfovKs/frames/floor_000022.jpg",
+    "data/lectures/leph101/1yYlO3NwmdAwPSWZjSNqlsP2--JLfovKs/frames/floor_000025.jpg",
+    "data/lectures/leph101/1yYlO3NwmdAwPSWZjSNqlsP2--JLfovKs/frames/floor_000029.jpg",
+    "data/lectures/leph101/1yYlO3NwmdAwPSWZjSNqlsP2--JLfovKs/frames/floor_000032.jpg",
+    "data/lectures/leph101/1yYlO3NwmdAwPSWZjSNqlsP2--JLfovKs/frames/floor_000038.jpg",
+    "data/lectures/leph101/1yYlO3NwmdAwPSWZjSNqlsP2--JLfovKs/frames/floor_000041.jpg",
+    "data/lectures/leph101/1yYlO3NwmdAwPSWZjSNqlsP2--JLfovKs/frames/floor_000043.jpg",
+    "data/lectures/leph101/1yYlO3NwmdAwPSWZjSNqlsP2--JLfovKs/frames/floor_000047.jpg",
+    "data/lectures/leph101/1yYlO3NwmdAwPSWZjSNqlsP2--JLfovKs/frames/floor_000049.jpg",
+    "data/lectures/leph101/1yYlO3NwmdAwPSWZjSNqlsP2--JLfovKs/frames/floor_000051.jpg",
+    "data/lectures/leph101/1yYlO3NwmdAwPSWZjSNqlsP2--JLfovKs/frames/floor_000053.jpg",
+    "data/lectures/leph101/1yYlO3NwmdAwPSWZjSNqlsP2--JLfovKs/frames/floor_000063.jpg",
+    "data/lectures/leph101/1yYlO3NwmdAwPSWZjSNqlsP2--JLfovKs/frames/floor_000067.jpg",
+    "data/lectures/leph101/1yYlO3NwmdAwPSWZjSNqlsP2--JLfovKs/frames/floor_000072.jpg",
+    "data/lectures/leph101/1yYlO3NwmdAwPSWZjSNqlsP2--JLfovKs/frames/floor_000078.jpg",
+    "data/lectures/leph101/1yYlO3NwmdAwPSWZjSNqlsP2--JLfovKs/frames/floor_000084.jpg",
+    "data/lectures/leph101/1yYlO3NwmdAwPSWZjSNqlsP2--JLfovKs/frames/floor_000087.jpg",
+    "data/lectures/leph101/1yYlO3NwmdAwPSWZjSNqlsP2--JLfovKs/frames/floor_000088.jpg",
+    "data/lectures/leph101/1yYlO3NwmdAwPSWZjSNqlsP2--JLfovKs/frames/floor_000089.jpg",
+    "data/lectures/leph101/1yYlO3NwmdAwPSWZjSNqlsP2--JLfovKs/frames/floor_000090.jpg",
+    "data/lectures/leph101/1yYlO3NwmdAwPSWZjSNqlsP2--JLfovKs/frames/floor_000091.jpg",
+    "data/lectures/leph101/1yYlO3NwmdAwPSWZjSNqlsP2--JLfovKs/frames/floor_000093.jpg",
+    "data/lectures/leph101/1yYlO3NwmdAwPSWZjSNqlsP2--JLfovKs/frames/floor_000095.jpg",
+    "data/lectures/leph101/1yYlO3NwmdAwPSWZjSNqlsP2--JLfovKs/frames/floor_000098.jpg",
+    "data/lectures/leph101/1yYlO3NwmdAwPSWZjSNqlsP2--JLfovKs/frames/floor_000104.jpg",
+    "data/lectures/leph101/1yYlO3NwmdAwPSWZjSNqlsP2--JLfovKs/frames/floor_000105.jpg",
+    "data/lectures/leph101/1yYlO3NwmdAwPSWZjSNqlsP2--JLfovKs/frames/floor_000108.jpg",
+    "data/lectures/leph101/1yYlO3NwmdAwPSWZjSNqlsP2--JLfovKs/frames/floor_000112.jpg",
+    "data/lectures/leph101/1yYlO3NwmdAwPSWZjSNqlsP2--JLfovKs/frames/floor_000114.jpg",
+    "data/lectures/leph101/1yYlO3NwmdAwPSWZjSNqlsP2--JLfovKs/frames/floor_000116.jpg",
+    "data/lectures/leph101/1yYlO3NwmdAwPSWZjSNqlsP2--JLfovKs/frames/floor_000119.jpg",
+    "data/lectures/leph101/1yYlO3NwmdAwPSWZjSNqlsP2--JLfovKs/frames/floor_000122.jpg",
+    "data/lectures/leph101/1yYlO3NwmdAwPSWZjSNqlsP2--JLfovKs/frames/floor_000123.jpg",
+    "data/lectures/leph101/1yYlO3NwmdAwPSWZjSNqlsP2--JLfovKs/frames/floor_000124.jpg",
+    "data/lectures/leph101/1yYlO3NwmdAwPSWZjSNqlsP2--JLfovKs/frames/floor_000125.jpg",
+    "data/lectures/leph101/1yYlO3NwmdAwPSWZjSNqlsP2--JLfovKs/frames/floor_000131.jpg",
+    "data/lectures/leph101/1yYlO3NwmdAwPSWZjSNqlsP2--JLfovKs/frames/floor_000134.jpg",
+    "data/lectures/leph101/1yYlO3NwmdAwPSWZjSNqlsP2--JLfovKs/frames/floor_000135.jpg",
+    "data/lectures/leph101/1yYlO3NwmdAwPSWZjSNqlsP2--JLfovKs/frames/floor_000138.jpg"
+  ],
+  "markdown_body": "## Electric field (NCERT 1.7)\n\n**Concept:** the region around a charge where its effect (a force on another charge) can be felt -- directly analogous to the magnetic field around a magnet (felt by a test magnet, stronger effect closer in, negligible far away).\n\n**Electric field intensity** $\\vec E$ is the measurable version of this idea: the force per unit charge experienced by a very small (\"test\") positive charge $q_0$ placed at a point, in the limit $q_0\\to0$ (small enough that it doesn't itself disturb the field being measured):\n$$\\vec E = \\lim_{q_0\\to0}\\frac{\\vec F}{q_0}$$\n$\\vec E$ is a **vector**, in the same direction as the force on a positive test charge. SI unit: **N/C**. Dimensional formula (from $F=ma$ and $Q=It$): $[E] = M^1L^1T^{-3}A^{-1}$.\n\n### Electric field due to a point charge\nCombining $\\vec E=\\vec F/q_0$ with Coulomb's law $F=\\frac{1}{4\\pi\\varepsilon_0}\\frac{Qq_0}{r^2}$:\n$$\\boxed{\\vec E = \\frac{1}{4\\pi\\varepsilon_0}\\frac{Q}{r^2}\\hat r}$$\nThe $q_0$ cancels out — **$E$ is independent of the test charge used to probe it**, a property of the source charge and the field point alone.\n\n**Graphing $E$ vs $r$:** an inverse-square curve (a \"rectangular hyperbola\" shape, same family as $PV=\\text{const}$ or $xy=\\text{const}$). To turn it into a straight line (standard technique, same idea as plotting $V$ vs $I$ for Ohm's law to read off $R$ as the slope): plot $E$ against $1/r^2$ — since $Er^2 = Q/4\\pi\\varepsilon_0 = \\text{const}$, this gives a straight line through the origin.\n\n**Worked numerical:** a charge of $2$ mC at point $O$ — find $E$ at $40$ cm from it:\n$$E = \\frac{1}{4\\pi\\varepsilon_0}\\frac{Q}{r^2} = \\frac{9\\times10^9\\times2\\times10^{-3}}{(40\\times10^{-2})^2}~\\text{N/C}$$\n\n## Electric field lines (NCERT 1.8)\n\nImaginary curves such that the tangent at any point gives the direction of $\\vec E$ there, and along which an isolated free positive test charge would tend to move (directly analogous to magnetic field lines, e.g. traced out by iron filings around a magnet). **Crowding** of field lines indicates a **stronger** field.\n\n### Characteristics\n1. Field lines **start on positive charges and terminate on negative charges**.\n2. Field lines **never form closed loops** — this is the key difference from magnetic field lines, which *always* form closed loops (outside a magnet N$\\to$S, inside S$\\to$N). A field line running from one charge to a different charge (not back to itself) is not a closed loop, even if it looks curved.\n\n### Patterns for common configurations\n- **Isolated point charge:** lines radiate straight outward (for $+q$, terminating charge assumed at infinity) or straight inward (for $-q$, source charge assumed at infinity). A common mistake is drawing lines that curve/converge near the charge — for a true point charge they must be radially straight, never touching or crossing right at the charge.\n- **Two like charges** (e.g. $+Q,+Q$ or $+2Q,+Q$): lines repel each other and bend away, never intersecting. A **null point** ($E=0$) exists between them, located **closer to the smaller-magnitude charge** — exactly at the midpoint if the charges are equal.\n- **Two unlike charges** (e.g. $+Q,-Q$ or $+2Q,-Q$): lines run from positive to negative, curving toward each other — this is *not* a closed loop (each line terminates once, going from one distinct charge to the other, rather than returning to its own start). Asymmetric magnitudes get proportionally more lines drawn from the larger charge.\n\n---\n*Note on this lecture's transcript:* the quantitative point-charge field formula, the E-vs-r graph discussion, the worked numerical, and the independence-from-test-charge point are all grounded from board frames near the true end of the lecture -- the transcript loops back to earlier material there instead of covering them. See the flagged span below.\n"
+}

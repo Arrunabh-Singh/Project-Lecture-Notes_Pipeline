@@ -1,0 +1,23 @@
+{
+  "_readme": "Published Artifact URLs for the four cross-chapter revision sheets. The written content for each lives in sheets/content/<name>.html; sheets/build.py splices it into sheets/template.html and the result (gitignored, under sheets/build/) is what gets published. To revise a sheet: edit the content file, rebuild, run sheets/qa.py, and republish the same file path so the URL is kept.",
+  "chem-formulas": {
+    "url": "https://claude.ai/code/artifact/ad79f4b6-b43a-4277-b2ea-ffb21b0e4fb0",
+    "title": "Every Chemistry Formula",
+    "entries": 50
+  },
+  "chem-derivations": {
+    "url": "https://claude.ai/code/artifact/4365525e-f70e-49ac-a123-3a6ccf27be0c",
+    "title": "Chemistry, Derived",
+    "entries": 12
+  },
+  "phys-formulas": {
+    "url": "https://claude.ai/code/artifact/b1ff3ce0-66b1-4230-8bd9-6d793736f5b4",
+    "title": "Every Physics Formula",
+    "entries": 100
+  },
+  "phys-derivations": {
+    "url": "https://claude.ai/code/artifact/aa7aa583-529c-4969-9085-c9ad2894dbaa",
+    "title": "Physics, Derived",
+    "entries": 45
+  }
+}

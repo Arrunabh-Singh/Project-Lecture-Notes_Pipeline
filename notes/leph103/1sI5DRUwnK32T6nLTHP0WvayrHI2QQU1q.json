@@ -1,0 +1,108 @@
+{
+  "file_id": "1sI5DRUwnK32T6nLTHP0WvayrHI2QQU1q",
+  "chapter_id": "leph103",
+  "title": "Joule's Law, Electric Power, Bulb Ratings, kWh, and Temperature Coefficient of Resistance",
+  "duration_seconds": 2129.57,
+  "claims": [
+    {
+      "text": "Joule's law of heating: current flowing through a resistor converts electrical energy into heat. Derivation: for charge dQ moved across potential difference V in time dt, work done dW=V dQ=VI dt (using I=dQ/dt). Total work in time t: W = integral(VI dt) = VIt (for constant V, I). Using V=IR, this heat energy can also be written W = I^2 R t = V^2 t / R",
+      "transcript_span": [
+        0.0,
+        526.5
+      ],
+      "frame_path": null,
+      "ncert_section": "3.9",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Electric power P is the rate of energy dissipation: P = W/t = VI = I^2 R = V^2/R. SI unit: watt (W) = joule/second; 1 W = 1 J/1 s",
+      "transcript_span": [
+        526.5,
+        814.5
+      ],
+      "frame_path": null,
+      "ncert_section": "3.9",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Bulb rating numerical: a bulb rated 220 V, 60 W (or 20 W in the specific worked example) consumes that many joules of energy per second when connected across 220 V. Maximum permissible current through the bulb: I=P/V (e.g. for 20W/220V, I=1/11 A). Filament resistance: from P=V^2/R, R=V^2/P (e.g. R=220x220/20 ohm)",
+      "transcript_span": [
+        814.5,
+        1530.0
+      ],
+      "frame_path": null,
+      "ncert_section": "3.9",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Electrical energy is commercially measured in kilowatt-hour (kWh, the 'unit' on an electricity bill), not joules: energy = power x time, with power in kilowatts and time in hours. 1 kWh is the energy consumed by an appliance rated 1 kW running for 1 hour. Conversion: 1 kWh = 1000 W x 3600 s = 3.6x10^6 J",
+      "transcript_span": [
+        1530.0,
+        2129.57
+      ],
+      "frame_path": null,
+      "ncert_section": "3.9",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Temperature coefficient of resistance (alpha): defined via DeltaR proportional to R*DeltaT, i.e. alpha = DeltaR/(R DeltaT) = (Rt-R0)/(R0 DeltaT), giving Rt = R0(1+alpha*DeltaT). An exactly analogous temperature coefficient of resistivity (rho) is defined the same way: rho_t = rho_0(1+alpha*DeltaT). This mirrors the general pattern of linear/area/volume thermal expansion coefficients (alpha=DeltaL/(L0 DeltaT), beta=DeltaA/(A0 DeltaT), gamma=DeltaV/(V0 DeltaT), with alpha:beta:gamma = 1:2:3)",
+      "transcript_span": null,
+      "frame_path": "data/lectures/leph103/1sI5DRUwnK32T6nLTHP0WvayrHI2QQU1q/frames/floor_000079.jpg",
+      "ncert_section": "3.8",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Resistivity vs temperature behaviour by material class: (a) METALS -- alpha is positive and comparatively large; resistivity rises with increasing temperature (rho-vs-T curve slopes upward). (b) SEMICONDUCTORS -- alpha is negative; resistivity FALLS as temperature rises (rho-vs-T curve slopes downward, since more charge carriers become available at higher temperature). (c) ALLOYS (e.g. manganin, constantan, nichrome) -- alpha is very small, i.e. resistance is nearly independent of temperature, which is exactly why these materials are chosen for precision resistors and heating elements",
+      "transcript_span": null,
+      "frame_path": "data/lectures/leph103/1sI5DRUwnK32T6nLTHP0WvayrHI2QQU1q/frames/floor_000095.jpg",
+      "ncert_section": "3.8",
+      "ncert_agreement": "agrees"
+    }
+  ],
+  "uncertain_spans": [
+    {
+      "start_seconds": 1664.0,
+      "end_seconds": 2129.57,
+      "reason": "The transcript's real narration (43 segments, no detected repetition) runs through a coherent introduction to 'different types of resistors' (t=1530-1664s: 'standard coil resistors...') before pivoting to a kilowatt-hour digression ('before understanding [resistor types], I just missed out one more thing...') that then runs to the transcript's last segment, ending mid-explanation of the kWh-to-joules conversion. The transcript never returns to resistor types, and never mentions temperature coefficient of resistance in words at all. Board frames tell a fuller story: floor_000071.jpg through floor_000095.jpg (spanning roughly t=1400-1880s, overlapping and extending past the transcript's own covered range) show a complete, thorough 'temperature coefficient of resistance' derivation plus a three-way comparison of metals, semiconductors, and alloys -- none of it narrated in the available transcript. All temperature-coefficient claims above are grounded entirely from these frames. Separately, 'carbon resistor' -- named in this lecture's own filename alongside temperature coefficient -- was NOT found in either the transcript or any of the 32 sampled board frames; rather than guess at its content, it is omitted from this note entirely."
+    }
+  ],
+  "ncert_sections_covered": [
+    "3.8",
+    "3.9"
+  ],
+  "frame_paths": [
+    "data/lectures/leph103/1sI5DRUwnK32T6nLTHP0WvayrHI2QQU1q/frames/floor_000001.jpg",
+    "data/lectures/leph103/1sI5DRUwnK32T6nLTHP0WvayrHI2QQU1q/frames/floor_000005.jpg",
+    "data/lectures/leph103/1sI5DRUwnK32T6nLTHP0WvayrHI2QQU1q/frames/floor_000008.jpg",
+    "data/lectures/leph103/1sI5DRUwnK32T6nLTHP0WvayrHI2QQU1q/frames/floor_000012.jpg",
+    "data/lectures/leph103/1sI5DRUwnK32T6nLTHP0WvayrHI2QQU1q/frames/floor_000016.jpg",
+    "data/lectures/leph103/1sI5DRUwnK32T6nLTHP0WvayrHI2QQU1q/frames/floor_000021.jpg",
+    "data/lectures/leph103/1sI5DRUwnK32T6nLTHP0WvayrHI2QQU1q/frames/floor_000030.jpg",
+    "data/lectures/leph103/1sI5DRUwnK32T6nLTHP0WvayrHI2QQU1q/frames/floor_000032.jpg",
+    "data/lectures/leph103/1sI5DRUwnK32T6nLTHP0WvayrHI2QQU1q/frames/floor_000033.jpg",
+    "data/lectures/leph103/1sI5DRUwnK32T6nLTHP0WvayrHI2QQU1q/frames/floor_000036.jpg",
+    "data/lectures/leph103/1sI5DRUwnK32T6nLTHP0WvayrHI2QQU1q/frames/floor_000040.jpg",
+    "data/lectures/leph103/1sI5DRUwnK32T6nLTHP0WvayrHI2QQU1q/frames/floor_000043.jpg",
+    "data/lectures/leph103/1sI5DRUwnK32T6nLTHP0WvayrHI2QQU1q/frames/floor_000044.jpg",
+    "data/lectures/leph103/1sI5DRUwnK32T6nLTHP0WvayrHI2QQU1q/frames/floor_000047.jpg",
+    "data/lectures/leph103/1sI5DRUwnK32T6nLTHP0WvayrHI2QQU1q/frames/floor_000050.jpg",
+    "data/lectures/leph103/1sI5DRUwnK32T6nLTHP0WvayrHI2QQU1q/frames/floor_000051.jpg",
+    "data/lectures/leph103/1sI5DRUwnK32T6nLTHP0WvayrHI2QQU1q/frames/floor_000056.jpg",
+    "data/lectures/leph103/1sI5DRUwnK32T6nLTHP0WvayrHI2QQU1q/frames/floor_000060.jpg",
+    "data/lectures/leph103/1sI5DRUwnK32T6nLTHP0WvayrHI2QQU1q/frames/floor_000061.jpg",
+    "data/lectures/leph103/1sI5DRUwnK32T6nLTHP0WvayrHI2QQU1q/frames/floor_000063.jpg",
+    "data/lectures/leph103/1sI5DRUwnK32T6nLTHP0WvayrHI2QQU1q/frames/floor_000067.jpg",
+    "data/lectures/leph103/1sI5DRUwnK32T6nLTHP0WvayrHI2QQU1q/frames/floor_000071.jpg",
+    "data/lectures/leph103/1sI5DRUwnK32T6nLTHP0WvayrHI2QQU1q/frames/floor_000078.jpg",
+    "data/lectures/leph103/1sI5DRUwnK32T6nLTHP0WvayrHI2QQU1q/frames/floor_000079.jpg",
+    "data/lectures/leph103/1sI5DRUwnK32T6nLTHP0WvayrHI2QQU1q/frames/floor_000084.jpg",
+    "data/lectures/leph103/1sI5DRUwnK32T6nLTHP0WvayrHI2QQU1q/frames/floor_000088.jpg",
+    "data/lectures/leph103/1sI5DRUwnK32T6nLTHP0WvayrHI2QQU1q/frames/floor_000089.jpg",
+    "data/lectures/leph103/1sI5DRUwnK32T6nLTHP0WvayrHI2QQU1q/frames/floor_000090.jpg",
+    "data/lectures/leph103/1sI5DRUwnK32T6nLTHP0WvayrHI2QQU1q/frames/floor_000094.jpg",
+    "data/lectures/leph103/1sI5DRUwnK32T6nLTHP0WvayrHI2QQU1q/frames/floor_000095.jpg",
+    "data/lectures/leph103/1sI5DRUwnK32T6nLTHP0WvayrHI2QQU1q/frames/floor_000098.jpg",
+    "data/lectures/leph103/1sI5DRUwnK32T6nLTHP0WvayrHI2QQU1q/frames/floor_000099.jpg"
+  ],
+  "markdown_body": "## Joule's law of heating (NCERT 3.9)\n\nCurrent through a resistor converts electrical energy into heat. For charge $dQ$ moved across potential difference $V$ in time $dt$: $dW = V\\,dQ = VI\\,dt$. Total work (constant $V,I$) over time $t$:\n$$W = \\int VI\\,dt = VIt$$\nUsing $V=IR$, this heat can also be written:\n$$W = I^2Rt = \\frac{V^2}{R}t$$\n\n## Electric power (NCERT 3.9)\n\n$$P = \\frac{W}{t} = VI = I^2R = \\frac{V^2}{R}$$\nSI unit: **watt** (W) $=$ J/s.\n\n### Bulb rating numerical\nA bulb rated $220$ V, (worked example: $20$ W) consumes that many joules per second at $220$ V.\n- **Max permissible current:** $I = P/V$ (e.g. $20/220 = 1/11$ A)\n- **Filament resistance:** from $P=V^2/R$, $R = V^2/P$ (e.g. $220\\times220/20\\ \\Omega$)\n\n### Kilowatt-hour\nElectricity bills measure energy in **kilowatt-hours (kWh)**, not joules: energy $=$ power (kW) $\\times$ time (h). $1$ kWh is the energy an appliance rated $1$ kW consumes running for $1$ hour:\n$$1~\\text{kWh} = 1000~\\text{W}\\times3600~\\text{s} = 3.6\\times10^6~\\text{J}$$\n\n## Temperature coefficient of resistance (NCERT 3.8)\n\n$$\\Delta R \\propto R\\,\\Delta T \\;\\Rightarrow\\; \\alpha = \\frac{\\Delta R}{R\\,\\Delta T} = \\frac{R_t-R_0}{R_0\\,\\Delta T} \\;\\Rightarrow\\; \\boxed{R_t = R_0(1+\\alpha\\,\\Delta T)}$$\nThe same relation holds for resistivity $\\rho$: $\\rho_t=\\rho_0(1+\\alpha\\,\\Delta T)$. (This mirrors the general pattern for thermal expansion coefficients: $\\alpha=\\Delta L/L_0\\Delta T$, $\\beta=\\Delta A/A_0\\Delta T$, $\\gamma=\\Delta V/V_0\\Delta T$, with $\\alpha:\\beta:\\gamma=1:2:3$.)\n\n### By material class\n- **Metals:** $\\alpha$ positive, comparatively large — resistivity **rises** with temperature.\n- **Semiconductors:** $\\alpha$ **negative** — resistivity **falls** as temperature rises (more charge carriers become available at higher $T$).\n- **Alloys** (manganin, constantan, nichrome): $\\alpha$ very small — resistance is nearly temperature-independent, which is exactly why these are the materials chosen for precision resistors and heating elements.\n\n---\n*Note on this lecture's transcript:* the entire temperature-coefficient section above is grounded from board frames -- the transcript itself never reaches it in words, instead getting sidetracked into a kWh digression and stopping there. See the flagged span below. \"Carbon resistor\" (also named in this lecture's filename) was not found in either the transcript or the sampled frames and is not covered in this note.\n"
+}

@@ -1,0 +1,134 @@
+{
+  "file_id": "15QEqVbIzq_o_6o7LC-Gex08AfVsbJxcP",
+  "chapter_id": "leph108",
+  "title": "Sources, Properties, and Equation of Electromagnetic Waves",
+  "duration_seconds": 1818.37,
+  "claims": [
+    {
+      "text": "A stationary charge produces only an electric field. A charge moving with constant velocity produces a magnetic field that does not vary with time. An ACCELERATED charge (moving with non-uniform velocity) is a source of electromagnetic waves -- since the electric and magnetic field vectors it produces vary with time (as seen earlier from Maxwell's equations). An oscillating LC circuit (seen earlier in the AC chapter) is another way to produce EM waves, since the charge on the capacitor varies with time, meaning it is being accelerated",
+      "transcript_span": [
+        21.0,
+        258.0
+      ],
+      "frame_path": null,
+      "ncert_section": "8.3",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Properties of electromagnetic waves: (1) they are transverse in nature; (2) the frequency of an EM wave equals the frequency of the source (oscillating charge/circuit) that produced it; (3) the energy associated with a propagating EM wave comes at the expense of the energy of the source (nothing is free -- radiating energy away depletes the source); (4) EM waves travel through free space (vacuum) with the speed of light; (5) EM waves are electrically neutral -- they are not made of charged particles, and are therefore NOT deflected by electric or magnetic fields; (6) being waves, they show the usual wave phenomena (reflection, refraction, interference, diffraction, polarization), covered later under the wave theory of light",
+      "transcript_span": [
+        329.0,
+        642.0
+      ],
+      "frame_path": null,
+      "ncert_section": "8.3",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Ratio of field magnitudes: the ratio of the magnitudes of the electric and magnetic field vectors in an EM wave, E/B, equals the speed of light c, i.e. c=E0/B0. In a material medium (not vacuum), the speed is v=1/root(mu*epsilon), which can also be written using relative permittivity/permeability as v=1/root(mu0*mu_r*epsilon0*epsilon_r) -- reducing to c=1/root(mu0*epsilon0) in vacuum",
+      "transcript_span": [
+        651.0,
+        833.0
+      ],
+      "frame_path": null,
+      "ncert_section": "8.4",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Equal energy density in E and B fields: in an electromagnetic wave, the electric energy density UE equals the magnetic energy density UM at every point (energy is distributed equally between the two fields). Total energy density of the EM wave U=UE+UM, which can be written in terms of E as epsilon0*E^2 (using UE=(1/2)epsilon0*E^2 and the UE=UM equality, or equivalently in terms of B)",
+      "transcript_span": [
+        833.0,
+        1010.0
+      ],
+      "frame_path": null,
+      "ncert_section": "8.4",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Momentum and radiation pressure: like other waves, EM waves carry energy AND momentum. Since an EM wave carries momentum, it exerts a pressure on any surface it strikes, called RADIATION PRESSURE. If total energy U is transferred to a surface in time t, the magnitude of the total momentum delivered to the surface can be shown to be p=U/c (for total absorption)",
+      "transcript_span": [
+        1019.0,
+        1249.0
+      ],
+      "frame_path": null,
+      "ncert_section": "8.4",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Everyday examples: when sunlight shines on your hand, you feel the energy being absorbed as warmth (energy transfer from the EM wave). EM waves also transfer momentum to your hand, but this effect is far too small to feel, since the speed of light c is so large that for a given energy U, the momentum p=U/c works out to be extremely tiny",
+      "transcript_span": [
+        1249.0,
+        1443.0
+      ],
+      "frame_path": null,
+      "ncert_section": "8.4",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Importance of electromagnetic waves: their most important capability is carrying energy from one place to another -- e.g. radio and TV signals carry information/energy over distances, and light carries energy from the Sun to the Earth. This is a commonly asked exam point",
+      "transcript_span": [
+        1508.0,
+        1633.0
+      ],
+      "frame_path": null,
+      "ncert_section": "8.4",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Historical/experimental context on confirming light is an EM wave: initially it was only theoretically stated that accelerated charges produce EM waves. To experimentally test whether light itself is an EM wave, one issue is that the best modern electronic oscillator circuits (like the LC circuits used in Hertz-type experiments) can only reach frequencies of around 10^11 Hz, whereas visible light has a much higher frequency -- so light's electromagnetic nature could not be directly demonstrated the same way (via an oscillating circuit at that frequency); it had to be established more indirectly",
+      "transcript_span": [
+        1634.0,
+        1840.407
+      ],
+      "frame_path": null,
+      "ncert_section": "8.3",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Propagation of electromagnetic waves: in an EM wave, the electric field vector, magnetic field vector, and the direction of wave propagation are all mutually perpendicular to each other. For a wave propagating along the x-axis, with E along the y-axis and B along the z-axis: Ey=E0*sin(omega*t - k*x) (with Ex=0, Ez=0), and Bz=B0*sin(omega*t - k*x) (with Bx=0, By=0), where k=2*pi/lambda is the propagation constant. The ratio c=E0/B0. The direction of propagation of the wave is given by the cross product of the field directions: (E-hat x B-hat) gives the direction of propagation -- e.g. j-hat cross k-hat = i-hat (if E is along y and B is along z, propagation is along x)",
+      "transcript_span": null,
+      "frame_path": "data/lectures/leph108/15QEqVbIzq_o_6o7LC-Gex08AfVsbJxcP/frames/floor_000088.jpg",
+      "ncert_section": "8.3",
+      "ncert_agreement": "agrees"
+    }
+  ],
+  "uncertain_spans": [
+    {
+      "start_seconds": 1660.0,
+      "end_seconds": 1818.37,
+      "reason": "Board frames (floor_000084.jpg, floor_000088.jpg, both within the video's true 1818.37s duration) show a substantial 'Propagation of EM waves' section -- explicit sinusoidal component equations for E and B (Ey=E0*sin(omega*t-kx), Bz=B0*sin(omega*t-kx)), the propagation constant k=2*pi/lambda, and the cross-product rule for the direction of propagation -- that never appears anywhere in the available transcript at all, despite the lecture's own title explicitly naming 'equation of EM waves' as a topic (the transcript covers only the qualitative 'properties' half of the title). Given the frames' timestamps are near the very end of the true video duration while the transcript's own final words are on a different topic (comparing oscillator vs. visible-light frequency), this content was most likely taught near the end of the lecture but never captured by the ASR at all -- a total omission rather than a timestamp-drift artifact, since no transcript segments reference it anywhere. This whole claim is grounded entirely from the frames."
+    }
+  ],
+  "ncert_sections_covered": [
+    "8.3",
+    "8.4"
+  ],
+  "frame_paths": [
+    "data/lectures/leph108/15QEqVbIzq_o_6o7LC-Gex08AfVsbJxcP/frames/floor_000001.jpg",
+    "data/lectures/leph108/15QEqVbIzq_o_6o7LC-Gex08AfVsbJxcP/frames/floor_000005.jpg",
+    "data/lectures/leph108/15QEqVbIzq_o_6o7LC-Gex08AfVsbJxcP/frames/floor_000008.jpg",
+    "data/lectures/leph108/15QEqVbIzq_o_6o7LC-Gex08AfVsbJxcP/frames/floor_000012.jpg",
+    "data/lectures/leph108/15QEqVbIzq_o_6o7LC-Gex08AfVsbJxcP/frames/floor_000014.jpg",
+    "data/lectures/leph108/15QEqVbIzq_o_6o7LC-Gex08AfVsbJxcP/frames/floor_000018.jpg",
+    "data/lectures/leph108/15QEqVbIzq_o_6o7LC-Gex08AfVsbJxcP/frames/floor_000020.jpg",
+    "data/lectures/leph108/15QEqVbIzq_o_6o7LC-Gex08AfVsbJxcP/frames/floor_000021.jpg",
+    "data/lectures/leph108/15QEqVbIzq_o_6o7LC-Gex08AfVsbJxcP/frames/floor_000023.jpg",
+    "data/lectures/leph108/15QEqVbIzq_o_6o7LC-Gex08AfVsbJxcP/frames/floor_000025.jpg",
+    "data/lectures/leph108/15QEqVbIzq_o_6o7LC-Gex08AfVsbJxcP/frames/floor_000026.jpg",
+    "data/lectures/leph108/15QEqVbIzq_o_6o7LC-Gex08AfVsbJxcP/frames/floor_000027.jpg",
+    "data/lectures/leph108/15QEqVbIzq_o_6o7LC-Gex08AfVsbJxcP/frames/floor_000030.jpg",
+    "data/lectures/leph108/15QEqVbIzq_o_6o7LC-Gex08AfVsbJxcP/frames/floor_000031.jpg",
+    "data/lectures/leph108/15QEqVbIzq_o_6o7LC-Gex08AfVsbJxcP/frames/floor_000032.jpg",
+    "data/lectures/leph108/15QEqVbIzq_o_6o7LC-Gex08AfVsbJxcP/frames/floor_000038.jpg",
+    "data/lectures/leph108/15QEqVbIzq_o_6o7LC-Gex08AfVsbJxcP/frames/floor_000055.jpg",
+    "data/lectures/leph108/15QEqVbIzq_o_6o7LC-Gex08AfVsbJxcP/frames/floor_000058.jpg",
+    "data/lectures/leph108/15QEqVbIzq_o_6o7LC-Gex08AfVsbJxcP/frames/floor_000064.jpg",
+    "data/lectures/leph108/15QEqVbIzq_o_6o7LC-Gex08AfVsbJxcP/frames/floor_000068.jpg",
+    "data/lectures/leph108/15QEqVbIzq_o_6o7LC-Gex08AfVsbJxcP/frames/floor_000072.jpg",
+    "data/lectures/leph108/15QEqVbIzq_o_6o7LC-Gex08AfVsbJxcP/frames/floor_000078.jpg",
+    "data/lectures/leph108/15QEqVbIzq_o_6o7LC-Gex08AfVsbJxcP/frames/floor_000082.jpg",
+    "data/lectures/leph108/15QEqVbIzq_o_6o7LC-Gex08AfVsbJxcP/frames/floor_000084.jpg",
+    "data/lectures/leph108/15QEqVbIzq_o_6o7LC-Gex08AfVsbJxcP/frames/floor_000088.jpg"
+  ],
+  "markdown_body": "## Sources of electromagnetic waves (NCERT 8.3)\n\nA stationary charge produces only an electric field; a charge moving at constant velocity produces a time-independent magnetic field. An **accelerated** charge (non-uniform velocity) is a source of EM waves — its E and B fields vary with time. An oscillating LC circuit is one way to produce EM waves (the capacitor's charge varies with time, i.e. is being accelerated).\n\n## Properties of electromagnetic waves (NCERT 8.3)\n\n1. **Transverse** in nature.\n2. Frequency of the EM wave = frequency of its source.\n3. Energy of the wave comes **at the expense of the source's energy**.\n4. Travel through vacuum at the **speed of light**, $c$.\n5. **Electrically neutral** — not made of charged particles, so NOT deflected by electric or magnetic fields.\n6. Show ordinary wave phenomena: reflection, refraction, interference, diffraction, polarization.\n\n## Field relations and energy (NCERT 8.4)\n\n$$c = \\frac{E_0}{B_0}$$\nIn a medium: $v = \\dfrac{1}{\\sqrt{\\mu\\varepsilon}}$; in vacuum, $c=\\dfrac{1}{\\sqrt{\\mu_0\\varepsilon_0}}$.\n\n**Equal energy density:** $U_E = U_M$ everywhere in an EM wave. Total energy density $U=U_E+U_M$ (expressible via $\\varepsilon_0 E^2$).\n\n## Momentum and radiation pressure\n\nEM waves carry momentum as well as energy, so they exert **radiation pressure**. If total energy $U$ is transferred to a surface (fully absorbed) in time $t$:\n$$p = \\frac{U}{c}$$\n\n**Example:** sunlight on your hand — you feel the energy (warmth), but the momentum transferred is imperceptibly small (since $c$ is so large).\n\n**Importance:** carrying energy from one place to another — radio/TV signals, and light carrying energy from the Sun to the Earth.\n\n**Historical note:** the best modern electronic oscillator circuits reach only $\\sim10^{11}$ Hz, far below visible light's frequency — so light's electromagnetic nature couldn't be demonstrated the same way Hertz demonstrated radio waves.\n\n## Equation of an electromagnetic wave (NCERT 8.3)\n\n$E$, $B$, and the direction of propagation are mutually perpendicular. For propagation along $x$, $E$ along $y$, $B$ along $z$:\n$$E_y = E_0\\sin(\\omega t - kx), \\qquad B_z = B_0\\sin(\\omega t - kx), \\qquad k=\\frac{2\\pi}{\\lambda}$$\nDirection of propagation given by $\\hat E\\times\\hat B$ (e.g. $\\hat\\jmath\\times\\hat k=\\hat\\imath$).\n\n---\n*Note on this lecture's transcript:* properties, field-magnitude ratio, energy density, and momentum/radiation-pressure are all transcribed cleanly. However, the \"equation of EM waves\" half of this lecture's own title — the explicit sinusoidal $E_y$/$B_z$ component equations and the propagation-direction rule — never appears anywhere in the transcript at all, despite being clearly present on the board near the end of the true video. Grounded entirely from frames; see the flagged span below.\n"
+}

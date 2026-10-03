@@ -1,0 +1,88 @@
+{
+  "file_id": "1xP2VppJSiqby6nk4Gys--lX5GeM1TGNg",
+  "chapter_id": "leph104",
+  "title": "Magnetic Field Due to a Solenoid and a Toroid, and Inside/Outside a Current-Carrying Conductor",
+  "duration_seconds": 1940.3,
+  "claims": [
+    {
+      "text": "A solenoid is a long wire wound as a closely-packed helix carrying current. If closely wound (no gaps between successive insulated turns) and long, the field inside is uniform: each turn's field adds up in the same direction along the axis. Applying Ampere's circuital law with a rectangular Amperian loop (one side of length l inside the solenoid, parallel to the axis; the opposite side far outside; the two end sides perpendicular to B) -- only the inside segment contributes to the line integral (the far side has negligible field, the perpendicular sides contribute zero since B.dl=0) -- gives B*l = mu0*(n*l)*I, so B = mu0*n*I, where n is the number of turns per unit length",
+      "transcript_span": [
+        2.3,
+        620.0
+      ],
+      "frame_path": "data/lectures/leph104/1xP2VppJSiqby6nk4Gys--lX5GeM1TGNg/frames/floor_000017.jpg",
+      "ncert_section": "4.7",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "A toroid is an endless solenoid: a solenoid bent around into a closed ring shape. Current enters at one point and exits diametrically opposite on the cross-section, giving alternating dots and crosses around the ring. The magnetic field lines inside the toroid's core form concentric circles",
+      "transcript_span": [
+        600.0,
+        1019.0
+      ],
+      "frame_path": "data/lectures/leph104/1xP2VppJSiqby6nk4Gys--lX5GeM1TGNg/frames/floor_000038.jpg",
+      "ncert_section": "4.6",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Three regions for a toroid: (1) the empty space enclosed by the ring (inside the 'hole') -- no current is enclosed by an Amperian loop there, so B=0. (2) Outside the toroid entirely -- also B=0 (each turn's contribution cancels when integrated over a loop enclosing zero net current). (3) Inside the toroid's core (the wound region itself) -- this is the only region with nonzero field, B = mu0*n*I, the same formula as an (unwound, straight) solenoid, with n = N/(2*pi*R_avg) turns per unit length using the average of the toroid's inner and outer radii",
+      "transcript_span": [
+        1019.0,
+        1256.5
+      ],
+      "frame_path": null,
+      "ncert_section": "4.6",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Worked numerical: a long straight cylindrical conductor of radius a carries current I (uniformly distributed over its cross-section). Find B for r>a and r<a. OUTSIDE (r>a): Amperian circular loop of radius r encloses the full current I, so B(2*pi*r)=mu0*I, giving B=mu0*I/(2*pi*r) -- same as for a thin wire, inversely proportional to r. INSIDE (r<a): only the fraction of current enclosed by radius r matters -- since current density is uniform, enclosed current = I*(pi*r^2)/(pi*a^2) = I*r^2/a^2. Then B(2*pi*r) = mu0*I*r^2/a^2, giving B = mu0*I*r/(2*pi*a^2) -- directly proportional to r. AT THE SURFACE (r=a), both expressions agree: B=mu0*I/(2*pi*a), the maximum value of B. Plotting B vs r gives a straight line rising from the centre to the surface, then a 1/r curve falling off outside",
+      "transcript_span": [
+        1278.4,
+        1800.0
+      ],
+      "frame_path": "data/lectures/leph104/1xP2VppJSiqby6nk4Gys--lX5GeM1TGNg/frames/floor_000070.jpg",
+      "ncert_section": "4.6",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Determining a current-carrying solenoid's magnetic polarity from winding direction: viewed end-on, if the current flows clockwise at that face, that face acts as a SOUTH pole (field lines converge there, entering the solenoid); if anticlockwise, that face is a NORTH pole (field lines emerge there) -- consistent with field lines inside the solenoid running from south to north",
+      "transcript_span": [
+        1800.0,
+        1940.3
+      ],
+      "frame_path": null,
+      "ncert_section": "4.7",
+      "ncert_agreement": "agrees"
+    }
+  ],
+  "uncertain_spans": [],
+  "ncert_sections_covered": [
+    "4.6",
+    "4.7"
+  ],
+  "frame_paths": [
+    "data/lectures/leph104/1xP2VppJSiqby6nk4Gys--lX5GeM1TGNg/frames/floor_000001.jpg",
+    "data/lectures/leph104/1xP2VppJSiqby6nk4Gys--lX5GeM1TGNg/frames/floor_000004.jpg",
+    "data/lectures/leph104/1xP2VppJSiqby6nk4Gys--lX5GeM1TGNg/frames/floor_000010.jpg",
+    "data/lectures/leph104/1xP2VppJSiqby6nk4Gys--lX5GeM1TGNg/frames/floor_000014.jpg",
+    "data/lectures/leph104/1xP2VppJSiqby6nk4Gys--lX5GeM1TGNg/frames/floor_000017.jpg",
+    "data/lectures/leph104/1xP2VppJSiqby6nk4Gys--lX5GeM1TGNg/frames/floor_000029.jpg",
+    "data/lectures/leph104/1xP2VppJSiqby6nk4Gys--lX5GeM1TGNg/frames/floor_000035.jpg",
+    "data/lectures/leph104/1xP2VppJSiqby6nk4Gys--lX5GeM1TGNg/frames/floor_000038.jpg",
+    "data/lectures/leph104/1xP2VppJSiqby6nk4Gys--lX5GeM1TGNg/frames/floor_000041.jpg",
+    "data/lectures/leph104/1xP2VppJSiqby6nk4Gys--lX5GeM1TGNg/frames/floor_000048.jpg",
+    "data/lectures/leph104/1xP2VppJSiqby6nk4Gys--lX5GeM1TGNg/frames/floor_000050.jpg",
+    "data/lectures/leph104/1xP2VppJSiqby6nk4Gys--lX5GeM1TGNg/frames/floor_000056.jpg",
+    "data/lectures/leph104/1xP2VppJSiqby6nk4Gys--lX5GeM1TGNg/frames/floor_000059.jpg",
+    "data/lectures/leph104/1xP2VppJSiqby6nk4Gys--lX5GeM1TGNg/frames/floor_000060.jpg",
+    "data/lectures/leph104/1xP2VppJSiqby6nk4Gys--lX5GeM1TGNg/frames/floor_000061.jpg",
+    "data/lectures/leph104/1xP2VppJSiqby6nk4Gys--lX5GeM1TGNg/frames/floor_000064.jpg",
+    "data/lectures/leph104/1xP2VppJSiqby6nk4Gys--lX5GeM1TGNg/frames/floor_000070.jpg",
+    "data/lectures/leph104/1xP2VppJSiqby6nk4Gys--lX5GeM1TGNg/frames/floor_000075.jpg",
+    "data/lectures/leph104/1xP2VppJSiqby6nk4Gys--lX5GeM1TGNg/frames/floor_000083.jpg",
+    "data/lectures/leph104/1xP2VppJSiqby6nk4Gys--lX5GeM1TGNg/frames/floor_000088.jpg",
+    "data/lectures/leph104/1xP2VppJSiqby6nk4Gys--lX5GeM1TGNg/frames/floor_000091.jpg",
+    "data/lectures/leph104/1xP2VppJSiqby6nk4Gys--lX5GeM1TGNg/frames/floor_000094.jpg"
+  ],
+  "markdown_body": "## The solenoid (NCERT 4.7)\n\nA long wire wound as a closely-packed helix. If closely wound (no gaps) and long, individual turns' fields add up along the axis to give a **uniform field inside**. Applying Ampere's circuital law with a rectangular Amperian loop (one side of length $l$ inside the solenoid parallel to the axis, the opposite side far outside where $B\\approx0$, the two connecting sides perpendicular to $\\vec B$ so $\\vec B\\cdot d\\vec l=0$ there):\n$$Bl = \\mu_0(nl)I \\quad\\Rightarrow\\quad \\boxed{B = \\mu_0 n I}$$\nwhere $n$ = turns per unit length.\n\n**Determining polarity from winding:** viewed end-on, current flowing **clockwise** at a face $\\Rightarrow$ that face is a **south** pole (field lines converge/enter); **anticlockwise** $\\Rightarrow$ **north** pole (field lines emerge) — consistent with field lines running south-to-north inside the solenoid.\n\n## The toroid (application of Ampere's law, NCERT 4.6)\n\nAn **endless solenoid**: a solenoid bent into a closed ring. Current enters at one point on the cross-section and exits diametrically opposite, alternating dots/crosses around the ring; field lines inside the core form **concentric circles**.\n\n**Three regions:**\n1. **Empty space enclosed by the ring** (the \"hole\"): no current enclosed $\\Rightarrow B=0$.\n2. **Outside the toroid entirely:** $B=0$.\n3. **Inside the toroid's wound core** — the only region with field:\n$$B = \\mu_0 n I, \\qquad n = \\frac{N}{2\\pi R_\\text{avg}}$$\n(same form as a straight solenoid, using the average of the toroid's inner and outer radii for $R_\\text{avg}$).\n\n## Field inside/outside a long straight current-carrying conductor (Ampere's law application)\n\nA cylindrical conductor of radius $a$ carries current $I$, uniformly distributed over its cross-section. Using a circular Amperian loop of radius $r$:\n\n- **Outside** ($r>a$): full current $I$ enclosed: $B(2\\pi r)=\\mu_0 I \\Rightarrow \\boxed{B=\\dfrac{\\mu_0 I}{2\\pi r}}$ — same as a thin wire, $\\propto 1/r$.\n- **Inside** ($r<a$): only the enclosed fraction of current counts (uniform current density): $I_\\text{enc} = I\\dfrac{r^2}{a^2}$, giving $B(2\\pi r) = \\mu_0 I\\dfrac{r^2}{a^2} \\Rightarrow \\boxed{B = \\dfrac{\\mu_0 I r}{2\\pi a^2}}$ — $\\propto r$.\n- **At the surface** ($r=a$): both expressions agree, $B=\\dfrac{\\mu_0 I}{2\\pi a}$, the **maximum** value.\n\n$B$-vs-$r$ graph: a straight line rising from the centre to the surface, then a $1/r$ curve falling off outside.\n"
+}

@@ -1,0 +1,359 @@
+<title>{{ARTIFACT_TITLE}}</title>
+<!--
+  sheets/template.html -- shared skeleton for the four cross-chapter revision
+  sheets (chemistry/physics x formulas/derivations). Slots are {{LIKE_THIS}}.
+
+  Unlike chem/template.html this file does NOT carry the 359 KB of inlined
+  KaTeX CSS. sheets/build.py splices it in at build time straight from
+  lecturepipe/publish/static/katex-inline.css, so this template stays
+  readable and the repo stores one copy instead of five.
+
+  Do not add <!doctype>, <html>, <head> or <body> -- the Artifact tool wraps
+  those at publish time.
+
+  Three faces, one per kind of content:
+    Instrument Sans -- structure (headings, labels, UI chrome)
+    Newsreader      -- prose, and the "why" clause on a derivation step
+    JetBrains Mono  -- units, step numbers, entry ids, symbols
+  Mathematics itself is rendered by KaTeX in its own faces; the mono face is
+  for the metadata around it, never a substitute for a real equation.
+-->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=JetBrains+Mono:wght@400;500;700&display=swap">
+<style>
+{{KATEX_CSS}}
+</style>
+<style>
+/* ===== Design tokens -- no colour literal may appear outside these blocks ===== */
+:root {
+  --paper: #F4F6F8;
+  --surface: #FFFFFF;
+  --surface-alt: #E7ECF1;
+  --ink: #10171D;
+  --ink-2: #3D4C57;
+  --ink-3: #6B7A85;
+  --rule: #D5DDE4;
+  --rule-strong: #B9C5CE;
+  --accent: {{ACCENT_LIGHT}};
+  --accent-soft: {{ACCENT_SOFT_LIGHT}};
+  --warn: #9A5B1B;
+  --warn-soft: #F6EADA;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #0E1418;
+    --surface: #151D23;
+    --surface-alt: #1C262D;
+    --ink: #E4EBEF;
+    --ink-2: #B3C0C9;
+    --ink-3: #7E8D97;
+    --rule: #26313A;
+    --rule-strong: #38454F;
+    --accent: {{ACCENT_DARK}};
+    --accent-soft: {{ACCENT_SOFT_DARK}};
+    --warn: #D9A05B;
+    --warn-soft: #33281A;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #0E1418;
+  --surface: #151D23;
+  --surface-alt: #1C262D;
+  --ink: #E4EBEF;
+  --ink-2: #B3C0C9;
+  --ink-3: #7E8D97;
+  --rule: #26313A;
+  --rule-strong: #38454F;
+  --accent: {{ACCENT_DARK}};
+  --accent-soft: {{ACCENT_SOFT_DARK}};
+  --warn: #D9A05B;
+  --warn-soft: #33281A;
+}
+
+/* ===== Base ===== */
+* { box-sizing: border-box; }
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: "Instrument Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+}
+.wrap { max-width: 44rem; margin: 0 auto; padding: 2rem 1.1rem 5rem; }
+p { margin: .55rem 0; color: var(--ink-2); }
+b, strong { color: var(--ink); font-weight: 600; }
+ul, ol { margin: .5rem 0; padding-left: 1.2rem; color: var(--ink-2); }
+li { margin: .25rem 0; }
+a { color: var(--accent); }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 2px; }
+
+/* ===== Masthead ===== */
+header.mast { margin-bottom: 1.5rem; }
+.eyebrow {
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: .68rem; letter-spacing: .14em; text-transform: uppercase;
+  color: var(--ink-3); margin: 0 0 .7rem;
+}
+h1 {
+  font-size: clamp(1.9rem, 6vw, 2.6rem); line-height: 1.05;
+  letter-spacing: -.02em; font-weight: 700; margin: 0 0 .6rem;
+  text-wrap: balance;
+}
+.standfirst {
+  font-family: "Newsreader", Georgia, serif;
+  font-size: 1.06rem; line-height: 1.55; color: var(--ink-2);
+  max-width: 60ch; margin: 0;
+}
+.totals {
+  display: grid; grid-template-columns: repeat(2, 1fr); gap: 1px;
+  background: var(--rule); border: 1px solid var(--rule); margin: 1.4rem 0 0;
+}
+@media (min-width: 34rem) { .totals { grid-template-columns: repeat(4, 1fr); } }
+.tot { background: var(--paper); padding: .7rem .8rem; }
+.tot dt {
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: .62rem; letter-spacing: .12em; text-transform: uppercase;
+  color: var(--ink-3); margin: 0 0 .25rem;
+}
+.tot dd {
+  margin: 0; font-size: 1.3rem; font-weight: 700; letter-spacing: -.01em;
+  font-variant-numeric: tabular-nums;
+}
+
+/* ===== How to use ===== */
+.howto {
+  border: 1px solid var(--rule); border-left: 3px solid var(--accent);
+  background: var(--surface); padding: .85rem 1rem; margin: 1.6rem 0 0;
+}
+.howto h2 {
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: .66rem; letter-spacing: .14em; text-transform: uppercase;
+  color: var(--accent); margin: 0 0 .45rem; font-weight: 700;
+}
+.howto p { margin: .35rem 0; font-size: .93rem; }
+
+/* ===== Chapter shells ===== */
+details.ch { border-top: 1px solid var(--rule-strong); }
+details.ch:last-of-type { border-bottom: 1px solid var(--rule-strong); }
+details.ch > summary {
+  list-style: none; cursor: pointer; display: flex; align-items: baseline;
+  gap: .75rem; padding: .95rem .15rem; min-height: 44px;
+  font-size: 1.1rem; font-weight: 600; letter-spacing: -.01em;
+}
+details.ch > summary::-webkit-details-marker { display: none; }
+details.ch > summary .num {
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: .68rem; font-weight: 500; color: var(--accent);
+  letter-spacing: .08em; flex: none; transform: translateY(-.1em);
+}
+details.ch > summary .tail {
+  margin-left: auto; font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: .66rem; color: var(--ink-3); letter-spacing: .04em;
+  flex: none; transform: translateY(-.1em); white-space: nowrap;
+}
+details.ch[open] > summary { color: var(--accent); }
+.ch-body { padding: .1rem 0 1.8rem; }
+
+/* ===== Recognise index ===== */
+.rx { border-top: 1px solid var(--rule); }
+.rx-group {
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: .62rem; letter-spacing: .14em; text-transform: uppercase;
+  color: var(--ink-3); padding: 1rem 0 .3rem;
+}
+.rx-row {
+  display: grid; grid-template-columns: 3.4rem 1fr; gap: .7rem;
+  padding: .55rem 0; border-top: 1px solid var(--rule);
+  text-decoration: none; color: inherit; align-items: start;
+}
+.rx-row .rx-id {
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: .74rem; font-weight: 500; color: var(--accent); padding-top: .15em;
+}
+.rx-row .rx-cue { font-size: .92rem; color: var(--ink-2); }
+.rx-row:hover .rx-cue { color: var(--accent); }
+
+/* ===== Formula entries ===== */
+details.f { border-bottom: 1px solid var(--rule); }
+details.f > summary {
+  list-style: none; cursor: pointer; display: flex; align-items: baseline;
+  gap: .6rem; padding: .7rem .1rem; min-height: 44px; font-size: .95rem;
+}
+details.f > summary::-webkit-details-marker { display: none; }
+details.f > summary .dot {
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: .6rem; color: var(--accent); flex: none; transform: translateY(-.18em);
+}
+details.f > summary .dot.slow { color: var(--ink-3); }
+details.f > summary .fid {
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: .7rem; color: var(--ink-3); flex: none; transform: translateY(-.05em);
+}
+details.f > summary .q { flex: 1; color: var(--ink); }
+details.f > summary::after {
+  content: "reveal"; font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: .62rem; letter-spacing: .06em; color: var(--ink-3);
+  flex: none; transform: translateY(-.05em);
+}
+details.f[open] > summary::after { content: "—"; }
+.f-body { padding: .1rem 0 1rem .3rem; }
+.eq {
+  background: var(--surface); border: 1px solid var(--rule);
+  border-left: 3px solid var(--accent);
+  padding: .7rem .85rem; margin: .2rem 0 .7rem; overflow-x: auto;
+}
+
+/* Symbol + unit table -- the slot that makes this a physics/chemistry
+   sheet rather than a generic list. Every symbol carries its SI unit. */
+.syms { width: 100%; border-collapse: collapse; font-size: .87rem; margin: 0 0 .6rem; }
+.syms th {
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: .6rem; letter-spacing: .1em; text-transform: uppercase;
+  color: var(--ink-3); font-weight: 500; text-align: left;
+  padding: .25rem .5rem .25rem 0; border-bottom: 1px solid var(--rule-strong);
+}
+.syms td {
+  padding: .3rem .5rem .3rem 0; border-bottom: 1px solid var(--rule);
+  vertical-align: top; color: var(--ink-2);
+}
+.syms td.sym { white-space: nowrap; color: var(--ink); width: 4.5rem; }
+.syms td.unit {
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: .82rem; white-space: nowrap; color: var(--ink);
+  width: 7rem; font-variant-numeric: tabular-nums;
+}
+.trap, .use {
+  padding: .55rem .75rem; margin: .55rem 0 0; font-size: .9rem; line-height: 1.5;
+}
+.trap { background: var(--warn-soft); border-left: 3px solid var(--warn); }
+.use  { background: var(--accent-soft); border-left: 3px solid var(--accent); }
+.trap p, .use p { margin: 0; color: var(--ink); }
+.lbl {
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: .6rem; letter-spacing: .12em; text-transform: uppercase;
+  font-weight: 700; display: block; margin-bottom: .2rem;
+}
+.trap .lbl { color: var(--warn); }
+.use .lbl { color: var(--accent); }
+
+/* ===== Derivation blocks ===== */
+.deriv { margin: 0 0 2.4rem; }
+.deriv-head {
+  display: flex; align-items: baseline; gap: .65rem;
+  border-bottom: 1px solid var(--rule-strong); padding-bottom: .35rem; margin-bottom: .6rem;
+}
+.deriv-head .d-num {
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: .7rem; font-weight: 700; color: var(--accent);
+  letter-spacing: .06em; flex: none;
+}
+.deriv-head .d-title { font-size: 1.05rem; font-weight: 600; line-height: 1.3; }
+.deriv-head .d-marks {
+  margin-left: auto; font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: .64rem; color: var(--ink-3); flex: none; white-space: nowrap;
+}
+.setup {
+  font-family: "Newsreader", Georgia, serif; font-size: 1rem; line-height: 1.55;
+  color: var(--ink-2); margin: .2rem 0 .8rem;
+  padding-left: .8rem; border-left: 2px solid var(--rule-strong);
+}
+figure.fig { margin: 1rem 0; }
+figure.fig svg { display: block; width: 100%; height: auto; color: var(--ink); }
+figure.fig figcaption {
+  font-family: "Newsreader", Georgia, serif; font-size: .92rem;
+  color: var(--ink-3); margin-top: .45rem; line-height: 1.5;
+}
+ol.steps { list-style: none; margin: .5rem 0; padding: 0; counter-reset: st; }
+ol.steps > li {
+  counter-increment: st; position: relative;
+  padding: .12rem 0 .12rem 2.4rem; margin: 0;
+  font-size: .93rem; line-height: 1.7; color: var(--ink);
+  overflow-x: auto;
+}
+ol.steps > li::before {
+  content: counter(st) "."; position: absolute; left: 0; top: .12rem; width: 1.8rem;
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: .72rem; color: var(--ink-3); text-align: right;
+  font-variant-numeric: tabular-nums; line-height: 1.9;
+}
+ol.steps .why {
+  font-family: "Newsreader", Georgia, serif; font-style: italic;
+  color: var(--ink-3); font-size: .95em;
+}
+.result {
+  margin: .9rem 0 .4rem; padding: .7rem .9rem;
+  border: 1px solid var(--accent); background: var(--accent-soft);
+  text-align: center; overflow-x: auto;
+}
+.result .lbl { color: var(--accent); text-align: left; }
+.shared {
+  font-size: .88rem; color: var(--ink-2); background: var(--surface-alt);
+  border: 1px dashed var(--rule-strong); padding: .5rem .7rem; margin: .6rem 0 .8rem;
+}
+.shared b { color: var(--ink); }
+
+/* ===== Misc ===== */
+.scroll { overflow-x: auto; margin: .7rem 0; -webkit-overflow-scrolling: touch; }
+table.plain { border-collapse: collapse; width: 100%; font-size: .88rem; min-width: 26rem; }
+table.plain th, table.plain td {
+  text-align: left; padding: .4rem .6rem; border-bottom: 1px solid var(--rule); vertical-align: top;
+}
+table.plain th {
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: .62rem; letter-spacing: .08em; text-transform: uppercase;
+  color: var(--ink-3); font-weight: 500; border-bottom: 1px solid var(--rule-strong);
+}
+table.plain td { color: var(--ink-2); }
+.note { font-size: .87rem; color: var(--ink-3); font-family: "Newsreader", Georgia, serif; }
+.ctl { display: flex; gap: .5rem; flex-wrap: wrap; margin: 0 0 .9rem; }
+.ctl button {
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: .64rem; letter-spacing: .08em; text-transform: uppercase;
+  background: var(--surface); color: var(--ink-2);
+  border: 1px solid var(--rule-strong); padding: .45rem .8rem; cursor: pointer;
+  min-height: 34px;
+}
+.ctl button:hover { color: var(--accent); border-color: var(--accent); }
+footer {
+  margin-top: 3rem; padding-top: 1rem; border-top: 1px solid var(--rule-strong);
+  font-size: .84rem; color: var(--ink-3); line-height: 1.55;
+  font-family: "Newsreader", Georgia, serif;
+}
+.katex { font-size: 1.02em; }
+.katex-display { margin: .3rem 0; }
+@media (max-width: 30rem) {
+  .wrap { padding: 1.4rem .85rem 4rem; }
+  ol.steps > li { padding-left: 2rem; font-size: .89rem; }
+}
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
+</style>
+
+<div class="wrap" id="sheet-root">
+{{CONTENT}}
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/contrib/mhchem.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/contrib/auto-render.min.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  var root = document.getElementById("sheet-root");
+  if (root && window.renderMathInElement) {
+    renderMathInElement(root, {
+      delimiters: [
+        { left: "$$", right: "$$", display: true },
+        { left: "$", right: "$", display: false }
+      ],
+      throwOnError: false
+    });
+  }
+  document.querySelectorAll("[data-all]").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      var open = btn.getAttribute("data-all") === "open";
+      var scope = btn.closest("section") || document;
+      scope.querySelectorAll("details.f, details.ch").forEach(function (d) { d.open = open; });
+    });
+  });
+});
+</script>
