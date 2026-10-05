@@ -1,5 +1,6 @@
 {
   "_readme": "Reference tables for the chemistry notes job. Confirmed this session: NCERT fileIds by reading each PDF's content snippet via the Drive connector (all RATIONALISED 2022-23 / Reprint 2026-27 = current syllabus). Video IDs are taken verbatim from the user's brief, not independently verified (YouTube fetching is blocked in this environment -- re-confirmed via .venv/bin/yt-dlp, HTTP 429 bot-detection). Do not re-derive any of this -- copy it. Deliverable shape (decision 4, this session): ONE published artifact per chapter, combining lecture + PYQ content -- see chem/published.json for per-chapter build state and chem/SKILL.md section 3a for the build mechanic.",
+  "_readme_ch7_10": "Chapters 7-10 added 2026-10-05. Every video ID was verified via YouTube oEmbed (author_name 'Sourabh Raina', title as recorded). Durations were reported by the link finder, not verified. NCERT PDFs for 7-10 are not in Drive: fetch them from ncert_url (confirmed reachable). Audio still has to be downloaded by the user and uploaded to the Drive folder chem-audio under the names in audio_files.",
 
   "exam": {
     "date": "2026-09-10",
@@ -26,7 +27,9 @@
   "prior_knowledge": {
     "theory_done_numericals_gap": ["1", "2", "3"],
     "first_contact": ["4", "5", "6"],
-    "rule": "Chapters 1-3: no [exposure] tags, teach properly but weight length toward numerical method. Chapters 4-6: every first-contact term gets [exposure] + 4-6 lines (what it is, why it exists, one concrete example)."
+    "rule": "Chapters 1-3: no [exposure] tags, teach properly but weight length toward numerical method. Chapters 4-6: every first-contact term gets [exposure] + 4-6 lines (what it is, why it exists, one concrete example).",
+    "pending_confirmation": ["7", "8", "9", "10"],
+    "pending_note": "Depth for chapters 7-10 (theory-known vs first-contact) not yet confirmed by the user. Default to first-contact ([exposure]) unless told otherwise, and update chem/qa.py FIRST_CONTACT_CHAPTERS to match."
   },
 
   "chapters": [
@@ -102,6 +105,108 @@
       "artifact_title": "Haloalkanes and Haloarenes — Complete Notes",
       "favicon": "⚗️",
       "scope": "Full chapter, 6.1 (Classification) through 6.8 (Polyhalogen compounds). NCERT confirmed section run via grep this session: 6.1, 6.2 Nomenclature, 6.3 Nature of C-X bond, 6.4 Methods of preparation, 6.5 Physical properties, 6.6-6.7 Chemical reactions (incl. SN1/SN2, elimination), 6.8 Polyhalogen compounds (6.8.1 Dichloromethane, 6.8.2 Trichloromethane, 6.8.3 Triiodomethane, 6.8.4 Tetrachloromethane, 6.8.5 Freons)."
+    },
+    {
+      "number": 7,
+      "name": "Alcohols, Phenols and Ethers",
+      "ncert_file": "lech202.pdf",
+      "ncert_fileId": null,
+      "ncert_url": "https://ncert.nic.in/textbook/pdf/lech202.pdf",
+      "pyq_video_id": "0f31fFDPRgs",
+      "pyq_video_url": "https://youtu.be/0f31fFDPRgs",
+      "pyq_title": "Alcohol ,Phenol and Ether| 25 PYQ | Class 12 Chemistry | CBSE Board 2026-27| Sourabh Raina",
+      "pyq_duration": "0:45:43",
+      "oneshot_video_id": "w6hssZ--QzA",
+      "oneshot_video_url": "https://youtu.be/w6hssZ--QzA",
+      "oneshot_title": "Alcohol, Phenol and Ether Detailed Oneshot + PYQ Chapter 7 Class 12 Chemistry CBSE 2027",
+      "oneshot_duration": "2:03:07",
+      "artifact_title": "Alcohols, Phenols and Ethers — Complete Notes",
+      "favicon": "🫧",
+      "audio_files": [
+        "chem-audio/ch7-oneshot.mp3",
+        "chem-audio/ch7-pyq.mp3"
+      ]
+    },
+    {
+      "number": 8,
+      "name": "Aldehydes, Ketones and Carboxylic Acids",
+      "ncert_file": "lech203.pdf",
+      "ncert_fileId": null,
+      "ncert_url": "https://ncert.nic.in/textbook/pdf/lech203.pdf",
+      "pyq_video_id": "5ymJgOzBbTQ",
+      "pyq_video_url": "https://youtu.be/5ymJgOzBbTQ",
+      "pyq_title": "Aldehyde Ketone and Carboxylic acid | 30+ PYQ | Class 12 Chemistry|CBSE Board 2024-25| Sourabh Raina",
+      "pyq_duration": "0:59:50",
+      "oneshot_video_id": "-Nl9lpCWv90",
+      "oneshot_video_url": "https://youtu.be/-Nl9lpCWv90",
+      "oneshot_title": "Aldehyde ketone and Carboxylic acid Detailed Oneshot + PYQ Chapter 8 Class 12 Chemistry CBSE 2027",
+      "oneshot_duration": "2:21:12",
+      "pyq_supplement_video_id": "b-32dQuMU1c",
+      "pyq_supplement_video_url": "https://youtu.be/b-32dQuMU1c",
+      "pyq_supplement_title": "Aldehydes Ketones and Carboxylic acids| 2025 PYQ | CBSE board | 2025-26 | Sourabh Raina",
+      "pyq_supplement_duration": "0:15:22",
+      "pyq_note": "The CBSE 2026-27 '25 PYQ' video for this chapter was not uploaded as of 2026-10-05. Using the 2024-25 '30+ PYQ' video as the PYQ source, plus the short '2025 PYQ' video for the 2025 paper it predates. Swap in the 25 PYQ video once it appears.",
+      "artifact_title": "Aldehydes, Ketones and Carboxylic Acids — Complete Notes",
+      "favicon": "🍋",
+      "audio_files": [
+        "chem-audio/ch8-oneshot.mp3",
+        "chem-audio/ch8-pyq.mp3",
+        "chem-audio/ch8-pyq2025.mp3"
+      ]
+    },
+    {
+      "number": 9,
+      "name": "Amines",
+      "ncert_file": "lech204.pdf",
+      "ncert_fileId": null,
+      "ncert_url": "https://ncert.nic.in/textbook/pdf/lech204.pdf",
+      "pyq_video_id": "mKCNBideF-g",
+      "pyq_video_url": "https://youtu.be/mKCNBideF-g",
+      "pyq_title": "Amines | 30+ PYQ | Class 12 Chemistry| CBSE Board 2024-25 | Sourabh Raina",
+      "pyq_duration": "0:48:21",
+      "oneshot_video_id": "fHJW7G9CM_U",
+      "oneshot_video_url": "https://youtu.be/fHJW7G9CM_U",
+      "oneshot_title": "Amines Detailed Oneshot + Questions Chapter 9 Class 12 Chemistry CBSE 2027",
+      "oneshot_duration": "1:24:59",
+      "pyq_supplement_video_id": "O4IfY_kQqRI",
+      "pyq_supplement_video_url": "https://youtu.be/O4IfY_kQqRI",
+      "pyq_supplement_title": "Amines | 2025 PYQ | CBSE board | 2025-26 | Sourabh Raina",
+      "pyq_supplement_duration": "0:08:52",
+      "pyq_note": "The CBSE 2026-27 '25 PYQ' video for this chapter was not uploaded as of 2026-10-05. Using the 2024-25 '30+ PYQ' video as the PYQ source, plus the short '2025 PYQ' video for the 2025 paper it predates. Swap in the 25 PYQ video once it appears.",
+      "artifact_title": "Amines — Complete Notes",
+      "favicon": "🐟",
+      "audio_files": [
+        "chem-audio/ch9-oneshot.mp3",
+        "chem-audio/ch9-pyq.mp3",
+        "chem-audio/ch9-pyq2025.mp3"
+      ]
+    },
+    {
+      "number": 10,
+      "name": "Biomolecules",
+      "ncert_file": "lech205.pdf",
+      "ncert_fileId": null,
+      "ncert_url": "https://ncert.nic.in/textbook/pdf/lech205.pdf",
+      "pyq_video_id": "ayjmlZS9QUo",
+      "pyq_video_url": "https://youtu.be/ayjmlZS9QUo",
+      "pyq_title": "Biomolecules | 30+ PYQ | Class 12 Chemistry| CBSE Board 2024-25 | Sourabh Raina",
+      "pyq_duration": "0:26:58",
+      "oneshot_video_id": "VsyaTKe1eeI",
+      "oneshot_video_url": "https://youtu.be/VsyaTKe1eeI",
+      "oneshot_title": "Biomolecules Detailed Oneshot + PYQ Chapter 10 Class 12 Chemistry CBSE 2027",
+      "oneshot_duration": "1:32:45",
+      "pyq_supplement_video_id": "VL7voxOn_eo",
+      "pyq_supplement_video_url": "https://youtu.be/VL7voxOn_eo",
+      "pyq_supplement_title": "Biomolecules| 2025 PYQ | CBSE board | 2025-26 | Sourabh Raina",
+      "pyq_supplement_duration": "0:04:53",
+      "pyq_note": "The CBSE 2026-27 '25 PYQ' video for this chapter was not uploaded as of 2026-10-05. Using the 2024-25 '30+ PYQ' video as the PYQ source, plus the short '2025 PYQ' video for the 2025 paper it predates. Swap in the 25 PYQ video once it appears.",
+      "artifact_title": "Biomolecules — Complete Notes",
+      "favicon": "🧬",
+      "audio_files": [
+        "chem-audio/ch10-oneshot.mp3",
+        "chem-audio/ch10-pyq.mp3",
+        "chem-audio/ch10-pyq2025.mp3"
+      ]
     }
   ],
 
