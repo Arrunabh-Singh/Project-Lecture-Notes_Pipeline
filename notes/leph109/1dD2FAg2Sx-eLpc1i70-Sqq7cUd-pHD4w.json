@@ -1,0 +1,103 @@
+{
+  "file_id": "1dD2FAg2Sx-eLpc1i70-Sqq7cUd-pHD4w",
+  "chapter_id": "leph109",
+  "title": "Lateral Displacement, Apparent Depth and Atmospheric Refraction",
+  "duration_seconds": 2213.3,
+  "claims": [
+    {
+      "text": "Glass slab: emergent ray parallel to incident ray; lateral displacement d = t sin(i - r)/cos r, so d is proportional to slab thickness",
+      "transcript_span": [
+        0,
+        329
+      ],
+      "frame_path": "data/lectures/leph109/1dD2FAg2Sx-eLpc1i70-Sqq7cUd-pHD4w/frames/floor_000016.jpg",
+      "ncert_section": "9.3",
+      "ncert_agreement": "teacher_simplifies"
+    },
+    {
+      "text": "A coin in water appears raised; for normal viewing n = real depth / apparent depth and the rise is h(1 - 1/n)",
+      "transcript_span": [
+        329,
+        633
+      ],
+      "frame_path": "data/lectures/leph109/1dD2FAg2Sx-eLpc1i70-Sqq7cUd-pHD4w/frames/floor_000052.jpg",
+      "ncert_section": "9.3",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "To a fish, a fisherman appears raised; master formula d' = d n_observer / n_medium covers both cases",
+      "transcript_span": [
+        633,
+        855
+      ],
+      "frame_path": "data/lectures/leph109/1dD2FAg2Sx-eLpc1i70-Sqq7cUd-pHD4w/frames/floor_000045.jpg",
+      "ncert_section": null,
+      "ncert_agreement": null
+    },
+    {
+      "text": "For stacked layers seen from air, apparent depth = d2/n2 + d3/n3 + d4/n4",
+      "transcript_span": [
+        855,
+        1045
+      ],
+      "frame_path": "data/lectures/leph109/1dD2FAg2Sx-eLpc1i70-Sqq7cUd-pHD4w/frames/floor_000051.jpg",
+      "ncert_section": null,
+      "ncert_agreement": null
+    },
+    {
+      "text": "A slab of thickness t shifts the apparent position of an object by t(1 - 1/n) in the direction of the incident light; t = 1 cm, n = 1.5 gives 1/3 cm",
+      "transcript_span": [
+        1047,
+        1313
+      ],
+      "frame_path": "data/lectures/leph109/1dD2FAg2Sx-eLpc1i70-Sqq7cUd-pHD4w/frames/floor_000067.jpg",
+      "ncert_section": null,
+      "ncert_agreement": null
+    },
+    {
+      "text": "Board question: a 3 cm slab (n = 1.5) between a convex lens and its image at 10 cm moves the image to 11 cm; between object (10 cm) and lens it makes u = 9 cm",
+      "transcript_span": [
+        1313,
+        1611
+      ],
+      "frame_path": "data/lectures/leph109/1dD2FAg2Sx-eLpc1i70-Sqq7cUd-pHD4w/frames/floor_000083.jpg",
+      "ncert_section": null,
+      "ncert_agreement": null
+    },
+    {
+      "text": "Atmospheric refraction advances sunrise and delays sunset by about 2 min each (half-degree shift), giving about 4 min extra daylight",
+      "transcript_span": [
+        1643,
+        1889
+      ],
+      "frame_path": "data/lectures/leph109/1dD2FAg2Sx-eLpc1i70-Sqq7cUd-pHD4w/frames/floor_000097.jpg",
+      "ncert_section": null,
+      "ncert_agreement": null
+    },
+    {
+      "text": "Stars twinkle because the dynamic atmosphere keeps changing the refractive index of its layers, so the light reaching the eye fluctuates",
+      "transcript_span": [
+        1889,
+        2213
+      ],
+      "frame_path": "data/lectures/leph109/1dD2FAg2Sx-eLpc1i70-Sqq7cUd-pHD4w/frames/floor_000110.jpg",
+      "ncert_section": null,
+      "ncert_agreement": null
+    }
+  ],
+  "uncertain_spans": [],
+  "ncert_sections_covered": [
+    "9.3"
+  ],
+  "frame_paths": [
+    "data/lectures/leph109/1dD2FAg2Sx-eLpc1i70-Sqq7cUd-pHD4w/frames/floor_000016.jpg",
+    "data/lectures/leph109/1dD2FAg2Sx-eLpc1i70-Sqq7cUd-pHD4w/frames/floor_000045.jpg",
+    "data/lectures/leph109/1dD2FAg2Sx-eLpc1i70-Sqq7cUd-pHD4w/frames/floor_000051.jpg",
+    "data/lectures/leph109/1dD2FAg2Sx-eLpc1i70-Sqq7cUd-pHD4w/frames/floor_000052.jpg",
+    "data/lectures/leph109/1dD2FAg2Sx-eLpc1i70-Sqq7cUd-pHD4w/frames/floor_000067.jpg",
+    "data/lectures/leph109/1dD2FAg2Sx-eLpc1i70-Sqq7cUd-pHD4w/frames/floor_000083.jpg",
+    "data/lectures/leph109/1dD2FAg2Sx-eLpc1i70-Sqq7cUd-pHD4w/frames/floor_000097.jpg",
+    "data/lectures/leph109/1dD2FAg2Sx-eLpc1i70-Sqq7cUd-pHD4w/frames/floor_000110.jpg"
+  ],
+  "markdown_body": "\n## Lateral displacement in a glass slab (NCERT 9.3)\n\n**Setup and what happens to the ray.**\n- A ray enters a slab of thickness $t$ at O, with angle of incidence $i$ and angle of refraction $r$.\n- It leaves at B. The angle inside at the lower face is again $r$, and the ray emerges at angle $e$.\n- The incident and emergent rays are **parallel**, so $i = e$.\n- The ray is shifted sideways. The **lateral displacement** $d = BN$ is the perpendicular distance from B to the incident ray produced.\n\n**Thickness** is the distance between the face where the ray enters and the face where it leaves. Turn the slab and the thickness changes with it.\n\n**Derivation (board).** The incident ray, produced forward, makes the angle $i - r$ with the refracted ray OB.\n\nIn right $\\triangle OBN$:\n$$\\sin(i - r) = \\frac{BN}{OB} = \\frac{d}{OB} \\qquad (1)$$\n\nIn right $\\triangle ON'B$, where N′ is the foot of the normal at the lower face:\n$$\\cos r = \\frac{t}{OB} \\qquad (2)$$\n\nDividing (1) by (2) cancels OB:\n$$d = \\frac{t\\,\\sin(i - r)}{\\cos r}$$\n\nFor a given $i$ and slab material, $d \\propto t$: the thicker the slab the ray crosses, the larger the lateral displacement. *(NCERT shows the lateral shift only qualitatively, in Fig. 9.9. This expression is an extra from the lecture.)*\n\n## Real and apparent depth (NCERT 9.3)\n\nA coin at the bottom of a water-filled container appears **raised**. Rays from the coin go from water (denser) into air (rarer) and bend **away from the normal**. Traced back, they seem to come from a point above the coin.\n\nLet $h_1$ be the **real depth** and $h_2$ the **apparent depth**. For **normal viewing**, with the eye close to the surface and looking nearly straight down:\n\n$$\\frac{n_2}{n_1} = \\frac{h_1}{h_2} = \\frac{\\text{real depth}}{\\text{apparent depth}} \\qquad\\Rightarrow\\qquad n = \\frac{h_\\text{real}}{h_\\text{app}}$$\n\nHere $n = n_w/n_a = 1.33$. Since $n > 1$, $h_1 > h_2$. Viewed obliquely, from far off, the calculation is different.\n\n**Shift (how far the coin appears to rise):**\n$$\\Delta h = h_1 - h_2 = h_1 - \\frac{h_1}{n} = h_1\\left(1 - \\frac{1}{n}\\right)$$\n\n*(NCERT names them the other way round, with $h_1$ apparent and $h_2$ real. The relation \"apparent depth = real depth ÷ n, for near-normal viewing\" is the same.)*\n\n## The observer inside the water: a fish looking at a fisherman\n\nNow the object (the fisherman) is in air and the observer (the fish) is in water. Light from the fisherman goes from rarer to denser, bending **towards** the normal. Traced back, it seems to come from higher up, so **to a fish, the fisherman appears raised (taller)**.\n\n**Master formula (board):**\n\n$$d' = \\frac{d}{n_\\text{medium}} \\times n_\\text{observer}$$\n\nHere $d'$ is the apparent distance and $d$ the real distance. $n_\\text{medium}$ is the refractive index where the object is, and $n_\\text{observer}$ where the eye is.\n\n- **Coin, observer in air:** $d' = d \\times 1/n$, which is the result above.\n- **Fisherman, fish in water ($n_2$):** $d' = d \\times n_2/1$, so $n = \\dfrac{d'}{d} = \\dfrac{h_\\text{app}}{h_\\text{real}}$. This is the opposite ratio to the coin case. The master formula handles both without having to remember which is which.\n\n**Several layers.** A coin lies under liquid layers of thicknesses $d_2, d_3, d_4$ and indices $n_2, n_3, n_4$, with the observer in air just above the surface:\n\n$$d' = 1\\left(\\frac{d_2}{n_2} + \\frac{d_3}{n_3} + \\frac{d_4}{n_4}\\right)$$\n\nIf the observer is a height $d_5$ above the surface, add $d_5/1$ (air). The result is then measured from the eye.\n\n## Shift caused by a glass slab\n\nAn object is viewed through a slab of thickness $t$ and index $n$ (relative to the surroundings, $n = n_2/n_1$):\n1. The first face forms an image O′.\n2. O′ acts as the object for the second face, which forms the final image O″.\n3. The observer sees the object at O″ (O′ is only an intermediate step).\n\n$$\\text{shift} = t\\left(1 - \\frac{1}{n}\\right)$$\n\nThe shift is **in the direction of the incident light** (towards the observer).\n\n**Example.** With $t = 1$ cm and $n = 1.5$:\n$$\\text{shift} = 1\\left(1 - \\frac{1}{1.5}\\right) = \\frac{0.5}{1.5} = \\frac{1}{3} \\text{ cm}$$\nAn object 5 cm away appears $5 - \\tfrac13$ cm away.\n\n### Board-exam question (3 marks)\n\n**(a)** A convex lens forms an image at $v = 10$ cm. A glass slab ($t = 3$ cm, $n = 1.5$) is placed between the lens and the image. Where is the image now?\n$$\\text{shift} = 3\\left(1 - \\frac{1}{1.5}\\right) = 1 \\text{ cm}$$\nThe shift is along the light, away from the lens. So $v = 10 + 1 = 11$ cm, and the screen must be moved to 11 cm.\n\n**(b)** The same slab is placed between an object (10 cm from the lens) and the lens. The object appears shifted 1 cm towards the lens, to O′. So the lens \"sees\" $u = 10 - 1 = 9$ cm, and $v$ follows from the lens formula with that $u$.\n\n## Atmospheric refraction (not in the current NCERT text)\n\nRefraction by the Earth's atmosphere. The air is denser, with a higher refractive index, near the ground and rarer higher up.\n\n**1. Advance sunrise and delayed sunset (by about 2 minutes each).**\n- When the Sun is just below the horizon, its rays enter the atmosphere going from rarer to denser layers and bend **towards the normal**, curving round towards the Earth.\n- An observer sees the Sun at its **apparent position**, above the horizon, while its **real position** is still below it.\n- The apparent shift is about **½°**. The Earth turns 360° in 24 h, so ½° takes 2 minutes.\n- The Sun is therefore seen 2 min before actual sunrise and 2 min after actual sunset: **about 4 minutes more daylight each day**.\n\n**2. Twinkling of stars.**\n- Starlight passes through layers of increasing refractive index on its way down and bends towards the normal again and again. The star is seen at an **apparent position slightly higher** than its real position.\n- **The atmosphere is dynamic.** Its layers move, so their density and refractive index keep changing slightly, and the path of the star's light keeps changing.\n- **Board text:** \"Since atmosphere is dynamic it results in changes in density & refractive index of layers. This causes a change in path of rays coming from the star as they pass through them. Thus sometimes more rays fall upon the eye of the observer & star appears brighter, & sometimes only few rays reach the eye & it appears fainter. Thus star appears twinkling.\"\n\n---\n*Note on this lecture's transcript:* `gemini-3.5-flash` was in a 503 outage and then out of daily quota when this chapter was processed, so the audio was transcribed by `gemini-3.5-flash-lite` in overlapping five-minute windows, joined where the overlapping speech matches word for word. Lite's clock ran fast (by up to 2x) inside a window; each window was rescaled to its true length, so times quoted here are approximate (roughly ±30 s). Every gap of more than 30 s was re-transcribed on its own to confirm whether speech was missing. Equations are taken from the board frames, not from the transcript.\n"
+}
