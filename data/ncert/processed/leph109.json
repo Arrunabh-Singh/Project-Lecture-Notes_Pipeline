@@ -1,0 +1,69 @@
+{
+  "chapter_id": "leph109",
+  "chapter_number": 9,
+  "title": "Ray Optics and Optical Instruments",
+  "fidelity": "full_raw_extract",
+  "lecture_folder": "Ch 9Ray optics",
+  "source_note": "NCERT Class 12 Physics Part II, Reprint 2026-27 (RATIONALISED 2022-23) -- current CBSE syllabus. Equations NOT reliable in this extraction; use board frames as the equation source of truth.",
+  "sections": [
+    {
+      "number": "9.1",
+      "heading": "Introduction"
+    },
+    {
+      "number": "9.2",
+      "heading": "Reflection Of Light By Spherical Mirrors"
+    },
+    {
+      "number": "9.3",
+      "heading": "Refraction"
+    },
+    {
+      "number": "9.4",
+      "heading": "Total Internal Reflection"
+    },
+    {
+      "number": "9.1",
+      "heading": "Critical Angle"
+    },
+    {
+      "number": "9.5",
+      "heading": "Refraction A"
+    },
+    {
+      "number": "9.6",
+      "heading": "Refraction Through A Prism"
+    },
+    {
+      "number": "9.7",
+      "heading": "Optical Instruments"
+    }
+  ],
+  "scientists": [],
+  "lexicon": [
+    "Angle",
+    "Critical",
+    "Critical Angle",
+    "Instruments",
+    "Internal",
+    "Introduction",
+    "Light",
+    "Mirrors",
+    "Optical",
+    "Optical Instruments",
+    "Prism",
+    "Ray Optics",
+    "Reflection",
+    "Refraction",
+    "Refraction A",
+    "Refraction Through A Prism",
+    "Spherical",
+    "Through",
+    "Total",
+    "Total Internal Reflection"
+  ],
+  "summary": "1. Reflection is governed by the equation —i = — r¢  and refraction by the\nSnell’s law, sini/sinr = n, where the incident ray, reflected ray, refracted\nray and normal lie in the same plane. Angles of incidence, reflection\nand refraction are i, r ¢ and r, respectively.\n2. The critical angle of incidence ic for a ray incident from a denser to rarer\nmedium, is that angle for which the angle of refraction is 90°. For\ni > ic, total internal reflection occurs. Multiple internal reflections in\ndiamond (ic  @ 24.4°), totally reflecting prisms and mirage, are some\nexamples of total internal reflection. Optical fibres consist of glass\nfibres coated with a thin layer of material of lower refractive index.\nLight incident at an angle at one end comes out at the other , after\nmultiple internal reflections, even if the fibre is bent.\nFIGURE 9.26  Schematic diagram of a reflecting telescope (Cassegrain).\nthe telescope tube. One must have an eyepiece and the observer right\nthere, obstructing some light (depending on the size of the observer cage).\nThis is what is done in the very large 200 inch (~5.08 m) diameters, Mt.\nPalomar telescope, California. The viewer sits near the focal point of the\nmirror, in a small cage. Another solution to the problem is to deflect the\nlight being focussed by another mirror. One such arrangement using a\nconvex secondary mirror to focus the incident light, which now passes\nthrough a hole in the objective primary mirr or, is shown in Fig. 9.26.\nThis is known as a Cassegrain telescope, after its inventor. It has the\nadvantages of a large focal length in a short telescope. The largest telescope\nin India is in Kavalur , Tamil Nadu. It is a 2.34 m diameter r eflecting\ntelescope (Cassegrain). It was ground, polished, set up, and is being used\nby the Indian Institute of Astrophysics, Bangalore. The largest reflecting\ntelescopes in the world are the pair of Keck telescopes in Hawaii, USA,\nwith a reflector of 10 metre in diameter.\nReprint 2026-27\n\n\nRay Optics and\nOptical Instruments\n247\n3. Cartesian sign convention: Distances measured in the same direction\nas the incident light are positive; those measured in the opposite\ndirection are negative. All distances are measured from the pole/optic\ncentre of the mirror/lens on the principal axis. The heights measured\nupwards above x-axis and normal to the principal axis of the mirror/\nlens are taken as positive. The heights measured downwards are taken\nas negative.\n4. Mirror equation:\n1\nv u f+ =\nwhere u and v are object and image distances, respectively and f is the\nfocal length of the mirr or. f is (appr oximately) half the radius of\ncurvature R. f is negative  for concave mirror; f  is positive for a convex\nmirror.\n5. For a prism of the angle A, of refractive index n 2 placed in a medium\nof refractive index n1,\nn\nA D\nA\nm\n21\n2\n1\n2\n2= =\n+( ) \n( )\nsin /\nsin /\nwhere Dm is the angle of minimum deviation.\n6. For refraction through a spherical interface (from medium 1 to 2 of\nrefractive index n1 and n 2, respectively)\n2 1 2 1n n\nv u R\n−− =\nThin lens formula\n1\nv u f− =\nLens maker’s formula\n1 1 12 1 2f\nn\nR R= −( ) −\n\n\n\nR1 and R2 are the radii of curvature of the lens surfaces. f is positive\nfor a converging lens; f is negative for a diverging lens.  The power of a\nlens  P = 1/f.\nThe SI unit for power of a lens is dioptre (D): 1 D = 1 m –1.\nIf several thin lenses of focal length f1, f2, f3,.. are in contact, the\neffective focal length of their combination, is given by\n1 2 3\n1\nf= + + + …\nThe total power of a combination of several lenses is\nP = P1 + P2 + P3 + …\n7. Dispersion is the splitting of light into its constituent colour .\nReprint 2026-27\n\n\nPhysics\n248",
+  "points_to_ponder": "1. The laws of reflection and refraction are true for all surfaces and\npairs of media at the point of the incidence.\n2. The real image of an object placed between f and 2f from a convex lens\ncan be seen on a screen placed at the image location. If the screen is\nremoved, is the image still there?  This question puzzles many, because\nit is difficult to reconcile ourselves with an image suspended in air\nwithout a screen. But the image does exist. Rays from a given point\non the object are converging to an image point in space and diverging\naway. The screen simply diffuses these rays, some of which reach our\neye and we see the image. This can be seen by the images formed in\nair during a laser show.\n3. Image formation needs regular reflection/refraction. In principle, all\nrays from a given point should reach the same image point. This is\nwhy you do not see your image by an irregular reflecting object, say\nthe page of a book.\n4. Thick lenses give coloured images due to dispersion. The variety in\ncolour of objects we see around us is due to the constituent colours\nof the light incident on them. A monochromatic light may produce an\nentirely different perception about the colours on an object as seen in\nwhite light.\n5. For a simple microscope, the angular size of the object equals the\nangular size of the image. Y et it offers magnification because we can\nkeep the small object much closer to the eye than 25 cm and hence\nhave it subtend a large angle. The image is at 25 cm which we can see.\nWithout the microscope, you would need to keep the small object at\n25 cm which would subtend a very small angle.\n8. Magnifying power m of a simple microscope is given by m = 1 + (D/f),\nwhere D = 25 cm is the least distance of distinct vision and f is the\nfocal length of the convex lens. If the image is at infinity, m = D/f. For\na compound microscope, the magnifying power is given by m = me × m0\nwhere me = 1 + (D/fe), is the magnification due to the eyepiece and mo\nis the magnification produced by the objective. Approximately,\no e\nL Dm f f= ×\nwhere f o and fe are the focal lengths of the objective and eyepiece,\nrespectively, and L is the distance between their focal points.\n9. Magnifying power m of a telescope is the ratio of the angle b subtended\nat the eye by the image to the angle a subtended at the eye by the\nobject.\no\ne\nfm f\nβ\nα= =\nwhere f0 and fe are the focal lengths of the objective and eyepiece,\nrespectively.\nReprint 2026-27\n\n\nRay Optics and\nOptical Instruments\n249",
+  "exercises": "9.1 A small candle, 2.5 cm in size is placed at 27 cm in front of a concave\nmirror of radius of curvature 36 cm. At what distance from the mirror\nshould a screen be placed in order to obtain a sharp image? Describe\nthe nature and size of the image. If the candle is moved closer to the\nmirror, how would the scr een have to be moved?\n9.2 A 4.5 cm needle is placed 12 cm away from a convex mirror of focal\nlength 15 cm. Give the location of the image and the magnification.\nDescribe what happens as the needle is moved farther from the mirror.\n9.3 A tank is filled with water to a height of 12.5 cm. The apparent\ndepth of a needle lying at the bottom of the tank is measured by a\nmicroscope to be 9.4 cm. What is the refractive index of water?  If\nwater is replaced by a liquid of refractive index 1.63 up to the same\nheight, by what distance would the microscope have to be moved to\nfocus on the needle again?\n9.4 Figures 9.27(a) and (b) show refraction of a ray in air incident at 60°\nwith the nor mal to a glass-air and water -air inter face, r espectively.\nPredict the angle of refraction in glass when the angle of incidence\nin water is 45° with the normal to a water-glass interface [Fig. 9.27(c)].\nFIGURE 9.27\n9.5 A small bulb is placed at the bottom of a tank containing water to a\ndepth of 8 0cm. What is the area of the surface of water through\nwhich light from the bulb can emerge out?  Refractive index of water\nis 1.33. (Consider the bulb to be a point source.)\n9.6 A prism is made of glass of unknown refractive index. A parallel\nbeam of light is incident on a face of the prism. The angle of minimum\ndeviation is measured to be 40°. What is the refractive index of the\nmaterial of the prism? The refracting angle of the prism is 60°. If the\nprism is placed in water (refractive index 1.33), predict the new\nangle of minimum deviation of a parallel beam of light.\n9.7 Double-convex lenses are to be manufactured from a glass of\nrefractive index 1.55, with both faces of the same radius of\ncurvature. What is the radius of curvature required if the focal length\nis to be 2 0cm?\n9.8 A beam of light conver ges at a point P . Now a lens is placed in the\npath of the conver gent beam 1 2cm fr om P. At what point does the\nbeam converge if the lens is (a) a convex lens of focal length 2 0cm,\nand (b) a concave lens of focal length 1 6cm?\n9.9 An object of size 3. 0cm is placed 1 4cm in front of a concave lens of\nfocal length 2 1cm. Describe the image produced by the lens. What\nhappens if the object is moved further away from the lens?",
+  "raw_char_count": 67292
+}

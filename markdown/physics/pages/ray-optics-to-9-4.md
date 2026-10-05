@@ -1,6 +1,6 @@
 # Ray Optics to 9.4
 
-*Chapter 9 · Ray Optics — 9 marks. Source: published page `b7ff23a3-c455-4f36-a2ff-f2896f06c23b`. Maths on this page is plain text, not KaTeX — it predates the KaTeX pipeline. The eighteen Ray Optics lectures have never been transcribed, so this page and the Chapter 9 sections of **Physics, Derived** and **Every Physics Formula** were written from NCERT rather than from class.*
+*Chapter 9 · Ray Optics — 9 marks. Source: published page `b7ff23a3-c455-4f36-a2ff-f2896f06c23b`. Maths on this page is plain text, not KaTeX — it predates the KaTeX pipeline. The eighteen Ray Optics lectures had not been transcribed when this page was written, so this page and the Chapter 9 sections of **Physics, Derived** and **Every Physics Formula** were written from NCERT rather than from class. The lectures are now in `notes/leph109`; this page has not yet been re-checked against them.*
 
 > **Scope.** Ends at Section 9.4. Total internal reflection and its applications are the last thing on the paper — lenses, prisms, dispersion and optical instruments are all off it.
 

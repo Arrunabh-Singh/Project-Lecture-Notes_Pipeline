@@ -1,0 +1,96 @@
+{
+  "file_id": "1JBYRL-PHRyrhBVTZykqs9aMlDVwgoHy_",
+  "chapter_id": "leph109",
+  "title": "Derivations: f = R/2, Mirror Formula, Lens Formula, Lenses in Contact",
+  "duration_seconds": 1536.5,
+  "claims": [
+    {
+      "text": "For a concave mirror of small aperture, triangle CFM is isosceles so F is the midpoint of PC and f = R/2",
+      "transcript_span": [
+        0,
+        201
+      ],
+      "frame_path": "data/lectures/leph109/1JBYRL-PHRyrhBVTZykqs9aMlDVwgoHy_/frames/floor_000009.jpg",
+      "ncert_section": "9.2.2",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "The same isosceles-triangle argument gives R = 2f for a convex mirror",
+      "transcript_span": [
+        201,
+        331
+      ],
+      "frame_path": "data/lectures/leph109/1JBYRL-PHRyrhBVTZykqs9aMlDVwgoHy_/frames/floor_000017.jpg",
+      "ncert_section": "9.2.2",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Mirror formula from similar triangles A'B'F ~ MNF and A'B'P ~ ABP, small aperture, then sign convention: 1/f = 1/v + 1/u",
+      "transcript_span": [
+        331,
+        801
+      ],
+      "frame_path": "data/lectures/leph109/1JBYRL-PHRyrhBVTZykqs9aMlDVwgoHy_/frames/floor_000039.jpg",
+      "ncert_section": "9.2.3",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Mirror magnification m = h_i/h_o = -v/u from triangles ABP and A'B'P",
+      "transcript_span": [
+        631,
+        745
+      ],
+      "frame_path": "data/lectures/leph109/1JBYRL-PHRyrhBVTZykqs9aMlDVwgoHy_/frames/floor_000033.jpg",
+      "ncert_section": "9.2.3",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Lens formula 1/f = 1/v - 1/u from similar triangles ABO ~ A'B'O and POF ~ A'B'F for a thin convex lens",
+      "transcript_span": [
+        850,
+        1230
+      ],
+      "frame_path": "data/lectures/leph109/1JBYRL-PHRyrhBVTZykqs9aMlDVwgoHy_/frames/floor_000063.jpg",
+      "ncert_section": "9.5.2",
+      "ncert_agreement": "teacher_simplifies"
+    },
+    {
+      "text": "Lens magnification m = h_i/h_o = v/u",
+      "transcript_span": [
+        1107,
+        1159
+      ],
+      "frame_path": "data/lectures/leph109/1JBYRL-PHRyrhBVTZykqs9aMlDVwgoHy_/frames/floor_000063.jpg",
+      "ncert_section": "9.5.2",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Thin lenses in contact: image of lens 1 is a virtual object for lens 2; adding the two lens equations gives 1/f = 1/f1 + 1/f2 and P = P1 + P2",
+      "transcript_span": [
+        1242,
+        1536
+      ],
+      "frame_path": "data/lectures/leph109/1JBYRL-PHRyrhBVTZykqs9aMlDVwgoHy_/frames/floor_000076.jpg",
+      "ncert_section": "9.5.4",
+      "ncert_agreement": "agrees"
+    }
+  ],
+  "uncertain_spans": [],
+  "ncert_sections_covered": [
+    "9.2.2",
+    "9.2.3",
+    "9.5.2",
+    "9.5.4"
+  ],
+  "frame_paths": [
+    "data/lectures/leph109/1JBYRL-PHRyrhBVTZykqs9aMlDVwgoHy_/frames/floor_000009.jpg",
+    "data/lectures/leph109/1JBYRL-PHRyrhBVTZykqs9aMlDVwgoHy_/frames/floor_000017.jpg",
+    "data/lectures/leph109/1JBYRL-PHRyrhBVTZykqs9aMlDVwgoHy_/frames/floor_000033.jpg",
+    "data/lectures/leph109/1JBYRL-PHRyrhBVTZykqs9aMlDVwgoHy_/frames/floor_000039.jpg",
+    "data/lectures/leph109/1JBYRL-PHRyrhBVTZykqs9aMlDVwgoHy_/frames/floor_000046.jpg",
+    "data/lectures/leph109/1JBYRL-PHRyrhBVTZykqs9aMlDVwgoHy_/frames/floor_000063.jpg",
+    "data/lectures/leph109/1JBYRL-PHRyrhBVTZykqs9aMlDVwgoHy_/frames/floor_000072.jpg",
+    "data/lectures/leph109/1JBYRL-PHRyrhBVTZykqs9aMlDVwgoHy_/frames/floor_000076.jpg"
+  ],
+  "markdown_body": "\nFour derivations, each with its assumption stated first. The lecture stresses writing the assumption in the exam.\n\n## 1. Relation between f and R for a spherical mirror (NCERT 9.2.2)\n\n**Assumption: the aperture of the mirror is small.**\n\n**Concave mirror.**\n\n1. A ray parallel to the principal axis strikes the mirror at M and reflects through F.\n2. CM is the normal at M, so $\\angle i = \\angle r$.\n3. $\\angle FCM = i$ (alternate angles, since the incident ray is parallel to the axis), and $\\angle FMC = r = i$.\n4. So $\\triangle CFM$ is **isosceles**, and $CF = FM$.\n5. Because the aperture is small, M is very close to P, so $FM \\approx FP$.\n6. Hence $CF = FP$: **F is the midpoint of P and C**, and $R = PC = 2\\,PF$:\n\n$$R = 2f \\qquad\\text{or}\\qquad f = \\frac{R}{2}$$\n\n**Convex mirror.** The same steps work behind the mirror:\n\n- the normal at M is CM produced;\n- the reflected ray produced backwards passes through F;\n- $\\triangle FMC$ is isosceles with $FM = FC$;\n- small aperture gives $FP = FC$, so again $R = 2f$.\n\n## 2. Mirror formula (NCERT 9.2.3)\n\n**Assumption: the aperture of the mirror is small.**\n\n**Setup.** Take a concave mirror with object AB beyond C.\n\n- The ray from B parallel to the axis hits the mirror at M and reflects through F. The ray from B through F reflects parallel. They meet at B′, so the image A′B′ is between C and F.\n- Drop MN perpendicular to the axis. Then $MN = AB$, and by the small aperture, N ≈ P.\n- Distances: $PA = u$, $PA' = v$, $PF = f$, so $FA' = PA' - PF = v - f$.\n\n**Triangles A′B′F and MNF are similar:**\n$$\\frac{A'B'}{AB} = \\frac{FA'}{PF} = \\frac{v - f}{f} \\qquad (1)$$\n\n**Triangles ABP and A′B′P are similar** (the ray to the pole reflects at equal angles):\n$$\\frac{A'B'}{AB} = \\frac{PA'}{PA} = \\frac{v}{u} \\qquad (2)$$\n\n**Magnification from (2).** A′B′ is below the axis, so $A'B' = -h_i$, while $PA' = -v$ and $PA = -u$:\n$$\\frac{-h_i}{h_o} = \\frac{-v}{-u} \\;\\Rightarrow\\; m = \\frac{h_i}{h_o} = -\\frac{v}{u}$$\n\n**Equating (1) and (2) and putting in the sign convention** ($u \\to -u$, $v \\to -v$, $f \\to -f$ for a concave mirror with a real image):\n$$\\frac{-v - (-f)}{-f} = \\frac{-v}{-u} \\;\\Rightarrow\\; \\frac{-v + f}{-f} = \\frac{v}{u}$$\nCross-multiplying gives $-uv + uf = -vf$. Dividing by $uvf$:\n$$-\\frac{1}{f} + \\frac{1}{v} = -\\frac{1}{u} \\;\\Rightarrow\\; \\boxed{\\frac{1}{f} = \\frac{1}{v} + \\frac{1}{u}}$$\n\n## 3. Lens formula (convex lens)\n\n**Assumption: the lens is thin.** The ray through O then goes undeviated, and distances can be measured from O.\n\n**Setup.** Object AB is between F and 2F, and the image A′B′ is beyond 2F on the other side.\n\n- The ray from B parallel to the axis meets the lens at P (so $OP = AB$) and refracts through F.\n- The ray from B through O goes straight on.\n- Distances: $OA = u$, $OA' = v$, $OF = f$, so $FA' = v - f$.\n\n**Triangles ABO and A′B′O are similar:**\n$$\\frac{A'B'}{AB} = \\frac{OA'}{OA} = \\frac{v}{u} \\qquad (1)$$\n\n**Triangles POF and A′B′F are similar** (with $OP = AB$):\n$$\\frac{A'B'}{AB} = \\frac{FA'}{OF} = \\frac{v - f}{f} \\qquad (2)$$\n\n**Magnification from (1).** With $A'B' = -h_i$, $OA' = +v$ and $OA = -u$:\n$$\\frac{-h_i}{h_o} = \\frac{v}{-u} \\;\\Rightarrow\\; m = \\frac{h_i}{h_o} = \\frac{v}{u}$$\n\nThere is no minus sign here, unlike a mirror.\n\n**Equating (1) and (2) with signs** ($OA = -u$, $OA' = +v$, $OF = +f$):\n$$\\frac{v}{-u} = \\frac{v - f}{f} \\;\\Rightarrow\\; vf = -uv + uf$$\nDividing by $uvf$:\n$$\\frac{1}{u} = -\\frac{1}{f} + \\frac{1}{v} \\;\\Rightarrow\\; \\boxed{\\frac{1}{f} = \\frac{1}{v} - \\frac{1}{u}}$$\n\n*(When setting this up, the teacher at one point says \"OA′ = −v\"; the board and the working use $OA' = +v$. NCERT itself reaches the lens formula differently, by combining refraction at the two spherical surfaces — see lecture 11.)*\n\n## 4. Combination of thin lenses in contact (NCERT 9.5.4)\n\nThis derivation has been asked in board exams. **Assumption: the lenses are thin**, so their thickness and separation are negligible, and u and v can be measured from either lens.\n\n**Setup.**\n\n- Two lenses $L_1$ (focal length $f_1$) and $L_2$ (focal length $f_2$) are in contact.\n- An object O is at distance $u$.\n- Lens 1 alone would form an image $I'$ at distance $v'$.\n- $I'$ acts as a **virtual object** for lens 2, which forms the final image I at distance $v$.\n\n**For lens 1:**\n$$\\frac{1}{f_1} = \\frac{1}{v'} - \\frac{1}{u} \\qquad (1)$$\n\n**For lens 2:**\n$$\\frac{1}{f_2} = \\frac{1}{v} - \\frac{1}{v'} \\qquad (2)$$\n\n**Adding (1) and (2)**, the $1/v'$ terms cancel:\n$$\\frac{1}{v} - \\frac{1}{u} = \\frac{1}{f_1} + \\frac{1}{f_2}$$\n\nThe pair behaves as a single lens that takes an object at $u$ to an image at $v$. Its focal length $f$ therefore satisfies $\\frac{1}{v} - \\frac{1}{u} = \\frac{1}{f}$, so\n\n$$\\boxed{\\frac{1}{f} = \\frac{1}{f_1} + \\frac{1}{f_2}}\\qquad\\text{and, since } P = \\frac{1}{f},\\qquad \\boxed{P = P_1 + P_2}$$\n\n---\n*Note on this lecture's transcript:* `gemini-3.5-flash` was in a 503 outage and then out of daily quota when this chapter was processed, so the audio was transcribed by `gemini-3.5-flash-lite` in overlapping five-minute windows, joined where the overlapping speech matches word for word. Lite's clock ran fast (by up to 2x) inside a window; each window was rescaled to its true length, so times quoted here are approximate (roughly ±30 s). Every gap of more than 30 s was re-transcribed on its own to confirm whether speech was missing. Equations are taken from the board frames, not from the transcript.\n"
+}

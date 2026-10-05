@@ -1,0 +1,71 @@
+{
+  "file_id": "1jgUg6rnen9U_CnufOyrOsl87Ere2FlOD",
+  "chapter_id": "leph109",
+  "title": "Reflecting Telescope and the Cassegrain Telescope",
+  "duration_seconds": 1075.3,
+  "claims": [
+    {
+      "text": "A refracting telescope's objective needs a large aperture for light-gathering and a bright image, but large lenses suffer spherical and chromatic aberration and are hard and costly to make",
+      "transcript_span": [
+        8,
+        260
+      ],
+      "frame_path": "data/lectures/leph109/1jgUg6rnen9U_CnufOyrOsl87Ere2FlOD/frames/floor_000010.jpg",
+      "ncert_section": "9.7.2",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Spherical aberration: marginal and paraxial rays focus at different points; chromatic aberration: violet focuses nearer than red, giving a coloured band",
+      "transcript_span": [
+        35,
+        232
+      ],
+      "frame_path": "data/lectures/leph109/1jgUg6rnen9U_CnufOyrOsl87Ere2FlOD/frames/floor_000020.jpg",
+      "ncert_section": null,
+      "ncert_agreement": null
+    },
+    {
+      "text": "A concave mirror objective has no chromatic aberration; a parabolic mirror removes spherical aberration",
+      "transcript_span": [
+        260,
+        370
+      ],
+      "frame_path": "data/lectures/leph109/1jgUg6rnen9U_CnufOyrOsl87Ere2FlOD/frames/floor_000023.jpg",
+      "ncert_section": "9.7.2",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Advantages of a reflecting telescope: brighter image, no chromatic aberration, spherical aberration eliminated by a parabolic mirror, greater resolving power, cheaper and lighter",
+      "transcript_span": [
+        370,
+        624
+      ],
+      "frame_path": "data/lectures/leph109/1jgUg6rnen9U_CnufOyrOsl87Ere2FlOD/frames/floor_000031.jpg",
+      "ncert_section": "9.7.2",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Cassegrain telescope: parabolic concave primary with a central hole, convex secondary mirror, convex-lens eyepiece behind the primary; m = f_o/f_e",
+      "transcript_span": [
+        625,
+        1075
+      ],
+      "frame_path": "data/lectures/leph109/1jgUg6rnen9U_CnufOyrOsl87Ere2FlOD/frames/floor_000054.jpg",
+      "ncert_section": "9.7.2",
+      "ncert_agreement": "agrees"
+    }
+  ],
+  "uncertain_spans": [],
+  "ncert_sections_covered": [
+    "9.7.2"
+  ],
+  "frame_paths": [
+    "data/lectures/leph109/1jgUg6rnen9U_CnufOyrOsl87Ere2FlOD/frames/floor_000010.jpg",
+    "data/lectures/leph109/1jgUg6rnen9U_CnufOyrOsl87Ere2FlOD/frames/floor_000020.jpg",
+    "data/lectures/leph109/1jgUg6rnen9U_CnufOyrOsl87Ere2FlOD/frames/floor_000023.jpg",
+    "data/lectures/leph109/1jgUg6rnen9U_CnufOyrOsl87Ere2FlOD/frames/floor_000031.jpg",
+    "data/lectures/leph109/1jgUg6rnen9U_CnufOyrOsl87Ere2FlOD/frames/floor_000041.jpg",
+    "data/lectures/leph109/1jgUg6rnen9U_CnufOyrOsl87Ere2FlOD/frames/floor_000054.jpg"
+  ],
+  "markdown_body": "\n## Why a refracting telescope runs into trouble (NCERT 9.7.2)\n\nThe **aperture** of the objective (its opening, MN) should be **large**. A large aperture has a large **light-gathering power**, so distant, faint objects give a **bright** image. But a large lens brings problems.\n\n**1. Spherical aberration.** \"Aberration\" means a defect or error.\n\n- Parallel rays far from the axis, through the rim of the lens, are **marginal rays**. Rays close to the axis are **paraxial rays**.\n- The two sets come to a focus at **different points**, so the image is **blurred**. A sharp image needs all rays to meet at one point.\n\n**2. Chromatic aberration.** \"Chroma\" means colour.\n\n- A lens disperses white light, so **violet is focused nearer the lens and red farther away**.\n- Instead of a white image you get a **coloured band**.\n\n**3. Big lenses are difficult and costly to make.** A large-aperture lens needs a lot of glass and is heavy.\n\n## Reflecting telescope\n\nThe objective is a **concave mirror of large aperture**, and this fixes these problems:\n\n- A mirror only reflects, so there is no refraction, no dispersion and **no chromatic aberration**.\n- A spherical mirror still has spherical aberration: its marginal and paraxial rays focus at different points. Using a **parabolic mirror** brings all parallel rays, paraxial or marginal, to **one point**, which **eliminates spherical aberration**.\n\nThe **Hubble Space Telescope** is a reflecting telescope.\n\n### Advantages of a reflecting telescope over a refracting telescope (board)\n\n1. The image formed is **brighter**.\n2. It is **free from chromatic aberration**.\n3. **Spherical aberration is eliminated** by using a parabolic mirror.\n4. Its **resolving power is greater** because of the large aperture, so finer detail can be seen.\n5. It is **cheaper**.\n6. It is **lighter in weight**, since a lens of the same aperture would need a great deal of glass.\n\n*Exam tip from the lecture:* the main points are 1–4 (no chromatic aberration, no spherical aberration, a large aperture is possible). Lead with those, not cost and weight.\n\n*(NCERT adds that a mirror can be supported over its whole back surface, not just its rim, so mechanical support is much less of a problem.)*\n\n## Cassegrain telescope (NCERT Fig. 9.26)\n\n**Construction (board):**\n\n- A **parabolic concave mirror** of large aperture and focal length is fitted at one end of a wide tube. This is the **objective mirror** (primary).\n- A **convex mirror** is placed inside the tube as the **secondary mirror**.\n- The rays reflected from the convex mirror pass through a **hole in the objective mirror** and reach the **eyepiece E**, which is a **convex lens**.\n\n**Working.**\n\n1. Parallel light from a distant object falls on the objective mirror and is reflected towards its focus.\n2. Before reaching the focus, it strikes the secondary convex mirror.\n3. The secondary reflects it back through the hole at the centre of the primary.\n4. It forms the image, which is viewed through the eyepiece behind the primary.\n\n**Magnifying power:**\n$$m = \\frac{f_o}{f_e}$$\nwhere $f_o$ is the focal length of the objective mirror and $f_e$ that of the eyepiece.\n\nThe design is named after the physicist Cassegrain. Common exam questions ask you to draw the diagram, explain the working, and name the mirrors used (concave parabolic primary, convex secondary).\n\n---\n*Note on this lecture's transcript:* `gemini-3.5-flash` was in a 503 outage and then out of daily quota when this chapter was processed, so the audio was transcribed by `gemini-3.5-flash-lite` in overlapping five-minute windows, joined where the overlapping speech matches word for word. Lite's clock ran fast (by up to 2x) inside a window; each window was rescaled to its true length, so times quoted here are approximate (roughly ±30 s). Every gap of more than 30 s was re-transcribed on its own to confirm whether speech was missing. Equations are taken from the board frames, not from the transcript.\n"
+}

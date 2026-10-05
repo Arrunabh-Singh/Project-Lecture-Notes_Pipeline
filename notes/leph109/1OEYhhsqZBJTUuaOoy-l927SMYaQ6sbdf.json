@@ -1,0 +1,126 @@
+{
+  "file_id": "1OEYhhsqZBJTUuaOoy-l927SMYaQ6sbdf",
+  "chapter_id": "leph109",
+  "title": "Recap of Refraction and TIR; the World as Seen by a Fish",
+  "duration_seconds": 4200.6,
+  "claims": [
+    {
+      "text": "Lateral displacement in a glass slab d = t sin(i - r)/cos r (same recording as lecture 10)",
+      "transcript_span": [
+        0,
+        360
+      ],
+      "frame_path": "data/lectures/leph109/1OEYhhsqZBJTUuaOoy-l927SMYaQ6sbdf/frames/floor_000016.jpg",
+      "ncert_section": "9.3",
+      "ncert_agreement": "teacher_simplifies"
+    },
+    {
+      "text": "Real and apparent depth for normal viewing, n = h_real/h_app; the master formula d' = d n_observer/n_medium; stacked layers (same as lecture 10)",
+      "transcript_span": [
+        360,
+        1026
+      ],
+      "frame_path": "data/lectures/leph109/1OEYhhsqZBJTUuaOoy-l927SMYaQ6sbdf/frames/floor_000052.jpg",
+      "ncert_section": "9.3",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "A glass slab shifts an object's apparent position by t(1 - 1/n) along the incident light (same as lecture 10)",
+      "transcript_span": [
+        1026,
+        1657
+      ],
+      "frame_path": "data/lectures/leph109/1OEYhhsqZBJTUuaOoy-l927SMYaQ6sbdf/frames/floor_000083.jpg",
+      "ncert_section": null,
+      "ncert_agreement": null
+    },
+    {
+      "text": "Atmospheric refraction: about 2 min advance sunrise and delayed sunset; twinkling of stars (same as lecture 10)",
+      "transcript_span": [
+        1657,
+        2193
+      ],
+      "frame_path": "data/lectures/leph109/1OEYhhsqZBJTUuaOoy-l927SMYaQ6sbdf/frames/floor_000110.jpg",
+      "ncert_section": null,
+      "ncert_agreement": null
+    },
+    {
+      "text": "Total internal reflection, its two conditions and sin C = 1/n (same recording as lecture 13)",
+      "transcript_span": [
+        2193,
+        2644
+      ],
+      "frame_path": "data/lectures/leph109/1OEYhhsqZBJTUuaOoy-l927SMYaQ6sbdf/frames/floor_000130.jpg",
+      "ncert_section": "9.4",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Applications of TIR: sparkling diamonds, optical fibres, total reflecting prisms (same as lecture 13)",
+      "transcript_span": [
+        2644,
+        3378
+      ],
+      "frame_path": "data/lectures/leph109/1OEYhhsqZBJTUuaOoy-l927SMYaQ6sbdf/frames/floor_000170.jpg",
+      "ncert_section": "9.4.1",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Mirage in deserts and looming in cold countries: a ship appears hanging in the air (same as lecture 13)",
+      "transcript_span": [
+        3378,
+        3760
+      ],
+      "frame_path": "data/lectures/leph109/1OEYhhsqZBJTUuaOoy-l927SMYaQ6sbdf/frames/floor_000189.jpg",
+      "ncert_section": null,
+      "ncert_agreement": null
+    },
+    {
+      "text": "A source at depth h under water lights only a circle of radius r = h tan C on the surface; beyond it rays are totally internally reflected",
+      "transcript_span": [
+        3760,
+        3870
+      ],
+      "frame_path": "data/lectures/leph109/1OEYhhsqZBJTUuaOoy-l927SMYaQ6sbdf/frames/floor_000203.jpg",
+      "ncert_section": null,
+      "ncert_agreement": null
+    },
+    {
+      "text": "To a fish the whole outside world appears within a cone of apex angle 2C = 98 deg for water (C = 49 deg)",
+      "transcript_span": [
+        3870,
+        4123
+      ],
+      "frame_path": "data/lectures/leph109/1OEYhhsqZBJTUuaOoy-l927SMYaQ6sbdf/frames/floor_000203.jpg",
+      "ncert_section": null,
+      "ncert_agreement": null
+    },
+    {
+      "text": "tan C = 1/sqrt(n^2 - 1), so r = h/sqrt(n^2 - 1); divers see a circular window of light",
+      "transcript_span": [
+        4039,
+        4200
+      ],
+      "frame_path": "data/lectures/leph109/1OEYhhsqZBJTUuaOoy-l927SMYaQ6sbdf/frames/floor_000210.jpg",
+      "ncert_section": null,
+      "ncert_agreement": null
+    }
+  ],
+  "uncertain_spans": [],
+  "ncert_sections_covered": [
+    "9.3",
+    "9.4",
+    "9.4.1"
+  ],
+  "frame_paths": [
+    "data/lectures/leph109/1OEYhhsqZBJTUuaOoy-l927SMYaQ6sbdf/frames/floor_000016.jpg",
+    "data/lectures/leph109/1OEYhhsqZBJTUuaOoy-l927SMYaQ6sbdf/frames/floor_000052.jpg",
+    "data/lectures/leph109/1OEYhhsqZBJTUuaOoy-l927SMYaQ6sbdf/frames/floor_000083.jpg",
+    "data/lectures/leph109/1OEYhhsqZBJTUuaOoy-l927SMYaQ6sbdf/frames/floor_000110.jpg",
+    "data/lectures/leph109/1OEYhhsqZBJTUuaOoy-l927SMYaQ6sbdf/frames/floor_000130.jpg",
+    "data/lectures/leph109/1OEYhhsqZBJTUuaOoy-l927SMYaQ6sbdf/frames/floor_000170.jpg",
+    "data/lectures/leph109/1OEYhhsqZBJTUuaOoy-l927SMYaQ6sbdf/frames/floor_000189.jpg",
+    "data/lectures/leph109/1OEYhhsqZBJTUuaOoy-l927SMYaQ6sbdf/frames/floor_000203.jpg",
+    "data/lectures/leph109/1OEYhhsqZBJTUuaOoy-l927SMYaQ6sbdf/frames/floor_000210.jpg"
+  ],
+  "markdown_body": "\n## What this recording is\n\nThis 70-minute video is the teacher's unnumbered \"Exp. for Lateral Displ., apparent depth, atmospheric refraction, TIR, Examples of TIR\"; here it is numbered 14. It is **one continuous recording of the same lesson that lectures 10 and 13 were cut from**: the same words and the same board pages. Only its last seven minutes are new.\n\n| Time in this video | Topic | Full notes |\n|---|---|---|\n| 00:00–06:00 | Lateral displacement in a glass slab, $d = t\\sin(i - r)/\\cos r$ | note 10 |\n| 06:00–17:06 | Real and apparent depth, the fish and fisherman, master formula $d' = d\\,n_\\text{observer}/n_\\text{medium}$, stacked layers | note 10 |\n| 17:06–27:37 | Shift $t(1 - 1/n)$ due to a glass slab; the 3-mark board question | note 10 |\n| 27:37–36:33 | Atmospheric refraction: advance sunrise and delayed sunset, twinkling of stars | note 10 |\n| 36:33–44:04 | Total internal reflection, conditions, critical angle $\\sin C = 1/n$ | note 13 |\n| 44:04–56:18 | Applications: diamonds, optical fibres, total reflecting prisms | note 13 |\n| 56:18–62:40 | Mirage and looming | note 13 |\n| **62:40–70:00** | **World as seen by a fish** (below) | this note |\n\nThe recording runs a few seconds ahead of lecture 10 at its start. It also includes the opening of the TIR lesson, which lecture 13's file begins just after, and a fuller description of looming. In cold regions the air in contact with the sea is cooler and denser, with rarer air above, so a ship appears **hanging in the air**, an optical illusion.\n\n## World as seen by a fish\n\n**Light from under the water (principle of reversibility).**\n\n- A bulb S at depth $h$ under water sends rays up to the surface.\n- Rays meeting the surface at less than the critical angle $C$ escape.\n- Rays beyond $C$ are totally internally reflected back into the water.\n- So **only a circle of the surface is lit**: its edge is where the rays meet the surface at exactly $C$.\n\nFrom the right triangle with the bulb at depth $h$ below the centre of the circle:\n$$\\tan C = \\frac{r}{h} \\;\\Rightarrow\\; r = h\\tan C \\qquad (r \\propto h)$$\n\n**What the fish sees.** Run the rays the other way:\n\n- Light from objects outside reaches the fish only through that circle.\n- Even rays **grazing the air–water interface**, from objects near the surface at the horizon, enter the water and bend towards the normal.\n- They reach the fish's eye at the critical angle $C$.\n\nFor water, $n = 1.33$ gives $C \\approx 49°$, so (board):\n\n> The rays grazing the air–water interface, starting from objects near the surface, enter water and reach the eye of the fish making critical angle $C = 49°$ and become visible to the fish. To a fish the outside region is symmetrical. The whole outside world appears to it within a cone of apex angle $2C = 98°$. The radius $r$ on the surface is $r = h\\tan C$, $r \\propto h$.\n\nSo the Sun, trees, people on the bank, everything above the water, is squeezed into a cone of apex angle about 98° above the fish. Divers looking up see the same thing: **a bright circular window** of sunlight, with the rest of the surface looking dark or mirror-like.\n\n**Formula for numericals.**\n\n- $\\sin C = \\dfrac{1}{n}$, so $\\cos^2 C = 1 - \\sin^2 C = 1 - \\dfrac{1}{n^2} = \\dfrac{n^2 - 1}{n^2}$.\n- Therefore $\\tan C = \\dfrac{\\sin C}{\\cos C} = \\dfrac{1}{\\sqrt{n^2 - 1}}$.\n\n$$r = h\\tan C = \\frac{h}{\\sqrt{n^2 - 1}}$$\n\n*(Check with water: $\\sqrt{1.33^2 - 1} \\approx 0.88$, so $r \\approx 1.14\\,h$, which matches $\\tan 49° \\approx 1.15$.)*\n\n---\n*Note on this lecture's transcript:* `gemini-3.5-flash` was in a 503 outage and then out of daily quota when this chapter was processed, so the audio was transcribed by `gemini-3.5-flash-lite` in overlapping five-minute windows, joined where the overlapping speech matches word for word. Lite's clock ran fast (by up to 2x) inside a window; each window was rescaled to its true length, so times quoted here are approximate (roughly ±30 s). Every gap of more than 30 s was re-transcribed on its own to confirm whether speech was missing. One stretch of the TIR section (about 39:08–40:00) was missing from the merged windows and was spliced in from a separate transcription. Equations are taken from the board frames, not from the transcript.\n"
+}

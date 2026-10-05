@@ -1,0 +1,102 @@
+{
+  "file_id": "1zZ7ifIdO7IdBFlaRL1qGCLSKNx4AX9zw",
+  "chapter_id": "leph109",
+  "title": "Total Internal Reflection and Its Applications",
+  "duration_seconds": 1548.5,
+  "claims": [
+    {
+      "text": "TIR: light going from a denser to a rarer medium at an angle of incidence greater than the critical angle is reflected back into the denser medium, obeying the laws of reflection",
+      "transcript_span": [
+        0,
+        282
+      ],
+      "frame_path": "data/lectures/leph109/1zZ7ifIdO7IdBFlaRL1qGCLSKNx4AX9zw/frames/floor_000018.jpg",
+      "ncert_section": "9.4",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Critical angle: angle of incidence in the denser medium for which the angle of refraction is 90 deg; sin C = 1/n",
+      "transcript_span": [
+        249,
+        419
+      ],
+      "frame_path": "data/lectures/leph109/1zZ7ifIdO7IdBFlaRL1qGCLSKNx4AX9zw/frames/floor_000018.jpg",
+      "ncert_section": "9.4",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Critical angle of glass (n = 1.5) is about 42 deg",
+      "transcript_span": [
+        569,
+        584
+      ],
+      "frame_path": "data/lectures/leph109/1zZ7ifIdO7IdBFlaRL1qGCLSKNx4AX9zw/frames/floor_000037.jpg",
+      "ncert_section": "9.4",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Diamonds sparkle because their small critical angle (about 25 deg) traps light by repeated TIR; board uses n = 2.54 where NCERT gives 2.42",
+      "transcript_span": [
+        437,
+        601
+      ],
+      "frame_path": "data/lectures/leph109/1zZ7ifIdO7IdBFlaRL1qGCLSKNx4AX9zw/frames/floor_000037.jpg",
+      "ncert_section": "9.4",
+      "ncert_agreement": "teacher_simplifies"
+    },
+    {
+      "text": "Optical fibres guide light by repeated total internal reflection with negligible loss",
+      "transcript_span": [
+        601,
+        725
+      ],
+      "frame_path": "data/lectures/leph109/1zZ7ifIdO7IdBFlaRL1qGCLSKNx4AX9zw/frames/floor_000042.jpg",
+      "ncert_section": "9.4.1",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "A total reflecting prism (isosceles, 90 deg, crown glass) deviates rays by 90 deg or 180 deg and erects an inverted image without deviation, because 45 deg exceeds the 42 deg critical angle",
+      "transcript_span": [
+        726,
+        1174
+      ],
+      "frame_path": "data/lectures/leph109/1zZ7ifIdO7IdBFlaRL1qGCLSKNx4AX9zw/frames/floor_000057.jpg",
+      "ncert_section": "9.4.1",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Desert mirage: hot ground air has lower n, so rays from a tree are totally reflected and the observer sees an inverted, wavering image as if in water",
+      "transcript_span": [
+        1178,
+        1451
+      ],
+      "frame_path": "data/lectures/leph109/1zZ7ifIdO7IdBFlaRL1qGCLSKNx4AX9zw/frames/floor_000075.jpg",
+      "ncert_section": null,
+      "ncert_agreement": null
+    },
+    {
+      "text": "Looming in cold countries: denser air near the sea makes a ship appear raised, floating in the air (not in the syllabus)",
+      "transcript_span": [
+        1451,
+        1548
+      ],
+      "frame_path": "data/lectures/leph109/1zZ7ifIdO7IdBFlaRL1qGCLSKNx4AX9zw/frames/floor_000077.jpg",
+      "ncert_section": null,
+      "ncert_agreement": null
+    }
+  ],
+  "uncertain_spans": [],
+  "ncert_sections_covered": [
+    "9.4",
+    "9.4.1"
+  ],
+  "frame_paths": [
+    "data/lectures/leph109/1zZ7ifIdO7IdBFlaRL1qGCLSKNx4AX9zw/frames/floor_000018.jpg",
+    "data/lectures/leph109/1zZ7ifIdO7IdBFlaRL1qGCLSKNx4AX9zw/frames/floor_000037.jpg",
+    "data/lectures/leph109/1zZ7ifIdO7IdBFlaRL1qGCLSKNx4AX9zw/frames/floor_000042.jpg",
+    "data/lectures/leph109/1zZ7ifIdO7IdBFlaRL1qGCLSKNx4AX9zw/frames/floor_000057.jpg",
+    "data/lectures/leph109/1zZ7ifIdO7IdBFlaRL1qGCLSKNx4AX9zw/frames/floor_000075.jpg",
+    "data/lectures/leph109/1zZ7ifIdO7IdBFlaRL1qGCLSKNx4AX9zw/frames/floor_000077.jpg"
+  ],
+  "markdown_body": "\n## Total internal reflection (NCERT 9.4)\n\nAn object under water sends rays up to the water–air surface. Going from denser ($n_2$) to rarer ($n_1$), each ray bends **away from the normal**, so $r > i$.\n\n- As $i$ is increased, $r$ grows.\n- At one particular angle of incidence, the refracted ray just grazes the surface: $r = 90°$. This angle of incidence is the **critical angle $i_c$** (or $C$).\n- For $i > i_c$, no light is refracted out. The ray is **reflected back into the same (denser) medium** and obeys the laws of reflection: angle of incidence = angle of reflection (e.g. 50° in, 50° out), with all rays in one plane.\n\nBecause the light is reflected entirely, and inside the medium it was already in, this is **total internal reflection (TIR)**. Unlike a mirror, it needs no silvered surface.\n\n**Conditions for TIR (board):**\n\n1. The ray must go from a **denser to a rarer** medium. Only then does it bend away from the normal, so $r$ can reach 90°. Going rarer to denser, $r$ can never be 90°.\n2. The **angle of incidence must be greater than the critical angle** $i_c$.\n\n**Critical angle:** the angle of incidence (in the denser medium) for which the angle of refraction is 90°.\n\n### Calculating the critical angle\n\nApply Snell's law at the critical angle, with each angle next to the index of its own medium:\n$$n_2 \\sin C = n_1 \\sin 90° = n_1 \\;\\Rightarrow\\; \\sin C = \\frac{n_1}{n_2} = \\frac{1}{n}, \\qquad C = \\sin^{-1}\\frac{1}{n}$$\n\nwhere $n = n_2/n_1$.\n\n- **Water:** $C = \\sin^{-1}(1/1.33) \\approx 49°$.\n- **Glass:** $C = \\sin^{-1}(1/1.5) \\approx 42°$.\n\n## Applications of TIR (NCERT 9.4.1)\n\n### 1. Sparkling of diamonds\n\n- Diamond has a very high refractive index, so a very small critical angle (about 25° on the board).\n- A ray entering a well-cut diamond meets face after face at more than 25°. It is **totally internally reflected many times** and comes out only through a few facets.\n- A rough, uncut diamond hardly shines. Cutting many facets is what makes it sparkle.\n- Glass ($C \\approx 42°$) traps light far less, which is the difference between a diamond and a glass imitation.\n\n*The board uses $n = 2.54$ for diamond. NCERT's Table 9.1 gives $n = 2.42$ and $i_c = 24.4°$, so \"about 25°\" is right either way. The lecture also attributes the sparkle to the emerging beams arriving \"in different phases\". The standard explanation is the multiple TIR above, with the bright beams flashing as the stone or the eye moves.*\n\n### 2. Optical fibres\n\n- A ray entering a glass fibre at a suitable angle meets the wall at more than the critical angle. It is **totally internally reflected again and again** and comes out at the far end, even when the fibre is bent.\n- Optical fibres are used to **send signals**: the signal travels as light, very fast, with **negligible loss of energy**.\n- The decorative lamp, with a bulb and a rotating coloured disc under a spray of glass fibres, works this way.\n- *NCERT adds that each fibre has a **core** of higher refractive index surrounded by a **cladding** of lower index, and that fibres carry audio and video signals over long distances.*\n\n### 3. Total reflecting prism\n**Board:** an isosceles prism of crown glass ($n = 1.52$) with refracting angle 90° is called a total reflecting prism.\n\nLight enters a face normally and meets the hypotenuse face at **45°**. Since $45° > C \\approx 42°$, it is totally reflected. The prism is used to:\n\n1. **deviate rays through 90°** (one TIR at the hypotenuse);\n2. **deviate rays through 180°** (light enters the hypotenuse face, with two TIRs at the short faces); the image P, Q comes back at the same size;\n3. **erect an inverted image without any deviation**.\n\n*(NCERT notes that for the 90° and 180° prisms, the critical angle of the prism material must be less than 45°, which is true for crown glass and dense flint glass.)*\n\n## Natural examples of TIR\n\n### Mirage in deserts\n\n- In extreme summer the air at the **ground is hot and has a lower refractive index**. The index increases with height.\n- A ray from the top of a tree heading downwards passes from denser to rarer layers and bends away from the normal more and more. When $i > C$ it is **totally reflected** and curves up into the observer's eye.\n- The observer sees an **inverted image of the tree** below the ground, as if reflected in a pool of water. This is also why a hot road looks wet in summer.\n- **Air is dynamic**, so the image is not static: it **wavers**, like a reflection in rippling water.\n\n### Looming (not in the syllabus, as the teacher notes)\n\n- In **extremely cold countries**, the air near the sea surface is cold and **denser**, with rarer air above.\n- Rays from a ship going upwards pass from denser to rarer, bend away from the normal and are totally reflected back down to the observer.\n- The ship appears **raised, floating in the air**. The lecture says the ship appears inverted; this kind of upper mirage can show it upright or inverted.\n\n---\n*Note on this lecture's transcript:* `gemini-3.5-flash` was in a 503 outage and then out of daily quota when this chapter was processed, so the audio was transcribed by `gemini-3.5-flash-lite` in overlapping five-minute windows, joined where the overlapping speech matches word for word. Lite's clock ran fast (by up to 2x) inside a window; each window was rescaled to its true length, so times quoted here are approximate (roughly ±30 s). Every gap of more than 30 s was re-transcribed on its own to confirm whether speech was missing. The looming passage (about 24:16–24:57) was missing from the merged windows and was spliced in from a separate transcription of that stretch. Equations are taken from the board frames, not from the transcript.\n"
+}
