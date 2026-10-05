@@ -1,0 +1,132 @@
+{
+  "file_id": "1CDFmAS4Ijy77JS81LImUO3xM2CeiPC1O",
+  "chapter_id": "leph109",
+  "title": "Convex Mirror Images, Sign Convention and the Mirror Formula",
+  "duration_seconds": 2291.0,
+  "claims": [
+    {
+      "text": "Convex mirror, object at infinity: image at F, virtual, erect, highly diminished",
+      "transcript_span": [
+        18,
+        136
+      ],
+      "frame_path": "data/lectures/leph109/1CDFmAS4Ijy77JS81LImUO3xM2CeiPC1O/frames/floor_000002.jpg",
+      "ncert_section": "9.2.3",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Convex mirror, object anywhere between infinity and P: image between P and F, virtual, erect, diminished",
+      "transcript_span": [
+        210,
+        235
+      ],
+      "frame_path": "data/lectures/leph109/1CDFmAS4Ijy77JS81LImUO3xM2CeiPC1O/frames/floor_000010.jpg",
+      "ncert_section": "9.2.3",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Convex mirrors are used as rear-view mirrors because the image is erect and the field of view is wider than a plane or concave mirror's",
+      "transcript_span": [
+        235,
+        541
+      ],
+      "frame_path": "data/lectures/leph109/1CDFmAS4Ijy77JS81LImUO3xM2CeiPC1O/frames/floor_000024.jpg",
+      "ncert_section": null,
+      "ncert_agreement": null
+    },
+    {
+      "text": "Sign convention: distances from the pole; along the incident ray positive, against it negative; heights above the axis positive, below negative",
+      "transcript_span": [
+        586,
+        1165
+      ],
+      "frame_path": "data/lectures/leph109/1CDFmAS4Ijy77JS81LImUO3xM2CeiPC1O/frames/floor_000048.jpg",
+      "ncert_section": "9.2.1",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Concave mirror: u, v (real image), f and R are all negative; convex mirror: u negative, v, f and R positive",
+      "transcript_span": [
+        867,
+        1073
+      ],
+      "frame_path": "data/lectures/leph109/1CDFmAS4Ijy77JS81LImUO3xM2CeiPC1O/frames/floor_000053.jpg",
+      "ncert_section": "9.2.1",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Mirror formula 1/f = 1/v + 1/u",
+      "transcript_span": [
+        1165,
+        1210
+      ],
+      "frame_path": "data/lectures/leph109/1CDFmAS4Ijy77JS81LImUO3xM2CeiPC1O/frames/floor_000062.jpg",
+      "ncert_section": "9.2.3",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Magnification m = h_i/h_o = -v/u; sign gives real/virtual, magnitude gives size",
+      "transcript_span": [
+        1210,
+        1486
+      ],
+      "frame_path": "data/lectures/leph109/1CDFmAS4Ijy77JS81LImUO3xM2CeiPC1O/frames/floor_000069.jpg",
+      "ncert_section": "9.2.3",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Q12: u = -10 cm, f = +15 cm gives v = +6 cm and m = +0.6 (virtual, erect, smaller)",
+      "transcript_span": [
+        1497,
+        1702
+      ],
+      "frame_path": "data/lectures/leph109/1CDFmAS4Ijy77JS81LImUO3xM2CeiPC1O/frames/floor_000088.jpg",
+      "ncert_section": null,
+      "ncert_agreement": null
+    },
+    {
+      "text": "Q14: u = -20 cm, R = +30 cm gives v = +60/7 cm, m = +3/7, h_i = 15/7 cm",
+      "transcript_span": [
+        1730,
+        1971
+      ],
+      "frame_path": "data/lectures/leph109/1CDFmAS4Ijy77JS81LImUO3xM2CeiPC1O/frames/floor_000099.jpg",
+      "ncert_section": null,
+      "ncert_agreement": null
+    },
+    {
+      "text": "Q15: u = -27 cm, f = -18 cm gives v = -54 cm, m = -2, h_i = -14 cm; screen 54 cm in front of the mirror",
+      "transcript_span": [
+        1954,
+        2234
+      ],
+      "frame_path": "data/lectures/leph109/1CDFmAS4Ijy77JS81LImUO3xM2CeiPC1O/frames/floor_000112.jpg",
+      "ncert_section": null,
+      "ncert_agreement": null
+    }
+  ],
+  "uncertain_spans": [
+    {
+      "start_seconds": 480,
+      "end_seconds": 525,
+      "reason": "Segment times collapse here (several stamped 08:12) in the plane- vs concave-mirror field-of-view comparison; the text reads in order but its times are rough."
+    }
+  ],
+  "ncert_sections_covered": [
+    "9.2.1",
+    "9.2.3"
+  ],
+  "frame_paths": [
+    "data/lectures/leph109/1CDFmAS4Ijy77JS81LImUO3xM2CeiPC1O/frames/floor_000002.jpg",
+    "data/lectures/leph109/1CDFmAS4Ijy77JS81LImUO3xM2CeiPC1O/frames/floor_000010.jpg",
+    "data/lectures/leph109/1CDFmAS4Ijy77JS81LImUO3xM2CeiPC1O/frames/floor_000024.jpg",
+    "data/lectures/leph109/1CDFmAS4Ijy77JS81LImUO3xM2CeiPC1O/frames/floor_000048.jpg",
+    "data/lectures/leph109/1CDFmAS4Ijy77JS81LImUO3xM2CeiPC1O/frames/floor_000053.jpg",
+    "data/lectures/leph109/1CDFmAS4Ijy77JS81LImUO3xM2CeiPC1O/frames/floor_000062.jpg",
+    "data/lectures/leph109/1CDFmAS4Ijy77JS81LImUO3xM2CeiPC1O/frames/floor_000069.jpg",
+    "data/lectures/leph109/1CDFmAS4Ijy77JS81LImUO3xM2CeiPC1O/frames/floor_000088.jpg",
+    "data/lectures/leph109/1CDFmAS4Ijy77JS81LImUO3xM2CeiPC1O/frames/floor_000099.jpg",
+    "data/lectures/leph109/1CDFmAS4Ijy77JS81LImUO3xM2CeiPC1O/frames/floor_000112.jpg"
+  ],
+  "markdown_body": "\n## Images formed by a convex mirror (NCERT 9.2.3)\n\nA convex mirror has only two cases.\n\n| Position of object | Position of image | Nature and size |\n|---|---|---|\n| At infinity | At F, behind the mirror | Virtual, erect, **highly diminished** |\n| Anywhere between infinity and P | Between P and F, behind the mirror | Virtual, erect, **diminished** |\n\nThe parallel rays from an object at infinity reflect so that they *appear* to come from F. Draw the backward extensions dashed. Wherever the object is, a convex mirror's image is always **virtual, erect and smaller** than the object. (In the recording the teacher twice says \"convex lens\" while drawing the mirror, and once calls the outside car mirror \"concave\". The board and the argument are about a **convex mirror** both times.)\n\n## Why convex mirrors are used as rear-view mirrors\n\nThis is a common exam question. The mirror outside the driver's door bulges outwards, so it is a convex mirror. There are two reasons:\n\n1. **The image is always erect.** The driver never sees a car or a person upside down.\n2. **It gives a wider field of view.** Because it curves outwards, rays from objects at large angles behind the car still reflect into the driver's eye. The images are small, so a **large area behind is covered** in one small mirror.\n\nWith a plane mirror only rays within a narrow angle reach the eye, so the field of view is smaller. A concave mirror narrows it further. The convex mirror gives the widest view. *(Rear-view mirrors are not discussed in the current NCERT Class 12 text.)*\n\n## New Cartesian sign convention (NCERT 9.2.1)\n\nFor an object AB in front of a mirror with image A′B′:\n- **object distance** $u = PA$ (distance of the object from the pole)\n- **image distance** $v = PA'$\n- **focal length** $f = PF$, **radius of curvature** $R = PC$\n\n**Rules**\n1. **All distances are measured from the pole.** Write PA, PA′, PF, never AP, A′P or FP.\n2. Distances measured **in the direction of the incident ray are positive**. Distances measured **opposite to it are negative**. Draw the incident light travelling left to right.\n3. Heights measured **above the principal axis are positive**, and heights **below are negative**.\n\n| | $u$ | $v$ | $f$ | $R$ |\n|---|---|---|---|---|\n| Concave mirror (real image) | − | − | − | − |\n| Convex mirror | − | + | + | + |\n\nThe object height $h$ (AB, measured upwards) is positive. An inverted real image A′B′ is below the axis, so its height is negative. The erect virtual image of a convex mirror has a positive height.\n\n*Memory hook from the lecture:* \"con**vex**\" gives a **positive** focal length, and \"con**cave**\" a **negative** one. This holds for lenses too. The hook is only for the sign of $f$.\n\n## Mirror formula and magnification (NCERT 9.2.3)\n\nThe **mirror formula** relates the image distance, object distance and focal length:\n\n$$\\frac{1}{f} = \\frac{1}{v} + \\frac{1}{u}$$\n\n**Magnification** $m$ is the ratio of the image height to the object height:\n\n$$m = \\frac{h_i}{h_o} = -\\frac{v}{u}$$\n\n(Both are to be remembered here; they are derived in lecture 09.)\n\n**Reading $m$:** the **sign** tells you real or virtual, and the **magnitude** tells you the size.\n- $m > 0$: virtual and erect. $m < 0$: real and inverted.\n- $|m| < 1$: smaller. $|m| = 1$: same size. $|m| > 1$: magnified.\n\n| $m$ | Image |\n|---|---|\n| $+2$ | magnified, erect, virtual |\n| $+0.2$ | smaller, erect, virtual |\n| $-3$ | magnified, real, inverted |\n| $-0.3$ | smaller, real, inverted |\n\nA common mistake is to read \"+\" as magnified and \"−\" as diminished. The sign only says virtual/erect or real/inverted.\n\n## Numericals (textbook exercise questions 12–15, solved on the board)\n\n**Q12.** An object is 10 cm from a convex mirror of focal length 15 cm. Find the position and nature of the image.\n$u = -10$ cm, $f = +15$ cm.\n$$\\frac{1}{v} = \\frac{1}{f} - \\frac{1}{u} = \\frac{1}{15} + \\frac{1}{10} = \\frac{1}{6} \\;\\Rightarrow\\; v = +6 \\text{ cm}$$\nThe image is 6 cm **behind** the mirror, so it is virtual and erect. $m = -v/u = -\\dfrac{6}{-10} = +0.6$: virtual, erect, smaller. *(The teacher first writes $m = -0.6$, then notices that $u$ is $-10$ and corrects it to $+0.6$.)*\n\n**Q13.** A plane mirror's magnification is $+1$. The \"+\" means virtual and erect, and the \"1\" means the same size.\n\n**Q14.** An object 5.0 cm long is 20 cm in front of a convex mirror of radius of curvature 30 cm.\n$h_o = +5$ cm, $u = -20$ cm, $R = +30$ cm, so $f = R/2 = +15$ cm.\n$$\\frac{1}{v} = \\frac{1}{15} + \\frac{1}{20} = \\frac{7}{60} \\;\\Rightarrow\\; v = +\\frac{60}{7} \\approx +8.6 \\text{ cm}$$\nThe image is behind the mirror, so it is virtual and erect. $m = -v/u = +\\dfrac{3}{7}$, so it is smaller. Its height is $h_i = m\\,h_o = \\dfrac{15}{7} \\approx 2.1$ cm.\n\n**Q15.** An object 7.0 cm tall is 27 cm in front of a concave mirror of focal length 18 cm. Where should the screen be placed for a sharp image?\n$h_o = +7$ cm, $u = -27$ cm, $f = -18$ cm.\n$$\\frac{1}{v} = -\\frac{1}{18} + \\frac{1}{27} = \\frac{18 - 27}{27 \\times 18} = -\\frac{1}{54} \\;\\Rightarrow\\; v = -54 \\text{ cm}$$\nThe negative $v$ means the image is **in front of** the mirror, so it is real and inverted. Place the screen 54 cm in front of the mirror. $m = -v/u = -2$: real, inverted, magnified. $h_i = m\\,h_o = -14$ cm (the minus means inverted).\n\nRule of thumb from the lecture: an image formed in front of the mirror is real and inverted, and one formed behind it is virtual and erect.\n\n---\n*Note on this lecture's transcript:* `gemini-3.5-flash` was in a 503 outage and then out of daily quota when this chapter was processed, so the audio was transcribed by `gemini-3.5-flash-lite` in overlapping five-minute windows, joined where the overlapping speech matches word for word. Lite's clock ran fast (by up to 2x) inside a window; each window was rescaled to its true length, so times quoted here are approximate (roughly ±30 s). Every gap of more than 30 s was re-transcribed on its own to confirm whether speech was missing. The rear-view-mirror passage (about 03:48–04:51) was missing from the merged windows and was spliced in from a separate transcription of that stretch. Equations are taken from the board frames, not from the transcript.\n"
+}

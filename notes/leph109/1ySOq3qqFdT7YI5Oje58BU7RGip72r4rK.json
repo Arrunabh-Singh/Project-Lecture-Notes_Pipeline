@@ -1,0 +1,125 @@
+{
+  "file_id": "1ySOq3qqFdT7YI5Oje58BU7RGip72r4rK",
+  "chapter_id": "leph109",
+  "title": "Lenses: Types and Terms",
+  "duration_seconds": 1987.5,
+  "claims": [
+    {
+      "text": "A lens is a transparent material bounded by two surfaces, one or both spherical",
+      "transcript_span": [
+        11,
+        72
+      ],
+      "frame_path": "data/lectures/leph109/1ySOq3qqFdT7YI5Oje58BU7RGip72r4rK/frames/floor_000007.jpg",
+      "ncert_section": "9.5.2",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "A convex lens bulges outwards, is thicker at the centre and converges parallel rays (converging lens)",
+      "transcript_span": [
+        73,
+        262
+      ],
+      "frame_path": "data/lectures/leph109/1ySOq3qqFdT7YI5Oje58BU7RGip72r4rK/frames/floor_000014.jpg",
+      "ncert_section": "9.5.2",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "A concave lens curves inwards, is thicker at the edges and diverges parallel rays (diverging lens)",
+      "transcript_span": [
+        262,
+        468
+      ],
+      "frame_path": "data/lectures/leph109/1ySOq3qqFdT7YI5Oje58BU7RGip72r4rK/frames/floor_000023.jpg",
+      "ncert_section": "9.5.2",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Concavo-convex and convexo-concave (meniscus) lenses; not in the textbook",
+      "transcript_span": [
+        468,
+        547
+      ],
+      "frame_path": "data/lectures/leph109/1ySOq3qqFdT7YI5Oje58BU7RGip72r4rK/frames/floor_000030.jpg",
+      "ncert_section": null,
+      "ncert_agreement": null
+    },
+    {
+      "text": "The two spherical surfaces have centres of curvature C1, C2; the principal axis is the line through C1 and C2",
+      "transcript_span": [
+        571,
+        790
+      ],
+      "frame_path": "data/lectures/leph109/1ySOq3qqFdT7YI5Oje58BU7RGip72r4rK/frames/floor_000040.jpg",
+      "ncert_section": "9.5.2",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "A ray through the optical centre of a thin lens goes undeviated, because the centre acts like a very thin parallel slab",
+      "transcript_span": [
+        790,
+        1043
+      ],
+      "frame_path": "data/lectures/leph109/1ySOq3qqFdT7YI5Oje58BU7RGip72r4rK/frames/floor_000056.jpg",
+      "ncert_section": "9.5.2",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Aperture is the effective diameter of the lens's circular outline; a thin lens has aperture much less than its radius of curvature",
+      "transcript_span": [
+        1043,
+        1272
+      ],
+      "frame_path": "data/lectures/leph109/1ySOq3qqFdT7YI5Oje58BU7RGip72r4rK/frames/floor_000068.jpg",
+      "ncert_section": "9.5.2",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Principal focus of a convex lens: parallel rays converge there after refraction; focal length is the distance from O to F",
+      "transcript_span": [
+        1382,
+        1596
+      ],
+      "frame_path": "data/lectures/leph109/1ySOq3qqFdT7YI5Oje58BU7RGip72r4rK/frames/floor_000080.jpg",
+      "ncert_section": "9.5.2",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "A lens has two principal foci F1 and F2, equidistant from O only when the medium is the same on both sides",
+      "transcript_span": [
+        1596,
+        1821
+      ],
+      "frame_path": "data/lectures/leph109/1ySOq3qqFdT7YI5Oje58BU7RGip72r4rK/frames/floor_000088.jpg",
+      "ncert_section": "9.5.2",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Principal focus of a concave lens: parallel rays appear to diverge from it after refraction",
+      "transcript_span": [
+        1821,
+        1987
+      ],
+      "frame_path": "data/lectures/leph109/1ySOq3qqFdT7YI5Oje58BU7RGip72r4rK/frames/floor_000099.jpg",
+      "ncert_section": "9.5.2",
+      "ncert_agreement": "agrees"
+    }
+  ],
+  "uncertain_spans": [],
+  "ncert_sections_covered": [
+    "9.5.2"
+  ],
+  "frame_paths": [
+    "data/lectures/leph109/1ySOq3qqFdT7YI5Oje58BU7RGip72r4rK/frames/floor_000007.jpg",
+    "data/lectures/leph109/1ySOq3qqFdT7YI5Oje58BU7RGip72r4rK/frames/floor_000014.jpg",
+    "data/lectures/leph109/1ySOq3qqFdT7YI5Oje58BU7RGip72r4rK/frames/floor_000023.jpg",
+    "data/lectures/leph109/1ySOq3qqFdT7YI5Oje58BU7RGip72r4rK/frames/floor_000030.jpg",
+    "data/lectures/leph109/1ySOq3qqFdT7YI5Oje58BU7RGip72r4rK/frames/floor_000040.jpg",
+    "data/lectures/leph109/1ySOq3qqFdT7YI5Oje58BU7RGip72r4rK/frames/floor_000056.jpg",
+    "data/lectures/leph109/1ySOq3qqFdT7YI5Oje58BU7RGip72r4rK/frames/floor_000068.jpg",
+    "data/lectures/leph109/1ySOq3qqFdT7YI5Oje58BU7RGip72r4rK/frames/floor_000080.jpg",
+    "data/lectures/leph109/1ySOq3qqFdT7YI5Oje58BU7RGip72r4rK/frames/floor_000088.jpg",
+    "data/lectures/leph109/1ySOq3qqFdT7YI5Oje58BU7RGip72r4rK/frames/floor_000099.jpg"
+  ],
+  "markdown_body": "\n## What is a lens? (NCERT 9.5.2)\n\n**Lens (board):** a transparent material bounded by two surfaces, of which one or both are spherical, forms a lens. At least one surface has to be spherical: with both surfaces plane you get a slab, not a lens.\n\n### Convex (converging) lens\n- **Both surfaces spherical and bulging outwards**. It is **thicker at the centre** than at the edges.\n- Called a **double convex lens**, or simply a **convex lens**. If one face is plane, it is a **plano-convex** lens.\n- Parallel rays falling on it **converge** to a point (F) after refraction, so a convex lens is a **converging lens**.\n\n### Concave (diverging) lens\n- **Both surfaces spherical and curved inwards**. It is **thicker at the edges** than at the centre.\n- Called a **double concave lens**, or simply a **concave lens**. If one face is plane, it is a **plano-concave** lens.\n- Parallel rays falling on it **diverge** after refraction, as if coming from one point (F), so a concave lens is a **diverging lens**.\n\n### Meniscus lenses (an extra from the lecture)\nWhen one face bulges out and the other curves in:\n- thicker at the centre: **concavo-convex** lens;\n- thinner at the centre: **convexo-concave** lens.\n\n*(The teacher notes these are not in the textbook.)*\n\n## Terms related to a lens\n\n- **Centres of curvature ($C_1$, $C_2$).** Each of a lens's two spherical surfaces is part of a sphere. The centres of those spheres are $C_1$ and $C_2$.\n- **Radii of curvature ($R_1$, $R_2$).** The radii of those two spheres. *(The teacher says this definition isn't spelled out in the textbook, so it is built from the C₁/C₂ one.)*\n- **Principal axis.** The line passing through the two centres of curvature, $C_1$ and $C_2$. Compare a mirror, which has only one spherical surface and so one C.\n- **Optical centre (O).** The central point of a lens. **A ray passing through the optical centre goes undeviated.**\n  - This holds only for a **thin lens**. Slice a thin lens into pieces: the central piece is effectively a very thin parallel-sided slab. A slab only displaces a ray sideways, and with negligible thickness the lateral shift is negligible, so the ray appears to pass straight through.\n- **Aperture.** The effective diameter of the circular outline of a spherical lens (MN on the board). For a concave lens it is measured across the rim, not the thin middle.\n- **Thin lens.** A lens whose aperture is much smaller than its radius of curvature. All the lens results here assume thin lenses.\n\n## Principal focus and focal length\n\n**Convex lens.** When several rays parallel to the principal axis fall on a convex lens, after refraction they **converge** at a point on the principal axis. This point is the **principal focus** of the lens.\n\n**Concave lens.** When several rays parallel to the principal axis fall on a concave lens, after refraction they **appear to diverge** from a point on the principal axis. This point is the **principal focus**.\n\n**Focal length ($f$).** The distance between the optical centre and the principal focus.\n\n**Drawing convention:** for a thin lens, draw the bending of each ray at the **centre line** of the lens, not at the two surfaces separately.\n\n**Two principal foci.** If parallel rays come from the other side of the lens, they focus on the opposite side. So a lens has **two principal foci, $F_1$ and $F_2$** (\"focus\" is singular, \"foci\" plural). This answers \"why does a lens have two principal foci?\"\n\n- $OF_1 = OF_2$ **only if the medium on both sides of the lens is the same**, for example air | glass ($n = 1.5$) | air.\n- With air on one side and water on the other, the two focal lengths differ.\n\n*(This last point is an extra from the lecture. In the course, both sides are always the same medium.)*\n\n---\n*Note on this lecture's transcript:* `gemini-3.5-flash` was in a 503 outage and then out of daily quota when this chapter was processed, so the audio was transcribed by `gemini-3.5-flash-lite` in overlapping five-minute windows, joined where the overlapping speech matches word for word. Lite's clock ran fast (by up to 2x) inside a window; each window was rescaled to its true length, so times quoted here are approximate (roughly ±30 s). Every gap of more than 30 s was re-transcribed on its own to confirm whether speech was missing. Equations are taken from the board frames, not from the transcript.\n"
+}
