@@ -1,8 +1,8 @@
 {
   "_meta": {
     "source": "Google Drive folder 1H2jSzZesz5wFk3jTTZf9D4Tkj-RHUJ1t (teacher: gaekwad269@gmail.com), enumerated via Drive MCP connector search_files",
-    "discovered_files": 59,
-    "total_bytes": 4364871213,
+    "discovered_files": 77,
+    "total_bytes": 5588365027,
     "notes": [
       "Ch8 leph108: 1b910aN0Reew4trJW79xEHR-2QF_43xCE is an exact duplicate of 1zUpiosAlh9hLP2fV4pc8_yGpQ0cW2dTd (identical title, size, and mtime) -- process once, skip the duplicate after hash confirmation.",
       "Ch7 leph107: 'LCR ,LC Osc.mp4' (119680894 bytes) and '#4 LCR, Resonance,LC Osc.mkv' (130751708 bytes) cover overlapping topics but differ in size -- NOT auto-deduped, treat as distinct recordings pending hash comparison.",
@@ -123,6 +123,31 @@
         {"id": "15QEqVbIzq_o_6o7LC-Gex08AfVsbJxcP", "title": "#3Properties and equation of em waves.mkv", "size_bytes": 64908709, "mime_type": "video/x-matroska"},
         {"id": "1zUpiosAlh9hLP2fV4pc8_yGpQ0cW2dTd", "title": "#4em specctrum,production and uses of em waves..mkv", "size_bytes": 83621246, "mime_type": "video/x-matroska"},
         {"id": "1b910aN0Reew4trJW79xEHR-2QF_43xCE", "title": "#4em specctrum,production and uses of em waves..mkv", "size_bytes": 83621246, "mime_type": "video/x-matroska", "known_duplicate_of": "1zUpiosAlh9hLP2fV4pc8_yGpQ0cW2dTd"}
+      ]
+    },
+    {
+      "chapter_id": "leph109",
+      "folder_name": "Ch 9Ray optics",
+      "folder_id": "1QC3JCSOfLxDxxZfW6rVxAIDAZs4Bkt0v",
+      "files": [
+        {"id": "1XXKL71jrF-Jdm_Mi5XUA890tbQzsKoWr", "title": "#1 -1-light and plane mirror 21min.mkv", "size_bytes": 40372180, "mime_type": "video/x-matroska"},
+        {"id": "1qFqlQ8f9CRg7-f0UQ4jUvAa9Y5Dy2frp", "title": "#2 spherical mirrors,terms related to spherical mirrors..mkv", "size_bytes": 66816015, "mime_type": "video/x-matroska"},
+        {"id": "1oZsdn5FRWjf7kVTx20ZFzWUgqheZW7zj", "title": "#3imp rays to draw ray diagram.mkv", "size_bytes": 22323866, "mime_type": "video/x-matroska"},
+        {"id": "1_C-FH571KTEoad0YOFXVilGj3sjDZV13", "title": "#4 Images formed by concave mirror.mkv", "size_bytes": 34428251, "mime_type": "video/x-matroska"},
+        {"id": "1CDFmAS4Ijy77JS81LImUO3xM2CeiPC1O", "title": "#5 convex mirror,mrror formula..mkv", "size_bytes": 74699198, "mime_type": "video/x-matroska"},
+        {"id": "1skntQcE2vglK4G0RWkQZYT7ODpBm2Jn5", "title": "#6Refraction,glass slab,refractive index.mkv", "size_bytes": 112918929, "mime_type": "video/x-matroska"},
+        {"id": "1ySOq3qqFdT7YI5Oje58BU7RGip72r4rK", "title": "#7Terms related to lenses..mkv", "size_bytes": 81462750, "mime_type": "video/x-matroska"},
+        {"id": "1YUD1FMM2TkFF5Rn9t3ipGW_W0fpBCsC4", "title": "#8Imp rays,ray diagrams,lens formula,power,numericals..mkv", "size_bytes": 120159101, "mime_type": "video/x-matroska"},
+        {"id": "1JBYRL-PHRyrhBVTZykqs9aMlDVwgoHy_", "title": "#9mirror formula,lens formula derivations..mkv", "size_bytes": 57671278, "mime_type": "video/x-matroska"},
+        {"id": "1dD2FAg2Sx-eLpc1i70-Sqq7cUd-pHD4w", "title": "#10lateral displ,appparent depth,atmospheric refraction.mp4", "size_bytes": 92026481, "mime_type": "video/mp4"},
+        {"id": "1IWBc1RD_T03Wr4GC3rysEpfnivz8RXaD", "title": "#11refraction spherical surface ,lens maker formula..mkv", "size_bytes": 85306829, "mime_type": "video/x-matroska"},
+        {"id": "1gP8opWoNuPg4MPCVBJ-8DCLguMLMSQJK", "title": "#12prism ,scattering of light..mkv", "size_bytes": 99214810, "mime_type": "video/x-matroska"},
+        {"id": "1zZ7ifIdO7IdBFlaRL1qGCLSKNx4AX9zw", "title": "#13TIR.mp4", "size_bytes": 60698539, "mime_type": "video/mp4"},
+        {"id": "1OEYhhsqZBJTUuaOoy-l927SMYaQ6sbdf", "title": "Exp for Lateral Displ,apparent depth,tmospheric refraction,TIR,Examples of TIR..mkv", "size_bytes": 170428529, "mime_type": "video/x-matroska", "review_note": "no lecture number in the title; ordered after #13 TIR, whose topics (lateral displacement, apparent depth, TIR) it demonstrates"},
+        {"id": "1zS4DzlWd36oKeQLk6DdzLDqwIyxXJgbp", "title": "#14MP of simple microscope.mkv", "size_bytes": 17906354, "mime_type": "video/x-matroska"},
+        {"id": "1GWeiuwyXizahsAA79f1LV6elDuKuowtF", "title": "#15MP of compound microscope.mkv", "size_bytes": 29440978, "mime_type": "video/x-matroska"},
+        {"id": "1D2Tb-nACMn8f-AKjthCLOpO89eW5exkU", "title": "#16MP of telescope.mkv", "size_bytes": 18812257, "mime_type": "video/x-matroska"},
+        {"id": "1jgUg6rnen9U_CnufOyrOsl87Ere2FlOD", "title": "#17Reflecting telescope,cassagrain telescope..mkv", "size_bytes": 38807469, "mime_type": "video/x-matroska"}
       ]
     }
   ]

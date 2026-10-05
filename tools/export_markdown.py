@@ -371,6 +371,7 @@ PHYS_CHAPTERS = {
     "leph106": "Chapter 6 · Electromagnetic Induction",
     "leph107": "Chapter 7 · Alternating Current",
     "leph108": "Chapter 8 · Electromagnetic Waves",
+    "leph109": "Chapter 9 · Ray Optics and Optical Instruments",
 }
 
 # Pages that exist only as published artifacts; kept in the repo as Markdown

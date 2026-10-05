@@ -70,5 +70,14 @@
     "fidelity": "condensed_summary",
     "section_count": 4,
     "lexicon_size": 14
+  },
+  {
+    "chapter_id": "leph109",
+    "chapter_number": 9,
+    "title": "Ray Optics and Optical Instruments",
+    "lecture_folder": "Ch 9Ray optics",
+    "fidelity": "full_raw_extract",
+    "section_count": 8,
+    "lexicon_size": 20
   }
 ]

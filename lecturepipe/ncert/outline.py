@@ -41,6 +41,10 @@ CHAPTER_META = {
     "leph106": {"num": 6, "title": "Electromagnetic Induction", "fidelity": "condensed_summary"},
     "leph107": {"num": 7, "title": "Alternating Current", "fidelity": "condensed_summary"},
     "leph108": {"num": 8, "title": "Electromagnetic Waves", "fidelity": "condensed_summary"},
+    # Ray Optics is Chapter 9 but lives in Part II of the current NCERT book, published as
+    # leph201.pdf -- kept under leph109 here so chapter ids stay in teaching order.
+    "leph109": {"num": 9, "title": "Ray Optics and Optical Instruments",
+                "fidelity": "full_raw_extract", "part": "II", "ncert_file": "leph201.pdf"},
 }
 
 # Maps chapter id -> lecture folder name, established during Drive discovery.
@@ -53,6 +57,7 @@ CHAPTER_TO_LECTURE_FOLDER = {
     "leph106": "Ch6 EMI",
     "leph107": "Ch7AC",
     "leph108": "Ch8 EM Waves",
+    "leph109": "Ch 9Ray optics",
 }
 
 SECTION_RE = re.compile(
@@ -193,7 +198,7 @@ def parse_chapter(chapter_id: str) -> dict:
         "title": meta["title"],
         "fidelity": meta["fidelity"],
         "lecture_folder": CHAPTER_TO_LECTURE_FOLDER[chapter_id],
-        "source_note": "NCERT Class 12 Physics Part I, Reprint 2026-27 "
+        "source_note": f"NCERT Class 12 Physics Part {meta.get('part', 'I')}, Reprint 2026-27 "
                        "(RATIONALISED 2022-23) -- current CBSE syllabus. "
                        "Equations NOT reliable in this extraction; use board "
                        "frames as the equation source of truth.",
