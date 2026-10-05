@@ -1,0 +1,124 @@
+{
+  "file_id": "1gP8opWoNuPg4MPCVBJ-8DCLguMLMSQJK",
+  "chapter_id": "leph109",
+  "title": "Prism, Dispersion, Rainbow and Scattering",
+  "duration_seconds": 2632.8,
+  "claims": [
+    {
+      "text": "A prism is a homogeneous transparent medium enclosed by two plane refracting surfaces; dispersion is the splitting of white light into its colours, violet deviated most",
+      "transcript_span": [
+        3,
+        240
+      ],
+      "frame_path": "data/lectures/leph109/1gP8opWoNuPg4MPCVBJ-8DCLguMLMSQJK/frames/floor_000017.jpg",
+      "ncert_section": "9.6",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Dispersion occurs because the refractive index depends on colour; by Cauchy's formula n falls with wavelength so n_V > n_R",
+      "transcript_span": [
+        240,
+        385
+      ],
+      "frame_path": "data/lectures/leph109/1gP8opWoNuPg4MPCVBJ-8DCLguMLMSQJK/frames/floor_000020.jpg",
+      "ncert_section": null,
+      "ncert_agreement": null
+    },
+    {
+      "text": "Rainbow: water droplets act as prisms, observer's back to the Sun; primary bow 40-42 deg with one internal reflection, secondary 50-53 deg with two and reversed colours",
+      "transcript_span": [
+        390,
+        711
+      ],
+      "frame_path": "data/lectures/leph109/1gP8opWoNuPg4MPCVBJ-8DCLguMLMSQJK/frames/floor_000036.jpg",
+      "ncert_section": null,
+      "ncert_agreement": null
+    },
+    {
+      "text": "For a prism r1 + r2 = A and the deviation is delta = i + e - A",
+      "transcript_span": [
+        712,
+        1147
+      ],
+      "frame_path": "data/lectures/leph109/1gP8opWoNuPg4MPCVBJ-8DCLguMLMSQJK/frames/floor_000059.jpg",
+      "ncert_section": "9.6",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "At minimum deviation i = e, the ray inside travels parallel to the base and r = A/2 (the board's boxed 'A = r/2' is a slip)",
+      "transcript_span": [
+        1147,
+        1389
+      ],
+      "frame_path": "data/lectures/leph109/1gP8opWoNuPg4MPCVBJ-8DCLguMLMSQJK/frames/floor_000073.jpg",
+      "ncert_section": "9.6",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Prism formula n21 = sin((A + delta_m)/2) / sin(A/2)",
+      "transcript_span": [
+        1390,
+        1499
+      ],
+      "frame_path": "data/lectures/leph109/1gP8opWoNuPg4MPCVBJ-8DCLguMLMSQJK/frames/floor_000073.jpg",
+      "ncert_section": "9.6",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "For a thin prism (A < 10 deg) the deviation is (n - 1)A, independent of the angle of incidence",
+      "transcript_span": [
+        1531,
+        1768
+      ],
+      "frame_path": "data/lectures/leph109/1gP8opWoNuPg4MPCVBJ-8DCLguMLMSQJK/frames/floor_000086.jpg",
+      "ncert_section": "9.6",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Angular dispersion = delta_V - delta_R = (n_V - n_R)A; dispersive power = (n_V - n_R)/(n_Y - 1), independent of A; flint glass has a higher dispersive power than crown",
+      "transcript_span": [
+        1768,
+        2245
+      ],
+      "frame_path": "data/lectures/leph109/1gP8opWoNuPg4MPCVBJ-8DCLguMLMSQJK/frames/floor_000114.jpg",
+      "ncert_section": null,
+      "ncert_agreement": null
+    },
+    {
+      "text": "Rayleigh scattering I proportional to 1/lambda^4 makes the sky blue; with no atmosphere the sky would look black; large cloud droplets scatter all colours equally so clouds look white",
+      "transcript_span": [
+        2252,
+        2501
+      ],
+      "frame_path": "data/lectures/leph109/1gP8opWoNuPg4MPCVBJ-8DCLguMLMSQJK/frames/floor_000125.jpg",
+      "ncert_section": null,
+      "ncert_agreement": null
+    },
+    {
+      "text": "The Sun looks red at sunrise and sunset because its light crosses a longer path of atmosphere and the blue and violet are scattered away",
+      "transcript_span": [
+        2501,
+        2632
+      ],
+      "frame_path": "data/lectures/leph109/1gP8opWoNuPg4MPCVBJ-8DCLguMLMSQJK/frames/floor_000132.jpg",
+      "ncert_section": null,
+      "ncert_agreement": null
+    }
+  ],
+  "uncertain_spans": [],
+  "ncert_sections_covered": [
+    "9.6"
+  ],
+  "frame_paths": [
+    "data/lectures/leph109/1gP8opWoNuPg4MPCVBJ-8DCLguMLMSQJK/frames/floor_000017.jpg",
+    "data/lectures/leph109/1gP8opWoNuPg4MPCVBJ-8DCLguMLMSQJK/frames/floor_000036.jpg",
+    "data/lectures/leph109/1gP8opWoNuPg4MPCVBJ-8DCLguMLMSQJK/frames/floor_000059.jpg",
+    "data/lectures/leph109/1gP8opWoNuPg4MPCVBJ-8DCLguMLMSQJK/frames/floor_000073.jpg",
+    "data/lectures/leph109/1gP8opWoNuPg4MPCVBJ-8DCLguMLMSQJK/frames/floor_000086.jpg",
+    "data/lectures/leph109/1gP8opWoNuPg4MPCVBJ-8DCLguMLMSQJK/frames/floor_000100.jpg",
+    "data/lectures/leph109/1gP8opWoNuPg4MPCVBJ-8DCLguMLMSQJK/frames/floor_000114.jpg",
+    "data/lectures/leph109/1gP8opWoNuPg4MPCVBJ-8DCLguMLMSQJK/frames/floor_000125.jpg",
+    "data/lectures/leph109/1gP8opWoNuPg4MPCVBJ-8DCLguMLMSQJK/frames/floor_000132.jpg"
+  ],
+  "markdown_body": "\n## Prism and dispersion\n\n**Prism (board).** A homogeneous transparent medium, such as glass, enclosed by two plane refracting surfaces is called a prism. A glass prism has **3 rectangular faces and 2 triangular faces**.\n\n**Dispersion (board).** The splitting of white light into its constituent colours when it passes through a prism. The colours spread out as **VIBGYOR**, with **violet deviated the most and red the least**: $\\delta_V > \\delta_R$.\n\n**Why does dispersion happen?** The refractive index of a medium is **different for different colours**. \"$n_g = 1.5$\" is only a typical value. Cauchy's formula gives\n\n$$n = A + \\frac{B}{\\lambda^2} + \\frac{C}{\\lambda^4} + \\dots \\qquad (A, B, C \\text{ constants})$$\n\nso $n$ decreases as wavelength increases (the lecture writes this loosely as $n \\propto 1/\\lambda$). Since $\\lambda_R > \\lambda_V$, we get $n_V > n_R$, and violet bends more. *(Current NCERT mentions dispersion only in the chapter summary. Cauchy's formula is an extra.)*\n\n## Rainbow (not in the current NCERT text)\n\nA rainbow is natural dispersion.\n\n**Conditions:**\n- tiny water droplets must be suspended in the air, after rain or near a garden fountain; the droplets act as prisms;\n- **the observer's back must face the Sun**.\n\n**Primary rainbow.**\n- Sunlight is refracted on entering a drop, **reflected once** inside it, and refracted again on leaving.\n- Violet reaches the eye at about **40°** to the anti-solar direction and red at about **42°**, so the band is about 2° wide.\n- The colours are in the usual order, **red on the outside and violet on the inside**.\n\n**Secondary rainbow.**\n- The light enters the lower part of the drop and is **reflected twice** inside it.\n- The angles are about **50°–53°**, a band of about 3°, seen **above** the primary.\n- Its **colours are reversed**: violet is on the outside.\n\n*(The lecture calls the reflections inside the drop \"total internal reflection\". For the rays that form the bow, the angle inside the drop, about 40°, is below water's critical angle of about 49°. So the reflection is really ordinary partial reflection, which is also why rainbows are faint.)*\n\nUsually we see only an **arc**, because the ground cuts off the rest of the circle. From an aircraft, a **full circular rainbow** can be seen.\n\n## Refraction through a prism (NCERT 9.6)\n\n**Setup.**\n- A ray strikes the first face at angle of incidence $i$ and is refracted at $r_1$.\n- It meets the second face at $r_2$ and emerges at angle of emergence $e$.\n- The deviation at the first face is $\\delta_1 = i - r_1$, and at the second face $\\delta_2 = e - r_2$.\n- The total deviation $\\delta$ is the exterior angle of the triangle formed by the incident ray produced and the emergent ray produced back, so\n$$\\delta = \\delta_1 + \\delta_2 = (i - r_1) + (e - r_2) = i + e - (r_1 + r_2)$$\n\n**Angle of prism A:** the angle between the two refracting (rectangular) faces.\n\n**Showing $r_1 + r_2 = A$.** Let N be the point where the two normals meet inside the prism.\n- In the quadrilateral formed by the apex, the two points of incidence and N, the angles at the two points of incidence are 90° (each normal is perpendicular to its face). The angles sum to 360°, so\n$$90° + A + 90° + \\angle N = 360° \\;\\Rightarrow\\; A + \\angle N = 180°$$\n- In the triangle formed by the two points of incidence and N, $r_1 + r_2 + \\angle N = 180°$.\n- Comparing the two:\n$$\\boxed{r_1 + r_2 = A}$$\n\nSubstituting into the deviation:\n$$\\boxed{\\delta = i + e - A} \\qquad\\text{or}\\qquad \\delta + A = i + e$$\n\n## Angle of minimum deviation\n\nMeasure $\\delta$ for $i = 30°, 35°, 40°, \\dots$ and plot $\\delta$ against $i$. The deviation **falls, reaches a minimum $\\delta_m$, then rises**.\n\n**At $\\delta = \\delta_m$:**\n1. $i = e$;\n2. the ray inside the prism travels **parallel to the base**;\n3. $r_1 = r_2 = r$, and since $r_1 + r_2 = A$, $2r = A$, so $r = A/2$.\n\n*Board slip: the board boxes this as \"$A = r/2$\". The correct relation is $r = A/2$, and the teacher corrects herself a minute later when using it.*\n\n**Prism formula.**\n- From $i + e = A + \\delta_m$ with $i = e$: $\\quad i = \\dfrac{A + \\delta_m}{2}$.\n- Snell's law at the first face, $n_1 \\sin i = n_2 \\sin r$, then gives\n\n$$\\boxed{n_{21} = \\frac{n_2}{n_1} = \\frac{\\sin\\left(\\dfrac{A + \\delta_m}{2}\\right)}{\\sin\\left(\\dfrac{A}{2}\\right)}}$$\n\nThe 2s in the numerator and denominator **cannot be cancelled**, because each sits inside a sine.\n\n## Deviation by a thin prism (NCERT 9.6)\n\nA prism with **$A < 10°$** is a **thin prism**, and all its angles are small, so $\\sin\\theta \\approx \\theta$.\n\n**Snell's law at the two faces:** $n_1 i = n_2 r_1$ and $n_2 r_2 = n_1 e$. So, with $n = n_2/n_1$,\n$$i = n r_1, \\qquad e = n r_2$$\n\n**Deviation:**\n$$\\delta = i + e - A = n(r_1 + r_2) - A = nA - A \\;\\Rightarrow\\; \\boxed{\\delta = (n - 1)A}$$\n\nFor a thin prism the deviation depends only on $A$ and $n$. It is **independent of the angle of incidence**, whereas for a general prism $\\delta$ depends on $i$ and $e$.\n\n## Angular dispersion and dispersive power (not in the current NCERT text)\n\n**Angular dispersion.** The angle between the emergent rays of two colours (violet and red):\n$$\\theta = \\delta_V - \\delta_R$$\nFor a thin prism:\n$$\\theta = (n_V - 1)A - (n_R - 1)A = (n_V - n_R)A$$\nIt depends on the angle of the prism.\n\n**Dispersive power ($\\omega$).** The ratio of the angular dispersion to the **mean deviation**, taken as the deviation of yellow light:\n$$\\omega = \\frac{\\delta_V - \\delta_R}{\\delta_Y} = \\frac{(n_V - n_R)A}{(n_Y - 1)A} = \\frac{n_V - n_R}{n_Y - 1}$$\n\n- $\\omega$ is **independent of the angle of prism** and depends only on the material.\n- A prism that spreads white light over a wider fan has the greater dispersive power.\n- $n_\\text{flint} > n_\\text{crown}$, and $\\omega_\\text{flint} > \\omega_\\text{crown}$.\n- If a numerical does not give $n_Y$, take $n_Y = \\dfrac{n_V + n_R}{2}$.\n\n## Scattering of light (not in the current NCERT text)\n\n**What scattering is.** Air molecules, dust and smoke particles in the atmosphere deflect light from its path. This happens through the interaction of the light wave's electric field with the particle. The deflected light is **scattered light**.\n\n**Rayleigh scattering.** For particles **smaller than (or about equal to) the wavelength**, the scattered intensity is\n$$I \\propto \\frac{1}{\\lambda^4}$$\nSo fine particles scatter violet and blue far more strongly than red.\n\n**Blue sky.** Blue and violet are scattered strongly all over the sky. Violet is partly lost on the way by further scattering, so the scattered skylight reaching us is rich in **blue**.\n- **With no atmosphere, the sky would look black** even in daytime, because there would be nothing to scatter the light.\n\n**White clouds.** Cloud droplets are **much larger than the wavelength**. Then all colours are scattered about equally, and the clouds look **white**.\n\n**Red Sun at sunrise and sunset (board).** At sunrise and sunset, sunlight travels a **longer path** through the atmosphere before it reaches the observer's eye directly. Violet and blue are strongly scattered out on the way, so the light reaching the observer is deprived of violet and blue and mostly red reaches the eye. Thus the Sun at sunrise and sunset appears **red**.\n\n---\n*Note on this lecture's transcript:* `gemini-3.5-flash` was in a 503 outage and then out of daily quota when this chapter was processed, so the audio was transcribed by `gemini-3.5-flash-lite` in overlapping five-minute windows, joined where the overlapping speech matches word for word. Lite's clock ran fast (by up to 2x) inside a window; each window was rescaled to its true length, so times quoted here are approximate (roughly ±30 s). Every gap of more than 30 s was re-transcribed on its own to confirm whether speech was missing. The opening minutes came back looped from the first five-minute window, so 0–4 min was re-transcribed in one-minute clips, and a left-over copy of that loop was removed during verification. Two short stretches (about 19:52–20:34 and 39:29–40:00) were spliced in from separate transcriptions; their duplicated sentences were removed. Equations are taken from the board frames, not from the transcript.\n"
+}
