@@ -82,7 +82,7 @@ rather than restarting.
 
 `data/ncert/raw/` and `data/ncert/processed/` hold the extracted text and
 parsed outline (section tree, lexicon, named scientists, Summary, Exercises)
-for all 8 chapters — fetched once via the Drive connector's
+for all 9 chapters — fetched once via the Drive connector's
 `read_file_content` on each chapter PDF, committed so they never need
 re-fetching. Regenerate the parsed outline from raw text with:
 
@@ -111,7 +111,7 @@ lecturepipe/
   notes.py, crosscheck.py  grounded notes schema, NCERT coverage-gap analysis
 cli.py                     mechanical pipeline stages (see Usage above)
 data/ncert/                committed: NCERT raw text + parsed outlines
-data/lecture_manifest.json committed: all 59 lecture files (id/title/size)
+data/lecture_manifest.json committed: all 77 lecture files (id/title/size)
 data/lectures/, data/cache/  gitignored: video/audio/frames/ASR cache
 notes/                      committed: per-lecture .md + notes.json (once synthesized)
 tests/                      unit tests for the credential-free logic

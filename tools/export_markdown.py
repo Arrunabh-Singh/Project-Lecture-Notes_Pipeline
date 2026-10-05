@@ -465,39 +465,54 @@ MANIFEST = """## Manifest
 | Chemistry chapters 1–6 | lecture transcripts + NCERT `lech101–105`, `lech201` | full chapter notes, exam-shaped, with past-year question sections | Ch4–6 carry `[exposure]` first-contact definitions; Ch1–3 assume the theory |
 | Every Chemistry Formula | built across all six chapters | 50 entries, each with symbols, units, a recognition cue and its trap | 40 marked ● must-be-instant, 10 marked ○ |
 | Chemistry, Derived | as above | 12 derivations, each ending in a formula that is on the formula sheet | figures are prose descriptions here |
-| Every Physics Formula | the 57 chapter notes + NCERT `leph101–108` | 100 entries across chapters 1–9 | 78 marked ● must-be-instant, 22 marked ○; Ch9 rows come from the Ray Optics page, not from lectures |
+| Every Physics Formula | the 57 chapter notes + NCERT `leph101–108` | 100 entries across chapters 1–9 | 78 marked ● must-be-instant, 22 marked ○; Ch9 rows were written from the Ray Optics page before the Ch9 lectures were transcribed, and are not yet re-checked against them |
 | Physics, Derived | as above | 45 derivations, chapters 1–9, numbered PD1–PD45 | figures are prose descriptions here |
-| Physics chapter notes 1–8 | 57 transcribed and verified lectures | the source of truth for every physics equation in this file | included verbatim; equations are board-grounded. **There is no Chapter 9 here** — those eighteen lectures have never been transcribed |
-| Ray Optics to 9.4 | published page, no lecture source | Chapter 9 theory, four derivations, formula strip and question tiers | built for a test whose scope stopped at 9.4, so it skips lenses, prisms and instruments — those are in Physics, Derived instead |
+| Physics chapter notes 1–9 | 75 transcribed and verified lectures (57 for Ch1–8, 18 for Ch9) | the source of truth for every physics equation in this file | included verbatim; equations are board-grounded. Ch9 was transcribed by a lighter model, so its lecture times are approximate (±30 s) — see the appendix |
+| Ray Optics to 9.4 | published page, written from NCERT before the Ch9 lectures were transcribed | Chapter 9 theory, four derivations, formula strip and question tiers | built for a test whose scope stopped at 9.4, so it skips lenses, prisms and instruments — those are in Physics, Derived instead |
 | Alternating Current in Eight Derivations | published page | Chapter 7 in its own exam-shaped framing | eight derivations against the five (PD33–PD37) in Physics, Derived |
 | Electromagnetic Waves for Six Marks | published page | Chapter 8, same shape | its five derivations include four that Physics, Derived does not carry — that book has one for Chapter 8 |
 
 **Not included, and why.** Eight published physics chapter pages (one per
 chapter, Ch1–8) exist as well. Their prose is a rendering of the same 57
-chapter notes reproduced in full below, and their remaining bulk is embedded
+Ch1–8 chapter notes reproduced in full below (Chapter 9 has no such page yet), and their remaining bulk is embedded
 board-frame photographs that cannot survive a Markdown export. Including them
 would duplicate the largest block in this file for no added content.
 """
 
 APPENDIX = """## Appendix — gaps, caveats and open questions
 
-### Chapter 9 physics was never transcribed
+### Chapter 9: lectures transcribed after its sheets were written
 
-Chapter 9 *is* covered here — seven derivations (PD39–PD45, including lenses,
-the prism and both instruments) in **Physics, Derived**, twelve entries in
-**Every Physics Formula**, and the whole **Ray Optics to 9.4** page. But all of
-it was written from NCERT and from that earlier page, never from the teacher's
-own lectures, so it carries the physics without the emphasis. There is no
-`notes/leph109` to check it against.
+The eighteen Ray Optics lectures are now transcribed and written up in
+`notes/leph109` (the **Chapter 9** lecture notes below). The Chapter 9 parts
+of **Physics, Derived** (PD39–PD45), the twelve Chapter 9 entries in **Every
+Physics Formula**, and the **Ray Optics to 9.4** page all predate them. They
+were written from NCERT and have not yet been re-checked against the lectures.
 
-Eighteen Ray Optics lecture videos (1.2 GB) sit in Google Drive folder
-`1QC3JCSOfLxDxxZfW6rVxAIDAZs4Bkt0v`, and have never been transcribed. The
-blocker is Google **Drive** OAuth, not the Gemini ASR key — that one is
-configured and working. `DRIVE_CLIENT_ID`, `DRIVE_CLIENT_SECRET` and
-`DRIVE_REFRESH_TOKEN` are all empty in `.env`; the access token in there
-expired on 3 September. The folder is owned by the teacher rather than the
-student, its anonymous download endpoint redirects to a login page, and the
-MCP Drive connector caps downloads at 10 MB against files of 17–170 MB.
+How the Chapter 9 transcripts differ from Chapters 1–8:
+
+- `gemini-3.5-flash` was in an outage and then out of daily quota, so the
+  audio was transcribed by `gemini-3.5-flash-lite` in overlapping five-minute
+  windows, joined where the overlapping speech matches word for word.
+- Lite's clock ran up to 2× fast inside a window. Each window was rescaled to
+  its true length, so lecture times quoted in these notes are approximate
+  (about ±30 s).
+- Every gap longer than 30 s was re-transcribed on its own. Most were clock
+  artifacts with the speech already present. Where speech really was missing,
+  it was spliced in, and each note says where.
+- Every transcript was then read end to end.
+- Lecture 12's first window came back looped. Its opening four minutes were
+  re-transcribed in one-minute clips, and the left-over loop was removed.
+- Note 14 is the teacher's unnumbered 70-minute recap video. It is the
+  continuous recording behind lectures 10 and 13, so only its last seven
+  minutes (the world as seen by a fish) are new.
+
+Board slips are recorded next to the corrected working in the notes:
+
+- Lecture 6: the speed of light in water is 2.25 × 10⁸ m/s.
+- Lecture 8: three lenses in contact give f = −5 cm and P = −20 D,
+  not −10 cm and −10 D.
+- Lecture 12: at minimum deviation r = A/2, not "A = r/2".
 
 ### A symbol clash still in the source
 

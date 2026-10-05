@@ -22,12 +22,13 @@ the file reads correctly for a person and for a machine.
 | Electromagnetic Induction | 14 | [`physics/06-electromagnetic-induction.pdf`](physics/06-electromagnetic-induction.pdf) |
 | Alternating Current | 10 | [`physics/07-alternating-current.pdf`](physics/07-alternating-current.pdf) |
 | Electromagnetic Waves | 9 | [`physics/08-electromagnetic-waves.pdf`](physics/08-electromagnetic-waves.pdf) |
+| Ray Optics and Optical Instruments | 42 | [`physics/09-ray-optics-and-optical-instruments.pdf`](physics/09-ray-optics-and-optical-instruments.pdf) |
 | Every Physics Formula | 48 | [`physics/every-physics-formula.pdf`](physics/every-physics-formula.pdf) |
 | Physics, Derived | 34 | [`physics/physics-derived.pdf`](physics/physics-derived.pdf) |
 | Ray Optics to 9.4 | 9 | [`physics/ray-optics-to-9-4.pdf`](physics/ray-optics-to-9-4.pdf) |
 | Alternating Current in Eight Derivations | 12 | [`physics/alternating-current-in-eight-derivations.pdf`](physics/alternating-current-in-eight-derivations.pdf) |
 | Electromagnetic Waves for Six Marks | 10 | [`physics/electromagnetic-waves-for-six-marks.pdf`](physics/electromagnetic-waves-for-six-marks.pdf) |
-| Physics — Everything | 208 | [`physics/00-all-physics.pdf`](physics/00-all-physics.pdf) |
+| Physics — Everything | 248 | [`physics/00-all-physics.pdf`](physics/00-all-physics.pdf) |
 
 ## Chemistry
 
@@ -43,4 +44,4 @@ the file reads correctly for a person and for a machine.
 | Chemistry, Derived | 10 | [`chemistry/chemistry-derived.pdf`](chemistry/chemistry-derived.pdf) |
 | Chemistry — Everything | 116 | [`chemistry/00-all-chemistry.pdf`](chemistry/00-all-chemistry.pdf) |
 
-**23 PDFs, 659 pages.**
+**24 PDFs, 741 pages.**

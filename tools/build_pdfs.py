@@ -242,7 +242,7 @@ def collect() -> list[dict]:
 
     for fname, title, sub in [
         ("ray-optics-to-9-4.md", "Ray Optics to 9.4",
-         "Chapter 9 · written from NCERT; these lectures were never transcribed"),
+         "Chapter 9 · written from NCERT before the lectures were transcribed"),
         ("alternating-current-in-eight-derivations.md", "Alternating Current in Eight Derivations",
          "Chapter 7 · theory, eight derivations, formula strip, question tiers"),
         ("electromagnetic-waves-for-six-marks.md", "Electromagnetic Waves for Six Marks",

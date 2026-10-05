@@ -110,6 +110,27 @@ appear as **Figure.** followed by their full prose description.
 - [03-sources-properties-equation-of-em-waves.md](physics/chapter-notes/leph108/03-sources-properties-equation-of-em-waves.md)
 - [04-electromagnetic-spectrum-production-and-uses.md](physics/chapter-notes/leph108/04-electromagnetic-spectrum-production-and-uses.md)
 
+### `physics/chapter-notes/leph109/`
+
+- [01-light-ray-optics-and-plane-mirror.md](physics/chapter-notes/leph109/01-light-ray-optics-and-plane-mirror.md)
+- [02-spherical-mirrors-terms-and-focus.md](physics/chapter-notes/leph109/02-spherical-mirrors-terms-and-focus.md)
+- [03-important-rays-for-mirror-ray-diagrams.md](physics/chapter-notes/leph109/03-important-rays-for-mirror-ray-diagrams.md)
+- [04-images-formed-by-concave-mirror.md](physics/chapter-notes/leph109/04-images-formed-by-concave-mirror.md)
+- [05-convex-mirror-sign-convention-mirror-formula.md](physics/chapter-notes/leph109/05-convex-mirror-sign-convention-mirror-formula.md)
+- [06-refraction-refractive-index-glass-slab.md](physics/chapter-notes/leph109/06-refraction-refractive-index-glass-slab.md)
+- [07-lenses-types-and-terms.md](physics/chapter-notes/leph109/07-lenses-types-and-terms.md)
+- [08-lens-ray-diagrams-lens-formula-power.md](physics/chapter-notes/leph109/08-lens-ray-diagrams-lens-formula-power.md)
+- [09-derivations-mirror-and-lens-formulae.md](physics/chapter-notes/leph109/09-derivations-mirror-and-lens-formulae.md)
+- [10-lateral-displacement-apparent-depth-atmospheric-refraction.md](physics/chapter-notes/leph109/10-lateral-displacement-apparent-depth-atmospheric-refraction.md)
+- [11-spherical-surfaces-lens-maker-formula.md](physics/chapter-notes/leph109/11-spherical-surfaces-lens-maker-formula.md)
+- [12-prism-dispersion-rainbow-scattering.md](physics/chapter-notes/leph109/12-prism-dispersion-rainbow-scattering.md)
+- [13-total-internal-reflection.md](physics/chapter-notes/leph109/13-total-internal-reflection.md)
+- [14-recap-refraction-tir-world-seen-by-a-fish.md](physics/chapter-notes/leph109/14-recap-refraction-tir-world-seen-by-a-fish.md)
+- [15-simple-microscope-magnifying-power.md](physics/chapter-notes/leph109/15-simple-microscope-magnifying-power.md)
+- [16-compound-microscope-magnifying-power.md](physics/chapter-notes/leph109/16-compound-microscope-magnifying-power.md)
+- [17-refracting-telescope-magnifying-power.md](physics/chapter-notes/leph109/17-refracting-telescope-magnifying-power.md)
+- [18-reflecting-telescope-cassegrain.md](physics/chapter-notes/leph109/18-reflecting-telescope-cassegrain.md)
+
 ### `physics/chapters/`
 
 - [01-electric-charges-and-fields.md](physics/chapters/01-electric-charges-and-fields.md)
@@ -120,6 +141,7 @@ appear as **Figure.** followed by their full prose description.
 - [06-electromagnetic-induction.md](physics/chapters/06-electromagnetic-induction.md)
 - [07-alternating-current.md](physics/chapters/07-alternating-current.md)
 - [08-electromagnetic-waves.md](physics/chapters/08-electromagnetic-waves.md)
+- [09-ray-optics-and-optical-instruments.md](physics/chapters/09-ray-optics-and-optical-instruments.md)
 
 ### `physics/pages/`
 
