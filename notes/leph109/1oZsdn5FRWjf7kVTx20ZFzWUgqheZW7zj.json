@@ -1,0 +1,72 @@
+{
+  "file_id": "1oZsdn5FRWjf7kVTx20ZFzWUgqheZW7zj",
+  "chapter_id": "leph109",
+  "title": "Important Rays for Drawing Mirror Ray Diagrams",
+  "duration_seconds": 736.6,
+  "claims": [
+    {
+      "text": "Any two of the special rays are enough to locate an image point as the intersection of reflected rays",
+      "transcript_span": [
+        21,
+        63
+      ],
+      "frame_path": "data/lectures/leph109/1oZsdn5FRWjf7kVTx20ZFzWUgqheZW7zj/frames/floor_000009.jpg",
+      "ncert_section": "9.2.2",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "A ray parallel to the principal axis passes through F after reflection (concave) or appears to diverge from F (convex); concave is converging, convex is diverging",
+      "transcript_span": [
+        52,
+        254
+      ],
+      "frame_path": "data/lectures/leph109/1oZsdn5FRWjf7kVTx20ZFzWUgqheZW7zj/frames/floor_000016.jpg",
+      "ncert_section": "9.2.2",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "A ray through F (or directed towards F for a convex mirror) becomes parallel to the principal axis after reflection",
+      "transcript_span": [
+        254,
+        380
+      ],
+      "frame_path": "data/lectures/leph109/1oZsdn5FRWjf7kVTx20ZFzWUgqheZW7zj/frames/floor_000020.jpg",
+      "ncert_section": "9.2.2",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "A ray through (or directed towards) C meets the mirror along the normal and retraces its path; i = r = 0",
+      "transcript_span": [
+        411,
+        553
+      ],
+      "frame_path": "data/lectures/leph109/1oZsdn5FRWjf7kVTx20ZFzWUgqheZW7zj/frames/floor_000029.jpg",
+      "ncert_section": "9.2",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "A ray incident obliquely at the pole reflects obliquely with angle i = angle r about the principal axis",
+      "transcript_span": [
+        553,
+        676
+      ],
+      "frame_path": "data/lectures/leph109/1oZsdn5FRWjf7kVTx20ZFzWUgqheZW7zj/frames/floor_000037.jpg",
+      "ncert_section": "9.2",
+      "ncert_agreement": "agrees"
+    }
+  ],
+  "uncertain_spans": [],
+  "ncert_sections_covered": [
+    "9.2",
+    "9.2.2"
+  ],
+  "frame_paths": [
+    "data/lectures/leph109/1oZsdn5FRWjf7kVTx20ZFzWUgqheZW7zj/frames/floor_000009.jpg",
+    "data/lectures/leph109/1oZsdn5FRWjf7kVTx20ZFzWUgqheZW7zj/frames/floor_000016.jpg",
+    "data/lectures/leph109/1oZsdn5FRWjf7kVTx20ZFzWUgqheZW7zj/frames/floor_000020.jpg",
+    "data/lectures/leph109/1oZsdn5FRWjf7kVTx20ZFzWUgqheZW7zj/frames/floor_000029.jpg",
+    "data/lectures/leph109/1oZsdn5FRWjf7kVTx20ZFzWUgqheZW7zj/frames/floor_000034.jpg",
+    "data/lectures/leph109/1oZsdn5FRWjf7kVTx20ZFzWUgqheZW7zj/frames/floor_000037.jpg"
+  ],
+  "markdown_body": "\n## Why special rays?\n\nFrom a point **B** of an object, countless rays strike the mirror. For any one of them you *could* draw the normal through C and apply $\\angle i = \\angle r$. To avoid that work every time, four rays whose reflected path is already known are used. **Any two** of them fix the image: the image of a point is where two reflected rays intersect, or where they *appear* to intersect when produced backwards.\n\n## The four important rays (NCERT 9.2.2)\n\n**1. A ray parallel to the principal axis passes through the focus after reflection.**\n- Concave mirror: the reflected ray actually passes through F.\n- Convex mirror: the reflected ray **appears to diverge from F** behind the mirror (draw the backward extension dashed).\n\nThis is why a concave mirror is **converging** in nature (a parallel beam meets at F) and a convex mirror is **diverging** in nature (a parallel beam spreads as if from F).\n\n**2. A ray passing through the focus becomes parallel to the principal axis after reflection.**\n- Concave mirror: a ray through F reflects parallel.\n- Convex mirror: a ray **directed towards F** (behind the mirror) reflects parallel to the axis.\n\n**3. A ray passing through the centre of curvature retraces its path after reflection.**\nCompare a plane mirror hit at normal incidence: $\\angle i = 0$ and so $\\angle r = 0$, and the ray comes straight back. A ray through C travels along a radius, so it meets the mirror *along the normal* and returns the same way. For a convex mirror, the ray **directed towards C** retraces its path.\n*Quiz form:* if a figure shows a ray striking a mirror and retracing its path, the point it was aimed at is **C** (not F or P).\n\n**4. A ray incident obliquely at the pole P is reflected obliquely with $\\angle i = \\angle r$.**\nAt P the principal axis is itself the normal (it passes through C), so the reflected ray makes the same angle with the axis on the other side. This is true for both concave and convex mirrors.\n\n---\n*Note on this lecture's transcript:* `gemini-3.5-flash` was in a 503 outage and then out of daily quota when this chapter was processed, so the audio was transcribed by `gemini-3.5-flash-lite` in overlapping five-minute windows, joined where the overlapping speech matches word for word. Lite's clock ran fast (by up to 2x) inside a window; each window was rescaled to its true length, so times quoted here are approximate (roughly ±30 s). Every gap of more than 30 s was re-transcribed on its own to confirm whether speech was missing. Equations are taken from the board frames, not from the transcript.\n"
+}

@@ -1,0 +1,144 @@
+{
+  "file_id": "1qFqlQ8f9CRg7-f0UQ4jUvAa9Y5Dy2frp",
+  "chapter_id": "leph109",
+  "title": "Spherical Mirrors: Pole, Centre of Curvature, Principal Axis, Focus",
+  "duration_seconds": 2212.2,
+  "claims": [
+    {
+      "text": "Concave mirror: reflecting surface curved inwards; convex mirror: reflecting surface curved outwards (steel-spoon example)",
+      "transcript_span": [
+        12,
+        196
+      ],
+      "frame_path": "data/lectures/leph109/1qFqlQ8f9CRg7-f0UQ4jUvAa9Y5Dy2frp/frames/floor_000008.jpg",
+      "ncert_section": "9.2",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Pole: centre of the reflecting surface of a spherical mirror",
+      "transcript_span": [
+        261,
+        354
+      ],
+      "frame_path": "data/lectures/leph109/1qFqlQ8f9CRg7-f0UQ4jUvAa9Y5Dy2frp/frames/floor_000017.jpg",
+      "ncert_section": "9.2",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Centre of curvature: centre of the sphere of which the mirror is a part; it does not lie on the mirror",
+      "transcript_span": [
+        354,
+        611
+      ],
+      "frame_path": "data/lectures/leph109/1qFqlQ8f9CRg7-f0UQ4jUvAa9Y5Dy2frp/frames/floor_000032.jpg",
+      "ncert_section": "9.2",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Radius of curvature is the radius of that sphere; C is a point, R is a length in metres",
+      "transcript_span": [
+        611,
+        743
+      ],
+      "frame_path": "data/lectures/leph109/1qFqlQ8f9CRg7-f0UQ4jUvAa9Y5Dy2frp/frames/floor_000041.jpg",
+      "ncert_section": "9.2",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Principal axis: the line through C and P; it is normal to the mirror at P",
+      "transcript_span": [
+        743,
+        932
+      ],
+      "frame_path": "data/lectures/leph109/1qFqlQ8f9CRg7-f0UQ4jUvAa9Y5Dy2frp/frames/floor_000050.jpg",
+      "ncert_section": "9.2",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "The normal at any point of a spherical surface passes through the centre of curvature; laws of reflection then fix the reflected ray",
+      "transcript_span": [
+        1224,
+        1511
+      ],
+      "frame_path": "data/lectures/leph109/1qFqlQ8f9CRg7-f0UQ4jUvAa9Y5Dy2frp/frames/floor_000073.jpg",
+      "ncert_section": "9.2",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Parallel rays meet at the principal focus of a concave mirror after reflection (burning paper with sunlight)",
+      "transcript_span": [
+        932,
+        1202
+      ],
+      "frame_path": "data/lectures/leph109/1qFqlQ8f9CRg7-f0UQ4jUvAa9Y5Dy2frp/frames/floor_000064.jpg",
+      "ncert_section": "9.2.2",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "F is the midpoint of P and C (PF = FC), so f = R/2",
+      "transcript_span": [
+        1517,
+        1616
+      ],
+      "frame_path": "data/lectures/leph109/1qFqlQ8f9CRg7-f0UQ4jUvAa9Y5Dy2frp/frames/floor_000081.jpg",
+      "ncert_section": "9.2.2",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Convex mirror: parallel rays appear to diverge from F behind the mirror after reflection; focal length is PF",
+      "transcript_span": [
+        1635,
+        2093
+      ],
+      "frame_path": "data/lectures/leph109/1qFqlQ8f9CRg7-f0UQ4jUvAa9Y5Dy2frp/frames/floor_000106.jpg",
+      "ncert_section": "9.2.2",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Concave mirror with R = -20 cm has f = R/2 = -10 cm",
+      "transcript_span": [
+        2122,
+        2181
+      ],
+      "frame_path": "data/lectures/leph109/1qFqlQ8f9CRg7-f0UQ4jUvAa9Y5Dy2frp/frames/floor_000111.jpg",
+      "ncert_section": "9.2.2",
+      "ncert_agreement": "agrees"
+    }
+  ],
+  "uncertain_spans": [
+    {
+      "start_seconds": 846,
+      "end_seconds": 885,
+      "reason": "The teacher says 'convex lens' twice while drawing the convex-mirror version of the labelled figure. The board frame shows a convex mirror, and the note follows the board."
+    },
+    {
+      "start_seconds": 2191,
+      "end_seconds": 2212,
+      "reason": "The closing question (focal length and radius of curvature of a plane mirror) is left for the class to think about; the answer in the note (both infinite) is not from the lecture."
+    }
+  ],
+  "ncert_sections_covered": [
+    "9.2",
+    "9.2.2"
+  ],
+  "frame_paths": [
+    "data/lectures/leph109/1qFqlQ8f9CRg7-f0UQ4jUvAa9Y5Dy2frp/frames/floor_000005.jpg",
+    "data/lectures/leph109/1qFqlQ8f9CRg7-f0UQ4jUvAa9Y5Dy2frp/frames/floor_000008.jpg",
+    "data/lectures/leph109/1qFqlQ8f9CRg7-f0UQ4jUvAa9Y5Dy2frp/frames/floor_000017.jpg",
+    "data/lectures/leph109/1qFqlQ8f9CRg7-f0UQ4jUvAa9Y5Dy2frp/frames/floor_000027.jpg",
+    "data/lectures/leph109/1qFqlQ8f9CRg7-f0UQ4jUvAa9Y5Dy2frp/frames/floor_000032.jpg",
+    "data/lectures/leph109/1qFqlQ8f9CRg7-f0UQ4jUvAa9Y5Dy2frp/frames/floor_000041.jpg",
+    "data/lectures/leph109/1qFqlQ8f9CRg7-f0UQ4jUvAa9Y5Dy2frp/frames/floor_000043.jpg",
+    "data/lectures/leph109/1qFqlQ8f9CRg7-f0UQ4jUvAa9Y5Dy2frp/frames/floor_000050.jpg",
+    "data/lectures/leph109/1qFqlQ8f9CRg7-f0UQ4jUvAa9Y5Dy2frp/frames/floor_000057.jpg",
+    "data/lectures/leph109/1qFqlQ8f9CRg7-f0UQ4jUvAa9Y5Dy2frp/frames/floor_000064.jpg",
+    "data/lectures/leph109/1qFqlQ8f9CRg7-f0UQ4jUvAa9Y5Dy2frp/frames/floor_000073.jpg",
+    "data/lectures/leph109/1qFqlQ8f9CRg7-f0UQ4jUvAa9Y5Dy2frp/frames/floor_000080.jpg",
+    "data/lectures/leph109/1qFqlQ8f9CRg7-f0UQ4jUvAa9Y5Dy2frp/frames/floor_000081.jpg",
+    "data/lectures/leph109/1qFqlQ8f9CRg7-f0UQ4jUvAa9Y5Dy2frp/frames/floor_000092.jpg",
+    "data/lectures/leph109/1qFqlQ8f9CRg7-f0UQ4jUvAa9Y5Dy2frp/frames/floor_000098.jpg",
+    "data/lectures/leph109/1qFqlQ8f9CRg7-f0UQ4jUvAa9Y5Dy2frp/frames/floor_000106.jpg",
+    "data/lectures/leph109/1qFqlQ8f9CRg7-f0UQ4jUvAa9Y5Dy2frp/frames/floor_000111.jpg"
+  ],
+  "markdown_body": "\n## Spherical mirrors (NCERT 9.2)\n\nA steel spoon is the everyday model. Its inner, hollow side is **concave** and its outer, bulging side is **convex**. Mirrors that are a part of a sphere are **spherical mirrors**.\n\n- **Concave mirror** — a spherical mirror whose reflecting surface is **curved inwards** (the hollow side reflects; the outside is non-reflecting).\n- **Convex mirror** — a spherical mirror whose reflecting surface is **curved outwards** (the bulging side reflects).\n\nIn diagrams the slant hatching marks the non-reflecting back.\n\n## Terms for a spherical mirror (NCERT 9.2)\n\n1. **Pole (P)** — the centre of the reflecting surface of a spherical mirror.\n2. **Centre of curvature (C)** — the centre of the sphere of which the spherical mirror is a part. Cut a hollow ball and silver one piece on the inside: that piece is a concave mirror, and the ball's centre is its C. Unlike P, **C does not lie on the mirror**. For a concave mirror C is on the reflecting side; for a convex mirror it is behind, on the non-reflecting side.\n3. **Radius of curvature (R)** — the radius of the sphere of which the spherical mirror is a part. Here $PC = R$.\n   - C is a **point**; R is a **length** (SI unit: metre). \"Length of the centre of curvature\" is a meaningless question.\n4. **Principal axis** — the line passing through C and P. It is the normal to the mirror at its pole.\n\n## Normal to a spherical surface\n\nFor a plane surface the normal is simply the perpendicular. For a spherical surface, **the normal at any point is the line through that point which, produced back, passes through the centre of curvature C** — that is, the radius at that point. The laws of reflection ($\\angle i = \\angle r$, one plane) still hold at every point, measured from this normal.\n\nSo for a ray parallel to the principal axis, draw the normal through C. Then $\\angle i = \\angle r$ fixes where the reflected ray must go. On a concave mirror it bends **towards** the axis; it cannot go anywhere else.\n\n## Principal focus and focal length (NCERT 9.2.2)\n\n**Burning paper with a concave mirror:** point a concave mirror at the Sun and hold bits of paper in front of it. After a few minutes they catch fire. Rays from a very distant object (the Sun) arrive **parallel**, and the mirror concentrates them at one point.\n\n- **Principal focus of a concave mirror (F)** — when parallel rays are incident on a concave mirror, after reflection they **meet** at a point on the principal axis; this point is the principal focus.\n- **Principal focus of a convex mirror (F)** — when parallel rays fall on a convex mirror, after reflection they **appear to meet** (diverge from) a point behind the mirror; this point is the focus. The image idea here is *virtual*.\n- **Focal length (f)** — the distance between the pole and the focus, $PF = f$.\n\nThe focus is the **midpoint of P and C**, $PF = FC$, so\n\n$$f = \\frac{R}{2}$$\n\n(for a mirror of small aperture — proved in a later lecture).\n\n**Drawing tip for exams (convex mirror):** mark F first, behind the mirror, and then draw each reflected ray as a straight line from F through the point where the ray meets the mirror. If C would fall off the page, move it closer, but keep $PF = FC$.\n\n## Worked questions\n\n**Q.** The radius of curvature of a concave mirror is $-20$ cm. Find its focal length.\n\n$$f = \\frac{R}{2} = \\frac{-20}{2} = -10 \\text{ cm}$$\n\n(The minus sign comes from the sign convention, taught in a later lecture.)\n\n**Q.** What are the focal length and radius of curvature of a plane mirror? *(Left for the class to think about.)* A plane mirror is part of a sphere of **infinite** radius, so $R = \\infty$ and $f = R/2 = \\infty$.\n\n---\n*Note on this lecture's transcript:* `gemini-3.5-flash` was in a 503 outage and then out of daily quota when this chapter was processed, so the audio was transcribed by `gemini-3.5-flash-lite` in overlapping five-minute windows, joined where the overlapping speech matches word for word. Lite's clock ran fast (by up to 2x) inside a window; each window was rescaled to its true length, so times quoted here are approximate (roughly ±30 s). Every gap of more than 30 s was re-transcribed on its own to confirm whether speech was missing. Equations are taken from the board frames, not from the transcript.\n"
+}

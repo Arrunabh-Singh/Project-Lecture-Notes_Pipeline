@@ -1,0 +1,98 @@
+{
+  "file_id": "1XXKL71jrF-Jdm_Mi5XUA890tbQzsKoWr",
+  "chapter_id": "leph109",
+  "title": "Light, Ray Optics and the Plane Mirror",
+  "duration_seconds": 1341.6,
+  "claims": [
+    {
+      "text": "Light has a dual nature: wave nature (interference, diffraction; Huygens) and particle nature (photoelectric effect explained only by photons, bundles of energy; corpuscular idea from Newton)",
+      "transcript_span": [
+        43,
+        141
+      ],
+      "frame_path": "data/lectures/leph109/1XXKL71jrF-Jdm_Mi5XUA890tbQzsKoWr/frames/floor_000011.jpg",
+      "ncert_section": "9.1",
+      "ncert_agreement": "teacher_simplifies"
+    },
+    {
+      "text": "Board labels the particle-nature column '(Maxwell)'; the spoken attribution (Newton) is correct and Maxwell belongs to the electromagnetic wave theory",
+      "transcript_span": null,
+      "frame_path": "data/lectures/leph109/1XXKL71jrF-Jdm_Mi5XUA890tbQzsKoWr/frames/floor_000011.jpg",
+      "ncert_section": "9.1",
+      "ncert_agreement": "disagrees"
+    },
+    {
+      "text": "Ray optics is a limiting case of wave optics: light bends round very small obstacles only; otherwise it travels in straight lines (rectilinear propagation)",
+      "transcript_span": [
+        141,
+        216
+      ],
+      "frame_path": "data/lectures/leph109/1XXKL71jrF-Jdm_Mi5XUA890tbQzsKoWr/frames/floor_000022.jpg",
+      "ncert_section": "9.1",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Light falling on a surface is reflected, absorbed or transmitted; the proportions depend on the surface (mirror: mostly reflected; glass slab: mostly transmitted; black wall: mostly absorbed)",
+      "transcript_span": [
+        231,
+        407
+      ],
+      "frame_path": "data/lectures/leph109/1XXKL71jrF-Jdm_Mi5XUA890tbQzsKoWr/frames/floor_000022.jpg",
+      "ncert_section": null,
+      "ncert_agreement": null
+    },
+    {
+      "text": "Laws of reflection: angle of incidence equals angle of reflection; incident ray, normal at the point of incidence and reflected ray lie in the same plane",
+      "transcript_span": [
+        408,
+        730
+      ],
+      "frame_path": "data/lectures/leph109/1XXKL71jrF-Jdm_Mi5XUA890tbQzsKoWr/frames/floor_000037.jpg",
+      "ncert_section": "9.2",
+      "ncert_agreement": "agrees"
+    },
+    {
+      "text": "Plane mirror image: same size as object, behind the mirror at the same distance as the object, virtual and erect, laterally inverted",
+      "transcript_span": [
+        734,
+        998
+      ],
+      "frame_path": "data/lectures/leph109/1XXKL71jrF-Jdm_Mi5XUA890tbQzsKoWr/frames/floor_000051.jpg",
+      "ncert_section": null,
+      "ncert_agreement": null
+    },
+    {
+      "text": "At least two rays are needed to locate a point of an image; reflected rays produced backwards (dashed) meet behind a plane mirror, so the image is virtual",
+      "transcript_span": [
+        1018,
+        1304
+      ],
+      "frame_path": "data/lectures/leph109/1XXKL71jrF-Jdm_Mi5XUA890tbQzsKoWr/frames/floor_000067.jpg",
+      "ncert_section": null,
+      "ncert_agreement": null
+    }
+  ],
+  "uncertain_spans": [
+    {
+      "start_seconds": 1049,
+      "end_seconds": 1092,
+      "reason": "The transcript gives the set-up of the plane-mirror ray diagram twice in a row ('let us suppose this is the mirror... A and B is the object... first ray like this'). It reads as a transcription repeat rather than new teaching. Nothing is missing on either side of it, and the board frame matches the single construction described in the note."
+    }
+  ],
+  "ncert_sections_covered": [
+    "9.1",
+    "9.2"
+  ],
+  "frame_paths": [
+    "data/lectures/leph109/1XXKL71jrF-Jdm_Mi5XUA890tbQzsKoWr/frames/floor_000003.jpg",
+    "data/lectures/leph109/1XXKL71jrF-Jdm_Mi5XUA890tbQzsKoWr/frames/floor_000011.jpg",
+    "data/lectures/leph109/1XXKL71jrF-Jdm_Mi5XUA890tbQzsKoWr/frames/floor_000022.jpg",
+    "data/lectures/leph109/1XXKL71jrF-Jdm_Mi5XUA890tbQzsKoWr/frames/floor_000029.jpg",
+    "data/lectures/leph109/1XXKL71jrF-Jdm_Mi5XUA890tbQzsKoWr/frames/floor_000037.jpg",
+    "data/lectures/leph109/1XXKL71jrF-Jdm_Mi5XUA890tbQzsKoWr/frames/floor_000043.jpg",
+    "data/lectures/leph109/1XXKL71jrF-Jdm_Mi5XUA890tbQzsKoWr/frames/floor_000051.jpg",
+    "data/lectures/leph109/1XXKL71jrF-Jdm_Mi5XUA890tbQzsKoWr/frames/floor_000061.jpg",
+    "data/lectures/leph109/1XXKL71jrF-Jdm_Mi5XUA890tbQzsKoWr/frames/floor_000067.jpg"
+  ],
+  "markdown_body": "\n## Nature of light (NCERT 9.1)\n\nLight lets us see the objects around us — in a dark room nothing is visible until the light is switched on.\n\nLight has a **dual nature**:\n\n| Wave nature | Particle nature |\n|---|---|\n| explains **interference** and **diffraction** | explains the **photoelectric effect** (Einstein, Nobel Prize) |\n| wave theory — **Huygens** | particles of light are **photons**, *bundles of energy*; corpuscular idea — **Newton** |\n\n*Board slip:* the board writes \"(Maxwell)\" under the particle column. The teacher says **Newton** in class, and that is correct. Newton proposed the corpuscular (particle) theory and Einstein's photoelectric work introduced photons. Maxwell's contribution was the *electromagnetic wave* theory of light, which belongs in the wave column.\n\n## Ray optics (NCERT 9.1)\n\n**Ray optics is a limiting case of wave optics.** Light *can* bend round a corner, but only when the obstacle is extremely small. NCERT gives the reason: the wavelength of light (400–750 nm) is tiny compared with everyday objects. So for ordinary objects light travels in a straight line — **rectilinear propagation of light** — and does not bend while it stays in one medium. A straight-line path is a **ray**, and a bundle of rays is a **beam**.\n\n## Reflection, absorption, transmission\n\nLight is a form of energy. When it falls on a surface, three things can happen. It can be **reflected**, **absorbed** by the material, or **transmitted** (it goes through to the other side). How much of each happens depends on the surface:\n\n- **Mirror** — highly reflecting; absorption and transmission are negligible. Mirrors are coated with highly reflective metals such as **silver or aluminium**. The back (non-reflecting) side is drawn with slant hatching.\n- **Glass slab** — reflection is negligible and transmission is maximum (this comes back under refraction).\n- **Wall painted black** — most of the light is absorbed. A candle in a dark room with black walls gives poor illumination, but placed in front of a mirror it gives more.\n\n## Laws of reflection (NCERT 9.2)\n\nDraw the **normal** at the **point of incidence**.\n\n- **Angle of incidence $\\angle i$** — the angle made by the incident ray with the normal.\n- **Angle of reflection $\\angle r$** — the angle made by the reflected ray with the normal; the reflected ray stays in the same medium.\n\n1. $\\angle i = \\angle r$.\n2. The incident ray, the normal *at the point of incidence*, and the reflected ray all **lie in the same plane**.\n\nThe teacher explains the second law with the three coordinate planes (xy, yz, xz). If the incident ray and the normal lie in one plane, the reflected ray is in that same plane — it can never jump into another plane. NCERT adds that both laws hold at every point of *any* surface, plane or curved.\n\n## Plane mirror — characteristics\n\n1. **Size of image = size of object.**\n2. The image is formed **on the other side of the mirror**, at the **same distance from the mirror** as the object. An object 20 cm in front gives an image 20 cm behind.\n3. The image is **virtual and erect**. *Virtual* means it is formed by rays that only *appear* to come from a point.\n4. The image is **laterally inverted**. Take *y* as vertical and *x* as horizontal. There is no inversion along *y* (your head does not go down), but left and right swap along *x*. The letter **P** or **B** comes out reversed.\n\n## Locating an image — ray diagram\n\n**To locate a point of the image you need at least two rays.** Any number of rays leave each point of the object. Two are enough, and drawing more only clutters the figure.\n\n- Take two rays from **B**. Each one reflects with $\\angle i = \\angle r$ about its own normal. Produce the reflected rays **backwards** (dashed lines) — they meet at **B′** behind the mirror.\n- Do the same from **A** to get **A′**, then join **A′B′**. Using the two end points takes care of every point in between.\n- The dashed lines are only *apparent* paths — no light actually comes from behind the mirror, and there is no source there. That is why a plane-mirror image is **virtual**.\n\nWorking the same construction point by point for the letter **P** shows lateral inversion directly. Points close to the mirror stay close to it in the image.\n\n---\n*Note on this lecture's transcript:* `gemini-3.5-flash` was in a 503 outage and then out of daily quota when this chapter was processed, so the audio was transcribed by `gemini-3.5-flash-lite` in overlapping five-minute windows, joined where the overlapping speech matches word for word. Lite's clock ran fast (by up to 2x) inside a window; each window was rescaled to its true length, so times quoted here are approximate (roughly ±30 s). Every gap of more than 30 s was re-transcribed on its own to confirm whether speech was missing. The first five minutes of this lecture did come from `gemini-3.5-flash` before its quota ran out. Equations are taken from the board frames, not from the transcript.\n"
+}
