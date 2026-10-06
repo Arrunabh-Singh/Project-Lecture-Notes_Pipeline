@@ -520,6 +520,37 @@ Board slips are recorded next to the corrected working in the notes:
   not −10 cm and −10 D.
 - Lecture 12: at minimum deviation r = A/2, not "A = r/2".
 
+### Chemistry Chapters 7–10: how the transcripts were made
+
+Eleven Sourabh Raina videos feed Chapters 7–10: a one-shot lecture and a
+past-year-question (PYQ) video for each chapter, plus a short "2025 PYQ" video
+for Chapters 8, 9 and 10. Chapter 7 has no 2025 supplement, and its PYQ video
+is already the CBSE 2026-27 "25 PYQ" one. The Chapter 8–10 PYQ sections draw
+on the older "30+ PYQ" videos (CBSE 2024-25) plus the 2025 video; each
+question says which video it came from, and the 2026-27 "25 PYQ" videos for
+those three chapters had not been uploaded when the notes were built.
+
+- Chapter 7's PYQ video and the repair clips were transcribed by
+  `gemini-3.5-flash`. Everything else was transcribed by
+  `gemini-3.5-flash-lite` in five-minute windows (ten minutes for the short
+  PYQ files), because flash ran out of daily quota.
+- Both models sometimes stamp times on a clock that runs up to twice too fast.
+  Each window was rescaled to its true length, so times are approximate.
+- Lite sometimes skips a stretch of speech without any gap showing. Windows
+  whose speaking rate fell well below the file's median were re-transcribed and
+  the fuller pass kept; question stems lost at window seams were recovered in
+  one- to two-minute clips and spliced in.
+- Every transcript was read end to end, and garbled Hindi-English chemistry
+  terms were corrected against the NCERT text, never guessed.
+- Flagged spans: Chapter 8's one-shot has a stretch of Urdu script (about
+  40:00–45:00) whose content is intact; Chapter 9's 2025 PYQ shows the
+  Question 4(a) structures on screen without describing them aloud; Chapter 10's
+  PYQ has one garbled span (7:25–8:15) resolved from a clip. No span was
+  padded with a guess.
+- The formula and derivation sheets cover Chapters 1–6 only. Chapters 7–10 are
+  weighted by the official CBSE 2026-27 board marks (6, 8, 6 and 7), not by the
+  half-yearly blueprint used for Chapters 1–6.
+
 ### A symbol clash still in the source
 
 `notes/leph106` writes the solenoid self-inductance as `L = μ₀n²AL`, using `L`
