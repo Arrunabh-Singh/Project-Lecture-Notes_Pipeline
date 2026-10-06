@@ -40,8 +40,12 @@ the file reads correctly for a person and for a machine.
 | The d- and f-Block Elements | 14 | [`chemistry/04-d-and-f-block.pdf`](chemistry/04-d-and-f-block.pdf) |
 | Coordination Compounds | 13 | [`chemistry/05-coordination-compounds.pdf`](chemistry/05-coordination-compounds.pdf) |
 | Haloalkanes and Haloarenes | 23 | [`chemistry/06-haloalkanes-and-haloarenes.pdf`](chemistry/06-haloalkanes-and-haloarenes.pdf) |
+| Alcohols, Phenols and Ethers | 33 | [`chemistry/07-alcohols-phenols-and-ethers.pdf`](chemistry/07-alcohols-phenols-and-ethers.pdf) |
+| Aldehydes, Ketones and Carboxylic Acids | 23 | [`chemistry/08-aldehydes-ketones-and-carboxylic-acids.pdf`](chemistry/08-aldehydes-ketones-and-carboxylic-acids.pdf) |
+| Amines | 20 | [`chemistry/09-amines.pdf`](chemistry/09-amines.pdf) |
+| Biomolecules | 22 | [`chemistry/10-biomolecules.pdf`](chemistry/10-biomolecules.pdf) |
 | Every Chemistry Formula | 27 | [`chemistry/every-chemistry-formula.pdf`](chemistry/every-chemistry-formula.pdf) |
 | Chemistry, Derived | 10 | [`chemistry/chemistry-derived.pdf`](chemistry/chemistry-derived.pdf) |
-| Chemistry — Everything | 116 | [`chemistry/00-all-chemistry.pdf`](chemistry/00-all-chemistry.pdf) |
+| Chemistry — Everything | 204 | [`chemistry/00-all-chemistry.pdf`](chemistry/00-all-chemistry.pdf) |
 
-**24 PDFs, 741 pages.**
+**28 PDFs, 927 pages.**
