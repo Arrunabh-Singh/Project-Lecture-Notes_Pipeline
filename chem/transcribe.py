@@ -26,6 +26,7 @@ Verify and repair a finished transcript (needs no model call except --clip):
     python3 chem/transcribe.py --chapter 7 --type oneshot --report
     python3 chem/transcribe.py <path> --chapter 7 --type oneshot --clip 1800 1860
     python3 chem/transcribe.py --chapter 7 --type oneshot --splice 1800 1860
+    python3 chem/transcribe.py <path> --chapter 7 --type oneshot --redo-slow
 
 Writes the flat transcript to chem/transcripts/ch<N>-<type>.txt and the
 timestamped one to ch<N>-<type>.segments.json. Does NOT write notes or touch
@@ -79,6 +80,13 @@ GAP_SECONDS = 30.0
 # decide whether a chunk whose timestamps overshoot its length is real speech
 # on a fast clock (rescale it) or an invented tail (let sanitize cut it).
 MIN_WPS, MAX_WPS = 1.2, 4.5
+
+# A chunk this far under its file's median pace has probably lost speech: lite
+# silently skips stretches, and a fresh pass of such a chunk came back ~30% fuller.
+SLOW_FRACTION = 0.8
+# A redone chunk only replaces the old one if it is this clean: a higher word count
+# alone can be a half-looped pass padding itself with repeats.
+CLEAN_DUP = 0.03
 
 EXIT_QUOTA = 75
 
@@ -245,6 +253,57 @@ def _transcribe_chunked(
     return all_segments, meta
 
 
+def slow_chunks(chunks: list[dict]) -> list[int]:
+    """Indices of chunks whose speaking rate is under SLOW_FRACTION of the median."""
+    if not chunks:
+        return []
+    paces = sorted(c["wps"] for c in chunks)
+    median = paces[len(paces) // 2]
+    return [c["index"] for c in chunks if c["wps"] < SLOW_FRACTION * median]
+
+
+def _assemble(tag: str, chunk_seconds: float) -> tuple[list[TranscriptSegment], list[dict]]:
+    """Rebuild the whole transcript from its chunk checkpoints, in lecture time."""
+    segments, meta = [], []
+    for f in sorted((CHUNKS_DIR / tag).glob(f"chunk_*_{int(chunk_seconds)}.json")):
+        d = json.loads(f.read_text(encoding="utf-8"))
+        segments += [replace(TranscriptSegment(**s), start_seconds=s["start_seconds"] + d["start"],
+                             end_seconds=s["end_seconds"] + d["start"]) for s in d["segments"]]
+        meta.append({k: v for k, v in d.items() if k != "segments"})
+    return segments, meta
+
+
+def redo_slow(tag: str, wav_path: Path, chapter_name: str, lexicon: list[str], tries: int = 2,
+              force: list[int] | None = None) -> None:
+    """Re-transcribe each slow chunk (or the 1-based `force` chunks) fresh and keep the
+    fullest pass that is clean (under CLEAN_DUP duplication). Rewrites the transcript."""
+    segments, duration, extra = _load(tag)
+    chunks, size = extra.get("chunks", []), extra.get("chunk_seconds")
+    if not size:
+        raise SystemExit(f"{tag} was not made in chunks; nothing to redo")
+    todo = [n - 1 for n in force] if force else slow_chunks(chunks)
+    print(f"{tag}: redoing chunk(s) {[i + 1 for i in todo]}")
+    for i in todo:
+        c = chunks[i]
+        ckpt = CHUNKS_DIR / tag / f"chunk_{i:03d}_{int(size)}.json"
+        chunk_wav = wav_path.parent / f"{wav_path.stem}_chunks" / f"chunk_{i:03d}.wav"
+        slice_audio(wav_path, chunk_wav, c["start"], c["end"])
+        best = None
+        for _ in range(tries):
+            r = _attempt(chunk_wav, chapter_name, lexicon, c["end"] - c["start"], use_cache=False)
+            print(f"  chunk {i + 1}: {c['wps']:.2f} -> {r['wps']:.2f} words/s ({config.gemini_model})", flush=True)
+            if best is None or (r["dup"] <= CLEAN_DUP, r["wps"]) > (best["dup"] <= CLEAN_DUP, best["wps"]):
+                best = r
+        if best["dup"] <= CLEAN_DUP and (c["dup"] > CLEAN_DUP or best["wps"] > c["wps"] * 1.05):
+            info = dict(c, model=config.gemini_model, **{k: best[k] for k in ("scale", "coverage", "dup", "wps", "ok")})
+            ckpt.write_text(json.dumps({**info, "segments": [s.__dict__ for s in best["segments"]]},
+                                       ensure_ascii=False), encoding="utf-8")
+            print(f"  chunk {i + 1}: replaced", flush=True)
+    merged, meta = _assemble(tag, size)
+    extra["chunks"] = meta
+    _write_outputs(tag, merged, duration, extra)
+
+
 # ---------------------------------------------------------------- outputs
 
 def _paths(tag: str) -> tuple[Path, Path]:
@@ -287,6 +346,7 @@ def report(tag: str) -> dict:
     bad_chunks = [c["index"] + 1 for c in chunks if not c["ok"]]
     drifted = [c["index"] + 1 for c in chunks if c["scale"] != 1.0]
     odd_rate = [c["index"] + 1 for c in chunks if not MIN_WPS <= c["wps"] <= MAX_WPS]
+    slow = [i + 1 for i in slow_chunks(chunks)]
     runs = repeat_runs(segments)
     low_conf = sum(1 for s in segments if s.confidence == "low")
 
@@ -305,13 +365,15 @@ def report(tag: str) -> dict:
         print(f"  chunks rescaled for a fast clock: {drifted}")
     if odd_rate:
         print(f"  chunks with an implausible speaking rate: {odd_rate}")
+    if slow:
+        print(f"  slow chunks (possible skipped speech -- run --redo-slow): {slow}")
     if extra.get("splices"):
         print("  splices: " + ", ".join(f"{_hms(a)}-{_hms(b)}" for a, b in extra["splices"]))
     print(f"  low-confidence segments: {low_conf}")
 
     out = dict(tag=tag, duration=duration, segments=len(segments), coverage=reach, duplication=dup,
                max_gap=max_gap, gaps_over_30s=[list(g) for g in gaps], models=dict(models),
-               bad_chunks=bad_chunks, drifted_chunks=drifted, odd_rate_chunks=odd_rate,
+               bad_chunks=bad_chunks, drifted_chunks=drifted, odd_rate_chunks=odd_rate, slow_chunks=slow,
                repeat_runs=[list(r) for r in runs], low_confidence=low_conf,
                splices=extra.get("splices", []))
     (TRANSCRIPTS_DIR / f"{tag}.report.json").write_text(json.dumps(out, indent=2), encoding="utf-8")
@@ -374,6 +436,10 @@ def main() -> None:
     parser.add_argument("--chunk-seconds", type=float, default=600.0,
                         help="chunk length for the chunked path (default 600; use 300 on flash-lite)")
     parser.add_argument("--report", action="store_true", help="verify an existing transcript and exit")
+    parser.add_argument("--redo-chunk", nargs="+", type=int, metavar="N",
+                        help="re-transcribe these 1-based chunks fresh and keep the cleanest, fullest pass")
+    parser.add_argument("--redo-slow", action="store_true",
+                        help="re-transcribe chunks running well under the file's median pace, keep the fuller one")
     parser.add_argument("--clip", nargs=2, type=float, metavar=("START", "END"),
                         help="transcribe only this span (seconds) into chem/transcripts/clips/")
     parser.add_argument("--splice", nargs=2, type=float, metavar=("START", "END"),
@@ -422,6 +488,11 @@ def main() -> None:
     try:
         if args.clip:
             clip(tag, wav_path, chapter_name, lexicon, *args.clip, use_cache=not args.no_cache)
+            return
+        if args.redo_slow or args.redo_chunk:
+            redo_slow(tag, wav_path, chapter_name, lexicon, tries=3 if args.redo_chunk else 2,
+                      force=args.redo_chunk)
+            report(tag)
             return
         run_transcription(args, tag, wav_path, chapter_name, lexicon, duration)
     except GeminiAuthError as exc:
