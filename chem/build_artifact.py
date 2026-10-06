@@ -36,6 +36,7 @@ EXTRA_CSS = """
 }
 /* long reactions must scroll sideways on a phone instead of running off the edge */
 .katex-display { overflow-x: auto; overflow-y: hidden; padding-bottom: 2px; }
+@media (max-width: 520px) { .katex-display > .katex { font-size: 0.92em; } }
 footer {
   margin-top: 2.5rem; padding-top: 1rem; border-top: 1px solid var(--border);
   font-size: 0.84rem; color: var(--text-muted); line-height: 1.55;
