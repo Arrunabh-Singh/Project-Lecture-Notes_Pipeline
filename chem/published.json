@@ -5,5 +5,9 @@
   "3": {"url": "https://claude.ai/code/artifact/679d01fc-9d06-4dc4-b9f8-b0c7622216ad", "has_lecture": true, "has_pyq": true},
   "4": {"url": "https://claude.ai/code/artifact/b7f00c1b-3dbd-48c3-ab9a-6be583bc3c2d", "has_lecture": true, "has_pyq": true},
   "5": {"url": "https://claude.ai/code/artifact/223bead0-fc4c-476e-9c34-26e601ed03d3", "has_lecture": true, "has_pyq": true},
-  "6": {"url": "https://claude.ai/code/artifact/1089dc56-986d-42a1-ab36-ddf5b2eb2e57", "has_lecture": true, "has_pyq": true}
+  "6": {"url": "https://claude.ai/code/artifact/1089dc56-986d-42a1-ab36-ddf5b2eb2e57", "has_lecture": true, "has_pyq": true},
+  "7": {"url": "https://claude.ai/artifact/9vsg3GNahaVu8JPxbjvBGu", "has_lecture": true, "has_pyq": true},
+  "8": {"url": "https://claude.ai/artifact/EVgvhfkFsUxnKkRd1soX8n", "has_lecture": true, "has_pyq": true},
+  "9": {"url": "https://claude.ai/artifact/AEFw5yh2TkLFoB8fuccBgN", "has_lecture": true, "has_pyq": true},
+  "10": {"url": "https://claude.ai/artifact/DL6Zq36XyWDiwqaat9JWbc", "has_lecture": true, "has_pyq": true}
 }

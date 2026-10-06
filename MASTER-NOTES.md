@@ -8,11 +8,13 @@ of the result.
 
 **The confirmed deadline is the chemistry half-yearly on 10 September 2026**,
 70 marks, blueprint: Solutions 15 · Electrochemistry 14 · Chemical Kinetics 13
-· d- and f-Block 11 · Coordination Compounds 11 · Haloalkanes 6. No physics
-exam date has been given.
+· d- and f-Block 11 · Coordination Compounds 11 · Haloalkanes 6. Chemistry
+chapters 7–10 (Alcohols, Phenols and Ethers; Aldehydes, Ketones and Carboxylic
+Acids; Amines; Biomolecules) were added after that blueprint and sit outside it.
+No physics exam date has been given.
 
 **Two depths, deliberately.** Chemistry chapters 1–3 are theory the student
-already knows, so the length there goes into numerical method. Chapters 4–6 are
+already knows, so the length there goes into numerical method. Chapters 4–10 are
 first contact: every technical term carries an **[exposure]** marker and is
 defined in plain words with a concrete example before it is used again. The
 physics notes are all board-grounded and flag any span the transcript could not
@@ -34,8 +36,8 @@ and seek to the section you need rather than reading it top to bottom.
 
 | Section | Where it came from | What it is | Caveats |
 |---|---|---|---|
-| Chemistry chapters 1–6 | lecture transcripts + NCERT `lech101–105`, `lech201` | full chapter notes, exam-shaped, with past-year question sections | Ch4–6 carry `[exposure]` first-contact definitions; Ch1–3 assume the theory |
-| Every Chemistry Formula | built across all six chapters | 50 entries, each with symbols, units, a recognition cue and its trap | 40 marked ● must-be-instant, 10 marked ○ |
+| Chemistry chapters 1–10 | lecture transcripts + NCERT `lech101–105`, `lech201–205` | full chapter notes, exam-shaped, with past-year question sections | Ch4–10 carry `[exposure]` first-contact definitions; Ch1–3 assume the theory. Ch8–10's past-year section draws on two videos each (the 2024-25 "30+ PYQ" and the short 2025 PYQ); every question there says which |
+| Every Chemistry Formula | built across chapters 1–6 only | 50 entries, each with symbols, units, a recognition cue and its trap | 40 marked ● must-be-instant, 10 marked ○ |
 | Chemistry, Derived | as above | 12 derivations, each ending in a formula that is on the formula sheet | figures are prose descriptions here |
 | Every Physics Formula | the 57 chapter notes + NCERT `leph101–108` | 100 entries across chapters 1–9 | 78 marked ● must-be-instant, 22 marked ○; Ch9 rows were written from the Ray Optics page before the Ch9 lectures were transcribed, and are not yet re-checked against them |
 | Physics, Derived | as above | 45 derivations, chapters 1–9, numbered PD1–PD45 | figures are prose descriptions here |
@@ -59,6 +61,10 @@ would duplicate the largest block in this file for no added content.
     - [Chapter 4 · The d- and f-Block Elements](#chapter-4--the-d--and-f-block-elements)
     - [Chapter 5 · Coordination Compounds](#chapter-5--coordination-compounds)
     - [Chapter 6 · Haloalkanes and Haloarenes](#chapter-6--haloalkanes-and-haloarenes)
+    - [Chapter 7 · Alcohols, Phenols and Ethers](#chapter-7--alcohols-phenols-and-ethers)
+    - [Chapter 8 · Aldehydes, Ketones and Carboxylic Acids](#chapter-8--aldehydes-ketones-and-carboxylic-acids)
+    - [Chapter 9 · Amines](#chapter-9--amines)
+    - [Chapter 10 · Biomolecules](#chapter-10--biomolecules)
     - [Every Chemistry Formula](#every-chemistry-formula)
     - [Chemistry, Derived](#chemistry-derived)
 - [Part II — Physics](#part-ii--physics)
@@ -78,6 +84,7 @@ would duplicate the largest block in this file for no added content.
     - [Electromagnetic Waves for Six Marks](#electromagnetic-waves-for-six-marks)
 - [Appendix — gaps, caveats and open questions](#appendix--gaps-caveats-and-open-questions)
     - [Chapter 9: lectures transcribed after its sheets were written](#chapter-9-lectures-transcribed-after-its-sheets-were-written)
+    - [Chemistry Chapters 7–10: how the transcripts were made](#chemistry-chapters-710-how-the-transcripts-were-made)
     - [A symbol clash still in the source](#a-symbol-clash-still-in-the-source)
     - [How much to trust the transcripts](#how-much-to-trust-the-transcripts)
     - [Open question](#open-question)
@@ -3230,6 +3237,3287 @@ Multi-step "identify A, B, C, D, E" schemes built from Grignard, Wurtz, alcoholi
 Built from Sourabh Raina's Haloalkanes and Haloarenes one-shot and PYQ videos, cross-checked against NCERT Class XII Chemistry Chapter 6 (Rationalised 2022–23). NCERT spellings used throughout: **Zaitsev** (NCERT notes it is "also pronounced as Saytzeff"), **ambident** nucleophile, **vicinal** and **geminal** dihalides, **laevorotatory**. C–Cl bond lengths (177 pm in haloalkanes, 169 pm in haloarenes) are NCERT's. First-contact material: every term marked **[exposure]** is explained from scratch before use.
 
 Two stretches of both transcripts were lost at automatic-transcription chunk boundaries and were recovered by re-transcribing those windows from the source audio: the $S_N2$ mechanism and ambident-nucleophile block in the lecture, and PYQ questions 12, 13, 17, 18, 22 and 23. All twenty-five PYQ questions are accounted for here.
+
+### Chapter 7 · Alcohols, Phenols and Ethers
+
+`NCERT Class XII Chemistry · Chapter 7 · Alcohols, Phenols and Ethers`
+
+*6 marks in the board paper (CBSE 2026-27 curriculum). Three families of compounds, all built round one oxygen atom: an alcohol has an **–OH** on a carbon chain, a phenol has an **–OH** on a benzene ring, an ether has the oxygen sitting *between* two carbon groups. Most of the chapter is one idea used again and again — what the oxygen does with its lone pairs, and which of its two bonds (O–H or C–O) breaks. Every new word is tagged **[exposure]** and explained from scratch. The reactions come in a fixed list; learn the reagent that goes with each and the marks follow.*
+
+#### What the three families are, and where they matter — *one oxygen atom, three different places to put it*
+
+**[exposure]** A **hydrocarbon** is a compound of only carbon and hydrogen (methane $\ce{CH4}$, benzene $\ce{C6H6}$). Replacing a hydrogen by another atom or group gives a new compound with new properties. The group that carries the property is called the **functional group**: it is the part of the molecule where the chemistry happens. In this chapter the functional group is built on oxygen.
+
+**[exposure]** The **hydroxyl group** is $\ce{-OH}$: an oxygen bonded to a hydrogen, and to the rest of the molecule through the oxygen.
+
+- **Alcohol** — an $\ce{-OH}$ on a carbon of an **aliphatic** system (a chain or a non-aromatic ring of carbons). Example: methanol $\ce{CH3OH}$, ethanol $\ce{C2H5OH}$.
+- **Phenol** — an $\ce{-OH}$ on a carbon of an **aromatic** system (a benzene ring). Example: phenol itself, $\ce{C6H5OH}$.
+- **Ether** — the hydrogen of the $\ce{-OH}$ is replaced by an alkyl or aryl group, so the oxygen links two carbon groups: $\ce{R-O-R'}$. Example: methoxymethane $\ce{CH3OCH3}$. You can picture an ether as an alcohol or phenol whose hydroxyl hydrogen has been swapped for a carbon group.
+
+Why the chapter matters outside the exam: alcohols, phenols and ethers are the starting points for **detergents**, **antiseptics** and **fragrances** respectively. Ethanol is the spirit used to polish wood; the sugar in food, the cotton in cloth and the paper in books all contain many $\ce{-OH}$ groups.
+
+**Examiner asks:** nothing directly from this opening, but "alcohol or phenol?" depends on whether the carbon holding the $\ce{-OH}$ is in a ring of benzene type or not, and that decides almost every property later.
+
+#### Classification — *count the –OH groups; then look at the carbon that carries them*
+
+**[exposure]** **Monohydric, dihydric, trihydric, polyhydric** only say how many $\ce{-OH}$ groups a molecule has: one, two, three, or many. This applies to alcohols and to phenols.
+
+| Number of –OH | Alcohol example | Phenol example |
+|---|---|---|
+| **Monohydric** (1) | ethanol $\ce{CH3CH2OH}$ | phenol $\ce{C6H5OH}$ |
+| **Dihydric** (2) | ethane-1,2-diol $\ce{HOCH2CH2OH}$ | catechol, resorcinol, hydroquinone |
+| **Trihydric** (3) | glycerol (propane-1,2,3-triol) | — |
+
+###### Classifying a monohydric alcohol by the carbon that carries –OH
+
+**[exposure]** **Hybridisation** is the way a carbon atom mixes its orbitals before it bonds. A carbon with four single bonds is $sp^3$ hybridised; a carbon in a benzene ring or a $\ce{C=C}$ (three attached groups, one double bond) is $sp^2$ hybridised. The first rule: ask whether the $\ce{-OH}$ carbon is $sp^3$ or $sp^2$.
+
+**The $\ce{-OH}$ is on an $sp^3$ carbon:**
+
+- **[exposure]** **Primary (1°)** alcohol: the $\ce{-OH}$ carbon is attached to **one** other carbon (or none, as in $\ce{CH3OH}$). **Secondary (2°)**: attached to **two** carbons. **Tertiary (3°)**: attached to **three** carbons. Examples: $\ce{CH3CH2CH2OH}$ (1°), $\ce{CH3CH(OH)CH3}$ (2°), $\ce{(CH3)3C-OH}$ (3°). This count decides how an alcohol oxidises, dehydrates and reacts with HCl, so you will use it all chapter.
+- **[exposure]** **Allylic alcohol**: the $sp^3$ carbon bearing $\ce{-OH}$ is directly next to a $\ce{C=C}$ double bond, as in $\ce{CH2=CH-CH2OH}$. **Benzylic alcohol**: that $sp^3$ carbon is directly next to a benzene ring, as in $\ce{C6H5-CH2OH}$. Allylic and benzylic alcohols can each be primary, secondary or tertiary.
+
+**The $\ce{-OH}$ is on an $sp^2$ carbon:** the $\ce{-OH}$ sits on a carbon of a $\ce{C=C}$, either an ordinary one (a **[exposure]** **vinylic alcohol**, $\ce{CH2=CH-OH}$) or a benzene-ring carbon (a phenol). These are a different class and behave very differently, as the acidity section shows.
+
+###### Classifying ethers
+
+**[exposure]** If the two groups on the oxygen are the same the ether is **simple** (**symmetrical**): $\ce{C2H5OC2H5}$, diethyl ether. If they differ it is **mixed** (**unsymmetrical**): $\ce{C2H5OCH3}$ and $\ce{C2H5OC6H5}$. This matters because the two kinds are made and cleaved differently.
+
+NCERT intext 7.1 and 7.2 ask you to classify six drawn alcohols. NCERT's answers: primary (i), (ii), (iii); secondary (iv), (v); tertiary (vi); allylic (ii) and (vi). The method is always the same: find the $\ce{-OH}$ carbon, count the carbons attached to it, then check for a neighbouring $\ce{C=C}$.
+
+**Examiner asks:** "classify as primary, secondary or tertiary", and later "which of these is a tertiary alcohol?" in a reasoning question. Count the carbon neighbours of the $\ce{-OH}$ carbon.
+
+#### Nomenclature — *common names are quick; IUPAC names carry the marks*
+
+###### Alcohols
+
+**[exposure]** **IUPAC** is the international system for naming compounds, so every compound has exactly one correct name. For an alcohol: take the longest carbon chain that **contains the carbon bearing –OH**, name the matching alkane, **drop its final "e" and add "ol"**. Number from the end **nearest to the –OH**, and write the position of $\ce{-OH}$ and of every other group.
+
+- Common name: name the alkyl group, then the word **alcohol**: $\ce{CH3OH}$ methyl alcohol; $\ce{CH3CH2CH2OH}$ n-propyl alcohol.
+- Two or more $\ce{-OH}$ groups: **keep the "e"** of the alkane and add **diol**, **triol** with locants: $\ce{HOCH2CH2OH}$ = **ethane-1,2-diol** (ethylene glycol). Glycerol is **propane-1,2,3-triol**.
+- Cyclic alcohols: prefix **cyclo**, with the carbon bearing $\ce{-OH}$ as C-1: cyclohexanol; 2-methylcyclopentanol.
+
+| Compound | Common name | IUPAC name |
+|---|---|---|
+| $\ce{CH3OH}$ | methyl alcohol | **methanol** |
+| $\ce{CH3CH2CH2OH}$ | n-propyl alcohol | **propan-1-ol** |
+| $\ce{CH3CH(OH)CH3}$ | isopropyl alcohol | **propan-2-ol** |
+| $\ce{CH3CH2CH2CH2OH}$ | n-butyl alcohol | **butan-1-ol** |
+| $\ce{CH3CH2CH(OH)CH3}$ | sec-butyl alcohol | **butan-2-ol** |
+| $\ce{(CH3)2CHCH2OH}$ | isobutyl alcohol | **2-methylpropan-1-ol** |
+| $\ce{(CH3)3C-OH}$ | tert-butyl alcohol | **2-methylpropan-2-ol** |
+| $\ce{HOCH2CH2OH}$ | ethylene glycol | **ethane-1,2-diol** |
+
+Worked example · NCERT Example 7.1(i)
+
+Name $\ce{CH3-CH(Cl)-CH(CH3)-CH(CH3)-CH2OH}$.
+
+1. Longest chain containing the $\ce{-OH}$ carbon: five carbons, so **pentane → pentan-1-ol** (the $\ce{CH2OH}$ end is C-1, the end nearest $\ce{-OH}$).
+2. Substituents: $\ce{CH3}$ on C-2 and C-3, $\ce{Cl}$ on C-4.
+3. Write them alphabetically with the parent: chloro before methyl.
+
+Answer: **4-chloro-2,3-dimethylpentan-1-ol**.
+
+###### Phenols
+
+The simplest hydroxy derivative of benzene is **phenol**; that is its common name and an accepted IUPAC name. In substituted phenols the ring carbon bearing $\ce{-OH}$ is C-1, and the positions are called **ortho** (neighbour, 1,2), **meta** (1,3) and **para** (opposite, 1,4). Methylphenols are **cresols**: o-cresol = 2-methylphenol; m-cresol = 3-methylphenol; p-cresol = 4-methylphenol. The dihydroxybenzenes are **catechol** (benzene-1,2-diol), **resorcinol** (benzene-1,3-diol) and **hydroquinone** or quinol (benzene-1,4-diol). Example: 2,6-dimethylphenol.
+
+###### Ethers
+
+- **Common name:** the two groups in alphabetical order as separate words, then **ether**: $\ce{CH3OC2H5}$ ethyl methyl ether. Identical groups: **di-**: $\ce{C2H5OC2H5}$ diethyl ether.
+- **IUPAC name:** treat the ether as a hydrocarbon carrying an **alkoxy** group $\ce{-OR}$ (or aryloxy $\ce{-OAr}$). The **larger group** is the parent hydrocarbon; the smaller one becomes "methoxy", "ethoxy" and so on.
+
+| Compound | Common name | IUPAC name |
+|---|---|---|
+| $\ce{CH3OCH3}$ | dimethyl ether | **methoxymethane** |
+| $\ce{C2H5OC2H5}$ | diethyl ether | **ethoxyethane** |
+| $\ce{CH3OCH2CH2CH3}$ | methyl n-propyl ether | **1-methoxypropane** |
+| $\ce{C6H5OCH3}$ | methyl phenyl ether (**anisole**) | **methoxybenzene** |
+| $\ce{C6H5OC2H5}$ | ethyl phenyl ether (phenetole) | **ethoxybenzene** |
+| $\ce{CH3-CH(CH3)-O-CH3}$ | methyl isopropyl ether | **2-methoxypropane** |
+| $\ce{CH3OCH2CH2OCH3}$ | — | **1,2-dimethoxyethane** |
+
+Other NCERT answers worth knowing: $\ce{CH3-CH(CH3)-O-CH2CH3}$ is **2-ethoxypropane** (Example 7.1(ii)); the ring compound with $\ce{OC2H5}$ and $\ce{NO2}$ on neighbouring carbons is **1-ethoxy-2-nitrocyclohexane**; intext 7.3 answers are 4-chloro-3-ethyl-2-(1-methylethyl)butan-1-ol, 2,5-dimethylhexane-1,3-diol, 3-bromocyclohexanol, hex-1-en-3-ol and 2-bromo-3-methylbut-2-en-1-ol.
+
+> **Trap:** when an alcohol also has a double bond, the $\ce{-OH}$ gets the lowest number, even if the double bond then gets a high one. $\ce{CH3CH(OH)CH2CH2CH=CH2}$ is **hex-5-en-2-ol** (numbered from the $\ce{-OH}$ end), not hex-1-en-5-ol. Both "en" and "ol" appear in the name, with the "e" of "ene" dropped before the vowel of "ol".
+
+**Examiner asks:** "write the IUPAC name of the following" — a standing 2-marker (for example 3-phenylprop-2-en-1-ol, 2017; 2-methoxy-2-methylpropane, 2019). See the PYQ section.
+
+#### Structure of the functional groups — *why the bond angles and bond lengths come out as they do*
+
+**[exposure]** A **sigma ($\sigma$) bond** is a single bond formed by head-on overlap of two orbitals. In an alcohol the oxygen of $\ce{-OH}$ is $sp^3$ hybridised and joins the $sp^3$ carbon through a sigma bond. **[exposure]** A **lone pair** is a pair of valence electrons on an atom that is not used in bonding. Oxygen has two lone pairs, and they are what make alcohols, phenols and ethers react.
+
+NCERT Fig. 7.1 gives the numbers to remember:
+
+| Compound | Bond angle | C–O bond length |
+|---|---|---|
+| Methanol $\ce{CH3OH}$ | C–O–H = **108.9°** | 142 pm |
+| Phenol $\ce{C6H5OH}$ | C–O–H = 109° | **136 pm** |
+| Methoxymethane $\ce{CH3OCH3}$ | C–O–C = **111.7°** | 141 pm |
+
+- **Alcohols: angle slightly below the tetrahedral 109.5° (109°28′).** The two lone pairs on oxygen repel the bonded pairs and squeeze the C–O–H angle. Lone pair against bond is a stronger repulsion than bond against bond.
+- **Phenol: C–O is shorter (136 pm against 142 pm in methanol).** Two reasons: (i) the oxygen's lone pair is shared with the benzene ring (**[exposure]** **conjugation**: a lone pair next to a ring spreads onto it), which gives the C–O bond **partial double-bond character**; (ii) the carbon is $sp^2$ hybridised, and an $sp^2$ carbon holds its bonds a little closer than an $sp^3$ carbon.
+- **Ethers: angle slightly above tetrahedral (111.7°).** The two bulky alkyl groups on oxygen repel each other and push the angle open. The C–O length (141 pm) is about the same as in alcohols.
+
+**Examiner asks:** two reasons that come up directly: "why is the C–O bond in phenol shorter than in methanol?" (2023) and "why is the C–O–C angle in ethers slightly greater than the tetrahedral angle?" (2025). Write the reason, not just the numbers.
+
+#### Preparing alcohols from alkenes — *two ways to add water across a C=C — one follows Markovnikov, one does the opposite*
+
+**[exposure]** An **alkene** has a $\ce{C=C}$ double bond. **Hydration** means adding water ($\ce{H-OH}$) across it, so one carbon takes an $\ce{H}$ and the other takes an $\ce{OH}$; the product is an alcohol. **[exposure]** **Markovnikov's rule** says that when a reagent $\ce{H-X}$ adds to an **unsymmetrical** alkene (the two carbons of $\ce{C=C}$ carry different groups), the $\ce{H}$ goes to the carbon that already has **more** hydrogens and the negative part goes to the carbon with **fewer** hydrogens. You met it in haloalkanes.
+
+###### 1. Acid-catalysed hydration (Markovnikov)
+
+An alkene and water in the presence of acid ($\ce{H+}$) as a **[exposure]** **catalyst** (a substance that speeds up a reaction and is given back unchanged at the end).
+
+$$\ce{CH3CH=CH2 + H2O ->[H+] CH3CH(OH)CH3}$$
+
+Here $\ce{OH}$ goes to the carbon with fewer hydrogens, giving **propan-2-ol**.
+
+**Mechanism, three steps** (keep going until the stable product forms):
+
+1. **Protonation of the alkene to a carbocation, by electrophilic attack of $\ce{H3O+}$.** First the acid makes the hydronium ion: $\ce{H2O + H+ -> H3O+}$. **[exposure]**  An **electrophile** is a species that is short of electrons and attacks electron-rich places; here the $\ce{H+}$ attacks the $\pi$ electrons of the double bond. A **[exposure]** **carbocation** is a carbon that has lost a bonding pair and carries a positive charge, with only three bonds. $\ce{CH2=CH2 + H3O+ -> CH3-CH2+ + H2O}$.
+2. **Nucleophilic attack of water on the carbocation.** A **[exposure]** **nucleophile** is an electron-rich species with a lone pair that attacks positive carbon. The oxygen of a second water molecule uses its lone pair to bond to the positive carbon: $\ce{CH3CH2+ + H2O -> CH3CH2-OH2+}$. The oxygen now carries a positive charge.
+3. **Deprotonation to the alcohol.** A third water molecule takes the $\ce{H+}$ from that oxygen, giving $\ce{CH3CH2OH}$ and regenerating $\ce{H3O+}$.
+
+The acid is given back at the end, which is why it counts as a catalyst. A tertiary carbocation is easier to form than a secondary one, so the rule "hydrogen to the carbon with more hydrogens" is really a rule about forming the more stable carbocation.
+
+###### 2. Hydroboration–oxidation (anti-Markovnikov)
+
+**[exposure]** **Diborane** is $\ce{(BH3)2}$, behaving like two molecules of $\ce{BH3}$. It adds to an alkene to give a **trialkylborane** $\ce{R3B}$ (three alkene molecules add to one boron). Treating this with hydrogen peroxide and aqueous sodium hydroxide **oxidises** it to an alcohol.
+
+$$\ce{6CH3CH=CH2 + (BH3)2 -> 2(CH3CH2CH2)3B}$$ $$\ce{(CH3CH2CH2)3B ->[H2O2 / OH^-] 3CH3CH2CH2OH}$$
+
+The boron attaches to the $sp^2$ carbon that carries **more hydrogens**, so the alcohol looks as if water had added **opposite to Markovnikov's rule**: propene gives **propan-1-ol** here but propan-2-ol by acid hydration. The yield is excellent. The method was reported by H. C. Brown in 1959; he shared the 1979 Nobel Prize in Chemistry for it.
+
+> **Trap:** "propene to propan-1-ol" needs **hydroboration–oxidation** ($\ce{B2H6}$, then $\ce{H2O2/OH^-}$); "propene to propan-2-ol" is **acid-catalysed hydration** ($\ce{H3O+}$). A question that names only the product decides the reagent for you — check which carbon the $\ce{OH}$ is on.
+
+**Examiner asks:** the mechanism of hydration of ethene (2017, asked twice), and the product of hydroboration–oxidation of propene (2020). The mechanism is the three steps above; write each step's name, then the species.
+
+#### Preparing alcohols from carbonyl compounds and Grignard reagents — *reduction goes down from C=O; Grignard builds the carbon chain*
+
+**[exposure]** A **carbonyl compound** contains the **carbonyl group** $\ce{C=O}$: an **aldehyde** $\ce{RCHO}$, a **ketone** $\ce{RCOR'}$, a **carboxylic acid** $\ce{RCOOH}$, or an **ester** $\ce{RCOOR'}$. These are the next chapter's topic, so here you only need what they become. **[exposure]** **Reduction** of an organic compound means adding hydrogen to it (or removing oxygen).
+
+###### 1. Reducing aldehydes and ketones
+
+Two kinds of reducing method:
+
+- **Catalytic hydrogenation:** add $\ce{H2}$ over a finely divided metal catalyst (platinum, palladium or nickel).
+- **Chemical reducing agents:** sodium borohydride $\ce{NaBH4}$ or lithium aluminium hydride $\ce{LiAlH4}$.
+
+An **aldehyde** gives a **primary** alcohol; a **ketone** gives a **secondary** alcohol.
+
+$$\ce{RCHO + H2 ->[Pd] RCH2OH}$$ $$\ce{RCOR' + H2 ->[Ni] RCH(OH)R'}$$ $$\ce{RCOR' ->[NaBH4] RCH(OH)R'}$$
+
+**[exposure]** **$\ce{NaBH4}$ is a mild reducing agent**: it reduces aldehydes and ketones but **not** carboxylic acids, esters or amides. $\ce{LiAlH4}$ is a strong reducing agent and reduces all of them. This difference is a popular exam trap.
+
+###### 2. Reducing carboxylic acids and esters
+
+Acids are reduced to primary alcohols, in excellent yield, by $\ce{LiAlH4}$ (then water). $\ce{LiAlH4}$ is **expensive**, so it is used only for special chemicals. To make an alcohol in bulk, first turn the acid into an **ester** (reacting it with an alcohol under acid), then reduce the ester by catalytic hydrogenation. That also hands back the alcohol you used.
+
+$$\ce{RCOOH ->[(i) LiAlH4][(ii) H2O] RCH2OH}$$ $$\ce{RCOOH + R'OH ->[H+] RCOOR' + H2O}$$ $$\ce{RCOOR' + 2H2 ->[catalyst] RCH2OH + R'OH}$$
+
+Example: ethanoic acid with ethanol gives ethyl ethanoate; hydrogenation over platinum gives **two molecules of ethanol**, one of which was the alcohol you started with.
+
+###### 3. Grignard reagents with aldehydes and ketones
+
+**[exposure]** A **Grignard reagent** is $\ce{RMgX}$ (X = Cl, Br, I): an alkyl or aryl group bonded to magnesium. Magnesium is a metal (electropositive), so the carbon on it carries a partial negative charge ($\delta-$) and behaves as a **nucleophile**. The $\ce{C=O}$ carbon carries a partial positive charge ($\delta+$) because oxygen is more electronegative and pulls the electrons. So the Grignard carbon attacks the carbonyl carbon.
+
+1. **Nucleophilic addition** gives an **[exposure]** **adduct** (the addition product): the $\pi$ electrons of $\ce{C=O}$ move onto oxygen, which takes $\ce{MgX}$ and becomes $\ce{-O-MgX}$.
+2. **Hydrolysis** (adding water or dilute acid) replaces $\ce{MgX}$ by $\ce{H}$ and gives the alcohol, with $\ce{Mg(OH)X}$ as by-product.
+
+| Carbonyl compound | Alcohol class | Equation |
+|---|---|---|
+| **Methanal** $\ce{HCHO}$ | primary | $\ce{HCHO + RMgX -> RCH2OMgX ->[H2O] RCH2OH}$ |
+| Any **other aldehyde** | secondary | $\ce{R'CHO + RMgX -> R'CH(R)OMgX ->[H2O] R'CH(OH)R}$ |
+| A **ketone** | tertiary | $\ce{R'COR'' + RMgX -> R'R''C(R)OMgX ->[H2O] R'R''C(R)OH}$ |
+
+Remember this table; it is a standing question. It also tells you how to **design** a Grignard route: the $\ce{R}$ on the Grignard reagent is the group that ends up on the carbon that carries the $\ce{-OH}$.
+
+Worked example · NCERT intext 7.4 — make 2-methylpropan-1-ol and cyclohexylmethanol from methanal
+
+1. Both alcohols are primary and end in $\ce{-CH2OH}$, so the $\ce{CH2OH}$ comes from **methanal**.
+2. The rest of the molecule is the group that sat on magnesium. For $\ce{(CH3)2CH-CH2OH}$ the group is isopropyl: Grignard reagent $\ce{(CH3)2CH-MgBr}$.
+3. For cyclohexylmethanol it is cyclohexyl: $\ce{C6H11-MgBr}$.
+
+$$\ce{(CH3)2CHMgBr + HCHO -> (CH3)2CHCH2OMgBr}$$ $$\ce{(CH3)2CHCH2OMgBr ->[H2O] (CH3)2CHCH2OH}$$
+
+Worked example · NCERT Example 7.2 — products of three preparations
+
+1. Catalytic reduction of butanal $\ce{CH3CH2CH2CHO}$: an aldehyde gives a primary alcohol, **butan-1-ol**.
+2. Hydration of propene with dilute $\ce{H2SO4}$: Markovnikov, **propan-2-ol**.
+3. Propanone $\ce{CH3COCH3}$ with $\ce{CH3MgBr}$ then water: a ketone gives a tertiary alcohol, $\ce{(CH3)2C(OH)CH3}$ = **2-methylpropan-2-ol**.
+
+Worked example · NCERT intext 7.5 — products with $\ce{H3O+}$ and with $\ce{NaBH4}$
+
+1. Propene with $\ce{H3O+}$: acid hydration, **propan-2-ol**.
+2. The cyclohexanone that has a $\ce{CH2COOCH3}$ side chain, with $\ce{NaBH4}$: the ketone becomes a secondary alcohol and the **ester stays untouched** (mild reagent).
+3. 2-Methylbutanal $\ce{CH3CH2CH(CH3)CHO}$ with $\ce{NaBH4}$: aldehyde to primary alcohol, **2-methylbutan-1-ol**.
+
+**Examiner asks:** "write the product of (a ketone or ester compound) with $\ce{NaBH4}$" (2018); "a Grignard reagent with an aldehyde or ketone, then hydrolysis" (2024); "convert propanone to 2-methylpropan-2-ol" and "convert butan-2-one to butan-2-ol". Use the table above and name which reagent leaves the ester alone.
+
+#### Preparing phenols — *four routes — three lab, one industrial*
+
+Phenol is also called **carbolic acid**. It was first isolated in the early nineteenth century from **coal tar** (the sticky by-product of heating coal). Today it is made synthetically, and most of the world's phenol comes from cumene.
+
+###### 1. From a haloarene (chlorobenzene)
+
+Chlorobenzene is **fused** with sodium hydroxide (heated molten with it) at **623 K and 320 atm** pressure. This gives **sodium phenoxide** $\ce{C6H5ONa}$, a salt; acidifying it releases phenol.
+
+$$\ce{C6H5Cl + NaOH ->[623 K, 320 atm] C6H5ONa ->[H+] C6H5OH}$$
+
+###### 2. From benzenesulphonic acid
+
+**[exposure]** **Oleum** is fuming sulphuric acid, $\ce{H2S2O7}$ (concentrated $\ce{H2SO4}$ with dissolved $\ce{SO3}$). **Sulphonation** puts an $\ce{-SO3H}$ group on the ring. Benzene is sulphonated with oleum to give **benzenesulphonic acid**; heated with **molten sodium hydroxide** this becomes sodium phenoxide, and acidification gives phenol.
+
+$$\ce{C6H6 ->[oleum] C6H5SO3H}$$ $$\ce{C6H5SO3H ->[molten NaOH] C6H5ONa ->[H+] C6H5OH}$$
+
+###### 3. From a diazonium salt
+
+**[exposure]** A **diazonium salt** $\ce{ArN2+X-}$ is made by treating an **aromatic primary amine** (an $\ce{-NH2}$ directly on a benzene ring, such as aniline) with **nitrous acid**, which is made in the flask from $\ce{NaNO2 + HCl}$, at **273–278 K**. The $\ce{C-N2+}$ bond is weak, so the $\ce{N2+}$ is easy to displace. **Warming with water** (or treating with dilute acid) hydrolyses it to phenol and releases nitrogen gas.
+
+$$\ce{C6H5NH2 ->[NaNO2 + HCl][273-278 K] C6H5N2+Cl^-}$$ $$\ce{C6H5N2+Cl^- ->[H2O, warm] C6H5OH + N2 + HCl}$$
+
+###### 4. From cumene (the industrial route)
+
+**[exposure]** **Cumene** is isopropylbenzene, $\ce{C6H5-CH(CH3)2}$: a benzene ring on the middle carbon of propane. It is **oxidised by the oxygen of air** to **cumene hydroperoxide**, in which the benzylic carbon carries an $\ce{-O-O-H}$ group. Treating that with **dilute acid** splits it into **phenol and acetone**.
+
+$$\ce{C6H5CH(CH3)2 ->[O2, air] C6H5C(CH3)2OOH}$$ $$\ce{C6H5C(CH3)2OOH ->[dil. H+] C6H5OH + CH3COCH3}$$
+
+This is the preferred commercial method for two reasons: it starts from a cheap hydrocarbon, and the by-product **acetone** is itself an important compound obtained in large quantity. Two useful products from one process.
+
+**Examiner asks:** "preparation of phenol from cumene" (2025), "convert chlorobenzene to phenol" (2019) and "convert aniline to phenol" (year not stated). Write the reagent and condition over each arrow. The chlorobenzene route needs the high temperature and pressure.
+
+#### Physical properties: boiling point and solubility — *one explanation — hydrogen bonding through the O–H — covers both*
+
+Alcohols and phenols have two parts: an alkyl or aryl group, and the hydroxyl. The properties come chiefly from the $\ce{-OH}$; the carbon group only modifies them.
+
+**[exposure]** A **hydrogen bond** is an attraction between a hydrogen that is bonded to a very electronegative atom (here oxygen) and a lone pair on a neighbouring oxygen. The oxygen pulls the shared electrons, so the oxygen carries $\delta-$ and the hydrogen carries $\delta+$, and the $\delta+$ hydrogen of one molecule is attracted to the $\delta-$ oxygen of the next. **Intermolecular** means *between* separate molecules; **intramolecular** means *inside* one molecule. It is much stronger than the ordinary **van der Waals forces**, the weak attractions that exist between any two molecules and grow with surface area.
+
+###### Boiling point
+
+- **Rises with the number of carbons**: a bigger molecule has more surface contact and larger van der Waals forces.
+- **Falls with branching**: a branched molecule is more compact, so less surface area and weaker van der Waals forces. Butan-2-ol boils lower than butan-1-ol.
+- **Alcohols and phenols boil much higher than hydrocarbons, ethers, haloalkanes and haloarenes of similar molar mass**, because the $\ce{-OH}$ forms **intermolecular hydrogen bonds** that those others lack. Boiling needs the molecules to be pulled apart, so these bonds must be broken first.
+
+| Compound | Type | Molar mass | b.p. (K) |
+|---|---|---|---|
+| Ethanol $\ce{C2H5OH}$ | alcohol | 46 | **351** |
+| Methoxymethane $\ce{CH3OCH3}$ | ether | 46 | 248 |
+| Propane $\ce{C3H8}$ | hydrocarbon | 44 | 231 |
+
+Same size, three very different boiling points; only the alcohol can hydrogen-bond *to itself*.
+
+###### Solubility in water
+
+Alcohols and phenols dissolve in water because they form hydrogen bonds with water. The $\ce{-OH}$ hydrogen is attracted to a water oxygen, and a water hydrogen to the $\ce{-OH}$ oxygen. The carbon group is **[exposure]** **hydrophobic** ("water-hating": non-polar, it does not attract water and gets in the way of hydrogen bonding), so **solubility falls as the alkyl or aryl group gets bigger**. **[exposure]** Two liquids are **miscible** if they mix in all proportions; methanol and ethanol are miscible with water in all proportions, while liquids that do not mix are **immiscible**.
+
+Worked example · NCERT Example 7.3 — arrange in increasing boiling point
+
+(a) pentan-1-ol, butan-1-ol, butan-2-ol, ethanol, propan-1-ol, methanol. (b) pentan-1-ol, n-butane, pentanal, ethoxyethane.
+
+1. (a) All are alcohols, so rank by carbon count, then branching: methanol (1 C), ethanol (2), propan-1-ol (3). Butan-2-ol and butan-1-ol both have 4 carbons; the branched butan-2-ol is lower. Then pentan-1-ol (5) is highest.
+2. (b) n-Butane is non-polar, only weak van der Waals forces: lowest. Ethoxyethane is an ether, weakly polar. Pentanal is an aldehyde with a strongly polar $\ce{C=O}$ and stronger dipole–dipole attraction. Pentan-1-ol hydrogen-bonds: highest.
+
+Answer: (a) methanol < ethanol < propan-1-ol < butan-2-ol < butan-1-ol < pentan-1-ol. (b) n-butane < ethoxyethane < pentanal < pentan-1-ol.
+
+**Examiner asks:** "why does propanol have a higher boiling point than butane?" (2019), the boiling-point arrangement of four compounds (ethoxyethane, butanal, butanol, butane; 2023). NCERT exercise 7.22 asks the same thing of ethanol against methoxymethane. The fixed answer: hydrogen bonding.
+
+#### Two ways an alcohol reacts — *which bond breaks sorts the whole reaction list*
+
+An alcohol is **versatile**: it can behave as a nucleophile and also, once protonated, as an electrophile.
+
+- **As a nucleophile:** the oxygen has lone pairs, so it is electron-rich. It attacks a positive carbon, and in the process the **O–H bond breaks** (the hydrogen leaves as $\ce{H+}$).
+- **As an electrophile** (only after it picks up $\ce{H+}$): the oxygen takes a proton from an acid and becomes a **[exposure]** **protonated alcohol** $\ce{ROH2+}$, also called an **alkyloxonium ion**. The positive oxygen drags electrons away from the carbon, so the carbon now carries $\delta+$ and a nucleophile can attack it; water leaves as the leaving group, so the **C–O bond breaks**. A plain alcohol does not act as an electrophile; only the protonated one does.
+
+On that basis the reactions fall into two lists, and the rest of the chapter follows it:
+
+| O–H bond breaks | C–O bond breaks (alcohols only) |
+|---|---|
+| Reaction with metals (acidity)
+Reaction with NaOH (phenols only)
+Esterification and acetylation | Reaction with HX and the Lucas test
+Reaction with phosphorus halides and $\ce{SOCl2}$
+Dehydration to alkenes
+(Oxidation breaks O–H and C–H, a separate case) |
+
+Phenols show C–O cleavage only with zinc dust, because the carbon of a phenol is $sp^2$ and the C–O bond is strong (partial double-bond character).
+
+**Examiner asks:** nothing separately, but it organises every answer: before writing a mechanism ask "which bond is breaking?"
+
+#### Acidity of alcohols and phenols — *proton donors; the weaker the conjugate base's grip on a negative charge, the stronger the acid*
+
+**[exposure]** A **Brønsted acid** is a species that **donates a proton** ($\ce{H+}$) to a base. The **conjugate base** is what is left after it gives up the proton: $\ce{ROH}$ gives $\ce{RO^-}$. A **stronger acid** gives up its proton more easily, which happens when the conjugate base is **more stable**. Two things make an acid strong: the O–H bond is more polar (so the hydrogen leaves easily), and the negative charge left on oxygen is spread out and stabilised.
+
+###### Reactions that show the acidity
+
+- **With active metals** (sodium, potassium, aluminium: metals that displace hydrogen): alcohols give **alkoxides**, phenols give **phenoxides**, and hydrogen gas escapes. $\ce{2ROH + 2Na -> 2RONa + H2}$; $\ce{2C2H5OH + 2Na -> 2C2H5ONa + H2}$ (sodium ethoxide); $\ce{2C6H5OH + 2Na -> 2C6H5ONa + H2}$.
+- **With aqueous NaOH — phenols only:** $\ce{C6H5OH + NaOH -> C6H5ONa + H2O}$, an acid-plus-base neutralisation to a salt and water. Alcohols do **not** do this, which is the evidence that **phenols are more acidic than alcohols and water**.
+
+###### Acidity of alcohols: weak, and the carbon group makes it weaker
+
+The acidity of an alcohol comes from the polar O–H bond: oxygen is electronegative, so oxygen is $\delta-$ and hydrogen $\delta+$, and the electrons are held towards oxygen. An alkyl group is an **[exposure]** **electron-releasing** group (it pushes electron density towards the atom it is attached to; this is the +I effect). It pushes electrons *onto the oxygen*, which lowers the polarity of O–H, so the hydrogen leaves less easily. More alkyl groups, less acidity:
+
+**Acid strength, strongest first: methanol > primary > secondary > tertiary alcohols.**
+
+A primary alcohol has one pushing alkyl group, a secondary has two and a tertiary three. Alcohols are also **weaker acids than water**: water has no alkyl group to push electrons. Proof: an alkoxide takes a proton from water, $\ce{RO^- + H2O -> ROH + OH^-}$, so water is the better proton donor, and an **alkoxide ion is a stronger base than hydroxide** (sodium ethoxide is a stronger base than sodium hydroxide). Alcohols are also **Brønsted bases** as well as acids: the lone pairs on oxygen let them *accept* a proton.
+
+###### Acidity of phenol: why it beats alcohols and water
+
+**[exposure]** **Resonance** is the delocalisation of electrons over several atoms, so that the true structure is a blend of several drawings (**resonance structures**) that differ only in where the electrons sit. A charge spread over several atoms is more stable than one stuck on a single atom. Phenol is acidic for two reasons.
+
+1. **The $\ce{-OH}$ carbon is $sp^2$, not $sp^3$.** An $sp^2$ orbital has 33% s-character against 25% for $sp^3$, and more s-character means the carbon holds its electrons more tightly (**more electronegative**). So in phenol the carbon pulls electron density off the oxygen, the O–H bond becomes more polar, and the proton leaves more easily. In an alcohol the alkyl carbon is less electronegative and also pushes electrons onto oxygen.
+2. **Phenoxide ion is stabilised by resonance; alkoxide ion is not.** In $\ce{RO^-}$ the whole negative charge is stuck on one oxygen atom — concentrated charge, unstable. In $\ce{C6H5O^-}$ the negative charge spreads from oxygen onto the ortho and para carbons of the ring (five resonance structures), so it is spread out and the ion is far more stable. A more stable conjugate base means a stronger acid.
+
+Phenol itself also has resonance structures, but they all have **charge separation** (a plus on oxygen and a minus on a ring carbon), which is destabilising; so the phenoxide ion gains much more from resonance than phenol does. That difference of stability is what drives ionisation. Phenol is about a million times more acidic than ethanol (pK_a 10.0 against 15.9).
+
+###### Substituted phenols
+
+**[exposure]** pK_a is a number that measures acid strength: **the smaller the pK_a, the stronger the acid** ($\mathrm{p}K_a = -\log K_a$). **[exposure]** An **electron-withdrawing group** (such as $\ce{-NO2}$) pulls electron density towards itself; an electron-releasing group (such as $\ce{-CH3}$) pushes it away.
+
+- **Electron-withdrawing groups (–NO_2) increase acidity**, most strongly at **ortho and para**, because the negative charge of the phenoxide ion can be delocalised right onto the nitro group.
+- **Electron-releasing groups (–CH_3, alkyl) decrease acidity**: cresols are less acidic than phenol.
+
+| Compound | pK_a | Compound | pK_a |
+|---|---|---|---|
+| o-Nitrophenol | **7.2** | o-Cresol | 10.2 |
+| m-Nitrophenol | 8.3 | m-Cresol | 10.1 |
+| p-Nitrophenol | **7.1** | p-Cresol | 10.2 |
+| Phenol | 10.0 | Ethanol | 15.9 |
+
+Read the table: p- and o-nitrophenol (7.1, 7.2) are stronger acids than m-nitrophenol (8.3), because the meta nitro cannot take the negative charge by resonance. All three nitrophenols are stronger than phenol (10.0), and the cresols (about 10.2) are weaker.
+
+Worked example · NCERT intext 7.8 — why o- and p-nitrophenol are more acidic than phenol
+
+1. Remove $\ce{H+}$ from o- or p-nitrophenol to get the nitrophenoxide ion. As in phenoxide, the negative charge on oxygen moves onto the ring carbons ortho and para to the oxygen.
+2. The nitro group is itself at an ortho or para carbon. Charge arriving there can move on into the $\ce{N=O}$ part of the nitro group, ending up on its oxygen atoms. That is two more resonance structures than plain phenoxide has.
+3. The charge is delocalised over the ring **and** onto the nitro group; phenoxide has only the ring. A more stable conjugate base means a stronger acid.
+
+Worked example · NCERT Example 7.4 — increasing acid strength
+
+Propan-1-ol, 2,4,6-trinitrophenol, 3-nitrophenol, 3,5-dinitrophenol, phenol, 4-methylphenol.
+
+1. The alcohol is weakest of all (no resonance in its conjugate base).
+2. Among the phenols, the methyl (electron-releasing) is weaker than phenol itself.
+3. Then nitrophenols, in order of the number of nitro groups: one, two, three. 2,4,6-Trinitrophenol (picric acid) has three nitro groups, two of them at ortho and para, so it is the strongest.
+
+Answer: propan-1-ol < 4-methylphenol < phenol < 3-nitrophenol < 3,5-dinitrophenol < 2,4,6-trinitrophenol.
+
+> **Trap:** an alcohol is **not** a stronger acid because "alkyl groups are bigger" — the order of alcohol acidity is primary > secondary > tertiary because alkyl groups push electrons *onto* the oxygen, which makes the proton harder to lose. And for phenols the nitro group helps most at ortho and para; at meta it helps less.
+
+**Examiner asks:** "why is phenol more acidic than cyclohexanol" (2023) and "why is an alcohol less acidic than phenol" (2019): resonance-stabilised phenoxide against an unstabilised alkoxide; "arrange p-cresol, p-nitrophenol and phenol" (2017); "ortho and para nitrophenols are more acidic than phenol, draw the resonance structures". Always give the conjugate-base argument.
+
+#### Esterification and acetylation — *the O–H bond breaks; the oxygen attacks an acid derivative*
+
+**[exposure]** An **ester** is a compound $\ce{RCOOR'}$ made from a carboxylic acid and an alcohol (or phenol). **Esterification** is the making of an ester. The group $\ce{RCO\bond{-}}$ (the acid with its $\ce{-OH}$ removed) is called the **[exposure]** **acyl group**; it combines with the $\ce{R'O\bond{-}}$ part of the alcohol. Alcohols and phenols give esters with three kinds of acid derivative:
+
+| Reacts with | Conditions | By-product |
+|---|---|---|
+| **Carboxylic acid** $\ce{RCOOH}$ | a little conc. $\ce{H2SO4}$ (catalyst, and it removes water) | $\ce{H2O}$ |
+| **Acid anhydride** $\ce{(RCO)2O}$ | a little conc. $\ce{H2SO4}$ | $\ce{RCOOH}$ |
+| **Acid chloride** $\ce{RCOCl}$ | in the presence of a base, **pyridine** | $\ce{HCl}$ (taken up by the pyridine) |
+
+$$\ce{CH3COOH + C2H5OH <=>[conc. H2SO4] CH3COOC2H5 + H2O}$$ $$\ce{(CH3CO)2O + C2H5OH -> CH3COOC2H5 + CH3COOH}$$ $$\ce{CH3COCl + C2H5OH ->[pyridine] CH3COOC2H5 + HCl}$$
+
+All three give **ethyl ethanoate**. **[exposure]** The reaction with the acid is **reversible** (it runs in both directions until an equilibrium is reached). To make more ester, **remove the water as soon as it forms**: by Le Chatelier's principle, taking away a product pushes the equilibrium to the right. With the acid chloride, the base neutralises the $\ce{HCl}$ that forms, which also shifts the equilibrium to the right.
+
+###### Acetylation and aspirin
+
+**[exposure]** **Acetylation** is putting an **acetyl** group $\ce{CH3CO\bond{-}}$ onto the oxygen of an alcohol or phenol. Salicylic acid (2-hydroxybenzoic acid) has a phenolic $\ce{-OH}$ and a $\ce{-COOH}$. Acetic anhydride acetylates the $\ce{-OH}$ and leaves the $\ce{-COOH}$ alone: the product is **acetylsalicylic acid, aspirin**, with ethanoic acid as by-product.
+
+$$\ce{HO-C6H4-COOH + (CH3CO)2O -> CH3COO-C6H4-COOH}$$ with $\ce{CH3COOH}$ as the by-product.
+
+Aspirin is used as a medicine: it is an **analgesic** (pain reliever), **anti-inflammatory** and **antipyretic** (fever reducer).
+
+**Examiner asks:** acetylation of salicylic acid to give aspirin (2020, "name the product and its use"); why pyridine is used with an acid chloride. Say: it neutralises $\ce{HCl}$ and shifts the equilibrium forward.
+
+#### Reactions of alcohols that break the C–O bond: halides and the Lucas test — *protonate the oxygen, let water leave, let a halide in*
+
+###### 1. With hydrogen halides (and the Lucas test)
+
+$$\ce{ROH + HX -> RX + H2O}$$
+
+The alcohol is protonated (the oxygen takes $\ce{H+}$), water leaves, and the halide ion attacks the carbon. The three classes of alcohol react at **very different speeds**, and that is how they are told apart. **[exposure]** The **Lucas reagent** is a mixture of **concentrated $\ce{HCl}$ and anhydrous $\ce{ZnCl2}$**. All the alcohols start by dissolving in it. As the alcohol turns into an alkyl chloride, the chloride is **immiscible** (does not mix) with the solution, so it separates as tiny droplets and the solution goes cloudy. That cloudiness is **[exposure]** **turbidity**.
+
+| Alcohol class | What you see with Lucas reagent at room temperature |
+|---|---|
+| **Tertiary** | turbidity **immediately**: fastest |
+| **Secondary** | turbidity after about **five minutes** |
+| **Primary** | **no** turbidity at room temperature (it reacts only on heating) |
+
+Reactivity: **tertiary > secondary > primary**, because a tertiary alcohol forms its more stable carbocation fastest. A primary alcohol, such as propan-1-ol, gives no cloudiness in the cold; 2-methylpropan-2-ol gives it at once. That pair is a favourite question.
+
+###### 2. With phosphorus trihalides and thionyl chloride
+
+Alcohols react with $\ce{PCl3}$, $\ce{PBr3}$ and $\ce{PI3}$ to give alkyl halides; the phosphorus ends up as phosphorous acid $\ce{H3PO3}$. With **thionyl chloride** $\ce{SOCl2}$ the $\ce{OH}$ is replaced by $\ce{Cl}$, and the by-products are both gases, $\ce{SO2}$ and $\ce{HCl}$, which escape and make the chloride easy to isolate.
+
+$$\ce{3C2H5OH + PCl3 -> 3C2H5Cl + H3PO3}$$ $$\ce{ROH + SOCl2 -> RCl + SO2 ^ + HCl ^}$$
+
+Worked example · NCERT intext 7.6 — butan-1-ol and 2-methylbutan-2-ol with (a) $\ce{HCl/ZnCl2}$, (b) $\ce{HBr}$, (c) $\ce{SOCl2}$
+
+In every case $\ce{-OH}$ is replaced by the halogen; the carbon skeleton does not change.
+
+1. Butan-1-ol, $\ce{CH3CH2CH2CH2OH}$: (a) 1-chlorobutane (slowly, primary); (b) **1-bromobutane**; (c) **1-chlorobutane** + $\ce{SO2}$ + $\ce{HCl}$.
+2. 2-Methylbutan-2-ol, $\ce{CH3CH2C(CH3)2OH}$: (a) **2-chloro-2-methylbutane** (immediately, tertiary); (b) **2-bromo-2-methylbutane**; (c) 2-chloro-2-methylbutane.
+
+**Examiner asks:** the product of butan-2-ol with $\ce{SOCl2}$ (2-chlorobutane, 2017); "distinguish 1-propanol from 2-methyl-2-propanol" (2019): Lucas test; $\ce{HCl}$ with a compound that has both a phenolic and a benzylic $\ce{-OH}$ (2020, see PYQ).
+
+#### Dehydration of alcohols to alkenes — *remove water from one molecule; the temperature and acid strength depend on the class*
+
+**[exposure]** **Dehydration** means removing a molecule of water. Heated with a **[exposure]** **protic acid** (an acid that gives up $\ce{H+}$: concentrated $\ce{H2SO4}$, or $\ce{H3PO4}$), or over catalysts such as **anhydrous $\ce{ZnCl2}$** or **alumina $\ce{Al2O3}$**, an alcohol loses $\ce{OH}$ from one carbon and $\ce{H}$ from the neighbouring carbon and gives an **alkene**.
+
+$$\ce{CH3CH2OH ->[conc. H2SO4][443 K] CH2=CH2 + H2O}$$
+
+The class of the alcohol sets how hard you must push. **Primary** needs strong acid and high temperature; **secondary and tertiary** dehydrate under **milder conditions**:
+
+| Alcohol | Conditions | Product |
+|---|---|---|
+| Ethanol (1°) | conc. $\ce{H2SO4}$, **443 K** | ethene |
+| Propan-2-ol (2°) | **85%** $\ce{H3PO4}$, 440 K | propene |
+| tert-Butyl alcohol (3°) | **20%** $\ce{H3PO4}$, **358 K** | 2-methylpropene |
+
+**Relative ease of dehydration: tertiary > secondary > primary.** The reason is the same as in the Lucas test: the step that decides the speed forms a carbocation, and tertiary carbocations are the most stable and so form most readily.
+
+###### Mechanism (ethanol to ethene), three steps
+
+1. **Formation of protonated alcohol** (fast). The oxygen has lone pairs and takes $\ce{H+}$ from the acid: $\ce{CH3CH2OH + H+ -> CH3CH2-OH2+}$ (an **ethyloxonium ion**; **[exposure]**  an **oxonium ion** is an oxygen carrying a positive charge and three bonds).
+2. **Formation of carbocation** (**slowest step**). The positive oxygen pulls the bonding electrons towards itself, the C–O bond breaks and water leaves: $\ce{CH3CH2-OH2+ -> CH3CH2+ + H2O}$. Because it is the slowest step of the reaction, it is the **rate-determining step**: the overall speed is the speed of this step.
+3. **Formation of ethene by elimination of a proton.** The carbocation loses $\ce{H+}$ from the neighbouring carbon; the C–H electrons form the $\ce{C=C}$: $\ce{CH3CH2+ -> CH2=CH2 + H+}$.
+
+The acid used in step 1 is released in step 3, so it behaves as a catalyst. The reaction is an equilibrium, so to push it to the right **ethene is removed as it forms** (Le Chatelier's principle again).
+
+Worked example · NCERT intext 7.7 — major product of acid-catalysed dehydration
+
+1. **1-Methylcyclohexanol**: a tertiary alcohol. $\ce{OH}$ leaves from the ring carbon that carries the methyl, and an $\ce{H}$ leaves from a neighbouring ring carbon: **1-methylcyclohexene**, the alkene with three alkyl groups on the double bond (the most stable).
+2. **Butan-1-ol**: gives a **mixture of but-1-ene and but-2-ene**, with **but-2-ene as the major product**. It has two alkyl groups on the $\ce{C=C}$ and is more stable than but-1-ene; NCERT's explanation is that the primary carbocation **rearranges** (a hydride shift) to the more stable secondary carbocation before losing $\ce{H+}$.
+
+> **Trap:** "which dehydrates faster, tert-butyl alcohol or n-butanol?" The answer is **tert-butyl alcohol**, and the argument must be about the **carbocation** (tertiary is more stable, so the slow step is faster) — not just "tertiary has more carbons". Write the protonation and the carbocation for both and compare.
+
+**Examiner asks:** the mechanism of dehydration of ethanol to ethene at 443 K (2019); "tert-butyl alcohol heated with 20% $\ce{H3PO4}$ at 358 K" (2020); "which undergoes dehydration faster" (2020). Always give the three steps with their names.
+
+#### Oxidation of alcohols — *primary, secondary and tertiary alcohols give three different outcomes — choose the reagent*
+
+**[exposure]** In organic chemistry **oxidation** of an alcohol means forming a $\ce{C=O}$ bond at the carbon that carried the $\ce{-OH}$, which needs **that carbon to have a hydrogen to lose**, together with the hydrogen of the $\ce{O-H}$. It is also called **dehydrogenation** (loss of $\ce{H2}$). The oxidising agent decides how far a primary alcohol goes.
+
+| Alcohol | Oxidising agent | Product |
+|---|---|---|
+| **Primary** | **Strong**: acidified $\ce{KMnO4}$ or $\ce{K2Cr2O7}$ | aldehyde first, which is oxidised further to a **carboxylic acid** with the same number of carbons |
+| **Primary** | **Mild**: $\ce{CrO3}$ in anhydrous medium, or **PCC** | stops at the **aldehyde** |
+| **Secondary** | $\ce{CrO3}$ (chromic anhydride), $\ce{K2Cr2O7}$, PCC | **ketone** with the same number of carbons |
+| **Tertiary** | normal oxidants | **no reaction** |
+
+$$\ce{RCH2OH ->[acidified KMnO4] RCHO}$$ $$\ce{RCHO ->[acidified KMnO4] RCOOH}$$ $$\ce{RCH2OH ->[CrO3, anhydrous] RCHO}$$ $$\ce{R2CHOH ->[CrO3] R2C=O}$$
+
+**[exposure]** **PCC** is **pyridinium chlorochromate**, a complex of chromium trioxide with pyridine and $\ce{HCl}$. It is the **better reagent** for primary alcohol to aldehyde: good yield of aldehyde and it does not touch a $\ce{C=C}$ double bond in the molecule. Why do we need a mild reagent? Because an aldehyde is easier to oxidise than the alcohol; a strong oxidant would carry it on to the acid.
+
+###### Tertiary alcohols resist oxidation
+
+The carbon that carries $\ce{-OH}$ has no hydrogen, so no $\ce{C=O}$ can form without breaking a **C–C bond**, which is hard. Under severe conditions (strong oxidant such as $\ce{KMnO4}$ and high temperature) C–C bonds do break, and you get a **mixture of carboxylic acids with fewer carbons**.
+
+###### Catalytic dehydrogenation
+
+When the **vapour** of a primary or secondary alcohol is passed over **heated copper at 573 K**, hydrogen gas is removed: a primary alcohol gives an **aldehyde**, a secondary alcohol a **ketone**. A tertiary alcohol has no hydrogen on the $\ce{-OH}$ carbon, so under the same conditions it **dehydrates to an alkene** instead (it loses $\ce{OH}$ and a $\beta$ hydrogen).
+
+$$\ce{RCH2OH ->[Cu, 573 K] RCHO + H2}$$ $$\ce{R2CHOH ->[Cu, 573 K] R2C=O + H2}$$ $$\ce{(CH3)3C-OH ->[Cu, 573 K] (CH3)2C=CH2 + H2O}$$
+
+###### Why methanol is poisonous
+
+In the body methanol is oxidised first to methanal and then to methanoic acid, which can cause **blindness and death**. Patients are treated with intravenous dilute ethanol: ethanol uses up the same enzyme, giving the kidneys time to excrete the methanol.
+
+**Examiner asks:** "butan-2-ol with $\ce{CrO3}$" (2017: butanone); "ethanol to ethanal" (2019: PCC, not $\ce{KMnO4}$); "tert-butyl alcohol over copper at 573 K" (2020: 2-methylpropene); "why are tertiary alcohols resistant to oxidation" (2025). Match the reagent to the class before you write anything.
+
+#### Reactions of phenol on the ring — *–OH makes the ring electron-rich, so it reacts readily and at the ortho and para positions*
+
+**[exposure]** **Electrophilic aromatic substitution** is a reaction in which an electron-poor species (an electrophile) replaces a hydrogen on a benzene ring. A group already on the ring either **activates** it (makes it react faster than benzene) or **deactivates** it, and **directs** the new group to certain positions.
+
+The $\ce{-OH}$ in phenol **activates** the ring and directs the new group to the **ortho and para positions**. The oxygen has a lone pair that it can push into the ring by **resonance** (the +R effect). The lone pair pushes electrons onto the carbons ortho and para to the $\ce{-OH}$ (two ortho carbons and one para), so these positions are electron-rich and attract an electrophile.
+
+###### 1. Nitration
+
+- **Dilute $\ce{HNO3}$ at low temperature (298 K):** a mixture of **o-nitrophenol and p-nitrophenol**.
+- **Concentrated $\ce{HNO3}$:** three nitro groups (two ortho, one para): **2,4,6-trinitrophenol, picric acid**. The yield is poor. The better way: phenol with conc. $\ce{H2SO4}$ gives phenol-2,4-disulphonic acid, which is then nitrated with conc. $\ce{HNO3}$; the sulphonic acid groups are replaced and picric acid forms in good yield. Picric acid is a strong acid because three electron-withdrawing nitro groups spread the negative charge.
+
+$$\ce{C6H5OH ->[dil. HNO3][298 K] o-O2N-C6H4-OH + p-O2N-C6H4-OH}$$
+
+$$\ce{C6H5OH ->[conc. H2SO4] C6H3(OH)(SO3H)2}$$ $$\ce{C6H3(OH)(SO3H)2 ->[conc. HNO3] (O2N)3C6H2OH}$$ The last product is 2,4,6-trinitrophenol, picric acid.
+
+**[exposure]** **Steam distillation** separates liquids by boiling them with steam: a compound that is **steam volatile** (easily carried over as vapour with steam) comes over first. Ordinary ortho and para isomers are hard to separate, but here you can: **o-nitrophenol is steam volatile** because it has an **intramolecular hydrogen bond** (between the $\ce{-OH}$ and the neighbouring $\ce{-NO2}$ of the *same* molecule), so its molecules do not stick to each other and vaporise easily. **p-Nitrophenol is less volatile**: its hydrogen bonds are **intermolecular** (the $\ce{-OH}$ of one molecule bonds to the $\ce{-NO2}$ of another), so molecules are **associated**, and heating must first break these bonds before they vaporise.
+
+###### 2. Halogenation
+
+- **$\ce{Br2}$ in a solvent of low polarity ($\ce{CS2}$ or $\ce{CHCl3}$) at low temperature (273 K):** **monobromophenols**, p-bromophenol the major product and o-bromophenol the minor one.
+- **Bromine water:** **2,4,6-tribromophenol**, a **white precipitate**. Water is very polar, so it polarises $\ce{Br2}$ further and all three positions react.
+
+$$\ce{C6H5OH + Br2 ->[CS2][273 K] p-BrC6H4OH + o-BrC6H4OH}$$ $$\ce{C6H5OH + 3Br2 ->[aq.] C6H2Br3OH v + 3HBr}$$ The precipitate is 2,4,6-tribromophenol.
+
+Benzene needs a Lewis acid ($\ce{FeBr3}$) to polarise $\ce{Br2}$ into $\ce{Br+}$; **phenol does not need it**, because the ring is so electron-rich that an approaching $\ce{Br2}$ is polarised by the ring itself: **the highly activating effect of $\ce{-OH}$**.
+
+Worked example · NCERT Example 7.5 — nitration of 3-methylphenol
+
+Put $\ce{-OH}$ at C-1 and $\ce{-CH3}$ at C-3. The $\ce{-OH}$ directs to C-2, C-4 and C-6; the methyl (also ortho/para-directing) directs to C-2, C-4 and C-6 as well, so they agree. C-2 is between the two groups and too crowded for the incoming group, so the nitro group goes to C-4 or C-6.
+
+1. Mononitration: **3-methyl-4-nitrophenol** and **5-methyl-2-nitrophenol**.
+2. Dinitration: both C-4 and C-6: **5-methyl-2,4-dinitrophenol**.
+3. Mononitration of phenyl methanoate (the ester $\ce{C6H5OCHO}$): the ester oxygen also donates a lone pair, so the group is ortho/para-directing, and the major product is the para nitro compound.
+
+###### 3. Kolbe's reaction
+
+Phenol with $\ce{NaOH}$ gives **sodium phenoxide**, which is **even more reactive** than phenol towards electrophiles, because the ion carries a full negative charge pushing into the ring. That is enough for it to react with **carbon dioxide**, which is only a **weak electrophile**. $\ce{CO2}$ goes to the ortho position, and acidification gives **2-hydroxybenzoic acid, salicylic acid**.
+
+$$\ce{C6H5OH ->[NaOH] C6H5ONa}$$ $$\ce{C6H5ONa ->[(i) CO2][(ii) H+] HO-C6H4-COOH}$$
+
+###### 4. Reimer–Tiemann reaction
+
+Phenol is treated with **chloroform** $\ce{CHCl3}$ in **aqueous $\ce{NaOH}$**. A $\ce{-CHCl2}$ group goes onto the ortho position (the phenol is present as the phenoxide), giving an intermediate **substituted benzal chloride**; the alkali hydrolyses this to a $\ce{-CHO}$ group, and acidification gives **2-hydroxybenzaldehyde, salicylaldehyde**. So the $\ce{-CHO}$ group is introduced at the ortho position.
+
+$$\ce{C6H5OH + CHCl3 ->[aq. NaOH] o-NaO-C6H4-CHCl2}$$ $$\ce{o-NaO-C6H4-CHCl2 ->[NaOH] o-NaO-C6H4-CHO}$$ $$\ce{o-NaO-C6H4-CHO ->[H+] o-HO-C6H4-CHO}$$
+
+###### 5. Zinc dust, oxidation, and the iron(III) test
+
+- **With zinc dust**, heated: phenol is reduced to **benzene**, and zinc is oxidised to $\ce{ZnO}$. $\ce{C6H5OH + Zn -> C6H6 + ZnO}$. This is the only C–O cleavage a phenol shows.
+- **Oxidation** with chromic acid ($\ce{Na2Cr2O7}$ with $\ce{H2SO4}$) gives **benzoquinone**, a **[exposure]** **conjugated diketone** (a ring with two $\ce{C=O}$ groups and two $\ce{C=C}$ in alternation; $\ce{O=C6H4=O}$). In air, phenol slowly oxidises to a dark mixture containing quinones.
+- **Neutral $\ce{FeCl3}$ test** (asked in board papers): phenol gives a **violet colour** (an iron–phenoxide complex, $\ce{[Fe(OC6H5)6]^3-}$); alcohols give nothing. It is the standard way to tell a phenol from an alcohol. This test is not printed on the NCERT pages checked for these notes; it comes from the PYQ video.
+
+**Examiner asks:** "write the Reimer–Tiemann and Kolbe reactions" (2016), "phenol to picric acid" (year not stated), "phenol to benzene / toluene" (2019), "why is o-nitrophenol steam volatile" (2019), "phenol with bromine water" (2024), "phenol with bromine in $\ce{CS2}$" (2024). Name the product and say what it looks like (white precipitate; yellow solid for picric acid).
+
+#### Methanol and ethanol, the two commercial alcohols — *where they come from, the numbers, and why one is a poison*
+
+###### Methanol, $\ce{CH3OH}$
+
+- Called **wood spirit** because it was once made by the **[exposure]** **destructive distillation of wood** (heating wood strongly in the absence of air so that it breaks down).
+- Today it is made by **catalytic hydrogenation of carbon monoxide** at high temperature and pressure over a $\ce{ZnO-Cr2O3}$ catalyst: $\ce{CO + 2H2 ->[ZnO-Cr2O3][573-673 K, 200-300 atm] CH3OH}$. (The numeric conditions are quoted in the lecture; NCERT says only "high pressure and temperature".)
+- Colourless liquid, boiling point **337 K**, **highly poisonous**: small quantities cause blindness, large ones death.
+- Used as a solvent in paints and varnishes, and chiefly for making methanal (formaldehyde).
+
+###### Ethanol, $\ce{C2H5OH}$
+
+**[exposure]** **Fermentation** is the breaking down of sugar by the action of yeast, in the **absence of air** (**anaerobic** conditions), giving alcohol and carbon dioxide. An **[exposure]** **enzyme** is a protein that speeds up a reaction in a living thing; each enzyme works on one kind of reaction.
+
+1. The sugar in molasses, sugarcane or fruits such as grapes is **sucrose**. The enzyme **invertase** hydrolyses it into **glucose and fructose**, both of formula $\ce{C6H12O6}$ (same formula, different structures).
+2. The enzyme **zymase**, present in **yeast**, ferments glucose or fructose: $\ce{C6H12O6 ->[zymase] 2C2H5OH + 2CO2}$.
+
+In wine making, grapes supply both sugar and yeast: as grapes ripen the sugar content rises and yeast grows on the outer skin; when grapes are crushed, the sugar and the yeast enzyme meet and fermentation starts.
+
+- **The action of zymase stops once the alcohol exceeds about 14%**. To get stronger alcohol you must **distil**.
+- If **air gets into the fermentation mixture**, its oxygen oxidises ethanol to **ethanoic acid**, which destroys the taste of the drink.
+- Ethanol is a colourless liquid, boiling point **351 K**. Uses: a solvent in the paint industry, and to make many carbon compounds. Today much ethanol is made by **hydration of ethene**.
+
+**[exposure]** **Denatured alcohol:** commercial ethanol is made unfit to drink by adding **copper sulphate** (to give it a colour) and **pyridine** (a foul-smelling liquid), so that nobody drinks it. This is called **denaturation** of alcohol.
+
+**Examiner asks:** recall questions: the catalyst for methanol (ZnO–Cr_2O_3), the enzymes invertase and zymase, why fermentation stops at 14%, and what denatured alcohol contains. Not a heavy section, but easy marks.
+
+#### Preparing ethers — *two routes — dehydration of a primary alcohol, and the Williamson synthesis*
+
+###### 1. Dehydration of alcohols (bimolecular)
+
+The same acid dehydration can give an alkene or an ether, depending on the conditions. With ethanol and conc. $\ce{H2SO4}$: at **443 K** the product is **ethene**; at the lower temperature of **413 K**, with excess alcohol, the product is **ethoxyethane**. This is called **bimolecular** dehydration because **two alcohol molecules** combine, losing one water molecule.
+
+$$\ce{2CH3CH2OH ->[conc. H2SO4][413 K] CH3CH2-O-CH2CH3 + H2O}$$
+
+**Mechanism** (a nucleophilic bimolecular, **SN2**, reaction: one step in which the nucleophile arrives while the leaving group departs):
+
+1. **Protonation:** $\ce{CH3CH2OH + H+ -> CH3CH2-OH2+}$.
+2. **Attack of a second alcohol molecule** on the protonated alcohol: its oxygen lone pair attacks the carbon (which is $\delta+$ because the oxygen is positive), and water leaves in the same step. This gives a protonated ether: $\ce{CH3CH2-OH2+ + CH3CH2OH -> CH3CH2-O+(H)-CH2CH3 + H2O}$.
+3. **Loss of a proton** from that oxygen gives the ether and returns $\ce{H+}$: the acid is a catalyst.
+
+**Limits.** The method works only for ethers with **primary alkyl groups**: the alkyl group must be unhindered (no branching) and the temperature kept low. With secondary and tertiary alcohols the carbon is crowded, one alcohol molecule cannot attack another, and **elimination wins over substitution**, so an alkene forms (tert-butyl alcohol with $\ce{H2SO4}$ gives 2-methylpropene). The method also gives only **symmetrical** ethers, because it makes the same group on both sides. (NCERT asks why it is not appropriate for ethyl methyl ether: a mixture of alcohols gives a mixture of three ethers, $\ce{CH3OCH3}$, $\ce{C2H5OC2H5}$ and $\ce{CH3OC2H5}$, not one product.)
+
+###### 2. Williamson synthesis
+
+The important laboratory method, and the only one for **unsymmetrical** ethers (it also gives symmetrical ones). An **alkyl halide** reacts with a **sodium alkoxide**; the alkoxide ion is the nucleophile and displaces the halide by **SN2**.
+
+$$\ce{R-X + R'-O^-Na+ -> R-O-R' + NaX}$$ $$\ce{CH3Br + C2H5ONa -> CH3-O-C2H5 + NaBr}$$
+
+The **alkoxide may be primary, secondary or tertiary**, so an ether with a bulky group can be built, but **the alkyl halide must be primary**. An alkoxide is not only a nucleophile but also a **strong base**. With a secondary or tertiary halide it removes a hydrogen instead (**elimination**) and an alkene forms, with no ether at all.
+
+Worked example · NCERT Example 7.6 — t-butyl ethyl ether
+
+$\ce{(CH3)3C-Cl + C2H5ONa}$ is "not an appropriate reaction" for making $\ce{(CH3)3C-O-C2H5}$. What forms, and what is the right route?
+
+1. The halide is **tertiary**: three methyl groups crowd the carbon and block the nucleophile (steric hindrance). Ethoxide therefore acts as a **base**, removes a hydrogen from a methyl group and the chloride leaves: **2-methylpropene** $\ce{(CH3)2C=CH2}$ is the major product.
+2. Swap the roles: bulky group on the alkoxide, primary halide.
+
+$$\ce{(CH3)3C-O^-Na+ + CH3CH2-Cl -> (CH3)3C-O-CH2CH3}$$ plus $\ce{NaCl}$.
+
+Worked example · NCERT intext 7.10 and 7.11
+
+1. **Make 2-ethoxy-3-methylpentane from ethanol and 3-methylpentan-2-ol.** The ether has an ethyl on one side and a secondary group on the other. Primary halide, secondary alkoxide: make the alkyl halide from ethanol, $\ce{C2H5OH ->[HBr] C2H5Br}$, and the alkoxide from the secondary alcohol, $\ce{R-OH ->[Na] R-ONa}$; then combine: $\ce{C2H5Br + R-ONa -> R-O-C2H5 + NaBr}$.
+2. **Which pair makes 1-methoxy-4-nitrobenzene: (i) 4-bromonitrobenzene + $\ce{CH3ONa}$, or (ii) sodium 4-nitrophenoxide + $\ce{CH3Br}$?** Pair **(ii)**. It uses a primary alkyl halide for SN2. Pair (i) fails because an **aryl halide does not undergo nucleophilic substitution easily**: the C–Br bond has a partial double-bond character from resonance, and the carbon is $sp^2$.
+
+Phenols give ethers by the same method, with phenol as the phenoxide: phenol with $\ce{NaOH}$ gives sodium phenoxide, then $\ce{CH3Br}$ gives **anisole**, $\ce{C6H5OCH3}$.
+
+**Examiner asks:** the mechanism of ether formation from ethanol at 413 K (2023); the Williamson route to 2-methyl-2-methoxypropane (the alkyl halide must be $\ce{CH3Br}$, the alkoxide sodium tert-butoxide); "tert-butyl bromide with sodium methoxide gives an alkene, not an ether — give reason" (2019); phenol to anisole.
+
+#### Physical properties of ethers — *polar bonds, but a boiling point like an alkane's*
+
+The C–O bonds in an ether are polar (oxygen is more electronegative), so the molecule has a net **[exposure]** **dipole moment** (a measure of how unevenly charge is distributed). But the polarity is weak: the two alkyl groups sit either side of the oxygen and partly cancel it, so the ether is only weakly polar.
+
+- **Boiling point** is comparable to that of an **alkane** of similar molar mass, and **much lower than an alcohol's**, because ethers cannot hydrogen-bond to each other (no O–H).
+- **Solubility in water** is like that of an alcohol of the same molar mass: the ether oxygen can **accept a hydrogen bond from water**, even though the ether cannot hydrogen-bond to itself. An alkane cannot, and stays out of water.
+
+| Compound | Class | b.p. (K) | Solubility in 100 mL water |
+|---|---|---|---|
+| n-Pentane $\ce{CH3(CH2)3CH3}$ | alkane | 309.1 | essentially immiscible |
+| Ethoxyethane $\ce{C2H5OC2H5}$ | ether | 307.6 | 7.5 g |
+| Butan-1-ol $\ce{CH3(CH2)3OH}$ | alcohol | **390** | 9 g |
+
+**Examiner asks:** NCERT exercise 7.22 (why is ethanol's boiling point higher than methoxymethane's) and the solubility comparison above ("can you explain this observation?" — the ether oxygen hydrogen-bonds with water, so ethoxyethane and butan-1-ol are about equally soluble while pentane is not).
+
+#### Reactions of ethers: cleavage with HI — *ethers are the least reactive class — only a strong acid at high temperature breaks them*
+
+Ethers are the **least reactive** of the functional groups here: no acidic hydrogen, weak polarity. The C–O bond breaks only under **drastic conditions**: **excess concentrated HI or HBr**, at high temperature. A dialkyl ether gives **two alkyl halide molecules** with excess acid. Order of reactivity of the hydrogen halides: **HI > HBr > HCl**, because $\ce{HI}$ is the strongest acid.
+
+$$\ce{C2H5-O-C2H5 + HI -> C2H5I + C2H5OH}$$ $$\ce{C2H5OH + HI -> C2H5I + H2O}$$ $$\ce{C2H5OC2H5 + 2HI ->[excess, heat] 2C2H5I + H2O}$$
+
+###### Mechanism for ethers with primary or secondary groups (SN2)
+
+1. **Protonation** of the ether oxygen by $\ce{HI}$: $\ce{R-O-R' + HI -> R-O+(H)-R' + I^-}$ (an oxonium ion). A protonated ether has a much better leaving group than the plain ether.
+2. **Iodide attacks** and the alcohol leaves, in one step (SN2). Iodide is a good nucleophile and attacks the **less hindered, smaller** alkyl group (a big alkyl group blocks the approach and repels the iodide). So **the iodide ends up on the smaller group**: $\ce{CH3OC2H5 + HI -> CH3I + C2H5OH}$.
+3. With excess $\ce{HI}$ and heat, the alcohol formed reacts further to the alkyl iodide.
+
+###### When one group is tertiary: SN1
+
+If one group is **tertiary**, the C–O bond to it breaks first, in a slow step, giving a **stable tertiary carbocation** (the other half leaves as alcohol); iodide then attacks the carbocation quickly. The mechanism is **SN1** (two steps), and the **tertiary alkyl iodide** forms.
+
+$$\ce{(CH3)3C-O-CH3 + HI -> (CH3)3C-I + CH3OH}$$
+
+###### Alkyl aryl ethers: phenol and an alkyl halide
+
+In **anisole** $\ce{C6H5-O-CH3}$ the two C–O bonds differ. The $\ce{O-C6H5}$ bond is **stronger**: the carbon is $sp^2$, and the oxygen lone pair is shared with the ring, giving the bond **partial double-bond character**. So after protonation iodide attacks the **methyl** carbon (the O–CH_3 bond is weaker) and the products are **phenol and methyl iodide**. The phenol does not react on to give an aryl halide, because the $sp^2$ carbon cannot undergo the nucleophilic substitution that would be needed.
+
+$$\ce{C6H5-O-CH3 + HI -> C6H5OH + CH3I}$$
+
+Worked example · NCERT Example 7.7 — heating each ether with HI
+
+1. $\ce{CH3CH2CH(CH3)CH2-O-CH2CH3}$ (both groups primary): SN2; iodide takes the **smaller** group, ethyl: **$\ce{CH3CH2I}$ + $\ce{CH3CH2CH(CH3)CH2OH}$**.
+2. $\ce{CH3CH2CH2-O-C(CH3)2CH2CH3}$ (one tertiary group): SN1; tertiary iodide: **$\ce{CH3CH2C(CH3)2I}$ + $\ce{CH3CH2CH2OH}$** (2-iodo-2-methylbutane and propan-1-ol).
+3. $\ce{C6H5-CH2-O-C6H5}$ (benzyl phenyl ether): the aryl–O bond is the strong one; iodide takes the benzyl carbon: **$\ce{C6H5CH2I}$ + $\ce{C6H5OH}$**.
+
+Worked example · NCERT intext 7.12 — products with $\ce{HBr}$ and $\ce{HI}$
+
+1. $\ce{CH3CH2CH2-O-CH3 + HBr}$: both primary, SN2, bromide on the smaller (methyl) group: **$\ce{CH3Br}$ + $\ce{CH3CH2CH2OH}$**.
+2. $\ce{(CH3)3C-O-C2H5 + HI}$: one tertiary group, SN1: **$\ce{(CH3)3C-I}$ + $\ce{C2H5OH}$**.
+
+> **Trap:** do not give the same answer for every ether. Check each side: **primary/secondary on both → iodide on the smaller group (SN2)**; **a tertiary group present → the tertiary iodide (SN1)**; **aryl on one side → phenol + alkyl iodide**, never an aryl iodide.
+
+**Examiner asks:** "how can phenol be prepared from anisole? give reason" (2023); "ether with a tertiary butyl group heated with HI" (2025); "benzyl phenyl ether with HI" (2020). The reason for the aryl case is always the partial double bond.
+
+#### Reactions of aryl alkyl ethers on the ring — *–OR behaves like –OH: an activator that directs ortho and para*
+
+An alkoxy group $\ce{-OR}$ on a benzene ring **activates** it and **directs ortho and para**, exactly as the $\ce{-OH}$ of phenol does, through the same resonance donation from the oxygen lone pair. The para product is the major one (anisole's para isomer is the favoured product: less crowded). Three reactions, all with anisole:
+
+| Reaction | Reagent | Major product | Minor product |
+|---|---|---|---|
+| **Bromination** | $\ce{Br2}$ in ethanoic acid, **no $\ce{FeBr3}$ needed** | p-bromoanisole (about 90%) | o-bromoanisole |
+| **Friedel–Crafts alkylation** | $\ce{CH3Cl}$, anhydrous $\ce{AlCl3}$ | 4-methoxytoluene | 2-methoxytoluene |
+| **Friedel–Crafts acylation** | $\ce{CH3COCl}$, anhydrous $\ce{AlCl3}$ | 4-methoxyacetophenone | 2-methoxyacetophenone |
+| **Nitration** | conc. $\ce{H2SO4}$ + conc. $\ce{HNO3}$ | 4-nitroanisole | 2-nitroanisole |
+
+**[exposure]** A **Friedel–Crafts reaction** puts an **alkyl** group (alkylation) or an **acyl** group $\ce{RCO\bond{-}}$ (acylation) on a benzene ring, using an alkyl or acyl halide and a Lewis acid catalyst. A **[exposure]** **Lewis acid** is an electron-pair acceptor, such as $\ce{AlCl3}$, which is electron-deficient. It pulls the chloride off the reagent: $\ce{CH3Cl + AlCl3 -> CH3+ + AlCl4^-}$ and $\ce{CH3COCl + AlCl3 -> CH3CO+ + AlCl4^-}$. The positive $\ce{CH3+}$ or $\ce{CH3CO+}$ is the electrophile that the ring attacks. Acetophenone is a benzene ring with a $\ce{COCH3}$ group, which is a ketone.
+
+$$\ce{C6H5OCH3 + CH3COCl ->[anhyd. AlCl3] p-CH3O-C6H4-COCH3}$$ $$\ce{C6H5OCH3 + HNO3 ->[H2SO4] p-CH3O-C6H4-NO2}$$ Each reaction also gives a little of the ortho isomer.
+
+Bromination needs no $\ce{FeBr3}$ for the same reason as in phenol: the methoxy group makes the ring so electron-rich that it polarises $\ce{Br2}$ itself.
+
+**Examiner asks:** "Friedel–Crafts acylation of anisole" (2016, 3 marks), "nitration of anisole" (2025), "anisole with $\ce{CH3Cl}$ and anhydrous $\ce{AlCl3}$" (2024). Name both isomers and say which is major.
+
+#### Patterns, collected — *the orderings, tests, reagent choices and conversions you will actually be asked to produce*
+
+###### 1. Rank by acidic strength
+
+Worked example
+
+Arrange in increasing acidic strength: p-cresol, p-nitrophenol, phenol (2017).
+
+1. Look at the substituent: $\ce{-CH3}$ releases electrons, so p-cresol is weaker than phenol. $\ce{-NO2}$ withdraws electrons (and delocalises the charge from the para position), so p-nitrophenol is stronger.
+
+Answer: p-cresol < phenol < p-nitrophenol.
+
+- Increasing acidic strength: ethanol, phenol, water — answer only: ethanol < water < phenol
+
+- Increasing acid strength of methanol, propan-2-ol, ethanol, 2-methylpropan-2-ol — answer only: 2-methylpropan-2-ol < propan-2-ol < ethanol < methanol
+
+- Which is more acidic, o-nitrophenol or m-nitrophenol? — answer only: o-nitrophenol (pK_a 7.2 against 8.3); the ortho nitro group takes the charge by resonance
+
+###### 2. Rank by boiling point
+
+Worked example
+
+Increasing boiling point: ethoxyethane, butanal, butan-1-ol, n-butane (2023).
+
+1. n-Butane: non-polar, only weak van der Waals forces: lowest.
+2. Ethoxyethane: weakly polar; then butanal: strongly polar $\ce{C=O}$, dipole–dipole attraction.
+3. Butan-1-ol: hydrogen bonds, the strongest: highest.
+
+Answer: n-butane < ethoxyethane < butanal < butan-1-ol.
+
+- Higher boiling point: propan-1-ol or butane — answer only: propan-1-ol (hydrogen bonding)
+
+- Higher boiling point: butan-1-ol or butan-2-ol — answer only: butan-1-ol (less branched, larger surface area)
+
+###### 3. Distinguish by a test
+
+Worked example
+
+Distinguish propan-1-ol from 2-methylpropan-2-ol (2019).
+
+Add Lucas reagent ($\ce{conc. HCl + anhydrous ZnCl2}$) to each at room temperature. The tertiary alcohol, 2-methylpropan-2-ol, turns cloudy immediately (alkyl chloride is immiscible); the primary alcohol gives no turbidity at room temperature.
+
+- Distinguish ethanol from dimethyl ether (2019) — answer only: iodoform test, $\ce{I2 + NaOH}$; ethanol (a $\ce{CH3CH(OH)\bond{-}}$ group) gives a yellow precipitate of $\ce{CHI3}$, the ether gives none
+
+- Distinguish phenol from cyclohexanol (2023) — answer only: neutral $\ce{FeCl3}$; phenol gives a violet colour, cyclohexanol none
+
+- Tell primary, secondary and tertiary alcohols apart — answer only: Lucas test; turbidity immediate (3°), in about five minutes (2°), none at room temperature (1°)
+
+###### 4. Choose the oxidising or reducing agent
+
+Worked example
+
+Ethanol to ethanal (2019); butan-2-ol with $\ce{CrO3}$ (2017).
+
+Use a **mild** oxidant: PCC (or anhydrous $\ce{CrO3}$) stops a primary alcohol at the aldehyde, $\ce{CH3CH2OH ->[PCC] CH3CHO}$. Strong $\ce{KMnO4}$ or $\ce{K2Cr2O7}$ would give ethanoic acid. Butan-2-ol is secondary, so $\ce{CrO3}$ gives the ketone **butanone**.
+
+- Ethanol to ethanoic acid — answer only: acidified $\ce{KMnO4}$ (or acidified $\ce{K2Cr2O7}$)
+
+- Cyclohexenol (a ring with a $\ce{C=C}$ and an $\ce{-OH}$) to the unsaturated ketone — answer only: PCC; it oxidises the alcohol without touching the double bond
+
+- Butan-2-one to butan-2-ol — answer only: $\ce{NaBH4}$ or $\ce{LiAlH4}$, or $\ce{H2/Ni}$
+
+###### 5. Williamson synthesis: pick the halide and the alkoxide
+
+Worked example
+
+2-Methyl-2-methoxypropane, $\ce{(CH3)3C-O-CH3}$ (Q10(b), year not stated).
+
+Split at the oxygen. One side is tertiary, the other methyl. The tertiary group must be the alkoxide and the methyl the halide: $\ce{(CH3)3C-ONa + CH3Br -> (CH3)3C-O-CH3 + NaBr}$ (SN2). The other way round would give an alkene.
+
+- 1-Propoxypropane — answer only: $\ce{CH3CH2CH2ONa + CH3CH2CH2Br}$
+
+- Ethoxybenzene — answer only: sodium phenoxide + bromoethane ($\ce{C6H5ONa + C2H5Br}$); not bromobenzene + sodium ethoxide
+
+- 1-Methoxyethane — answer only: $\ce{CH3ONa + CH3CH2Br}$ (or $\ce{CH3CH2ONa + CH3Br}$)
+
+###### 6. Predict the products of an ether with HI
+
+Worked example
+
+$\ce{CH3-O-C(CH3)3 + HI}$ (2025).
+
+A tertiary group is present: SN1, a tertiary carbocation forms, iodide attacks it. Products: **$\ce{(CH3)3C-I}$ + $\ce{CH3OH}$**.
+
+- Anisole with $\ce{HI}$ — answer only: phenol + $\ce{CH3I}$
+
+- Ethoxyethane with excess $\ce{HI}$ — answer only: 2 $\ce{C2H5I}$ + $\ce{H2O}$
+
+- $\ce{CH3-O-CH2CH3 + HI}$ — answer only: $\ce{CH3I}$ + $\ce{CH3CH2OH}$ (iodide on the smaller group)
+
+###### 7. Convert, using the reagent table
+
+Worked example
+
+Phenol to toluene (2019).
+
+Heat phenol with zinc dust to get benzene; then Friedel–Crafts alkylation: $\ce{C6H5OH ->[Zn dust] C6H6 ->[CH3Cl, anhyd. AlCl3] C6H5CH3}$.
+
+- Phenol to picric acid — answer only: conc. $\ce{HNO3}$ (poor yield), or conc. $\ce{H2SO4}$ first and then conc. $\ce{HNO3}$ (good yield): 2,4,6-trinitrophenol
+
+- Phenol to benzoquinone — answer only: $\ce{Na2Cr2O7 / H2SO4}$ (chromic acid)
+
+- Chlorobenzene to phenol — answer only: fuse with $\ce{NaOH}$ at 623 K and 320 atm to $\ce{C6H5ONa}$, then acidify
+
+- Aniline to phenol — answer only: $\ce{NaNO2 + HCl}$ at 273–278 K, then warm with water
+
+- Propanone to 2-methylpropan-2-ol — answer only: $\ce{CH3MgBr}$, then $\ce{H3O+}$ (a ketone gives a tertiary alcohol)
+
+- Ethanol to propan-2-ol — answer only: PCC to ethanal, then $\ce{CH3MgBr}$ and hydrolysis (an aldehyde gives a secondary alcohol)
+
+- Ethylmagnesium chloride to propan-1-ol (NCERT 7.20(iii)) — answer only: react with methanal, then hydrolyse
+
+- Phenol to anisole — answer only: $\ce{NaOH}$ to sodium phenoxide, then $\ce{CH3Br}$
+
+- Propene to propan-1-ol and to propan-2-ol — answer only: propan-1-ol by hydroboration–oxidation ($\ce{B2H6}$, then $\ce{H2O2/OH^-}$); propan-2-ol by acid-catalysed hydration
+
+###### 8. The reasons that keep coming back
+
+- **Alcohol boils higher than hydrocarbon or ether of the same mass:** intermolecular hydrogen bonding through the $\ce{O-H}$.
+- **Phenol is more acidic than an alcohol:** the phenoxide ion is stabilised by resonance; alkoxide has none (and the $sp^2$ carbon withdraws electrons).
+- **o-Nitrophenol is steam volatile, p-nitrophenol is not:** intramolecular against intermolecular hydrogen bonding.
+- **Tertiary alcohols resist oxidation:** no hydrogen on the $\ce{-OH}$ carbon.
+- **tert-Butyl halide with an alkoxide gives an alkene:** steric hindrance, so the alkoxide acts as a base (elimination).
+- **Phenol is easily nitrated or brominated:** $\ce{-OH}$ pushes electrons into the ring at ortho and para.
+- **Phenol does not protonate readily:** the oxygen lone pair is delocalised into the ring and is less available.
+- **Anisole with HI gives phenol, not an aryl iodide:** the aryl–O bond has partial double-bond character, and an $sp^2$ carbon will not undergo nucleophilic substitution.
+- **The C–O bond in phenol is shorter than in methanol:** partial double-bond character (resonance, $sp^2$ carbon).
+
+#### Past year questions · question types — *ranked by how often they turn up*
+
+*One video feeds this section: the "25 PYQ" video for CBSE 2026-27, which covers Q1–Q25, with questions from 2016 to 2025. Question numbers are the video's own. Years are as spoken in the video; where a year is spoken once for a numbered question it is applied to all its parts, and where no year was spoken the question is cited by number only. There is no second PYQ video for this chapter. Counts are by question part: 61 parts in all.*
+
+1 · Predict the product / complete the reaction
+ — *2 or 3 marks · about 27 parts*
+
+*Recognise it: "write the product of …", "write the structure of the major product", "complete the following", "what happens when …", "write the equation for …".*
+
+1. Find the functional group that reacts and name the reaction type: reduction, oxidation, hydration, dehydration, ether cleavage, Grignard addition, electrophilic substitution, acetylation.
+2. Match the reagent to the class (primary / secondary / tertiary; alkyl or aryl).
+3. Write the organic product, plus the small by-product ($\ce{H2O}$, $\ce{HCl}$, $\ce{NaBr}$) if the question wants an equation.
+4. For ring substitution give **both** ortho and para products and mark the para as major.
+
+> **Trap:** the reagent *selects* the product. $\ce{NaBH4}$ reduces a ketone and leaves an ester; PCC stops at an aldehyde and leaves a $\ce{C=C}$; $\ce{HI}$ on an alkyl aryl ether gives phenol and alkyl iodide (never an aryl iodide); anisole needs no $\ce{FeBr3}$; copper at 573 K dehydrates a tertiary alcohol instead of dehydrogenating it.
+
+2 · Give a reason / account for
+ — *2 or 3 marks · about 12 parts*
+
+*Recognise it: "give reason", "why is …", "explain why …", "account for …".*
+
+1. Name the structural feature: hydrogen bonding (inter- or intra-molecular), resonance, partial double-bond character, steric hindrance, an electron-releasing or electron-withdrawing group, a missing hydrogen.
+2. Say how that feature causes the behaviour, in one sentence, and compare with the other compound.
+
+> **Trap:** the answer is a mechanism-level sentence, not a restatement. "Phenol is more acidic" must go on to "because phenoxide is stabilised by resonance and alkoxide is not". "o-Nitrophenol is steam volatile" must name **intra**molecular against **inter**molecular hydrogen bonding.
+
+3 · Convert A to B
+ — *2 to 5 marks · about 10 parts*
+
+*Recognise it: "how will you convert …", "carry out the following conversion".*
+
+1. Say what changes: a functional group (alcohol to aldehyde), a carbon count (ethanol to propan-2-ol: one more carbon), or the class (primary to secondary).
+2. Pick the named route: Grignard for adding carbon, a mild oxidant or reductant for changing oxidation level, diazonium for aniline, fusion with $\ce{NaOH}$ for chlorobenzene.
+3. Write each step with its reagent over the arrow.
+
+> **Trap:** a secondary alcohol comes from an aldehyde (plus Grignard) or a ketone (plus a reducing agent); a tertiary alcohol comes from a ketone plus Grignard. Count the carbon neighbours of the product's $\ce{-OH}$ carbon, then work backwards.
+
+4 · Write the mechanism
+ — *2 to 5 marks · 4 parts*
+
+*Recognise it: "write the mechanism of …", "show the curved-arrow notation …".*
+
+1. Name the reaction and write the steps in order: protonation, nucleophilic attack or carbocation formation, loss of a proton.
+2. Show the movement of electron pairs from the electron-rich atom to the electron-poor one, and the charges that result. Say which step is slow.
+3. End by saying the acid is regained, so it is a catalyst.
+
+> **Trap:** hydration of an alkene (ethene plus water, $\ce{H+}$) is **three steps** and the first makes $\ce{H3O+}$; ether formation at 413 K is an **SN2** step (a second alcohol attacks the protonated one); alkene formation at 443 K goes through a **carbocation**, and that step is the slowest.
+
+5 · Distinguish between two compounds
+ — *2 or 3 marks · 3 parts*
+
+*Recognise it: "give one chemical test to distinguish between …".*
+
+1. Phenol against alcohol: neutral $\ce{FeCl3}$, violet colour for phenol.
+2. Primary against tertiary alcohol: Lucas reagent, turbidity at once for tertiary.
+3. Ethanol against an ether: iodoform test, yellow precipitate for ethanol.
+
+> **Trap:** state the reagent, the observation for **each** compound (one shows, one does not), and not just "gives a colour".
+
+6 · Arrange in order
+ — *1 to 3 marks · 2 parts*
+
+*Recognise it: "arrange in increasing order of acidic strength" and "arrange in increasing order of boiling point".*
+
+1. Acidity: electron-withdrawing group raises it, electron-releasing group lowers it, an alcohol is below any phenol.
+2. Boiling point: hydrogen bonding > strong dipole (aldehyde) > weak dipole (ether) > non-polar alkane, and compare carbon counts last.
+
+> **Trap:** read "increasing" and write the order from weakest or lowest to strongest or highest.
+
+7 · Write the IUPAC name
+ — *1 mark · 2 parts*
+
+*Recognise it: a drawn alcohol or ether, with "write the IUPAC name".*
+
+1. Alcohol: longest chain containing the $\ce{-OH}$ carbon, number from the $\ce{-OH}$ end, replace "e" by "ol".
+2. Ether: the longer chain is the parent; the other side is "…oxy". A phenyl group on a chain is a "phenyl" substituent.
+
+> **Trap:** in 3-phenylprop-2-en-1-ol the $\ce{-OH}$ gets number 1; the ring is a substituent, so it is named "phenyl" and gets a locant.
+
+8 · Identify A, B, C, D, E
+ — *5 marks · 1 part*
+
+*Recognise it: "an organic compound A of formula … reacts with … to give B …; identify A to E and write the reactions".*
+
+1. Use the molecular formula and the first clue (reaction with sodium gives hydrogen: an alcohol) to fix A.
+2. Then follow each reagent: each gives one unique class of product.
+
+> **Trap:** $\ce{C2H6O}$ could be ethanol or methoxymethane, but only the alcohol reacts with sodium. Always use the "reacts with sodium" clue to decide which.
+
+#### Past year questions · mark slots — *what each type is worth*
+
+*The video states its own marks: **Q1–Q10 are 2-mark** short answers, **Q11–Q23 are 3-mark** short answers, and **Q24–Q25 are 5-mark** long answers. A "(Qn)" with no year was given without one in the video.*
+
+| Question type | 2 marks | 3 marks | 5 marks |
+|---|---|---|---|
+| Predict the product / complete | 2017 Q1(b), 2018 Q2(a)(b), 2017 Q7(a)(b), 2020 Q9(a)(b), Q10(b) | 2016 Q11, 2020 Q12, 2025 Q14, 2020 Q15, 2024 Q20, 2024 Q23 | — |
+| Give a reason | 2023 Q6(a), 2020 Q8 | 2023 Q13(a)(c), 2019 Q16, 2019 Q19(b), 2025 Q22 | 2019 Q25(c) |
+| Convert A to B | 2019 Q5(a)(b), Q10(a) | Q17, 2019 Q19(a) | 2019 Q25(a) |
+| Mechanism | 2017 Q3(b), 2023 Q4 | 2017 Q18 | 2019 Q25(b) |
+| Distinguish by a test | 2023 Q6(b) | 2019 Q21(a) | — |
+| Arrange in order | 2017 Q3(a) | 2023 Q13(b) | — |
+| IUPAC name | 2017 Q1(a) | 2019 Q21(b) | — |
+| Identify A–E | — | — | 2016 Q24 |
+
+#### Past year questions · repeat offenders — *appeared more than once — highest probability in the chapter*
+
+Q1(b) · 2020 Q12(c) · 2023 Q13(c) · 2025 Q14(c)
+
+Heating an ether with $\ce{HI}$. The decision tree: primary and secondary on both sides, iodide goes on the smaller group (SN2); one tertiary group, tertiary iodide (SN1); alkyl aryl ether, phenol plus alkyl iodide because the aryl–O bond has partial double-bond character.
+
+2018 Q2(b) · 2017 Q3(b) · 2017 Q18 · 2024 Q20(b)
+
+Acid-catalysed hydration of an alkene, including the three-step mechanism for ethene to ethanol (asked twice in 2017) and the Markovnikov product for styrene and but-1-ene.
+
+2020 Q15(iii) · Q17(ii) · 2024 Q20(a) · 2024 Q23(a)
+
+A Grignard reagent with a ketone or an aldehyde, then hydrolysis: methylmagnesium bromide with propanone (tertiary alcohol), with ethanal (secondary), with cyclohexanone; cyclohexylmagnesium bromide with ethanal.
+
+2019 Q5(b) · 2017 Q7(a) · 2020 Q9(b) · 2020 Q15(i) · 2024 Q23(d) · 2025 Q22(a)
+
+Oxidation and dehydrogenation of alcohols: PCC to an aldehyde, $\ce{CrO3}$ to a ketone, copper at 573 K, and why tertiary alcohols resist oxidation.
+
+2017 Q3(a) · 2019 Q16(c) · 2023 Q6(a)
+
+Why phenol is more acidic than an alcohol, and the order for p-cresol, phenol, p-nitrophenol: resonance-stabilised phenoxide ion against unstabilised alkoxide.
+
+Q10(a) · 2019 Q19(a) · 2023 Q13(c) · 2025 Q14(a)
+
+Preparing phenol: from aniline (diazonium salt, warm water), from chlorobenzene (fuse with $\ce{NaOH}$ at 623 K, 320 atm), from anisole (cleave with $\ce{HI}$) and from cumene (the industrial route, with acetone).
+
+2023 Q4 · 2019 Q25(b)
+
+The two mechanisms of acid dehydration of ethanol: 413 K gives ethoxyethane through SN2; 443 K gives ethene through a carbocation.
+
+2016 Q11(c) · 2024 Q23(c) · 2025 Q14(b)
+
+Electrophilic substitution of anisole: Friedel–Crafts acylation and alkylation, and nitration; para major, ortho minor.
+
+2016 Q11(a)(b) · 2019 Q25(c) · 2024 Q20(c) · 2024 Q23(b) · Q17(i)
+
+Electrophilic substitution of phenol: Reimer–Tiemann, Kolbe, bromine water (white precipitate of 2,4,6-tribromophenol), bromine in $\ce{CS2}$ (mono), and nitration to picric acid; and why phenol reacts more readily than benzene.
+
+Q10(b) · 2019 Q16(a)
+
+Williamson synthesis: the pair that works (primary halide with a bulky alkoxide) and why a tertiary halide gives an alkene.
+
+2019 Q16(b) · 2019 Q19(b) · 2023 Q13(b)
+
+Hydrogen bonding as the explanation of boiling point and steam volatility: propanol against butane, o- against p-nitrophenol, the four-compound boiling-point order.
+
+#### Past year questions · numerical types — *no calculations in this chapter, so these are the reaction and structure types — one worked model each, then cold practice*
+
+###### A · Identify A to E in a sequence
+
+Worked example · 2016 Q24 — compound A, $\ce{C2H6O}$, with sodium gives B and hydrogen; with $\ce{I2/NaOH}$ gives C; with conc. $\ce{H2SO4}$ at 413 K gives D, $\ce{C4H10O}$; D with excess $\ce{HI}$ gives E
+
+1. A reacts with sodium and releases hydrogen, so it has an $\ce{O-H}$: an alcohol, not the isomeric ether methoxymethane. $\ce{C2H6O}$ as an alcohol is **ethanol** = **A**. B = sodium ethoxide.
+2. The iodoform test (iodine and sodium hydroxide) needs a $\ce{CH3CH(OH)\bond{-}}$ group, which ethanol has: **C** = **iodoform** $\ce{CHI3}$, a yellow precipitate, with $\ce{HCOONa}$ as by-product.
+3. Conc. $\ce{H2SO4}$ at **413 K** is the temperature for the **ether** (443 K would give the alkene): two $\ce{C2H5OH}$ minus $\ce{H2O}$ gives $\ce{C4H10O}$ = **D** = ethoxyethane.
+4. Excess $\ce{HI}$ cleaves both ethyl groups: **E** = **ethyl iodide**.
+
+$$\ce{2C2H5OH + 2Na -> 2C2H5ONa + H2}$$ $$\ce{C2H5OH + 4I2 + 6NaOH -> CHI3 + HCOONa}$$ plus $\ce{5NaI + 5H2O}$. $$\ce{2C2H5OH ->[conc. H2SO4][413 K] C2H5OC2H5 + H2O}$$ $$\ce{C2H5OC2H5 + 2HI -> 2C2H5I + H2O}$$
+
+- 2016 Q24, cold — answer only: A ethanol; B sodium ethoxide; C iodoform (plus sodium methanoate); D ethoxyethane; E ethyl iodide
+
+###### B · Convert A to B
+
+Worked example · 2019 Q25(a)(ii) — ethanol to propan-2-ol
+
+1. Propan-2-ol is a **secondary** alcohol with one more carbon than ethanol. A secondary alcohol is made from an aldehyde plus a Grignard reagent, so the route is: ethanol to ethanal, then add one carbon as $\ce{CH3\bond{-}}$.
+2. Oxidise ethanol with a **mild** oxidant (PCC or $\ce{CrO3}$) to ethanal.
+3. Add $\ce{CH3MgBr}$ to ethanal, then hydrolyse.
+
+$$\ce{CH3CH2OH ->[PCC] CH3CHO}$$ $$\ce{CH3CHO ->[(i) CH3MgBr][(ii) H3O+] CH3CH(OH)CH3}$$
+
+- 2019 Q5(a) — phenol to toluene — answer only: heat with zinc dust to benzene, then $\ce{CH3Cl}$ with anhydrous $\ce{AlCl3}$ (Friedel–Crafts)
+
+- 2019 Q5(b) — ethanol to ethanal — answer only: PCC (a mild oxidising agent)
+
+- Q10(a) — aniline to phenol — answer only: $\ce{NaNO2/HCl}$ at 0–5 °C, then warm with water
+
+- Q17(i) — phenol to picric acid — answer only: concentrated $\ce{HNO3}$, giving 2,4,6-trinitrophenol
+
+- Q17(ii) — propanone to 2-methylpropan-2-ol — answer only: $\ce{CH3MgBr}$ then hydrolysis (a ketone gives a tertiary alcohol)
+
+- Q17(iii) — butan-2-one to butan-2-ol — answer only: $\ce{LiAlH4}$ or $\ce{NaBH4}$, or $\ce{H2/Ni}$
+
+- 2019 Q19(a) — phenol to benzoquinone, and chlorobenzene to phenol — answer only: $\ce{Na2Cr2O7/H2SO4}$; and fuse with $\ce{NaOH}$ at 623 K and then acidify
+
+- 2019 Q25(a)(i) — phenol to anisole — answer only: $\ce{NaOH}$ to sodium phenoxide, then $\ce{CH3Br}$ (Williamson)
+
+###### C · Predict the product with a named reagent
+
+Worked example · 2020 Q15 — three reactions
+
+1. A cyclic alcohol with a $\ce{C=C}$, treated with **PCC**: PCC oxidises the secondary alcohol to a ketone and leaves the double bond alone: an unsaturated ketone (cyclohexenone).
+2. Salicylic acid with acetic anhydride and acid: the phenolic $\ce{-OH}$ is acetylated, giving **acetylsalicylic acid, aspirin** (a medicine).
+3. Cyclohexanone with $\ce{CH3MgBr}$ then hydrolysis: the methyl carbon attacks the carbonyl carbon and, after hydrolysis, gives the tertiary alcohol **1-methylcyclohexanol**, with $\ce{Mg(OH)Br}$ as by-product.
+
+- 2018 Q2(a) — a ketone with an ester side chain, with $\ce{NaBH4}$ — answer only: the ketone becomes a secondary alcohol; the ester is not reduced
+
+- 2018 Q2(b) — styrene $\ce{C6H5CH=CH2}$ with water and $\ce{H+}$ — answer only: $\ce{C6H5CH(OH)CH3}$ (Markovnikov; $\ce{OH}$ on the carbon carrying the ring)
+
+- 2017 Q7(a)(b) — butan-2-ol with $\ce{CrO3}$, and with $\ce{SOCl2}$ — answer only: butanone; 2-chlorobutane
+
+- 2020 Q9(a) — a compound with a benzylic $\ce{-CH2OH}$ and a phenolic $\ce{-OH}$, heated with $\ce{HCl}$ — answer only: the benzylic $\ce{-OH}$ becomes $\ce{-Cl}$; the phenolic $\ce{-OH}$ stays (partial double bond in the phenol C–O)
+
+- 2020 Q9(b) — tert-butyl alcohol heated with copper at 573 K — answer only: 2-methylpropene and water (dehydration)
+
+- 2020 Q12(a)(b) — propene by hydroboration–oxidation; tert-butyl alcohol with 20% $\ce{H3PO4}$ at 358 K — answer only: propan-1-ol; 2-methylpropene
+
+- 2024 Q20 — ethanal with $\ce{CH3MgBr}$ then hydrolysis; but-1-ene with dilute $\ce{H2SO4}$; phenol with bromine water — answer only: propan-2-ol; butan-2-ol; 2,4,6-tribromophenol (white precipitate)
+
+- 2024 Q23 — cyclohexylmagnesium bromide with ethanal; phenol with $\ce{Br2/CS2}$; anisole with $\ce{CH3Cl/AlCl3}$; propan-2-ol over copper at 573 K — answer only: 1-cyclohexylethanol; o- and p-bromophenol (para major); 2- and 4-methoxytoluene (para major); propanone
+
+- 2016 Q11 — Reimer–Tiemann; Kolbe's reaction; Friedel–Crafts acylation of anisole — answer only: salicylaldehyde; salicylic acid; 4-methoxyacetophenone (major) and 2-methoxyacetophenone
+
+- 2025 Q14(a)(b) — phenol from cumene; nitration of anisole — answer only: cumene, then $\ce{O2}$ (air), then dilute acid, gives phenol and acetone; 4-nitroanisole (major), 2-nitroanisole
+
+###### D · Write the mechanism
+
+Worked example · 2017 Q18 — hydration of ethene to ethanol
+
+1. **Protonation of the alkene to a carbocation by electrophilic attack of $\ce{H3O+}$.** $\ce{H2O + H+ -> H3O+}$. The positive oxygen pulls the bonding electrons, so $\ce{H3O+}$ gives up $\ce{H+}$ (and becomes $\ce{H2O}$). The $\ce{H+}$ is attacked by the $\pi$ electrons of $\ce{C=C}$: a C–H bond forms and the other carbon is left with a positive charge: $\ce{CH2=CH2 + H3O+ -> CH3-CH2+ + H2O}$.
+2. **Nucleophilic attack of water on the carbocation.** A lone pair on a water oxygen bonds to the positive carbon; the oxygen is now positive: $\ce{CH3CH2+ + H2O -> CH3CH2-OH2+}$.
+3. **Deprotonation to form the alcohol.** The positive oxygen pulls the O–H electrons, a water molecule takes the $\ce{H+}$, and $\ce{CH3CH2OH}$ forms; $\ce{H3O+}$ is regenerated, so it is a catalyst.
+
+- 2017 Q3(b) — ethene with $\ce{H3O+}$ giving $\ce{CH3CH2+}$ and water, curved arrows — answer only: the O–H electrons go to oxygen and release water plus $\ce{H+}$; the $\pi$ electrons attack the $\ce{H+}$; a carbocation forms
+
+- 2023 Q4 — ethoxyethane from ethanol at 413 K — answer only: protonation; SN2 attack of a second ethanol on the protonated alcohol with water leaving; loss of a proton, regenerating $\ce{H+}$
+
+- 2019 Q25(b) — ethene from ethanol at 443 K — answer only: protonated alcohol (fast); carbocation (slow, rate-determining); loss of a $\beta$ proton gives ethene and returns $\ce{H+}$
+
+###### E · Arrange in order
+
+Worked example · 2023 Q13(b) — increasing boiling point: ethoxyethane, butanal, butanol, butane
+
+1. n-Butane: non-polar, weak van der Waals forces: lowest.
+2. Ethoxyethane: weakly polar, weak dipole interaction.
+3. Butanal: strongly polar carbonyl, strong dipole–dipole attraction.
+4. Butan-1-ol: hydrogen bonds, the strongest: highest.
+
+Answer: butane < ethoxyethane < butanal < butan-1-ol.
+
+- 2017 Q3(a) — increasing acidic strength: p-cresol, p-nitrophenol, phenol — answer only: p-cresol < phenol < p-nitrophenol
+
+###### F · Distinguish by a chemical test
+
+Worked example · 2019 Q21(a)(i) — propan-1-ol and 2-methylpropan-2-ol
+
+Add Lucas reagent (conc. $\ce{HCl}$ + anhydrous $\ce{ZnCl2}$) to each. The tertiary alcohol, 2-methylpropan-2-ol, forms the insoluble tertiary chloride at once and the solution turns cloudy. The primary alcohol, propan-1-ol, gives no turbidity at room temperature.
+
+- 2019 Q21(a)(ii) — ethanol and dimethyl ether — answer only: iodoform test ($\ce{I2 + NaOH}$): ethanol gives a yellow precipitate of $\ce{CHI3}$; the ether gives none
+
+- 2023 Q6(b) — phenol and cyclohexanol — answer only: neutral $\ce{FeCl3}$: phenol gives a violet complex, cyclohexanol does not react
+
+###### G · Ethers: Williamson pairing and cleavage
+
+Worked example · Q10(b) — 2-methyl-2-methoxypropane by Williamson synthesis
+
+1. The ether is $\ce{(CH3)3C-O-CH3}$. Split at the oxygen: one side tertiary, the other methyl.
+2. The alkyl halide must be **primary** (here methyl), so the tertiary group goes on the alkoxide.
+
+$$\ce{(CH3)3C-ONa + CH3Br -> (CH3)3C-O-CH3 + NaBr}$$
+
+The other pairing, $\ce{(CH3)3C-Br + CH3ONa}$, would give 2-methylpropene by elimination (2019 Q16(a)).
+
+- Q1(b) — $\ce{CH3CH2-O-CH(CH3)2}$ with $\ce{HI}$ — answer only: $\ce{CH3CH2I}$ + $\ce{(CH3)2CHOH}$ (iodide on the less hindered ethyl)
+
+- 2020 Q12(c) — benzyl phenyl ether with $\ce{HI}$ (structure as drawn in the video; the spoken products are the benzyl iodide and phenol) — answer only: $\ce{C6H5CH2I}$ + $\ce{C6H5OH}$
+
+- 2023 Q13(c) — phenol from anisole — answer only: heat with $\ce{HI}$: $\ce{CH3I}$ + phenol; the aryl–O bond has partial double-bond character so it does not break
+
+- 2025 Q14(c) — methyl tert-butyl ether with $\ce{HI}$ — answer only: $\ce{(CH3)3C-I}$ + $\ce{CH3OH}$ (SN1, tertiary carbocation)
+
+- 2019 Q16(a) — why tert-butyl bromide with sodium methoxide gives an alkene — answer only: three methyl groups block attack (steric hindrance), so methoxide acts as a base and removes a hydrogen: elimination to 2-methylpropene
+
+### Chapter 8 · Aldehydes, Ketones and Carboxylic Acids
+
+`NCERT Class XII Chemistry · Chapter 8 · Aldehydes, Ketones and Carboxylic Acids`
+
+*8 marks in the board paper (CBSE 2026-27 curriculum), the heaviest of the four organic chapters you are adding, and the one with the most reactions. The whole chapter hangs on one idea: the carbon–oxygen double bond, $\ce{C=O}$. In aldehydes and ketones that carbon is eager to be attacked, and most of the chapter is "what attacks it, and what do you get". In carboxylic acids the same carbon is less eager, and the interest moves to the acidic $\ce{O-H}$. Every new term is tagged **[exposure]** and explained from scratch.*
+
+#### The carbonyl family — *one functional group, six families — and why they smell nice*
+
+**[exposure]** The **carbonyl group** is a carbon doubly bonded to oxygen, $\ce{C=O}$. A **functional group** is a small unit of atoms that decides how a whole organic compound behaves, so every compound that carries it reacts in a family way. The carbonyl group is the centre of this chapter, and these are the families it defines:
+
+| Family | General formula | Example |
+|---|---|---|
+| **Aldehyde** | $\ce{R-CHO}$ | $\ce{CH3CHO}$ |
+| **Ketone** | $\ce{R-CO-R'}$ | $\ce{CH3COCH3}$ |
+| **Carboxylic acid** | $\ce{R-COOH}$ | $\ce{CH3COOH}$ |
+| Acid (acyl) halide | $\ce{R-COX}$ | $\ce{CH3COCl}$ |
+| Acid anhydride | $\ce{R-CO-O-CO-R}$ | ethanoic anhydride |
+| Ester | $\ce{R-COOR'}$ | ethyl ethanoate |
+| Amide | $\ce{R-CONH2}$ | ethanamide |
+
+The last four are **derivatives** of carboxylic acids: each is an acid with its $\ce{-OH}$ swapped for something else. An **anhydride** forms when two acid molecules lose one water between them.
+
+Aldehydes, ketones and carboxylic acids are widespread in plants and animals and play a part in life's biochemistry. Many are responsible for fragrance and flavour: **vanillin** (from vanilla beans), **salicylaldehyde** (from meadowsweet) and **cinnamaldehyde** (from cinnamon).
+
+#### Naming aldehydes — *common names come from the acid; IUPAC drops the "e" and adds "-al"*
+
+###### Common names
+
+An aldehyde's common name comes from the common name of the matching carboxylic acid: replace **-ic acid** with **-aldehyde**. $\ce{HCOOH}$ is formic acid, so $\ce{HCHO}$ is **formaldehyde**; acetic acid gives **acetaldehyde** ($\ce{CH3CHO}$); propionic acid gives propionaldehyde; butyric acid gives **butyraldehyde**. Substituents are located with Greek letters: the carbon next to $\ce{-CHO}$ is **α**, then **β**, **γ**, **δ**. So $\ce{CH3CH(Br)CH2CHO}$ is β-bromobutyraldehyde.
+
+###### IUPAC names
+
+1. Take the **longest chain that includes the $\ce{-CHO}$ carbon**. The aldehyde carbon is always **carbon 1**, so it needs no locant.
+2. Drop the final "e" of the alkane and add **-al**: $\ce{CH3CHO}$ = **ethanal**; $\ce{CH3CH2CHO}$ = **propanal**; $\ce{CH3CH2CH2CHO}$ = **butanal**. $\ce{CH3CH(Br)CH2CHO}$ = **3-bromobutanal**.
+3. **Aldehyde on a ring:** name the ring and add **-carbaldehyde**: cyclopentanecarbaldehyde; benzenecarbaldehyde (= **benzaldehyde**, which IUPAC also accepts).
+4. **Aldehyde on a side chain of a ring:** the chain is the parent and the ring is a substituent: $\ce{C6H5CH2CH2CHO}$ is 3-phenylpropanal.
+5. **Three or more $\ce{-CHO}$ groups:** they cannot be counted as chain carbons. Number only the backbone and call them **carbaldehydes**: propane-1,2,3-tricarbaldehyde.
+
+#### Naming ketones, and which group wins — *the ketone is "-one"; as a prefix it becomes "oxo"*
+
+###### Common names
+
+Name the two groups on the carbonyl carbon alphabetically, then write **ketone**: $\ce{CH3COCH3}$ is dimethyl ketone (and **acetone**, its historical name); $\ce{CH3COC2H5}$ is **ethyl methyl ketone**. Substituents are located with α, α′, β, β′. A ketone with a phenyl group is named with an **acyl** prefix and **-phenone**: $\ce{C6H5COCH3}$ is **acetophenone**, $\ce{C6H5COC6H5}$ is **benzophenone**.
+
+###### IUPAC names
+
+1. Longest chain containing the carbonyl; number it so the carbonyl gets the **lowest number**.
+2. Drop the "e" and add **-one**: $\ce{CH3COCH3}$ = **propanone** (propan-2-one); pentan-3-one; cyclopentanone.
+3. Substituents are prefixes with locants: 2,4-dimethylpentan-3-one.
+
+**[exposure]** When a compound carries **two functional groups**, only one can be the "suffix" (the ending of the name). The other has to become a **prefix**. The ranking that matters here: **carboxylic acid > aldehyde > ketone > alcohol**. A ketone that loses out becomes the prefix **oxo-**; an alcohol that loses out becomes **hydroxy-**. Example: a chain with a $\ce{-CHO}$ at one end and a ketone at C3 is **3-oxopentanal**, and a chain with a ketone and an alcohol is **4-hydroxypentan-2-one** (2014 Q1).
+
+**Examiner asks:** "write the IUPAC name" for a two-group compound (2014 Q1), and "draw the structure of 4-methylpent-3-en-2-one" or "p-methylbenzaldehyde" (2015 Q20). NCERT intext 8.1 asks for structures from names; the pattern is always chain first, then group positions.
+
+#### Structure of the carbonyl group — *flat, polar, and electron-poor at carbon — the cause of everything that follows*
+
+The carbonyl carbon is **$sp^2$ hybridised**. It makes three sigma bonds (one to oxygen, two to R or H) lying in **one plane at about 120°**. Its leftover unhybridised $p$ orbital overlaps sideways with a $p$ orbital on oxygen to form the **pi bond**, above and below the plane.
+
+Oxygen is more electronegative than carbon, so the pi electrons sit nearer oxygen and the bond is **polar**: $\overset{\delta+}{\ce{C}}=\overset{\delta-}{\ce{O}}$. Resonance puts the same picture another way — one contributor has a positive carbon and a negative oxygen.
+
+**[exposure]** An **electrophile** is an electron-seeking species and a **nucleophile** is an electron-rich one that attacks a positive centre (you met the nucleophile in Haloalkanes). So the **carbonyl carbon is an electrophilic centre** (a Lewis acid) and the **carbonyl oxygen is a nucleophilic centre** (a Lewis base). Because of the strong dipole, aldehydes and ketones are more polar than ethers.
+
+#### Preparing aldehydes and ketones — *first the methods that give either; then the aldehyde-only and ketone-only routes*
+
+###### Methods that give aldehydes *or* ketones
+
+1. **Oxidation of alcohols.** A **primary** alcohol gives an aldehyde, a **secondary** alcohol gives a ketone — with a *mild* oxidant that stops there. **[exposure]** **PCC** (pyridinium chlorochromate) and anhydrous $\ce{CrO3}$ are the two mild chromium oxidants; PCC is preferred for primary alcohols because it stops at the aldehyde and leaves a $\ce{C=C}$ alone. A strong oxidant would carry an aldehyde on to the acid.
+2. **Dehydrogenation of alcohols.** Alcohol vapour passed over copper (or silver) at **573 K** loses hydrogen: primary → aldehyde, secondary → ketone. It is an industrial method.
+3. **Ozonolysis of alkenes.** $\ce{O3}$ and then $\ce{Zn / H2O}$ cut the double bond and put $\ce{C=O}$ on each end. Propene gives ethanal and methanal; 2-methylbut-2-ene gives ethanal and propanone (an aldehyde and a ketone).
+4. **Hydration of alkynes.** Water adds to a triple bond with $\ce{HgSO4}$ and dilute $\ce{H2SO4}$, following Markovnikov. The first product, an enol, flips to the carbonyl form (**tautomerism**). Ethyne gives **ethanal**; every other alkyne gives a **ketone** (propyne gives propanone).
+
+###### Methods for aldehydes only
+
+**Rosenmund reduction** — an acid chloride, hydrogenated over **palladium on barium sulphate**. **[exposure]** The $\ce{BaSO4}$ **poisons** the palladium (partly deactivates it) on purpose, so it stops at the aldehyde instead of carrying on to the alcohol.
+
+$$\ce{RCOCl + H2 ->[Pd / BaSO4] RCHO + HCl}$$
+
+**Stephen reaction** — a nitrile is reduced to an **imine** $\ce{RCH=NH}$ with stannous chloride and HCl; hydrolysis gives the aldehyde. **DIBAL-H** (diisobutylaluminium hydride) does the same on nitriles *and* esters, and it does not touch a $\ce{C=C}$.
+
+$$\ce{RCN ->[SnCl2 / HCl] RCH=NH ->[H3O+] RCHO}$$
+
+**Oxidising a ring methyl to an aldehyde (toluene → benzaldehyde).** Strong oxidants overshoot to benzoic acid, so a reagent is needed that stops at an intermediate. Three ways:
+
+- **Etard reaction:** chromyl chloride $\ce{CrO2Cl2}$ in $\ce{CS2}$ gives a chromium complex; hydrolysis gives benzaldehyde.
+- **$\ce{CrO3}$ in acetic anhydride** (273–283 K) gives **benzylidene diacetate**, which hydrolyses to benzaldehyde.
+- **Side-chain chlorination:** $\ce{Cl2}$ in light (free-radical) puts two chlorines on the methyl to give **benzal chloride** $\ce{C6H5CHCl2}$; hydrolysis at 373 K gives benzaldehyde. This is the commercial method.
+
+1. **Gattermann–Koch reaction** — benzene with $\ce{CO}$ and $\ce{HCl}$ over anhydrous $\ce{AlCl3}$ (and $\ce{CuCl}$) gives benzaldehyde. $\ce{CO + HCl}$ gives $\ce{HCOCl}$; $\ce{AlCl3}$ pulls off $\ce{Cl^-}$ to leave the **formyl cation** $\ce{HCO^+}$, the electrophile that attacks the ring.
+
+###### Methods for ketones only
+
+1. **From an acid chloride and dialkylcadmium.** A Grignard reagent with $\ce{CdCl2}$ gives $\ce{R2Cd}$; an acyl chloride then transfers one R to give a ketone. $\ce{2CH3COCl + (CH3)2Cd -> 2CH3COCH3 + CdCl2}$.
+2. **From a nitrile and a Grignard reagent**, then hydrolysis: $\ce{CH3CN + CH3MgBr}$ gives an adduct that hydrolyses to **propanone**.
+3. **Friedel–Crafts acylation** — benzene with an acid chloride over anhydrous $\ce{AlCl3}$: $\ce{C6H6 + CH3COCl ->[AlCl3] C6H5COCH3 + HCl}$ (acetophenone). The $\ce{AlCl3}$ is a Lewis acid that pulls off $\ce{Cl^-}$ and leaves the **acylium ion** $\ce{CH3CO^+}$, which attacks the ring.
+
+> **Trap:** know which reagent belongs to which product. Choosing between oxidants: **PCC** for primary alcohol → aldehyde (and with an allylic double bond present, PCC leaves it alone); **anhydrous $\ce{CrO3}$** for secondary alcohol → ketone; **$\ce{CrO2Cl2}$ then $\ce{H3O+}$** for toluene → benzaldehyde; **$\ce{O3}$ then $\ce{Zn/H2O}$** for but-2-ene → two ethanal. This is NCERT Example 8.1 and it is asked as "name the reagent".
+
+**Examiner asks:** the Rosenmund (2019 Q9), Stephen and Etard equations (2015 Q22), Friedel–Crafts acylation (Q10), the dialkylcadmium route (2022 Q28(a)), DIBAL-H (2017 Q2), and conversions that use them (2022 Q24(a)).
+
+#### Physical properties of aldehydes and ketones — *dipole–dipole forces put them between hydrocarbons and alcohols*
+
+- **State.** Methanal is a gas; ethanal is a volatile liquid; the rest are liquids or solids.
+- **Boiling point.** Higher than hydrocarbons and ethers of similar mass, because of **dipole–dipole attraction** between the polar $\ce{C=O}$ groups. Lower than alcohols of similar mass, because they have **no O–H** and so cannot hydrogen-bond to each other. NCERT's set (masses 58–60): **n-butane 273 K < methoxyethane 281 K < propanal 322 K < propanone 329 K < propan-1-ol 370 K**. Between the two isomers, the ketone (two R groups, more surface area) boils slightly higher than the aldehyde.
+- **Solubility.** The lower members — methanal, ethanal, propanone — mix with water in all proportions, because the carbonyl oxygen hydrogen-bonds to water. Solubility falls quickly as the alkyl chain grows (the chain is hydrophobic). All are fairly soluble in organic solvents.
+- **Odour.** Lower aldehydes smell sharp and pungent; as the molecule grows the smell becomes less pungent and more fragrant, so they are used in perfumes and flavourings.
+
+**Examiner asks:** "arrange in increasing boiling point" — propane < ethanal < ethanol (2022 Q5(b)); NCERT example 8.2 (an aldehyde, an alcohol, an ether and a hydrocarbon of similar mass: hydrocarbon < ether < aldehyde < alcohol).
+
+#### Nucleophilic addition — the master reaction — *a two-step attack on the carbonyl carbon, and why aldehydes win over ketones*
+
+**[exposure]** **Nucleophilic addition** is the characteristic reaction of the carbonyl group: a nucleophile attacks the electron-poor carbon and something else adds to the oxygen, so the $\ce{C=O}$ becomes a single bond and the carbon turns from $sp^2$ to $sp^3$. It happens in two steps:
+
+1. **Slow step.** The nucleophile, coming at roughly right angles to the flat carbonyl plane, bonds to the carbon. The pi electrons move to oxygen, which becomes negative. This gives a **tetrahedral alkoxide intermediate** (the carbon is now $sp^3$).
+2. **Fast step.** The oxygen picks up $\ce{H+}$ from the medium, giving the neutral addition product.
+
+###### Aldehydes react faster than ketones — two reasons
+
+- **Steric effect.** A ketone has **two** alkyl groups next to the carbonyl, an aldehyde has one (or none). The crowding blocks the nucleophile's approach.
+- **Electronic effect.** Alkyl groups push electrons (+I), which **reduces the positive charge** on the carbonyl carbon. A ketone has two such groups, so its carbon is less electrophilic.
+
+Both factors favour the aldehyde. The same logic orders any set: the **fewer and smaller the groups on the carbonyl, the faster** the reaction.
+
+Worked example · NCERT intext 8.4 — rank ethanal, propanal, propanone, butanone for nucleophilic addition
+
+Count the groups. Ethanal has one methyl; propanal one ethyl; propanone two methyls; butanone a methyl and an ethyl. Most crowded and most electron-pushing is butanone, then propanone, then propanal, then ethanal. Increasing reactivity: **butanone < propanone < propanal < ethanal**.
+
+###### Aromatic aldehydes are less reactive than aliphatic ones
+
+In benzaldehyde the ring pushes electrons into the carbonyl by **resonance** (the $-R$ pull of the carbonyl draws ring electrons towards it), so the carbonyl carbon is **less positive**. Benzaldehyde is therefore less reactive than propanal in nucleophilic addition (2022 Q15(a), 2025 Q1). NCERT example 8.3 and intext 8.4(ii): for aromatic carbonyls the order of reactivity runs from the ketone (acetophenone), through *p*-tolualdehyde (a methyl donates), benzaldehyde, to ***p*-nitrobenzaldehyde** (the nitro group withdraws, so the carbon is most positive and reacts fastest).
+
+> **Trap:** do not answer "benzaldehyde is less reactive because it is bulky". The reason is **resonance with the ring lowering the positive charge** on the carbonyl carbon, and you should say so, with "less electrophilic".
+
+#### Nucleophilic addition: HCN, bisulphite, Grignard — *three reagents that add across C=O and give three different products*
+
+###### Hydrogen cyanide → cyanohydrin
+
+**[exposure]** A **cyanohydrin** carries an $\ce{-OH}$ and a $\ce{-CN}$ on the same carbon. Pure $\ce{HCN}$ is slow, so a trace of **base** is added: it removes $\ce{H+}$ from $\ce{HCN}$ and gives the cyanide ion $\ce{CN^-}$, a much stronger nucleophile. $\ce{CN^-}$ attacks the carbonyl carbon, and the oxygen then takes $\ce{H+}$. Cyanohydrins are useful synthetic intermediates.
+
+$$\ce{CH3CHO + HCN ->[OH^-] CH3CH(OH)CN}$$ $$\ce{(CH3)2C=O + HCN ->[OH^-] (CH3)2C(OH)CN}$$
+
+###### Sodium hydrogensulphite → addition product
+
+$\ce{NaHSO3}$ adds to give a crystalline **hydrogensulphite addition compound**. For most aldehydes the equilibrium lies to the product side; for most ketones it lies to the reactant side, because of steric hindrance. The compound is water-soluble. Warm it with dilute mineral acid or alkali and the carbonyl compound is regenerated — so the reaction is used to **separate and purify aldehydes**: make the adduct, filter away the insoluble impurities, then decompose the adduct (2023 Q33(b)).
+
+###### Grignard reagent → alcohol
+
+The $\ce{R^{\delta-}}$ of a Grignard reagent attacks the carbonyl carbon; hydrolysis then gives an alcohol. What you get depends on the carbonyl you started with:
+
+| Carbonyl | With $\ce{RMgX}$, then $\ce{H2O}$ |
+|---|---|
+| Methanal $\ce{HCHO}$ | **primary** alcohol $\ce{RCH2OH}$ |
+| Any other aldehyde | **secondary** alcohol $\ce{RCH(OH)R'}$ |
+| A ketone | **tertiary** alcohol $\ce{RR'C(OH)R''}$ |
+
+Example (2022 Q8): propanone + $\ce{CH3MgI}$, then water, gives 2-methylpropan-2-ol (tertiary). Ethanal + $\ce{CH3MgBr}$ gives propan-2-ol (secondary).
+
+#### Nucleophilic addition: alcohols — *hemiacetals, acetals and ketals — and why dry HCl is there*
+
+**[exposure]** An **aldehyde** reacts with **one** equivalent of a monohydric alcohol (one $\ce{-OH}$) in the presence of **dry HCl** to give a **hemiacetal**: a carbon holding both an $\ce{-OH}$ and an $\ce{-OR}$. With a second equivalent of alcohol the $\ce{-OH}$ is replaced by another $\ce{-OR}$, giving an **acetal** (a **gem-dialkoxy** compound: two $\ce{-OR}$ groups on the same carbon).
+
+$$\ce{RCHO + R'OH ->[dry HCl] RCH(OH)OR' ->[R'OH, dry HCl] RCH(OR')2 + H2O}$$
+
+A **ketone** does not react with a monohydric alcohol, but it does react with **ethylene glycol** ($\ce{HOCH2CH2OH}$, two $\ce{-OH}$ groups) under the same conditions, forming a cyclic product, an **ethylene glycol ketal**.
+
+**Why dry HCl:** it **protonates the carbonyl oxygen**, which makes the carbonyl carbon more positive (more electrophilic), so the weakly nucleophilic alcohol can attack. Acetals and ketals are reversed by **dilute aqueous mineral acid**, which gives back the aldehyde or ketone.
+
+**Examiner asks:** "draw the structure of the hemiacetal of ethanal" and "cyanohydrin of cyclobutanone" (2020 Q23(b)).
+
+#### Nucleophilic addition–elimination: ammonia and its derivatives — *$\ce{H2N-Z}$ attacks, water leaves, and C=N appears*
+
+Ammonia and its derivatives $\ce{H2N-Z}$ (Z may be an alkyl or aryl group, $\ce{-OH}$, $\ce{-NH2}$, $\ce{-NHC6H5}$, $\ce{-NHCONH2}$…) add to $\ce{C=O}$ with acid as a catalyst, and then **lose water** by rapid dehydration of the intermediate. The net change is $\ce{C=O -> C=N-Z}$. Because the dehydration is fast, the equilibrium is driven to the product.
+
+| Reagent $\ce{H2N-Z}$ | Product of $\ce{C=O}$ |
+|---|---|
+| Ammonia $\ce{NH3}$ | **imine** $\ce{C=NH}$ |
+| A primary amine $\ce{RNH2}$ | substituted imine, **Schiff's base** $\ce{C=NR}$ |
+| Hydroxylamine $\ce{NH2OH}$ | **oxime** $\ce{C=N-OH}$ |
+| Hydrazine $\ce{NH2NH2}$ | **hydrazone** $\ce{C=N-NH2}$ |
+| Phenylhydrazine $\ce{C6H5NHNH2}$ | **phenylhydrazone** |
+| **2,4-Dinitrophenylhydrazine (2,4-DNP)** | **2,4-dinitrophenylhydrazone** — a yellow, orange or red solid |
+| Semicarbazide $\ce{NH2NHCONH2}$ | **semicarbazone** |
+
+Aldehyde products take the suffix by name: from ethanal you get acetaldehyde oxime, acetaldehyde hydrazone, and so on; from a ketone, acetone semicarbazone. The derivatives are **crystalline solids with sharp melting points**, so they are used to **identify** a carbonyl compound — and the **2,4-DNP test** (a yellow/orange/red precipitate) is the standard way to show that a compound is an aldehyde or ketone at all.
+
+> **Trap:** semicarbazide has **two** $\ce{-NH2}$ groups, but only **one** forms the semicarbazone. The lone pair on the nitrogen next to $\ce{C=O}$ is in resonance with it, so that nitrogen is not nucleophilic enough; the terminal $\ce{NH2}$, whose lone pair is free, does the attacking (2014 Q13(b)).
+
+**Examiner asks:** NCERT intext 8.5 (predict the products: cyclopentanone + $\ce{NH2OH}$ gives the oxime; cyclohexanone + 2,4-DNP gives the 2,4-dinitrophenylhydrazone; a compound with both $\ce{C=C}$ and $\ce{CHO}$ and semicarbazide still keeps the $\ce{C=C}$); the semicarbazone of ethanal (2022 Q27(c)).
+
+#### Reduction of aldehydes and ketones — *to alcohols, or all the way down to hydrocarbons*
+
+###### To alcohols
+
+$\ce{NaBH4}$, $\ce{LiAlH4}$ or catalytic hydrogenation ($\ce{H2}$ with Ni, Pt or Pd) reduce an **aldehyde to a primary alcohol** and a **ketone to a secondary alcohol**. $\ce{CH3CHO ->[H2 / Pt] CH3CH2OH}$; $\ce{CH3COCH3 ->[LiAlH4] CH3CH(OH)CH3}$.
+
+###### To hydrocarbons — remove the oxygen completely
+
+The $\ce{C=O}$ becomes $\ce{CH2}$ in either of two reactions, one in acid and one in base:
+
+- **Clemmensen reduction** — zinc amalgam and concentrated HCl. $\ce{CH3CH2CHO ->[Zn-Hg / conc. HCl] CH3CH2CH3}$. **[exposure]** **Zinc amalgam** is zinc alloyed with mercury; the metal and acid together make the hydrogen that does the reducing.
+- **Wolff–Kishner reduction** — hydrazine first (giving the hydrazone, losing water), then heating with $\ce{KOH}$ or $\ce{NaOH}$ in a **high-boiling solvent** such as ethylene glycol; nitrogen gas escapes and hydrogen goes on in its place. $\ce{CH3COCH3 ->[NH2NH2] (CH3)2C=NNH2 ->[KOH, ethylene glycol, \Delta] CH3CH2CH3 + N2}$.
+
+> **Trap:** choose by what else is in the molecule. Clemmensen uses strong acid, Wolff–Kishner strong base — pick the one that the rest of the molecule survives. For a plain "reduce the carbonyl to $\ce{CH2}$" question, either is accepted; name the one you write.
+
+**Examiner asks:** Wolff–Kishner and Clemmensen as "explain/write the reaction" questions (2022 Q11, Q28(b), 2025 Q6(b)).
+
+#### Oxidation: the tests that tell aldehydes from ketones — *Tollens', Fehling's, and the haloform reaction*
+
+**Aldehydes** oxidise easily to carboxylic acids with the *same* number of carbons, even with **mild** oxidants. They can do so because the carbonyl carbon carries a **hydrogen** that can turn into $\ce{-OH}$ without any bond being broken. **Ketones** have no such hydrogen. They oxidise only under vigorous conditions (a strong oxidant and heat), by breaking a carbon–carbon bond next to the carbonyl; the result is a **mixture of acids with fewer carbons**. This difference is the basis of the distinguishing tests.
+
+###### Tollens' test
+
+**[exposure]** **Tollens' reagent** is **ammoniacal silver nitrate**, $\ce{[Ag(NH3)2]^+}$ in alkaline solution, always made fresh. It is a mild oxidant. Warmed with an **aldehyde**, it is reduced to silver metal, which coats the tube as a **bright silver mirror**; the aldehyde becomes a carboxylate. A ketone gives nothing.
+
+$$\ce{RCHO + 2[Ag(NH3)2]^+ + 3OH^- -> RCOO^- + 2Ag v + 4NH3 + 2H2O}$$
+
+###### Fehling's test
+
+**[exposure]** **Fehling's reagent** is two solutions mixed in equal amounts just before use: **Solution A**, aqueous copper(II) sulphate, and **Solution B**, alkaline sodium potassium tartrate (**Rochelle salt**). Warmed with an aldehyde, it gives a **reddish-brown precipitate** of copper(I) oxide $\ce{Cu2O}$. Ketones do not react, and **aromatic aldehydes (benzaldehyde) do not respond** to Fehling's, because it is too weak an oxidant for them.
+
+###### The haloform (iodoform) reaction
+
+Any aldehyde or ketone with a **methyl group on the carbonyl carbon**, $\ce{CH3-CO\bond{-}}$ (a **methyl ketone**), is oxidised by sodium hypohalite $\ce{NaOX}$. The methyl group leaves as a **haloform** $\ce{CHX3}$ and the rest becomes a carboxylate with **one carbon fewer**.
+
+$$\ce{RCOCH3 + 3NaOI -> RCOONa + CHI3 + 2NaOH}$$
+
+For the **iodoform test** you use $\ce{I2}$ with $\ce{NaOH}$ (which makes $\ce{NaOI}$ in the flask; "NaOH + I_2" in a question means the same). A **yellow precipitate of $\ce{CHI3}$** (iodoform) shows a $\ce{CH3CO\bond{-}}$ group, or a $\ce{CH3CH(OH)\bond{-}}$ group, which is first oxidised to $\ce{CH3CO\bond{-}}$. The reaction does not touch a $\ce{C=C}$.
+
+Worked example · NCERT Example 8.4 — compound A, $\ce{C8H8O}$
+
+A gives an orange-red precipitate with 2,4-DNP, so it is a carbonyl compound. It gives a yellow precipitate with $\ce{NaOH / I2}$, so it carries $\ce{CH3CO\bond{-}}$. It does **not** reduce Tollens' or Fehling's, so it is a **ketone**. It does not decolourise bromine water or Baeyer's reagent, so the unsaturation in the formula is not an alkene; it is an aromatic ring. The formula fits a ring bearing $\ce{COCH3}$: **acetophenone**. Drastic oxidation gives benzoic acid $\ce{C7H6O2}$, and the iodoform reaction gives sodium benzoate and $\ce{CHI3}$.
+
+**Examiner asks:** distinguish an aldehyde from a ketone (2020 Q23(a), 2017 Q16(b), 2025 Q7(b)); the same acetophenone puzzle (2025 Q3); the iodoform reaction in conversions (2017 Q18(a), 2023 Q32).
+
+#### α-Hydrogen reactions: aldol condensation — *why the hydrogens next to C=O are acidic, and what that lets two molecules do*
+
+**[exposure]** The carbon next to the carbonyl is the **α-carbon**, and the hydrogens on it are **α-hydrogens**. They are noticeably **acidic** — a base can remove one. Two reasons: the carbonyl is strongly **electron-withdrawing**, which weakens the C–H bond; and the resulting carbanion is **resonance-stabilised**, because its negative charge can sit on the carbonyl oxygen. (2023 Q34(b))
+
+**[exposure]** **Aldol condensation.** An aldehyde or ketone with at least one α-hydrogen, in **dilute alkali**, joins two of its molecules. The base takes an α-hydrogen to make a carbanion; that carbanion attacks the carbonyl carbon of a second molecule; the oxygen then takes $\ce{H+}$. The product of an **aldehyde** is a **β-hydroxy aldehyde**, an **aldol** (aldehyde + alcohol); that of a **ketone** is a **β-hydroxy ketone**, a **ketol**. On **heating** they lose water to give an **α,β-unsaturated carbonyl compound**, the aldol condensation product.
+
+$$\ce{2CH3CHO ->[dil. NaOH] CH3CH(OH)CH2CHO ->[\Delta, -H2O] CH3CH=CHCHO}$$
+
+That is ethanal → 3-hydroxybutanal (the aldol) → but-2-enal. Propanone gives 4-hydroxy-4-methylpentan-2-one (the ketol) and then 4-methylpent-3-en-2-one on heating.
+
+###### Cross aldol condensation
+
+Two *different* carbonyl compounds, both with α-hydrogens, give a mixture of **four** products — two "self" and two "cross". Ethanal + propanal gives: but-2-enal and 2-methylpent-2-enal (self), and 2-methylbut-2-enal and pent-2-enal (cross). If one partner has **no α-hydrogen** (such as benzaldehyde), it can only be the acceptor and a single product forms: benzaldehyde + acetophenone gives **1,3-diphenylprop-2-en-1-one** (benzalacetophenone).
+
+> **Trap:** the condition for aldol is **at least one α-hydrogen**. Benzaldehyde, methanal and $\ce{(CH3)3C-CHO}$ have none and cannot self-aldol; they do the Cannizzaro reaction instead (next section). Do not forget to heat if the question asks for the condensation product (the α,β-unsaturated compound), not just the aldol.
+
+**Examiner asks:** describe aldol condensation (2015 Q17(b)); ethanal to but-2-enal (2022 Q24(c)); CH₃CN → ethanal → but-2-enal (2017 Q26); the 2025 puzzle where B is made from ethanal and dilute NaOH (2025 Q2); cross-aldol of benzaldehyde with ethanal (2025 Q4(b)).
+
+#### Cannizzaro reaction; ring substitution; uses — *what an aldehyde with no α-hydrogen does, and where the carbonyl directs a ring*
+
+**[exposure]** **Cannizzaro reaction.** An aldehyde with **no α-hydrogen**, heated with **concentrated alkali**, **reacts with itself**: one molecule is **oxidised** to the carboxylate salt, the other is **reduced** to the alcohol. A reaction in which one substance is both oxidised and reduced is a **disproportionation**.
+
+$$\ce{2HCHO + KOH(conc.) -> CH3OH + HCOOK}$$ $$\ce{2C6H5CHO + NaOH(conc.) -> C6H5CH2OH + C6H5COONa}$$
+
+**Electrophilic substitution in the ring.** In an aromatic aldehyde or ketone the carbonyl pulls electrons out of the ring (the $-R$ effect) and puts a partial positive charge at the ortho and para positions, so it is **deactivating** and **meta-directing**. Benzaldehyde + $\ce{HNO3 / H2SO4}$ at 273–283 K gives **3-nitrobenzaldehyde** (*m*-nitrobenzaldehyde).
+
+**Uses.** 40% aqueous methanal is **formalin**, a preservative for biological specimens; methanal is also the monomer for **Bakelite** (phenol–formaldehyde resin) and urea–formaldehyde glues. Ethanal is the starting material for ethanoic acid, ethyl ethanoate, vinyl acetate, polymers and drugs. Benzaldehyde goes into perfumes and dyes; propanone and butanone are industrial solvents; butyraldehyde, vanillin, acetophenone and camphor are used for odour and flavour.
+
+**Examiner asks:** the Cannizzaro reaction (2022 Q11, 2013 Q19(a), 2025 Q5(a)); the compound that gives sodium formate and methanol (Q29 in the 30+ video — methanal); nitration of benzaldehyde (2013 Q19(b)).
+
+#### Carboxylic acids: structure and names — *the carboxyl group $\ce{-COOH}$, and a table of names you must know cold*
+
+**[exposure]** A **carboxylic acid** carries the **carboxyl group** $\ce{-COOH}$: a carbonyl and a hydroxyl on the same carbon (the name is "carbonyl" + "hydroxyl"). It is the one family in this chapter that is an **acid**, which is why it turns blue litmus red. If the group sits on an alkyl chain the acid is **aliphatic**; if it sits on a benzene ring it is **aromatic**. The higher aliphatic acids ($\ce{C12}$–$\ce{C18}$) are **fatty acids**; palmitic acid $\ce{C15H31COOH}$ is an example. In natural fats they are present as esters of glycerol.
+
+###### Common names — where they come from
+
+Carboxylic acids were among the first organic compounds isolated, so most carry a common name from the Latin or Greek for their source: **formic** acid (from *formica*, ant), **acetic** acid (*acetum*, vinegar), **butyric** acid (*butyrum*, butter — it is in rancid butter).
+
+###### IUPAC names
+
+1. **One $\ce{-COOH}$:** replace the final "e" of the alkane with **-oic acid** (the carboxyl carbon is C1): methanoic, ethanoic, propanoic acid.
+2. **Two $\ce{-COOH}$ groups:** both carbons are counted in the chain, and the "e" is **kept**: propane-1,3-dioic acid = **propanedioic acid** (no locants needed when they sit at both ends).
+3. **Three or more $\ce{-COOH}$ groups:** the carboxyl carbons are **not** counted; they are named as **carboxylic acids** on the backbone: propane-1,2,3-tricarboxylic acid.
+4. **On a ring:** ring name + **carboxylic acid**: 2-methylcyclopentanecarboxylic acid. $\ce{C6H5COOH}$ is benzoic acid, also benzenecarboxylic acid.
+
+| Structure | Common name | IUPAC name |
+|---|---|---|
+| $\ce{HCOOH}$ | formic acid | methanoic acid |
+| $\ce{CH3COOH}$ | acetic acid | ethanoic acid |
+| $\ce{CH3CH2COOH}$ | propionic acid | propanoic acid |
+| $\ce{CH3CH2CH2COOH}$ | butyric acid | butanoic acid |
+| $\ce{(CH3)2CHCOOH}$ | isobutyric acid | 2-methylpropanoic acid |
+| $\ce{HOOC-COOH}$ | oxalic acid | ethanedioic acid |
+| $\ce{HOOC-CH2-COOH}$ | malonic acid | propanedioic acid |
+| $\ce{HOOC-(CH2)2-COOH}$ | succinic acid | butanedioic acid |
+| $\ce{HOOC-(CH2)3-COOH}$ | glutaric acid | pentanedioic acid |
+| $\ce{HOOC-(CH2)4-COOH}$ | adipic acid | hexanedioic acid |
+| $\ce{C6H5COOH}$ | benzoic acid | benzenecarboxylic acid |
+| $\ce{C6H5CH2COOH}$ | phenylacetic acid | 2-phenylethanoic acid |
+| benzene with two adjacent $\ce{-COOH}$ | phthalic acid | benzene-1,2-dicarboxylic acid |
+
+More examples (NCERT intext 8.6): $\ce{C6H5CH2CH2COOH}$ = 3-phenylpropanoic acid; $\ce{(CH3)2C=CHCOOH}$ = 3-methylbut-2-enoic acid; 2,4,6-trinitrobenzoic acid.
+
+#### Structure of the carboxyl group — *why the carbonyl carbon here is less electrophilic than in an aldehyde*
+
+The carboxyl carbon is $sp^2$ hybridised and **trigonal planar** (all bonds in one plane, about 120°). But it is **less electrophilic** than the carbonyl carbon of an aldehyde or ketone. The reason is **resonance**: a lone pair on the $\ce{-OH}$ oxygen flows towards the carbon, so the carbon receives electron density from the oxygen and its partial positive charge is smaller. A nucleophile therefore has much less to attack.
+
+> **Trap:** this is the standard answer to "why do carboxylic acids not give the characteristic reactions of the carbonyl group" (2017 Q6, 2025 Q5(b)(i)). Write: the lone pair on the $\ce{-OH}$ oxygen is in **resonance** with the $\ce{C=O}$, which **reduces the electrophilicity** of the carbon, so the nucleophilic-addition reactions do not occur.
+
+#### Preparing carboxylic acids — *six routes; the carbon count tells you which one*
+
+1. **Oxidising primary alcohols and aldehydes.** Use a **strong** oxidant: $\ce{KMnO4}$ (acidic, alkaline or neutral), $\ce{K2Cr2O7}$ (acidic), or $\ce{CrO3}$ in acid, known as the **Jones reagent**. (Anhydrous $\ce{CrO3}$ without the acid is mild.) Aldehydes also oxidise with the *mild* Tollens' and Fehling's reagents.
+2. **Oxidising an alkylbenzene.** Vigorous oxidation with hot alkaline $\ce{KMnO4}$ (or chromic acid) turns the **whole side chain, however long, into $\ce{-COOH}$**: toluene, ethylbenzene and propylbenzene all give potassium benzoate, and acidification gives **benzoic acid** (2019 Q4).
+3. **Hydrolysing nitriles and amides.** $\ce{RCN}$ with $\ce{H+}$ or $\ce{OH^-}$ goes to the amide and then to the acid. Mild conditions stop at the amide; complete hydrolysis gives the acid. An amide heated with water gives the acid plus $\ce{NH3}$.
+4. **Grignard reagent and dry ice.** $\ce{RMgX}$ attacks the carbon of solid $\ce{CO2}$ (dry ice) in dry ether; acidifying the salt gives the acid. This route **adds one carbon**: $\ce{CH3MgBr + CO2 -> CH3COOMgBr ->[H3O+] CH3COOH}$.
+5. **Hydrolysing acid chlorides and anhydrides.** Water gives the acid; aqueous base is faster and gives the carboxylate, which you acidify.
+6. **Hydrolysing esters.** Acid hydrolysis gives acid + alcohol directly. Base hydrolysis is faster and gives the carboxylate salt, which you acidify. $\ce{CH3CH2CH2COOC2H5 ->[NaOH] CH3CH2CH2COONa + C2H5OH}$.
+
+Worked example · NCERT Example 8.5 — benzyl alcohol to phenylethanoic acid
+
+The product has one carbon more, so go up through the nitrile. $\ce{C6H5CH2OH ->[PCl5 \text{ or } SOCl2] C6H5CH2Cl ->[KCN] C6H5CH2CN ->[H3O+] C6H5CH2COOH}$.
+
+Worked example · NCERT Example 8.5 — 3-nitrobromobenzene to 3-nitrobenzoic acid
+
+$\ce{Br}$ must become $\ce{COOH}$, one carbon added: make the Grignard reagent ($\ce{Mg}$, dry ether), add $\ce{CO2}$, hydrolyse. The $\ce{NO2}$ survives untouched.
+
+Two more NCERT conversions: butan-1-ol → butanoic acid with acidic $\ce{K2Cr2O7}$; 4-methylacetophenone → benzene-1,4-dicarboxylic acid with $\ce{KMnO4 / KOH}$ (both the methyl and the ketone are oxidised). Cyclohexene → hexanedioic acid with hot $\ce{KMnO4 / H2SO4}$ breaks the ring at the double bond.
+
+**Examiner asks:** ethylbenzene + $\ce{KMnO4/KOH}$ then acid (2019 Q4; 2025 Q4(a)); benzene-ring conversions to benzoic acid (NCERT intext 8.7); the Grignard–$\ce{CO2}$ route (2017 Q26).
+
+#### Physical properties of carboxylic acids — *hydrogen-bonded dimers explain the high boiling points*
+
+- **State and smell.** The first three aliphatic acids are colourless liquids with a sharp smell; the higher ones are waxy solids with almost no smell (low volatility).
+- **Boiling point.** Higher than aldehydes, ketones and even alcohols of similar mass. **Reason:** carboxylic acid molecules hydrogen-bond strongly in pairs. The $\ce{O-H}$ of an acid is **more polar** than that of an alcohol, because the carbonyl group next to it pulls electrons away, so the hydrogen bonds are stronger.
+- **[exposure]**  A **dimer** is a pair of identical molecules held together; here, two acid molecules joined by two hydrogen bonds. The bonds are so strong that most carboxylic acids stay as dimers **even in the vapour phase** and in **aprotic solvents** (solvents that have no acidic hydrogen to give away).
+- **Solubility.** Aliphatic acids up to **four carbons** mix with water (hydrogen bonds to water). Solubility drops as the carbon chain grows. Benzoic acid, the simplest aromatic acid, is insoluble in cold water because of the large hydrophobic ring. Acids dissolve in less polar organic solvents such as benzene, ether, alcohol and chloroform.
+
+**Examiner asks:** which of ethanoic acid and ethanol has the higher boiling point, and why (2023 Q35(b): ethanoic acid, stronger hydrogen bonding and dimer formation).
+
+#### Acidity: what carboxylic acids do with metals, alkali and carbonates — *the O–H bond breaks; the test with bicarbonate is the one examiners love*
+
+Carboxylic acids are fairly strong acids because the $\ce{O-H}$ bond is polar and the **carboxylate ion** $\ce{RCOO^-} $ left behind is stabilised by resonance (below). They turn blue litmus red and react with:
+
+- **Active metals** ($\ce{Na}$, $\ce{K}$, $\ce{Mg}$): $\ce{2RCOOH + 2Na -> 2RCOONa + H2}$. (Alcohols do this too.)
+- **Alkalis:** $\ce{RCOOH + NaOH -> RCOONa + H2O}$ (neutralisation). Phenols do this too.
+- **Carbonates and bicarbonates:** $\ce{RCOOH + NaHCO3 -> RCOONa + H2O + CO2 ^}$ with a **brisk effervescence** of $\ce{CO2}$. Alcohols and phenols are too weak to do it.
+
+> **Trap:** the **sodium bicarbonate test** is the standard test to detect a carboxyl group, and the answer to every "distinguish ethanoic acid from ethanol", "benzoic acid from phenol", "benzoic acid from ethyl benzoate" question (2017 Q12(b), 2023 Q34(a), 2025 Q7(b)(i)). Write the observation: brisk effervescence of $\ce{CO2}$ with the acid, nothing with the other.
+
+###### Putting a number on strength: $K_a$ and $pK_a$
+
+**[exposure]** For $\ce{RCOOH + H2O <=> RCOO^- + H3O^+}$ the **acid dissociation constant** is $K_a = \dfrac{[\ce{RCOO^-}][\ce{H3O^+}]}{[\ce{RCOOH}]}$ (the constant concentration of water is folded in), and $pK_a = -\log K_a$. A **larger $K_a$** means a stronger acid, but the numbers are awkward powers of ten, so the $pK_a$ is used. **The smaller the $pK_a$, the stronger the acid.** NCERT's bands: below 1, a **strong** acid; 1 to 5, **moderately strong**; 5 to 15, **weak**; above 15, **extremely weak**.
+
+#### Why carboxylic acids beat alcohols and phenols — *it is all about how stable the left-over negative ion is*
+
+A stronger acid is one whose **conjugate base** (the ion left after $\ce{H+}$ leaves) is more stable, because then the equilibrium lies further towards the ions. Compare the three:
+
+- **Carboxylic acid vs alcohol.** The carboxylate $\ce{RCOO^-}$ is stabilised by **resonance**: its two structures are **identical**, and the negative charge is spread over **two oxygens**. The alkoxide $\ce{RO^-}$ of an alcohol has no resonance, and the electron-pushing R group makes its single oxygen even more crowded with charge. So carboxylic acids are much stronger than alcohols. (Ethanoic acid versus ethanol is asked as 2025 Q5(b)(ii).)
+- **Carboxylic acid vs phenol.** The phenoxide ion also has resonance, but its charge is shared between **one** oxygen and less electronegative ring carbons. The carboxylate puts the charge on **two electronegative oxygens**, so delocalisation is more effective. So carboxylic acids are stronger than phenols.
+
+The acid itself is also stabilised by resonance, but less so: one of its contributing structures has **charge separation** (a positive and a negative atom), which costs energy.
+
+Ranking: **carboxylic acid > phenol > alcohol**. All are weaker than mineral acids.
+
+#### What a substituent does to acid strength — *electron-pullers raise it, electron-pushers lower it — four rules*
+
+The same logic: anything that **stabilises the carboxylate** makes a stronger acid.
+
+- **Electron-withdrawing group (EWG)** — $\ce{-NO2}$, $\ce{-CN}$, halogens, $\ce{-CF3}$ — pulls charge towards itself and **stabilises the carboxylate**: stronger acid. An **electron-releasing group (ERG)** — alkyl, $\ce{-OCH3}$ — pushes charge onto the carboxylate and **destabilises** it: weaker acid.
+- **Number of substituents:** more is stronger. $\ce{CH3COOH < ClCH2COOH < Cl2CHCOOH < Cl3CCOOH}$.
+- **Nature of the substituent:** the more electronegative, the stronger. $\ce{CH3COOH}$ < $\ce{ICH2COOH}$ < $\ce{BrCH2COOH}$ < $\ce{ClCH2COOH}$ < $\ce{FCH2COOH}$. Fluorine is the strongest puller.
+- **Position:** the **closer** the EWG is to the $\ce{-COOH}$, the stronger the effect, because its pull falls off with distance. 2-fluorobutanoic acid > 3-fluorobutanoic acid > 4-fluorobutanoic acid.
+
+A surprising one: a **phenyl or vinyl group** attached directly to the carboxyl carbon **increases** acidity relative to a saturated acid. You might expect resonance donation to weaken it, but the carbon the carboxyl group is attached to is $sp^2$, which is more electronegative than an $sp^3$ carbon, and that wins.
+
+Worked example · the benzoic acid series (pK_a from NCERT)
+
+4-Methoxybenzoic acid (pK_a 4.46) < benzoic acid (4.19) < 4-nitrobenzoic acid (3.41) in acid strength. $\ce{-OCH3}$ donates electrons and weakens the acid; $\ce{-NO2}$ withdraws and strengthens it. A lower pK_a means a stronger acid. 3,4-Dinitrobenzoic acid, with two $\ce{NO2}$ groups, is the strongest of all four (2022 Q21(b)).
+
+**Examiner asks:** "why is ethanoic acid a stronger acid than ethanol" (2025 Q5(b)(ii)); "4-nitrobenzoic acid is a stronger acid than benzoic acid" (2022 Q15(b)); "arrange $\ce{CH3COOH}$, $\ce{ClCH2COOH}$, $\ce{FCH2COOH}$ by acid strength" (2022 Q5(a)); NCERT intext 8.8, which asks which of each pair is stronger.
+
+#### Carboxylic acid reactions: breaking the C–OH bond — *anhydride, ester, acid chloride, amide — the four derivatives made from the acid*
+
+###### Anhydride
+
+Heat two molecules of a carboxylic acid with $\ce{H2SO4}$ or $\ce{P2O5}$ ($\ce{P4O10}$) and water is removed: $\ce{2CH3COOH ->[P2O5, \Delta] (CH3CO)2O + H2O}$, ethanoic anhydride.
+
+###### Ester — esterification
+
+**[exposure]** **Esterification** is making an ester from a carboxylic acid and an alcohol (or phenol), with an acid catalyst (conc. $\ce{H2SO4}$ or $\ce{HCl}$ gas): $\ce{RCOOH + R'OH <=>[H+] RCOOR' + H2O}$. It is reversible; esters smell fruity.
+
+**Mechanism** (all you need is the sequence): (1) $\ce{H+}$ from the catalyst **protonates the carbonyl oxygen**, which makes the carbon more positive. (2) The alcohol's oxygen, with its lone pair, **attacks that carbon** (nucleophilic attack), giving a tetrahedral intermediate. (3) A **proton transfers** between oxygens, so one $\ce{-OH}$ becomes $\ce{-OH2^+}$. (4) **Water leaves**, giving the protonated ester. (5) It **loses $\ce{H+}$**, giving the ester and handing back the catalyst. The $\ce{H+}$ is used and regained, so it is a catalyst.
+
+###### Acid chloride
+
+The $\ce{-OH}$ is replaced by $\ce{-Cl}$ with $\ce{PCl5}$, $\ce{PCl3}$ or $\ce{SOCl2}$ (thionyl chloride):
+
+$$\ce{RCOOH + PCl5 -> RCOCl + POCl3 + HCl}$$ $$\ce{3RCOOH + PCl3 -> 3RCOCl + H3PO3}$$ $$\ce{RCOOH + SOCl2 -> RCOCl + SO2 ^ + HCl ^}$$
+
+**Thionyl chloride is preferred**: its by-products, $\ce{SO2}$ and $\ce{HCl}$, are gases that leave the mixture, so the acid chloride comes out pure.
+
+###### Amide
+
+A carboxylic acid with $\ce{NH3}$ gives the ammonium salt; **heating** the salt loses water to give the amide. $\ce{CH3COOH + NH3 -> CH3COO^-NH4^+ ->[\Delta] CH3CONH2 + H2O}$. Phthalic acid takes two $\ce{NH3}$ to give ammonium phthalate, which on heating gives **phthalamide**; strong heating drives off a molecule of $\ce{NH3}$ and closes the ring to **phthalimide**.
+
+**Examiner asks:** $\ce{CH3COOH}$ with $\ce{P4O10}$ (2025 Q6(a)); phthalamide on strong heating gives phthalimide (2025 Q6(a)); acid + $\ce{NH3}$ then heat gives the amide, which is the middle step of the Hofmann chains you will meet in Amines.
+
+#### Carboxylic acid reactions: reduction, decarboxylation, hydrocarbon part — *$\ce{LiAlH4}$ reaches the acid; soda lime removes $\ce{CO2}$; Br_2/red P halogenates the α-carbon*
+
+###### Reduction
+
+$\ce{LiAlH4}$ in ether, or better **diborane** $\ce{B2H6}$, reduces a carboxylic acid to a **primary alcohol**. Diborane does not easily reduce esters, nitro or halo groups, so it is selective. **Sodium borohydride $\ce{NaBH4}$ is too mild** and does not reduce a carboxyl group.
+
+###### Decarboxylation
+
+**[exposure]** **Decarboxylation** removes $\ce{CO2}$ from a carboxylic acid, leaving a hydrocarbon with **one carbon less**. The sodium salt of the acid is heated with **soda lime** ($\ce{NaOH + CaO}$ in a **3 : 1** ratio): $\ce{RCOONa + NaOH ->[CaO, \Delta] RH + Na2CO3}$. Examples: sodium ethanoate gives **methane**; sodium benzoate gives **benzene**.
+
+**[exposure]** **Kolbe electrolysis.** Electrolysing the **aqueous sodium or potassium salt** of an acid is also a decarboxylation, but the alkyl groups from **two** carboxylate ions join: at the anode $\ce{2RCOO^- -> R-R + 2CO2 + 2e^-}$ and at the cathode $\ce{2H2O + 2e^- -> H2 + 2OH^-}$. The hydrocarbon has **twice** the carbons of the alkyl group of the acid.
+
+###### Hell–Volhard–Zelinsky (HVZ) reaction
+
+A carboxylic acid with $\ce{Cl2}$ or $\ce{Br2}$ and a little **red phosphorus**, then water, gets a halogen on the **α-carbon**, giving an **α-halocarboxylic acid**. $\ce{CH3CH2COOH ->[Br2 / red P][H2O] CH3CHBrCOOH}$ (2-bromopropanoic acid). Aqueous $\ce{NaOH}$ then replaces the halogen by $\ce{-OH}$ (ethanoic acid → 2-chloroethanoic acid → 2-hydroxyethanoic acid, 2017 Q18(b)).
+
+###### The benzene ring of an aromatic acid
+
+The carboxyl group is **deactivating and meta-directing** (the $-R$ effect pulls ring electrons, leaving the ortho/para positions positive). Benzoic acid + $\ce{HNO3 / H2SO4}$ gives **3-nitrobenzoic acid**; with $\ce{Br2 / FeBr3}$ it gives 3-bromobenzoic acid. It does **not undergo Friedel–Crafts**, for two reasons: the ring is deactivated, and the $\ce{AlCl3}$ catalyst bonds to the electron-rich carboxyl oxygens instead of working as a catalyst (2022 Q14(a), 2023 Q33(a)).
+
+###### Uses
+
+Methanoic acid goes into rubber, textile, dyeing, leather and electroplating; ethanoic acid is a solvent and the acid of vinegar; hexanedioic acid is a monomer for **nylon-6,6**; esters of benzoic acid are used in perfumery; sodium benzoate is a food preservative; higher fatty acids go into soaps and detergents.
+
+**Examiner asks:** HVZ (2019 Q7, 2022 Q24(b)); decarboxylation with soda lime (2017 Q12(a), 2022 Q28(c), 2023 Q35, 2025 Q6(b)); the conversion that uses $\ce{LiAlH4}$ vs $\ce{NaBH4}$.
+
+#### Patterns, collected — *the reagents, tests and orderings you will actually be asked to produce*
+
+###### 1. Which reagent for which job
+
+| To make | From | Reagent |
+|---|---|---|
+| aldehyde | primary alcohol | PCC (or Cu, 573 K) |
+| ketone | secondary alcohol | anhydrous $\ce{CrO3}$ (or Cu, 573 K) |
+| aldehyde | acid chloride | $\ce{H2 / Pd-BaSO4}$ (Rosenmund) |
+| aldehyde | nitrile | $\ce{SnCl2 / HCl}$ then $\ce{H3O+}$ (Stephen), or DIBAL-H |
+| benzaldehyde | toluene | $\ce{CrO2Cl2}$ (Etard); $\ce{CrO3 / (CH3CO)2O}$; or $\ce{Cl2, h\nu}$ then hydrolysis |
+| ketone | acid chloride | $\ce{R2Cd}$ |
+| ketone | benzene | $\ce{RCOCl / AlCl3}$ (Friedel–Crafts) |
+| carboxylic acid (+1 C) | alkyl halide | $\ce{Mg}$, $\ce{CO2}$, $\ce{H3O+}$ — or $\ce{KCN}$ then hydrolysis |
+| acid (same C) | primary alcohol / aldehyde | $\ce{KMnO4}$ or $\ce{K2Cr2O7 / H+}$ |
+| hydrocarbon (one C less) | acid salt | soda lime, heat |
+
+###### 2. Distinguish by a test
+
+| Test | Positive for | Negative for |
+|---|---|---|
+| Tollens' (silver mirror) | aldehyde | ketone |
+| Fehling's (red-brown $\ce{Cu2O}$) | aliphatic aldehyde | ketone, *aromatic* aldehyde |
+| Iodoform ($\ce{NaOH + I2}$, yellow $\ce{CHI3}$) | $\ce{CH3CO\bond{-}}$ or $\ce{CH3CH(OH)\bond{-}}$ | others |
+| 2,4-DNP (orange ppt) | any aldehyde or ketone | acids, esters, alcohols |
+| $\ce{NaHCO3}$ (effervescence) | carboxylic acid | alcohol, phenol, ester |
+
+Worked example
+
+Distinguish propanal from propanone (2020 Q23(a)): warm each with freshly prepared Tollens' reagent. Propanal gives a bright silver mirror ($\ce{CH3CH2CHO -> CH3CH2COO^-}$, $\ce{Ag^+ -> Ag}$); propanone does not react.
+
+- Distinguish ethanol from ethanoic acid — answer only: add $\ce{NaHCO3}$; the acid gives brisk effervescence of $\ce{CO2}$, the alcohol does not
+
+- Distinguish benzaldehyde from acetophenone — answer only: Tollens' gives a silver mirror with benzaldehyde; iodoform test (yellow ppt) is given only by acetophenone
+
+###### 3. Carbon count: how it changes
+
+Worked example
+
+Which reactions change the carbon count? **Gain one:** Grignard + $\ce{CO2}$; $\ce{KCN}$ then hydrolysis; nitrile route. **Lose one:** haloform (methyl ketone → acid, $\ce{CHX3}$ lost); soda-lime decarboxylation; Hofmann (Chapter 9). **Double:** aldol condensation ($\ce{2CH3CHO -> C4}$); Kolbe electrolysis.
+
+- Ethanal to but-2-enal (carbons: 2 → 4) — answer only: aldol condensation, dilute NaOH then heat
+
+- Propanoic acid to 2-bromopropanoic acid — answer only: $\ce{Br2 / red P}$ then water (HVZ)
+
+###### 4. Rank by reactivity, acidity or boiling point
+
+Worked example
+
+Increasing acid strength: 4-methoxybenzoic acid, benzoic acid, 4-nitrobenzoic acid, 3,4-dinitrobenzoic acid (2022 Q21(b)). More electron-withdrawing groups give a stronger acid, and an electron donor ($\ce{-OCH3}$) a weaker one: **4-methoxybenzoic < benzoic < 4-nitrobenzoic < 3,4-dinitrobenzoic**.
+
+- Increasing nucleophilic-addition reactivity: ethanal, propanone, propanal, butanone — answer only: butanone < propanone < propanal < ethanal
+
+- Increasing boiling point: propane, ethanal, ethanol — answer only: propane < ethanal < ethanol
+
+###### 5. Solve an "identify A, B, C" puzzle
+
+Worked example · 2023 Q35
+
+A ($\ce{C4H8O2}$) on acid hydrolysis gives B and C. Oxidising C gives B. The sodium salt of B with soda lime gives methane.
+
+1. Soda lime on a sodium salt removes $\ce{CO2}$: the salt must be $\ce{CH3COONa}$, so B is **ethanoic acid**.
+2. Oxidising C gives B, and C is a hydrolysis product with two carbons, so C is **ethanol**.
+3. Hydrolysis giving an acid and an alcohol means A is an ester: **ethyl ethanoate** ($\ce{CH3COOC2H5}$ is $\ce{C4H8O2}$ ✓).
+
+- $\ce{C3H8O}$ with Cu at 573 K gives B (no Fehling's) which gives a yellow precipitate with $\ce{I2/NaOH}$ — answer only: A propan-2-ol; B propanone; the yellow precipitate is $\ce{CHI3}$
+
+#### Past year questions · question types — *ranked by how often they turn up*
+
+*Two videos feed this section. **[30+]** is the "30+ PYQ" video for CBSE 2024-25 — Q1–Q35, questions from 2013 to 2023. **[2025]** is the short "2025 PYQ" video — Q1–Q7, from the 2025 board paper. Question numbers are each video's own numbering, and years come from the video. Where the video gave no year, the question is cited by number only. The CBSE 2026-27 "25 PYQ" video for this chapter was not uploaded when these notes were built; once it is, this section can be refreshed from it. Counts are by question part, from the two videos' lists.*
+
+1 · Complete the reaction / write the product / convert
+ — *1 to 5 marks · about 35 parts*
+
+*Recognise it: "write the product", "complete the reaction", "how will you convert A to B", "give the missing reagent".*
+
+1. Name the functional group that changes and the bond that forms or breaks.
+2. **Count carbons** in the start and the product: up one → $\ce{KCN}$ or Grignard + $\ce{CO2}$; down one → haloform or soda lime; doubled → aldol or Kolbe.
+3. Write each step with its reagent above the arrow; write the structure of every intermediate.
+
+> **Trap:** the reagent is the mark. Rosenmund needs $\ce{Pd-BaSO4}$ (without the $\ce{BaSO4}$ the aldehyde is reduced on to the alcohol); Wolff–Kishner is hydrazine then $\ce{KOH}$/ethylene glycol; and a "benzoic acid from alkylbenzene" question always wants $\ce{KMnO4/KOH}$, heat, then acid, whatever the chain length.
+
+2 · Give a reason / account for
+ — *1 to 5 marks · about 12 parts*
+
+*Recognise it: "account for …", "why is X more reactive / a stronger acid / unable to …".*
+
+1. State the structural fact (resonance, +I, −I, steric crowding, α-hydrogen, a lone pair).
+2. Say how it causes the behaviour in one sentence.
+
+> **Trap:** one answer covers a lot: **the stability of the conjugate base** (carboxylate) explains acid strength; **steric hindrance plus +I** explains aldehyde vs ketone; **resonance lowering the positive charge** explains benzaldehyde vs propanal and why carboxylic acids do not do carbonyl reactions.
+
+3 · Identify the compounds (A, B, C)
+ — *3 to 5 marks · about 9 parts*
+
+*Recognise it: a formula plus a list of observations (a reagent that gives or does not give a precipitate), and "identify A, B and C".*
+
+1. Turn each clue into a group: positive 2,4-DNP → carbonyl; Tollens'/Fehling's positive → aldehyde, negative → ketone; iodoform positive → $\ce{CH3CO\bond{-}}$; ozonolysis → cut the double bond and join the two carbonyls back.
+2. Check the formula after every guess.
+3. Write the equation that links the compounds.
+
+> **Trap:** iodoform needs **a methyl on the carbonyl carbon**, not just any methyl. Ethanal is the *only* aldehyde that gives the iodoform test.
+
+4 · Distinguish by a chemical test
+ — *2 or 3 marks · about 6 parts*
+
+*Recognise it: "give a simple chemical test to distinguish between …".*
+
+1. Pick the test that separates the pair (the table in the Patterns section): aldehyde vs ketone → Tollens' or Fehling's; acid vs the rest → $\ce{NaHCO3}$; methyl ketone → iodoform.
+2. State the observation for *both* compounds, including "no reaction".
+
+> **Trap:** an observation is what you *see* (silver mirror, brisk effervescence, yellow precipitate), not the equation. Aromatic aldehydes do not respond to Fehling's.
+
+5 · Describe or write a named reaction
+ — *2 to 5 marks · about 8 parts*
+
+*Recognise it: "describe acetylation / aldol condensation", "write the equation for Stephen / Etard / Cannizzaro / Wolff–Kishner / decarboxylation".*
+
+1. One line of what it is, with the reagents.
+2. Then a worked equation with an example, and the product named.
+
+> **Trap:** do not mix the three toluene → benzaldehyde methods. $\ce{CrO2Cl2}$ in $\ce{CS2}$ is Etard; $\ce{CrO3}$ in acetic anhydride gives benzylidene diacetate; $\ce{Cl2}$ in light gives benzal chloride.
+
+6 · Arrange in order; name or draw
+ — *1 to 2 marks · about 9 parts*
+
+*Recognise it: "arrange in increasing order of acid strength / boiling point / reactivity in nucleophilic addition", "write the IUPAC name", "draw the structure of …".*
+
+1. Orderings: acid strength → more EWG, nearer, stronger; boiling point → hydrogen bonding > dipole–dipole > van der Waals; nucleophilic addition → fewer, smaller groups on the carbonyl, faster.
+2. Names: the highest-ranking group is the suffix (acid > aldehyde > ketone > alcohol); the others become prefixes (oxo-, hydroxy-).
+
+> **Trap:** read "increasing" or "decreasing" before you write the order; and in the benzoic-acid series the electron donor (4-methoxy) is the *weakest* acid.
+
+#### Past year questions · mark slots — *what each type is worth*
+
+*The 30+ video states its own marks: **Q1–Q10 are 1-mark, Q11–Q22 are 2-mark, Q23 onward are 3-mark**, except that it names Q33 and Q34 (both 2023) as 2-mark. The 2025 video states Q1 as 2 marks and **Q4, Q5, Q6 and Q7 as 5 marks each**; for its Q2 and Q3 no marks are stated (inferred: 3 each). So **this chapter has appeared as a 5-mark long answer in the 2025 paper** — the one place in this set where a 5-marker was recorded.*
+
+| Question type | 1 mark | 2 marks | 3 marks | 5 marks |
+|---|---|---|---|---|
+| Complete / product / convert | Q2, 2020 Q3, 2019 Q4, 2019 Q7, Q8, 2019 Q9, Q10 [30+] | 2017 Q12(a), 2017 Q18, 2013 Q19, 2015 Q22 [30+] | 2022 Q24, 2022 Q28, 2020 Q30, 2017 Q26 [30+] | 2025 Q4, Q5, Q6, Q7(a) [2025] |
+| Give a reason | 2017 Q6 [30+] | 2014 Q13, 2022 Q14, 2022 Q15, 2023 Q33, 2023 Q34(b) [30+]; 2025 Q1 [2025] | — | 2025 Q5(b) [2025] |
+| Identify A, B, C | — | — | Q25, Q29, 2023 Q32, 2023 Q35 [30+]; 2025 Q2, Q3 [2025, inferred 3] | 2025 Q5(a) [2025] |
+| Distinguish by a test | — | 2017 Q12(b), 2017 Q16(b), 2023 Q34(a) [30+] | 2020 Q23(a) [30+] | 2025 Q7(b) [2025] |
+| Named reaction | 2019 Q9 [30+] | 2022 Q11, 2015 Q17 [30+] | 2015 Q22 [30+] | 2025 Q6(b) [2025] |
+| Arrange / name / draw | 2014 Q1 [30+] | 2015 Q20, 2022 Q5, 2022 Q21 [30+] | — | — |
+
+#### Past year questions · repeat offenders — *appeared more than once — highest probability in the chapter*
+
+2015 Q17(b) · 2022 Q24(c) · 2017 Q26 · 2025 Q2 · 2025 Q4(b)
+
+Aldol condensation — ethanal to but-2-enal (dilute NaOH, then heat), and its cross version with benzaldehyde. The most repeated reaction in the chapter.
+
+2019 Q9 · 2022 Q24(a) · 2023 Q31(b) · 2025 Q7(a)
+
+Rosenmund reduction — an acid chloride with $\ce{H2/Pd-BaSO4}$ gives the aldehyde (benzoyl chloride → benzaldehyde).
+
+2022 Q11 · 2013 Q19(a) · Q29 · 2025 Q5(a)
+
+Cannizzaro reaction — no α-hydrogen, concentrated alkali, one molecule oxidised and one reduced (methanal; benzaldehyde).
+
+2020 Q23(a) · 2017 Q16(b) · 2025 Q7(b) · 2025 Q4(a)
+
+Tollens' reagent — the silver-mirror test for an aldehyde against a ketone.
+
+2017 Q12(b) · 2023 Q34(a) · 2025 Q7(b)
+
+The sodium bicarbonate test for a carboxylic acid against an alcohol, phenol or ester.
+
+2014 Q13(a) · 2022 Q15(a) · 2022 Q21(a) · 2022 Q27(a) · 2025 Q1
+
+Reactivity in nucleophilic addition — aldehyde faster than ketone (sterics plus +I); benzaldehyde slower than propanal (resonance). Appears as a reason and as an ordering.
+
+2022 Q5(a) · 2022 Q15(b) · 2022 Q21(b) · 2025 Q5(b)
+
+Acid-strength explanations and orderings — electron-withdrawing groups stabilise the carboxylate; carboxylic acids beat alcohols by resonance.
+
+2019 Q7 · 2022 Q24(b) · 2017 Q18(b)
+
+Hell–Volhard–Zelinsky: $\ce{Br2/red P}$ (or $\ce{Cl2}$) puts a halogen on the α-carbon of the acid.
+
+2017 Q12(a) · 2022 Q28(c) · 2023 Q35 · 2025 Q6(b)
+
+Decarboxylation with soda lime (sodium salt of the acid → hydrocarbon, one carbon fewer; benzoate → benzene; ethanoate → methane).
+
+2014 Q13(b) · 2022 Q27(c) · 2025 Q7(a)
+
+Semicarbazone — the product, and why only one $\ce{-NH2}$ of semicarbazide reacts.
+
+2014 Q13(a) · 2017 Q16(a) · 2020 Q23(b)
+
+Cyanohydrin formation with $\ce{HCN}$ ($\ce{CN^-}$ as the nucleophile).
+
+2022 Q28(a) · 2025 Q6(a) · 2025 Q7(a)
+
+Acid chloride + dimethylcadmium gives a ketone (propanone, acetophenone).
+
+2022 Q11 · 2022 Q28(b) · 2025 Q6(b)
+
+Wolff–Kishner and Clemmensen — carbonyl to $\ce{CH2}$ (propanone → propane).
+
+2017 Q18(a) · 2023 Q32 · 2025 Q3 · Q25
+
+The iodoform test and the compounds that give it ($\ce{CH3CO\bond{-}}$ or $\ce{CH3CH(OH)\bond{-}}$).
+
+2017 Q6 · 2025 Q5(b)
+
+Why carboxylic acids do not give the carbonyl reactions of aldehydes and ketones.
+
+2022 Q14(a) · 2023 Q33(a)
+
+The carboxyl group is deactivating and meta-directing; benzoic acid gives no Friedel–Crafts.
+
+2017 Q2 · 2025 Q2
+
+DIBAL-H reduces a nitrile to an aldehyde and leaves a $\ce{C=C}$ alone.
+
+2019 Q4 · 2025 Q4(a)
+
+Ethylbenzene with $\ce{KMnO4}$ gives benzoic acid (via potassium benzoate in base).
+
+#### Past year questions · numerical types — *no calculations in this chapter, so these are the reaction and structure types — one worked model each, then cold practice*
+
+###### A · Multi-step conversion
+
+Worked example · 2025 Q4(b) [2025] — benzaldehyde to benzophenone, and to 3-phenylpropan-1-ol
+
+**Benzophenone** ($\ce{C6H5COC6H5}$): oxidise the aldehyde to benzoic acid ($\ce{K2Cr2O7}$ in acetic acid), make the acid chloride ($\ce{SOCl2}$, giving benzoyl chloride), then Friedel–Crafts acylation of benzene with $\ce{AlCl3}$.
+
+**3-Phenylpropan-1-ol** ($\ce{C6H5CH2CH2CH2OH}$): add two carbons by a cross aldol with ethanal (dilute NaOH) to $\ce{C6H5CH(OH)CH2CHO}$; heat to lose water, giving cinnamaldehyde $\ce{C6H5CH=CHCHO}$; then $\ce{H2/Pd}$ reduces *both* the $\ce{C=C}$ and the $\ce{-CHO}$.
+
+- 2017 Q18(a) [30+] — acetophenone to benzoic acid, in two steps — answer only: $\ce{NaOH / I2}$ (iodoform reaction) gives sodium benzoate + $\ce{CHI3}$; acidify
+
+- 2017 Q18(b) [30+] — ethanoic acid to 2-hydroxyethanoic acid — answer only: $\ce{Cl2 / red P}$, then aqueous $\ce{NaOH}$
+
+- 2020 Q30 [30+] — benzene to 3-nitroacetophenone — answer only: $\ce{CH3COCl / AlCl3}$ (acylation), then $\ce{HNO3/H2SO4}$ (the $\ce{COCH3}$ directs meta)
+
+- 2020 Q30 [30+] — benzyl alcohol to phenylethanoic acid — answer only: $\ce{SOCl2}$, then $\ce{KCN}$, then hydrolysis
+
+- 2022 Q24 [30+] — propan-1-ol to 2-bromopropanoic acid — answer only: $\ce{K2Cr2O7 / H+}$ to propanoic acid, then $\ce{Br2 / red P}$
+
+###### B · Identify the compounds
+
+Worked example · 2023 Q32 [30+] — A is $\ce{C3H8O}$; with Cu at 573 K it gives B; B does not reduce Fehling's but A's product gives a yellow precipitate C with $\ce{I2/NaOH}$
+
+1. Copper at 573 K is dehydrogenation: A is a primary or secondary alcohol, and B is an aldehyde or ketone.
+2. B does not reduce Fehling's, so it is not an aldehyde: B is a **ketone**, and with three carbons it is **propanone**.
+3. A, the alcohol that gives a ketone, is the secondary alcohol **propan-2-ol**.
+4. Propanone has $\ce{CH3CO\bond{-}}$, so with $\ce{I2/NaOH}$ it gives the yellow precipitate of **iodoform $\ce{CHI3}$** (C), plus sodium ethanoate.
+
+- 2023 Q35 [30+] — A ($\ce{C4H8O2}$) hydrolyses to B and C — answer only: A ethyl ethanoate; B ethanoic acid; C ethanol
+
+- Q25 [30+] — alkene $\ce{C5H10}$ whose ozonolysis products are ethanal and propanone — answer only: A 2-methylbut-2-ene; B ethanal; C propanone
+
+- Q29 [30+] — two moles of A with a strong base give B and C; B with Cu regenerates A; acidifying C gives $\ce{CH2O2}$ — answer only: A methanal; B methanol; C sodium formate; D formic acid (Cannizzaro)
+
+- 2025 Q3 [2025] — A is $\ce{C8H8O}$, positive 2,4-DNP, no Tollens', iodoform positive; drastic oxidation gives C — answer only: A acetophenone (1-phenylethanone); with NaOI → sodium benzoate + $\ce{CHI3}$; C benzoic acid
+
+- 2025 Q2 [2025] — A ($\ce{C4H5N}$) with DIBAL-H then water gives B, which gives Tollens' but not iodoform, and is also made from ethanal and dilute NaOH on heating — answer only: A but-2-enenitrile $\ce{CH3CH=CHCN}$; B but-2-enal
+
+###### C · Give a reason
+
+Worked example · 2022 Q15(a) [30+] / 2025 Q1 [2025] — benzaldehyde is less reactive than propanal in nucleophilic addition
+
+In benzaldehyde the carbonyl is conjugated with the ring, so the ring's $\pi$ electrons are drawn towards the carbonyl by **resonance**. That **lowers the positive charge** on the carbonyl carbon (it becomes **less electrophilic**), so the nucleophile finds less to attack. Propanal has no resonance, so its carbon is more positive and it reacts faster.
+
+- 2022 Q14(a) [30+] — benzoic acid gives no Friedel–Crafts — answer only: $\ce{COOH}$ deactivates the ring, and $\ce{AlCl3}$ bonds to the carboxyl oxygen
+
+- 2022 Q15(b) [30+] — 4-nitrobenzoic acid is a stronger acid than benzoic acid — answer only: $\ce{-NO2}$ is electron-withdrawing and stabilises the conjugate base
+
+- 2017 Q6 [30+] — carboxylic acids do not give the reactions of the carbonyl group — answer only: the lone pair on $\ce{-OH}$ is in resonance with $\ce{C=O}$, lowering the carbon's electrophilicity
+
+- 2014 Q13(a) [30+] — $\ce{CH3CHO}$ is more reactive than $\ce{CH3COCH3}$ towards HCN — answer only: two methyls cause more steric hindrance and more +I effect than one
+
+- 2023 Q34(b) [30+] — α-hydrogens of an aldehyde or ketone are acidic — answer only: the carbonyl is electron-withdrawing, and the carbanion is resonance-stabilised
+
+###### D · Distinguish
+
+Worked example · 2020 Q23(a) [30+] — distinguish propanal from propanone
+
+Warm each with freshly prepared Tollens' reagent (ammoniacal silver nitrate). Propanal is oxidised to propanoate and the silver ion is reduced to a **bright silver mirror**; propanone gives **no reaction**.
+
+- 2017 Q12(b) [30+] — benzoic acid from phenol — answer only: $\ce{NaHCO3}$; the acid gives brisk effervescence of $\ce{CO2}$, phenol does not
+
+- 2017 Q16(b) [30+] — butanal from butan-2-one — answer only: Tollens' reagent; butanal gives a silver mirror
+
+- 2025 Q7(b) [2025] — ethyl benzoate from benzoic acid — answer only: $\ce{NaHCO3}$; only the acid gives effervescence
+
+###### E · Arrange in order
+
+Worked example · 2022 Q21(a) [30+] — nucleophilic-addition reactivity of ethanal, propanone, propanal, butanone
+
+Fewer, smaller groups on the carbonyl means faster. Ethanal has one methyl; propanal one ethyl; propanone two methyls; butanone a methyl and an ethyl. Increasing reactivity: **butanone < propanone < propanal < ethanal**.
+
+- 2022 Q5(a) [30+] — acid strength of $\ce{CH3COOH}$, $\ce{ClCH2COOH}$, $\ce{FCH2COOH}$ — answer only: $\ce{CH3COOH < ClCH2COOH < FCH2COOH}$
+
+- 2022 Q5(b) [30+] — boiling points of $\ce{CH3CHO}$, $\ce{CH3CH2OH}$, $\ce{CH3CH2CH3}$ — answer only: $\ce{CH3CH2CH3 < CH3CHO < CH3CH2OH}$
+
+- 2022 Q21(b) [30+] — acid strength of 4-nitrobenzoic, benzoic, 3,4-dinitrobenzoic and 4-methoxybenzoic acids — answer only: 4-methoxy < benzoic < 4-nitro < 3,4-dinitro
+
+###### F · Named reactions
+
+Worked example · 2022 Q11 [30+] — Wolff–Kishner reduction and the Cannizzaro reaction
+
+**Wolff–Kishner:** an aldehyde or ketone is heated with hydrazine to form the hydrazone (water lost), which is then heated with $\ce{KOH}$ in ethylene glycol; $\ce{N2}$ escapes and the carbonyl becomes $\ce{CH2}$: $\ce{CH3COCH3 -> CH3CH2CH3}$. **Cannizzaro:** an aldehyde with no α-hydrogen is heated with concentrated alkali; one molecule is reduced to the alcohol and one is oxidised to the carboxylate: $\ce{2HCHO + KOH -> CH3OH + HCOOK}$.
+
+- 2015 Q22 [30+] — Stephen reaction — answer only: $\ce{RCN}$ with $\ce{SnCl2/HCl}$ gives the imine, then $\ce{H3O+}$ gives $\ce{RCHO}$
+
+- 2015 Q22 [30+] — Etard reaction — answer only: toluene with $\ce{CrO2Cl2}$ in $\ce{CS2}$ gives a chromium complex, hydrolysed to benzaldehyde
+
+- 2025 Q5(a) [2025] — toluene with $\ce{CrO3}$ in acetic anhydride (A), hydrolysed (B), then concentrated NaOH (C) — answer only: A benzylidene diacetate; B benzaldehyde; C benzyl alcohol (with sodium benzoate); the video calls the first step Etard, but it is the $\ce{CrO3/Ac2O}$ route
+
+- 2015 Q17 [30+] — acetylation — answer only: introducing $\ce{CH3CO\bond{-}}$ into an alcohol, phenol or amine with acetyl chloride or acetic anhydride (aniline gives acetanilide)
+
+###### G · IUPAC names and structures
+
+Worked example · 2014 Q1 [30+] — name the compound with a ketone at C2 and an alcohol at C4 of a five-carbon chain
+
+The ketone outranks the alcohol, so it is the suffix and gets the lowest number (carbon 2); the alcohol becomes the prefix **hydroxy** at carbon 4. Five carbons, all single bonds: **4-hydroxypentan-2-one**.
+
+- 2015 Q20 [30+] — structure of 4-methylpent-3-en-2-one — answer only: $\ce{CH3-CO-CH=C(CH3)-CH3}$
+
+- 2015 Q20 [30+] — structure of $p$-methylbenzaldehyde — answer only: benzene ring with $\ce{-CHO}$ at C1 and $\ce{-CH3}$ at C4
+
+### Chapter 9 · Amines
+
+`NCERT Class XII Chemistry · Chapter 9 · Amines`
+
+*6 marks in the board paper (CBSE 2026-27 curriculum), and a chapter that is mostly reactions you can predict once you know one fact: the nitrogen has a lone pair of electrons. That lone pair makes amines bases, makes them nucleophiles, and decides what each reagent does to them. Every new word is tagged **[exposure]** and explained from scratch. The two big payoffs are the basicity order and the diazonium-salt conversions — they carry most of the marks.*
+
+#### What amines are, and where they matter — *ammonia with its hydrogens swapped for carbon groups*
+
+**[exposure]** An **amine** is an organic compound you get by replacing one or more hydrogen atoms of **ammonia** $\ce{NH3}$ with alkyl or aryl groups. (An **alkyl** group is a saturated carbon chain such as $\ce{CH3\bond{-}}$; an **aryl** group is a benzene-ring group such as $\ce{C6H5\bond{-}}$.) Amines matter because the same $\ce{-NH2}$-type unit sits inside proteins, vitamins, hormones and many drugs. Example: methylamine $\ce{CH3NH2}$ is ammonia with one hydrogen replaced by $\ce{CH3}$.
+
+Where they turn up, and what the examiner can ask:
+
+- Biologically active amines: **adrenaline** and **ephedrine** contain a secondary amino group and raise blood pressure.
+- **Novocain** — a synthetic amine used as a local anaesthetic in dentistry.
+- **Benadryl** — an antihistamine (it treats allergic reactions) with a tertiary amino group.
+- **Quaternary ammonium salts** are used as **surfactants** (they lower the surface tension between two liquids that do not mix).
+- **Diazonium salts** are intermediates for making a huge range of organic compounds, **dyes** included.
+
+**Examiner asks:** nothing hard from this section, but the drug names are one-mark recall.
+
+#### Classification and structure — *count the carbon groups on nitrogen; then why the shape is a pyramid*
+
+**[exposure]** Amines are sorted by **how many hydrogens of ammonia were replaced**. This count decides almost every reaction later.
+
+| Type | Replaced | General formula | Example |
+|---|---|---|---|
+| **Primary (1°)** | one H | $\ce{RNH2}$ | $\ce{CH3NH2}$ |
+| **Secondary (2°)** | two H | $\ce{R2NH}$ | $\ce{(CH3)2NH}$ |
+| **Tertiary (3°)** | three H | $\ce{R3N}$ | $\ce{(CH3)3N}$ |
+
+**[exposure]** A **quaternary ammonium salt** has *four* carbon groups on nitrogen, replacing all four hydrogens of the ammonium ion $\ce{NH4^+}$: $\ce{R4N^+X^-}$. The nitrogen carries a positive charge and has no lone pair left to give away, which is why such salts are not bases.
+
+**[exposure]** **Simple versus mixed.** A secondary or tertiary amine is **simple** if all its carbon groups are the same (diethylamine, trimethylamine, diphenylamine) and **mixed** if they differ (ethylmethylamine, ethylphenylamine).
+
+###### Structure — why the shape is a pyramid
+
+The nitrogen of an amine is **$sp^3$ hybridised**: one $s$ and three $p$ orbitals blend into four equal hybrid orbitals. Three of them make sigma bonds (to H or R); the fourth holds the **lone pair**. A lone pair repels the bonded pairs more than they repel each other, so the shape is a **pyramid** (the same as ammonia) and the bond angle is squeezed below the tetrahedral 109.5°. In trimethylamine it is about **108°**.
+
+**Examiner asks:** classify given amines as primary, secondary or tertiary — count the groups on nitrogen (NCERT intext 9.1).
+
+#### Nomenclature — *common names for the pattern; IUPAC "alkanamine" for the marks*
+
+###### Common names
+
+Name the alkyl group(s), then write **amine**. Same groups repeated: **di-**, **tri-**. Different groups: **alphabetical order**. $\ce{CH3NH2}$ = methylamine; $\ce{(CH3)2NH}$ = dimethylamine; $\ce{(CH3)3N}$ = trimethylamine; $\ce{C2H5NHCH3}$ = ethylmethylamine.
+
+###### IUPAC names
+
+1. **Primary:** drop the final "e" of the alkane and add **amine**: $\ce{CH3NH2}$ = **methanamine**; $\ce{CH3CH2NH2}$ = **ethanamine**; $\ce{CH3CH(NH2)CH3}$ = **propan-2-amine** (number the carbon that carries $\ce{-NH2}$).
+2. **Secondary and tertiary:** the **longest chain** gives the parent name. The smaller group(s) on nitrogen become substituents written with the locant **N**: $\ce{CH3NHC2H5}$ = **N-methylethanamine**.
+3. Two identical small groups: **N,N-** prefix. $\ce{(CH3)2NC2H5}$ = **N,N-dimethylethanamine**. Different small groups: alphabetical, each with its own N: **N-ethyl-N-methyl…**
+4. **Two $\ce{-NH2}$ groups:** keep the "e" and add **diamine**: $\ce{H2N-CH2CH2-NH2}$ = **ethane-1,2-diamine**.
+
+###### Aromatic amines
+
+$\ce{C6H5NH2}$ is **aniline** (IUPAC also accepts **benzenamine**). A methyl on the ring gives **toluidine** (ortho, meta, para). With IUPAC numbering the $\ce{-NH2}$ carbon is 1: so 2-bromoaniline, and 2,4,6-tribromoaniline. Groups on nitrogen use N: $\ce{C6H5N(CH3)2}$ = **N,N-dimethylaniline**.
+
+> **Trap:** in a secondary or tertiary amine the *longest* chain is the parent and every other carbon group is an **N-** substituent. The smaller group goes in front with N, not the bigger one. A tertiary amine with two ethyls and one methyl on N is **N-ethyl-N-methylethanamine**, not "triethyl…".
+
+**Examiner asks:** write the IUPAC name of a given amine — a standing 1-marker (2017, 2016, 2022) and a 2-marker (2023). See the PYQ section.
+
+#### Isomers of an amine formula — *how $\ce{C4H11N}$ gives eight isomers, and the four kinds of isomerism they show*
+
+Draw isomers by first fixing the *type* of amine, then moving the groups. For **$\ce{C4H11N}$** (NCERT intext 9.2) there are **eight**:
+
+| Type | Isomers (IUPAC) |
+|---|---|
+| Primary (4) | butan-1-amine · butan-2-amine · 2-methylpropan-1-amine · 2-methylpropan-2-amine |
+| Secondary (3) | N-methylpropan-1-amine · N-ethylethanamine · N-methylpropan-2-amine |
+| Tertiary (1) | N,N-dimethylethanamine |
+
+**[exposure]** **Isomers** are different compounds with the same molecular formula. Amines show four kinds:
+
+- **Chain isomerism** — the carbon chain differs; the $\ce{-NH2}$ position is the same (butan-1-amine and 2-methylpropan-1-amine).
+- **Position isomerism** — the position of the functional group differs (butan-1-amine and butan-2-amine).
+- **Metamerism** — same functional group, but the alkyl groups on either side of it differ. It happens in secondary amines (N-methylpropan-1-amine, N-ethylethanamine, N-methylpropan-2-amine).
+- **Functional isomerism** — the amine class itself differs: primary, secondary and tertiary amines of one formula are functional isomers of each other.
+
+**Examiner asks:** $\ce{C3H9N}$ — four isomers: propan-1-amine, propan-2-amine, N-methylethanamine, N,N-dimethylmethanamine. Which of them release nitrogen with nitrous acid? Only the *primary* ones (NCERT intext 9.8); see the nitrous-acid section.
+
+#### Preparing amines — *six routes — and a one-line reason to prefer each*
+
+###### 1 · Reduction of nitro compounds
+
+**[exposure]** A **nitro compound** carries the group $\ce{-NO2}$. Reducing it (adding hydrogen, removing oxygen) gives the amine. Two ways: **catalytic hydrogenation** (hydrogen gas with a finely divided metal catalyst — Ni, Pd or Pt) or **a metal in acid** ($\ce{Sn/HCl}$, $\ce{Fe/HCl}$).
+
+$$\ce{C6H5NO2 ->[Fe / HCl] C6H5NH2}$$
+
+**Why Fe + HCl is preferred:** the $\ce{FeCl2}$ it makes hydrolyses and gives back $\ce{HCl}$, so only a *small* amount of acid is needed to start the reaction and it keeps itself going.
+
+###### 2 · Ammonolysis of alkyl halides
+
+**[exposure]** **Ammonolysis** means breaking a bond using ammonia. When an alkyl (or benzyl) halide is heated with ethanolic ammonia in a sealed tube at 373 K, the lone pair on $\ce{NH3}$ attacks the carbon and kicks out the halide: nucleophilic substitution. The product is a substituted ammonium salt; a base ($\ce{NaOH}$) then frees the amine.
+
+$$\ce{RX + NH3 -> RNH3^+X^-}$$ $$\ce{RNH3^+X^- + NaOH -> RNH2 + NaX + H2O}$$
+
+**The drawback:** the new amine is itself a nucleophile, so it attacks another $\ce{RX}$, then another — you get a **mixture of 1°, 2°, 3° amines and a quaternary salt**. To make mainly the *primary* amine, use a **large excess of $\ce{NH3}$**. Reactivity of the halide: $\ce{RI > RBr > RCl}$.
+
+###### 3 · Reduction of nitriles
+
+**[exposure]** A **nitrile** is $\ce{R-C#N}$ (a cyanide group on carbon). Reducing it with $\ce{LiAlH4}$, sodium–mercury alloy in ethanol, or $\ce{H2/Ni}$ gives a primary amine **with one carbon more** than the halide you started from — it is the route for **climbing up** an amine series.
+
+$$\ce{RCN ->[LiAlH4] RCH2NH2}$$
+
+###### 4 · Reduction of amides
+
+An **amide** is $\ce{RCONH2}$. $\ce{LiAlH4}$ reduces it to the primary amine $\ce{RCH2NH2}$ (same carbon count).
+
+$$\ce{RCONH2 ->[LiAlH4] RCH2NH2}$$
+
+###### 5 · Gabriel phthalimide synthesis
+
+**[exposure]** **Phthalimide** is a ring imide whose $\ce{N-H}$ is acidic. The **Gabriel synthesis** uses it as a clean source of a single $\ce{-NH2}$ group, so you avoid the mixture problem of ammonolysis. Steps: (1) phthalimide + ethanolic $\ce{KOH}$ gives the **potassium salt** (nitrogen now carries a negative charge); (2) the salt is heated with an **alkyl halide** — the nitrogen attacks the carbon, giving N-alkylphthalimide; (3) **alkaline hydrolysis** with aqueous $\ce{NaOH}$ releases $\ce{RNH2}$ and sodium phthalate. It gives **primary aliphatic** amines only.
+
+> **Trap:** Gabriel **cannot make aromatic primary amines** (aniline). An aryl halide does not undergo nucleophilic substitution with the phthalimide anion, because resonance gives the C–X bond partial double-bond character and it will not break. This is a standing 1-mark "give reason" (2017, 2020, 2025).
+
+###### 6 · Hofmann bromamide degradation
+
+**[exposure]** **Hofmann bromamide degradation** converts an amide into a primary amine that has **one carbon less**. The amide is treated with $\ce{Br2}$ and aqueous or ethanolic $\ce{NaOH}$; the $\ce{R}$ group migrates from the carbonyl carbon to nitrogen, and the carbonyl carbon is lost as sodium carbonate. It is the route for **stepping down** an amine series.
+
+$$\ce{RCONH2 + Br2 + 4NaOH -> RNH2 + Na2CO3 + 2NaBr + 2H2O}$$
+
+Example: $\ce{CH3CONH2}$ (ethanamide, 2 C) gives $\ce{CH3NH2}$ (methanamine, 1 C).
+
+**Examiner asks:** the Hofmann equation (2019) and "amide that gives propanamine by Hofmann" (butanamide — NCERT Example 9.3). Nitrile reduction (2015). The Gabriel equation. All are 1- to 3-mark questions.
+
+#### Conversions: build and trim carbon chains — *three moves cover almost every "convert A to B" question*
+
+Before you pick reagents, **count the carbons** in the start and the product.
+
+- **Same number of carbons:** reduce the nitro compound or amide, or use the Gabriel route.
+- **One more carbon in the product:** go via the nitrile. $\ce{R-X ->[KCN] R-CN ->[LiAlH4] R-CH2-NH2}$.
+- **One fewer carbon in the product:** go via the amide and Hofmann. $\ce{R-COOH ->[NH3, \Delta] R-CONH2 ->[Br2 / NaOH] R-NH2}$.
+
+Worked from NCERT (Examples 9.2, 9.3, 9.5 and intext 9.3):
+
+Worked example · $\ce{CH3CH2Cl}$ to $\ce{CH3CH2CH2NH2}$
+
+Two carbons → three carbons, so go up through the nitrile: $\ce{CH3CH2Cl ->[KCN] CH3CH2CN ->[LiAlH4] CH3CH2CH2NH2}$. The cyanide ion replaces chlorine (nucleophilic substitution) and then $\ce{LiAlH4}$ reduces the $\ce{-CN}$ to $\ce{-CH2NH2}$.
+
+Worked example · benzene to $\ce{N,N}$-dimethylaniline
+
+$\ce{C6H6 ->[HNO3 / H2SO4] C6H5NO2 ->[Fe / HCl] C6H5NH2 ->[2CH3Br] C6H5N(CH3)2}$. Nitrate, reduce, then alkylate twice; each methyl replaces one N–H.
+
+Worked example · $\ce{Cl-(CH2)4-Cl}$ to hexane-1,6-diamine
+
+Four carbons → six, so go up through nitriles on both ends: $\ce{Cl(CH2)4Cl ->[2NaCN] NC(CH2)4CN ->[LiAlH4] H2NCH2(CH2)4CH2NH2}$.
+
+#### Physical properties — *state, solubility, boiling point — three tables of "why"*
+
+- **State and smell.** Lower aliphatic amines are gases with a fishy smell; primary amines with three or more carbons are liquids; higher ones are solids. Aniline and other arylamines are colourless when pure but turn coloured on standing, because air oxidises them.
+- **Solubility.** Lower amines dissolve in water because they form **hydrogen bonds** with it. As the hydrophobic (water-repelling) alkyl part grows, solubility drops, so higher amines are insoluble. Amines dissolve in organic solvents (alcohol, ether, benzene). An alcohol is **more** soluble in water than the amine of similar size, because O is more electronegative than N, so the O–H bond is more polar and bonds more strongly to water.
+
+###### Boiling point
+
+Primary and secondary amines hydrogen-bond to *each other* (N of one molecule to H of the next). A **primary** amine has two N–H bonds available, a **secondary** has one, a **tertiary** has none. So, for isomeric amines:
+
+$$\text{primary} > \text{secondary} > \text{tertiary}$$
+
+And amines boil **lower than alcohols** of similar mass, because the O–H bond is more polar than N–H. NCERT's numbers (all about 72–74 g/mol): *n*-butanol 390.3 K; *n*-butylamine 350.8 K; diethylamine 329.3 K; ethyldimethylamine 310.5 K; and the hydrocarbon isopentane 300.8 K (no hydrogen bonding at all).
+
+> **Trap:** the boiling-point and solubility questions are decided by the **number of N–H bonds and their polarity**, not by the molar mass. Primary amine, 2 N–H → highest. Tertiary amine, no N–H → lowest. Alcohol O–H beats any N–H. Aniline is the least soluble in water because of its large hydrophobic ring.
+
+**Examiner asks:** arrange in increasing boiling point or solubility (2020 Q18; 2025 Q1, Q4); amine versus alcohol — which boils higher, and why (2020 Q3).
+
+#### Basicity: the idea — *Kb, pKb, and one rule — the easier the lone pair is handed over, the stronger the base*
+
+**[exposure]** A **base** here is something that accepts a proton $\ce{H+}$. The nitrogen of an amine has an **unshared lone pair**, which it can donate to $\ce{H+}$, so amines are **Lewis bases** (electron-pair donors). They turn acids into salts:
+
+$$\ce{RNH2 + HX -> RNH3^+X^-}$$
+
+and the salts give the amine back when treated with a base:
+
+$$\ce{RNH3^+X^- + NaOH -> RNH2 + NaX + H2O}$$
+
+Amine salts dissolve in water but not in ether. That is how an amine is **separated from non-basic organic compounds**: turn it into a water-soluble salt, wash away the rest, then add base to get it back.
+
+**[exposure]** **$K_b$ and $pK_b$** put a number on strength. In water an amine does $\ce{RNH2 + H2O <=> RNH3^+ + OH^-}$. Since water is a pure liquid its concentration is constant and folds into the constant, giving the **base dissociation constant**:
+
+$$K_b = \frac{[\ce{RNH3^+}][\ce{OH^-}]}{[\ce{RNH2}]}, \qquad pK_b = -\log K_b$$
+
+**Larger $K_b$ ⇔ smaller $pK_b$ ⇔ stronger base.** The pKb scale runs *opposite* to basic strength — that reversal is where most marks are lost.
+
+| Amine (aqueous) | pK_b | Amine (aqueous) | pK_b |
+|---|---|---|---|
+| methanamine | 3.38 | ethanamine | 3.29 |
+| N-methylmethanamine | 3.27 | N-ethylethanamine | 3.00 |
+| N,N-dimethylmethanamine | 4.22 | N,N-diethylethanamine | 3.25 |
+| ammonia | 4.75 | phenylmethanamine | 4.70 |
+| benzenamine (aniline) | 9.38 | N-methylaniline / N,N-dimethylaniline | 9.30 / 8.92 |
+
+#### Basicity: alkylamines, ammonia and aniline — *three comparisons, each with a different reason*
+
+###### Alkylamine versus ammonia — the alkylamine wins
+
+**[exposure]** The **+I effect** (positive inductive effect) is an alkyl group's habit of pushing electron density towards the atom it is attached to. On nitrogen it does two things: it makes the lone pair **more available** to take a proton, and it **stabilises the substituted ammonium ion** that results by spreading the positive charge. Both push the same way, so **alkylamines are stronger bases than ammonia** (pK_b of ammonia 4.75; aliphatic amines 3 to 4.22).
+
+###### Among alkylamines — gas phase versus water
+
+With no solvent (gas phase) only the +I effect acts, so more alkyl groups means more basic: **tertiary > secondary > primary > NH_3**.
+
+In **water** the order is irregular, because three factors compete:
+
+1. **+I effect** — favours tertiary > secondary > primary.
+2. **[exposure]** **Solvation effect.** The protonated amine ion is stabilised when water molecules hydrogen-bond to its N–H hydrogens, releasing hydration energy. A primary ion ($\ce{RNH3^+}$) has **three** N–H to bond with water, a secondary two, a tertiary one. So solvation favours primary > secondary > tertiary — the *reverse* of +I.
+3. **[exposure]** **Steric hindrance.** Bulky groups crowd the nitrogen and block both the proton and the water. A small group like $\ce{CH3}$ blocks hydrogen bonding very little; an ethyl or larger group blocks it more. So changing methyl to ethyl changes the order.
+
+The result, from NCERT:
+
+$$\text{methyl series: } \ce{(CH3)2NH} > \ce{CH3NH2} > \ce{(CH3)3N} > \ce{NH3}$$ $$\text{ethyl series: } \ce{(C2H5)2NH} > \ce{(C2H5)3N} > \ce{C2H5NH2} > \ce{NH3}$$
+
+In both series the **secondary amine is strongest**, because it has a good share of both +I and solvation. In the methyl series methyl is too small to cause steric hindrance, so solvation beats +I and primary > tertiary. In the ethyl series the bigger ethyls hinder solvation, so +I wins and tertiary > primary.
+
+> **Trap:** when a question gives no solvent, **assume aqueous**. And do not use one rule for both series — the methyl and ethyl orders differ (above). Memorise the two lines; they are the single most repeated ordering question (2019 Q11 gas phase; 2020 Q19(b); Q26(a)).
+
+###### Arylamine versus ammonia — aniline is weaker
+
+In aniline the nitrogen is attached straight to the benzene ring, so its lone pair is **delocalised into the ring** by resonance (the +R effect). Delocalised electrons are **not available** for protonation. And once aniline *does* take a proton, the anilinium ion has only **two** resonance structures against **five** for aniline, so the ion is less stabilised. Result: aniline (pK_b 9.38) is a much weaker base than ammonia (4.75).
+
+###### Substituents on aniline
+
+**[exposure]** An **electron-releasing group (ERG)** such as $\ce{-CH3}$ or $\ce{-OCH3}$ raises the electron density on nitrogen and **increases** basic strength. An **electron-withdrawing group (EWG)** such as $\ce{-NO2}$, $\ce{-CN}$, $\ce{-COOH}$ or a halogen pulls electron density away and **decreases** it.
+
+**Examiner asks:** "arrange in order of basic strength" (NCERT intext 9.4, example 9.4; 2019 Q11; 2025 Q4(a)); "why is methylamine more basic than aniline / than ammonia" (2020 Q4, 2013 Q13(b)); "why $\ce{(CH3)2NH}$ is more basic than $\ce{(CH3)3N}$ in water" (2020 Q19(b); Q26(a)); "why amides are less basic than amines" — the nitrogen lone pair in an amide is delocalised onto the C=O oxygen (2025 Q1(b), Q16(b)).
+
+#### Reactions of amines: salts, alkylation, acylation — *nitrogen as a nucleophile*
+
+An amine can act as a **nucleophile** (an electron-pair donor that attacks a positive centre) because of the lone pair; and the number of N–H bonds decides which reactions are possible.
+
+###### Alkylation
+
+An amine reacts with an alkyl halide, replacing an N–H hydrogen with the alkyl group, so the amine moves up one class each time. It stops only when the nitrogen has four groups.
+
+$$\ce{C2H5NH2 ->[C2H5I] (C2H5)2NH ->[C2H5I] (C2H5)3N ->[C2H5I] (C2H5)4N^+I^-}$$
+
+(N-ethylethanamine, N,N-diethylethanamine, then tetraethylammonium iodide.) Aniline does the same with $\ce{CH3I}$: N-methylaniline, N,N-dimethylaniline, and finally N,N,N-trimethylanilinium iodide.
+
+###### Acylation
+
+**[exposure]** **Acylation** is replacing an N–H hydrogen of a **primary or secondary** amine by an **acyl group** $\ce{R-CO\bond{-}}$. The reagent is an acid chloride, an anhydride or an ester; the product is an **amide**. A **tertiary amine cannot** be acylated because it has no N–H to replace. Use a base **stronger than the amine**, such as **pyridine**: it mops up the $\ce{HCl}$ formed, shifting the equilibrium to the product side.
+
+$$\ce{C2H5NH2 + CH3COCl ->[pyridine] C2H5NHCOCH3 + HCl}$$ $$\ce{C6H5NH2 + (CH3CO)2O ->[pyridine] C6H5NHCOCH3 + CH3COOH}$$
+
+The second is aniline with ethanoic anhydride, giving **N-phenylethanamide, acetanilide**. With **benzoyl chloride** $\ce{C6H5COCl}$ the same reaction is called **benzoylation**: $\ce{CH3NH2 + C6H5COCl -> CH3NHCOC6H5 + HCl}$ (N-methylbenzamide). Aniline plus benzoyl chloride gives N-phenylbenzamide.
+
+> **Trap:** the role of pyridine is a standing 1-mark question. Answer: it **neutralises the HCl** produced, which shifts the equilibrium forward so the reaction goes to completion.
+
+#### Carbylamine test, nitrous acid and Hinsberg — *three ways to tell the classes apart*
+
+###### Carbylamine reaction (the test for primary amines)
+
+**[exposure]** An **isocyanide** (carbylamine) is $\ce{R-N#C}$, a nitrogen–carbon triple unit attached through nitrogen. Heating a **primary** amine (aliphatic or aromatic) with **chloroform and ethanolic $\ce{KOH}$** gives an isocyanide with a **foul smell**. Secondary and tertiary amines do not give it, so it is the test for a primary amine.
+
+$$\ce{RNH2 + CHCl3 + 3KOH ->[\Delta] RNC + 3KCl + 3H2O}$$
+
+Aniline gives phenyl isocyanide $\ce{C6H5NC}$ the same way.
+
+###### Reaction with nitrous acid
+
+**[exposure]** **Nitrous acid** $\ce{HNO2}$ is unstable, so it is made **in situ** ("in place", inside the flask) from sodium nitrite and dilute hydrochloric acid. The three classes behave differently:
+
+- **Primary aliphatic** amine → an aliphatic diazonium salt, which is **unstable** (no resonance) and breaks down to **nitrogen gas and an alcohol**: $\ce{RNH2 + HNO2 -> ROH + N2 + H2O}$. The nitrogen released is measured to estimate amino acids and proteins.
+- **Primary aromatic** amine at **273–278 K** → a **diazonium salt**, which is stable at that temperature: $\ce{C6H5NH2 + NaNO2 + 2HCl -> C6H5N2^+Cl^- + NaCl + 2H2O}$.
+- **Secondary and tertiary** amines react "in a different manner" (no nitrogen gas as with primary). The lecture stops at that statement.
+
+The key exam use: **only primary aliphatic amines give off nitrogen gas** with nitrous acid — the NCERT $\ce{C3H9N}$ question (intext 9.8) turns on it: propan-1-amine and propan-2-amine give $\ce{N2}$; the secondary and tertiary isomers do not.
+
+###### Hinsberg's reagent
+
+**[exposure]** **Hinsberg's reagent** is **benzenesulphonyl chloride**, $\ce{C6H5SO2Cl}$. It distinguishes the three amine classes and also separates their mixtures. (Nowadays $p$-toluenesulphonyl chloride replaces it.)
+
+| Amine | Reaction | Product | In aqueous alkali |
+|---|---|---|---|
+| Primary $\ce{RNH2}$ | reacts, loses HCl | $\ce{C6H5SO2NHR}$ (N-alkylbenzenesulphonamide) has an N–H left | **soluble** (acidic N–H) |
+| Secondary $\ce{R2NH}$ | reacts, loses HCl | $\ce{C6H5SO2NR2}$ (N,N-dialkylbenzenesulphonamide), no N–H | **insoluble** |
+| Tertiary $\ce{R3N}$ | **no reaction** | — | — |
+
+Why the primary sulphonamide dissolves: the strongly electron-withdrawing $\ce{-SO2\bond{-}}$ group makes the remaining N–H hydrogen **acidic**, so alkali removes it and the compound becomes a water-soluble salt. The secondary product has no N–H, so it cannot.
+
+> **Trap:** the answer for "distinguish primary, secondary, tertiary" needs **both** halves — reaction or not, *and* solubility of the product in alkali. For primary versus secondary alone, the **carbylamine test** is the quicker answer (2020 Q14; but N-methylaniline, being secondary, does not give it, while aniline does).
+
+**Examiner asks:** the carbylamine equation (2025 Q2(b), 2022 Q28, 2014 Q25); distinguish primary from secondary (2020 Q14); distinguish secondary from tertiary with Hinsberg (2013 Q30(a)); "what is Hinsberg's reagent" (Q26(b)).
+
+#### Ring reactions of aniline — *$\ce{-NH2}$ is a powerful activator; that is both a gift and a nuisance*
+
+**[exposure]** **Electrophilic substitution** is the reaction where an electron-seeking group (an **electrophile**) replaces a hydrogen on a benzene ring. A group already on the ring either **activates** it (more reactive than benzene) or **deactivates** it, and it steers the incoming group to a position: **ortho** (next to it), **para** (opposite), or **meta**. In aniline, $\ce{-NH2}$ donates its lone pair into the ring, so the ortho and para positions become rich in electrons. $\ce{-NH2}$ is a **powerful activating, ortho/para-directing group**, so aniline reacts faster than benzene (2013 Q16(a)).
+
+###### Bromination — too much of a good thing
+
+Aniline reacts with bromine water at room temperature to give a **white precipitate of 2,4,6-tribromoaniline** (three bromines at once).
+
+$$\ce{C6H5NH2 + 3Br2 ->[H2O] C6H2Br3NH2 v + 3HBr}$$
+
+###### Controlling the activation — protect the amino group
+
+To get just one substituent, **acetylate** the $\ce{-NH2}$ first (acetic anhydride, pyridine) to acetanilide $\ce{C6H5NHCOCH3}$. The nitrogen's lone pair is now shared with the C=O oxygen by resonance, so it is *less* available to the ring, and the activation is weaker. Carry out the substitution, then **hydrolyse** the amide back to the amine.
+
+Worked example · aniline to 4-bromoaniline
+
+Acetylate: $\ce{C6H5NH2 ->[(CH3CO)2O] C6H5NHCOCH3}$. Brominate in ethanoic acid: the bromine goes mostly **para** (the symmetric position, the major product). Hydrolyse with acid or base: $\ce{-NHCOCH3 -> -NH2}$. Result: **4-bromoaniline**.
+
+###### Nitration — two problems
+
+Direct nitration with $\ce{HNO3 + H2SO4}$ goes wrong in two ways. Nitric acid is a strong oxidant, so aniline is oxidised to **tarry products**. And in the strongly acidic mixture aniline picks up $\ce{H+}$ to become the **anilinium ion** $\ce{C6H5NH3^+}$, which is **meta-directing** (the positive nitrogen withdraws electrons and deactivates the ortho/para positions). NCERT's yield at 288 K: **47% meta**, 51% para, 2% ortho. So aniline gives meta-nitroaniline in good yield even though $\ce{-NH2}$ is itself o,p-directing (2020 Q19(a)).
+
+The fix is the same: **acetylate first**, nitrate (para-nitroacetanilide is the main product), then hydrolyse to **p-nitroaniline**.
+
+###### Sulphonation
+
+Aniline with concentrated $\ce{H2SO4}$ gives anilinium hydrogensulphate, $\ce{C6H5NH3^+HSO4^-}$. Heated at **453–473 K** it rearranges to **p-aminobenzenesulphonic acid, sulphanilic acid**. In water it exists as a **zwitterion**, $\ce{^-O3S-C6H4-NH3^+}$ (acidic $\ce{-SO3H}$ gives up $\ce{H+}$; basic $\ce{-NH2}$ takes it): 2023 Q32(a).
+
+###### No Friedel–Crafts
+
+**[exposure]** **Friedel–Crafts** reactions (alkylation and acylation of a benzene ring) use **$\ce{AlCl3}$**, a Lewis acid, as the catalyst. Aniline does **not** undergo them: its nitrogen lone pair attacks the electron-deficient $\ce{AlCl3}$ and forms a **salt**. The nitrogen is now positively charged, so it strongly withdraws electrons and **deactivates** the ring; no electrophile can attack. This is a 1- or 2-mark question that recurs (2014 Q13, 2017, 2020 Q29(a)).
+
+#### Diazonium salts: what they are and how they are made — *$\ce{ArN2+X-}$ — one of the most useful functional groups in the course*
+
+**[exposure]** A **diazonium salt** has the general formula $\ce{ArN2^+X^-}$: an aryl group bonded to the $\ce{-N2^+}$ **diazonium group**, with an anion $\ce{X^-}$ ($\ce{Cl^-}$, $\ce{Br^-}$, $\ce{HSO4^-}$, $\ce{BF4^-}$). They exist because $\ce{N2}$ is such a good **leaving group** (a group that departs easily, here as nitrogen gas) that the ring can then be given almost any other group. Name them as the parent hydrocarbon + **diazonium** + the anion: $\ce{C6H5N2^+Cl^-}$ is **benzenediazonium chloride**; $\ce{C6H5N2^+HSO4^-}$ is benzenediazonium hydrogensulphate; $\ce{C6H5N2^+BF4^-}$ is benzenediazonium fluoroborate.
+
+###### Preparation — diazotisation
+
+Dissolve aniline in $\ce{HCl}$ and add $\ce{NaNO2}$ at **273–278 K** (0–5 °C). Nitrous acid forms in the flask and converts the primary aromatic amine into the diazonium salt. This is called **diazotisation**.
+
+$$\ce{C6H5NH2 + NaNO2 + 2HCl ->[273-278 K] C6H5N2^+Cl^- + NaCl + 2H2O}$$
+
+The salt is not stored; it is **used straight away**.
+
+###### Stability
+
+An **aromatic** diazonium salt is far more stable than an aliphatic one. In the arenediazonium ion the positive charge is **spread over the benzene ring by resonance**; in an alkyl diazonium ion nothing can spread it, so it loses $\ce{N2}$ at once to give a carbocation. Even so the aromatic one is stable only for a short time, in solution, at **273–278 K** (2018 Q17(b)).
+
+###### Physical properties
+
+Benzenediazonium chloride is a colourless crystalline solid, soluble in water, stable in the cold, and it reacts with warm water; dry it decomposes easily. The **fluoroborate is insoluble in water and stable at room temperature**, which is why it is used for fluorine and nitro replacements.
+
+#### Diazonium reactions: displacing nitrogen — *swap $\ce{N2}$ for Cl, Br, CN, I, F, H, OH or NO_2 — one reagent per swap*
+
+The group $\ce{-N2^+}$ leaves as nitrogen gas, and the group you want to put on takes its place. The table is the whole lesson:
+
+| You want | Reagent | Name |
+|---|---|---|
+| $\ce{-Cl}$ | $\ce{CuCl / HCl}$ (or $\ce{Cu / HCl}$) | **Sandmeyer** (or Gattermann) |
+| $\ce{-Br}$ | $\ce{CuBr / HBr}$ (or $\ce{Cu / HBr}$) | **Sandmeyer** (or Gattermann) |
+| $\ce{-CN}$ | $\ce{CuCN / KCN}$ | **Sandmeyer** |
+| $\ce{-I}$ | $\ce{KI}$ | (no copper needed) |
+| $\ce{-F}$ | $\ce{HBF4}$ then heat | via the fluoroborate |
+| $\ce{-H}$ | $\ce{H3PO2}$ (or $\ce{CH3CH2OH}$) | reduction |
+| $\ce{-OH}$ | warm water (up to 283 K) | hydrolysis → phenol |
+| $\ce{-NO2}$ | $\ce{HBF4}$, then $\ce{NaNO2 / Cu}$, heat | via the fluoroborate |
+
+**[exposure]** The **Sandmeyer reaction** introduces $\ce{Cl^-}$, $\ce{Br^-}$ or $\ce{CN^-}$ using a **copper(I)** salt. The **Gattermann reaction** does the chlorine/bromine version with **copper powder and the halogen acid** instead. The Sandmeyer gives the better yield (NCERT). Both are named reactions you can be asked by name.
+
+$$\ce{C6H5N2^+Cl^- ->[CuCl / HCl] C6H5Cl + N2}$$ $$\ce{C6H5N2^+Cl^- ->[CuCN / KCN] C6H5CN + N2}$$ $$\ce{C6H5N2^+Cl^- + KI -> C6H5I + KCl + N2}$$
+
+**Fluorine:** $\ce{C6H5N2^+Cl^- + HBF4 -> C6H5N2^+BF4^- + HCl}$; the fluoroborate precipitates and, when heated, gives $\ce{C6H5F + BF3 + N2}$.
+
+**Hydrogen:** $\ce{C6H5N2^+Cl^- + H3PO2 + H2O -> C6H6 + N2 + H3PO3 + HCl}$. The $\ce{H3PO2}$ is the reducing agent and is itself oxidised to $\ce{H3PO3}$. Ethanol does the same job and is oxidised to ethanal $\ce{CH3CHO}$.
+
+**Hydroxyl:** warm the diazonium solution above the preparation temperature (up to 283 K) and it is hydrolysed: $\ce{C6H5N2^+Cl^- + H2O -> C6H5OH + N2 + HCl}$. This is why diazotisation is kept at 273–278 K — a little warmer and phenol forms (2013 Q1: "benzenediazonium chloride + warm water").
+
+**Nitro:** $\ce{C6H5N2^+BF4^- + NaNO2 ->[Cu, \Delta] C6H5NO2 + N2 + NaBF4}$.
+
+> **Trap:** $\ce{I}$ and $\ce{F}$ are the awkward ones. Iodine and fluorine cannot be put on the ring by direct halogenation (fluorine is too violent, iodine too unreactive), and $\ce{-CN}$ cannot be put on by substituting chlorobenzene. **Diazonium salts are the way to make aryl fluorides, aryl iodides and aryl cyanides.** Say so when asked why the diazonium route is used (Q on the importance of diazonium salts).
+
+#### Diazonium reactions: coupling — *the $\ce{-N=N-}$ link keeps its nitrogen — and makes dyes*
+
+**[exposure]** A **coupling reaction** joins the diazonium ion to another electron-rich benzene ring *without losing the nitrogen*. The positive diazonium end is the electrophile; the partner (phenol or aniline) has a ring made electron-rich by its $\ce{-OH}$ or $\ce{-NH2}$, and the ring is attacked at the **para** position. The product is an **azo compound**, two aromatic rings joined by $\ce{-N=N-}$. That link carries an extended system of alternating double bonds (a **conjugated system**), which absorbs visible light, so these compounds are **coloured and used as dyes**.
+
+$$\ce{C6H5N2^+Cl^- + C6H5OH ->[OH^-] C6H5-N=N-C6H4-OH + HCl}$$ $$\ce{C6H5N2^+Cl^- + C6H5NH2 ->[H^+] C6H5-N=N-C6H4-NH2 + HCl}$$
+
+- With **phenol** (in a basic solution, where the phenol is present as the more reactive phenoxide): **$p$-hydroxyazobenzene**, an **orange dye**.
+- With **aniline** (acidic medium): **$p$-aminoazobenzene**, a **yellow dye**.
+
+Coupling is itself an **electrophilic substitution** on the second ring.
+
+**Examiner asks:** the coupling of benzenediazonium chloride with aniline (2025 Q3(b)); the displacement reactions (2019 Q24; 2020 Q10; 2014 Q15; 2013 Q1); "diazotisation with an equation" (2018 Q17(a)); "why aromatic diazonium salts are more stable than aliphatic" (2018 Q17(b)).
+
+#### Diazonium conversions — *three NCERT multi-step problems, each built from the table above*
+
+Worked example · NCERT Example 9.5 — 4-nitrotoluene to 2-bromobenzoic acid
+
+1. Brominate: the $\ce{CH3}$ is ortho/para-directing and the para place is taken by $\ce{NO2}$, so Br goes **ortho to the methyl**.
+2. Remove the $\ce{NO2}$: reduce it to $\ce{NH2}$ ($\ce{Sn/HCl}$), diazotise ($\ce{NaNO2/HCl}$, 273–278 K), and replace the diazonium group by hydrogen ($\ce{H3PO2}$).
+3. Oxidise the $\ce{CH3}$ to $\ce{COOH}$ ($\ce{KMnO4}$, base).
+
+The diazonium route is how an $\ce{NH2}$ (and so an $\ce{NO2}$) is removed.
+
+Worked example · NCERT intext 9.9 — 3-methylaniline to 3-nitrotoluene
+
+Diazotise ($\ce{NaNO2 / HCl}$, 273–278 K); make the fluoroborate ($\ce{HBF4}$); then $\ce{NaNO2 / Cu}$, heat — the diazonium group is replaced by $\ce{NO2}$.
+
+Worked example · NCERT intext 9.9 — aniline to 1,3,5-tribromobenzene
+
+Bromine water first: $\ce{-NH2}$ directs three Br to **2,4,6**, giving 2,4,6-tribromoaniline. Then diazotise and replace the diazonium group by hydrogen ($\ce{H3PO2}$). With $\ce{NH2}$ gone, the three bromines are at 1,3,5.
+
+#### Patterns, collected — *the orderings, tests and conversions you will actually be asked to produce*
+
+###### 1. Rank by basic strength
+
+Worked example
+
+Arrange in decreasing basic strength: $\ce{C6H5NH2}$, $\ce{C2H5NH2}$, $\ce{(C2H5)2NH}$, $\ce{NH3}$ (NCERT Example 9.4).
+
+1. No solvent named, so use the aqueous order. The ethyl series: $\ce{(C2H5)2NH > C2H5NH2 > NH3}$.
+2. Aniline's lone pair is delocalised into the ring, so aniline goes last.
+
+Answer: $\ce{(C2H5)2NH > C2H5NH2 > NH3 > C6H5NH2}$. For pK_b, reverse the order.
+
+- Increasing basic strength: $\ce{CH3NH2}$, $\ce{(CH3)3N}$, $\ce{(CH3)2NH}$ in water — answer only: $\ce{(CH3)3N < CH3NH2 < (CH3)2NH}$
+
+- Gas-phase order of primary, secondary, tertiary — answer only: tertiary > secondary > primary (increasing: 1° < 2° < 3°)
+
+- Increasing pK_b: $\ce{(C2H5)2NH}$, $\ce{NH3}$, $\ce{C2H5NH2}$, $\ce{C6H5NH2}$ — answer only: $\ce{(C2H5)2NH < C2H5NH2 < NH3 < C6H5NH2}$
+
+###### 2. Rank by boiling point or solubility
+
+Worked example
+
+Increasing boiling point: a secondary amine, a primary amine and ethanol (2025 Q1(a)).
+
+Count and compare the hydrogen bonds: secondary has one N–H, primary has two, ethanol has an O–H that is more polar than any N–H. Order: secondary < primary < ethanol.
+
+- Increasing solubility in water: aniline, a secondary amine, a primary amine — answer only: aniline < secondary < primary
+
+- Higher boiling point: propan-1-amine or N,N-dimethylmethanamine — answer only: propan-1-amine (primary, hydrogen bonds)
+
+###### 3. Distinguish by a test
+
+Worked example
+
+Distinguish ethylamine from diethylamine (2020 Q14).
+
+Heat each with chloroform and ethanolic KOH. Ethylamine (primary) gives the foul-smelling ethyl isocyanide; diethylamine (secondary) does not.
+
+- Distinguish a secondary from a tertiary amine — answer only: Hinsberg's reagent; the secondary gives an alkali-insoluble sulphonamide, the tertiary does not react
+
+- Distinguish aniline from N-methylaniline — answer only: carbylamine test; aniline (primary) gives it, N-methylaniline (secondary) does not
+
+###### 4. Convert, tracking the carbon count
+
+Worked example
+
+Ethanamide to methanamine (2022 Q21): one carbon fewer, so Hofmann: $\ce{CH3CONH2 ->[Br2 / NaOH] CH3NH2}$.
+
+- Bromoethane to propan-1-amine — answer only: KCN to give $\ce{CH3CH2CN}$, then $\ce{LiAlH4}$ (or $\ce{H2/Ni}$) to give $\ce{CH3CH2CH2NH2}$
+
+- Benzene to aniline — answer only: nitration ($\ce{HNO3/H2SO4}$), then $\ce{Fe/HCl}$
+
+###### 5. Pick the diazonium reagent
+
+Worked example
+
+Aniline to chlorobenzene (2025 Q5(b)): diazotise with $\ce{NaNO2 / HCl}$ at 273–278 K to $\ce{C6H5N2^+Cl^-}$, then $\ce{CuCl / HCl}$ (Sandmeyer) to $\ce{C6H5Cl}$.
+
+- Benzenediazonium chloride to iodobenzene — answer only: KI
+
+- Benzenediazonium chloride to phenol — answer only: warm water
+
+- Benzenediazonium chloride to benzene — answer only: $\ce{H3PO2}$ (or ethanol)
+
+###### 6. Count the isomers, then test them with nitrous acid
+
+Worked example
+
+$\ce{C3H9N}$: write the isomers and say which release nitrogen with nitrous acid (NCERT intext 9.8).
+
+Primary: propan-1-amine, propan-2-amine. Secondary: N-methylethanamine. Tertiary: N,N-dimethylmethanamine. Only the primary aliphatic amines give nitrogen gas: propan-1-amine and propan-2-amine.
+
+#### Past year questions · question types — *ranked by how often they turn up*
+
+*Two videos feed this section. **[30+]** is the "30+ PYQ" video for CBSE 2024-25 — Q1–Q33, questions from 2013 to 2023. **[2025]** is the short "2025 PYQ" video — Q1–Q5, from the 2025 board paper. Question numbers are each video's own numbering, and years come from the video. Where the video gave no year, the question is cited by number only. The CBSE 2026-27 "25 PYQ" video for this chapter was not uploaded when these notes were built; once it is, this section can be refreshed from it. Counts are by question part, from the two videos' lists.*
+
+1 · Convert, complete, or identify A, B, C
+ — *1 to 3 marks · about 22 parts*
+
+*Recognise it: "how will you convert …", "complete the reaction", "identify A, B and C", "give the equation for …", "write the structure of the product".*
+
+1. Name the type of change: nitro → amine; nitrile → amine; amide → amine; amine → diazonium salt.
+2. **Count carbons** in the start and the product: more carbons → nitrile route; fewer → Hofmann.
+3. Write each step with its reagent over the arrow; for A/B/C questions, write the formula and name of each letter.
+
+> **Trap:** the reagents decide the marks. Nitro → amine is $\ce{Fe/HCl}$ or $\ce{Sn/HCl}$ (not $\ce{LiAlH4}$); nitrile → amine is $\ce{LiAlH4}$ or $\ce{H2/Ni}$; Hofmann needs $\ce{Br2 + NaOH}$; diazotisation is $\ce{NaNO2 + HCl}$ at **0–5 °C** (273–278 K) — at room temperature you get phenol.
+
+2 · Give a reason / account for
+ — *1 to 3 marks · about 14 parts*
+
+*Recognise it: "give reason …", "account for …", "why is X more basic / weaker / unable to …".*
+
+1. State the structural fact: a lone pair on N; resonance; N–H count; an electron-pulling or -pushing group.
+2. Say how it causes the behaviour in one sentence.
+
+> **Trap:** the same three answers cover most of these: **aniline's lone pair is delocalised into the ring** (weak base; no Friedel–Crafts; ring is activated); **aryl halides do not do nucleophilic substitution** (no Gabriel for aromatic amines); and **the solvation effect** (secondary > tertiary in water).
+
+3 · Arrange in order
+ — *1 to 3 marks · about 10 parts*
+
+*Recognise it: "arrange in increasing/decreasing order of basic strength / pK_b / boiling point / solubility in water", "in the gaseous phase".*
+
+1. Decide which property it is and what controls it: basicity → lone-pair availability; boiling point and solubility → hydrogen bonding.
+2. Basicity: no solvent named → aqueous. Use the two NCERT orders for methyl and ethyl series; aniline is last; pK_b runs the opposite way.
+3. Boiling point: primary > secondary > tertiary, and alcohol above all of them. Solubility: more N–H and a smaller ring/chain → more soluble.
+
+> **Trap:** read "increasing" or "decreasing", and read pK_b versus basic strength — a smaller pK_b means a *stronger* base. Gas phase is the only case where tertiary > secondary > primary.
+
+4 · Distinguish between two compounds
+ — *2 or 3 marks · about 5 parts*
+
+*Recognise it: "distinguish between …" or "what is Hinsberg's reagent".*
+
+1. Primary versus secondary or tertiary: carbylamine test (chloroform + ethanolic $\ce{KOH}$, foul smell, primary only).
+2. Secondary versus tertiary: Hinsberg's reagent $\ce{C6H5SO2Cl}$ — secondary gives a sulphonamide that is insoluble in alkali; tertiary does not react.
+
+> **Trap:** aniline *is* a primary amine and does give the carbylamine test; N-methylaniline is secondary and does not. Do not treat "aromatic" as "different".
+
+5 · Write the IUPAC name
+ — *1 or 2 marks · 4 parts*
+
+*Recognise it: a drawn amine, with "write the IUPAC name".*
+
+1. Find the longest carbon chain on nitrogen; that is the parent (…anamine). For a ring on N it is aniline.
+2. Every other group on nitrogen becomes an N-substituent, alphabetical order.
+
+> **Trap:** in 2,4,6-tribromoaniline the $\ce{-NH2}$ carbon is number 1; do not number from a bromine.
+
+#### Past year questions · mark slots — *what each type is worth*
+
+*The 30+ video states its own marks: **Q1–Q12 are 1-mark, Q13–Q20 are 2-mark, Q21–Q30 are 3-mark**, and the three 2023 questions Q31–Q33 are stated as 2-mark each. The 2025 video states Q1, Q2 and Q4 as 3-mark and Q3 as 2-mark, and does not state the marks for Q5 (inferred: 3). Amines does not appear as a 5-mark long answer in either video.*
+
+| Question type | 1 mark | 2 marks | 3 marks |
+|---|---|---|---|
+| Convert / complete / identify | 2019 Q9, 2020 Q10, 2014 Q12, 2013 Q1, 2015 Q7, Q5 [30+] | 2014 Q15, 2018 Q20, 2023 Q31(a)(b) [30+]; 2025 Q3 [2025] | 2022 Q21, 2015 Q23, 2019 Q24, 2014 Q25, 2022 Q28 [30+]; 2025 Q2, Q5 [2025] |
+| Give a reason | 2020 Q3, Q4, Q8 [30+] | 2014 Q13, 2013 Q16, 2018 Q17(b), 2020 Q19, 2023 Q32(b) [30+] | Q29, 2013 Q30(b) [30+]; 2025 Q1(b) [2025] |
+| Arrange in order | 2019 Q11 [30+] | 2020 Q18 [30+] | Q26(a), Q27(b) [30+]; 2025 Q1(a), Q4 [2025] |
+| Distinguish / reagent | — | 2020 Q14 [30+] | 2013 Q30(a), Q26(b) [30+] |
+| IUPAC name | 2017 Q2, 2016 Q6 [30+] | 2023 Q33(a) [30+] | 2022 Q22 [30+] |
+
+#### Past year questions · repeat offenders — *appeared more than once — highest probability in the chapter*
+
+2019 Q9 · 2022 Q21(b) · 2015 Q23 · 2014 Q15 · 2014 Q25
+
+Hofmann bromamide degradation — the equation, ethanamide to methanamine, benzamide to aniline. The single most repeated reaction.
+
+2014 Q13(a) · 2017 · 2020 Q29(a)
+
+Why aniline does not undergo Friedel–Crafts: it forms a salt with $\ce{AlCl3}$, the nitrogen becomes positive and deactivates the ring.
+
+2017 · 2020 Q29(b) · 2025 Q1(b)
+
+Why aromatic primary amines cannot be made by Gabriel's synthesis: aryl halides do not undergo nucleophilic substitution (partial double-bond character).
+
+2020 Q14 · 2022 Q28 · 2014 Q25 · 2025 Q2(b)
+
+Carbylamine test / phenyl isocyanide from aniline — foul smell, primary amines only.
+
+2015 Q7 · 2022 Q21(c) · 2023 Q31(b) · 2014 Q25 · 2025 Q3(a)
+
+Nitrile reduction to an amine, often as the second step after KCN/NaCN — the "go up one carbon" route.
+
+2013 Q1 · 2014 Q15 · 2025 Q5(c)
+
+Benzenediazonium chloride warmed with water gives phenol (and why diazotisation must stay at 0–5 °C).
+
+2020 Q10 · 2019 Q24 · 2025 Q5(b)
+
+Diazonium chloride with $\ce{CuCN}$ (benzonitrile → benzoic acid on hydrolysis), $\ce{KI}$ (iodobenzene), $\ce{CuCl/HCl}$ (chlorobenzene).
+
+2019 Q24 · 2023 Q31(a)
+
+Diazonium chloride with ethanol (or hypophosphorous acid) gives benzene; the ethanol is oxidised to ethanal.
+
+2020 Q5 · 2014 Q15 · 2022 Q21(a) · 2022 Q28 · 2023 Q33(b)
+
+Nitrobenzene reduced to aniline with $\ce{Fe/HCl}$ or $\ce{Sn/HCl}$ — the first step in a long list of sequences.
+
+2014 Q12 · 2018 Q20(a) · 2025 Q2(c) · 2023 Q32(b) · 2025 Q5(a)
+
+Acetylation of aniline with acetic anhydride and pyridine (acetanilide), and its use to protect the $\ce{-NH2}$ in nitration and bromination.
+
+2020 Q19(b) · Q26(a) · 2019 Q11 · Q27(b) · 2025 Q4(a)
+
+Basic-strength and pK_b orderings: secondary > tertiary in water (solvation + +I), tertiary highest in the gas phase, aniline last.
+
+2020 Q3 · Q8 · 2020 Q18(b) · 2025 Q1(a) · 2025 Q4(b)
+
+Boiling-point order: primary > secondary > tertiary, and an alcohol above an amine.
+
+2013 Q16(b) · 2025 Q1(b)
+
+Why amides are weaker bases than amines: the nitrogen lone pair is delocalised onto the carbonyl oxygen by resonance.
+
+2025 Q2(a) · 2023 Q32(a)
+
+Sulphanilic acid — how to make it from aniline, and its zwitterion.
+
+2013 Q30(a) · Q26(b) · 2018 Q20(b)
+
+Hinsberg's reagent — secondary versus tertiary; the sulphonamide of a secondary amine.
+
+2017 Q2 · 2016 Q6 · 2022 Q22 · 2023 Q33(a)
+
+An IUPAC name for a tertiary amine, a tribromoaniline, or a mixed N-substituted aniline.
+
+#### Past year questions · numerical types — *no calculations in this chapter, so these are the reaction and structure types — one worked model each, then cold practice*
+
+###### A · Identify A, B, C in a sequence
+
+Worked example · 2015 Q23 [30+] — A is $\ce{C7H6O2}$; A + aqueous $\ce{NH3}$ (heat) gives B; B with $\ce{Br2}$ and alcoholic $\ce{KOH}$ gives C, $\ce{C6H7N}$
+
+1. $\ce{Br2 + KOH}$ is the Hofmann reagent, so B is an **amide** and C is the **amine** with one carbon fewer. $\ce{C6H7N}$ = aniline = **C**.
+2. An aromatic amide with seven carbons is benzamide $\ce{C6H5CONH2}$ = **B**.
+3. A acid + $\ce{NH3}$, heat, gives the amide, so A is benzoic acid $\ce{C6H5COOH}$ ($\ce{C7H6O2}$ ✓).
+
+$\ce{C6H5COOH ->[NH3, \Delta] C6H5CONH2 ->[Br2 / KOH] C6H5NH2}$
+
+- 2014 Q15 [30+] — nitrobenzene with $\ce{Sn/HCl}$, then $\ce{NaNO2/HCl}$ at 273 K, then warm water — answer only: A aniline; B benzenediazonium chloride; C phenol
+
+- 2014 Q25 [30+] — $\ce{CH3CH2Br}$ with KCN, then $\ce{LiAlH4}$, then $\ce{HNO2}$ at 0 °C — answer only: $\ce{CH3CH2CN}$; $\ce{CH3CH2CH2NH2}$; propan-1-ol
+
+- 2022 Q28 [30+] — A with iron scrap and HCl gives $\ce{C6H7N}$; with $\ce{CHCl3}$ and alcoholic $\ce{KOH}$ gives a foul smell — answer only: A nitrobenzene; B aniline; C phenyl isocyanide
+
+- 2025 Q3(a) [2025] — chloroethane + NaCN to A, then $\ce{H2/Ni}$ to B — answer only: A $\ce{CH3CH2CN}$; B propan-1-amine
+
+###### B · Replace the diazonium group
+
+Worked example · 2019 Q24 [30+] — benzenediazonium chloride with $\ce{CuCN}$, with ethanol, and with $\ce{KI}$
+
+$\ce{CuCN}$: $\ce{CN}$ takes the place of $\ce{N2}$ → **benzonitrile** $\ce{C6H5CN}$ (Sandmeyer). **Ethanol** is a mild reducing agent: hydrogen takes the place of $\ce{N2}$ → **benzene**; the ethanol is oxidised to ethanal. $\ce{KI}$: iodide takes the place of $\ce{N2}$ → **iodobenzene**. Each time nitrogen gas leaves.
+
+- 2020 Q10 [30+] — benzenediazonium chloride + $\ce{CuCN}$ gives A; A hydrolysed gives B — answer only: A benzonitrile; B benzoic acid
+
+- 2013 Q1 [30+] — benzenediazonium chloride warmed with water — answer only: phenol (+ $\ce{N2}$ + $\ce{HCl}$)
+
+- 2023 Q31(a) [30+] — benzenediazonium chloride with ethanol — answer only: benzene; ethanol is oxidised to ethanal
+
+- 2025 Q5(b) [2025] — chlorobenzene from aniline — answer only: $\ce{NaNO2/HCl}$ at 0–5 °C, then $\ce{CuCl/HCl}$
+
+###### C · Substitute on aniline's ring (protect, react, deprotect)
+
+Worked example · 2025 Q5(a) [2025] — $p$-nitroaniline from aniline
+
+Acetylate: $\ce{C6H5NH2 ->[(CH3CO)2O] C6H5NHCOCH3}$. Nitrate with $\ce{HNO3/H2SO4}$: the para product is the major one, $p$-nitroacetanilide. Hydrolyse with acid or base to get back $\ce{-NH2}$: **$p$-nitroaniline**. The acetyl group stops oxidation and stops the anilinium ion forming, so the nitro group goes para, not meta.
+
+- 2025 Q2(a) [2025] — sulphanilic acid from aniline — answer only: aniline + conc. $\ce{H2SO4}$ → anilinium hydrogensulphate; heat at 453–473 K
+
+- 2025 Q2(c) / 2014 Q12 [2025, 30+] — acetanilide from aniline — answer only: $\ce{(CH3CO)2O}$ with pyridine → N-phenylethanamide
+
+- 2023 Q33(b) [30+] — nitrobenzene to 2,4,6-tribromoaniline — answer only: $\ce{Sn/HCl}$ to aniline, then $\ce{Br2}$ water
+
+###### D · Arrange in order
+
+Worked example · 2020 Q18 [30+] — increasing solubility in water: aniline, a secondary amine, a primary amine
+
+Solubility rests on hydrogen bonding with water. The primary amine has two N–H, the secondary one, and aniline has a large hydrophobic ring. Order: **aniline < secondary < primary**. (Boiling point, same question: tertiary < secondary < primary.)
+
+- 2019 Q11 [30+] — basic strength in the gas phase, increasing — answer only: primary < secondary < tertiary
+
+- Q26(a) [30+] — $\ce{CH3NH2}$, $\ce{(CH3)3N}$, $\ce{(CH3)2NH}$ in water, increasing — answer only: $\ce{(CH3)3N < CH3NH2 < (CH3)2NH}$
+
+- Q27(b) [30+] — increasing pK_b: $\ce{(C2H5)2NH}$, $\ce{C2H5NH2}$, $\ce{NH3}$, $\ce{C6H5NH2}$ — answer only: $\ce{(C2H5)2NH < C2H5NH2 < NH3 < C6H5NH2}$
+
+- 2025 Q4(a) [2025] — decreasing pK_b of four amines — answer only: aniline first (highest pK_b), then the methyl-substituted arylamine, then the primary, then the secondary aliphatic amine (the four structures are shown on screen, not spoken)
+
+###### E · Give a reason
+
+Worked example · 2020 Q19(b) [30+] — $\ce{(CH3)2NH}$ is more basic than $\ce{(CH3)3N}$ in aqueous solution
+
+Three factors decide basicity in water. **+I effect:** three methyls push more electron density onto nitrogen, favouring the tertiary. **Solvation:** the secondary cation has two N–H to hydrogen-bond with water, the tertiary only one, so the secondary cation is better stabilised. **Steric hindrance:** methyl is small, so it does not block the solvation. Solvation outweighs +I, so the **secondary amine is the stronger base**.
+
+- 2014 Q13(a) / 2020 Q29(a) [30+] — aniline gives no Friedel–Crafts reaction — answer only: forms a salt with $\ce{AlCl3}$; nitrogen turns positive and deactivates the ring
+
+- 2018 Q17(b) [30+] — why aromatic diazonium salts are more stable than aliphatic — answer only: resonance spreads the positive charge over the benzene ring
+
+- 2013 Q16(a) [30+] — electrophilic substitution in aromatic amines is easier than in benzene — answer only: the nitrogen lone pair is delocalised into the ring (+R), raising its electron density
+
+- 2025 Q1(b)(ii) [2025] — amides are less basic than amines — answer only: the nitrogen lone pair is in resonance with the C=O group, so it is not available to take a proton
+
+###### F · Distinguish
+
+Worked example · 2013 Q30(a) [30+] — distinguish a secondary from a tertiary amine
+
+Add benzenesulphonyl chloride (Hinsberg's reagent). The **secondary** amine reacts and loses $\ce{HCl}$, forming an N,N-dialkylbenzenesulphonamide that has no N–H, so it is **insoluble in alkali**. The **tertiary** amine has no hydrogen on nitrogen, so there is no reaction.
+
+- 2020 Q14 [30+] — ethylamine versus diethylamine — answer only: carbylamine test; ethylamine gives the foul-smelling isocyanide, diethylamine does not
+
+- 2020 Q14 [30+] — aniline versus N-methylaniline — answer only: carbylamine test; aniline (primary) gives it, N-methylaniline does not
+
+###### G · IUPAC names
+
+Worked example · 2022 Q22 [30+] — name $\ce{(CH3CH2)2N-CH3}$
+
+Longest chain on nitrogen: two carbons (either ethyl) → **ethanamine**. The other ethyl and the methyl are N-substituents, alphabetical: **N-ethyl-N-methylethanamine**.
+
+- 2017 Q2 [30+] — $\ce{(CH3)2N-CH2CH3}$ — answer only: N,N-dimethylethanamine
+
+- 2016 Q6 [30+] — aniline with three bromines at the 2, 4, 6 positions — answer only: 2,4,6-tribromoaniline
+
+- 2023 Q33(a) [30+] — a tertiary amine with ethyl, methyl and phenyl on nitrogen — answer only: N-ethyl-N-methylaniline
+
+### Chapter 10 · Biomolecules
+
+`NCERT Class XII Chemistry · Chapter 10 · Biomolecules`
+
+*7 marks in the board paper (CBSE 2026-27 curriculum). This chapter is a tour of the molecules that living things are built from: sugars, proteins, enzymes, vitamins, DNA and RNA, hormones. It reads like biology, but the exam asks it as chemistry — a structure, a reagent, a reason. Every new word is tagged **[exposure]** and explained from scratch. Glucose is the heart of the chapter; get it and half the marks follow.*
+
+#### What a biomolecule is — *three definitions to hold on to before anything else*
+
+**[exposure]** **Biochemistry** is the branch of science that studies the chemistry going on inside living things — what they are made of and which reactions run in them. It exists because a living body is just atoms and molecules following chemical rules; to understand digestion or heredity you have to understand the molecules. This chapter is a slice of it.
+
+**[exposure]** A **biomolecule** is any complex organic molecule that builds up a living organism and is needed for its growth and upkeep. The four big families are **carbohydrates, proteins, lipids and nucleic acids**. This chapter covers three of them in full (carbohydrates, proteins, nucleic acids), then enzymes, vitamins and hormones.
+
+**[exposure]** A **polymer** is a very long molecule made by joining many small identical or similar units, the **monomers**, end to end. Starch is a polymer of glucose; a protein is a polymer of amino acids; DNA is a polymer of nucleotides. You will see the same pattern three times, so keep it in mind: *small unit → joined by one specific bond → long chain*.
+
+**Examiner asks:** nothing directly from this section, but it names the three monomer–polymer pairs the whole chapter is built on.
+
+#### 10.1 Carbohydrates — what counts as one — *the formula is a trap; the real definition is about groups*
+
+**[exposure]** **Carbohydrates** are a huge group of naturally occurring organic compounds, made mostly by plants. Cane sugar, glucose and starch are all carbohydrates. They matter because they are the main fuel and the main structural material of living things. The name means "hydrate of carbon", because most of them fit the general formula $\ce{C_x(H2O)_y}$ — carbon with water attached.
+
+Glucose $\ce{C6H12O6}$ fits it as $\ce{C6(H2O)6}$. But the formula cannot be the definition, in both directions:
+
+- Acetic acid $\ce{CH3COOH}$ fits it as $\ce{C2(H2O)2}$ and is **not** a carbohydrate.
+- Rhamnose $\ce{C6H12O5}$ is a carbohydrate and does **not** fit it.
+
+So the real definition is by structure: a carbohydrate is an **optically active polyhydroxy aldehyde or ketone**, or a compound that gives such units on hydrolysis. Three words to unpack:
+
+**[exposure]** **Optically active** means the compound rotates the plane of plane-polarised light. A beam of light that vibrates in only one plane is plane-polarised; passing it through some compounds turns that plane to the right or left. It happens when a molecule has a carbon with four different groups on it (you met this as chirality in Haloalkanes). Why it matters here: it is the property that lets chemists tell sugars apart and track their structure.
+
+**[exposure]** **Polyhydroxy** means more than one $\ce{-OH}$ group. An **aldehyde** is the group $\ce{-CHO}$ and a **ketone** is $\ce{>C=O}$ inside a chain (the next chapter treats both properly). So a carbohydrate is a chain carrying several $\ce{-OH}$ groups and one $\ce{-CHO}$ or $\ce{>C=O}$.
+
+**[exposure]** **Hydrolysis** means breaking a bond by adding water, usually with a little acid or an enzyme to speed it up. The big carbohydrates are made by joining small ones and losing water, so hydrolysis runs it backwards and gives the small units back. Example: sucrose plus water, with a little acid, gives glucose plus fructose (below).
+
+Carbohydrates that taste sweet are called **sugars**: the table sugar at home is **sucrose**; the sugar in milk is **lactose**. Carbohydrates are also called **saccharides**, from the Greek word for sugar.
+
+> **Trap:** "C_x(H_2O)_y means carbohydrate" is false in both directions. Cite acetic acid (fits, not a carbohydrate) and rhamnose (does not fit, is one). Then give the structural definition.
+
+#### Classifying carbohydrates — *by what hydrolysis gives, and by whether they reduce Tollens' and Fehling's*
+
+###### 1. By behaviour on hydrolysis
+
+**[exposure]** A **monosaccharide** is a carbohydrate that cannot be hydrolysed any further into simpler polyhydroxy aldehyde or ketone units. It is the single building block. About 20 are known in nature; glucose, fructose and ribose are the ones you need.
+
+**[exposure]** An **oligosaccharide** gives 2 to 10 monosaccharide units on hydrolysis ("oligo" = few). They are named by count: **di-, tri-, tetra-saccharide** for 2, 3, 4 units. The common ones are disaccharides. Example: **sucrose** hydrolyses to one glucose plus one fructose (two different units); **maltose** hydrolyses to two glucose (two same units).
+
+**[exposure]** A **polysaccharide** gives a large number of monosaccharide units on hydrolysis. Starch, cellulose, glycogen and gums are the standard examples. They are not sweet, so they are also called **non-sugars**.
+
+###### 2. By reducing action
+
+**[exposure]** **Tollens' reagent** and **Fehling's solution** are two standard lab tests for an aldehyde: an aldehyde reduces them (and is itself oxidised), and you see a silver mirror or a red-brown precipitate. A carbohydrate that reduces either is a **reducing sugar**; one that does not is **non-reducing**. The test works only when a *free* aldehyde or ketone group is available to react.
+
+- **All monosaccharides** are reducing sugars, aldose or ketose, because the group is free.
+- A **disaccharide** is reducing if at least one of its two aldehyde/ketone groups is still free: **maltose, lactose**.
+- It is **non-reducing** if both groups are tied up in the bond joining the two units: **sucrose**.
+
+**Examiner asks:** "name the disaccharide that gives two glucose on hydrolysis" (2020 — maltose); "products of hydrolysis of sucrose" (2019 — glucose plus fructose); "which is a disaccharide, which is a monosaccharide" from a list of starch, maltose, glucose, fructose, cellulose (2015 — maltose; fructose); "why sucrose is non-reducing" (2010 — both reducing groups are used up in the bond).
+
+#### Monosaccharides — the naming grid — *carbon count gives the stem; aldehyde or ketone gives the prefix*
+
+**[exposure]** An **aldose** is a monosaccharide that carries an aldehyde group; a **ketose** carries a ketone group. The carbon count goes into the name too, so a six-carbon aldose is an **aldohexose** and a six-carbon ketose is a **ketohexose**. This two-part name tells you in one word what the molecule is built from.
+
+| Carbons | General term | Aldose | Ketose |
+|---|---|---|---|
+| 3 | triose | aldotriose | ketotriose |
+| 4 | tetrose | aldotetrose | ketotetrose |
+| 5 | pentose | aldopentose | ketopentose |
+| 6 | hexose | aldohexose | ketohexose |
+| 7 | heptose | aldoheptose | ketoheptose |
+
+Glucose is an aldohexose. Fructose is a ketohexose. Ribose, which turns up in RNA, is an aldopentose.
+
+#### Glucose — where it comes from — *two preparations, both ending in glucose*
+
+Glucose occurs both free (sweet fruit, honey, ripe grapes) and combined (inside sucrose, starch, cellulose). It is made in the lab or industry in two ways.
+
+###### From sucrose (cane sugar)
+
+Boil sucrose with dilute $\ce{HCl}$ or $\ce{H2SO4}$ in alcoholic solution. It hydrolyses to **equal amounts of glucose and fructose**. Both have the same molecular formula $\ce{C6H12O6}$.
+
+$$\ce{C12H22O11 + H2O ->[H+] C6H12O6 + C6H12O6}$$
+
+*Glucose and fructose are two different compounds with the same formula.*
+
+###### From starch (the industrial route)
+
+Boil starch (or cellulose) with dilute $\ce{H2SO4}$ at 393 K under 2–3 atm pressure. Every glucose unit in the chain is released.
+
+$$\ce{(C6H10O5)_n + nH2O ->[H+][\text{393 K, 2--3 atm}] nC6H12O6}$$
+
+**Examiner asks:** the conditions 393 K and 2–3 atm, and the fact that sucrose gives glucose plus fructose in equal amounts.
+
+#### Glucose — proving its open-chain structure — *six reagents, six facts; this table is the single most repeated question in the chapter*
+
+**[exposure]** The **open-chain structure** of glucose is the straight-chain form: six carbons in a row, an aldehyde group $\ce{-CHO}$ at one end, a $\ce{-CH2OH}$ at the other, and four $\ce{-CHOH}$ groups in between. Chemists did not see it; they inferred it by reacting glucose with chosen reagents and reading what came out. Each reaction proves one feature, and each one is a standalone exam question.
+
+$$\ce{CHO-(CHOH)4-CH2OH}$$
+
+| Reagent | What happens | What it proves |
+|---|---|---|
+| Molecular formula | $\ce{C6H12O6}$ | six carbons |
+| $\ce{HI}$, prolonged heating | gives *n*-hexane $\ce{CH3(CH2)4CH3}$ | all six carbons are in a **straight chain** |
+| $\ce{NH2OH}$ (hydroxylamine) | gives an **oxime**, $\ce{CH=NOH}$ | a **carbonyl** group is present |
+| $\ce{HCN}$ | gives a **cyanohydrin** | a **carbonyl** group is present |
+| $\ce{Br2}$ water (mild oxidant) | gives **gluconic acid**, $\ce{-CHO -> -COOH}$ | the carbonyl is an **aldehyde**, not a ketone |
+| $\ce{(CH3CO)2O}$ (acetic anhydride) | gives glucose **pentaacetate** | **five $\ce{-OH}$ groups**, each on a different carbon |
+| $\ce{HNO3}$ (strong oxidant) | gives **saccharic acid**, a dicarboxylic acid | a **primary alcohol** $\ce{-CH2OH}$ is present |
+
+The reactions, written out:
+
+$$\ce{C6H12O6 ->[HI][\Delta] CH3CH2CH2CH2CH2CH3}$$
+
+$$\ce{HOCH2(CHOH)4CHO + NH2OH -> HOCH2(CHOH)4CH=NOH + H2O}$$
+
+$$\ce{HOCH2(CHOH)4CHO + HCN -> HOCH2(CHOH)4CH(OH)CN}$$
+
+$$\ce{HOCH2(CHOH)4CHO ->[Br2 / H2O] HOCH2(CHOH)4COOH}$$
+
+$$\ce{HOCH2(CHOH)4CHO + 5(CH3CO)2O -> CH3COOCH2(CHOCOCH3)4CHO + 5CH3COOH}$$
+
+$$\ce{HOCH2(CHOH)4CHO ->[HNO3] HOOC(CHOH)4COOH}$$
+
+**[exposure]** An **oxime** is what an aldehyde or ketone becomes after it condenses with hydroxylamine $\ce{NH2OH}$: the $\ce{C=O}$ turns into $\ce{C=N-OH}$ and one water leaves. It exists as a classic way to test for a carbonyl group. Example: glucose gives glucose oxime, $\ce{CH=NOH}$ at the top of the chain.
+
+**[exposure]** A **cyanohydrin** forms when $\ce{HCN}$ adds across a carbonyl: the carbon gains both a $\ce{-CN}$ and an $\ce{-OH}$. The $\ce{CN-}$ ion is a nucleophile (an electron-rich attacker, as in Haloalkanes), it attacks the electron-poor carbonyl carbon, and the oxygen then picks up $\ce{H+}$ from the solution. Same job as the oxime: it confirms a carbonyl.
+
+**[exposure]** **Acetylation** means attaching an acetyl group $\ce{CH3CO\bond{-}}$ to an $\ce{-OH}$, turning each one into an ester. Acetic anhydride does it. Glucose takes *five* acetyls, so it has five $\ce{-OH}$ groups. Because the product is a stable compound, no two of those $\ce{-OH}$ groups sit on the same carbon.
+
+> **Trap:** do not mix up which reagent proves which feature. Carbonyl is proved by *oxime or cyanohydrin* (they work on aldehydes *and* ketones). It is **bromine water** that narrows it to an aldehyde. And $\ce{HNO3}$ gives a *dicarboxylic* acid (both ends become $\ce{-COOH}$), which is why NCERT concludes a **primary alcohol** is present.
+
+**Examiner asks:** this table is the most repeated question in the chapter. Forms it takes: "write the product of glucose with HI" (2014); "with conc. HNO_3" (2018); "show the open chain has a straight chain, five $\ce{-OH}$, an aldehyde" (2019); "glucose with $\ce{HCN}$, $\ce{Br2}$, acetic anhydride" (2019); "heating glucose with hydroxylamine — which group is confirmed" (2023, answer: carbonyl). See the PYQ section.
+
+#### Glucose — D, L and the (+) sign — *two labels that students merge into one; they mean different things*
+
+**[exposure]** The **Fischer projection** is a way of drawing a 3-D molecule flat. The carbon chain runs vertically with the most oxidised carbon ($\ce{-CHO}$) at the top. Each carbon sits where a horizontal line meets the vertical one. Horizontal bonds point *toward* you; vertical bonds point *away*. It exists because chemists needed one fixed convention to compare the 3-D arrangement of many sugars on paper. Fischer used it to fix the positions of glucose's $\ce{-OH}$ groups after studying many of its properties.
+
+In glucose's Fischer projection, going down from the aldehyde carbon, the $\ce{-OH}$ groups sit **right, left, right, right** (on carbons 2, 3, 4, 5).
+
+**[exposure]** An **asymmetric (chiral) carbon** is one attached to four different atoms or groups. A molecule with one comes in two mirror-image forms called **enantiomers**, and it is optically active. Glyceraldehyde ($\ce{HOCH2-CH(OH)-CHO}$) has exactly one, so it exists as two enantiomers. This is why it is chosen as the reference for the D/L system.
+
+**[exposure]** **D and L** label the *spatial arrangement* of a compound relative to glyceraldehyde. Write the structure with the most oxidised carbon on top. Look at the **lowest asymmetric carbon** (the one furthest from the $\ce{-CHO}$). If its $\ce{-OH}$ is on the **right**, the compound is **D**; on the **left**, **L**. Glucose's lowest asymmetric carbon (C5) has $\ce{-OH}$ on the right, so glucose is **D**-glucose. Only that one carbon is used for the label.
+
+**[exposure]** The **(+) or (−)** sign is a separate fact: it says which way the compound rotates plane-polarised light. (+) = dextrorotatory = to the right; (−) = laevorotatory = to the left. It has to be measured; you cannot read it off a drawing. Glucose rotates right, so it is **D-(+)-glucose**. The older lowercase d and l mean the same as (+) and (−).
+
+> **Trap:** **D has no relation to optical rotation.** D tells you the arrangement; (+) tells you the rotation direction. D-fructose is D but laevorotatory, written D-(−)-fructose. That one pair is the standard example to quote.
+
+Quick relatives of glucose that follow from the same drawing: if the top $\ce{-CHO}$ becomes $\ce{-COOH}$ it is **gluconic acid**; if both ends are $\ce{-COOH}$ it is **saccharic acid**.
+
+#### Glucose — the ring form — *three facts the straight chain cannot explain; one idea that explains all of them*
+
+The open-chain structure explains almost everything above, but three observations break it:
+
+1. Glucose has an aldehyde group, yet it **does not give Schiff's test** (the pink-colour test for aldehydes) and it **does not form the hydrogensulphite addition product** with $\ce{NaHSO3}$, which aldehydes normally do.
+2. The **pentaacetate of glucose does not react with hydroxylamine**, though a free aldehyde would. So in glucose the $\ce{-CHO}$ is not free.
+3. Glucose forms **two crystalline forms**: the **α-form** (melting point 419 K, crystallised from concentrated solution at 303 K) and the **β-form** (melting point 423 K, crystallised from hot saturated solution at 371 K).
+
+**[exposure]** A **hemiacetal** is what forms when an $\ce{-OH}$ group adds to an aldehyde: the old carbonyl carbon ends up holding an $\ce{-H}$, an $\ce{-OH}$ and an $\ce{-OR}$. When the $\ce{-OH}$ and the aldehyde are on the *same molecule*, the addition closes a ring. This is the fix for all three facts: in glucose the $\ce{-OH}$ on **carbon 5** adds to the carbon-1 aldehyde, and a **six-membered ring** (five carbons and one oxygen) closes. The $\ce{-CHO}$ is now used up inside the ring, which is why Schiff's test, $\ce{NaHSO3}$ and hydroxylamine all fail.
+
+The two crystal forms then have an easy explanation: closing the ring turns carbon 1 into a new asymmetric carbon, and the new $\ce{-OH}$ on it can sit on either side. The two cyclic forms stay in **equilibrium with the open chain** in solution.
+
+**[exposure]** The **anomeric carbon** is carbon 1, the former aldehyde carbon, now the carbon that holds the new $\ce{-OH}$. The two ring forms differ *only* in the position of that one $\ce{-OH}$: **on the right** in the Fischer drawing = **α**-D-(+)-glucose; **on the left** = **β**-D-(+)-glucose. Two isomers that differ only at the anomeric carbon are called **anomers**.
+
+**[exposure]** A **pyranose** is any sugar ring with six atoms (five carbons and one oxygen), named after **pyran**, the ring compound with five carbons and one oxygen. So the glucose rings are **α-D-glucopyranose** and **β-D-glucopyranose**. The **Haworth structure** is the standard flat drawing of this ring, with the ring edge-on, and each group pointing either up or down.
+
+###### Reading a Haworth drawing off the Fischer one
+
+The rule that does every sugar: **on the right in Fischer → down in Haworth; on the left → up.** The terminal $\ce{CH2OH}$ on carbon 5 points up in every D-sugar.
+
+| Carbon | α-D-glucopyranose | β-D-glucopyranose |
+|---|---|---|
+| C1 (anomeric) | $\ce{-OH}$ down | $\ce{-OH}$ up |
+| C2 | $\ce{-OH}$ down | $\ce{-OH}$ down |
+| C3 | $\ce{-OH}$ up | $\ce{-OH}$ up |
+| C4 | $\ce{-OH}$ down | $\ce{-OH}$ down |
+| C5 | $\ce{-CH2OH}$ up | $\ce{-CH2OH}$ up |
+
+The only line that changes between α and β is C1. That one change is the whole difference between the anomers.
+
+**Examiner asks:** "enumerate the reactions of glucose that its open structure cannot explain" (2014); "why does glucose not give the 2,4-DNP test" (2019); "why the pentaacetate of glucose does not react with hydroxylamine" (2023); "define anomers" (2014). All four answers are the same idea — the $\ce{-CHO}$ is not free because it is inside the ring.
+
+#### Fructose — *same formula as glucose, a ketone instead of an aldehyde, and a five-membered ring*
+
+Fructose is the ketohexose that you get along with glucose from hydrolysing sucrose. It is found in fruit, honey and vegetables, and it is used as a sweetener. Its molecular formula is the same as glucose, $\ce{C6H12O6}$, but the reactions show a **ketone group at carbon 2**, on the same six-carbon straight chain. It is a D-sugar (the lowest asymmetric carbon has $\ce{-OH}$ on the right) and it rotates light to the left, so its name is **D-(−)-fructose**.
+
+**[exposure]** A **furanose** is a sugar ring with **five** atoms (four carbons and one oxygen), named after **furan**, the five-membered ring with four carbons and one oxygen. Fructose closes its ring when the $\ce{-OH}$ on **carbon 5** adds to the **carbon-2 ketone**. That ring is five-membered, unlike glucose's six, which is why the name is **fructofuranose**, not "-pyranose". Again there are two anomers, α and β, differing only at the new anomeric carbon (C2): **α-D-(−)-fructofuranose** and **β-D-(−)-fructofuranose**.
+
+|  | Glucose | Fructose |
+|---|---|---|
+| Type | aldohexose | ketohexose |
+| Ring formed by | C5 $\ce{-OH}$ + C1 aldehyde | C5 $\ce{-OH}$ + C2 ketone |
+| Ring size | 6 (pyranose) | 5 (furanose) |
+| Anomeric carbon | C1 | C2 |
+| Rotation | (+) dextro | (−) laevo |
+
+**Examiner asks:** ring size and the names pyranose / furanose; the (−) sign on fructose.
+
+#### Disaccharides — *two sugars joined through oxygen — sucrose, maltose, lactose, and which of them reduce*
+
+**[exposure]** A **glycosidic linkage** is the C–O–C bridge that joins two monosaccharides. It forms when an $\ce{-OH}$ on one sugar and an $\ce{-OH}$ on the other lose one water between them, leaving a single oxygen as the link. NCERT calls this an "oxide linkage". This is the one bond that holds every disaccharide and polysaccharide together, and it is the carbohydrate equivalent of the peptide bond you will meet in proteins. A disaccharide hydrolysed with dilute acid or an enzyme gives back two monosaccharide molecules.
+
+| Disaccharide | Made of | Linkage | Reducing? |
+|---|---|---|---|
+| **Sucrose** | α-D-glucose + β-D-fructose | C1 of glucose – C2 of fructose | No |
+| **Maltose** | two α-D-glucose | C1 of one – C4 of the other | Yes |
+| **Lactose** | β-D-galactose + β-D-glucose | C1 of galactose – C4 of glucose | Yes |
+
+###### Sucrose
+
+The common table sugar. On hydrolysis it gives an **equimolar mixture** (equal numbers of molecules) of D-(+)-glucose and D-(−)-fructose. In sucrose the link is made *through the aldehyde carbon of glucose (C1) and the ketone carbon of fructose (C2)*. Both reducing groups are used up in that one bond, so neither is free, and sucrose is a **non-reducing sugar**: it does not reduce Tollens' or Fehling's.
+
+**[exposure]** **Invert sugar** is the glucose–fructose mixture you get by hydrolysing sucrose. Sucrose itself is dextrorotatory ($+66.5^\circ$). But the hydrolysis gives glucose ($+52.5^\circ$) and fructose ($-92.4^\circ$), and the fructose rotates further left than glucose rotates right, so the **mixture is laevorotatory**. The sign of the rotation *inverts* from (+) to (−) during hydrolysis, which is where the name comes from.
+
+###### Maltose
+
+Two α-D-glucose units joined C1 to C4. The second glucose still has its C1 hemiacetal, which in solution opens to give a free aldehyde, so maltose **reduces**.
+
+###### Lactose (milk sugar)
+
+β-D-galactose plus β-D-glucose, joined C1 of galactose to C4 of glucose. The glucose unit still has a free C1, so lactose **reduces**. Galactose differs from glucose only at C4, where the $\ce{-OH}$ is on the other side. On hydrolysis, lactose gives β-D-glucose and β-D-galactose.
+
+> **Trap:** the reason for "sucrose is non-reducing" must say *both reducing groups, the aldehyde of glucose and the ketone of fructose, are involved in the glycosidic bond*. Saying "it has no aldehyde group" scores nothing; it does, until it is used in the bond.
+
+**Examiner asks:** products of hydrolysis of lactose (2019); "why is sucrose non-reducing" (2010); name the linkage between two monosaccharides (2018, 2020 — glycosidic); "invert sugar" (see the PYQ section).
+
+#### Polysaccharides — *starch, cellulose, glycogen — the same monomer, three different jobs*
+
+Polysaccharides are thousands of monosaccharide units joined by glycosidic linkages. They do two jobs: **food storage** and **structure**.
+
+###### Starch — the plant's stored food
+
+The main storage polysaccharide of plants and our main dietary carbohydrate (cereals, roots, tubers). It is a polymer of α-glucose and has *two* components:
+
+|  | Amylose | Amylopectin |
+|---|---|---|
+| Share of starch | 15–20% | 80–85% |
+| Shape | long, **unbranched** chain, 200–1000 α-D-(+)-glucose units | **branched** chain of α-D-glucose |
+| Linkage | C1–C4 glycosidic | C1–C4 along the chain; **C1–C6** at the branches |
+| In water | soluble | insoluble |
+
+###### Cellulose — the plant's structure
+
+A straight-chain polymer of **β-D-glucose**, joined C1 to C4. It is the most abundant organic substance in the plant kingdom and the main constituent of plant cell walls. We use it as wood and as cotton.
+
+###### Glycogen — the animal's stored food
+
+The carbohydrate stored in the animal body, also called **animal starch**. Its structure is like amylopectin but **more highly branched**. It is found in the liver, muscles and brain; when the body needs glucose, enzymes break glycogen down. It is also found in yeast and fungi.
+
+> **Trap:** starch and cellulose are *both* glucose polymers. The structural difference they want is one line: **starch is α-D-glucose, cellulose is β-D-glucose**; starch has an unbranched *and* a branched part, cellulose is purely linear.
+
+###### Why carbohydrates matter
+
+They are the major part of our food; honey has long been used as an instant energy source by "vaids" in the Ayurvedic system; starch and glycogen are the storage molecules; cellulose builds plant cell walls (NCERT adds bacteria) and gives us wood and cotton fibre. D-ribose and 2-deoxy-D-ribose are the two aldopentoses in nucleic acids, and carbohydrates occur in the body combined with proteins and lipids.
+
+**Examiner asks:** a carbohydrate found in liver, muscle and brain (2019 — glycogen); the structural difference between starch and cellulose (2016, 2023); the two components of starch (2013); amylose versus amylopectin (2019).
+
+#### 10.2 Amino acids — *the monomer of every protein — what one is, how they are classified, and why they behave like salts*
+
+**[exposure]** **Proteins** are the most abundant biomolecules in living systems; they form the basis of structure and function and are needed for growth and upkeep. Chief sources: milk, cheese, pulses, peanuts, fish, meat. The word comes from the Greek for "of primary importance". Every protein is a polymer of **α-amino acids**.
+
+**[exposure]** An **amino acid** is a compound that carries both an amino group $\ce{-NH2}$ (basic) and a carboxyl group $\ce{-COOH}$ (acidic). In an **α-amino acid** both sit on the same carbon, the α-carbon, along with a hydrogen and a side chain R: $\ce{H2N-CHR-COOH}$. Only α-amino acids come out of the hydrolysis of proteins. Different R groups make different amino acids. Example: R = H gives **glycine**; R = $\ce{CH3}$ gives **alanine**.
+
+About 20 amino acids make up all plant and animal proteins. Each has a **trivial name** that records a property or the source — glycine is named from the Greek for "sweet" (it tastes sweet) and tyrosine from the Greek for "cheese" (it was first isolated from cheese). Each has a three-letter code and a one-letter code: glycine Gly / G, alanine Ala / A.
+
+###### Classification 1: acidic, basic, neutral
+
+Count the groups. **Equal** numbers of $\ce{-NH2}$ and $\ce{-COOH}$ → **neutral** (glycine, alanine). **More $\ce{-COOH}$** → **acidic** (extra $\ce{-COOH}$ in the side chain: aspartic acid, glutamic acid). **More $\ce{-NH2}$** → **basic** (extra $\ce{-NH2}$ in the side chain: lysine, arginine).
+
+###### Classification 2: essential and non-essential
+
+**[exposure]** An **essential amino acid** is one the body cannot make, so it has to come from food. A **non-essential** one the body can make itself. Of the 20, **10 are essential** and 10 are not. Essential: valine, leucine, isoleucine, arginine, lysine, threonine, methionine, phenylalanine, tryptophan, histidine. Non-essential: glycine, alanine, glutamic acid, aspartic acid, glutamine, asparagine, serine, cysteine, tyrosine, proline.
+
+> **Trap:** for a two-example answer, safe picks are **valine and leucine** (essential) and **alanine and glutamic acid** (non-essential). Arginine and lysine are on *both* the "basic" list and the "essential" list, so do not use them as a clean example of either.
+
+###### Properties
+
+Amino acids are colourless crystalline solids, soluble in water, with high melting points. They behave like **salts** rather than like a simple amine or acid. The reason is the two groups in one molecule:
+
+**[exposure]** A **zwitterion** (zwitter ion) is a molecule that carries a positive and a negative charge at the same time and is neutral overall. In water, the $\ce{-COOH}$ gives up $\ce{H+}$ to become $\ce{-COO-}$ while the $\ce{-NH2}$ picks it up to become $\ce{-NH3+}$. Both charges sit on the same molecule: $\ce{H3N^+-CHR-COO^-}$. That ionic character is why amino acids behave like salts, dissolve in water and melt at high temperature.
+
+**[exposure]** **Amphoteric** means able to react with both acids and bases. In zwitterion form, an amino acid has an acidic group *and* a basic group, so it reacts with either. That is the whole answer to "why are amino acids amphoteric".
+
+**Optical activity.** Every α-amino acid except **glycine** is optically active, because the α-carbon is asymmetric. Glycine's α-carbon carries two hydrogens, so it is not. Amino acids exist as D and L forms; the natural ones are **L**, written with the $\ce{-NH2}$ on the **left**. (For sugars you look at the $\ce{-OH}$; for amino acids you look at the $\ce{-NH2}$.)
+
+**Examiner asks:** define an amino acid (2014); what is an essential amino acid with examples (2014, 2018, 2025); why amino acids are amphoteric (2018, 2023, 2025); why they behave like salts (2023).
+
+#### Peptides and the peptide bond — *how amino acids join; when a chain stops being a peptide and becomes a protein*
+
+**[exposure]** A **peptide bond** (peptide linkage) is the amide bond $\ce{-CO-NH\bond{-}}$ that joins two amino acids. It forms when the $\ce{-COOH}$ of one amino acid reacts with the $\ce{-NH2}$ of the next and a molecule of water leaves. It exists because that is the only way nature strings amino acids into a chain; it is the protein version of the glycosidic linkage.
+
+$$\ce{H2N-CH2-COOH + H2N-CH(CH3)-COOH -> H2N-CH2-CO-NH-CH(CH3)-COOH + H2O}$$
+
+That is glycine's carboxyl joining alanine's amino group, giving the dipeptide **glycylalanine**.
+
+Name by count: 2 amino acids → **dipeptide**; 3 → **tripeptide**; 4, 5, 6 → **tetra-, penta-, hexapeptide**; **more than 10** → **polypeptide**. Each amino acid inside the chain is called a **residue**, and the chain loses one water per bond: **n amino acids make n − 1 peptide bonds.**
+
+A polypeptide with **more than 100 amino acid residues and a molecular mass above 10,000 u** is called a protein. The line is not sharp: a shorter chain still counts as a protein if it folds into a well-defined protein shape, and the standard example is **insulin, with only 51 amino acids**.
+
+> **Trap:** glycosidic versus peptide linkage is a standing 2019 question. One-liner: **glycosidic = C–O–C between two monosaccharides (carbohydrates); peptide = –CO–NH– amide between two amino acids, with loss of water (proteins).**
+
+#### Protein structure and shape — *fibrous or globular; then four levels, each one built on the last*
+
+###### By overall shape
+
+**[exposure]** **Fibrous proteins** are thread-like: many polypeptide chains lie side by side, held together by **hydrogen bonds and disulphide bonds** (S–S bridges between sulphur-containing amino acids). They are **insoluble in water**. Examples: **keratin** (hair, wool, silk) and **myosin** (muscle).
+
+**[exposure]** **Globular proteins** are chains coiled up into a ball. They are generally **soluble in water**, which is why they can travel in blood plasma. Examples: **insulin and albumins**.
+
+###### The four levels
+
+1. **Primary** — the *sequence* of amino acids in each chain. Change even one amino acid in the sequence and you have a different protein.
+**Secondary** — the regular shape the backbone folds into, held by **hydrogen bonds** between the $\ce{C=O}$ of one peptide bond and the $\ce{N-H}$ of another. Two forms:
+
+- **α-helix**: one chain twists into a right-handed screw; each $\ce{N-H}$ bonds to the $\ce{C=O}$ one turn along. The hydrogen bonds are **within one chain** (intramolecular).
+- **β-pleated sheet**: several chains stretched out and laid side by side like folds in a curtain; the hydrogen bonds are **between different chains** (intermolecular).
+
+2. **Tertiary** — the overall folding of the whole chain, giving the fibrous or globular shape. Held by hydrogen bonds, disulphide linkages, van der Waals forces and electrostatic attraction.
+3. **Quaternary** — only in proteins with **two or more chains** (sub-units): the arrangement of the sub-units relative to each other. Haemoglobin is the example: four sub-units.
+
+> **Trap:** the α-helix versus β-sheet question is always about the *location* of the hydrogen bonds: **intramolecular (one chain) versus intermolecular (different chains)**. State both halves.
+
+**Examiner asks:** an example each of fibrous and globular protein (2016); difference between α-helix and β-pleated sheet (2018, 2023); define primary structure (2024); two differences between globular and fibrous (2013).
+
+#### Denaturation — *what boiling an egg does to a protein*
+
+**[exposure]** A **native protein** is a protein as it occurs in a living system, with its own unique 3-D structure and its biological activity (an enzyme, for instance). **Denaturation** is what happens when a native protein is pushed out of that shape by a *physical* change (heat) or a *chemical* change (a change in pH). Hydrogen bonds break, globules unfold, helices uncoil, and the protein **loses its biological activity**. What stays: the **primary structure**, because it is held by peptide bonds, not hydrogen bonds. What is destroyed: the **secondary and tertiary** structure.
+
+Two standard examples: **coagulation of egg white on boiling**, and **curdling of milk** (bacteria make lactic acid, the pH drops, the milk protein coagulates).
+
+**Examiner asks:** define native and denatured protein with an example (2018, 2025); what changes in egg protein on boiling (2013 — it denatures, hydrogen bonds break, activity lost).
+
+#### 10.3 Enzymes — *biological catalysts — very specific, needed only in tiny amounts*
+
+**[exposure]** **Enzymes** are biological catalysts: substances that speed up the chemical reactions of living things without being used up. They exist because the body has to run huge numbers of reactions under mild conditions (body temperature, neutral pH), and they only work fast enough with a catalyst. Almost every enzyme is a **globular protein**. Example: the enzyme **maltase** speeds the hydrolysis of maltose into glucose.
+
+- **Specific** — one enzyme for one reaction and one substrate. The **substrate** is the molecule the enzyme acts on.
+- **Needed only in small amounts** for the reaction to proceed.
+- **Naming**: usually after the compound it works on (maltose → *maltase*), sometimes after the reaction (an enzyme catalysing oxidation of one substrate with simultaneous reduction of another is an **oxidoreductase**). The name **ends in "-ase"**.
+
+**How they work:** like any catalyst, an enzyme lowers the **activation energy** (the energy barrier a reaction has to cross; you met it in Chemical Kinetics). NCERT's number: acid hydrolysis of sucrose needs 6.22 kJ mol^−1; with the enzyme sucrase it needs only 2.15 kJ mol^−1.
+
+**Examiner asks:** define enzymes (2014 — biological catalysts, almost all globular proteins).
+
+#### 10.4 Vitamins — *definition, the two classes, and the source–disease table that is a pure recall mark*
+
+**[exposure]** **Vitamins** are organic compounds needed in the diet in *small* amounts to perform specific biological functions for normal growth and health. Their deficiency causes specific diseases. Most cannot be made in the human body (so food has to supply them); plants make almost all of them, so vitamins count as "essential food factors". They are named A, B, C, D, E, K, with sub-groups such as B_1, B_2, B_6, B_12.
+
+###### Two classes, by solubility
+
+- **Fat-soluble** — dissolve in fat and oil, not in water: **A, D, E, K**. They are stored in the liver and in adipose (fat-storing) tissue.
+- **Water-soluble** — **B group and C**. They must be taken **regularly** because they are readily excreted in urine and cannot be stored — **except vitamin B_12**, which is stored in the liver.
+
+| Vitamin | Source | Deficiency disease |
+|---|---|---|
+| A (retinol) | fish liver oil, carrot, butter, milk | **xerophthalmia** (hardening of the cornea); **night blindness** |
+| B_1 (thiamine) | yeast, milk, green vegetables, cereals | **beri-beri** (loss of appetite, retarded growth) |
+| B_2 (riboflavin) | milk, egg white, liver, kidney | **cheilosis** (fissures at corners of mouth and lips), digestive disorders, burning skin |
+| B_6 (pyridoxine) | yeast, milk, egg yolk, cereals, gram | **convulsions** |
+| B_12 | meat, fish, egg, curd | **pernicious anaemia** (red blood cells deficient in haemoglobin) |
+| C (ascorbic acid) | citrus fruits, amla, green leafy vegetables | **scurvy** (bleeding gums) |
+| D | sunlight, fish, egg yolk | **rickets** (bone deformity in children); **osteomalacia** (soft bones, joint pain in adults) |
+| E | vegetable oils (wheat germ, sunflower) | increased fragility of red blood cells; muscular weakness |
+| K | green leafy vegetables | increased blood-clotting time |
+
+Vitamin D is the one that the body can make itself, when skin is exposed to sunlight; every other vitamin has to come from the diet.
+
+> **Trap:** "why can vitamin C not be stored in the body" (2016) — **it is water-soluble and is excreted in urine**. And the 1-mark favourites: bleeding gums → C; pernicious anaemia → B_12; bone deformity in children → D; blood clotting → K.
+
+**Examiner asks:** define vitamin and classify it by solubility; diseases for A, E, C, D, B_12; which vitamin the body can make.
+
+#### 10.5 Nucleic acids — what they are made of — *sugar + phosphate + a nitrogen base, then how those units chain together*
+
+**[exposure]** **Heredity** is the passing of inherited characters from one generation to the next. It is carried by **chromosomes**, thread-like structures in the cell nucleus made of protein plus a second biomolecule: the **nucleic acids**. They come in two types, **DNA** (deoxyribonucleic acid) and **RNA** (ribonucleic acid). Because each is a long chain polymer of **nucleotides**, nucleic acids are also called **polynucleotides**.
+
+###### Complete hydrolysis gives three things
+
+1. A **pentose sugar** (five-carbon, in ring form): **β-D-2-deoxyribose** in DNA, **β-D-ribose** in RNA. They differ only at carbon 2: ribose has an $\ce{-OH}$ there; 2-deoxyribose has just $\ce{-H}$ (no oxygen).
+2. **Phosphoric acid** — the same in both.
+3. A **nitrogen base**.
+
+**[exposure]** The **nitrogen bases** are nitrogen-containing ring compounds ("heterocyclic": a ring containing something other than carbon). Two families: **purines** (double ring): **adenine (A)** and **guanine (G)**; and **pyrimidines** (single ring): **cytosine (C), thymine (T), uracil (U)**. **DNA** has A, G, C and **T**; **RNA** has A, G, C and **U**. Thymine is uracil with an extra $\ce{-CH3}$. So thymine is found only in DNA, and uracil only in RNA.
+
+###### Nucleoside and nucleotide
+
+**[exposure]** A **nucleoside** is a **base joined to the 1′ carbon of the sugar**. The carbons of the sugar are written 1′, 2′, 3′, … (read "one prime") so they cannot be mixed up with the carbons in the base. A **nucleotide** is a nucleoside with **phosphoric acid attached at the 5′ position** of the sugar. So: **nucleoside = sugar + base; nucleotide = sugar + base + phosphate.**
+
+**[exposure]** A **phosphodiester linkage** is how nucleotides chain up. The phosphate on the **5′ carbon** of one nucleotide bonds to the $\ce{-OH}$ on the **3′ carbon** of the next, so the phosphate group is joined to two sugars (an ester at each end, hence "di-ester"). Repeat and you get a polynucleotide whose backbone alternates sugar–phosphate–sugar–phosphate, with the bases hanging off the sides. One end of the chain has a free phosphate on the 5′ carbon (the **5′ end**); the other has a free $\ce{-OH}$ on a 3′ carbon (the **3′ end**).
+
+> **Trap:** "base + sugar" is the nucleoside; adding the phosphate makes the nucleotide. Questions on nucleoside versus nucleotide (2016, 2019) are lost on one missing word: **phosphate**.
+
+**Examiner asks:** the unit formed by attaching a base to the 1′ position of a sugar (2020 — nucleoside); the type of linkage in nucleic acids (2016 — phosphodiester); nucleoside versus nucleotide (2016, 2019); define nucleotide (2025).
+
+#### Nucleic acids — structure and functions — *primary, the DNA double helix, base pairing, three kinds of RNA, three jobs of DNA*
+
+The **primary structure** of a nucleic acid is the *sequence of nucleotides* along the chain — which bases come in which order.
+
+**DNA secondary structure — the double helix.** Watson and Crick showed that DNA is two polynucleotide strands wound around each other in a helix, running in **opposite directions** (one 5′→3′, the other 3′→5′), and held together by **hydrogen bonds between pairs of bases**. The pairing is fixed:
+
+- **Adenine pairs with thymine** — **2** hydrogen bonds (A=T).
+- **Guanine pairs with cytosine** — **3** hydrogen bonds (G≡C).
+
+That is why the two strands are **complementary**, not identical: wherever one has A, the other has T, and G faces C. It also gives the double helix its stability.
+
+**RNA secondary structure.** RNA is normally a **single-stranded** helix; it sometimes folds back on itself. There are three types, each with a different job: **messenger RNA (m-RNA)** carries the message from DNA; **ribosomal RNA (r-RNA)** sits in ribosomes and helps in protein synthesis; **transfer RNA (t-RNA)** brings amino acids for protein synthesis.
+
+|  | DNA | RNA |
+|---|---|---|
+| Strands | double helix | single strand |
+| Sugar | deoxyribose | ribose |
+| Bases | A, G, C, **T** | A, G, C, **U** |
+| Main job | heredity — carries genetic information to the next generation | protein synthesis |
+
+###### Biological functions of nucleic acids
+
+1. **Heredity** — DNA is the chemical basis of heredity and the store of genetic information.
+2. **Replication** — during cell division the DNA makes a copy of itself, and identical DNA goes to both daughter cells.
+3. **Protein synthesis** — the various RNAs make the proteins, but the *message* for each protein is in the DNA, passed on through m-RNA.
+
+**Examiner asks:** "two strands in DNA are not identical but complementary" (2019); structural and functional differences between DNA and RNA (2013, 2023); one function of nucleic acids (2013).
+
+#### 10.6 Hormones — *chemical messengers — three chemical types and what each does*
+
+**[exposure]** **Hormones** are molecules that act as **intercellular messengers**: they carry a signal from one group of cells or tissue to another. They are made by **endocrine (ductless) glands** and poured directly into the blood, which carries them to receptors at the site of action. They exist so the body can coordinate itself over distance. Compare with vitamins: hormones are **made in the body** and are messengers; vitamins (except D) have to come from food and are needed in small amounts for growth.
+
+| Chemical type | Examples | Role |
+|---|---|---|
+| **Steroids** (four-ring skeleton) | oestrogens, androgens | sexual development |
+| **Polypeptides** (chains of amino acids) | insulin, endorphins | insulin lowers blood glucose; endorphins reduce pain |
+| **Amino-acid derivatives** | epinephrine, norepinephrine | mediate the stress response |
+
+###### What they do
+
+- **Glucose balance** — **insulin** lowers blood glucose (it turns glucose into glycogen); **glucagon** raises it (glycogen back to glucose). The two together hold the level steady.
+- **Stress response** — epinephrine and norepinephrine.
+- **Growth and development** — growth hormones (height, muscle mass); sex hormones (testosterone, oestradiol) for secondary sexual characters.
+- **Thyroid** — the thyroid gland makes **thyroxine**, an iodinated derivative of tyrosine, which controls metabolism. Too little gives hypothyroidism; too much gives hyperthyroidism. A diet low in iodine causes enlargement of the thyroid (**goitre**); iodised salt prevents it.
+- **Adrenal cortex** — **glucocorticoids** control carbohydrate metabolism and inflammation; **mineralocorticoids** control the kidney's salt and water balance. If the adrenal cortex fails the result is **Addison's disease**.
+- **Progesterone** — prepares the uterus for implantation of the fertilised egg.
+
+**Examiner asks:** how vitamins and hormones differ in source and function (2013 — hormones made by endocrine glands and released into blood, they transfer information between cells; vitamins come from the diet, in minute quantity, for growth and upkeep).
+
+#### Patterns, collected — *the conversions, counts and calls you will actually be asked to make*
+
+###### 1. Reagent → product for glucose
+
+Worked example
+
+Glucose is heated with $\ce{HI}$ for a long time. Name the product and say what it proves.
+
+Straight-chain six-carbon alkane: $\ce{C6H12O6 ->[HI][\Delta] CH3CH2CH2CH2CH2CH3}$ = *n*-hexane. All six carbons lie in a straight chain, with no branch.
+
+- Glucose + $\ce{Br2}$ water: product and conclusion — answer only: gluconic acid; the carbonyl is an aldehyde
+
+- Glucose + acetic anhydride: product and conclusion — answer only: glucose pentaacetate; five $\ce{-OH}$ groups
+
+- Glucose + conc. $\ce{HNO3}$: product and conclusion — answer only: saccharic acid (dicarboxylic acid); a primary $\ce{-OH}$ is present
+
+###### 2. "Why does glucose not give … but the open chain says it should?"
+
+Worked example
+
+Why does glucose not give Schiff's test even though it has an aldehyde group?
+
+In solution the $\ce{-OH}$ on C5 adds to the C1 aldehyde (intramolecular hemiacetal formation) and a six-membered ring forms. The $\ce{-CHO}$ is no longer free, so no test that needs a free $\ce{-CHO}$ can succeed. The same answer covers $\ce{NaHSO3}$, 2,4-DNP, and hydroxylamine on the pentaacetate.
+
+- Why does glucose pentaacetate not react with hydroxylamine? — answer only: the ring locks the $\ce{-CHO}$; no free $\ce{-CHO}$
+
+###### 3. Reading D or L from a drawing
+
+Worked example
+
+A Fischer drawing of a sugar has $\ce{-OH}$ on the *right* at carbons 2, 4, 5 and on the *left* at carbon 3. D or L?
+
+1. Put the most oxidised carbon ($\ce{-CHO}$) on top — it already is.
+2. Find the lowest asymmetric carbon: C5 (C6 is $\ce{CH2OH}$, not asymmetric).
+3. Its $\ce{-OH}$ is on the right → **D**. The other carbons are ignored. (This is D-glucose.)
+
+- The same sugar with $\ce{-OH}$ on the left at C5 — answer only: L
+
+- Amino acid with $\ce{-NH2}$ on the left of the α-carbon — answer only: L-amino acid (the natural form)
+
+###### 4. Haworth drawing from the Fischer
+
+Worked example
+
+D-glucose, Fischer: $\ce{-OH}$ right at C2, left at C3, right at C4, right at C5. Draw β-D-glucopyranose.
+
+Right → down, left → up: C2 down, C3 up, C4 down. $\ce{-CH2OH}$ on C5 is up. For β the anomeric $\ce{-OH}$ on C1 is **up** (for α it would be down).
+
+- Where is the C1 $\ce{-OH}$ in α-D-glucopyranose? — answer only: down
+
+###### 5. Sign flip on hydrolysing sucrose
+
+Worked example
+
+Show that hydrolysed sucrose is laevorotatory, using the rotations $+52.5^\circ$ (glucose) and $-92.4^\circ$ (fructose).
+
+Hydrolysis gives glucose and fructose in *equal* molar amounts, so each contributes equally. Mixture rotation ≈ $\dfrac{(+52.5)+(-92.4)}{2} = -19.95^\circ$ — negative. Sucrose started at $+66.5^\circ$, so the sign has *inverted*, hence "invert sugar". (The −19.95° is the average built from the two NCERT values; use it to justify the sign, not as a quoted constant.)
+
+- Which monosaccharide, glucose or fructose, makes the mixture laevorotatory, and why? — answer only: fructose; its −92.4° outweighs glucose's +52.5°
+
+###### 6. Is this disaccharide reducing?
+
+Worked example
+
+Maltose and sucrose: which reduces Fehling's?
+
+Check whether either aldehyde/ketone carbon is free. Maltose: the second glucose's C1 is not in the bond (the bond is C1 of the first unit to C4 of the second), so it can open to a free aldehyde → reducing. Sucrose: the bond is C1 of glucose to C2 of fructose, which uses *both* reducing carbons → non-reducing.
+
+- Lactose — reducing? — answer only: yes (C1 of the glucose unit is free)
+
+###### 7. Counting peptides
+
+Worked example
+
+How many peptide bonds and how many water molecules are lost when 5 amino acids join in a chain?
+
+Each bond forms one $\ce{H2O}$ and joining n units takes n − 1 bonds: 5 − 1 = **4** peptide bonds and **4** water molecules (a pentapeptide).
+
+- A tripeptide — how many peptide bonds? — answer only: 2
+
+- Which structure level is lost on denaturation: 1°, 2°, 3°? — answer only: 2° and 3° (1° stays)
+
+###### 8. Pairing the bases
+
+Worked example
+
+One DNA strand reads 5′–A–T–G–C–3′. Write the complementary strand and count the hydrogen bonds.
+
+A→T, T→A, G→C, C→G, giving 3′–T–A–C–G–5′. Hydrogen bonds: A–T has 2, T–A has 2, G–C has 3, C–G has 3 → **10**.
+
+- A strand 5′–G–G–A–3′: complementary strand and hydrogen bonds — answer only: 3′–C–C–T–5′; 3 + 3 + 2 = 8
+
+#### Past year questions · question types — *ranked by how often they turn up*
+
+*Two videos feed this section. **[30+]** is the "30+ PYQ" video for CBSE 2024-25 — Q1–Q32, questions from 2013 to 2023. **[2025]** is the short "2025 PYQ" video — Q1–Q6, from the 2025 board paper. Question numbers below are the video's own numbering (the year comes from the video too). Where the lecture video solved a past question but gave only the year, it is cited as "year · one-shot". The CBSE 2026-27 "25 PYQ" video for this chapter was not uploaded when these notes were built; once it is, this section can be refreshed from it. Counts are by question part, from the two videos' lists.*
+
+1 · Glucose: reagent → product, and what it proves
+ — *1, 2 or 3 marks · about 10 parts*
+
+*Recognise it: "glucose is treated with …", "write reactions to show that glucose contains …", or "why does glucose not give … test".*
+
+1. Name the feature the reagent tests.
+2. Write the one-line reaction: $\ce{HI}$ → *n*-hexane; $\ce{Br2}$ water → gluconic acid; $\ce{(CH3CO)2O}$ → pentaacetate; $\ce{HNO3}$ → saccharic acid; $\ce{NH2OH}$ → oxime; $\ce{HCN}$ → cyanohydrin.
+3. Finish with the conclusion sentence — "this shows …". The conclusion is usually the mark.
+4. If it says "why does glucose *not* give …", the answer is always the ring: the $\ce{-CHO}$ is tied up in the hemiacetal, so it is not free.
+
+> **Trap:** $\ce{HI}$ needs *prolonged* heating to reach *n*-hexane. $\ce{Br2}$ water proves an **aldehyde** (it does not touch a ketone); oxime and cyanohydrin only prove a **carbonyl**. Mixing those two conclusions loses the mark.
+
+2 · Differentiate / write the difference
+ — *1 to 3 marks · about 9 parts*
+
+*Recognise it: "differentiate between …", "write one structural difference …", "how are X and Y different in source and function".*
+
+1. Give each side one line, *on the same property*.
+2. Use the pair you were given: starch/cellulose → α- versus β-glucose; amylose/amylopectin → unbranched versus branched, soluble versus insoluble; DNA/RNA → double versus single strand, deoxyribose versus ribose, T versus U; nucleoside/nucleotide → missing versus present phosphate; fibrous/globular → insoluble versus soluble; α-helix/β-sheet → intra- versus intermolecular hydrogen bonding.
+3. For 3 marks give three contrasts (monomer, shape, solubility, linkage, function).
+
+> **Trap:** two separate definitions score less than one contrast. For α-helix versus β-sheet the answer is *where the hydrogen bonds are* — and you must say both.
+
+3 · Define the term
+ — *1 or 2 marks · about 8 parts*
+
+*Recognise it: "define …", "what is meant by …". The terms that have appeared: amino acid, anomers, enzymes, oligosaccharides, invert sugar, denatured protein, native protein, nucleotide, essential amino acid.*
+
+1. One-line definition built on the key word.
+2. Add the example — it is often a separate mark. Denatured protein → boiled egg white; essential amino acid → valine, leucine; invert sugar → hydrolysed sucrose; oligosaccharide → sucrose, lactose.
+
+> **Trap:** an "define with an example" question (2018 Q20) gives nothing for a bare definition. And "invert sugar" must say the *sign of rotation changes from (+) to (−)*.
+
+4 · Name / identify
+ — *1 mark · about 8 parts*
+
+*Recognise it: "name the …", "which of the following is a disaccharide", "write the product of hydrolysis of …".*
+
+1. Answer in one line, no working.
+2. Learn the short list: two glucose → **maltose**; sucrose → glucose + fructose; **lactose** → β-D-glucose + β-D-galactose; linkage between monosaccharides → **glycosidic**; linkage in nucleic acids → **phosphodiester**; the two parts of starch → **amylose, amylopectin**.
+
+> **Trap:** the "which is a disaccharide" list always offers starch (polysaccharide), glucose and fructose (monosaccharides), and a decoy like amylose or cellulose. Only maltose, sucrose or lactose is the answer.
+
+5 · Give a reason
+ — *2 or 3 marks · about 6 parts*
+
+*Recognise it: "why are amino acids amphoteric", "why do amino acids behave like salts", "what changes in egg protein on boiling", "the two DNA strands are complementary, not identical", "water-soluble vitamins must be taken regularly".*
+
+1. State the structural fact (acidic and basic group in one molecule; hydrogen bonds break; A pairs with T and G with C; water-soluble so excreted in urine).
+2. Say how the fact causes the behaviour.
+
+> **Trap:** vitamin B_12 is the one water-soluble vitamin that *is* stored (liver). Put "except B_12" in the answer when the question is about storage.
+
+6 · Vitamin recall
+ — *1 or 3 marks · about 5 parts*
+
+*Recognise it: "the vitamin whose deficiency causes …", "classify vitamins and name the one for blood clotting", "the only vitamin made in the body".*
+
+1. Classify by solubility: fat-soluble A, D, E, K; water-soluble B group and C.
+2. Match the disease from the table in the lecture section: bleeding gums → C; bone deformity → D; night blindness → A; muscular weakness → E; clotting → K.
+
+> **Trap:** blood coagulation is vitamin **K**, and it is also the vitamin whose lack *increases* clotting time. Vitamin D is the one made in the body (sunlight).
+
+#### Past year questions · mark slots — *what each type is worth*
+
+*The 30+ video groups its questions by mark value: Q1–Q18 are 1-mark, Q19–Q23 are 2-mark, Q24–Q32 are 3-mark. Where it names a different value for one question, that is shown. Biomolecules does not appear as a 5-mark long answer in either video.*
+
+| Question type | 1 mark | 2 marks | 3 marks |
+|---|---|---|---|
+| Glucose reagent / evidence | 2014 Q2, 2018 Q4 [30+] | 2023 Q31 [30+]; 2025 Q3, Q5 [2025] | 2019 Q25, 2019 Q30 [30+] |
+| Differentiate | 2016 Q9, 2016 Q11, 2013 Q15 [30+] | 2013 Q21, 2018 Q23(b) [30+] | 2013 Q26(a), 2019 Q29 [30+]; 2025 Q6(a) [2025] |
+| Define | 2014 Q6, Q13, Q17 [30+] | Q19, 2018 Q20 [30+]; 2025 Q2 [2025] | 2014 Q27 [30+]; 2025 Q4 [2025] |
+| Name / identify | 2020 Q3, 2016 Q5, 2019 Q8, 2013 Q12, 2015 Q14, 2020 Q16 [30+] | 2025 Q1 [2025] | 2025 Q6(b) [2025] (inside a 3-mark question) |
+| Give a reason | — | 2014 Q22, 2018 Q23(a) [30+] | 2013 Q26(b), 2019 Q28, 2023 Q32 [30+] |
+| Vitamin recall | 2015 Q1, 2013 Q7, 2013 Q10 [30+] | — | 2015 Q24 [30+]; 2025 Q6(c) [2025] |
+
+*The video gives 2018 Q4 and the other items in the 1-mark block as 1-mark questions; Q15 (vitamins versus hormones) sits in that block too, though its answer is two paragraphs long (inferred: it would carry more marks in a real paper). The 2025 video states Q1 as a 2-mark question, but does not state a mark value for Q2 (inferred: 2).*
+
+#### Past year questions · repeat offenders — *appeared more than once — highest probability in the chapter*
+
+2019 Q25 · 2019 Q30 · 2025 Q3(b) · 2025 Q5(a) · 2021 · one-shot
+
+Glucose with bromine water → gluconic acid, to prove an aldehyde. The single most repeated reaction in the chapter.
+
+2019 Q25 · 2019 Q30 · 2025 Q5(b) · 2014 Q2 · 2021 · one-shot
+
+Acetic anhydride → glucose pentaacetate (five $\ce{-OH}$), and $\ce{HI}$ prolonged heating → *n*-hexane (straight chain).
+
+2019 Q30 · 2025 Q3(a) · 2021 · one-shot
+
+Glucose with $\ce{HCN}$ → cyanohydrin. The $\ce{CN-}$ attacks the carbonyl carbon.
+
+2014 Q22 · 2019 Q28(a) · 2023 Q32(a)
+
+Why glucose does not behave like an aldehyde — no Schiff's test, no $\ce{NaHSO3}$ adduct, no 2,4-DNP, and the pentaacetate does not react with hydroxylamine. One answer: the ring has locked the $\ce{-CHO}$.
+
+2014 Q27 · 2018 Q20 · 2025 Q2 · 2025 Q4(c)
+
+Essential amino acid — definition and examples (valine, leucine). Four appearances in the two videos.
+
+2018 Q23(a) · 2025 Q2 · 2023 · one-shot
+
+Why amino acids are amphoteric — an acidic $\ce{-COOH}$ and a basic $\ce{-NH2}$ in the same molecule.
+
+2018 Q20 · 2025 Q4(a) · 2025 Q6(a) · 2013 Q26(b)
+
+Native versus denatured protein; boiling an egg. Hydrogen bonds break, biological activity is lost, the primary structure survives.
+
+2019 Q8 · 2025 Q1 · 2019 · one-shot
+
+Hydrolysis products of lactose (β-D-glucose + β-D-galactose) and of sucrose (D-glucose + D-fructose).
+
+2015 Q14 · 2020 Q3 · 2025 Q6(b) · 2015 · one-shot
+
+Pick the disaccharide from a list (maltose, lactose; never starch, glucose, fructose, amylose).
+
+2015 Q24 · 2025 Q6(c)
+
+The vitamin for blood coagulation — K.
+
+2016 Q11 · 2025 Q4(b) · 2019 · one-shot · 2020 · one-shot
+
+Nucleoside versus nucleotide; the unit formed when a base attaches to the 1′ position of a sugar. The phosphate is the whole difference.
+
+2020 Q16 · 2019 Q29(b) · 2018 · one-shot · 2019 · one-shot
+
+Glycosidic linkage, and glycosidic versus peptide linkage.
+
+2016 Q9 · 2013 Q12 · 2019 Q29(a) · 2023 · one-shot
+
+Starch versus cellulose, and amylose versus amylopectin.
+
+2013 Q21 · 2023 · one-shot
+
+DNA versus RNA (strands, sugar; and function — heredity versus protein synthesis).
+
+2018 Q23(b) · 2023 · one-shot
+
+α-helix versus β-pleated sheet.
+
+2023 Q32(c) · 2016 · one-shot
+
+Why water-soluble vitamins (and vitamin C) must be taken regularly — excreted in urine, not stored (B_12 excepted).
+
+#### Past year questions · numerical types — *no calculations in this chapter, so these are the reaction and structure types — one worked model each, then cold practice*
+
+###### A · Glucose with a reagent
+
+Worked example · 2019 Q30 [30+] — glucose with $\ce{HCN}$, bromine water and acetic anhydride
+
+**$\ce{HCN}$:** $\ce{CN-}$ is a nucleophile; it attacks the carbonyl carbon and the oxygen takes $\ce{H+}$: $\ce{HOCH2(CHOH)4CHO + HCN -> HOCH2(CHOH)4CH(OH)CN}$. Product: **glucose cyanohydrin**. It confirms a carbonyl group.
+
+**$\ce{Br2}$ water:** mild oxidant, takes the aldehyde to an acid: $\ce{HOCH2(CHOH)4CHO ->[Br2 / H2O] HOCH2(CHOH)4COOH}$. Product: **gluconic acid**. It confirms an aldehyde.
+
+**Acetic anhydride:** acetylates every $\ce{-OH}$: product **glucose pentaacetate**. Five acetyl groups attach, so there are five $\ce{-OH}$ groups.
+
+- 2014 Q2 [30+] — product of glucose with $\ce{HI}$ — answer only: *n*-hexane on prolonged heating; six carbons in a straight chain
+
+- 2018 Q4 [30+] — D-glucose with concentrated $\ce{HNO3}$ — answer only: saccharic acid (D-saccharic acid); aldehyde and primary $\ce{-OH}$ both oxidised to $\ce{-COOH}$
+
+- 2023 Q31 [30+] — glucose heated with hydroxylamine, and the group confirmed — answer only: glucose oxime, $\ce{CH=NOH}$; a carbonyl group
+
+- 2025 Q5 [2025] — how to show the aldehyde group and the five $\ce{-OH}$ groups — answer only: bromine water gives gluconic acid; acetic anhydride gives the pentaacetate
+
+###### B · Why glucose does not behave like an aldehyde
+
+Worked example · 2019 Q28(a) [30+] — why glucose does not give the 2,4-DNP test
+
+The 2,4-DNP test needs a free $\ce{-CHO}$ or $\ce{>C=O}$. In solution the C5 $\ce{-OH}$ adds to the C1 aldehyde and a six-membered hemiacetal ring forms. The aldehyde is no longer free, so there is no reaction. (Same answer for Schiff's test and for $\ce{NaHSO3}$.)
+
+- 2023 Q32(a) [30+] — why the pentaacetate of glucose does not react with hydroxylamine — answer only: the $\ce{-CHO}$ is part of the ring, not free
+
+- 2014 Q22 [30+] — reactions the open chain cannot explain — answer only: no $\ce{NaHSO3}$ adduct; no Schiff's or 2,4-DNP test; pentaacetate does not react with $\ce{NH2OH}$; two crystalline forms (α, β)
+
+###### C · Hydrolysis products
+
+Worked example · 2025 Q1 [2025] — hydrolysis products of sucrose and of lactose
+
+Both are disaccharides, so each gives two monosaccharides in equal numbers. Sucrose gives **D-(+)-glucose and D-(−)-fructose** (invert sugar). Lactose gives **β-D-galactose and β-D-glucose**.
+
+- 2019 Q8 [30+] — hydrolysis product of lactose — answer only: β-D-glucose and β-D-galactose
+
+- 2020 Q3 [30+] — disaccharide that gives two glucose — answer only: maltose
+
+- 2025 Q6(b) [2025] — which of glucose, lactose, amylose, fructose is a disaccharide — answer only: lactose
+
+###### D · Differentiate a pair
+
+Worked example · 2013 Q21 [30+] — structural and functional difference between RNA and DNA
+
+**Structure:** DNA is a double helix (two strands); RNA is a single strand. DNA's sugar is deoxyribose; RNA's is ribose. (Bases: DNA has thymine, RNA has uracil.) **Function:** DNA carries genetic information from one generation to the next (heredity); RNA helps in protein synthesis.
+
+- 2016 Q9 [30+] — structural difference between starch and cellulose — answer only: starch is α-D-glucose (linear and branched), cellulose is β-D-glucose (linear)
+
+- 2018 Q23(b) [30+] — α-helix versus β-pleated sheet — answer only: intramolecular versus intermolecular hydrogen bonding
+
+- 2019 Q29(a) [30+] — amylose versus amylopectin — answer only: unbranched and water-soluble (15–20%) versus branched and insoluble (80–85%)
+
+- 2025 Q6(a) [2025] — native versus denatured protein — answer only: native keeps its 3-D structure and activity; denatured has lost its hydrogen bonding and activity after a physical or chemical change
+
+###### E · Vitamin matching
+
+Worked example · 2013 Q10 [30+] — deficiency diseases of vitamins A and E
+
+Vitamin A → **night blindness** (and xerophthalmia). Vitamin E → **muscular weakness** (and fragile red blood cells).
+
+- 2015 Q1 [30+] — vitamin whose lack causes bleeding gums — answer only: vitamin C
+
+- 2013 Q7 [30+] — the vitamin the body can make, and its deficiency diseases — answer only: vitamin D; rickets in children, osteomalacia in adults
+
+- 2015 Q24 [30+] / 2025 Q6(c) [2025] — vitamin for blood coagulation — answer only: vitamin K; vitamins are classified into fat-soluble (A, D, E, K) and water-soluble (B group, C)
 
 ### Every Chemistry Formula
 
@@ -12808,6 +16096,37 @@ Board slips are recorded next to the corrected working in the notes:
 - Lecture 8: three lenses in contact give f = −5 cm and P = −20 D,
   not −10 cm and −10 D.
 - Lecture 12: at minimum deviation r = A/2, not "A = r/2".
+
+### Chemistry Chapters 7–10: how the transcripts were made
+
+Eleven Sourabh Raina videos feed Chapters 7–10: a one-shot lecture and a
+past-year-question (PYQ) video for each chapter, plus a short "2025 PYQ" video
+for Chapters 8, 9 and 10. Chapter 7 has no 2025 supplement, and its PYQ video
+is already the CBSE 2026-27 "25 PYQ" one. The Chapter 8–10 PYQ sections draw
+on the older "30+ PYQ" videos (CBSE 2024-25) plus the 2025 video; each
+question says which video it came from, and the 2026-27 "25 PYQ" videos for
+those three chapters had not been uploaded when the notes were built.
+
+- Chapter 7's PYQ video and the repair clips were transcribed by
+  `gemini-3.5-flash`. Everything else was transcribed by
+  `gemini-3.5-flash-lite` in five-minute windows (ten minutes for the short
+  PYQ files), because flash ran out of daily quota.
+- Both models sometimes stamp times on a clock that runs up to twice too fast.
+  Each window was rescaled to its true length, so times are approximate.
+- Lite sometimes skips a stretch of speech without any gap showing. Windows
+  whose speaking rate fell well below the file's median were re-transcribed and
+  the fuller pass kept; question stems lost at window seams were recovered in
+  one- to two-minute clips and spliced in.
+- Every transcript was read end to end, and garbled Hindi-English chemistry
+  terms were corrected against the NCERT text, never guessed.
+- Flagged spans: Chapter 8's one-shot has a stretch of Urdu script (about
+  40:00–45:00) whose content is intact; Chapter 9's 2025 PYQ shows the
+  Question 4(a) structures on screen without describing them aloud; Chapter 10's
+  PYQ has one garbled span (7:25–8:15) resolved from a clip. No span was
+  padded with a guess.
+- The formula and derivation sheets cover Chapters 1–6 only. Chapters 7–10 are
+  weighted by the official CBSE 2026-27 board marks (6, 8, 6 and 7), not by the
+  half-yearly blueprint used for Chapters 1–6.
 
 ### A symbol clash still in the source
 

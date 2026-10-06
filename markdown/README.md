@@ -23,6 +23,10 @@ appear as **Figure.** followed by their full prose description.
 - [04-d-and-f-block.md](chemistry/chapters/04-d-and-f-block.md)
 - [05-coordination-compounds.md](chemistry/chapters/05-coordination-compounds.md)
 - [06-haloalkanes-and-haloarenes.md](chemistry/chapters/06-haloalkanes-and-haloarenes.md)
+- [07-alcohols-phenols-and-ethers.md](chemistry/chapters/07-alcohols-phenols-and-ethers.md)
+- [08-aldehydes-ketones-and-carboxylic-acids.md](chemistry/chapters/08-aldehydes-ketones-and-carboxylic-acids.md)
+- [09-amines.md](chemistry/chapters/09-amines.md)
+- [10-biomolecules.md](chemistry/chapters/10-biomolecules.md)
 
 ### `physics/`
 

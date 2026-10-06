@@ -103,7 +103,9 @@ Rules:
 
 
 def _cache_key(audio_sha256: str) -> str:
-    return hashlib.sha256(f"{audio_sha256}:{PROMPT_VERSION}".encode()).hexdigest()
+    # The model is part of the key: flash and flash-lite make different mistakes
+    # (lite's clock drifts, flash truncates), so a hit must never cross models.
+    return hashlib.sha256(f"{audio_sha256}:{PROMPT_VERSION}:{config.gemini_model}".encode()).hexdigest()
 
 
 def _cache_path(audio_sha256: str) -> Path:

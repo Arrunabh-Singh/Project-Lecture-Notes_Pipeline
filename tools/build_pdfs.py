@@ -39,6 +39,7 @@ OUT = ROOT / "pdf"
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from export_markdown import PHYS_CHAPTERS, rebase, strip_h1  # noqa: E402
 
+# Pre-installed Chromium in the Linux container; anywhere else Playwright's own is used.
 CHROME = "/opt/pw-browsers/chromium-1194/chrome-linux/chrome"
 
 # ------------------------------------------------------------------ maths
@@ -203,6 +204,12 @@ def collect() -> list[dict]:
         "04-d-and-f-block": ("The d- and f-Block Elements", "Chapter 4 · 11 marks"),
         "05-coordination-compounds": ("Coordination Compounds", "Chapter 5 · 11 marks"),
         "06-haloalkanes-and-haloarenes": ("Haloalkanes and Haloarenes", "Chapter 6 · 6 marks"),
+        # Ch7-10 sit outside the half-yearly blueprint above, so these are the CBSE
+        # board weightage (curriculum 2026-27, cbseacademic.nic.in, Class XII course structure).
+        "07-alcohols-phenols-and-ethers": ("Alcohols, Phenols and Ethers", "Chapter 7 · 6 marks (CBSE board weightage)"),
+        "08-aldehydes-ketones-and-carboxylic-acids": ("Aldehydes, Ketones and Carboxylic Acids", "Chapter 8 · 8 marks (CBSE board weightage)"),
+        "09-amines": ("Amines", "Chapter 9 · 6 marks (CBSE board weightage)"),
+        "10-biomolecules": ("Biomolecules", "Chapter 10 · 7 marks (CBSE board weightage)"),
     }
     for stem, (title, sub) in chem_titles.items():
         src = MD / "chemistry" / "chapters" / f"{stem}.md"
@@ -212,9 +219,9 @@ def collect() -> list[dict]:
 
     for stem, title, sub in [
         ("every-chemistry-formula", "Every Chemistry Formula",
-         "All six chapters · 50 entries with symbols, units, cue and trap"),
+         "Chapters 1-6 · 50 entries with symbols, units, cue and trap"),
         ("chemistry-derived", "Chemistry, Derived",
-         "All six chapters · 12 derivations"),
+         "Chapters 1-6 · 12 derivations"),
     ]:
         docs.append(dict(key=stem, subject="chemistry", stem=stem, title=title,
                          meta=f"Class XII CBSE Chemistry · {sub}",
@@ -278,7 +285,7 @@ def build(docs: list[dict]) -> list[Path]:
     static = read_static()
     written: list[Path] = []
     with sync_playwright() as pw:
-        browser = pw.chromium.launch(executable_path=CHROME)
+        browser = pw.chromium.launch(executable_path=CHROME if Path(CHROME).exists() else None)
         page = browser.new_page()
         for d in docs:
             body = md_to_html(d["md"])
