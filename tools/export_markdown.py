@@ -353,6 +353,10 @@ CHEM_CHAPTERS = [
     ("ch4", "04-d-and-f-block", "Chapter 4 · The d- and f-Block Elements"),
     ("ch5", "05-coordination-compounds", "Chapter 5 · Coordination Compounds"),
     ("ch6", "06-haloalkanes-and-haloarenes", "Chapter 6 · Haloalkanes and Haloarenes"),
+    ("ch7", "07-alcohols-phenols-and-ethers", "Chapter 7 · Alcohols, Phenols and Ethers"),
+    ("ch8", "08-aldehydes-ketones-and-carboxylic-acids", "Chapter 8 · Aldehydes, Ketones and Carboxylic Acids"),
+    ("ch9", "09-amines", "Chapter 9 · Amines"),
+    ("ch10", "10-biomolecules", "Chapter 10 · Biomolecules"),
 ]
 
 SHEETS = {
@@ -435,11 +439,13 @@ of the result.
 
 **The confirmed deadline is the chemistry half-yearly on 10 September 2026**,
 70 marks, blueprint: Solutions 15 · Electrochemistry 14 · Chemical Kinetics 13
-· d- and f-Block 11 · Coordination Compounds 11 · Haloalkanes 6. No physics
-exam date has been given.
+· d- and f-Block 11 · Coordination Compounds 11 · Haloalkanes 6. Chemistry
+chapters 7–10 (Alcohols, Phenols and Ethers; Aldehydes, Ketones and Carboxylic
+Acids; Amines; Biomolecules) were added after that blueprint and sit outside it.
+No physics exam date has been given.
 
 **Two depths, deliberately.** Chemistry chapters 1–3 are theory the student
-already knows, so the length there goes into numerical method. Chapters 4–6 are
+already knows, so the length there goes into numerical method. Chapters 4–10 are
 first contact: every technical term carries an **[exposure]** marker and is
 defined in plain words with a concrete example before it is used again. The
 physics notes are all board-grounded and flag any span the transcript could not
@@ -462,8 +468,8 @@ MANIFEST = """## Manifest
 
 | Section | Where it came from | What it is | Caveats |
 |---|---|---|---|
-| Chemistry chapters 1–6 | lecture transcripts + NCERT `lech101–105`, `lech201` | full chapter notes, exam-shaped, with past-year question sections | Ch4–6 carry `[exposure]` first-contact definitions; Ch1–3 assume the theory |
-| Every Chemistry Formula | built across all six chapters | 50 entries, each with symbols, units, a recognition cue and its trap | 40 marked ● must-be-instant, 10 marked ○ |
+| Chemistry chapters 1–10 | lecture transcripts + NCERT `lech101–105`, `lech201–205` | full chapter notes, exam-shaped, with past-year question sections | Ch4–10 carry `[exposure]` first-contact definitions; Ch1–3 assume the theory. Ch8–10's past-year section draws on two videos each (the 2024-25 "30+ PYQ" and the short 2025 PYQ); every question there says which |
+| Every Chemistry Formula | built across chapters 1–6 only | 50 entries, each with symbols, units, a recognition cue and its trap | 40 marked ● must-be-instant, 10 marked ○ |
 | Chemistry, Derived | as above | 12 derivations, each ending in a formula that is on the formula sheet | figures are prose descriptions here |
 | Every Physics Formula | the 57 chapter notes + NCERT `leph101–108` | 100 entries across chapters 1–9 | 78 marked ● must-be-instant, 22 marked ○; Ch9 rows were written from the Ray Optics page before the Ch9 lectures were transcribed, and are not yet re-checked against them |
 | Physics, Derived | as above | 45 derivations, chapters 1–9, numbered PD1–PD45 | figures are prose descriptions here |
@@ -579,6 +585,10 @@ def main() -> None:
     ap.add_argument("--zip", action="store_true", help="also write markdown.zip")
     args = ap.parse_args()
 
+    # chem/build/ch*.html is gitignored, so on a clean clone it is missing. Keep what
+    # is committed rather than let the rmtree below wipe those chapters.
+    committed = {p.name: p.read_text(encoding="utf-8")
+                 for p in (OUT / "chemistry" / "chapters").glob("*.md")}
     if OUT.exists():
         shutil.rmtree(OUT)
     (OUT / "chemistry" / "chapters").mkdir(parents=True)
@@ -597,10 +607,14 @@ def main() -> None:
     # 1. the six chemistry chapter pages, read out of the built artifacts
     for key, stem, title in CHEM_CHAPTERS:
         src = ROOT / "chem" / "build" / f"{key}.html"
-        if not src.exists():
+        if src.exists():
+            md = convert(chem_chapter_body(src.read_text(encoding="utf-8")))
+        elif f"{stem}.md" in committed:
+            print(f"  {key}: {src.name} not built here, keeping the committed {stem}.md")
+            md = committed[f"{stem}.md"]
+        else:
             print(f"  skip {key}: {src} not found")
             continue
-        md = convert(chem_chapter_body(src.read_text(encoding="utf-8")))
         emit_file(OUT / "chemistry" / "chapters" / f"{stem}.md", md)
         chem_parts.append((title, md))
 
