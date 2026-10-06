@@ -26,10 +26,9 @@
 
   "prior_knowledge": {
     "theory_done_numericals_gap": ["1", "2", "3"],
-    "first_contact": ["4", "5", "6"],
-    "rule": "Chapters 1-3: no [exposure] tags, teach properly but weight length toward numerical method. Chapters 4-6: every first-contact term gets [exposure] + 4-6 lines (what it is, why it exists, one concrete example).",
-    "pending_confirmation": ["7", "8", "9", "10"],
-    "pending_note": "Depth for chapters 7-10 (theory-known vs first-contact) not yet confirmed by the user. Default to first-contact ([exposure]) unless told otherwise, and update chem/qa.py FIRST_CONTACT_CHAPTERS to match."
+    "first_contact": ["4", "5", "6", "7", "8", "9", "10"],
+    "rule": "Chapters 1-3: no [exposure] tags, teach properly but weight length toward numerical method. Chapters 4-10: every first-contact term gets [exposure] + 4-6 lines (what it is, why it exists, one concrete example).",
+    "depth_note": "Chapters 7-10 confirmed by the user on 2026-10-06 as 'new to me', so they are first-contact like 4-6. chem/qa.py FIRST_CONTACT_CHAPTERS matches."
   },
 
   "chapters": [

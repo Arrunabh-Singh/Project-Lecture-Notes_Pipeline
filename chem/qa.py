@@ -29,7 +29,7 @@ from lecturepipe.publish.qa_checks import (
 )
 
 CHEM_DIR = Path(__file__).resolve().parent
-FIRST_CONTACT_CHAPTERS = {"4", "5", "6"}
+FIRST_CONTACT_CHAPTERS = {"4", "5", "6", "7", "8", "9", "10"}
 def _load_json(name: str) -> dict:
     return json.loads((CHEM_DIR / name).read_text(encoding="utf-8"))
 
